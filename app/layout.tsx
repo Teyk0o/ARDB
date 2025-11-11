@@ -68,8 +68,36 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Arc Raiders Database',
+    description: 'Complete Arc Raiders item database with crafting recipes, recycling guides, and detailed statistics.',
+    url: 'https://ardb.vercel.app',
+    author: {
+      '@type': 'Person',
+      name: 'Teyk0o',
+      url: 'https://github.com/Teyk0o',
+    },
+    inLanguage: ['en', 'fr'],
+    about: {
+      '@type': 'VideoGame',
+      name: 'Arc Raiders',
+      publisher: {
+        '@type': 'Organization',
+        name: 'Embark Studios',
+      },
+    },
+  };
+
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className="antialiased">
         {children}
       </body>

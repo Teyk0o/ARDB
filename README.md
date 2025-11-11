@@ -1,36 +1,239 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <img src="public/banner.png" alt="Arc Raiders Database Banner" width="100%">
 
-## Getting Started
+  # Arc Raiders Database
 
-First, run the development server:
+  ### Complete Item Database & Crafting Guide for Arc Raiders
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  [![Live Website](https://img.shields.io/badge/Live-arcraidersdatabase.com-f1aa1c?style=for-the-badge)](https://arcraidersdatabase.com)
+  [![Next.js](https://img.shields.io/badge/Next.js-16.0-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38bdf8?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+  [![License](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey?style=for-the-badge)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+  [![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com)
+
+  [Visit Website](https://arcraidersdatabase.com) • [Report Bug](https://github.com/Teyk0o/ARDB/issues) • [Request Feature](https://github.com/Teyk0o/ARDB/issues)
+
+</div>
+
+---
+
+## About
+
+**Arc Raiders Database** is a comprehensive, fan-made web application providing detailed information about all items in Arc Raiders. Explore 485+ items with full statistics, crafting recipes, recycling guides, and more.
+
+### Features
+
+- **Advanced Search & Filtering** - Find items by name, type, or rarity
+- **Detailed Statistics** - Complete stat blocks for every item
+- **Crafting Recipes** - Full crafting and recycling information
+- **Recycling System** - Discover which items can be recycled to obtain others
+- **Bilingual Support** - Available in English and French
+- **Responsive Design** - Optimized for desktop, tablet, and mobile
+- **Authentic Design** - Follows Arc Raiders brand guidelines
+- **Lightning Fast** - Built with Next.js 16 and optimized performance
+
+---
+
+## Quick Start
+
+### Prerequisites
+
+- Node.js 18.x or higher
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Teyk0o/ARDB.git
+   cd ARDB
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. **Open your browser**
+   ```
+   http://localhost:3000
+   ```
+
+---
+
+## Tech Stack
+
+- **Framework:** [Next.js 16](https://nextjs.org/) (App Router)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Font:** [Barlow](https://fonts.google.com/specimen/Barlow) (Official Arc Raiders font)
+- **Deployment:** [Vercel](https://vercel.com)
+- **Data Source:** [Metaforge API](https://metaforge.app/api/arc-raiders)
+
+---
+
+## Project Structure
+
+```
+ARDB/
+├── app/
+│   ├── icon.png              # Favicon
+│   ├── layout.tsx            # Root layout with SEO metadata
+│   ├── page.tsx              # Home page
+│   ├── globals.css           # Global styles
+│   └── sitemap.ts            # Dynamic sitemap
+├── components/
+│   ├── ItemsPage.tsx         # Main items page component
+│   ├── ItemCard.tsx          # Individual item card
+│   ├── ItemDetailModal.tsx   # Item detail modal
+│   └── CustomSelect.tsx      # Custom dropdown component
+├── lib/
+│   └── translations.ts       # i18n translations
+├── types/
+│   └── item.ts               # TypeScript interfaces
+├── data/
+│   └── items.json            # Complete items dataset (485+ items)
+├── public/
+│   ├── banner.png            # Repository banner
+│   ├── favicon.png           # Favicon
+│   └── ARC_Raider_Stacked_White_Color.png  # Arc Raiders logo
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Design System
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The project follows the official Arc Raiders brand guidelines:
 
-## Learn More
+| Element | Value |
+|---------|-------|
+| **Primary Color** | `#f1aa1c` (Arc Yellow) |
+| **Background** | `#130918` (Deep Blue) |
+| **Secondary BG** | `#1a1120` (Arc Blue Light) |
+| **Text** | `#ece2d0` (Off White) |
+| **Font** | Barlow (400, 500, 700) |
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## API Integration
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project uses data from the [Metaforge API](https://metaforge.app/api/arc-raiders):
 
-## Deploy on Vercel
+```typescript
+// Fetch all items with components
+const response = await fetch(
+  'https://metaforge.app/api/arc-raiders/items?includeComponents=true&page=1&limit=100'
+);
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Note:** The application uses a local JSON file (`data/items.json`) for optimal performance and offline access.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Contributing
+
+Contributions are welcome! Here's how you can help:
+
+1. **Fork the repository**
+2. **Create a feature branch**
+   ```bash
+   git checkout -b feat/amazing-feature
+   ```
+3. **Commit your changes** (follow [Conventional Commits](https://www.conventionalcommits.org/))
+   ```bash
+   git commit -m "feat: add amazing feature"
+   ```
+4. **Push to the branch**
+   ```bash
+   git push origin feat/amazing-feature
+   ```
+5. **Open a Pull Request**
+
+### Commit Convention
+
+We follow [Conventional Commits](https://www.conventionalcommits.org/):
+
+- `feat:` - New features
+- `fix:` - Bug fixes
+- `docs:` - Documentation changes
+- `style:` - Code style changes (formatting, etc.)
+- `refactor:` - Code refactoring
+- `test:` - Adding or updating tests
+- `chore:` - Maintenance tasks
+
+---
+
+## License
+
+This project is licensed under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License** ([CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)).
+
+### What this means:
+
+- **You can:** View, fork, and contribute to the code
+- **You cannot:** Use this project for commercial purposes
+- **You cannot:** Redistribute or redeploy modified versions
+- **You must:** Give appropriate credit to the original author
+
+For the full license text, see [LICENSE](LICENSE).
+
+---
+
+## Legal Disclaimer
+
+This is a **fan-made project** and is **not affiliated with, endorsed by, or associated with Embark Studios or Nexon**.
+
+- **Arc Raiders** is a trademark of Embark Studios and Nexon
+- All game content, assets, and materials are property of their respective owners
+- This project is for educational and informational purposes only
+
+---
+
+## Author
+
+**Théo (Teyk0o)**
+
+- GitHub: [@Teyk0o](https://github.com/Teyk0o)
+- Website: [arcraidersdatabase.com](https://arcraidersdatabase.com)
+
+---
+
+## Acknowledgments
+
+- **Embark Studios** - For creating Arc Raiders
+- **Metaforge** - For providing the API
+- **Arc Raiders Community** - For feedback and support
+- **Next.js Team** - For the amazing framework
+
+---
+
+## Project Status
+
+- Complete item database (485+ items)
+- Crafting & recycling system
+- Bilingual support (EN/FR)
+- Responsive design
+- SEO optimization
+- Continuous updates with game patches
+
+---
+
+<div align="center">
+
+  ### Star this repository if you find it useful!
+
+  Made by the Arc Raiders community
+
+  [Report an Issue](https://github.com/Teyk0o/ARDB/issues) • [Request a Feature](https://github.com/Teyk0o/ARDB/issues) • [Contribute](https://github.com/Teyk0o/ARDB/pulls)
+
+</div>

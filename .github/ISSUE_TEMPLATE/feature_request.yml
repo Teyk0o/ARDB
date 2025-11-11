@@ -1,0 +1,144 @@
+name: Feature Request
+description: Suggest a new feature or enhancement for Arc Raiders Database
+title: "[FEATURE] "
+labels: ["enhancement", "needs-review"]
+assignees:
+  - Teyk0o
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new feature! Please provide as much detail as possible to help us understand your request.
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission Checklist
+      description: Please verify the following before submitting
+      options:
+        - label: I have searched existing issues to ensure this feature hasn't been requested
+          required: true
+        - label: I have checked the project roadmap and this feature isn't already planned
+          required: true
+        - label: This feature aligns with the project's goals and scope
+          required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Feature Category
+      description: What category does this feature fall into?
+      options:
+        - User Interface / Design
+        - Search & Filtering
+        - Data Display
+        - Performance
+        - Accessibility
+        - Localization / i18n
+        - Mobile Experience
+        - New Data / Content
+        - Integration
+        - Other (please specify below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: Is your feature request related to a problem? Please describe.
+      placeholder: "Example: I'm frustrated when I can't compare items side-by-side"
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe the solution you'd like
+      placeholder: |
+        Example: Add a "Compare" button on item cards that allows selecting multiple items and viewing their stats side-by-side in a comparison modal
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternative Solutions
+      description: Describe any alternative solutions or features you've considered
+      placeholder: |
+        Example:
+        1. Add a "Add to comparison" feature with a comparison page
+        2. Show similar items automatically when viewing an item
+        3. Export items to CSV for manual comparison
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How important is this feature to you?
+      options:
+        - Low - Nice to have
+        - Medium - Would improve my experience
+        - High - Critical for my use case
+    validations:
+      required: true
+
+  - type: dropdown
+    id: users
+    attributes:
+      label: User Impact
+      description: How many users do you think would benefit from this feature?
+      options:
+        - Few users - Niche feature
+        - Some users - Useful for specific use cases
+        - Many users - Broadly useful feature
+        - All users - Core functionality improvement
+    validations:
+      required: true
+
+  - type: textarea
+    id: mockups
+    attributes:
+      label: Mockups / Examples
+      description: If applicable, add mockups, sketches, or examples from other websites
+      placeholder: |
+        Drag and drop images here or paste URLs to similar features on other sites
+
+        Example: https://example.com/comparison-feature
+
+  - type: textarea
+    id: technical
+    attributes:
+      label: Technical Considerations
+      description: (Optional) Any technical details or implementation suggestions
+      placeholder: |
+        Example: This could be implemented using React Context for state management and a modal component
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Add any other context, use cases, or information about the feature request
+      placeholder: |
+        Example: This would be especially useful for players trying to decide which weapon to craft based on their playstyle
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      description: Would you be willing to help implement this feature?
+      options:
+        - label: I would be willing to submit a pull request for this feature
+        - label: I can help with design/mockups
+        - label: I can help with testing
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this feature request, you agree to follow our contribution guidelines
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true

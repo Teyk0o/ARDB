@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or Discussion
+    url: https://github.com/Teyk0o/ARDB/discussions
+    about: Ask questions or discuss ideas with the community
+  - name: Arc Raiders Official Discord
+    url: https://discord.gg/arcraiders
+    about: Join the official Arc Raiders Discord community
+  - name: Visit Website
+    url: https://arcraidersdatabase.com
+    about: Visit Arc Raiders Database website

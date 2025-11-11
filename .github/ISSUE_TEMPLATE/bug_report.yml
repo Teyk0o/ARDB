@@ -1,0 +1,146 @@
+name: Bug Report
+description: Report a bug or issue with Arc Raiders Database
+title: "[BUG] "
+labels: ["bug", "needs-triage"]
+assignees:
+  - Teyk0o
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill out this form as completely as possible.
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission Checklist
+      description: Please verify the following before submitting
+      options:
+        - label: I have searched existing issues to ensure this bug hasn't been reported
+          required: true
+        - label: I have tested this on the latest version of the website
+          required: true
+        - label: I have cleared my browser cache and cookies
+          required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of the bug
+      placeholder: "Example: When I search for 'Iron Ore', the search results show weapons instead of materials"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Step-by-step instructions to reproduce the bug
+      placeholder: |
+        1. Go to 'arcraidersdatabase.com'
+        2. Click on the search bar
+        3. Type 'Iron Ore'
+        4. Press Enter
+        5. See error
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+      placeholder: "Example: The search should return 'Iron Ore' in the material category"
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happened?
+      placeholder: "Example: The search returned weapons with 'Iron' in their names"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      description: Which browser are you using?
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - Opera
+        - Brave
+        - Other (please specify in additional context)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device Type
+      description: What type of device are you using?
+      options:
+        - Desktop
+        - Tablet
+        - Mobile
+    validations:
+      required: true
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      description: Which language were you using when the bug occurred?
+      options:
+        - English
+        - French
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain the problem
+      placeholder: Drag and drop images here or paste image URLs
+
+  - type: textarea
+    id: console
+    attributes:
+      label: Browser Console Errors
+      description: Open browser console (F12) and paste any error messages
+      render: shell
+      placeholder: |
+        Example:
+        Uncaught TypeError: Cannot read property 'map' of undefined
+            at ItemsPage.tsx:164
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Add any other context about the problem here
+      placeholder: |
+        Example: This only happens when filtering by rarity "Legendary"
+        Browser version: Chrome 120.0.6099.109
+        OS: Windows 11
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our contribution guidelines
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
