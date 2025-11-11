@@ -1,0 +1,63 @@
+export interface ItemComponent {
+  item: {
+    id: string;
+    name: string;
+    icon?: string;
+    item_type?: string;
+  };
+  quantity: number;
+}
+
+export interface Vendor {
+  trader_name?: string;
+  name?: string;
+  price?: number;
+}
+
+export interface Item {
+  id: string;
+  name: string;
+  description?: string;
+  item_type: string;
+  icon?: string;
+  rarity?: string;
+  value?: number;
+  workbench?: string | null;
+  loadout_slots?: string[];
+
+  // Components and recipes
+  components?: ItemComponent[];
+  recycle_components?: ItemComponent[];
+  recycle_from?: ItemComponent[];
+  used_in?: ItemComponent[];
+  crafting_components?: ItemComponent[];
+  recipe?: ItemComponent[];
+
+  // Stats
+  stat_block?: Record<string, number>;
+
+  // Additional info
+  loot_area?: string;
+  locations?: string[];
+  obtained_from?: string[];
+  sold_by?: Vendor[];
+  dropped_by?: string[];
+
+  // Other
+  flavor_text?: string;
+  subcategory?: string | null;
+  shield_type?: string | null;
+  ammo_type?: string | null;
+  sources?: string | null;
+  mods?: unknown[];
+
+  // Timestamps
+  created_at?: string;
+  updated_at?: string;
+}
+
+export interface FilterOptions {
+  search: string;
+  type: string;
+  rarity: string;
+}
