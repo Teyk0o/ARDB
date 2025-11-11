@@ -1,9 +1,19 @@
 export interface ItemComponent {
-  item: {
+  item?: {
     id: string;
     name: string;
     icon?: string;
     item_type?: string;
+    rarity?: string;
+    description?: string;
+  };
+  component?: {
+    id: string;
+    name: string;
+    icon?: string;
+    item_type?: string;
+    rarity?: string;
+    description?: string;
   };
   quantity: number;
 }
@@ -34,7 +44,7 @@ export interface Item {
   recipe?: ItemComponent[];
 
   // Stats
-  stat_block?: Record<string, number>;
+  stat_block?: Record<string, number | undefined>;
 
   // Additional info
   loot_area?: string;

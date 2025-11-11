@@ -39,7 +39,8 @@ function ComponentList({
       </h3>
       <div className="flex flex-wrap gap-2">
         {components.map((comp, idx) => {
-          const compItem = comp.item || comp;
+          const compItem = comp.item || comp.component;
+          if (!compItem) return null;
           return (
             <div
               key={idx}
@@ -56,7 +57,7 @@ function ComponentList({
                 />
               )}
               <span className="text-arc-white group-hover:text-arc-yellow transition-colors">
-                {compItem.name || compItem.item_name || 'Unknown'}
+                {compItem.name || 'Unknown'}
               </span>
             </div>
           );
@@ -129,7 +130,7 @@ export default function ItemDetailModal({ item, onClose, onItemClick, language }
               <h3 className="text-arc-yellow font-bold mb-4 text-lg">{t.statistics}</h3>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
                 {Object.entries(item.stat_block)
-                  .filter(([_, value]) => value !== 0 && value !== '' && value !== null)
+                  .filter(([_, value]) => value != null && value !== 0 && value !== undefined)
                   .map(([key, value]) => (
                     <div key={key} className="bg-arc-blue-lighter px-4 py-3 rounded border-2 border-arc-white/15">
                       <div className="text-arc-white/60 text-sm font-medium">{getStatLabel(key, language)}</div>

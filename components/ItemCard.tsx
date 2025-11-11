@@ -76,7 +76,7 @@ export default function ItemCard({ item, onClick, language }: ItemCardProps) {
           {item.stat_block && Object.keys(item.stat_block).length > 0 && (
             <div className="flex gap-2 mt-4 flex-wrap">
               {Object.entries(item.stat_block)
-                .filter(([_, value]) => value !== 0 && value !== '' && value !== null)
+                .filter(([_, value]) => value != null && value !== 0 && value !== undefined)
                 .slice(0, 3)
                 .map(([key, value]) => (
                   <div key={key} className="text-sm bg-arc-blue-lighter px-3 py-1.5 rounded border border-arc-white/20">
