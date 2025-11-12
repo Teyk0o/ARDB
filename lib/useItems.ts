@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Item } from '@/types/item';
-
-type Language = 'en' | 'fr';
+import { Language } from '@/lib/translations';
 
 export function useItems(language: Language) {
   const [items, setItems] = useState<Item[]>([]);
