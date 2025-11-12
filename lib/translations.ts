@@ -30,6 +30,8 @@ export const translations = {
     license: 'Contributions welcome - Non-commercial use only',
     helpTranslate: 'Help Translate',
     categories: 'Categories',
+    joinDiscord: 'Join Discord',
+    joinDiscordCommunity: 'Join our Discord community',
 
     'Healing': 'Healing',
     'Duration': 'Duration',
@@ -64,6 +66,8 @@ export const translations = {
     license: 'Contributions bienvenues - Usage non commercial uniquement',
     helpTranslate: 'Aide à la traduction',
     categories: 'Catégories',
+    joinDiscord: 'Rejoindre Discord',
+    joinDiscordCommunity: 'Rejoignez notre communauté Discord',
 
     'Healing': 'Soin',
     'Duration': 'Durée',
@@ -99,6 +103,8 @@ export const translations = {
     license: 'Beiträge willkommen - Nur nicht-kommerzielle Nutzung',
     helpTranslate: 'Hilfe bei der Übersetzung',
     categories: 'Kategorien',
+    joinDiscord: 'Discord beitreten',
+    joinDiscordCommunity: 'Treten Sie unserer Discord-Community bei',
 
     'Healing': 'Heilung',
     'Duration': 'Dauer',
@@ -133,6 +139,8 @@ export const translations = {
     license: 'Se aceptan contribuciones - Solo uso no comercial',
     helpTranslate: 'Ayuda con la traducción',
     categories: 'Categorías',
+    joinDiscord: 'Únete a Discord',
+    joinDiscordCommunity: 'Únete a nuestra comunidad de Discord',
 
     'Healing': 'Curación',
     'Duration': 'Duración',
@@ -167,6 +175,8 @@ export const translations = {
     license: 'Contribuições bem-vindas - Apenas uso não comercial',
     helpTranslate: 'Ajuda na tradução',
     categories: 'Categorias',
+    joinDiscord: 'Junte-se ao Discord',
+    joinDiscordCommunity: 'Junte-se à nossa comunidade do Discord',
 
     'Healing': 'Cura',
     'Duration': 'Duração',
@@ -201,6 +211,8 @@ export const translations = {
     license: 'Wkłady mile widziane - Tylko użytek niekomercyjny',
     helpTranslate: 'Pomóż w tłumaczeniu',
     categories: 'Kategorie',
+    joinDiscord: 'Dołącz do Discord',
+    joinDiscordCommunity: 'Dołącz do naszej społeczności Discord',
 
     'Healing': 'Leczenie',
     'Duration': 'Czas trwania',
@@ -235,6 +247,8 @@ export const translations = {
     license: 'Bidrag velkomne - Kun ikke-kommersiell bruk',
     helpTranslate: 'Hjelp til oversettelse',
     categories: 'Kategorier',
+    joinDiscord: 'Bli med på Discord',
+    joinDiscordCommunity: 'Bli med i vår Discord-fellesskap',
 
     'Healing': 'Helbredelse',
     'Duration': 'Varighet',
@@ -269,6 +283,8 @@ export const translations = {
     license: 'Bidrag velkomne - Kun ikke-kommerciel brug',
     helpTranslate: 'Hjælp til oversættelse',
     categories: 'Kategorier',
+    joinDiscord: 'Slut dig til Discord',
+    joinDiscordCommunity: 'Slut dig til vores Discord-fællesskab',
 
     'Healing': 'Helbredelse',
     'Duration': 'Varighed',
@@ -303,6 +319,8 @@ export const translations = {
     license: 'Contributi benvenuti - Solo uso non commerciale',
     helpTranslate: 'Aiuto alla traduzione',
     categories: 'Categorie',
+    joinDiscord: 'Unisciti a Discord',
+    joinDiscordCommunity: 'Unisciti alla nostra comunità Discord',
 
     'Healing': 'Guarigione',
     'Duration': 'Durata',
@@ -338,6 +356,8 @@ export const translations = {
     license: 'Приветствуются взносы - только некоммерческое использование',
     helpTranslate: 'Помощь в переводе',
     categories: 'Категории',
+    joinDiscord: 'Присоединиться к Discord',
+    joinDiscordCommunity: 'Присоединитесь к нашему сообществу Discord',
 
     'Healing': 'Лечение',
     'Duration': 'Длительность',
@@ -372,6 +392,8 @@ export const translations = {
     license: 'ご貢献をお待ちしています - 非商用利用のみ',
     helpTranslate: '翻訳をお手伝ください',
     categories: 'カテゴリー',
+    joinDiscord: 'Discordに参加',
+    joinDiscordCommunity: 'Discordコミュニティに参加',
 
     'Healing': '回復',
     'Duration': '持続時間',
@@ -406,6 +428,8 @@ export const translations = {
     license: '歡迎貢獻 - 僅限非商業使用',
     helpTranslate: '幫助翻譯',
     categories: '分類',
+    joinDiscord: '加入 Discord',
+    joinDiscordCommunity: '加入我們的 Discord 社群',
   },
   uk: {
     title: 'ARC RAIDERS',
@@ -436,6 +460,8 @@ export const translations = {
     license: 'Приймаємо внески - тільки некомерційне використання',
     helpTranslate: 'Допомога при перекладі',
     categories: 'Категорії',
+    joinDiscord: 'Приєднайтесь до Discord',
+    joinDiscordCommunity: 'Приєднайтесь до нашої спільноти Discord',
 
     'Healing': 'Лікування',
     'Duration': 'Тривалість',
@@ -470,6 +496,8 @@ export const translations = {
     license: '欢迎贡献 - 仅供非商业使用',
     helpTranslate: '帮助翻译',
     categories: '类别',
+    joinDiscord: '加入 Discord',
+    joinDiscordCommunity: '加入我们的 Discord 社群',
   },
   kr: {
     title: 'ARC RAIDERS',
@@ -500,6 +528,8 @@ export const translations = {
     license: '기여를 환영합니다 - 비상업적 사용만 해당',
     helpTranslate: '번역 도움말',
     categories: '카테고리',
+    joinDiscord: 'Discord에 참여',
+    joinDiscordCommunity: '우리 Discord 커뮤니티에 참여하세요',
 
     'Healing': '치유',
     'Duration': '지속 시간',
@@ -534,6 +564,8 @@ export const translations = {
     license: 'Katkılar hoş karşılanır - Yalnızca ticari olmayan kullanım',
     helpTranslate: 'Çeviriyi Yardımcı Olun',
     categories: 'Kategoriler',
+    joinDiscord: 'Discord\'a Katıl',
+    joinDiscordCommunity: 'Discord Topluluğumuza Katılın',
 
     'Healing': 'İyileştirme',
     'Duration': 'Süre',
@@ -568,6 +600,8 @@ export const translations = {
     license: 'Doprinos je dobrodošao - Samo nekomercijalna upotreba',
     helpTranslate: 'Pomozite pri prevodu',
     categories: 'Kategorije',
+    joinDiscord: 'Pridruži se Discord-u',
+    joinDiscordCommunity: 'Pridruži se našoj Discord zajednici',
 
     'Healing': 'Liječenje',
     'Duration': 'Trajanje',
@@ -602,6 +636,8 @@ export const translations = {
     license: 'Doprinosi su dobrodošli - Samo nekomercijalna upotreba',
     helpTranslate: 'Pomoć pri prevodu',
     categories: 'Kategorije',
+    joinDiscord: 'Pridruži se Discord-u',
+    joinDiscordCommunity: 'Pridruži se našoj Discord zajednici',
 
     'Healing': 'Lečenje',
     'Duration': 'Trajanje',

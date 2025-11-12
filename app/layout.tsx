@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import ContributionBanner from "@/components/ContributionBanner";
 import LanguageDetector from "@/components/LanguageDetector";
+import DiscordButton from "@/components/DiscordButton";
 import { getSEOConfig } from "@/lib/seoConfig";
 
 const seoEn = getSEOConfig('en');
@@ -137,6 +138,7 @@ export default function RootLayout({
         <LanguageDetector />
         {children}
         <ContributionBanner />
+        <DiscordButton />
       </body>
     </html>
   );

@@ -349,6 +349,7 @@ export default function ContributionBanner() {
   return (
     <>
     <div
+      data-contribution-banner
       className="fixed bottom-0 left-0 right-0 shadow-2xl z-40"
       style={{ backgroundColor: '#f1aa1c' }}
     >
