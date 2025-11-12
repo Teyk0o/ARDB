@@ -1,0 +1,49 @@
+name: Sync Items Data
+
+on:
+  schedule:
+    # Run every day at 2 AM UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download latest items data
+        run: |
+          curl -s "https://raw.githubusercontent.com/RaidTheory/arcraiders-data/refs/heads/main/items.json" \
+            -o items-new.json
+
+          # Compare with existing file
+          if cmp -s "data/items.json" items-new.json; then
+            echo "No changes detected"
+            echo "CHANGES_DETECTED=false" >> $GITHUB_ENV
+          else
+            echo "Changes detected, updating file"
+            mv items-new.json data/items.json
+            echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
+          fi
+
+      - name: Remove duplicate items
+        if: env.CHANGES_DETECTED == 'true'
+        run: node scripts/remove-duplicates.js
+
+      - name: Commit and push if changed
+        if: env.CHANGES_DETECTED == 'true'
+        run: |
+          git config user.name "Arc Raiders Data Sync"
+          git config user.email "sync@arcraidersdatabase.com"
+          git add data/items.json
+          git commit -m "chore: sync items data from upstream"
+          git push
+
+      - name: Notify if no changes
+        if: env.CHANGES_DETECTED == 'false'
+        run: echo "Items data is up to date"

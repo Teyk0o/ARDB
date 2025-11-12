@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { Item } from '@/types/item';
-import { Language, getStatLabel } from '@/lib/translations';
+import { Language, getStatLabel, getRarityLabel, getItemTypeLabel } from '@/lib/translations';
 
 interface ItemCardProps {
   item: Item;
@@ -60,11 +60,11 @@ export default function ItemCard({ item, onClick, language }: ItemCardProps) {
                   borderWidth: '2px'
                 } : undefined}
               >
-                {item.rarity}
+                {getRarityLabel(item.rarity, language)}
               </span>
             )}
           </div>
-          <p className="text-arc-white/70 text-base mt-1 font-medium">{item.item_type}</p>
+          <p className="text-arc-white/70 text-base mt-1 font-medium">{getItemTypeLabel(item.item_type, language)}</p>
 
           {item.description && (
             <p className="text-arc-white/60 text-sm mt-3 line-clamp-2 leading-relaxed">

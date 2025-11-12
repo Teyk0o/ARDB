@@ -1,26 +1,100 @@
-import { Metadata } from 'next';
+'use client';
 
-export const metadata: Metadata = {
-  title: 'Help Translate Arc Raiders Database',
-  description: 'Help translate the Arc Raiders Database into French and other languages on Crowdin.',
-  robots: {
-    index: true,
-    follow: true,
-  },
-};
+import { useState, useEffect } from 'react';
+import { translatePageTranslations, getTranslation } from '@/lib/translations';
+import { Language } from '@/lib/translations';
+import CustomSelect from '@/components/CustomSelect';
 
 export default function TranslatePage() {
+  const [language, setLanguage] = useState<Language>('en');
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+    // Get language from localStorage
+    const saved = localStorage.getItem('arc-db-language') as Language;
+    if (saved && ['en', 'fr', 'de', 'es', 'pt', 'pl', 'no', 'da', 'it', 'ru', 'ja', 'zh-TW', 'uk', 'zh-CN', 'kr', 'tr', 'hr', 'sr'].includes(saved)) {
+      setLanguage(saved);
+    }
+  }, []);
+
+  if (!isMounted) {
+    return null;
+  }
+
+  const t = translatePageTranslations[language] || translatePageTranslations.en;
+  const tMain = getTranslation(language);
+
+  const supportedLanguages = [
+    { code: 'en', name: 'English' },
+    { code: 'de', name: 'German' },
+    { code: 'fr', name: 'Français' },
+    { code: 'es', name: 'Español' },
+    { code: 'pt', name: 'Português' },
+    { code: 'pl', name: 'Polski' },
+    { code: 'no', name: 'Norsk' },
+    { code: 'da', name: 'Dansk' },
+    { code: 'it', name: 'Italiano' },
+    { code: 'ru', name: 'Русский' },
+    { code: 'ja', name: '日本語' },
+    { code: 'zh-TW', name: '繁體中文' },
+    { code: 'uk', name: 'Українська' },
+    { code: 'zh-CN', name: '简体中文' },
+    { code: 'kr', name: '한국어' },
+    { code: 'tr', name: 'Türkçe' },
+    { code: 'hr', name: 'Hrvatski' },
+    { code: 'sr', name: 'Српски' },
+  ];
+
   return (
     <div className="min-h-screen bg-arc-blue">
       {/* Header */}
       <header className="bg-arc-blue-light border-b-2 border-arc-yellow/30 grain-texture">
         <div className="container mx-auto px-4 py-8">
-          <h1 className="text-3xl md:text-4xl font-bold text-arc-white mb-2">
-            Help Translate
-          </h1>
-          <p className="text-arc-white/70">
-            Support the Arc Raiders Database by translating into your language
-          </p>
+          <div className="flex justify-between items-center gap-4 mb-4">
+            <div className="flex-1">
+              <h1 className="text-3xl md:text-4xl font-bold text-arc-white mb-2">
+                {t.pageTitle}
+              </h1>
+              <p className="text-arc-white/70">
+                {t.pageSubtitle}
+              </p>
+            </div>
+            {/* Navigation Links */}
+            <div className="flex items-center gap-4">
+              <a
+                href="/categories"
+                className="text-arc-yellow hover:text-arc-yellow/80 font-medium transition-colors hidden sm:block"
+              >
+                {tMain.categories}
+              </a>
+              {/* Language Selector */}
+              <CustomSelect
+                value={language}
+                onChange={(value) => setLanguage(value as Language)}
+                options={[
+                  { value: 'en', label: '🇬🇧 English' },
+                  { value: 'fr', label: '🇫🇷 Français' },
+                  { value: 'de', label: '🇩🇪 Deutsch' },
+                  { value: 'es', label: '🇪🇸 Español' },
+                  { value: 'pt', label: '🇵🇹 Português' },
+                  { value: 'pl', label: '🇵🇱 Polski' },
+                  { value: 'no', label: '🇳🇴 Norsk' },
+                  { value: 'da', label: '🇩🇰 Dansk' },
+                  { value: 'it', label: '🇮🇹 Italiano' },
+                  { value: 'ru', label: '🇷🇺 Русский' },
+                  { value: 'ja', label: '🇯🇵 日本語' },
+                  { value: 'zh-TW', label: '🇹🇼 繁體中文' },
+                  { value: 'uk', label: '🇺🇦Українська' },
+                  { value: 'zh-CN', label: '🇨🇳 简体中文' },
+                  { value: 'kr', label: '🇰🇷 한국어' },
+                  { value: 'tr', label: '🇹🇷 Türkçe' },
+                  { value: 'hr', label: '🇭🇷 Hrvatski' },
+                  { value: 'sr', label: '🇷🇸 Српски' },
+                ]}
+              />
+            </div>
+          </div>
         </div>
       </header>
 
@@ -29,82 +103,63 @@ export default function TranslatePage() {
         <div className="max-w-3xl mx-auto">
           {/* Info Section */}
           <section className="bg-arc-blue-light border-2 border-arc-yellow/30 rounded-lg p-8 mb-8">
-            <h2 className="text-2xl font-bold text-arc-white mb-4">Join Our Translation Team</h2>
+            <h2 className="text-2xl font-bold text-arc-white mb-4">{t.multiLanguageSupport}</h2>
             <p className="text-arc-white/80 mb-6">
-              The Arc Raiders Database is maintained by the community. We're looking for translators to help make the database available in multiple languages.
+              {t.multiLanguageText1}
             </p>
             <p className="text-arc-white/80 mb-6">
-              Currently supported languages:
+              {t.multiLanguageText2}
             </p>
-            <ul className="text-arc-white/70 space-y-2 mb-8">
-              <li>English (Complete)</li>
-              <li>Français (In Progress)</li>
-            </ul>
+          </section>
 
+          {/* Supported Languages */}
+          <section className="bg-arc-blue-light border-2 border-arc-blue-lighter rounded-lg p-8 mb-8">
+            <h2 className="text-2xl font-bold text-arc-white mb-6">{t.availableLanguages}</h2>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+              {supportedLanguages.map((lang) => (
+                <div key={lang.code} className="bg-arc-blue border border-arc-blue-lighter rounded p-4">
+                  <div className="font-bold text-arc-white">{lang.name}</div>
+                  <div className="text-sm text-arc-yellow">{t.complete}</div>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          {/* Data Source */}
+          <section className="bg-arc-blue-light border-2 border-arc-blue-lighter rounded-lg p-8 mb-8">
+            <h2 className="text-2xl font-bold text-arc-white mb-6">{t.dataSource}</h2>
+            <div className="space-y-4">
+              <p className="text-arc-white/70">
+                {t.dataSourceText}
+              </p>
+              <a
+                href="https://github.com/RaidTheory/arcraiders-data"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-arc-blue border-2 border-arc-yellow hover:bg-arc-yellow hover:text-arc-blue text-arc-yellow font-bold py-2 px-4 rounded transition-colors"
+              >
+                {t.dataSourceLink}
+              </a>
+              <p className="text-arc-white/70 text-sm">
+                {t.contributeTranslations}
+              </p>
+            </div>
+          </section>
+
+          {/* GitHub Contribution */}
+          <section className="bg-arc-blue-light border-2 border-arc-blue-lighter rounded-lg p-8">
+            <h2 className="text-2xl font-bold text-arc-white mb-6">{t.contributeProject}</h2>
+            <p className="text-arc-white/70 mb-4">
+              {t.contributeText}
+            </p>
             <a
-              href="https://crowdin.com/project/ardb"
+              href="https://github.com/Teyk0o/ARDB"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-arc-yellow hover:bg-arc-yellow/80 text-arc-blue font-bold py-3 px-6 rounded-lg transition-colors"
+              className="inline-block bg-arc-blue border-2 border-arc-yellow hover:bg-arc-yellow hover:text-arc-blue text-arc-yellow font-bold py-2 px-4 rounded transition-colors"
             >
-              Contribute on Crowdin
+              {t.githubLink}
             </a>
-          </section>
-
-          {/* How It Works */}
-          <section className="bg-arc-blue-light border-2 border-arc-blue-lighter rounded-lg p-8 mb-8">
-            <h2 className="text-2xl font-bold text-arc-white mb-6">How to Contribute</h2>
-            <div className="space-y-6">
-              <div>
-                <h3 className="text-lg font-bold text-arc-yellow mb-2">1. Create a Crowdin Account</h3>
-                <p className="text-arc-white/70">
-                  Visit Crowdin and create a free account if you don't have one already.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-lg font-bold text-arc-yellow mb-2">2. Join the Project</h3>
-                <p className="text-arc-white/70">
-                  Find the Arc Raiders Database project on Crowdin and request to join.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-lg font-bold text-arc-yellow mb-2">3. Start Translating</h3>
-                <p className="text-arc-white/70">
-                  Select a language and start translating item names and descriptions.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-lg font-bold text-arc-yellow mb-2">4. Get Recognition</h3>
-                <p className="text-arc-white/70">
-                  Major contributors will be credited on this page and in the database.
-                </p>
-              </div>
-            </div>
-          </section>
-
-          {/* What Needs Translation */}
-          <section className="bg-arc-blue-light border-2 border-arc-blue-lighter rounded-lg p-8 mb-8">
-            <h2 className="text-2xl font-bold text-arc-white mb-4">What Needs Translation</h2>
-            <p className="text-arc-white/70 mb-6">
-              We need translations for:
-            </p>
-            <ul className="text-arc-white/70 space-y-3">
-              <li>Item names (485 items)</li>
-              <li>Item descriptions</li>
-              <li>UI text (buttons, labels, etc.)</li>
-              <li>Game guides and tips</li>
-            </ul>
-          </section>
-
-          {/* Credits */}
-          <section className="bg-arc-blue-light border-2 border-arc-blue-lighter rounded-lg p-8">
-            <h2 className="text-2xl font-bold text-arc-white mb-6">Translators</h2>
-            <p className="text-arc-white/70 mb-4">
-              Thanks to all contributors helping translate Arc Raiders Database:
-            </p>
-            <div className="text-arc-white/60 italic">
-              Coming soon - contribute to be listed here!
-            </div>
           </section>
         </div>
       </main>
@@ -114,7 +169,7 @@ export default function TranslatePage() {
         <div className="container mx-auto px-4 text-center">
           <p className="text-arc-white/70 text-sm">
             <a href="/" className="text-arc-yellow hover:underline">
-              Back to Database
+              {t.backToDatabase}
             </a>
           </p>
         </div>

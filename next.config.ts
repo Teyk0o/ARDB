@@ -8,6 +8,11 @@ const nextConfig: NextConfig = {
         hostname: 'cdn.metaforge.app',
         pathname: '/arc-raiders/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'cdn.arctracker.io',
+        pathname: '/items/**',
+      },
     ],
   },
 };

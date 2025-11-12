@@ -28,7 +28,7 @@
 - **Detailed Statistics** - Complete stat blocks for every item
 - **Crafting Recipes** - Full crafting and recycling information
 - **Recycling System** - Discover which items can be recycled to obtain others
-- **Bilingual Support** - Available in English and French
+- **Multilingual Support** - Available in 18 languages (EN, FR, DE, ES, PT, PL, NO, DA, IT, RU, JA, ZH-TW, UK, ZH-CN, KR, TR, HR, SR)
 - **Responsive Design** - Optimized for desktop, tablet, and mobile
 - **Authentic Design** - Follows Arc Raiders brand guidelines
 - **Lightning Fast** - Built with Next.js 16 and optimized performance
@@ -78,7 +78,7 @@
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/)
 - **Font:** [Barlow](https://fonts.google.com/specimen/Barlow) (Official Arc Raiders font)
 - **Deployment:** [Vercel](https://vercel.com)
-- **Data Source:** [Metaforge API](https://metaforge.app/api/arc-raiders)
+- **Data Source:** [RaidTheory/arcraiders-data](https://github.com/RaidTheory/arcraiders-data)
 
 ---
 
@@ -126,18 +126,44 @@ The project follows the official Arc Raiders brand guidelines:
 
 ---
 
-## API Integration
+## Data & Internationalization
 
-This project uses data from the [Metaforge API](https://metaforge.app/api/arc-raiders):
+### Data Source
 
-```typescript
-// Fetch all items with components
-const response = await fetch(
-  'https://metaforge.app/api/arc-raiders/items?includeComponents=true&page=1&limit=100'
-);
-```
+This project uses data from the [RaidTheory/arcraiders-data](https://github.com/RaidTheory/arcraiders-data) repository:
 
-**Note:** The application uses a local JSON file (`data/items.json`) for optimal performance and offline access.
+- **Complete Item Database** - 485+ items with full stats and recipes
+- **Daily Synchronization** - Data updates aligned with game patches
+- **Community-Driven** - Maintained by the Arc Raiders community
+
+The application uses a local JSON file (`data/items.json`) for optimal performance and offline access.
+
+### Language Support
+
+The database supports **18 languages** thanks to the RaidTheory community data project:
+
+| Language | Code | Status |
+|----------|------|--------|
+| English | `en` | Complete |
+| French | `fr` | Complete |
+| German | `de` | Complete |
+| Spanish | `es` | Complete |
+| Portuguese | `pt` | Complete |
+| Polish | `pl` | Complete |
+| Norwegian | `no` | Complete |
+| Danish | `da` | Complete |
+| Italian | `it` | Complete |
+| Russian | `ru` | Complete |
+| Japanese | `ja` | Complete |
+| Traditional Chinese | `zh-TW` | Complete |
+| Ukrainian | `uk` | Complete |
+| Simplified Chinese | `zh-CN` | Complete |
+| Korean | `kr` | Complete |
+| Turkish | `tr` | Complete |
+| Croatian | `hr` | Complete |
+| Serbian | `sr` | Complete |
+
+Users can switch languages in real-time using the language selector in the top navigation bar. Language preference is saved to local storage for a consistent experience across visits.
 
 ---
 
@@ -221,10 +247,11 @@ This is a **fan-made project** and is **not affiliated with, endorsed by, or ass
 
 - Complete item database (485+ items)
 - Crafting & recycling system
-- Bilingual support (EN/FR)
+- Multilingual support (18 languages)
 - Responsive design
 - SEO optimization
 - Continuous updates with game patches
+- Community-driven translations
 
 ---
 

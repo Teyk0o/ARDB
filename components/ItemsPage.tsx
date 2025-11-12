@@ -7,17 +7,30 @@ import ItemCard from './ItemCard';
 import ItemDetailModal from './ItemDetailModal';
 import CustomSelect from './CustomSelect';
 import MultiSelect from './MultiSelect';
-import { Language, getTranslation } from '@/lib/translations';
-import { useItemTranslation } from '@/lib/useItemTranslation';
+import LoadingSpinner from './LoadingSpinner';
+import { Language, getTranslation, getItemTypeLabel, getRarityLabel } from '@/lib/translations';
+import { useItems } from '@/lib/useItems';
 
 interface ItemsPageProps {
-  items: Item[];
   initialFilters?: { [key: string]: string | string[] | undefined };
 }
 
-export default function ItemsPage({ items, initialFilters = {} }: ItemsPageProps) {
+export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
   const router = useRouter();
   const searchParams = useSearchParams();
+
+  const [selectedItem, setSelectedItem] = useState<Item | null>(null);
+  const [language, setLanguage] = useState<Language>(() => {
+    // Load language from localStorage on initial render
+    if (typeof window !== 'undefined') {
+      const saved = localStorage.getItem('arc-db-language') as Language;
+      if (saved && ['en', 'fr', 'de', 'es', 'pt', 'pl', 'no', 'da', 'it', 'ru', 'ja', 'zh-TW', 'uk', 'zh-CN', 'kr', 'tr', 'hr', 'sr'].includes(saved)) {
+        return saved;
+      }
+    }
+    return 'en';
+  });
+  const { items: displayItems, loading: itemsLoading } = useItems(language);
 
   const getInitialTypes = () => {
     if (initialFilters.type) {
@@ -36,9 +49,6 @@ export default function ItemsPage({ items, initialFilters = {} }: ItemsPageProps
     types: getInitialTypes(),
     rarities: [],
   });
-  const [selectedItem, setSelectedItem] = useState<Item | null>(null);
-  const [language, setLanguage] = useState<Language>('en');
-  const { translateItem, translateItems, loading: translationsLoading } = useItemTranslation(language);
 
   // Sync language to localStorage for ContributionBanner
   useEffect(() => {
@@ -81,7 +91,7 @@ export default function ItemsPage({ items, initialFilters = {} }: ItemsPageProps
     const typesSet = new Set<string>();
     const raritiesSet = new Set<string>();
 
-    items.forEach((item) => {
+    displayItems.forEach((item) => {
       if (item.item_type) typesSet.add(item.item_type);
       if (item.rarity) raritiesSet.add(item.rarity);
     });
@@ -90,22 +100,11 @@ export default function ItemsPage({ items, initialFilters = {} }: ItemsPageProps
       types: Array.from(typesSet).sort(),
       rarities: Array.from(raritiesSet).sort(),
     };
-  }, [items]);
+  }, [displayItems]);
 
-  // Filter and translate items
+  // Filter items (already translated from API)
   const filteredItems = useMemo(() => {
-    let filtered = items.filter((item) => {
-      // Search filter
-      if (filters.search) {
-        const searchLower = filters.search.toLowerCase();
-        if (
-          !item.name.toLowerCase().includes(searchLower) &&
-          !item.description?.toLowerCase().includes(searchLower)
-        ) {
-          return false;
-        }
-      }
-
+    let filtered = displayItems.filter((item) => {
       // Type filter (multiple selection)
       if (filters.types.length > 0 && !filters.types.includes(item.item_type)) {
         return false;
@@ -119,9 +118,19 @@ export default function ItemsPage({ items, initialFilters = {} }: ItemsPageProps
       return true;
     });
 
-    // Apply translations
-    return translateItems(filtered);
-  }, [items, filters, translateItems]);
+    // Search filter (on already translated items)
+    if (filters.search) {
+      const searchLower = filters.search.toLowerCase();
+      filtered = filtered.filter((item) => {
+        return (
+          item.name.toLowerCase().includes(searchLower) ||
+          item.description?.toLowerCase().includes(searchLower)
+        );
+      });
+    }
+
+    return filtered;
+  }, [displayItems, filters]);
 
   return (
     <div className="min-h-screen bg-arc-blue">
@@ -143,7 +152,7 @@ export default function ItemsPage({ items, initialFilters = {} }: ItemsPageProps
                 href="/categories"
                 className="text-arc-yellow hover:text-arc-yellow/80 font-medium transition-colors hidden sm:block"
               >
-                Categories
+                {t.categories}
               </a>
               {/* Language Selector */}
               <CustomSelect
@@ -152,6 +161,22 @@ export default function ItemsPage({ items, initialFilters = {} }: ItemsPageProps
                 options={[
                   { value: 'en', label: '🇬🇧 English' },
                   { value: 'fr', label: '🇫🇷 Français' },
+                  { value: 'de', label: '🇩🇪 Deutsch' },
+                  { value: 'es', label: '🇪🇸 Español' },
+                  { value: 'pt', label: '🇵🇹 Português' },
+                  { value: 'pl', label: '🇵🇱 Polski' },
+                  { value: 'no', label: '🇳🇴 Norsk' },
+                  { value: 'da', label: '🇩🇰 Dansk' },
+                  { value: 'it', label: '🇮🇹 Italiano' },
+                  { value: 'ru', label: '🇷🇺 Русский' },
+                  { value: 'ja', label: '🇯🇵 日本語' },
+                  { value: 'zh-TW', label: '🇹🇼 繁體中文' },
+                  { value: 'uk', label: '🇺🇦Українська' },
+                  { value: 'zh-CN', label: '🇨🇳 简体中文' },
+                  { value: 'kr', label: '🇰🇷 한국어' },
+                  { value: 'tr', label: '🇹🇷 Türkçe' },
+                  { value: 'hr', label: '🇭🇷 Hrvatski' },
+                  { value: 'sr', label: '🇷🇸 Српски' },
                 ]}
               />
             </div>
@@ -178,7 +203,7 @@ export default function ItemsPage({ items, initialFilters = {} }: ItemsPageProps
             <MultiSelect
               values={filters.types}
               onChange={(selectedTypes) => setFilters({ ...filters, types: selectedTypes })}
-              options={types.map(type => ({ value: type, label: type }))}
+              options={types.map(type => ({ value: type, label: getItemTypeLabel(type, language) }))}
               placeholder={t.allTypes}
             />
 
@@ -186,7 +211,7 @@ export default function ItemsPage({ items, initialFilters = {} }: ItemsPageProps
             <MultiSelect
               values={filters.rarities}
               onChange={(selectedRarities) => setFilters({ ...filters, rarities: selectedRarities })}
-              options={rarities.map(rarity => ({ value: rarity, label: rarity }))}
+              options={rarities.map(rarity => ({ value: rarity, label: rarity ? getRarityLabel(rarity, language) : 'Unknown' }))}
               placeholder={t.allRarities}
             />
 
@@ -210,7 +235,7 @@ export default function ItemsPage({ items, initialFilters = {} }: ItemsPageProps
             </div>
             <div>
               <span className="text-arc-white/50">{t.total}</span>{' '}
-              <span className="text-arc-yellow font-bold">{items.length}</span>{' '}
+              <span className="text-arc-yellow font-bold">{displayItems.length}</span>{' '}
               <span className="text-arc-white/70">{t.items}</span>
             </div>
             <div>
@@ -224,7 +249,9 @@ export default function ItemsPage({ items, initialFilters = {} }: ItemsPageProps
       {/* Items Grid */}
       <main className="container mx-auto px-4 py-8">
         <h1 className="sr-only">Arc Raiders Item Database - Complete Guide and Crafting Recipes</h1>
-        {filteredItems.length === 0 ? (
+        {itemsLoading ? (
+          <LoadingSpinner />
+        ) : filteredItems.length === 0 ? (
           <div className="text-center py-20">
             <div className="text-6xl mb-4">🔍</div>
             <h2 className="text-2xl font-bold text-arc-white mb-2">{t.noItemsFound}</h2>
@@ -264,7 +291,7 @@ export default function ItemsPage({ items, initialFilters = {} }: ItemsPageProps
               href="/translate"
               className="text-arc-yellow hover:text-arc-yellow/80 font-bold text-sm transition-colors underline"
             >
-              Help Translate
+              {t.helpTranslate}
             </a>
           </div>
           <p className="text-arc-white/50 text-xs mb-2">{t.license}</p>

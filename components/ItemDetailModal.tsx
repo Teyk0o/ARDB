@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import { Item, ItemComponent } from '@/types/item';
-import { Language, getTranslation, getStatLabel } from '@/lib/translations';
+import { Language, getTranslation, getStatLabel, getRarityLabel, getItemTypeLabel } from '@/lib/translations';
 
 interface ItemDetailModalProps {
   item: Item;
@@ -107,10 +107,10 @@ export default function ItemDetailModal({ item, onClose, onItemClick, language }
             </div>
             <div className="flex-1">
               <h2 className="text-3xl font-bold text-arc-yellow mb-2">{item.name}</h2>
-              <p className="text-arc-white/70 text-lg">{item.item_type}</p>
+              <p className="text-arc-white/70 text-lg">{getItemTypeLabel(item.item_type, language)}</p>
               {item.rarity && (
                 <span className={`inline-block mt-2 text-sm px-3 py-1 rounded border ${rarityClass}`}>
-                  {item.rarity}
+                  {getRarityLabel(item.rarity, language)}
                 </span>
               )}
             </div>
