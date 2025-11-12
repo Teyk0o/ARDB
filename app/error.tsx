@@ -193,10 +193,7 @@ export default function Error({
       <div className="relative z-10 text-center max-w-2xl">
         {/* Large 500 Code */}
         <div className="mb-8">
-          <div className="text-9xl md:text-[150px] font-black text-red-600/20 leading-none">
-            {text.code}
-          </div>
-          <div className="text-red-500 text-6xl md:text-8xl font-black -mt-20 md:-mt-32">
+          <div className="text-red-500 text-8xl md:text-[140px] font-black">
             {text.code}
           </div>
         </div>

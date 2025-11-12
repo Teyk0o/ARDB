@@ -189,10 +189,7 @@ export default function NotFound() {
       <div className="relative z-10 text-center max-w-2xl">
         {/* Large 404 Code */}
         <div className="mb-8">
-          <div className="text-9xl md:text-[150px] font-black text-arc-yellow/20 leading-none">
-            {text.code}
-          </div>
-          <div className="text-arc-yellow text-6xl md:text-8xl font-black -mt-20 md:-mt-32">
+          <div className="text-arc-yellow text-8xl md:text-[140px] font-black">
             {text.code}
           </div>
         </div>
