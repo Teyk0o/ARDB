@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { Item } from '@/types/item';
-import { Language, getStatLabel, getRarityLabel, getItemTypeLabel } from '@/lib/translations';
+import { Language, getRarityLabel, getItemTypeLabel } from '@/lib/translations';
 
 interface ItemCardProps {
   item: Item;
@@ -71,22 +71,6 @@ export default function ItemCard({ item, onClick, language }: ItemCardProps) {
               {item.description}
             </p>
           )}
-
-          {/* Stats preview */}
-          {item.stat_block && Object.keys(item.stat_block).length > 0 && (
-            <div className="flex gap-2 mt-4 flex-wrap">
-              {Object.entries(item.stat_block)
-                .filter(([_, value]) => value != null && value !== 0 && value !== undefined)
-                .slice(0, 3)
-                .map(([key, value]) => (
-                  <div key={key} className="text-sm bg-arc-blue-lighter px-3 py-1.5 rounded border border-arc-white/20">
-                    <span className="text-arc-white/60">{getStatLabel(key, language)}:</span>{' '}
-                    <span className="text-arc-yellow font-bold">{value}</span>
-                  </div>
-                ))}
-            </div>
-          )}
-
         </div>
       </div>
     </div>

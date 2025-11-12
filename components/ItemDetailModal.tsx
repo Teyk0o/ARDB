@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import { Item, ItemComponent } from '@/types/item';
-import { Language, getTranslation, getStatLabel, getRarityLabel, getItemTypeLabel } from '@/lib/translations';
+import { Language, getTranslation, getStatLabel, getRarityLabel, getItemTypeLabel, getLootAreaLabel } from '@/lib/translations';
 
 interface ItemDetailModalProps {
   item: Item;
@@ -187,7 +187,10 @@ export default function ItemDetailModal({ item, onClose, onItemClick, language }
               <div>
                 <h3 className="text-arc-yellow font-bold mb-2">{t.lootAreas}</h3>
                 <p className="text-arc-white bg-arc-blue-lighter px-4 py-2 rounded border border-arc-white/10">
-                  {item.loot_area}
+                  {item.loot_area
+                    .split(',')
+                    .map((area) => getLootAreaLabel(area.trim(), language))
+                    .join(', ')}
                 </p>
               </div>
             )}
