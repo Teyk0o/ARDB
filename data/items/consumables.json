@@ -1,0 +1,77 @@
+[
+  {
+    "id": "agave-juice",
+    "name": "Agave Juice",
+    "description": "A concoction that temporarily increases stamina regeneration, at a small initial cost to health.",
+    "item_type": "Consumable",
+    "loadout_slots": [
+      "backpack",
+      "quickUse",
+      "safePocket"
+    ],
+    "icon": "https://cdn.metaforge.app/arc-raiders/icons/agave-juice.webp",
+    "rarity": "Common",
+    "value": 123,
+    "workbench": null,
+    "stat_block": {
+      "range": 0,
+      "damage": 5,
+      "radius": 0,
+      "shield": 0,
+      "weight": 0,
+      "agility": 0,
+      "arcStun": 0,
+      "healing": 0,
+      "stamina": 0,
+      "stealth": 0,
+      "useTime": 1,
+      "duration": 10,
+      "fireRate": 0,
+      "stability": 0,
+      "stackSize": 0,
+      "raiderStun": 0,
+      "damagePerSecond": 0,
+      "healingPerSecond": 0,
+      "increasedFireRate": 0,
+      "reducedReloadTime": 0,
+      "reducedDurabilityBurnRate": 0
+    },
+    "flavor_text": null,
+    "subcategory": null,
+    "created_at": "2025-09-23T18:21:03.51415+00:00",
+    "updated_at": "2025-10-28T12:58:32.940898+00:00",
+    "shield_type": null,
+    "loot_area": null,
+    "sources": null,
+    "ammo_type": null,
+    "locations": [],
+    "components": [
+      {
+        "quantity": 1,
+        "component": {
+          "id": "agave",
+          "icon": "https://cdn.metaforge.app/arc-raiders/icons/agave.webp",
+          "name": "Agave",
+          "rarity": "Common",
+          "item_type": "Nature"
+        }
+      },
+      {
+        "quantity": 1,
+        "component": {
+          "id": "empty-wine-bottle",
+          "icon": "https://cdn.metaforge.app/arc-raiders/icons/empty-wine-bottle.webp",
+          "name": "Empty Wine Bottle",
+          "rarity": "Common",
+          "item_type": "Trinket"
+        }
+      }
+    ],
+    "used_in": [],
+    "recycle_components": [],
+    "recycle_from": [],
+    "mods": [],
+    "dropped_by": [],
+    "sold_by": []
+  }
+]

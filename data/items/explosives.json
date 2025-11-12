@@ -1,0 +1,126 @@
+[
+  {
+    "id": "gas-grenade",
+    "name": "Gas Grenade",
+    "description": "A grenade that emites lingering toxic cloud on impact, draining the stamina of any Raiders within its area of effect.",
+    "item_type": "Explosives",
+    "loadout_slots": [
+      "backpack",
+      "safePocket"
+    ],
+    "icon": "https://cdn.metaforge.app/arc-raiders/icons/gas-grenade.webp",
+    "rarity": "Common",
+    "value": 270,
+    "workbench": "Explosive Bench 1",
+    "stat_block": {
+      "range": 0,
+      "damage": 0,
+      "health": 0,
+      "radius": 7.5,
+      "shield": 0,
+      "weight": 0.2,
+      "agility": 0,
+      "arcStun": 0,
+      "healing": 0,
+      "stamina": 0,
+      "stealth": 0,
+      "useTime": 0,
+      "duration": 20,
+      "fireRate": 0,
+      "stability": 0,
+      "stackSize": 3,
+      "damageMult": 0,
+      "raiderStun": 0,
+      "weightLimit": 0,
+      "magazineSize": 0,
+      "reducedNoise": 0,
+      "shieldCharge": 0,
+      "backpackSlots": 0,
+      "quickUseSlots": 0,
+      "damagePerSecond": 0,
+      "movementPenalty": 0,
+      "safePocketSlots": 0,
+      "damageMitigation": 0,
+      "healingPerSecond": 0,
+      "reducedEquipTime": 0,
+      "staminaPerSecond": -25,
+      "increasedADSSpeed": 0,
+      "increasedFireRate": 0,
+      "reducedReloadTime": 0,
+      "illuminationRadius": 0,
+      "increasedEquipTime": 0,
+      "reducedUnequipTime": 0,
+      "shieldCompatibility": 0,
+      "increasedUnequipTime": 0,
+      "reducedVerticalRecoil": 0,
+      "increasedBulletVelocity": 0,
+      "increasedVerticalRecoil": 0,
+      "reducedMaxShotDispersion": 0,
+      "reducedPerShotDispersion": 0,
+      "reducedDurabilityBurnRate": 0,
+      "reducedRecoilRecoveryTime": 0,
+      "increasedRecoilRecoveryTime": 0,
+      "reducedDispersionRecoveryTime": 0
+    },
+    "flavor_text": null,
+    "subcategory": null,
+    "created_at": "2025-09-23T18:21:03.51415+00:00",
+    "updated_at": "2025-10-31T14:20:02.508155+00:00",
+    "shield_type": null,
+    "loot_area": null,
+    "sources": null,
+    "ammo_type": null,
+    "locations": [],
+    "components": [
+      {
+        "quantity": 4,
+        "component": {
+          "id": "chemicals",
+          "icon": "https://cdn.metaforge.app/arc-raiders/icons/chemicals.webp",
+          "name": "Chemicals",
+          "rarity": "Common",
+          "item_type": "Basic Material"
+        }
+      },
+      {
+        "quantity": 2,
+        "component": {
+          "id": "rubber-parts-recipe",
+          "icon": "https://cdn.metaforge.app/arc-raiders/icons/rubber-parts-recipe.webp",
+          "name": "Rubber Parts",
+          "rarity": "Common",
+          "item_type": "Basic Material"
+        }
+      }
+    ],
+    "used_in": [],
+    "recycle_components": [
+      {
+        "quantity": 1,
+        "component": {
+          "id": "chemicals",
+          "icon": "https://cdn.metaforge.app/arc-raiders/icons/chemicals.webp",
+          "name": "Chemicals",
+          "rarity": "Common",
+          "item_type": "Basic Material",
+          "description": "Used to craft medical supplies, explosives, and utility items."
+        }
+      },
+      {
+        "quantity": 1,
+        "component": {
+          "id": "rubber-parts-recipe",
+          "icon": "https://cdn.metaforge.app/arc-raiders/icons/rubber-parts-recipe.webp",
+          "name": "Rubber Parts",
+          "rarity": "Common",
+          "item_type": "Basic Material",
+          "description": "Used to craft a wide range of items."
+        }
+      }
+    ],
+    "recycle_from": [],
+    "mods": [],
+    "dropped_by": [],
+    "sold_by": []
+  }
+]

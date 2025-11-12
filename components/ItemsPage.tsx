@@ -8,6 +8,7 @@ import ItemDetailModal from './ItemDetailModal';
 import CustomSelect from './CustomSelect';
 import MultiSelect from './MultiSelect';
 import { Language, getTranslation } from '@/lib/translations';
+import { useItemTranslation } from '@/lib/useItemTranslation';
 
 interface ItemsPageProps {
   items: Item[];
@@ -37,6 +38,7 @@ export default function ItemsPage({ items, initialFilters = {} }: ItemsPageProps
   });
   const [selectedItem, setSelectedItem] = useState<Item | null>(null);
   const [language, setLanguage] = useState<Language>('en');
+  const { translateItem, translateItems, loading: translationsLoading } = useItemTranslation(language);
 
   // Sync filters with URL
   useEffect(() => {
@@ -83,9 +85,9 @@ export default function ItemsPage({ items, initialFilters = {} }: ItemsPageProps
     };
   }, [items]);
 
-  // Filter items
+  // Filter and translate items
   const filteredItems = useMemo(() => {
-    return items.filter((item) => {
+    let filtered = items.filter((item) => {
       // Search filter
       if (filters.search) {
         const searchLower = filters.search.toLowerCase();
@@ -109,7 +111,10 @@ export default function ItemsPage({ items, initialFilters = {} }: ItemsPageProps
 
       return true;
     });
-  }, [items, filters]);
+
+    // Apply translations
+    return translateItems(filtered);
+  }, [items, filters, translateItems]);
 
   return (
     <div className="min-h-screen bg-arc-blue">

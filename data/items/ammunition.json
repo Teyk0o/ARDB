@@ -1,0 +1,653 @@
+[
+  {
+    "id": "energy-ammo",
+    "name": "Energy Clip",
+    "description": "Ammo used for energy weapons. One clip will fully charge a single weapon.",
+    "item_type": "Ammunition",
+    "loadout_slots": [
+      "backpack",
+      "safePocket"
+    ],
+    "icon": "https://cdn.metaforge.app/arc-raiders/icons/energy-ammo.webp",
+    "rarity": "Rare",
+    "value": 5,
+    "workbench": "",
+    "stat_block": {
+      "range": 0,
+      "damage": 0,
+      "health": 0,
+      "radius": 0,
+      "shield": 0,
+      "weight": 0.3,
+      "agility": 0,
+      "arcStun": 0,
+      "healing": 0,
+      "stamina": 0,
+      "stealth": 0,
+      "useTime": 0,
+      "duration": 0,
+      "fireRate": 0,
+      "stability": 0,
+      "stackSize": 5,
+      "damageMult": 0,
+      "raiderStun": 0,
+      "weightLimit": 0,
+      "augmentSlots": 0,
+      "healingSlots": 0,
+      "magazineSize": 0,
+      "reducedNoise": 0,
+      "shieldCharge": 0,
+      "backpackSlots": 0,
+      "quickUseSlots": 0,
+      "damagePerSecond": 0,
+      "movementPenalty": 0,
+      "safePocketSlots": 0,
+      "damageMitigation": 0,
+      "healingPerSecond": 0,
+      "reducedEquipTime": 0,
+      "staminaPerSecond": 0,
+      "increasedADSSpeed": 0,
+      "increasedFireRate": 0,
+      "reducedReloadTime": 0,
+      "illuminationRadius": 0,
+      "increasedEquipTime": 0,
+      "reducedUnequipTime": 0,
+      "shieldCompatibility": "",
+      "increasedUnequipTime": 0,
+      "reducedVerticalRecoil": 0,
+      "increasedBulletVelocity": 0,
+      "increasedVerticalRecoil": 0,
+      "reducedMaxShotDispersion": 0,
+      "reducedPerShotDispersion": 0,
+      "reducedDurabilityBurnRate": 0,
+      "reducedRecoilRecoveryTime": 0,
+      "increasedRecoilRecoveryTime": 0,
+      "reducedDispersionRecoveryTime": 0
+    },
+    "flavor_text": null,
+    "subcategory": null,
+    "created_at": "2025-09-23T18:21:03.51415+00:00",
+    "updated_at": "2025-11-05T23:40:56.648481+00:00",
+    "shield_type": null,
+    "loot_area": null,
+    "sources": null,
+    "ammo_type": null,
+    "locations": [],
+    "components": [
+      {
+        "quantity": 1,
+        "component": {
+          "id": "advanced-arc-powercell",
+          "icon": "https://cdn.metaforge.app/arc-raiders/icons/advanced-arc-powercell.webp",
+          "name": "Advanced ARC Powercell",
+          "rarity": "Rare",
+          "item_type": "Misc"
+        }
+      },
+      {
+        "quantity": 2,
+        "component": {
+          "id": "battery",
+          "icon": "https://cdn.metaforge.app/arc-raiders/icons/battery.webp",
+          "name": "Battery",
+          "rarity": "Uncommon",
+          "item_type": "Topside Material"
+        }
+      }
+    ],
+    "used_in": [],
+    "recycle_components": [],
+    "recycle_from": [],
+    "mods": [],
+    "dropped_by": [],
+    "sold_by": [
+      {
+        "price": 3000,
+        "trader_name": "TianWen"
+      }
+    ]
+  },
+  {
+    "id": "heavy-ammo",
+    "name": "Heavy Ammo",
+    "description": "Heavy bullets used mainly with large-caliber weapons.",
+    "item_type": "Ammunition",
+    "loadout_slots": [
+      "backpack",
+      "safePocket"
+    ],
+    "icon": "https://cdn.metaforge.app/arc-raiders/icons/heavy-ammo.webp",
+    "rarity": "Common",
+    "value": 12,
+    "workbench": "Workbench",
+    "stat_block": {
+      "range": 0,
+      "damage": 0,
+      "radius": 0,
+      "shield": 0,
+      "weight": 0.05,
+      "agility": 0,
+      "arcStun": 0,
+      "healing": 0,
+      "stamina": 0,
+      "stealth": 0,
+      "useTime": 0,
+      "duration": 0,
+      "fireRate": 0,
+      "stability": 0,
+      "stackSize": 40,
+      "damageMult": 0,
+      "raiderStun": 0,
+      "weightLimit": 0,
+      "shieldCharge": 0,
+      "backpackSlots": 0,
+      "quickUseSlots": 0,
+      "damagePerSecond": 0,
+      "movementPenalty": 0,
+      "safePocketSlots": 0,
+      "damageMitigation": 0,
+      "healingPerSecond": 0,
+      "reducedEquipTime": 0,
+      "staminaPerSecond": 0,
+      "increasedADSSpeed": 0,
+      "increasedFireRate": 0,
+      "reducedReloadTime": 0,
+      "reducedUnequipTime": 0,
+      "shieldCompatibility": "",
+      "reducedVerticalRecoil": 0,
+      "increasedVerticalRecoil": 0,
+      "reducedDurabilityBurnRate": 0,
+      "increasedRecoilRecoveryTime": 0
+    },
+    "flavor_text": null,
+    "subcategory": null,
+    "created_at": "2025-09-23T18:21:03.51415+00:00",
+    "updated_at": "2025-10-28T12:58:32.940898+00:00",
+    "shield_type": null,
+    "loot_area": null,
+    "sources": null,
+    "ammo_type": null,
+    "locations": [],
+    "components": [
+      {
+        "quantity": 3,
+        "component": {
+          "id": "metal-parts",
+          "icon": "https://cdn.metaforge.app/arc-raiders/icons/metal-parts.webp",
+          "name": "Metal Parts",
+          "rarity": "Common",
+          "item_type": "Basic Material"
+        }
+      },
+      {
+        "quantity": 2,
+        "component": {
+          "id": "chemicals",
+          "icon": "https://cdn.metaforge.app/arc-raiders/icons/chemicals.webp",
+          "name": "Chemicals",
+          "rarity": "Common",
+          "item_type": "Basic Material"
+        }
+      }
+    ],
+    "used_in": [],
+    "recycle_components": [],
+    "recycle_from": [],
+    "mods": [],
+    "dropped_by": [
+      {
+        "id": "bb0b7bf1-92cb-43fc-b129-5ccbb65222ba",
+        "arc": {
+          "id": "rocketeer",
+          "icon": "https://unhbvkszwhczbjxgetgk.supabase.co/storage/v1/object/public/images/arc-raiders/icons/rocketeer.webp",
+          "name": "Rocketeer",
+          "description": "This is a formidable flying ARC, a pure engine of destruction that dominates the airspace. It poses a significant threat not just because it flies, but because of its powerful rocket attacks and devastating focus on area-of-effect (AoE) damage. This unit is designed to saturate an area, turning cover into a liability and forcing Raiders to constantly relocate or be wiped out by the sheer force of its explosions. Treat it like a mobile artillery piece—it hits hard and wide."
+        },
+        "arc_id": "rocketeer",
+        "created_at": "2025-11-04T16:34:18.669309+00:00"
+      },
+      {
+        "id": "a9efe448-1b25-49b3-911a-66fcfb40e418",
+        "arc": {
+          "id": "sentinel",
+          "icon": "https://unhbvkszwhczbjxgetgk.supabase.co/storage/v1/object/public/images/arc-raiders/icons/sentinel.webp",
+          "name": "Sentinel",
+          "description": "A large unarmored turret that sits atop buildings and ledges. Always found outside and usually very high up. Contains a small vulnerable capsule attached to it's swiveling arm.\n\nTraces movement and will fire off a single Heavy round every 5 seconds while having line-of-sight on a Raider."
+        },
+        "arc_id": "sentinel",
+        "created_at": "2025-11-04T16:35:09.353207+00:00"
+      }
+    ],
+    "sold_by": [
+      {
+        "price": 900,
+        "trader_name": "TianWen"
+      }
+    ]
+  },
+  {
+    "id": "launcher-ammo",
+    "name": "Launcher Ammo",
+    "description": "Anti-ARC payloads used mainly by the Hullcracker",
+    "item_type": "Ammunition",
+    "loadout_slots": [],
+    "icon": "https://cdn.metaforge.app/arc-raiders/icons/launcher-ammo.webp",
+    "rarity": "Rare",
+    "value": 0,
+    "workbench": null,
+    "stat_block": {
+      "range": 0,
+      "damage": 0,
+      "health": 0,
+      "radius": 0,
+      "shield": 0,
+      "weight": 1,
+      "agility": 0,
+      "arcStun": 0,
+      "healing": 0,
+      "stamina": 0,
+      "stealth": 0,
+      "useTime": 0,
+      "duration": 0,
+      "fireRate": 0,
+      "stability": 0,
+      "stackSize": 0,
+      "damageMult": 0,
+      "raiderStun": 0,
+      "weightLimit": 0,
+      "magazineSize": 0,
+      "reducedNoise": 0,
+      "shieldCharge": 0,
+      "backpackSlots": 0,
+      "quickUseSlots": 0,
+      "damagePerSecond": 0,
+      "movementPenalty": 0,
+      "safePocketSlots": 0,
+      "damageMitigation": 0,
+      "healingPerSecond": 0,
+      "reducedEquipTime": 0,
+      "staminaPerSecond": 0,
+      "increasedADSSpeed": 0,
+      "increasedFireRate": 0,
+      "reducedReloadTime": 0,
+      "illuminationRadius": 0,
+      "increasedEquipTime": 0,
+      "reducedUnequipTime": 0,
+      "shieldCompatibility": "",
+      "increasedUnequipTime": 0,
+      "reducedVerticalRecoil": 0,
+      "increasedBulletVelocity": 0,
+      "increasedVerticalRecoil": 0,
+      "reducedMaxShotDispersion": 0,
+      "reducedPerShotDispersion": 0,
+      "reducedDurabilityBurnRate": 0,
+      "reducedRecoilRecoveryTime": 0,
+      "increasedRecoilRecoveryTime": 0,
+      "reducedDispersionRecoveryTime": 0
+    },
+    "flavor_text": "Compatible with Hullcracker",
+    "subcategory": "",
+    "created_at": "2025-10-31T11:36:14.342575+00:00",
+    "updated_at": "2025-10-31T11:40:35.988499+00:00",
+    "shield_type": "",
+    "loot_area": "",
+    "sources": null,
+    "ammo_type": "launcher",
+    "locations": [],
+    "components": [],
+    "used_in": [],
+    "recycle_components": [],
+    "recycle_from": [],
+    "mods": [],
+    "dropped_by": [
+      {
+        "id": "e762a63c-0232-4e0a-a528-4b21ec7b9f25",
+        "arc": {
+          "id": "bombardier",
+          "icon": "https://unhbvkszwhczbjxgetgk.supabase.co/storage/v1/object/public/images/arc-raiders/icons/bombardier.webp",
+          "name": "Bombardier",
+          "description": "The Bombardier is an armored ARC that functions as heavy, mobile artillery. Its movement is slow and loud. Armed with a multi-rocket launcher, it unleashes devastating, long-range barrages that can obliterate your entire squad. Do not engage this unit. If you hear its grinding approach, silence your movement and escape the area immediately, as its attention is a death sentence."
+        },
+        "arc_id": "bombardier",
+        "created_at": "2025-11-04T15:56:37.290049+00:00"
+      }
+    ],
+    "sold_by": [
+      {
+        "price": 3000,
+        "trader_name": "TianWen"
+      }
+    ]
+  },
+  {
+    "id": "light-ammo",
+    "name": "Light Ammo",
+    "description": "Light bullets used mainly with SMGs and light handguns. Such as Kettle, Stitcher, Burletta, Hairpin and Bobcat.",
+    "item_type": "Ammunition",
+    "loadout_slots": [
+      "backpack",
+      "safePocket"
+    ],
+    "icon": "https://cdn.metaforge.app/arc-raiders/icons/light-ammo.webp",
+    "rarity": "Common",
+    "value": 4,
+    "workbench": "Workbench",
+    "stat_block": {
+      "range": 0,
+      "damage": 0,
+      "radius": 0,
+      "shield": 0,
+      "weight": 0.017,
+      "agility": 0,
+      "arcStun": 0,
+      "healing": 0,
+      "stamina": 0,
+      "stealth": 0,
+      "useTime": 0,
+      "duration": 0,
+      "fireRate": 0,
+      "stability": 0,
+      "stackSize": 100,
+      "damageMult": 0,
+      "raiderStun": 0,
+      "weightLimit": 0,
+      "shieldCharge": 0,
+      "backpackSlots": 0,
+      "quickUseSlots": 0,
+      "damagePerSecond": 0,
+      "movementPenalty": 0,
+      "safePocketSlots": 0,
+      "damageMitigation": 0,
+      "healingPerSecond": 0,
+      "reducedEquipTime": 0,
+      "staminaPerSecond": 0,
+      "increasedADSSpeed": 0,
+      "increasedFireRate": 0,
+      "reducedReloadTime": 0,
+      "reducedUnequipTime": 0,
+      "shieldCompatibility": "",
+      "reducedVerticalRecoil": 0,
+      "increasedVerticalRecoil": 0,
+      "reducedDurabilityBurnRate": 0,
+      "increasedRecoilRecoveryTime": 0
+    },
+    "flavor_text": null,
+    "subcategory": null,
+    "created_at": "2025-09-23T18:21:03.51415+00:00",
+    "updated_at": "2025-10-28T12:58:32.940898+00:00",
+    "shield_type": null,
+    "loot_area": null,
+    "sources": null,
+    "ammo_type": null,
+    "locations": [],
+    "components": [
+      {
+        "quantity": 3,
+        "component": {
+          "id": "metal-parts",
+          "icon": "https://cdn.metaforge.app/arc-raiders/icons/metal-parts.webp",
+          "name": "Metal Parts",
+          "rarity": "Common",
+          "item_type": "Basic Material"
+        }
+      },
+      {
+        "quantity": 2,
+        "component": {
+          "id": "chemicals",
+          "icon": "https://cdn.metaforge.app/arc-raiders/icons/chemicals.webp",
+          "name": "Chemicals",
+          "rarity": "Common",
+          "item_type": "Basic Material"
+        }
+      }
+    ],
+    "used_in": [],
+    "recycle_components": [],
+    "recycle_from": [],
+    "mods": [],
+    "dropped_by": [
+      {
+        "id": "9e55182c-26bd-43ff-95ff-899f485ba091",
+        "arc": {
+          "id": "wasp",
+          "icon": "https://unhbvkszwhczbjxgetgk.supabase.co/storage/v1/object/public/images/arc-raiders/icons/wasp.webp",
+          "name": "Wasp",
+          "description": "This is the Wasp, a baseline enemy drone that poses a threat through sheer numbers. It is a small, unarmored flyer that peppers Raiders with light-caliber ammunition. You'll almost never encounter a Wasp alone; they operate in tight patrols alongside other Wasps or as escorts for their more dangerous counterpart, the Hornet. The moment it turns aggressive, look for a small red laser to lock onto you for one second—that's your cue to dodge before it unleashes a quick 1.5-second burst of gunfire."
+        },
+        "arc_id": "wasp",
+        "created_at": "2025-11-04T00:46:26.731323+00:00"
+      },
+      {
+        "id": "1a37d45b-08cd-4585-aaa5-b4bb50b4c20d",
+        "arc": {
+          "id": "turret",
+          "icon": "https://unhbvkszwhczbjxgetgk.supabase.co/storage/v1/object/public/images/arc-raiders/icons/turret.webp",
+          "name": "Turret",
+          "description": "This is a small, unarmored turret that provides close-quarters defense for the ARC. Its primary function is to scan constantly for movement, and you’ll typically find it mounted on interior walls inside buildings. Do not confuse this swift little gun with the massive, high-altitude Sentinel turrets you find outside. When it spots a Raider, it immediately opens fire, unleashing a two-second hail of bullets in an attempt to suppress and eliminate the threat quickly. Its lack of armor makes it fragile, but its location makes it dangerous."
+        },
+        "arc_id": "turret",
+        "created_at": "2025-11-04T16:37:04.438328+00:00"
+      }
+    ],
+    "sold_by": [
+      {
+        "price": 900,
+        "trader_name": "TianWen"
+      }
+    ]
+  },
+  {
+    "id": "medium-ammo",
+    "name": "Medium Ammo",
+    "description": "Medium bullets used mainly with medium-caliber weapons. Such as Rattler, Tempest, Arpeggio, Renegade and Torrente.",
+    "item_type": "Ammunition",
+    "loadout_slots": [
+      "backpack",
+      "safePocket"
+    ],
+    "icon": "https://cdn.metaforge.app/arc-raiders/icons/medium-ammo.webp",
+    "rarity": "Common",
+    "value": 6,
+    "workbench": "Workbench",
+    "stat_block": {
+      "range": 0,
+      "damage": 0,
+      "radius": 0,
+      "shield": 0,
+      "weight": 0.025,
+      "agility": 0,
+      "arcStun": 0,
+      "healing": 0,
+      "stamina": 0,
+      "stealth": 0,
+      "useTime": 0,
+      "duration": 0,
+      "fireRate": 0,
+      "stability": 0,
+      "stackSize": 80,
+      "damageMult": 0,
+      "raiderStun": 0,
+      "weightLimit": 0,
+      "shieldCharge": 0,
+      "backpackSlots": 0,
+      "quickUseSlots": 0,
+      "damagePerSecond": 0,
+      "movementPenalty": 0,
+      "safePocketSlots": 0,
+      "damageMitigation": 0,
+      "healingPerSecond": 0,
+      "reducedEquipTime": 0,
+      "staminaPerSecond": 0,
+      "increasedADSSpeed": 0,
+      "increasedFireRate": 0,
+      "reducedReloadTime": 0,
+      "reducedUnequipTime": 0,
+      "shieldCompatibility": "",
+      "reducedVerticalRecoil": 0,
+      "increasedVerticalRecoil": 0,
+      "reducedDurabilityBurnRate": 0,
+      "increasedRecoilRecoveryTime": 0
+    },
+    "flavor_text": null,
+    "subcategory": null,
+    "created_at": "2025-09-23T18:21:03.51415+00:00",
+    "updated_at": "2025-10-28T12:58:32.940898+00:00",
+    "shield_type": null,
+    "loot_area": null,
+    "sources": null,
+    "ammo_type": null,
+    "locations": [],
+    "components": [
+      {
+        "quantity": 3,
+        "component": {
+          "id": "metal-parts",
+          "icon": "https://cdn.metaforge.app/arc-raiders/icons/metal-parts.webp",
+          "name": "Metal Parts",
+          "rarity": "Common",
+          "item_type": "Basic Material"
+        }
+      },
+      {
+        "quantity": 2,
+        "component": {
+          "id": "chemicals",
+          "icon": "https://cdn.metaforge.app/arc-raiders/icons/chemicals.webp",
+          "name": "Chemicals",
+          "rarity": "Common",
+          "item_type": "Basic Material"
+        }
+      }
+    ],
+    "used_in": [],
+    "recycle_components": [],
+    "recycle_from": [],
+    "mods": [],
+    "dropped_by": [
+      {
+        "id": "fa5bf0c5-70ec-42d4-bde7-0ac43df4f3d3",
+        "arc": {
+          "id": "hornet",
+          "icon": "https://unhbvkszwhczbjxgetgk.supabase.co/storage/v1/object/public/images/arc-raiders/icons/hornet.webp",
+          "name": "Hornet",
+          "description": "This is a medium-class drone, easily recognizable by the pair of armored rotors mounted prominently on its front. It rarely operates alone, preferring to patrol the skies alongside a swarm of Wasps or to act as an aerial shield for a larger, ground-based ARC. Its main attack is a focused, high-speed projectile. Watch for the brief, one-second pulse of a red aiming laser—that's your warning before it fires a specialized stun round designed to shred Raider shields and tear through light armor almost instantly."
+        },
+        "arc_id": "hornet",
+        "created_at": "2025-11-04T15:57:35.118713+00:00"
+      },
+      {
+        "id": "87bb0237-527e-41ee-8b62-f79ce5c61728",
+        "arc": {
+          "id": "bastion",
+          "icon": "https://unhbvkszwhczbjxgetgk.supabase.co/storage/v1/object/public/images/arc-raiders/icons/bastion.webp",
+          "name": "Bastion",
+          "description": "A massive, heavily armored ARC unit, built around a terrifying, fully automatic minigun. It rarely moves without air support overhead, which helps it pin down and suppress Raider movement. Listen for its loud, distinct screech—that's your warning before it unleashes a three-second hail of bullets toward the last known enemy position."
+        },
+        "arc_id": "bastion",
+        "created_at": "2025-11-04T15:53:56.825634+00:00"
+      }
+    ],
+    "sold_by": [
+      {
+        "price": 900,
+        "trader_name": "TianWen"
+      }
+    ]
+  },
+  {
+    "id": "shotgun-ammo",
+    "name": "Shotgun ammo",
+    "description": "Shotgun shells used for shotguns.",
+    "item_type": "Ammunition",
+    "loadout_slots": [
+      "backpack",
+      "safePocket"
+    ],
+    "icon": "https://cdn.metaforge.app/arc-raiders/icons/shotgun-ammo.webp",
+    "rarity": "Common",
+    "value": 20,
+    "workbench": "Workbench",
+    "stat_block": {
+      "range": 0,
+      "damage": 0,
+      "radius": 0,
+      "shield": 0,
+      "weight": 0.085,
+      "agility": 0,
+      "arcStun": 0,
+      "healing": 0,
+      "stamina": 0,
+      "stealth": 0,
+      "useTime": 0,
+      "duration": 0,
+      "fireRate": 0,
+      "stability": 0,
+      "stackSize": 20,
+      "damageMult": 0,
+      "raiderStun": 0,
+      "weightLimit": 0,
+      "shieldCharge": 0,
+      "backpackSlots": 0,
+      "quickUseSlots": 0,
+      "damagePerSecond": 0,
+      "movementPenalty": 0,
+      "safePocketSlots": 0,
+      "damageMitigation": 0,
+      "healingPerSecond": 0,
+      "reducedEquipTime": 0,
+      "staminaPerSecond": 0,
+      "increasedADSSpeed": 0,
+      "increasedFireRate": 0,
+      "reducedReloadTime": 0,
+      "reducedUnequipTime": 0,
+      "shieldCompatibility": "",
+      "reducedVerticalRecoil": 0,
+      "increasedVerticalRecoil": 0,
+      "reducedDurabilityBurnRate": 0,
+      "increasedRecoilRecoveryTime": 0
+    },
+    "flavor_text": null,
+    "subcategory": null,
+    "created_at": "2025-09-23T18:21:03.915759+00:00",
+    "updated_at": "2025-10-28T12:58:32.940898+00:00",
+    "shield_type": null,
+    "loot_area": null,
+    "sources": null,
+    "ammo_type": null,
+    "locations": [],
+    "components": [
+      {
+        "quantity": 3,
+        "component": {
+          "id": "metal-parts",
+          "icon": "https://cdn.metaforge.app/arc-raiders/icons/metal-parts.webp",
+          "name": "Metal Parts",
+          "rarity": "Common",
+          "item_type": "Basic Material"
+        }
+      },
+      {
+        "quantity": 2,
+        "component": {
+          "id": "chemicals",
+          "icon": "https://cdn.metaforge.app/arc-raiders/icons/chemicals.webp",
+          "name": "Chemicals",
+          "rarity": "Common",
+          "item_type": "Basic Material"
+        }
+      }
+    ],
+    "used_in": [],
+    "recycle_components": [],
+    "recycle_from": [],
+    "mods": [],
+    "dropped_by": [],
+    "sold_by": [
+      {
+        "price": 900,
+        "trader_name": "TianWen"
+      }
+    ]
+  }
+]
