@@ -1,33 +1,46 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import ContributionBanner from "@/components/ContributionBanner";
+import LanguageDetector from "@/components/LanguageDetector";
+import { getSEOConfig } from "@/lib/seoConfig";
+
+const seoEn = getSEOConfig('en');
 
 export const metadata: Metadata = {
-  title: "Arc Raiders Database - Complete Item Guide & Crafting Recipes",
-  description: "Arc Raiders Database: 485+ items with crafting recipes, recycling guides & stats. Search & filter weapons, materials, and equipment.",
-  keywords: [
-    "Arc Raiders",
-    "Arc Raiders Database",
-    "Arc Raiders Items",
-    "Arc Raiders Crafting",
-    "Arc Raiders Recipes",
-    "Arc Raiders Guide",
-    "Arc Raiders Wiki",
-    "Embark Studios",
-    "Recycling Guide",
-    "Item Stats",
-    "Loot Guide",
-  ],
+  title: seoEn.title,
+  description: seoEn.description,
+  keywords: seoEn.keywords,
   authors: [{ name: "Teyk0o", url: "https://github.com/Teyk0o" }],
   creator: "Teyk0o",
   publisher: "Teyk0o",
   metadataBase: new URL("https://www.arcraidersdatabase.com"),
   alternates: {
     canonical: "/",
+    languages: {
+      'en': '/',
+      'fr': '/',
+      'de': '/',
+      'es': '/',
+      'pt': '/',
+      'pl': '/',
+      'no': '/',
+      'da': '/',
+      'it': '/',
+      'ru': '/',
+      'ja': '/',
+      'zh-TW': '/',
+      'uk': '/',
+      'zh-CN': '/',
+      'kr': '/',
+      'tr': '/',
+      'hr': '/',
+      'sr': '/',
+      'x-default': '/',
+    },
   },
   openGraph: {
-    title: "Arc Raiders Database - Complete Item Guide & Crafting Recipes",
-    description: "Arc Raiders Database: 485+ items with crafting recipes, recycling guides & stats. Search & filter weapons, materials, and equipment.",
+    title: seoEn.ogTitle,
+    description: seoEn.ogDescription,
     url: "https://www.arcraidersdatabase.com",
     siteName: "Arc Raiders Database",
     images: [
@@ -43,8 +56,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Arc Raiders Database - Complete Item Guide",
-    description: "Arc Raiders Database: 485+ items with crafting recipes, recycling guides & stats. Search & filter weapons, materials, and equipment.",
+    title: seoEn.twitterTitle,
+    description: seoEn.twitterDescription,
     images: ["/metapreview.png"],
     creator: "@Teyk0o",
   },
@@ -88,7 +101,7 @@ export default function RootLayout({
       name: 'Teyk0o',
       url: 'https://github.com/Teyk0o',
     },
-    inLanguage: ['en', 'fr'],
+    inLanguage: ['en', 'fr', 'de', 'es', 'pt', 'pl', 'no', 'da', 'it', 'ru', 'ja', 'zh-TW', 'uk', 'zh-CN', 'kr', 'tr', 'hr', 'sr'],
     about: {
       '@type': 'VideoGame',
       name: 'Arc Raiders',
@@ -96,6 +109,14 @@ export default function RootLayout({
         '@type': 'Organization',
         name: 'Embark Studios',
       },
+    },
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: 'https://www.arcraidersdatabase.com/?search={search_term_string}',
+      },
+      'query-input': 'required name=search_term_string',
     },
   };
 
@@ -113,6 +134,7 @@ export default function RootLayout({
         />
       </head>
       <body className="antialiased">
+        <LanguageDetector />
         {children}
         <ContributionBanner />
       </body>

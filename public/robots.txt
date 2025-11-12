@@ -1,6 +1,21 @@
-# Allow all crawlers
+# Arc Raiders Database Robots Configuration
 User-agent: *
 Allow: /
+Disallow: /.next/
+Disallow: /api/
+
+# Optimize crawling
+Crawl-delay: 1
 
 # Sitemap location
-Sitemap: https://ardb.vercel.app/sitemap.xml
+Sitemap: https://www.arcraidersdatabase.com/sitemap.xml
+
+# Google-specific
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1

@@ -1,0 +1,5 @@
+Contact: https://github.com/Teyk0o/ARDB/issues
+Security-Contact: https://github.com/Teyk0o
+Disclosure: https://github.com/Teyk0o/ARDB/security/advisories
+Canonical: https://www.arcraidersdatabase.com/.well-known/security.txt
+Policy: https://github.com/Teyk0o/ARDB/blob/main/README.md
