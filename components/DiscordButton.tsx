@@ -33,7 +33,7 @@ export default function DiscordButton() {
 
   useEffect(() => {
     const checkBannerPosition = () => {
-      const banner = document.querySelector('[data-contribution-banner]');
+      const banner = document.querySelector('[data-contribution-banner]') as HTMLElement | null;
       if (banner) {
         const bannerRect = banner.getBoundingClientRect();
         // Si la banner est visible (en bas de l'écran), monter le bouton
