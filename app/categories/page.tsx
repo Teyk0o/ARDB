@@ -123,10 +123,15 @@ export default function CategoriesPage() {
 
       {/* Footer */}
       <footer className="border-t border-arc-blue-lighter mt-12 py-8">
-        <div className="container mx-auto px-4 text-center">
+        <div className="container mx-auto px-4 text-center space-y-2">
           <p className="text-arc-white/70 text-sm">
             <a href="/" className="text-arc-yellow hover:underline">
               Back to Database
+            </a>
+          </p>
+          <p className="text-arc-white/70 text-sm">
+            <a href="/translate" className="text-arc-yellow hover:underline">
+              Help Translate
             </a>
           </p>
         </div>

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import ContributionBanner from "@/components/ContributionBanner";
 
 export const metadata: Metadata = {
   title: "Arc Raiders Database - Complete Item Guide & Crafting Recipes",
@@ -113,6 +114,7 @@ export default function RootLayout({
       </head>
       <body className="antialiased">
         {children}
+        <ContributionBanner />
       </body>
     </html>
   );

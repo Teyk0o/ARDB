@@ -242,7 +242,7 @@ export default function ItemsPage({ items, initialFilters = {} }: ItemsPageProps
         <div className="container mx-auto px-4 text-center">
           <p className="text-arc-white/70 text-base font-medium mb-3">{t.disclaimer}</p>
           <p className="text-arc-white/50 text-sm mb-2">{t.credits}</p>
-          <div className="flex items-center justify-center gap-2 mb-2">
+          <div className="flex items-center justify-center gap-2 mb-2 flex-wrap">
             <span className="text-arc-white/60 text-sm">{t.openSource}</span>
             <a
               href="https://github.com/Teyk0o/ARDB"
@@ -251,6 +251,13 @@ export default function ItemsPage({ items, initialFilters = {} }: ItemsPageProps
               className="text-arc-yellow hover:text-arc-yellow/80 font-bold text-sm transition-colors underline"
             >
               {t.github}
+            </a>
+            <span className="text-arc-white/60 text-sm">|</span>
+            <a
+              href="/translate"
+              className="text-arc-yellow hover:text-arc-yellow/80 font-bold text-sm transition-colors underline"
+            >
+              Help Translate
             </a>
           </div>
           <p className="text-arc-white/50 text-xs mb-2">{t.license}</p>
