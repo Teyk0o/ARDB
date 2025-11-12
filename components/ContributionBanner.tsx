@@ -425,7 +425,7 @@ export default function ContributionBanner() {
           <button
             onClick={() => setShowFeatureModal(false)}
             type="button"
-            className="absolute top-4 right-4 w-10 h-10 bg-arc-blue-light hover:bg-red-500/20 rounded-full flex items-center justify-center text-arc-white text-2xl hover:text-red-400 transition-all z-50"
+            className="absolute top-4 right-4 w-10 h-10 bg-arc-blue-light hover:bg-red-500/20 rounded-full flex items-center justify-center text-arc-white text-2xl hover:text-red-400 transition-all z-50 cursor-pointer"
           >
             ✕
           </button>
