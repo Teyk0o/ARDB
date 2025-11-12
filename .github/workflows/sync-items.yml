@@ -21,8 +21,19 @@ jobs:
           curl -s "https://raw.githubusercontent.com/RaidTheory/arcraiders-data/refs/heads/main/items.json" \
             -o items-new.json
 
-          # Compare with existing file
-          if cmp -s "data/items.json" items-new.json; then
+      - name: Remove duplicates from downloaded data
+        run: |
+          # Create temporary directory for processing
+          mkdir -p temp
+          cp items-new.json temp/items.json
+          cp data/items.json temp/items-current.json
+
+          # Process both files to remove duplicates for fair comparison
+          node scripts/remove-duplicates.js temp/items.json
+          node scripts/remove-duplicates.js temp/items-current.json
+
+          # Compare the cleaned files
+          if cmp -s "temp/items-current.json" "temp/items.json"; then
             echo "No changes detected"
             echo "CHANGES_DETECTED=false" >> $GITHUB_ENV
           else
@@ -31,9 +42,12 @@ jobs:
             echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
           fi
 
-      - name: Remove duplicate items
+          # Cleanup temp directory
+          rm -rf temp
+
+      - name: Remove duplicate items before committing
         if: env.CHANGES_DETECTED == 'true'
-        run: node scripts/remove-duplicates.js
+        run: node scripts/remove-duplicates.js data/items.json
 
       - name: Commit and push if changed
         if: env.CHANGES_DETECTED == 'true'

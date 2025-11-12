@@ -1,7 +1,12 @@
 const fs = require('fs');
 const path = require('path');
 
-const itemsPath = path.join(__dirname, '../data/items.json');
+// Allow custom path as command line argument, default to data/items.json
+const customPath = process.argv[2];
+const itemsPath = customPath
+  ? path.resolve(customPath)
+  : path.join(__dirname, '../data/items.json');
+
 const data = JSON.parse(fs.readFileSync(itemsPath, 'utf-8'));
 
 const ids = new Set();
