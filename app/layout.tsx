@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Arc Raiders Database - Complete Item Guide & Crafting Recipes",
-  description: "Explore the complete Arc Raiders item database with 485+ items, crafting recipes, recycling guides, and detailed statistics. Search, filter, and discover all weapons, materials, and equipment in Arc Raiders.",
+  description: "Arc Raiders Database: 485+ items with crafting recipes, recycling guides & stats. Search & filter weapons, materials, and equipment.",
   keywords: [
     "Arc Raiders",
     "Arc Raiders Database",
@@ -20,18 +20,18 @@ export const metadata: Metadata = {
   authors: [{ name: "Teyk0o", url: "https://github.com/Teyk0o" }],
   creator: "Teyk0o",
   publisher: "Teyk0o",
-  metadataBase: new URL("https://ardb.vercel.app"),
+  metadataBase: new URL("https://www.arcraidersdatabase.com"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     title: "Arc Raiders Database - Complete Item Guide & Crafting Recipes",
-    description: "Explore the complete Arc Raiders item database with 485+ items, crafting recipes, recycling guides, and detailed statistics.",
-    url: "https://ardb.vercel.app",
+    description: "Arc Raiders Database: 485+ items with crafting recipes, recycling guides & stats. Search & filter weapons, materials, and equipment.",
+    url: "https://www.arcraidersdatabase.com",
     siteName: "Arc Raiders Database",
     images: [
       {
-        url: "/ARC_Raider_Stacked_White_Color.png",
+        url: "/metapreview.png",
         width: 1200,
         height: 630,
         alt: "Arc Raiders Database",
@@ -43,9 +43,17 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Arc Raiders Database - Complete Item Guide",
-    description: "Explore 485+ Arc Raiders items with crafting recipes, recycling guides, and detailed statistics.",
-    images: ["/ARC_Raider_Stacked_White_Color.png"],
+    description: "Arc Raiders Database: 485+ items with crafting recipes, recycling guides & stats. Search & filter weapons, materials, and equipment.",
+    images: ["/metapreview.png"],
     creator: "@Teyk0o",
+  },
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "Arc Raiders Database",
+  },
+  formatDetection: {
+    telephone: false,
   },
   robots: {
     index: true,
@@ -73,7 +81,7 @@ export default function RootLayout({
     '@type': 'WebSite',
     name: 'Arc Raiders Database',
     description: 'Complete Arc Raiders item database with crafting recipes, recycling guides, and detailed statistics.',
-    url: 'https://ardb.vercel.app',
+    url: 'https://www.arcraidersdatabase.com',
     author: {
       '@type': 'Person',
       name: 'Teyk0o',
@@ -93,6 +101,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png" />
+        <link rel="icon" href="/favicon/favicon.ico" />
+        <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png" />
+        <link rel="manifest" href="/favicon/site.webmanifest" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

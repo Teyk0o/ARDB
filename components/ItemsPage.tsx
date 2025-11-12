@@ -1,24 +1,69 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { Item, FilterOptions } from '@/types/item';
 import ItemCard from './ItemCard';
 import ItemDetailModal from './ItemDetailModal';
 import CustomSelect from './CustomSelect';
+import MultiSelect from './MultiSelect';
 import { Language, getTranslation } from '@/lib/translations';
 
 interface ItemsPageProps {
   items: Item[];
+  initialFilters?: { [key: string]: string | string[] | undefined };
 }
 
-export default function ItemsPage({ items }: ItemsPageProps) {
+export default function ItemsPage({ items, initialFilters = {} }: ItemsPageProps) {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
+  const getInitialTypes = () => {
+    if (initialFilters.type) {
+      const type = Array.isArray(initialFilters.type) ? initialFilters.type[0] : initialFilters.type;
+      return [type];
+    }
+    if (initialFilters.types) {
+      const types = typeof initialFilters.types === 'string' ? initialFilters.types.split(',') : initialFilters.types;
+      return Array.isArray(types) ? types : [types];
+    }
+    return [];
+  };
+
   const [filters, setFilters] = useState<FilterOptions>({
     search: '',
-    type: 'all',
-    rarity: 'all',
+    types: getInitialTypes(),
+    rarities: [],
   });
   const [selectedItem, setSelectedItem] = useState<Item | null>(null);
   const [language, setLanguage] = useState<Language>('en');
+
+  // Sync filters with URL
+  useEffect(() => {
+    const params = new URLSearchParams();
+
+    if (filters.search) {
+      params.set('search', filters.search);
+    }
+    if (filters.types.length > 0) {
+      params.set('types', filters.types.join(','));
+    }
+    if (filters.rarities.length > 0) {
+      params.set('rarities', filters.rarities.join(','));
+    }
+
+    const queryString = params.toString();
+    const newUrl = queryString ? `/?${queryString}` : '/';
+    router.push(newUrl, { scroll: false } as any);
+  }, [filters, router]);
+
+  const resetFilters = () => {
+    setFilters({
+      search: '',
+      types: [],
+      rarities: [],
+    });
+  };
 
   const t = getTranslation(language);
 
@@ -52,13 +97,13 @@ export default function ItemsPage({ items }: ItemsPageProps) {
         }
       }
 
-      // Type filter
-      if (filters.type !== 'all' && item.item_type !== filters.type) {
+      // Type filter (multiple selection)
+      if (filters.types.length > 0 && !filters.types.includes(item.item_type)) {
         return false;
       }
 
-      // Rarity filter
-      if (filters.rarity !== 'all' && item.rarity !== filters.rarity) {
+      // Rarity filter (multiple selection)
+      if (filters.rarities.length > 0 && !filters.rarities.includes(item.rarity || '')) {
         return false;
       }
 
@@ -80,8 +125,15 @@ export default function ItemsPage({ items }: ItemsPageProps) {
               />
               <p className="text-xl text-arc-white/70">{t.subtitle}</p>
             </div>
-            {/* Language Selector */}
-            <div className="flex-shrink-0">
+            {/* Navigation Links */}
+            <div className="flex items-center gap-4">
+              <a
+                href="/categories"
+                className="text-arc-yellow hover:text-arc-yellow/80 font-medium transition-colors hidden sm:block"
+              >
+                Categories
+              </a>
+              {/* Language Selector */}
               <CustomSelect
                 value={language}
                 onChange={(value) => setLanguage(value as Language)}
@@ -111,24 +163,30 @@ export default function ItemsPage({ items }: ItemsPageProps) {
             </div>
 
             {/* Type Filter */}
-            <CustomSelect
-              value={filters.type}
-              onChange={(value) => setFilters({ ...filters, type: value })}
-              options={[
-                { value: 'all', label: t.allTypes },
-                ...types.map(type => ({ value: type, label: type }))
-              ]}
+            <MultiSelect
+              values={filters.types}
+              onChange={(selectedTypes) => setFilters({ ...filters, types: selectedTypes })}
+              options={types.map(type => ({ value: type, label: type }))}
+              placeholder={t.allTypes}
             />
 
             {/* Rarity Filter */}
-            <CustomSelect
-              value={filters.rarity}
-              onChange={(value) => setFilters({ ...filters, rarity: value })}
-              options={[
-                { value: 'all', label: t.allRarities },
-                ...rarities.map(rarity => ({ value: rarity, label: rarity }))
-              ]}
+            <MultiSelect
+              values={filters.rarities}
+              onChange={(selectedRarities) => setFilters({ ...filters, rarities: selectedRarities })}
+              options={rarities.map(rarity => ({ value: rarity, label: rarity }))}
+              placeholder={t.allRarities}
             />
+
+            {/* Reset Button */}
+            {(filters.types.length > 0 || filters.rarities.length > 0) && (
+              <button
+                onClick={resetFilters}
+                className="bg-arc-blue border-2 border-arc-blue-lighter hover:border-arc-yellow rounded-lg px-4 py-3 text-arc-white font-medium transition-colors whitespace-nowrap cursor-pointer"
+              >
+                Reset
+              </button>
+            )}
           </div>
 
           {/* Stats */}
@@ -153,10 +211,11 @@ export default function ItemsPage({ items }: ItemsPageProps) {
 
       {/* Items Grid */}
       <main className="container mx-auto px-4 py-8">
+        <h1 className="sr-only">Arc Raiders Item Database - Complete Guide and Crafting Recipes</h1>
         {filteredItems.length === 0 ? (
           <div className="text-center py-20">
             <div className="text-6xl mb-4">🔍</div>
-            <h3 className="text-2xl font-bold text-arc-white mb-2">{t.noItemsFound}</h3>
+            <h2 className="text-2xl font-bold text-arc-white mb-2">{t.noItemsFound}</h2>
             <p className="text-arc-white/60">{t.tryAdjusting}</p>
           </div>
         ) : (

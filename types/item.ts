@@ -68,6 +68,6 @@ export interface Item {
 
 export interface FilterOptions {
   search: string;
-  type: string;
-  rarity: string;
+  types: string[];
+  rarities: string[];
 }

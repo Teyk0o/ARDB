@@ -2,8 +2,13 @@ import ItemsPage from '@/components/ItemsPage';
 import itemsData from '@/data/items.json';
 import { Item } from '@/types/item';
 
-export default function Home() {
-  const items = itemsData as Item[];
+interface HomeProps {
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
+}
 
-  return <ItemsPage items={items} />;
+export default async function Home({ searchParams }: HomeProps) {
+  const items = itemsData as Item[];
+  const params = await searchParams;
+
+  return <ItemsPage items={items} initialFilters={params} />;
 }
