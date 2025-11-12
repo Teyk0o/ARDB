@@ -1,1942 +1,1942 @@
 {
   "energy-ammo": {
-    "name": "Energy Clip",
-    "description": "Ammo used for energy weapons. One clip will fully charge a single weapon."
+    "name": "Clip énergétique",
+    "description": "Munitions utilisées pour les armes à énergie. Un chargeur chargera complètement une seule arme."
   },
   "heavy-ammo": {
-    "name": "Heavy Ammo",
-    "description": "Heavy bullets used mainly with large-caliber weapons."
+    "name": "Munitions lourdes",
+    "description": "Balles lourdes utilisées principalement avec des armes de gros calibre."
   },
   "launcher-ammo": {
-    "name": "Launcher Ammo",
-    "description": "Anti-ARC payloads used mainly by the Hullcracker"
+    "name": "Munitions de lanceur",
+    "description": "Charges utiles anti-ARC utilisées principalement par le Hullcracker"
   },
   "light-ammo": {
-    "name": "Light Ammo",
-    "description": "Light bullets used mainly with SMGs and light handguns. Such as Kettle, Stitcher, Burletta, Hairpin and Bobcat."
+    "name": "Munitions légères",
+    "description": "Balles légères utilisées principalement avec les SMG et les armes de poing légères. Tels que Kettle, Stitcher, Burletta, Hairpin et Bobcat."
   },
   "medium-ammo": {
-    "name": "Medium Ammo",
-    "description": "Medium bullets used mainly with medium-caliber weapons. Such as Rattler, Tempest, Arpeggio, Renegade and Torrente."
+    "name": "Munitions moyennes",
+    "description": "Balles moyennes utilisées principalement avec des armes de moyen calibre. Tels que Rattler, Tempest, Arpeggio, Renegade et Torrente."
   },
   "shotgun-ammo": {
-    "name": "Shotgun ammo",
-    "description": "Shotgun shells used for shotguns."
+    "name": "Munitions pour fusil de chasse",
+    "description": "Cartouches de fusil de chasse utilisées pour les fusils de chasse."
   },
   "combat-mk-1": {
-    "name": "Combat Mk. 1",
-    "description": "Basic combat augment. Supports stronger shields, but with limited backpack capacity and Quick Use slots."
+    "name": "Combattez Mk. 1",
+    "description": "Augmentation de combat de base. Prend en charge des boucliers plus puissants, mais avec une capacité de sac à dos limitée et des emplacements d'utilisation rapide."
   },
   "combat-mk-2": {
-    "name": "Combat Mk. 2",
-    "description": "A Combat augment more focused on manoeuvrability than absorbing damage. "
+    "name": "Combattez Mk. 2",
+    "description": "Une augmentation de combat plus axée sur la maniabilité que sur l'absorption des dégâts."
   },
   "combat-mk-3-aggressive": {
-    "name": "Combat Mk. 3 (Aggressive)",
-    "description": "An improved version of the Combat II augment. Supports more shield types, and comes with extra space for grenades."
+    "name": "Combattez Mk. 3 (agressif)",
+    "description": "Une version améliorée de l'augmentation Combat II. Prend en charge davantage de types de boucliers et offre un espace supplémentaire pour les grenades."
   },
   "combat-mk3-flanking": {
-    "name": "Combat Mk.3 (Flanking) ",
-    "description": "A Combat augment more focused on maneuverability than bosorbing damage."
+    "name": "Combat Mk.3 (Flancage)",
+    "description": "Une augmentation de combat plus axée sur la maniabilité que sur l'absorption des dégâts."
   },
   "free-loadout-augment": {
-    "name": "Free Loadout Augment",
-    "description": "Basic augment for rookie Raiders, offering slightly more backpack space and carry capacity."
+    "name": "Augmentation de chargement gratuite",
+    "description": "Augmentation de base pour les Raiders débutants, offrant un peu plus d'espace dans le sac à dos et de capacité de transport."
   },
   "looting-mk-1": {
-    "name": "Looting Mk. 1",
-    "description": "Basic looting augment. More backpack slots and weight capacity, but low defensive and tactical capability."
+    "name": "Pillage de Mk. 1",
+    "description": "Augmentation du pillage de base. Plus d'emplacements pour le sac à dos et de capacité de poids, mais faible capacité défensive et tactique."
   },
   "looting-mk-2": {
-    "name": "Looting Mk. 2",
-    "description": "Significantly increases looting potential; adds slots for trinkets."
+    "name": "Pillage de Mk. 2",
+    "description": "Augmente considérablement le potentiel de pillage ; ajoute des emplacements pour les bibelots."
   },
   "looting-mk-3-cautious": {
-    "name": "Looting MK. 3 (Cautious)",
-    "description": "A looting augment that swaps some carry capacity to increase survivability."
+    "name": "Pillage de MK. 3 (prudent)",
+    "description": "Une augmentation de pillage qui échange une partie de la capacité de transport pour augmenter la capacité de survie."
   },
   "looting-mk-3-survivor": {
-    "name": "Looting MK. 3 (Survivor)",
-    "description": "A heavy-duty pack mule augment. Large weight capacity and large backpack space."
+    "name": "Pillage de MK. 3 (Survivant)",
+    "description": "Une augmentation de mule robuste. Grande capacité de poids et grand espace de sac à dos."
   },
   "tactical-mk-1": {
-    "name": "Tactical Mk. 1",
-    "description": "Basic tactical augment. More Quick Use slots for more tactical choice, but limited survivability and slightly lower looting potential."
+    "name": "Tactique Mk. 1",
+    "description": "Augmentation tactique de base. Plus d'emplacements d'utilisation rapide pour un choix tactique plus large, mais une capacité de survie limitée et un potentiel de pillage légèrement inférieur."
   },
   "tactical-mk-2": {
-    "name": "Tactical Mk. 2",
-    "description": "Adds more backpack space and an extra utility item slot."
+    "name": "Tactique Mk. 2",
+    "description": "Ajoute plus d'espace dans le sac à dos et un emplacement supplémentaire pour les objets utilitaires."
   },
   "tactical-mk3-defensive": {
-    "name": "Tactical Mk.3 (Defensive)",
-    "description": "A defence-focused augment for keeping shields topped up."
+    "name": "Tactique Mk.3 (défensif)",
+    "description": "Une augmentation axée sur la défense pour maintenir les boucliers à niveau."
   },
   "tactical-mk-3-healing": {
-    "name": "Tactical Mk. 3 (Healing)",
-    "description": "A healing-focused augment which adds extra slots for healing items."
+    "name": "Tactique Mk. 3 (Guérison)",
+    "description": "Une augmentation axée sur la guérison qui ajoute des emplacements supplémentaires pour les objets de guérison."
   },
   "advanced-electrical-components-recipe": {
-    "name": "Advanced Electrical Components Blueprint",
-    "description": "Lets you craft an Advanced Electrical Component"
+    "name": "Plan de composants électriques avancés",
+    "description": "Vous permet de créer un composant électrique avancé"
   },
   "advanced-mechanical-components-recipe": {
-    "name": "Advanced Mechanical Components Blueprint",
-    "description": "Lets you craft an Advanced Mechanical Components"
+    "name": "Plan de composants mécaniques avancés",
+    "description": "Vous permet de fabriquer des composants mécaniques avancés"
   },
   "angled-grip-ii-recipe": {
-    "name": "Angled Grip II Blueprint",
-    "description": "Lets you craft an Angled Grip II"
+    "name": "Plan de prise inclinée II",
+    "description": "Vous permet de créer un Angled Grip II"
   },
   "angled-grip-iii-recipe": {
-    "name": "Angled Grip III Blueprint",
-    "description": "Lets you craft an Angled Grip III"
+    "name": "Plan de prise inclinée III",
+    "description": "Vous permet de créer un Angled Grip III"
   },
   "anvil-recipe": {
-    "name": "Anvil Blueprint",
-    "description": "Lets you craft an Anvil - Has high damage output and headshot damage, but slow handling."
+    "name": "Plan d'enclume",
+    "description": "Vous permet de fabriquer une enclume – A des dégâts élevés et des dégâts de tir à la tête, mais une manipulation lente."
   },
   "anvil-splitter-recipe": {
-    "name": "Anvil Splitter Blueprint",
-    "description": "Lets you craft an Anvil Splitter"
+    "name": "Plan du séparateur d'enclume",
+    "description": "Vous permet de fabriquer un séparateur d'enclume"
   },
   "arc-circuitry-recipe": {
-    "name": "ARC Circuitry Blueprint",
-    "description": "Lets you craft an ARC Circuitry"
+    "name": "Plan de circuit ARC",
+    "description": "Vous permet de créer un circuit ARC"
   },
   "barricade-kit-recipe": {
-    "name": "Barricade Kit Blueprint",
-    "description": "Lets you craft a Barricade Kit"
+    "name": "Plan du kit de barricade",
+    "description": "Vous permet de fabriquer un kit de barricade"
   },
   "bettina-blueprint": {
-    "name": "Bettina Blueprint",
-    "description": "Has slow fire rate and high damage output."
+    "name": "Plan de Bettina",
+    "description": "A une cadence de tir lente et des dégâts élevés."
   },
   "blaze-grenade-blueprint": {
-    "name": "Blaze Grenade Blueprint",
-    "description": "Lets you craft a Blaze Grenade"
+    "name": "Plan de grenade flamboyante",
+    "description": "Vous permet de fabriquer une grenade flamboyante"
   },
   "blue-light-stick-blueprint": {
-    "name": "Blue Light Stick Blueprint",
-    "description": "Lets you craft a Blue Light Stick."
+    "name": "Plan du bâton de lumière bleue",
+    "description": "Vous permet de fabriquer un bâton de lumière bleue."
   },
   "bobcat-i-recipe": {
-    "name": "Bobcat Blueprint",
-    "description": "Lets you craft a Bobcat I"
+    "name": "Plan de Bobcat",
+    "description": "Vous permet de fabriquer un Bobcat I"
   },
   "burltetta-recipe": {
-    "name": "Burletta Blueprint",
-    "description": "Lets you craft a Burletta"
+    "name": "Plan de Burletta",
+    "description": "Vous permet de créer une Burletta"
   },
   "combat-mk3-aggressive-blueprint": {
-    "name": "Combat Mk.3 (Aggressive) Blueprint",
-    "description": "An improved version of the Combat II augment. Supports more shield types and comes with extra space for grenades"
+    "name": "Plan de combat Mk.3 (agressif)",
+    "description": "Une version améliorée de l'augmentation Combat II. Prend en charge plus de types de boucliers et est livré avec un espace supplémentaire pour les grenades"
   },
   "combat-mk-3-flanking": {
-    "name": "Combat Mk. 3 (Flanking) Blueprint",
-    "description": "Lets you craft a Combat Mk. 3 (Flanking)"
+    "name": "Combattez Mk. Plan 3 (d'accompagnement)",
+    "description": "Vous permet de fabriquer un Combat Mk. 3 (Flancage)"
   },
   "compensator-ii-recipe": {
-    "name": "Compensator II Blueprint",
-    "description": "Lets you craft a Compensator II"
+    "name": "Plan du Compensateur II",
+    "description": "Vous permet de fabriquer un Compensateur II"
   },
   "compensator-iii-recipe": {
-    "name": "Compensator III Blueprint",
-    "description": "Lets you craft a Compensator III"
+    "name": "Plan du Compensateur III",
+    "description": "Vous permet de fabriquer un Compensateur III"
   },
   "complex-gun-parts-blueprint": {
-    "name": "Complex Gun Parts Blueprint",
-    "description": "Used to craft advanced weapons."
+    "name": "Plan de pièces d'armes complexes",
+    "description": "Utilisé pour fabriquer des armes avancées."
   },
   "defibrillator-recipe": {
-    "name": "Defibrillator Blueprint",
-    "description": "Lets you craft a Defibrillator"
+    "name": "Plan du défibrillateur",
+    "description": "Vous permet de fabriquer un défibrillateur"
   },
   "door-blocker-recipe": {
-    "name": "Door Blocker Blueprint",
-    "description": "Lets you craft Door Blocker"
+    "name": "Plan du bloqueur de porte",
+    "description": "Vous permet de fabriquer un bloqueur de porte"
   },
   "energy-ammo-recipe": {
-    "name": "Energy Ammo Blueprint",
-    "description": "Lets you craft an Energy Ammo"
+    "name": "Plan de munitions énergétiques",
+    "description": "Vous permet de fabriquer une munition énergétique"
   },
   "equalizer-recipe": {
-    "name": "Equalizer Blueprint",
-    "description": "A high capacity experimental beam rifle."
+    "name": "Plan de l'égaliseur",
+    "description": "Un fusil à faisceau expérimental de grande capacité."
   },
   "explosive-mine-blueprint": {
-    "name": "Explosive Mine Blueprint",
-    "description": "Lets you craft an Explosive Mine"
+    "name": "Plan de mine explosive",
+    "description": "Vous permet de fabriquer une mine explosive"
   },
   "extended-barrel-recipe": {
-    "name": "Extended Barrel Blueprint",
-    "description": "Lets you craft an Extended Barrel"
+    "name": "Plan de baril étendu",
+    "description": "Vous permet de fabriquer un baril étendu"
   },
   "extended-light-mag-ii-recipe": {
-    "name": "Extended Light Mag II Blueprint",
-    "description": "Lets you craft a Extended Light Mag II"
+    "name": "Plan de Light Mag II étendu",
+    "description": "Vous permet de fabriquer un Extended Light Mag II"
   },
   "extended-light-mag-iii-recipe": {
-    "name": "Extended Light Mag III Blueprint",
-    "description": "Lets you craft a Extended Light Mag III"
+    "name": "Plan du Light Mag III étendu",
+    "description": "Vous permet de fabriquer un Extended Light Mag III"
   },
   "extended-medium-mag-ii-recipe": {
-    "name": "Extended Medium Mag II Blueprint",
-    "description": "Lets you craft a Extended Medium Mag II"
+    "name": "Plan du Mag II étendu",
+    "description": "Vous permet de fabriquer un Extended Medium Mag II"
   },
   "extended-medium-mag-iii-blueprint": {
-    "name": "Extended Medium Mag III Blueprint",
-    "description": "Lets you craft the Medium Mag III"
+    "name": "Plan du Mag III moyen étendu",
+    "description": "Vous permet de fabriquer le Medium Mag III"
   },
   "extended-shotgun-mag-ii-recipe": {
-    "name": "Extended Shotgun Mag II Blueprint",
-    "description": "Lets you craft a Extended Shotgun Mag II - Moderately extends the ammo capacity of shotguns."
+    "name": "Plan de fusil de chasse étendu Mag II",
+    "description": "Vous permet de fabriquer un Extended Shotgun Mag II – Prolonge modérément la capacité de munitions des fusils de chasse."
   },
   "extended-shotgun-mag-iii-recipe": {
-    "name": "Extended Shotgun Mag III Blueprint",
-    "description": "Lets you craft a Extended Shotgun Mag III"
+    "name": "Plan du fusil de chasse étendu Mag III",
+    "description": "Vous permet de fabriquer un Extended Shotgun Mag III"
   },
   "green-light-stick-blueprint": {
-    "name": "Green Light Stick Blueprint",
-    "description": "Lets you craft a Green Light Stick."
+    "name": "Plan du bâton lumineux vert",
+    "description": "Vous permet de fabriquer un bâton lumineux vert."
   },
   "heavy-fuse-grenade-recipe": {
-    "name": "Heavy Fuse Grenade Blueprint",
-    "description": "Lets you craft a Heavy Fuse Grenade"
+    "name": "Plan de grenade à fusible lourd",
+    "description": "Vous permet de fabriquer une grenade à fusible lourde"
   },
   "heavy-gun-parts-recipe": {
-    "name": "Heavy Gun Parts Blueprint",
-    "description": "Used directly in crafting items of all tiers."
+    "name": "Plan de pièces d’armes lourdes",
+    "description": "Utilisé directement dans la fabrication d'objets de tous niveaux."
   },
   "horizontal-grip-blueprint": {
-    "name": "Horizontal Grip Blueprint",
-    "description": "Allows you to craft the Horizontal Grip."
+    "name": "Plan de prise horizontale",
+    "description": "Vous permet de fabriquer la poignée horizontale."
   },
   "hullcracker-blueprint": {
-    "name": "Hullcracker Blueprint",
-    "description": "Lets you craft an Hullcracker"
+    "name": "Plan de Casse-coque",
+    "description": "Vous permet de fabriquer un Hullcracker"
   },
   "il-toro-recipe": {
-    "name": "Il Toro Blueprint",
-    "description": "Lets you craft an Il Toro"
+    "name": "Plan Il Toro",
+    "description": "Vous permet de créer un Il Toro"
   },
   "jolt-mine-recipe": {
-    "name": "Jolt Mine Blueprint",
-    "description": "Lets you craft a Jolt Mine"
+    "name": "Plan de la mine Jolt",
+    "description": "Vous permet de fabriquer une mine Jolt"
   },
   "jupiter-i-recipe": {
-    "name": "Jupiter Blueprint",
-    "description": "Fires projectiles at an incredible velocity, capable of damaging multiple targets with one shot."
+    "name": "Plan de Jupiter",
+    "description": "Tire des projectiles à une vitesse incroyable, capable d'endommager plusieurs cibles d'un seul coup."
   },
   "kinetic-converter-recipe": {
-    "name": "Kinetic Converter Blueprint",
-    "description": "Lets you craft a Kinetic Converter"
+    "name": "Plan du convertisseur cinétique",
+    "description": "Vous permet de créer un convertisseur cinétique"
   },
   "laser-trap-fire-recipe": {
-    "name": "Laser Trap: Fire Blueprint",
-    "description": "Lets you craft Laser Trap: Fire"
+    "name": "Piège Laser : Plan de Feu",
+    "description": "Vous permet de créer un piège laser : feu"
   },
   "laser-trap-gas-recipe": {
-    "name": "Laser Trap: Gas Blueprint",
-    "description": "Lets you craft Laser Trap: Gas"
+    "name": "Piège laser : plan de gaz",
+    "description": "Vous permet de fabriquer un piège laser : gaz"
   },
   "launcher-ammo-blueprint": {
-    "name": "Launcher Ammo BLueprint",
-    "description": "Anti-ARC payloads used mainly by the Hullcracker."
+    "name": "Plan de munitions du lanceur",
+    "description": "Charges utiles anti-ARC utilisées principalement par le Hullcracker."
   },
   "light-gun-parts-recipe": {
-    "name": "Light Gun Parts Blueprint",
-    "description": "Lets you craft Light Gun Parts"
+    "name": "Plan des pièces du pistolet léger",
+    "description": "Vous permet de fabriquer des pièces de pistolet léger"
   },
   "lightweight-stock-recipe": {
-    "name": "Lightweight Stock Blueprint",
-    "description": "Lets you craft a Lightweight Stock"
+    "name": "Plan de stock léger",
+    "description": "Vous permet de créer un stock léger"
   },
   "looting-mk-3-survivor-blueprint": {
-    "name": "Looting MK. 3 (Survivor) Blueprint",
-    "description": "A heavy-duty pack mule augment. Large weight capacity and large backpack space."
+    "name": "Pillage de MK. Plan 3 (Survivant)",
+    "description": "Une augmentation de mule robuste. Grande capacité de poids et grand espace de sac à dos."
   },
   "lure-grenade-recipe": {
-    "name": "Lure Grenade Blueprint",
-    "description": "Lets you craft a Lure Grenade"
+    "name": "Plan de grenade leurre",
+    "description": "Vous permet de fabriquer une grenade leurre"
   },
   "medium-gun-parts-recipe": {
-    "name": "Medium Gun Parts Blueprint",
-    "description": "Lets you craft Medium Gun Parts"
+    "name": "Plan des pièces du pistolet moyen",
+    "description": "Vous permet de fabriquer des pièces de pistolet moyen"
   },
   "mod-components-recipe": {
-    "name": "Mod Components Blueprint",
-    "description": "Lets you craft Mod Components"
+    "name": "Plan des composants du mod",
+    "description": "Vous permet de créer des composants de module"
   },
   "muzzle-brake-ii-recipe": {
-    "name": "Muzzle Brake II Blueprint",
-    "description": "Lets you craft a Muzzle Brake II"
+    "name": "Plan du frein de bouche II",
+    "description": "Vous permet de fabriquer un frein de bouche II"
   },
   "muzzle-brake-iii-recipe": {
-    "name": "Muzzle Brake III Blueprint",
-    "description": "Lets you craft a Muzzle Brake III"
+    "name": "Plan du frein de bouche III",
+    "description": "Vous permet de fabriquer un frein de bouche III"
   },
   "osprey-recipe": {
-    "name": "Osprey Blueprint",
-    "description": "Has reliable damage output and accuracy."
+    "name": "Plan du balbuzard pêcheur",
+    "description": "A des dégâts et une précision fiables."
   },
   "padded-stock-recipe": {
-    "name": "Padded Stock Blueprint",
-    "description": "Lets you craft a Padded Stock"
+    "name": "Plan de stock rembourré",
+    "description": "Vous permet de fabriquer un stock rembourré"
   },
   "power-rod-recipe": {
-    "name": "Power Rod Blueprint",
-    "description": "Lets you craft a Power Rod"
+    "name": "Plan de la tige de puissance",
+    "description": "Vous permet de fabriquer un Power Rod"
   },
   "red-light-stick-blueprint": {
-    "name": "Red Light Stick Blueprint",
-    "description": "Lets you craft a Red Light Stick."
+    "name": "Plan du bâton lumineux rouge",
+    "description": "Vous permet de fabriquer un bâton lumineux rouge."
   },
   "remote-raider-flare-blueprint": {
-    "name": "Remote Raider Flare Blueprint",
-    "description": "Allows you to craft the Remote Raider Flare."
+    "name": "Plan de fusée éclairante Raider à distance",
+    "description": "Vous permet de fabriquer le Remote Raider Flare."
   },
   "renegade-recipe": {
-    "name": "Renegade Blueprint",
-    "description": "Lets you craft a Renegade"
+    "name": "Plan du Renégat",
+    "description": "Vous permet de fabriquer un Renegade"
   },
   "shotgun-choke-ii-recipe": {
-    "name": "Shotgun Choke II Blueprint",
-    "description": "Lets you craft a Shotgun Choke II"
+    "name": "Plan du starter de fusil de chasse II",
+    "description": "Vous permet de fabriquer un Shotgun Choke II"
   },
   "shotgun-choke-iii-recipe": {
-    "name": "Shotgun Choke III Blueprint",
-    "description": "Lets you craft a Shotgun Choke III"
+    "name": "Schéma du starter de fusil de chasse III",
+    "description": "Vous permet de fabriquer un Shotgun Choke III"
   },
   "shotgun-parts-recipe": {
-    "name": "Shotgun Parts Blueprint",
-    "description": "Lets you craft Shotgun Parts"
+    "name": "Plan de pièces de fusil de chasse",
+    "description": "Vous permet de fabriquer des pièces de fusil de chasse"
   },
   "shotgun-silencer-blueprint": {
-    "name": "Shotgun Silencer Blueprint",
-    "description": "Lets you craft a Shotgun Silencer. Moderately reduces the amount of noise produced when firing."
+    "name": "Plan de silencieux de fusil de chasse",
+    "description": "Vous permet de fabriquer un silencieux pour fusil de chasse. Réduit modérément la quantité de bruit produit lors du tir."
   },
   "showstopper-blueprint": {
-    "name": "Showstopper Blueprint",
-    "description": "Lets you craft a Showstopper."
+    "name": "Plan spectaculaire",
+    "description": "Vous permet de créer un Showstopper."
   },
   "silencer-i-recipe": {
-    "name": "Silencer I Blueprint",
-    "description": "Lets you craft a Silencer I"
+    "name": "Silencieux I Plan",
+    "description": "Vous permet de fabriquer un silencieux I"
   },
   "silencer-ii-recipe": {
-    "name": "Silencer II Blueprint",
-    "description": "Lets you craft a Silencer II"
+    "name": "Plan du Silencieux II",
+    "description": "Vous permet de fabriquer un Silencer II"
   },
   "silencer-iii-recipe": {
-    "name": "Silencer III Blueprint",
-    "description": "Lets you craft a Silencer III"
+    "name": "Plan du Silencieux III",
+    "description": "Vous permet de fabriquer un Silencer III"
   },
   "smoke-grenade-blueprint": {
-    "name": "Smoke Grenade Blueprint",
-    "description": "Lets you craft a Smoke Grenade"
+    "name": "Plan de grenade fumigène",
+    "description": "Vous permet de fabriquer une grenade fumigène"
   },
   "snap-hook-recipe": {
-    "name": "Snap Hook Blueprint",
-    "description": "Lets you craft a Snap Hook"
+    "name": "Plan du mousqueton",
+    "description": "Vous permet de fabriquer un mousqueton"
   },
   "stable-stock-ii-recipe": {
-    "name": "Stable Stock II Blueprint",
-    "description": "Lets you craft a Stable Stock II"
+    "name": "Plan de stock stable II",
+    "description": "Vous permet de créer un Stable Stock II"
   },
   "stable-stock-iii-recipe": {
-    "name": "Stable Stock III Blueprint",
-    "description": "Lets you craft a Stable Stock III"
+    "name": "Plan de Stock Stable III",
+    "description": "Vous permet de créer un Stable Stock III"
   },
   "sterilized-bandage-recipe": {
-    "name": "Sterilized Bandage Blueprint",
-    "description": "Lets you craft a Sterilized Bandage"
+    "name": "Plan de pansement stérilisé",
+    "description": "Vous permet de fabriquer un pansement stérilisé"
   },
   "tactical-mk3-defensive-blueprint": {
-    "name": "Tactical MK.3 (Defensive) Blueprint",
-    "description": "a defense-focused augment for keeping Shields topped up"
+    "name": "Plan tactique MK.3 (défensif)",
+    "description": "une augmentation axée sur la défense pour maintenir les boucliers à niveau"
   },
   "tacical-mk3-healing-blueprint": {
-    "name": "Tactical MK.3 (Healing) Blueprint",
-    "description": "A healing-focused augment which adds extra slots for healing items."
+    "name": "Plan tactique MK.3 (guérison)",
+    "description": "Une augmentation axée sur la guérison qui ajoute des emplacements supplémentaires pour les objets de guérison."
   },
   "tagging-grenade-recipe": {
-    "name": "Tagging Grenade Blueprint",
-    "description": "Lets you craft a Tagging Grenade"
+    "name": "Plan de marquage de la grenade",
+    "description": "Vous permet de fabriquer une grenade de marquage"
   },
   "tempest-i-recipe": {
-    "name": "Tempest I Blueprint",
-    "description": "Lets you craft a Tempest I"
+    "name": "Plan de Tempête I",
+    "description": "Vous permet de créer une Tempête I"
   },
   "torrent-i-recipe": {
-    "name": "Torrente Blueprint",
-    "description": "Lets you craft a Torrente"
+    "name": "Plan Torrente",
+    "description": "Vous permet de créer un Torrente"
   },
   "trigger-nade-recipe": {
-    "name": "Trigger Nade Blueprint",
-    "description": "Lets you craft a Trigger Nade"
+    "name": "Plan de déclenchement de Nade",
+    "description": "Vous permet de créer un Trigger Nade"
   },
   "venator-recipe": {
-    "name": "Venator Blueprint",
-    "description": "Lets you craft a Venator. Fires two shots at a time."
+    "name": "Plan Venator",
+    "description": "Vous permet de créer un Venator. Tire deux coups à la fois."
   },
   "vertical-grip-ii-recipe": {
-    "name": "Vertical Grip II Blueprint",
-    "description": "Lets you craft a Vertical Grip II"
+    "name": "Plan de prise verticale II",
+    "description": "Vous permet de créer un Vertical Grip II"
   },
   "vertical-grip-iii-recipe": {
-    "name": "Vertical Grip III Blueprint",
-    "description": "Lets you craft a Vertical Grip III"
+    "name": "Plan de prise verticale III",
+    "description": "Vous permet de fabriquer un Vertical Grip III"
   },
   "vita-shot-recipe": {
-    "name": "Vita Shot Blueprint",
-    "description": "Lets you craft a Vita Shot - A medical item that restores a large amount of health."
+    "name": "Plan de tir Vita",
+    "description": "Vous permet de fabriquer un Vita Shot – Un objet médical qui restaure une grande quantité de santé."
   },
   "vita-spray-recipe": {
-    "name": "Vita Spray Blueprint",
-    "description": "Lets you craft a Vita Spray"
+    "name": "Plan de pulvérisation Vita",
+    "description": "Vous permet de créer un Vita Spray"
   },
   "vulcano-blueprint": {
-    "name": "Vulcano Blueprint",
-    "description": "Allows you to craft the Vulcano."
+    "name": "Plan du volcan",
+    "description": "Vous permet de fabriquer le Vulcano."
   },
   "wolfpack-recipe": {
-    "name": "Wolfpack Blueprint",
-    "description": "Lets you craft a Wolfpack"
+    "name": "Plan de la meute de loups",
+    "description": "Vous permet de créer un Wolfpack"
   },
   "agave-juice": {
-    "name": "Agave Juice",
-    "description": "A concoction that temporarily increases stamina regeneration, at a small initial cost to health."
+    "name": "Jus d'agave",
+    "description": "Une concoction qui augmente temporairement la régénération de l'endurance, à un faible coût initial en termes de santé."
   },
   "cans-backpack-attachment": {
-    "name": "Cans (Backpack Attachment)",
-    "description": "A set of cans that are a backpack attachment from the quest Safe Passage."
+    "name": "Canettes (accessoire pour sac à dos)",
+    "description": "Un ensemble de canettes qui constituent un accessoire de sac à dos de la quête Safe Passage."
   },
   "junior-outfit": {
-    "name": "Junior (Outfit)",
-    "description": "This is the Junior cosmetic outfit"
+    "name": "Junior (tenue)",
+    "description": "Voici la tenue cosmétique Junior"
   },
   "gas-grenade": {
-    "name": "Gas Grenade",
-    "description": "A grenade that emites lingering toxic cloud on impact, draining the stamina of any Raiders within its area of effect."
+    "name": "Grenade à gaz",
+    "description": "Une grenade qui émet un nuage toxique persistant à l'impact, drainant l'endurance de tous les Raiders dans sa zone d'effet."
   },
   "binoculars": {
-    "name": "Binoculars",
-    "description": "A basic pair of binoculars with two levels of magnification."
+    "name": "Jumelles",
+    "description": "Une paire de jumelles de base avec deux niveaux de grossissement."
   },
   "blue-gate-cellar-key": {
-    "name": "Blue Gate Cellar Key",
-    "description": "Unlocks certain cellar doors near the Blue Gate."
+    "name": "Clé de cave porte bleue",
+    "description": "Débloque certaines portes de caves près de la Porte Bleue."
   },
   "blue-gate-communication-tower-key": {
-    "name": "Blue Gate Communication Tower Key",
-    "description": "Unlocks a door by the Communication Tower near the Blue Gate"
+    "name": "Clé de la tour de communication Blue Gate",
+    "description": "Déverrouille une porte près de la tour de communication près de la porte bleue"
   },
   "blue-gate-confiscation-room-key": {
-    "name": "Blue Gate Confiscation Room Key",
-    "description": "Unlocks a door to the confiscated goods area within the Blue Gate tunnels"
+    "name": "Clé de la salle de confiscation de la porte bleue",
+    "description": "Déverrouille une porte vers la zone des marchandises confisquées dans les tunnels Blue Gate"
   },
   "buried-city-jkv-employee-access-card": {
-    "name": "Buried City JKV Employee Access Card",
-    "description": "Unlocks a door in the J Kozma Ventures company building in Buried City"
+    "name": "Carte d'accès des employés de Buried City JKV",
+    "description": "Déverrouille une porte dans le bâtiment de l'entreprise J Kozma Ventures à Buried City."
   },
   "buried-city-town-hall-key": {
-    "name": "Buried City Town Hall Key",
-    "description": "Unlocks the door to the Town Hall in Buried City"
+    "name": "Clé de la mairie enterrée",
+    "description": "Déverrouille la porte de l'hôtel de ville de Buried City."
   },
   "dam-control-center-tower-key": {
-    "name": "Dam Control Center Tower Key",
-    "description": "Unlocks a door in the Control Centre Tower on the top floor."
+    "name": "Clé de la tour du centre de contrôle du barrage",
+    "description": "Déverrouille une porte dans la tour du centre de contrôle au dernier étage."
   },
   "dam-staff-room-key": {
-    "name": "Dam Staff Room Key",
-    "description": "Unlocks the Dam Staff Room in the Control Tower."
+    "name": "Clé de la chambre du personnel du barrage",
+    "description": "Débloque la salle du personnel du barrage dans la tour de contrôle."
   },
   "dam-surveillance-key": {
-    "name": "Dam Surveillance Key",
-    "description": "Unlocks a door in the Water Treatment Control building in The Dam."
+    "name": "Clé de surveillance du barrage",
+    "description": "Déverrouille une porte dans le bâtiment de contrôle du traitement de l'eau du barrage."
   },
   "dam-testing-annex-key": {
-    "name": "Dam Testing Annex Key",
-    "description": "Unlocks a door in the Testing Annex on Dam Battlegrounds."
+    "name": "Clé de l'annexe sur les essais de barrage",
+    "description": "Débloque une porte dans l'annexe de test sur les champs de bataille des barrages."
   },
   "key-card": {
-    "name": "Key Card",
-    "description": "A security key card used to access restricted areas."
+    "name": "Carte-clé",
+    "description": "Une carte-clé de sécurité utilisée pour accéder aux zones restreintes."
   },
   "patrol-car-key": {
-    "name": "Patrol Car Key",
-    "description": "Unlocks the rear door of a patrol car."
+    "name": "Clé de voiture de patrouille",
+    "description": "Déverrouille la porte arrière d'une voiture de patrouille."
   },
   "raider-hatch-key": {
-    "name": "Raider Hatch Key",
-    "description": "Unlocks a Raider Hatch."
+    "name": "Clé de trappe de raider",
+    "description": "Débloque une trappe de Raider."
   },
   "spaceport-ground-control-key": {
-    "name": "Spaceport Control Tower Key",
-    "description": "Unlocks a door to the Ground Control Tower in Spaceport"
+    "name": "Clé de la tour de contrôle du port spatial",
+    "description": "Déverrouille une porte vers la tour de contrôle au sol dans le port spatial"
   },
   "spaceport-outskirts-bunker-key": {
-    "name": "Spaceport Outskirts Bunker Key",
-    "description": "A makeshift key that lets you open the Outskirts Bunker on Spaceport"
+    "name": "Clé du bunker de la périphérie du port spatial",
+    "description": "Une clé de fortune qui vous permet d'ouvrir le bunker de la périphérie du port spatial"
   },
   "spaceport-trench-tower-key": {
-    "name": "Spaceport Trench Tower Key",
-    "description": "Unlocks a door to the Trench Towers in Spaceport"
+    "name": "Clé de la tour de tranchée du port spatial",
+    "description": "Déverrouille une porte vers les tours de tranchées du port spatial"
   },
   "spaceport-warehouse-key": {
-    "name": "Spaceport Warehouse Key",
-    "description": "Unlocks a door in the Shipping Warehouse in Spaceport"
+    "name": "Clé de l'entrepôt du port spatial",
+    "description": "Déverrouille une porte dans l'entrepôt d'expédition du port spatial"
   },
   "advanced-electrical-components": {
-    "name": "Advanced Electrical Components",
-    "description": "Used to craft utility items and shield mods. Can be recycled into crafting materials. Used to craft: Raider Hatch Key, Photoelectric Cloak"
+    "name": "Composants électriques avancés",
+    "description": "Utilisé pour fabriquer des objets utilitaires et des mods de bouclier. Peut être recyclé en matériaux de fabrication. Utilisé pour fabriquer : clé de trappe de raider, cape photoélectrique"
   },
   "advanced-mechanical-components": {
-    "name": "Advanced Mechanical Components",
-    "description": "Mostly used to craft advanced weapons. Can be recycled into crafting materials."
+    "name": "Composants mécaniques avancés",
+    "description": "Principalement utilisé pour fabriquer des armes avancées. Peut être recyclé en matériaux de fabrication."
   },
   "antiseptic": {
-    "name": "Antiseptic",
-    "description": "Used to craft medical supplies. Can be recycled into chemicals."
+    "name": "Antiseptique",
+    "description": "Utilisé pour fabriquer des fournitures médicales. Peut être recyclé en produits chimiques."
   },
   "arc-alloy": {
-    "name": "ARC Alloy",
-    "description": "Obtained from ARC enemies or activities, or by recycling certain ARC parts. Used to craft components."
+    "name": "Alliage ARC",
+    "description": "Obtenu auprès des ennemis ou des activités de l'ARC, ou en recyclant certaines pièces de l'ARC. Utilisé pour fabriquer des composants."
   },
   "arc-circuitry": {
-    "name": "ARC Circuitry",
-    "description": " Obtained from ARC enemies or activities. Used to craft components. Can be recycled into ARC Alloy."
+    "name": "Circuits ARC",
+    "description": "Obtenu auprès des ennemis ou des activités de l'ARC. Utilisé pour fabriquer des composants. Peut être recyclé en alliage ARC."
   },
   "arc-motion-core": {
-    "name": "ARC Motion Core",
-    "description": "Obtained from ARC enemies or activities. Used to craft components. Can be recycled into ARC Alloy."
+    "name": "Noyau de mouvement ARC",
+    "description": "Obtenu auprès des ennemis ou des activités de l'ARC. Utilisé pour fabriquer des composants. Peut être recyclé en alliage ARC."
   },
   "arc-powercell": {
-    "name": "ARC Powercell",
-    "description": "Valuable resource that drops from all ARC enemies. Used to craft: Shield Recharger"
+    "name": "Cellule de puissance ARC",
+    "description": "Ressource précieuse qui s'obtient sur tous les ennemis de l'ARC. Utilisé pour fabriquer : Chargeur de bouclier"
   },
   "battery": {
-    "name": "Battery",
-    "description": "Used to craft medical supplies. Can be recycled into scrap metal."
+    "name": "Batterie",
+    "description": "Utilisé pour fabriquer des fournitures médicales. Peut être recyclé en ferraille."
   },
   "canister": {
-    "name": "Canister",
-    "description": "Used to craft a wide range of items. Can be recycled into plastic."
+    "name": "Boîte",
+    "description": "Utilisé pour fabriquer une large gamme d’objets. Peut être recyclé en plastique."
   },
   "chemicals": {
-    "name": "Chemicals",
-    "description": "Used to craft medical supplies, explosives, and utility items."
+    "name": "Produits chimiques",
+    "description": "Utilisé pour fabriquer des fournitures médicales, des explosifs et des objets utilitaires."
   },
   "complex-gun-parts": {
-    "name": "Complex Gun Parts",
-    "description": "Used to craft advanced Weapons: Equalizer, Jupiter"
+    "name": "Pièces d'armes complexes",
+    "description": "Utilisé pour fabriquer des armes avancées : Égaliseur, Jupiter"
   },
   "crude-explosives": {
-    "name": "Crude Explosives",
-    "description": "Used to craft explosives. Can be recycled into crafting materials."
+    "name": "Explosifs bruts",
+    "description": "Utilisé pour fabriquer des explosifs. Peut être recyclé en matériaux de fabrication."
   },
   "duct-tape-recipe": {
-    "name": "Duct Tape",
-    "description": "Used to craft a wide range of items. Can be recycled into crafting materials"
+    "name": "Ruban adhésif",
+    "description": "Utilisé pour fabriquer une large gamme d’objets. Peut être recyclé en matériaux de fabrication"
   },
   "durable-cloth": {
-    "name": "Durable Cloth",
-    "description": "Used to craft medical Supplies such as Herbal Bandage and Sterilized Bandage."
+    "name": "Tissu résistant",
+    "description": "Utilisé pour fabriquer des fournitures médicales telles que des bandages à base de plantes et des bandages stérilisés."
   },
   "electrical-components": {
-    "name": "Electrical Components",
-    "description": "Used to craft a wide range of items. Can be recycled into crafting materials."
+    "name": "Composants électriques",
+    "description": "Utilisé pour fabriquer une large gamme d’objets. Peut être recyclé en matériaux de fabrication."
   },
   "exodus-modules": {
-    "name": "Exodus Modules",
-    "description": "Used to craft a wide range of items."
+    "name": "Modules d'Exode",
+    "description": "Utilisé pour fabriquer une large gamme d’objets."
   },
   "explosive-compound": {
-    "name": "Explosive Compound",
-    "description": "Used to craft explosives."
+    "name": "Composé explosif",
+    "description": "Utilisé pour fabriquer des explosifs."
   },
   "fabric": {
-    "name": "Fabric",
-    "description": "Used to craft medical supplies and shields."
+    "name": "Tissu",
+    "description": "Utilisé pour fabriquer des fournitures médicales et des boucliers."
   },
   "heavy-gun-parts": {
-    "name": "Heavy Gun Parts",
-    "description": "Used directly in crafting items of all tiers."
+    "name": "Pièces d'armes lourdes",
+    "description": "Utilisé directement dans la fabrication d'objets de tous niveaux."
   },
   "light-gun-parts": {
-    "name": "Light Gun Parts",
-    "description": "Assorted spare parts used for pistols and SMGs."
+    "name": "Pièces pour pistolet léger",
+    "description": "Pièces de rechange assorties utilisées pour les pistolets et les SMG."
   },
   "magnet": {
-    "name": "Magnet",
-    "description": "Fun thing to put on a fridgerator."
+    "name": "Aimant",
+    "description": "Chose amusante à mettre sur un réfrigérateur."
   },
   "magnetic-accelerator": {
-    "name": "Magnetic Accelerator",
-    "description": "Used to craft advanced weapons."
+    "name": "Accélérateur magnétique",
+    "description": "Utilisé pour fabriquer des armes avancées."
   },
   "mechanical-components": {
-    "name": "Mechanical Components",
-    "description": "Used to craft a wide range of items. Can be recycled into crafting materials."
+    "name": "Composants mécaniques",
+    "description": "Utilisé pour fabriquer une large gamme d’objets. Peut être recyclé en matériaux de fabrication."
   },
   "medium-gun-parts": {
-    "name": "Medium Gun Parts",
-    "description": "Assorted spare parts used for rifles. "
+    "name": "Pièces pour pistolet moyen",
+    "description": "Pièces de rechange assorties utilisées pour les fusils."
   },
   "metal-parts": {
-    "name": "Metal Parts",
-    "description": "Used to craft a wide range of items."
+    "name": "Pièces métalliques",
+    "description": "Utilisé pour fabriquer une large gamme d’objets."
   },
   "mod-components": {
-    "name": "Mod Components",
-    "description": "Used to craft weapon mods. Can be recycled into crafting materials."
+    "name": "Composants du module",
+    "description": "Utilisé pour fabriquer des mods d'armes. Peut être recyclé en matériaux de fabrication."
   },
   "moss": {
-    "name": "Moss",
-    "description": "Can be used to regain a small amount of health."
+    "name": "Mousse",
+    "description": "Peut être utilisé pour retrouver une petite quantité de santé."
   },
   "oil": {
-    "name": "Oil",
-    "description": "Used to craft weapons and explosives. Can be recycled into chemicals."
+    "name": "Huile",
+    "description": "Utilisé pour fabriquer des armes et des explosifs. Peut être recyclé en produits chimiques."
   },
   "plastic-parts": {
-    "name": "Plastic Parts",
-    "description": "Used to craft a wide range of items."
+    "name": "Pièces en plastique",
+    "description": "Utilisé pour fabriquer une large gamme d’objets."
   },
   "power-rod": {
-    "name": "Power Rod",
-    "description": "Used to open the Locked room near the Loading Bay. Also Used to craft shields. Can be recycled into crafting materials."
+    "name": "Tige de puissance",
+    "description": "Utilisé pour ouvrir la salle verrouillée près du quai de chargement. Également utilisé pour fabriquer des boucliers. Peut être recyclé en matériaux de fabrication."
   },
   "processor": {
-    "name": "Processor",
-    "description": "Used in crafting."
+    "name": "Processeur",
+    "description": "Utilisé dans l'artisanat."
   },
   "rope": {
-    "name": "Rope",
-    "description": "Used in crafting."
+    "name": "Corde",
+    "description": "Utilisé dans l'artisanat."
   },
   "rubber-parts-recipe": {
-    "name": "Rubber Parts",
-    "description": "Used to craft a wide range of items."
+    "name": "Pièces en caoutchouc",
+    "description": "Utilisé pour fabriquer une large gamme d’objets."
   },
   "sensors-recipe": {
-    "name": "Sensors",
-    "description": "Used to craft utility items and explosives. Can be recycled into scrap metal."
+    "name": "Capteurs",
+    "description": "Utilisé pour fabriquer des objets utilitaires et des explosifs. Peut être recyclé en ferraille."
   },
   "shotgun-gun-parts": {
-    "name": "Shotgun Parts",
-    "description": "Specialized components from shotgun-type weapons, used in crafting."
+    "name": "Pièces de fusil de chasse",
+    "description": "Composants spécialisés provenant d'armes de type fusil de chasse, utilisés dans la fabrication."
   },
   "simple-gun-parts": {
-    "name": "Simple Gun Parts",
-    "description": "Used to craft weapons. Can be recycled into scrap metal."
+    "name": "Pièces d'armes simples",
+    "description": "Utilisé pour fabriquer des armes. Peut être recyclé en ferraille."
   },
   "speaker-component": {
-    "name": "Speaker Component",
-    "description": "Used in crafting."
+    "name": "Composant de haut-parleur",
+    "description": "Utilisé dans l'artisanat."
   },
   "spring": {
-    "name": "Steel Spring",
-    "description": "A tightly wound coil of metal. Used to craft a wide range of items. Can be recycled into scrap metal."
+    "name": "Ressort en acier",
+    "description": "Une bobine de métal étroitement enroulée. Utilisé pour fabriquer une large gamme d’objets. Peut être recyclé en ferraille."
   },
   "synthesized-fuel": {
-    "name": "Synthesized Fuel",
-    "description": "Used to craft utility items and explosives. Can be recycled into chemicals."
+    "name": "Carburant synthétisé",
+    "description": "Utilisé pour fabriquer des objets utilitaires et des explosifs. Peut être recyclé en produits chimiques."
   },
   "syringe": {
-    "name": "Syringe",
-    "description": "A sterile syringe for medical use. Used to craft medical supplies. Can be recycled into plastic."
+    "name": "Seringue",
+    "description": "Une seringue stérile à usage médical. Utilisé pour fabriquer des fournitures médicales. Peut être recyclé en plastique."
   },
   "torch-ginger": {
-    "name": "Torch Ginger",
-    "description": "A plant used to craft medical supplies."
+    "name": "Torche Gingembre",
+    "description": "Une plante utilisée pour fabriquer des fournitures médicales."
   },
   "voltage-converter": {
-    "name": "Voltage Converter",
-    "description": "A device that adjusts electrical voltage for various crafting purposes."
+    "name": "Convertisseur de tension",
+    "description": "Un appareil qui ajuste la tension électrique à diverses fins artisanales."
   },
   "wires-recipe": {
-    "name": "Wires",
-    "description": "A bundle of old wires. Used to craft a wide range of items. Can be recycled into scrap metal."
+    "name": "Fils",
+    "description": "Un tas de vieux fils. Utilisé pour fabriquer une large gamme d’objets. Peut être recyclé en ferraille."
   },
   "fruit-mix": {
-    "name": "Fruit Mix",
-    "description": "A food item that moderately increases both health and stamina."
+    "name": "Mélange de fruits",
+    "description": "Un aliment qui augmente modérément la santé et l’endurance."
   },
   "advanced-arc-powercell": {
-    "name": "Advanced ARC Powercell",
-    "description": "Very valuable resource that drops from certain ARC enemies"
+    "name": "Cellule de puissance ARC avancée",
+    "description": "Ressource très précieuse qui s'obtient sur certains ennemis de l'ARC"
   },
   "aviator-outfit": {
-    "name": "Aviator (Outfit)",
-    "description": "Aviator outfit is a quest reward from Armored Transports."
+    "name": "Aviateur (tenue)",
+    "description": "La tenue d'aviateur est une récompense de quête des transports blindés."
   },
   "bag-radio-renegade-variant": {
-    "name": "Bag (Radio Renegade Variant)",
-    "description": "Radio Renegade Bag Variant - Unlock by completing Power Out Quest."
+    "name": "Sac (variante Radio Renegade)",
+    "description": "Variante du sac Radio Renegade – Débloquez en complétant la quête Power Out."
   },
   "banana-backpack-charm": {
-    "name": "Banana (Backpack Charm)",
-    "description": "Banana backpack charm from Medical Merchandise quest."
+    "name": "Banane (charme de sac à dos)",
+    "description": "Charme de sac à dos banane de la quête Medical Merchandise."
   },
   "black-eye-face-style": {
-    "name": "Black Eye (Face Style)",
-    "description": "Maintain at least Rookie III rank in trials until season end."
+    "name": "Oeil au beurre noir (style de visage)",
+    "description": "Maintenir au moins le rang Rookie III lors des essais jusqu'à la fin de la saison."
   },
   "black-hiker-colour": {
-    "name": "Black (Hiker Colour)",
-    "description": "A new cosmetic variant will be added to your collection for the Hiker backpack"
+    "name": "Noir (couleur randonneur)",
+    "description": "Une nouvelle variante cosmétique sera ajoutée à votre collection pour le sac à dos Hiker"
   },
   "black-and-white-origin-color": {
-    "name": "Black & White (Origin Color)",
-    "description": "A new cosmetic variant will be added to your collection. Complete Off the Radar Quest."
+    "name": "Noir et blanc (couleur d'origine)",
+    "description": "Une nouvelle variante cosmétique sera ajoutée à votre collection. Terminez la quête Hors du radar."
   },
   "blue-radio-renegade-color": {
-    "name": "Blue (Radio Renegade Color)",
-    "description": "A new cosmetic variant will be added to your collection. Complete the Switching the Supply Quest."
+    "name": "Bleu (couleur Radio Renegade)",
+    "description": "Une nouvelle variante cosmétique sera ajoutée à votre collection. Terminez la quête Changer de ravitaillement."
   },
   "blue-yellow-aviator-color": {
-    "name": "Blue Yellow (Aviator Color)",
-    "description": "A new cosmetic variant will be added to your collection."
+    "name": "Bleu Jaune (Couleur Aviateur)",
+    "description": "Une nouvelle variante cosmétique sera ajoutée à votre collection."
   },
   "bow-and-arrow-emote": {
-    "name": "Bow and Arrow (Emote)",
-    "description": "Emote is rewarded for maintaining at least a Wildcard III rank in trials until the season end."
+    "name": "Arc et flèche (Emote)",
+    "description": "L'émote est récompensée pour avoir maintenu au moins un rang Wildcard III lors des essais jusqu'à la fin de la saison."
   },
   "briefcase-backpack-attachment": {
-    "name": "Briefcase (Backpack Attachment)",
-    "description": "Maintain at least Tryhard III rank in Trials until the season end."
+    "name": "Mallette (attache pour sac à dos)",
+    "description": "Maintenir au moins le rang Tryhard III dans les Essais jusqu'à la fin de la saison."
   },
   "burgerboy-backpack-charm": {
-    "name": "Burgerboy (Backpack Charm)",
-    "description": "Burgerboy backpack charm from Into The Fray quest."
+    "name": "Burgerboy (charme de sac à dos)",
+    "description": "Charme de sac à dos Burgerboy de la quête Into The Fray."
   },
   "cheer-emote": {
-    "name": "Cheer (Emote)",
-    "description": "Cheer Emote - Quest reward from The Right Tool"
+    "name": "Bravo (Emote)",
+    "description": "Cheer Emote – Récompense de quête de The Right Tool"
   },
   "crimson-racer-aviator-colour": {
-    "name": "Crimson Racer (Aviator Colour)",
-    "description": "Crimson Racer (Aviator Colour) is a quest reward from Communication Hideout"
+    "name": "Crimson Racer (couleur aviateur)",
+    "description": "Crimson Racer (Aviator Color) est une récompense de quête de Communication Hideout"
   },
   "esr-analyzer": {
-    "name": "ESR Analyzer",
-    "description": "A specialized medical device for analyzing erythrocyte sedimentation rates."
+    "name": "Analyseur ESR",
+    "description": "Un dispositif médical spécialisé pour analyser les taux de sédimentation des érythrocytes."
   },
   "fertilizer": {
-    "name": "Fertilizer",
-    "description": "May be worth a few coins."
+    "name": "Engrais",
+    "description": "Cela vaut peut-être quelques pièces."
   },
   "goggles-radio-renegade-variant": {
-    "name": "Goggles (Radio Renegade Variant)",
-    "description": "Radio Renegade cosmetic variant - unlocked by completing A Warm Place to Rest quest."
+    "name": "Lunettes (variante Radio Renegade)",
+    "description": "Variante cosmétique Radio Renegade - débloquée en accomplissant la quête Un endroit chaleureux pour se reposer."
   },
   "happy-jig-emote": {
-    "name": "Happy Jig (Emote)",
-    "description": "Maintain at least a  Rookie II rank in trials until season end."
+    "name": "Joyeux Jig (Emote)",
+    "description": "Maintenir au moins un rang Rookie II lors des essais jusqu'à la fin de la saison."
   },
   "helmet-radio-renegade-variant": {
-    "name": "Helmet (Radio Renegade Variant)",
-    "description": "Radio Renegade Helmet Variant - Unlocks by completing Flickering Threat Quest"
+    "name": "Casque (variante Radio Renegade)",
+    "description": "Variante du casque Radio Renegade – Se débloque en complétant la quête de menace vacillante"
   },
   "mastery-medal-backpack-charm": {
-    "name": "Mastery Medal (Backpack Charm)",
-    "description": "Maintain Wildcard I trials rank until the season end."
+    "name": "Médaille de maîtrise (charme de sac à dos)",
+    "description": "Maintenir le classement des essais Wildcard I jusqu'à la fin de la saison."
   },
   "olives": {
     "name": "Olives",
-    "description": "Can be consumed for a small amount of stamina."
+    "description": "Peut être consommé pour une petite quantité d’endurance."
   },
   "orange-camo-origin-outfit": {
-    "name": "Orange Camo (Origin Outfit)",
-    "description": "Orange camo color is unlocked for completing The Trifecta quest."
+    "name": "Camouflage orange (tenue Origin)",
+    "description": "La couleur camouflage orange est débloquée pour avoir terminé la quête The Trifecta."
   },
   "patrol-outfit": {
-    "name": "Patrol (Outfit)",
-    "description": "Rewarded for maintaining at least  a Daredevil I rank in the trials until the season ends."
+    "name": "Patrouille (tenue)",
+    "description": "Récompensé pour avoir maintenu au moins un rang Daredevil I dans les essais jusqu'à la fin de la saison."
   },
   "radio-renegade-outfit": {
-    "name": "Radio Renegade (Outfit)",
-    "description": "Radio Renegade outfit is given to you as a reward from the quest Switching The Supply"
+    "name": "Radio Renegade (tenue)",
+    "description": "La tenue Radio Renegade vous est offerte en récompense de la quête Switching The Supply"
   },
   "succulent-backpack-charm": {
-    "name": "Succulent (Backpack Charm)",
-    "description": "Complete the quest The Root Of The Matter to get this charm."
+    "name": "Succulente (Charme de sac à dos)",
+    "description": "Terminez la quête La racine de la matière pour obtenir ce charme."
   },
   "volcanic-rock": {
-    "name": "Volcanic Rock",
+    "name": "Roche Volcanique",
     "description": ""
   },
   "angled-grip-i": {
-    "name": "Angled Grip I",
-    "description": "Slightly reduces horizontal recoil."
+    "name": "Poignée coudée I",
+    "description": "Réduit légèrement le recul horizontal."
   },
   "angled-grip-ii": {
-    "name": "Angled Grip II",
-    "description": "Moderately reduces horizontal recoil."
+    "name": "Poignée coudée II",
+    "description": "Réduit modérément le recul horizontal."
   },
   "angled-grip-iii": {
-    "name": "Angled Grip III",
-    "description": "Significantly reduces horizontal recoil."
+    "name": "Poignée coudée III",
+    "description": "Réduit considérablement le recul horizontal."
   },
   "anvil-splitter": {
-    "name": "Anvil Splitter",
-    "description": "Compatible with: Anvil  - Tech mod for the Anvil that replaces its bullets with ones that split into 4 weaker projectiles."
+    "name": "Séparateur d'enclume",
+    "description": "Compatible avec : Anvil - Mod technologique pour l'Anvil qui remplace ses balles par celles qui se divisent en 4 projectiles plus faibles."
   },
   "compensator-i": {
-    "name": "Compensator I",
-    "description": "Slightly reduces per-shot dispersion."
+    "name": "Compensateur I",
+    "description": "Réduit légèrement la dispersion par tir."
   },
   "compensator-ii": {
-    "name": "Compensator II",
-    "description": "Moderately reduces per-shot dispersion."
+    "name": "Compensateur II",
+    "description": "Réduit modérément la dispersion par tir."
   },
   "compensator-iii": {
-    "name": "Compensator III",
-    "description": "50% Reduced Shot Dispersion, 20% Increased Durability Burn Rate"
+    "name": "Compensateur III",
+    "description": "Dispersion des tirs réduite de 50 %, taux de combustion de durabilité augmenté de 20 %"
   },
   "extended-barrel": {
-    "name": "Extended Barrel",
-    "description": "Moderately increases bullet velocity."
+    "name": "Canon étendu",
+    "description": "Augmente modérément la vitesse de la balle."
   },
   "extended-light-mag-i": {
-    "name": "Extended Light Mag I",
-    "description": "Slightly extends the ammo capacity of the compatible weapons that use light ammo."
+    "name": "Mag de lumière étendu I",
+    "description": "Étend légèrement la capacité de munitions des armes compatibles utilisant des munitions légères."
   },
   "extended-light-mag-ii": {
-    "name": "Extended Light Mag II",
-    "description": "Moderately extends the ammo capacity of the compatible weapons that use light ammo."
+    "name": "Mag II à lumière étendue",
+    "description": "Étend modérément la capacité de munitions des armes compatibles qui utilisent des munitions légères."
   },
   "extended-light-mag-iii": {
-    "name": "Extended Light Mag III",
-    "description": "Significantly extends the ammo capacity of the compatible weapons that use light ammo."
+    "name": "Chargeur de lumière étendu III",
+    "description": "Augmente considérablement la capacité de munitions des armes compatibles utilisant des munitions légères."
   },
   "extended-medium-mag-i": {
-    "name": "Extended Medium Mag I",
-    "description": "Slightly extends the ammo capacity of compatible weapons that use medium ammo."
+    "name": "Mag moyen étendu I",
+    "description": "Étend légèrement la capacité de munitions des armes compatibles utilisant des munitions moyennes."
   },
   "extended-medium-mag-ii": {
-    "name": "Extended Medium Mag II",
-    "description": "Moderately extends the ammo capacity of compatible weapons that use medium ammo"
+    "name": "Mag moyen étendu II",
+    "description": "Étend modérément la capacité de munitions des armes compatibles qui utilisent des munitions moyennes"
   },
   "extended-medium-mag-iii": {
-    "name": "Extended Medium Mag III",
-    "description": "Moderately extends the ammo capacity of compatible weapons that use medium ammo"
+    "name": "Mag moyen étendu III",
+    "description": "Étend modérément la capacité de munitions des armes compatibles qui utilisent des munitions moyennes"
   },
   "extended-shotgun-mag-i": {
-    "name": "Extended Shotgun Mag I",
-    "description": "Slightly extends the ammo capacity of compatible weapons that use shotgun ammo."
+    "name": "Chargeur de fusil de chasse étendu I",
+    "description": "Augmente légèrement la capacité de munitions des armes compatibles utilisant des munitions de fusil de chasse."
   },
   "extended-shotgun-mag-ii": {
-    "name": "Extended Shotgun Mag II",
-    "description": "Moderately extends the ammo capacity of compatible weapons that use shotgun ammo."
+    "name": "Mag II pour fusil de chasse étendu",
+    "description": "Étend modérément la capacité de munitions des armes compatibles qui utilisent des munitions de fusil de chasse."
   },
   "extended-shotgun-mag-iii": {
-    "name": "Extended Shotgun Mag III",
-    "description": "Significantly extends the ammo capacity of compatible weapons that use shotgun ammo."
+    "name": "Chargeur de fusil de chasse étendu III",
+    "description": "Étend considérablement la capacité de munitions des armes compatibles utilisant des munitions de fusil de chasse."
   },
   "horizontal-grip": {
-    "name": "Horizontal Grip",
-    "description": "Moderately reduces both vertical and horizontal recoil."
+    "name": "Poignée horizontale",
+    "description": "Réduit modérément le recul vertical et horizontal."
   },
   "kinetic-converter": {
-    "name": "Kinetic Converter",
-    "description": "Moderately increases fire rate."
+    "name": "Convertisseur cinétique",
+    "description": "Augmente modérément la cadence de tir."
   },
   "muzzle-brake-i": {
-    "name": "Muzzle Brake I",
-    "description": "Slightly reduces both vertical recoil & horizontal recoil."
+    "name": "Frein de bouche I",
+    "description": "Réduit légèrement le recul vertical et le recul horizontal."
   },
   "muzzle-brake-ii": {
-    "name": "Muzzle Brake II",
-    "description": "Moderately reduces both vertical recoil & horizontal recoil."
+    "name": "Frein de bouche II",
+    "description": "Réduit modérément le recul vertical et le recul horizontal."
   },
   "muzzle-brake-iii": {
-    "name": "Muzzle Brake III",
-    "description": "Significantly reduces both vertical recoil & horizontal recoil."
+    "name": "Frein de bouche III",
+    "description": "Réduit considérablement le recul vertical et le recul horizontal."
   },
   "padded-stock": {
-    "name": "Padded Stock",
-    "description": "Significantly improves stability."
+    "name": "Crosse rembourrée",
+    "description": "Améliore considérablement la stabilité."
   },
   "shotgun-choke-i": {
-    "name": "Shotgun Choke I",
-    "description": "Slightly reduces base dispersion."
+    "name": "Étrangleur de fusil de chasse I",
+    "description": "Réduit légèrement la dispersion de la base."
   },
   "shotgun-choke-ii": {
-    "name": "Shotgun Choke II",
-    "description": "Moderately reduces base dispersion."
+    "name": "Étranglement pour fusil de chasse II",
+    "description": "Réduit modérément la dispersion de la base."
   },
   "shotgun-choke-iii": {
-    "name": "Shotgun Choke III",
-    "description": "Significantly reduces base dispersion. Compatible with: II Toro, Vulcano"
+    "name": "Étrangleur de fusil de chasse III",
+    "description": "Réduit considérablement la dispersion des bases. Compatible avec : II Toro, Vulcano"
   },
   "silencer-i": {
-    "name": "Silencer I",
-    "description": "Slightly reduces the amount of noise produced when firing."
+    "name": "Silencieux I",
+    "description": "Réduit légèrement la quantité de bruit produit lors du tir."
   },
   "silencer-ii": {
-    "name": "Silencer II",
-    "description": "Moderately reduces the amount of noise produced when firing.  Compatible with: Rattler,  Ferro, Tempest, Arpeggio, Bettina."
+    "name": "Silencieux II",
+    "description": "Réduit modérément la quantité de bruit produit lors du tir.  Compatible avec : Rattler, Ferro, Tempest, Arpeggio, Bettina."
   },
   "silencer-iii": {
-    "name": "Silencer III",
-    "description": "Significantly reduces the amount of noise produced when firing."
+    "name": "Silencieux III",
+    "description": "Réduit considérablement la quantité de bruit produit lors du tir."
   },
   "stable-stock-i": {
-    "name": "Stable Stock I",
-    "description": "Slightly improves dispersion & recoil recovery time. Compatible with: Rattler, Ferro, Arpeggio, Bettina, Kettle."
+    "name": "Stock stable I",
+    "description": "Améliore légèrement la dispersion et le temps de récupération du recul. Compatible avec : Rattler, Ferro, Arpeggio, Bettina, Kettle."
   },
   "stable-stock-ii": {
-    "name": "Stable Stock II",
-    "description": "Moderately improves dispersion & recoil recovery time."
+    "name": "Stock stable II",
+    "description": "Améliore modérément le temps de dispersion et de récupération du recul."
   },
   "stable-stock-iii": {
-    "name": "Stable Stock III",
-    "description": "Significantly improves dispersion & recoil recovery over time."
+    "name": "Stock stable III",
+    "description": "Améliore considérablement la dispersion et la récupération du recul au fil du temps."
   },
   "vertical-grip-i": {
-    "name": "Vertical Grip I",
-    "description": "Slightly reduces vertical recoil."
+    "name": "Poignée verticale I",
+    "description": "Réduit légèrement le recul vertical."
   },
   "vertical-grip-ii": {
-    "name": "Vertical Grip II",
-    "description": "Moderately reduces vertical recoil."
+    "name": "Poignée verticale II",
+    "description": "Réduit modérément le recul vertical."
   },
   "vertical-grip-iii": {
-    "name": "Vertical Grip III",
-    "description": "Significantly reduces vertical recoil."
+    "name": "Poignée verticale III",
+    "description": "Réduit considérablement le recul vertical."
   },
   "lightweight-stock": {
-    "name": "Lightweight Stock",
-    "description": "Moderately improves ADS & draw speed."
+    "name": "Crosse légère",
+    "description": "Améliore modérément l'ADS et la vitesse de tirage."
   },
   "shotgun-silencer": {
-    "name": "Shotgun Silencer",
-    "description": "Moderately reduces the amount of noise produced when firing."
+    "name": "Silencieux pour fusil de chasse",
+    "description": "Réduit modérément la quantité de bruit produit lors du tir."
   },
   "agave": {
     "name": "Agave",
-    "description": "A piece of an agave leaf. Can be used to regain a small amount of health."
+    "description": "Un morceau de feuille d'agave. Peut être utilisé pour retrouver une petite quantité de santé."
   },
   "apricot": {
-    "name": "Apricot",
-    "description": "A sun ripe apricot. Can be consumed for a small amount of stamina."
+    "name": "Abricot",
+    "description": "Un abricot mûri au soleil. Peut être consommé pour une petite quantité d’endurance."
   },
   "assorted-seeds": {
-    "name": "Assorted Seeds",
-    "description": "A handful of seeds. Celeste might be looking for these."
+    "name": "Graines assorties",
+    "description": "Une poignée de graines. Céleste les recherche peut-être."
   },
   "great-muullein": {
-    "name": "Great Mullein",
-    "description": "Used to craft medical supplies."
+    "name": "Grande Molène",
+    "description": "Utilisé pour fabriquer des fournitures médicales."
   },
   "lemon": {
-    "name": "Lemon",
-    "description": "Can be consumed for a small amount of stamina"
+    "name": "Citron",
+    "description": "Peut être consommé pour une petite quantité d'endurance"
   },
   "mushroom": {
-    "name": "Mushroom",
-    "description": "Can be consumed to regain a small amount of health."
+    "name": "Champignon",
+    "description": "Peut être consommé pour retrouver un peu de santé."
   },
   "prickly-pear": {
-    "name": "Prickly Pear",
-    "description": "Can be consumed for a small amount of stamina."
+    "name": "Figue de Barbarie",
+    "description": "Peut être consommé pour une petite quantité d’endurance."
   },
   "resin": {
-    "name": "Resin",
-    "description": "Can be used to gradually restore a small amount of health over time."
+    "name": "Résine",
+    "description": "Peut être utilisé pour restaurer progressivement une petite quantité de santé au fil du temps."
   },
   "roots": {
-    "name": "Roots",
-    "description": "May be worth a few coins."
+    "name": "Racines",
+    "description": "Cela vaut peut-être quelques pièces."
   },
   "buried-city-hospital-key": {
-    "name": "Buried City Hospital Key",
-    "description": "Opens a locked room in the North West corner of the Hospital in Buried City on the Second Floor."
+    "name": "Clé de l'hôpital municipal enterré",
+    "description": "Ouvre une pièce verrouillée dans le coin nord-ouest de l'hôpital de Buried City, au deuxième étage."
   },
   "buried-city-residential-master-key": {
-    "name": "Buried City Residential Master Key",
-    "description": "Unlocks certain apartment doors in Buried City"
+    "name": "Clé principale résidentielle de la ville enterrée",
+    "description": "Déverrouille certaines portes d'appartements dans Buried City"
   },
   "dam-utility-key": {
-    "name": "Dam Utility Key",
-    "description": "Location is currently unknown except that it is on Dam Battlegrounds."
+    "name": "Clé utilitaire du barrage",
+    "description": "L'emplacement est actuellement inconnu, sauf qu'il se trouve sur les champs de bataille du barrage."
   },
   "spaceport-container-storage-key": {
-    "name": "Spaceport Container Storage Key",
-    "description": "Unlocks a door in the Container Storage in Spaceport"
+    "name": "Clé de stockage de conteneur de port spatial",
+    "description": "Déverrouille une porte dans le stockage des conteneurs dans le port spatial"
   },
   "adrenaline-shot": {
-    "name": "Adrenaline Shot",
-    "description": "A serum that fully restores stamina and temporarily increases stamina regeneration"
+    "name": "Coup d'adrénaline",
+    "description": "Un sérum qui restaure complètement l'endurance et augmente temporairement la régénération de l'endurance"
   },
   "bandage": {
-    "name": "Bandage",
-    "description": "A medical item that gradually restores health over time."
+    "name": "Pansement",
+    "description": "Un objet médical qui restaure progressivement la santé au fil du temps."
   },
   "barricade-kit": {
-    "name": "Barricade Kit",
-    "description": "A deployable cover that can block incoming damage until it breaks."
+    "name": "Kit de barricades",
+    "description": "Une couverture déployable qui peut bloquer les dégâts entrants jusqu'à ce qu'elle se brise."
   },
   "blaze-grenade-trap": {
-    "name": "Blaze Grenade Trap",
-    "description": "A laser trip wire that detonates a Blaze Grenade"
+    "name": "Piège à grenades flamboyantes",
+    "description": "Un fil déclencheur laser qui fait exploser une grenade Blaze"
   },
   "blue-light-stick": {
-    "name": "Blue Light Stick",
-    "description": "A throwable chemical light that illuminates the area around it."
+    "name": "Bâton de lumière bleue",
+    "description": "Une lampe chimique jetable qui éclaire la zone qui l'entoure."
   },
   "defibrillator": {
-    "name": "Defibrillator",
-    "description": "An injection that quickly revives downed raiders and restores some health."
+    "name": "Défibrillateur",
+    "description": "Une injection qui réanime rapidement les raiders abattus et leur redonne un peu de santé."
   },
   "door-blocker": {
-    "name": "Door Blocker",
-    "description": "A locking mechanism that can be placed on large metal doors to limit access."
+    "name": "Bloqueur de porte",
+    "description": "Un mécanisme de verrouillage qui peut être placé sur de grandes portes métalliques pour limiter l'accès."
   },
   "explosive-mine": {
-    "name": "Explosive Mine",
-    "description": "A proximity triggered mine that pops up and explodes, dealing damage to anything within its radius."
+    "name": "Mine explosive",
+    "description": "Une mine déclenchée par la proximité apparaît et explose, infligeant des dégâts à tout ce qui se trouve dans son rayon."
   },
   "flame-spray": {
-    "name": "Flame Spray",
-    "description": "A classic makeshift weapon, sure to leave scorch marks."
+    "name": "Jet de flamme",
+    "description": "Une arme de fortune classique, qui laissera certainement des traces de brûlure."
   },
   "gas-grenade-trap": {
-    "name": "Gas Grenade Trap",
-    "description": "A laser trip wire that detonates a Gas Grenade"
+    "name": "Piège à grenades à gaz",
+    "description": "Un fil déclencheur laser qui fait exploser une grenade à gaz"
   },
   "green-light-stick": {
-    "name": "Green Light Stick",
-    "description": "A throwable chemical light that illuminates the area around it."
+    "name": "Bâton lumineux vert",
+    "description": "Une lampe chimique jetable qui éclaire la zone qui l'entoure."
   },
   "heavy-fuze-grenade": {
-    "name": "Heavy Fuze Grenade",
-    "description": "A grenade that detonates after a delay, dealing explosive damage in its radius."
+    "name": "Grenade à fusée lourde",
+    "description": "Une grenade qui explose après un certain temps, infligeant des dégâts explosifs dans son rayon."
   },
   "herbal-bandage": {
-    "name": "Herbal Bandage",
-    "description": "An improvised medical item that gradually restores health over time."
+    "name": "Pansement à base de plantes",
+    "description": "Un objet médical improvisé qui restaure progressivement la santé au fil du temps."
   },
   "jolt-mine": {
-    "name": "Jolt Mine",
-    "description": "A proximity triggered mine that pops up and stuns anything within its radius."
+    "name": "Mine de secousse",
+    "description": "Une mine déclenchée par la proximité apparaît et étourdit tout ce qui se trouve dans son rayon."
   },
   "laser-trap-lure-recipe": {
-    "name": "Laser Trap: Lure",
-    "description": "A deployable laser trip wire that detonates a Lure Grenade."
+    "name": "Piège Laser : Leurre",
+    "description": "Un fil déclencheur laser déployable qui fait exploser une grenade leurre."
   },
   "laser-trap-smoke-recipe": {
-    "name": "Laser Trap: Smoke",
-    "description": "Lets you craft Laser Trap: Smoke"
+    "name": "Piège Laser : Fumée",
+    "description": "Vous permet de fabriquer un piège laser : fumée"
   },
   "light-impact-grenade": {
-    "name": "Light Impact Grenade",
-    "description": "A grenade that detonates on impact, dealing explosive damage in a small radius."
+    "name": "Grenade à impact léger",
+    "description": "Une grenade qui explose à l'impact, infligeant des dégâts explosifs dans un petit rayon."
   },
   "lil-smoke-grenade": {
-    "name": "Li'l Smoke Grenade",
-    "description": "A grenade that pops a thick but small smoke cloud on impact, blocking visibility from ARC and other Raiders."
+    "name": "Petite grenade fumigène",
+    "description": "Une grenade qui fait apparaître un épais mais petit nuage de fumée à l'impact, bloquant la visibilité de l'ARC et des autres Raiders."
   },
   "lure-grenade": {
-    "name": "Lure Grenade",
-    "description": "A noisy device that sticks to surfaces, distracting nearby ARC machines and drawing their fire."
+    "name": "Grenade leurre",
+    "description": "Un appareil bruyant qui adhère aux surfaces, distrayant les machines ARC à proximité et attirant leur feu."
   },
   "noisemaker": {
-    "name": "Noisemaker",
-    "description": "A deployable proximity sensor that sounds an alarm when enemy raiders are detected."
+    "name": "Bruiteur",
+    "description": "Un capteur de proximité déployable qui déclenche une alarme lorsque des raiders ennemis sont détectés."
   },
   "photoelectric-cloak": {
-    "name": "Photoelectric Cloak",
-    "description": "A gadget that allows the user to conceal themselves from ARC."
+    "name": "Cape photoélectrique",
+    "description": "Un gadget qui permet à l'utilisateur de se cacher d'ARC."
   },
   "red-light-stick": {
-    "name": "Red Light Stick",
-    "description": "A throwable chemical light that illuminates the area around it."
+    "name": "Bâton lumineux rouge",
+    "description": "Une lampe chimique jetable qui éclaire la zone qui l'entoure."
   },
   "remote-raider-flare": {
-    "name": "Remote Raider Flare",
-    "description": "A deployable device that, when manually triggered, launches a Raider Distress Flare."
+    "name": "Fusée éclairante à distance",
+    "description": "Un appareil déployable qui, lorsqu'il est déclenché manuellement, lance une fusée de détresse Raider."
   },
   "shield-recharger": {
-    "name": "Shield Recharger",
-    "description": "A handheld repair kit that recharges a shield on use."
+    "name": "Chargeur de bouclier",
+    "description": "Un kit de réparation portable qui recharge un bouclier lors de son utilisation."
   },
   "smoke-grenade": {
-    "name": "Smoke Grenade",
-    "description": "A grenade that creates a lingering smoke cloud on impact, blocking visibility from other Raiders."
+    "name": "Grenade fumigène",
+    "description": "Une grenade qui crée un nuage de fumée persistant à l'impact, bloquant la visibilité des autres Raiders."
   },
   "snap-blast-grenade": {
-    "name": "Snap Blast Grenade",
-    "description": "A grenade that sticks to surfaces, dealing explosive damage after a short delay."
+    "name": "Grenade à explosion",
+    "description": "Une grenade qui colle aux surfaces, infligeant des dégâts explosifs après un court délai."
   },
   "snap-hook": {
-    "name": "Snap Hook",
-    "description": "A gadget that allows the user to scale structures and cover large distances."
+    "name": "Mousqueton",
+    "description": "Un gadget qui permet à l'utilisateur d'escalader des structures et de parcourir de grandes distances."
   },
   "sterilized-bandage": {
-    "name": "Sterilized Bandage",
-    "description": "A medical item that gradually restores a large amount health over time."
+    "name": "Pansement stérilisé",
+    "description": "Un objet médical qui restaure progressivement une grande quantité de santé au fil du temps."
   },
   "surge-shield-recharger": {
-    "name": "Surge Shield Recharger",
-    "description": "A handkeld kit that recharges a shield"
+    "name": "Chargeur de bouclier contre les surtensions",
+    "description": "Un kit de poignée qui recharge un bouclier"
   },
   "tagging-grenade": {
-    "name": "Tagging Grenade",
-    "description": "A grenade that detonates after a delay, tagging Raiders and ARC enemies in an area, allowing you to briefly track their location."
+    "name": "Grenade de marquage",
+    "description": "Une grenade qui explose après un certain temps, marquant les Raiders et les ennemis de l'ARC dans une zone, vous permettant de suivre brièvement leur emplacement."
   },
   "trigger-nade": {
-    "name": "Trigger Nade",
-    "description": "A remote-detonated grenade that can stick to surfaces and ARC, dealing explosive damage when triggered."
+    "name": "Déclencheur Nade",
+    "description": "Une grenade déclenchée à distance qui peut adhérer aux surfaces et à l'ARC, infligeant des dégâts explosifs lorsqu'elle est déclenchée."
   },
   "vita-shot": {
-    "name": "Vita Shot",
-    "description": "A medical item that restores a large amount of health."
+    "name": "Coup de Vita",
+    "description": "Un objet médical qui restaure une grande quantité de santé."
   },
   "vita-spray": {
-    "name": "Vita Spray",
-    "description": "A medical item that continuously restores health during use. Can be used on yourself or your allies."
+    "name": "Vaporisateur Vita",
+    "description": "Un article médical qui restaure continuellement la santé pendant son utilisation. Peut être utilisé sur vous-même ou sur vos alliés."
   },
   "wolfpack": {
-    "name": "WolfPack",
-    "description": "A grenade that scatters into multiple homing missiles, each one targeting ARC and dealing explosive damage on impact."
+    "name": "Meute de loups",
+    "description": "Une grenade qui se disperse en plusieurs missiles à tête chercheuse, chacun ciblant l'ARC et infligeant des dégâts explosifs à l'impact."
   },
   "yellow-light-stick": {
-    "name": "Yellow Light Stick",
-    "description": "A throwable chemical light that illuminates the area around it."
+    "name": "Bâton lumineux jaune",
+    "description": "Une lampe chimique jetable qui éclaire la zone qui l'entoure."
   },
   "zipline": {
-    "name": "Zipline",
-    "description": "A deployable zipline that allows you to quickly move between two locations."
+    "name": "Tyrolienne",
+    "description": "Une tyrolienne déployable qui vous permet de vous déplacer rapidement entre deux emplacements."
   },
   "alarm-clock": {
-    "name": "Alarm Clock",
-    "description": "Can be recycled into crafting materials."
+    "name": "Réveil",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "arc-coolant": {
-    "name": "ARC Coolant",
-    "description": "Obtained from ARC enemies or activities. Can be recycled into chemicals"
+    "name": "Liquide de refroidissement ARC",
+    "description": "Obtenu auprès des ennemis ou des activités de l'ARC. Peut être recyclé en produits chimiques"
   },
   "arc-flex-rubber": {
-    "name": "ARC Flex Rubber",
-    "description": "Obtained from ARC enemies or activities. Can be recycled into rubber."
+    "name": "Caoutchouc flexible ARC",
+    "description": "Obtenu auprès des ennemis ou des activités de l'ARC. Peut être recyclé en caoutchouc."
   },
   "arc-performance-steel": {
-    "name": "ARC Performance Steel",
-    "description": "Obtained from ARC enemies or activities. Can be recycled into scrap metal."
+    "name": "Acier de performance ARC",
+    "description": "Obtenu auprès des ennemis ou des activités de l'ARC. Peut être recyclé en ferraille."
   },
   "arc-synthetic-resin": {
-    "name": "ARC Synthetic Resin",
-    "description": "Obtained from ARC enemies or activities. Can be recycled into plastic."
+    "name": "Résine synthétique ARC",
+    "description": "Obtenu auprès des ennemis ou des activités de l'ARC. Peut être recyclé en plastique."
   },
   "arc-thermo-lining": {
-    "name": "ARC Thermo Lining",
-    "description": "Obtained from ARC enemies and activities. Can be recycled into fabric."
+    "name": "Doublure thermique ARC",
+    "description": "Obtenu auprès des ennemis et des activités de l'ARC. Peut être recyclé en tissu."
   },
   "bastion-part": {
-    "name": "Bastion Cell",
-    "description": "A salvaged component from a Bastion unit. Can be recycled into crafting materials."
+    "name": "Cellule du Bastion",
+    "description": "Un composant récupéré d'une unité Bastion. Peut être recyclé en matériaux de fabrication."
   },
   "bicycle-pump": {
-    "name": "Bicycle Pump",
-    "description": "Can be recycled into crafting materials."
+    "name": "Pompe à vélo",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "bison-driver": {
-    "name": "Bison Driver",
-    "description": "A critical control component from a Bison vehicle."
+    "name": "Conducteur de bisons",
+    "description": "Un composant de contrôle essentiel d'un véhicule Bison."
   },
   "bombardier-cell": {
-    "name": "Bombardier Cell",
-    "description": "Can be recycled into crafting materials"
+    "name": "Cellule Bombardier",
+    "description": "Peut être recyclé en matériaux de fabrication"
   },
   "broken-flashlight": {
-    "name": "Broken Flashlight",
-    "description": "Can be recycled into crafting materials."
+    "name": "Lampe de poche cassée",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "broken-guidance-system": {
-    "name": "Broken Guidance System",
-    "description": "Can be recycled into crafting materials."
+    "name": "Système de guidage cassé",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "broken-handcuffs": {
-    "name": "Broken Handcuffs",
-    "description": "Can be recycled into crafting materials."
+    "name": "Menottes cassées",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "broken-handheld-radio": {
-    "name": "Broken Handheld Radio",
-    "description": "Can be recycled into crafting materials."
+    "name": "Radio portable cassée",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "broken-riot-shield": {
-    "name": "Broken Riot Shield",
-    "description": "Can be recycled into crafting materials."
+    "name": "Bouclier anti-émeute brisé",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "broken-taser": {
-    "name": "Broken Taser",
-    "description": "Can be recycled into crafting materials."
+    "name": "Taser cassé",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "burned-arc-circuitry": {
-    "name": "Burned ARC Circuitry",
-    "description": "Can be recycled into crafting materials."
+    "name": "Circuits ARC brûlés",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "camera-lens": {
-    "name": "Camera Lens",
-    "description": "Can be recycled into crafting materials."
+    "name": "Objectif de la caméra",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "candle-holder": {
-    "name": "Candle Holder",
-    "description": "Can be recycled into crafting materials."
+    "name": "Bougeoir",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "coolant": {
-    "name": "Coolant",
-    "description": "Can be recycled into crafting materials."
+    "name": "Liquide de refroidissement",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "cooling-coil": {
-    "name": "Cooling Coil",
-    "description": "Can be recycled into crafting materials."
+    "name": "Serpentin de refroidissement",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "cooling-fan": {
-    "name": "Cooling Fan",
-    "description": "Can be recycled into crafting materials."
+    "name": "Ventilateur de refroidissement",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "cracked-bioscanner": {
-    "name": "Cracked Bioscanner",
-    "description": "Can be recycled into crafting materials."
+    "name": "Bioscanner fissuré",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "crumpled-plastic-bottle": {
-    "name": "Crumpled Plastic Bottle",
-    "description": "Can be recycled into plastic parts."
+    "name": "Bouteille en plastique froissée",
+    "description": "Peut être recyclé en pièces en plastique."
   },
   "damaged-arc-motion-core": {
-    "name": "Damaged ARC Motion Core",
-    "description": "Can be recycled into ARC Alloy."
+    "name": "Noyau de mouvement ARC endommagé",
+    "description": "Peut être recyclé en alliage ARC."
   },
   "damaged-arc-powercell": {
-    "name": "Damaged ARC Powercell",
-    "description": "Can be recycled into crafting materials."
+    "name": "Cellule de puissance ARC endommagée",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "damaged-fireball-burner": {
-    "name": "Damaged Fireball Burner",
-    "description": "Can be recycled into crafting materials."
+    "name": "Brûleur de boule de feu endommagé",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "damaged-heat-sink": {
-    "name": "Damaged Heat Sink",
-    "description": "Can be recycled into crafting materials."
+    "name": "Dissipateur thermique endommagé",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "danaged-hornet-driver": {
-    "name": "Damaged Hornet Driver",
-    "description": "Can be recycled into crafting materials"
+    "name": "Pilote Hornet endommagé",
+    "description": "Peut être recyclé en matériaux de fabrication"
   },
   "damaged-rocketeer-part": {
-    "name": "Damaged Rocketeer Driver",
-    "description": "Can be recycled into ARC Alloy."
+    "name": "Pilote Rocketeer endommagé",
+    "description": "Peut être recyclé en alliage ARC."
   },
   "damaged-tick-pod": {
-    "name": "Damaged Tick Pod",
-    "description": "Can be recycled into crafting materials"
+    "name": "Cosse de tique endommagée",
+    "description": "Peut être recyclé en matériaux de fabrication"
   },
   "damaged-wasp-driver": {
-    "name": "Damaged Wasp Driver",
-    "description": "Can be recycled into crafting materials."
+    "name": "Pilote de guêpe endommagé",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "deflated-football": {
-    "name": "Deflated Football",
-    "description": "Just by looking at this, you too start to feel slightly deflated."
+    "name": "Football dégonflé",
+    "description": "Rien qu’en regardant cela, vous aussi commencez à vous sentir légèrement dégonflé."
   },
   "degraded-arc-rubber": {
-    "name": "Degraded ARC Rubber",
-    "description": "Obtained from ARC enemies or activities. Can be recycled into rubber."
+    "name": "Caoutchouc ARC dégradé",
+    "description": "Obtenu auprès des ennemis ou des activités de l'ARC. Peut être recyclé en caoutchouc."
   },
   "diving-googles": {
-    "name": "Diving Googles",
-    "description": "Can be recycled into crafting materials."
+    "name": "Lunettes de plongée",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "dog-collar": {
-    "name": "Dog Collar",
-    "description": "After all this time, you can still smell the goodness."
+    "name": "Collier de chien",
+    "description": "Après tout ce temps, vous pouvez encore sentir la bonté."
   },
   "dried-out-arc-resin": {
-    "name": "Dried-Out ARC Resin",
-    "description": "Obtained from ARC enemies or Activities. Can be recycled into plastic."
+    "name": "Résine ARC séchée",
+    "description": "Obtenu auprès des ennemis ou des activités de l'ARC. Peut être recyclé en plastique."
   },
   "expired-respirator": {
-    "name": "Expired Respirator",
-    "description": "The filters are clogged with sand and noxious fumes. Long past its lifespan."
+    "name": "Respirateur expiré",
+    "description": "Les filtres sont obstrués par du sable et des fumées nocives. Bien au-delà de sa durée de vie."
   },
   "fireball-burner": {
-    "name": "Fireball Burner",
-    "description": "Can be recycled into ARC Alloy."
+    "name": "Brûleur de boule de feu",
+    "description": "Peut être recyclé en alliage ARC."
   },
   "fried-motherboard": {
-    "name": "Fried Motherboard",
-    "description": "Can be recycled into crafting materials."
+    "name": "Carte mère frite",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "frying-pan": {
-    "name": "Frying Pan",
-    "description": "Can be recycled into crafting materials."
+    "name": "Poêle à Frire",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "garlic-press": {
-    "name": "Garlic Press",
-    "description": "It'll press garlic, olives, and probably many other things."
+    "name": "Presse-ail",
+    "description": "Il va presser l'ail, les olives et probablement bien d'autres choses."
   },
   "headphones": {
-    "name": "Headphones",
-    "description": "Can be recycled into crafting materials."
+    "name": "Écouteurs",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "hornet-driver": {
-    "name": "Hornet Driver",
-    "description": "A control module used to operate Hornet drones or vehicles."
+    "name": "Pilote de frelon",
+    "description": "Un module de contrôle utilisé pour faire fonctionner des drones ou des véhicules Hornet."
   },
   "household-cleaner": {
-    "name": "Household Cleaner",
-    "description": "Can be recycled into chemicals."
+    "name": "Nettoyant ménager",
+    "description": "Peut être recyclé en produits chimiques."
   },
   "humidifier": {
-    "name": "Humidifier",
-    "description": "Can be recycled into crafting materials."
+    "name": "Humidificateur",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "ice-cream-scooper": {
-    "name": "Ice Cream Scooper",
-    "description": "It is theorized that scooping things was a favorite pastime in the world before."
+    "name": "Cuillère à glace",
+    "description": "Il est théorisé que ramasser des objets était auparavant un passe-temps favori dans le monde."
   },
   "impure-arc-coolant": {
-    "name": "Impure ARC Coolant",
-    "description": "Obtained from ARC enemies or activities. Can be recycled into chemicals."
+    "name": "Liquide de refroidissement ARC impur",
+    "description": "Obtenu auprès des ennemis ou des activités de l'ARC. Peut être recyclé en produits chimiques."
   },
   "industrial-battery": {
-    "name": "Industrial Battery",
-    "description": "Can be recycled into crafting materials."
+    "name": "Batterie industrielle",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "industrial-charger": {
-    "name": "Industrial Charger",
-    "description": "Can be recycled into crafting materials."
+    "name": "Chargeur industriel",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "industrial-magnet": {
-    "name": "Industrial Magnet",
-    "description": "Can be recycled into crafting materials."
+    "name": "Aimant industriel",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "laboratory-reagents": {
-    "name": "Laboratory Reagents",
-    "description": "Can be recycled into crafting materials."
+    "name": "Réactifs de laboratoire",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "metal-brackets": {
-    "name": "Metal Brackets",
-    "description": "Can be recycled into metal parts."
+    "name": "Supports métalliques",
+    "description": "Peut être recyclé en pièces métalliques."
   },
   "motor": {
-    "name": "Motor",
-    "description": "Can be recycled into crafting materials."
+    "name": "Moteur",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "number-plate": {
-    "name": "Number Plate",
-    "description": "Can be recycled into metal parts."
+    "name": "Plaque d'immatriculation",
+    "description": "Peut être recyclé en pièces métalliques."
   },
   "polluted-air-filter": {
-    "name": "Polluted Air Filter",
-    "description": "Can be recycled into crafting materials."
+    "name": "Filtre à air pollué",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "pop-trigger": {
-    "name": "Pop Trigger",
-    "description": "Can be recycled into crafting materials."
+    "name": "Déclencheur pop",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "portable-television": {
-    "name": "Portable TV",
-    "description": "Can be recycled into crafting materials."
+    "name": "Téléviseur portatif",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "power-bank": {
-    "name": "Power Bank",
-    "description": "Can be recycled into crafting materials."
+    "name": "Banque de puissance",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "power-cable": {
-    "name": "Power Cable",
-    "description": "Can be recycled into crafting materials."
+    "name": "Câble d'alimentation",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "projector": {
-    "name": "Projector",
-    "description": "Can be recycled into crafting materials."
+    "name": "Projecteur",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "queen-reactor": {
-    "name": "Queen Reactor",
-    "description": "Can be recycled into crafting materials. Used to craft: Equalizer, Jupiter"
+    "name": "Réacteur Reine",
+    "description": "Peut être recyclé en matériaux de fabrication. Utilisé pour fabriquer : Égaliseur, Jupiter"
   },
   "radio": {
     "name": "Radio",
-    "description": "Can be recycled into crafting materials."
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "remote-control": {
-    "name": "Remote Control",
-    "description": "Can be recycled into crafting materials."
+    "name": "Télécommande",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "ripped-safety-vest": {
-    "name": "Ripped Safety Vest",
-    "description": "A remnant of a time long lost, when it was fashionable to stand out."
+    "name": "Gilet de sécurité déchiré",
+    "description": "Un vestige d’une époque perdue depuis longtemps, où il était de bon ton de se démarquer."
   },
   "rocketeer-part": {
-    "name": "Rocketeer Driver",
-    "description": "A salvaged component from a Rocketeer unit."
+    "name": "Pilote de fusée",
+    "description": "Un composant récupéré d'une unité Rocketeer."
   },
   "rocket-thruster": {
-    "name": "Rocket Thruster",
-    "description": "Can be recycled into crafting materials."
+    "name": "Propulseur de fusée",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "rollbot-part": {
-    "name": "Rollbot Part",
-    "description": "A salvaged component from a Rollbot unit."
+    "name": "Pièce de robot roulant",
+    "description": "Un composant récupéré d'une unité Rollbot."
   },
   "rubber-pad": {
-    "name": "Rubber Pad",
-    "description": "Can be recycled into rubber parts."
+    "name": "Tampon en caoutchouc",
+    "description": "Peut être recyclé en pièces en caoutchouc."
   },
   "ruined-accordion": {
-    "name": "Ruined Accordion",
-    "description": "Can be recycled into crafting materials."
+    "name": "Accordéon en ruine",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "ruined-baton": {
-    "name": "Ruined Baton",
-    "description": "Can be recycled into crafting materials."
+    "name": "Bâton en ruine",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "ruined-handcuffs": {
-    "name": "Ruined Handcuffs",
-    "description": "Can be recycled into crafting materials."
+    "name": "Menottes en ruine",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "ruined-parachute": {
-    "name": "Ruined Parachute",
-    "description": "Can be recycled into crafting materials."
+    "name": "Parachute en ruine",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "ruined-riot-shield": {
-    "name": "Ruined Riot Shield",
-    "description": "Can be recycled into crafting materials."
+    "name": "Bouclier anti-émeute en ruine",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "ruined-tactical-vest": {
-    "name": "Ruined Tactical Vest",
-    "description": "Can be recycled into crafting materials."
+    "name": "Gilet tactique en ruine",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "rusted-bolts": {
-    "name": "Rusted Bolts",
-    "description": "Some rusted old bolts"
+    "name": "Boulons rouillés",
+    "description": "Quelques vieux boulons rouillés"
   },
   "rusted-gear": {
-    "name": "Rusted Gear",
-    "description": "Can be recycled into crafting materials."
+    "name": "Équipement rouillé",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "rusted-shut-medical-kit": {
-    "name": "Rusted Shut Medical Kit",
-    "description": "Can be recycled into crafting material."
+    "name": "Trousse médicale à fermeture rouillée",
+    "description": "Peut être recyclé en matériau de fabrication."
   },
   "rusted-tools": {
-    "name": "Rusted Tools",
-    "description": "Can be recycled into metal parts."
+    "name": "Outils rouillés",
+    "description": "Peut être recyclé en pièces métalliques."
   },
   "rusty-arc-steel": {
-    "name": "Rusty ARC Steel",
-    "description": "Obtained from ARC enemies and activities. Can be recycled into scrap metal."
+    "name": "Acier ARC rouillé",
+    "description": "Obtenu auprès des ennemis et des activités de l'ARC. Peut être recyclé en ferraille."
   },
   "sentinel-part": {
-    "name": "Sentinel Firing Core",
-    "description": "Can be recycled into crafting materials."
+    "name": "Noyau de tir sentinelle",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "snitch-scanner": {
-    "name": "Snitch Scanner",
-    "description": "Gathered from ARC Snitches. Can be recycled into ARC Alloy."
+    "name": "Scanner de vif d'or",
+    "description": "Réunis auprès des vifs d'or de l'ARC. Peut être recyclé en alliage ARC."
   },
   "spotter-relay": {
-    "name": "Spotter Relay",
-    "description": "Can be recycled into crafting materials"
+    "name": "Relais d'observation",
+    "description": "Peut être recyclé en matériaux de fabrication"
   },
   "spring-cushion": {
-    "name": "Spring Cushion",
-    "description": "Can be recycled into crafting materials."
+    "name": "Coussin à ressort",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "surveyor-vault": {
-    "name": "Surveyor Vault",
-    "description": "Can be recycled into crafting materials."
+    "name": "Coffre d'arpenteur",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "tattered-arc-lining": {
-    "name": "Tattered ARC Lining",
-    "description": "Obtained from ARC enemies or activities. Can be recycled into fabric."
+    "name": "Doublure ARC en lambeaux",
+    "description": "Obtenu auprès des ennemis ou des activités de l'ARC. Peut être recyclé en tissu."
   },
   "tattered-clothes": {
-    "name": "Tattered Clothes",
-    "description": "Can be recycled into fabric."
+    "name": "Vêtements en lambeaux",
+    "description": "Peut être recyclé en tissu."
   },
   "thermostat": {
     "name": "Thermostat",
-    "description": "Can be recycled into crafting materials."
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "tick-pod": {
-    "name": "Tick Pod",
-    "description": "The explosive pod from a Tick. Can be recycled into ARC Alloy."
+    "name": "Cosse à tiques",
+    "description": "La capsule explosive d'une tique. Peut être recyclé en alliage ARC."
   },
   "toaster": {
-    "name": "Toaster",
-    "description": "Can be recycled into crafting materials."
+    "name": "Grille-pain",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "torn-blanket": {
-    "name": "Torn Blanket",
-    "description": "A tattered piece of cloth."
+    "name": "Couverture déchirée",
+    "description": "Un morceau de tissu en lambeaux."
   },
   "turbo-pump": {
-    "name": "Turbo Pump",
-    "description": "Can be recycled into crafting materials."
+    "name": "Turbopompe",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "unusable-weapon": {
-    "name": "Unusable Weapon",
-    "description": "Can be recycled into crafting materials."
+    "name": "Arme inutilisable",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "wasp-driver": {
-    "name": "Wasp Driver",
-    "description": "A control module used to operate Wasp drones or vehicles. Can be recycled into ARC Alloy."
+    "name": "Pilote de guêpe",
+    "description": "Un module de contrôle utilisé pour faire fonctionner des drones ou des véhicules Wasp. Peut être recyclé en alliage ARC."
   },
   "water-filter": {
-    "name": "Water Filter",
-    "description": "Can be recycled into crafting materials."
+    "name": "Filtre à eau",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "water-pump": {
-    "name": "Water Pump",
-    "description": "Can be recycled into crafting materials."
+    "name": "Pompe à eau",
+    "description": "Peut être recyclé en matériaux de fabrication."
   },
   "refinement-1": {
-    "name": "Refinement 1",
-    "description": "A refined material used in crafting."
+    "name": "Raffinement 1",
+    "description": "Un matériau raffiné utilisé dans l'artisanat."
   },
   "heavy-shield": {
-    "name": "Heavy Shield",
-    "description": "A heavy shield that blocks a large portion of incoming damage, but carries a significant cost to mobility."
+    "name": "Bouclier lourd",
+    "description": "Un bouclier lourd qui bloque une grande partie des dégâts reçus, mais qui entraîne un coût important en termes de mobilité."
   },
   "light-shield": {
-    "name": "Light Shield",
-    "description": "A lightweight shield that offers limited protection without severely impacting mobility."
+    "name": "Bouclier léger",
+    "description": "Un bouclier léger qui offre une protection limitée sans affecter gravement la mobilité."
   },
   "medium-shield": {
-    "name": "Medium Shield",
-    "description": "A standard shield that blocks a medium portion of incoming damage at a moderate cost to mobility."
+    "name": "Bouclier moyen",
+    "description": "Un bouclier standard qui bloque une partie moyenne des dégâts reçus avec un coût modéré en termes de mobilité."
   },
   "blaze-grenade": {
-    "name": "Blaze Grenade",
-    "description": "A grenade that detonates on impact, covering an area in fire that deals damage over time."
+    "name": "Grenade incendiaire",
+    "description": "Une grenade qui explose à l'impact, couvrant une zone en feu et infligeant des dégâts sur la durée."
   },
   "leaper-pulse-unit": {
-    "name": "Leaper Pulse Unit",
-    "description": "Can be thrown to create a violent singularity"
+    "name": "Unité d'impulsion Leaper",
+    "description": "Peut être lancé pour créer une singularité violente"
   },
   "showstopper": {
-    "name": "Showstopper",
-    "description": "A grenade that detonates after a delay, stunning enemies within its radius."
+    "name": "Coup de projecteur",
+    "description": "Une grenade qui explose après un certain temps, étourdissant les ennemis dans son rayon."
   },
   "shrapnel-grenade": {
-    "name": "Shrapnel Grenade",
-    "description": "A makeshift fuze grenade that bursts into razor-sharp fragments upon detonation."
+    "name": "Grenade à éclats",
+    "description": "Une grenade à fusée de fortune qui explose en fragments acérés comme des rasoirs lors de la détonation."
   },
   "air-freshener": {
-    "name": "Air Freshener",
-    "description": "May be worth a few coins."
+    "name": "Désodorisant",
+    "description": "Cela vaut peut-être quelques pièces."
   },
   "bloated-tuna-can": {
-    "name": "Bloated Tuna Can",
-    "description": "A can of tuna, suspiciously bloated."
+    "name": "Boîte de thon gonflée",
+    "description": "Une boîte de thon, étrangement gonflée."
   },
   "breathtaking-snow-globe": {
-    "name": "Breathtaking Snow Globe",
-    "description": "The envy of every Speranzan. Proof that this world was once thriving and magical."
+    "name": "Boule à neige à couper le souffle",
+    "description": "L'envie de chaque Speranzan. Preuve que ce monde était autrefois prospère et magique."
   },
   "cat-bed": {
-    "name": "Cat Bed",
-    "description": "At least a tiny bit more comfortable than your face."
+    "name": "Lit pour chat",
+    "description": "Au moins un tout petit peu plus confortable que votre visage."
   },
   "coffee-pot": {
-    "name": "Coffee Pot",
-    "description": "The power to face a new day, one drip at a time."
+    "name": "Cafetière",
+    "description": "Le pouvoir d’affronter une nouvelle journée, une goutte à la fois."
   },
   "dart-board": {
-    "name": "Dart Board",
-    "description": "Some Raiders use it to practice dexterity. Others just like throwing things at other things."
+    "name": "Jeu de fléchettes",
+    "description": "Certains Raiders l'utilisent pour pratiquer leur dextérité. D'autres aiment simplement lancer des objets sur d'autres choses."
   },
   "empty-wine-bottle": {
-    "name": "Empty Wine Bottle",
-    "description": "Yes, it really is empty."
+    "name": "Bouteille de vin vide",
+    "description": "Oui, c'est vraiment vide."
   },
   "expired-pasta": {
-    "name": "Expired Pasta",
-    "description": "Way pasta its prime."
+    "name": "Pâtes périmées",
+    "description": "C'est comme ça que les pâtes sont à leur apogée."
   },
   "faded-photograph": {
-    "name": "Faded Photograph",
-    "description": "A snapshot of the world before, faded by sunlight and time."
+    "name": "Photographie fanée",
+    "description": "Un instantané du monde d’avant, décoloré par la lumière du soleil et le temps."
   },
   "film-reel": {
-    "name": "Film Reel",
-    "description": "May be worth a few coins."
+    "name": "Bobine de film",
+    "description": "Cela vaut peut-être quelques pièces."
   },
   "fine-wristwatch": {
-    "name": "Fine Wristwatch",
-    "description": "Perfect for telling the time, and showcasing that you're an exceedingly dignified person."
+    "name": "Belle montre-bracelet",
+    "description": "Parfait pour indiquer l’heure et montrer que vous êtes une personne extrêmement digne."
   },
   "lances-mixtape-5th-edition": {
-    "name": "Lance's Mixtape (5th Edition)",
-    "description": "Lance has personally planted a number of these around the Rust Belt, for some reason."
+    "name": "Mixtape de Lance (5e édition)",
+    "description": "Lance en a personnellement planté un certain nombre autour de la Rust Belt, pour une raison quelconque."
   },
   "lidar-scanner": {
-    "name": "Lidar Scanner",
-    "description": "A laser-based scanner used to detect the subtlest changer to the Earth's surface."
+    "name": "Scanner Lidar",
+    "description": "Un scanner laser utilisé pour détecter les changements les plus subtils à la surface de la Terre."
   },
   "light-bulb": {
-    "name": "Light Bulb",
-    "description": "Without light, life underground would be impossible."
+    "name": "Ampoule",
+    "description": "Sans lumière, la vie sous terre serait impossible."
   },
   "music-album": {
-    "name": "Music Album",
-    "description": "Perfect for relaxing nights at home, casual get-togethers, and private air and guitar concerts."
+    "name": "Album de musique",
+    "description": "Parfait pour les nuits de détente à la maison, les réunions décontractées et les concerts privés d'air et de guitare."
   },
   "music-box": {
-    "name": "Music Box",
-    "description": "Worth a small fortune."
+    "name": "Boîte à musique",
+    "description": "Ça vaut une petite fortune."
   },
   "painted-box": {
-    "name": "Painted Box",
-    "description": "May be worth a few coins."
+    "name": "Boîte peinte",
+    "description": "Cela vaut peut-être quelques pièces."
   },
   "playing-cards": {
-    "name": "Playing Cards",
-    "description": "Speranzans love to see who can build the tallest tower - before the tremors knock them down."
+    "name": "Cartes à jouer",
+    "description": "Les Speranzans adorent voir qui pourra construire la tour la plus haute – avant que les secousses ne les renversent."
   },
   "poster-natural-wonder": {
-    "name": "Poster of Natural Wonder",
-    "description": "If you stand close and squint your eyes, it's like the world never came crumbling down."
+    "name": "Affiche des merveilles naturelles",
+    "description": "Si vous vous tenez près et plissez les yeux, c'est comme si le monde ne s'était jamais effondré."
   },
   "pottery": {
-    "name": "Pottery",
-    "description": "A piece of hand-crafted pottery."
+    "name": "Poterie",
+    "description": "Une pièce de poterie fabriquée à la main."
   },
   "recorder": {
-    "name": "Recorder",
-    "description": "A playable recorder used to attract ARC's attention and impress other Raiders."
+    "name": "Enregistreur",
+    "description": "Un enregistreur jouable utilisé pour attirer l'attention d'ARC et impressionner les autres Raiders."
   },
   "red-coral-jewelry": {
-    "name": "Red Coral Jewelry",
-    "description": "Valued for its fine craftmanship, and effortless ability to make your eyes pop."
+    "name": "Bijoux en corail rouge",
+    "description": "Apprécié pour son savoir-faire raffiné et sa capacité sans effort à faire ressortir vos yeux."
   },
   "rosary": {
-    "name": "Rosary",
-    "description": "May be worth a few coins."
+    "name": "Rosaire",
+    "description": "Cela vaut peut-être quelques pièces."
   },
   "rubber-duck": {
-    "name": "Rubber Duck",
-    "description": "Always there to lend an ear, should you need it."
+    "name": "Canard en caoutchouc",
+    "description": "Toujours là pour vous écouter si vous en avez besoin."
   },
   "silver-teaspoon-set": {
-    "name": "Silver Teaspoon Set",
-    "description": "A shining, shimmering set  of refinement and elegance."
+    "name": "Ensemble de cuillères à café en argent",
+    "description": "Un ensemble brillant et chatoyant de raffinement et d'élégance."
   },
   "statuette": {
     "name": "Statuette",
-    "description": "A small decorative statuette."
+    "description": "Une petite statuette décorative."
   },
   "torn-book": {
-    "name": "Torn Book",
-    "description": "What pages remain speak of chosen heroes, vampires, and lots of longing glances."
+    "name": "Livre déchiré",
+    "description": "Les pages restantes parlent de héros choisis, de vampires et de nombreux regards nostalgiques."
   },
   "vase": {
     "name": "Vase",
-    "description": "A decorative vase, possibly valuable."
+    "description": "Un vase décoratif, peut-être précieux."
   },
   "very-comfortable-pillow": {
-    "name": "Very Comfortable Pillow",
-    "description": "The envy of every Raider. Like sleeping on an especially ergonomic cloud."
+    "name": "Oreiller très confortable",
+    "description": "L'envie de chaque Raider. Comme dormir sur un nuage particulièrement ergonomique."
   },
   "anvil-i": {
-    "name": "Anvil I",
-    "description": "Single-action hand cannon with high damage output and headshot damage, but slow handling."
+    "name": "Enclume I",
+    "description": "Canon à main à simple action avec des dégâts élevés et des tirs à la tête, mais une manipulation lente."
   },
   "anvil-ii": {
-    "name": "Anvil II",
-    "description": "Single-action hand cannon with high damage output and headshot damage, but slow handling."
+    "name": "Enclume II",
+    "description": "Canon à main à simple action avec des dégâts élevés et des tirs à la tête, mais une manipulation lente."
   },
   "anvil-iii": {
-    "name": "Anvil III",
-    "description": "Single-action hand cannon with high damage output and headshot damage, but slow handling."
+    "name": "Enclume III",
+    "description": "Canon à main à simple action avec des dégâts élevés et des tirs à la tête, mais une manipulation lente."
   },
   "anvil-iv": {
-    "name": "Anvil IV",
-    "description": "Single-action hand cannon with high damage output and headshot damage, but slow handling."
+    "name": "Enclume IV",
+    "description": "Canon à main à simple action avec des dégâts élevés et des tirs à la tête, mais une manipulation lente."
   },
   "arpeggio-i": {
-    "name": "Arpeggio I",
-    "description": "Has decent damage output and accuracy."
+    "name": "Arpège I",
+    "description": "A des dégâts et une précision décents."
   },
   "arpeggio-ii": {
-    "name": "Arpeggio II",
-    "description": "A 3-round burst assault rifle with decent damage output and accuracy."
+    "name": "Arpège II",
+    "description": "Un fusil d'assaut à rafale à 3 cartouches avec des dégâts et une précision décents."
   },
   "arpeggio-iii": {
-    "name": "Arpeggio III",
-    "description": "A 3-round burst assault rifle with decent damage output and accuracy."
+    "name": "Arpège III",
+    "description": "Un fusil d'assaut à rafale à 3 cartouches avec des dégâts et une précision décents."
   },
   "arpeggio-iv": {
-    "name": "Arpeggio IV",
-    "description": "A 3-round burst assault rifle with decent damage output and accuracy."
+    "name": "Arpège IV",
+    "description": "Un fusil d'assaut à rafale à 3 cartouches avec des dégâts et une précision décents."
   },
   "bettina-i": {
-    "name": "Bettina I",
-    "description": "Has slow fire rate and high damage output."
+    "name": "Bettine I",
+    "description": "A une cadence de tir lente et des dégâts élevés."
   },
   "bettina-ii": {
-    "name": "Bettina II",
-    "description": "Has slow fire rate and high damage output."
+    "name": "Bettine II",
+    "description": "A une cadence de tir lente et des dégâts élevés."
   },
   "bettina-iii": {
-    "name": "Bettina III",
-    "description": "Has slow fire rate and high damage output."
+    "name": "Bettine III",
+    "description": "A une cadence de tir lente et des dégâts élevés."
   },
   "bettina-iv": {
-    "name": "Bettina IV",
-    "description": "Has slow rate of fire and high damage output."
+    "name": "Bettine IV",
+    "description": "A une cadence de tir lente et des dégâts élevés."
   },
   "bobcat-i": {
     "name": "Bobcat I",
-    "description": "Fully automatic SMG with high fire rate but low accuracy."
+    "description": "SMG entièrement automatique avec une cadence de tir élevée mais une faible précision."
   },
   "bobcat-ii": {
     "name": "Bobcat II",
-    "description": "Fully automatic SMG with high fire rate but low accuracy."
+    "description": "SMG entièrement automatique avec une cadence de tir élevée mais une faible précision."
   },
   "bobcat-iii": {
     "name": "Bobcat III",
-    "description": "Fully automatic SMG with high fire rate but low accuracy."
+    "description": "SMG entièrement automatique avec une cadence de tir élevée mais une faible précision."
   },
   "bobcat-iv": {
     "name": "Bobcat IV",
-    "description": "Fully automatic SMG with high fire rate but low accuracy."
+    "description": "SMG entièrement automatique avec une cadence de tir élevée mais une faible précision."
   },
   "burletta-i": {
-    "name": "Burletta I",
-    "description": "Semi-automatic pistol with decent damage output and accuracy. Can be fired as fast as you can pull the trigger."
+    "name": "Burlette I",
+    "description": "Pistolet semi-automatique avec des dégâts et une précision décents. Peut être tiré aussi vite que vous pouvez appuyer sur la gâchette."
   },
   "burletta-ii": {
-    "name": "Burletta II",
-    "description": "Semi-automatic pistol with decent damage output and accuracy. Can be fired as fast as you can pull the trigger."
+    "name": "Burlette II",
+    "description": "Pistolet semi-automatique avec des dégâts et une précision décents. Peut être tiré aussi vite que vous pouvez appuyer sur la gâchette."
   },
   "burletta-iiii": {
-    "name": "Burletta III",
-    "description": "Semi-automatic pistol with decent damage output and accuracy. Can be fired as fast as you can pull the trigger."
+    "name": "Burlette III",
+    "description": "Pistolet semi-automatique avec des dégâts et une précision décents. Peut être tiré aussi vite que vous pouvez appuyer sur la gâchette."
   },
   "burletta-iv": {
-    "name": "Burletta IV",
-    "description": "Semi-automatic pistol with decent damage output and accuracy. Can be fired as fast as you can pull the trigger."
+    "name": "Burlette IV",
+    "description": "Pistolet semi-automatique avec des dégâts et une précision décents. Peut être tiré aussi vite que vous pouvez appuyer sur la gâchette."
   },
   "equalizer-i": {
-    "name": "Equalizer",
-    "description": "A high capacity experimental beam rifle."
+    "name": "Égaliseur",
+    "description": "Un fusil à faisceau expérimental de grande capacité."
   },
   "ferro-i": {
-    "name": "Ferro I",
-    "description": "Heavy break-action rifle. Packs a punch, but must be reloaded between every shot."
+    "name": "Ferro Ier",
+    "description": "Fusil lourd à rupture de stock. A du punch, mais doit être rechargé entre chaque tir."
   },
   "ferro-ii": {
     "name": "Ferro II",
-    "description": "Heavy break-action rifle. Packs a punch, but must be reloaded between every shot."
+    "description": "Fusil lourd à rupture de stock. A du punch, mais doit être rechargé entre chaque tir."
   },
   "ferro-iii": {
     "name": "Ferro III",
-    "description": "Heavy break-action rifle. Packs a punch, but must be reloaded between every shot."
+    "description": "Fusil lourd à rupture de stock. A du punch, mais doit être rechargé entre chaque tir."
   },
   "ferro-iv": {
     "name": "Ferro IV",
-    "description": "Heavy break-action rifle. Packs a punch, but must be reloaded between every shot."
+    "description": "Fusil lourd à rupture de stock. A du punch, mais doit être rechargé entre chaque tir."
   },
   "hairpin-i": {
-    "name": "Hairpin I",
-    "description": "Single-action pistol with a built-in silencer. Great for stealth, but tricky in combat."
+    "name": "Épingle à cheveux I",
+    "description": "Pistolet simple action avec silencieux intégré. Idéal pour la furtivité, mais délicat au combat."
   },
   "hairpin-ii": {
-    "name": "Hairpin II",
-    "description": "Single-action pistol with a built-in silencer. Great for stealth, but tricky in combat."
+    "name": "Épingle à cheveux II",
+    "description": "Pistolet simple action avec silencieux intégré. Idéal pour la furtivité, mais délicat au combat."
   },
   "hairpin-iii": {
-    "name": "Hairpin III",
-    "description": "Single-action pistol with a built-in silencer. Great for stealth, but tricky in combat."
+    "name": "Épingle à cheveux III",
+    "description": "Pistolet simple action avec silencieux intégré. Idéal pour la furtivité, mais délicat au combat."
   },
   "hairpin-iv": {
-    "name": "Hairpin IV",
-    "description": "Single-action pistol with a built-in silencer. Great for stealth, but tricky in combat."
+    "name": "Épingle à cheveux IV",
+    "description": "Pistolet simple action avec silencieux intégré. Idéal pour la furtivité, mais délicat au combat."
   },
   "hullcracker-i": {
-    "name": "Hullcracker I",
-    "description": "Fires explosive projectiles that only detonate when hitting ARC."
+    "name": "Casse-coque I",
+    "description": "Tire des projectiles explosifs qui n'explosent que lorsqu'ils touchent l'ARC."
   },
   "hullcracker-ii": {
-    "name": "Hullcracker II",
-    "description": "Fires explosive projectiles that only detonate when hitting ARC"
+    "name": "Casse-coque II",
+    "description": "Tire des projectiles explosifs qui n'explosent que lorsqu'ils touchent l'ARC"
   },
   "hullcracker-iii": {
-    "name": "Hullcracker III",
-    "description": "Fires explosive projectiles that only detonate when hitting ARC"
+    "name": "Casse-coque III",
+    "description": "Tire des projectiles explosifs qui n'explosent que lorsqu'ils touchent l'ARC"
   },
   "hullcracker-iv": {
-    "name": "Hullcracker IV ",
-    "description": "Fires explosive projectiles that only detonate when hitting ARC"
+    "name": "Casse-coque IV ",
+    "description": "Tire des projectiles explosifs qui n'explosent que lorsqu'ils touchent l'ARC"
   },
   "il-toro-i": {
     "name": "Il Toro I",
-    "description": "Pump-action shotgun with large bullet spread, sharp falloff, and high damage output."
+    "description": "Fusil à pompe avec une grande propagation de balle, une atténuation nette et des dégâts élevés."
   },
   "il-toro-ii": {
-    "name": "Il Toro II",
-    "description": "Pump-action shotgun with large bullet spread, sharp falloff, and high damage output."
+    "name": "Le Toro II",
+    "description": "Fusil à pompe avec une grande propagation de balle, une atténuation nette et des dégâts élevés."
   },
   "il-toro-iiii": {
-    "name": "Il Toro III",
-    "description": "Pump-action shotgun with large bullet spread, sharp falloff, and high damage output."
+    "name": "Le Toro III",
+    "description": "Fusil à pompe avec une grande propagation de balle, une atténuation nette et des dégâts élevés."
   },
   "il-toro-iv": {
-    "name": "Il Toro IV",
-    "description": "Pump-action shotgun with large bullet spread, sharp falloff, and high damage output."
+    "name": "Le Toro IV",
+    "description": "Fusil à pompe avec une grande propagation de balle, une atténuation nette et des dégâts élevés."
   },
   "jupiter-i": {
     "name": "Jupiter",
-    "description": "A bolt-action sniper rifle with exceptional damage output and accuracy, but slow handling."
+    "description": "Un fusil de précision à verrou avec des dégâts et une précision exceptionnels, mais une manipulation lente."
   },
   "kettle-i": {
-    "name": "Kettle I",
-    "description": "Semi-automatic assault rifle. Quick and accurate, but has low bullet velocity and takes a long time reload."
+    "name": "Bouilloire I",
+    "description": "Fusil d'assaut semi-automatique. Rapide et précis, mais a une faible vitesse de balle et prend beaucoup de temps à recharger."
   },
   "kettle-ii": {
-    "name": "Kettle II",
-    "description": "Semi-automatic assault rifle. Quick and accurate, but has low bullet velocity and takes a long time reload."
+    "name": "Bouilloire II",
+    "description": "Fusil d'assaut semi-automatique. Rapide et précis, mais a une faible vitesse de balle et prend beaucoup de temps à recharger."
   },
   "kettle-iii": {
-    "name": "Kettle III",
-    "description": "Semi-automatic assault rifle. Quick and accurate, but has low bullet velocity and takes a long time reload."
+    "name": "Bouilloire III",
+    "description": "Fusil d'assaut semi-automatique. Rapide et précis, mais a une faible vitesse de balle et prend beaucoup de temps à recharger."
   },
   "kettle-iv": {
-    "name": "Kettle IV",
-    "description": "Semi-automatic assault rifle. Quick and accurate, but has low bullet velocity and takes a long time reload."
+    "name": "Bouilloire IV",
+    "description": "Fusil d'assaut semi-automatique. Rapide et précis, mais a une faible vitesse de balle et prend beaucoup de temps à recharger."
   },
   "osprey-i": {
-    "name": "Osprey I",
-    "description": "A scoped bolt-action sniper rifle with reliable damage output and accuracy."
+    "name": "Balbuzard pêcheur I",
+    "description": "Un fusil de sniper à verrou à lunette avec des dégâts et une précision fiables."
   },
   "osprey-ii": {
-    "name": "Osprey II",
-    "description": "A scoped bolt-action sniper rifle with reliable damage output and accuracy."
+    "name": "Balbuzard pêcheur II",
+    "description": "Un fusil de sniper à verrou à lunette avec des dégâts et une précision fiables."
   },
   "osprey-iii": {
-    "name": "Osprey III",
-    "description": "A scoped bolt-action sniper rifle with reliable damage output and accuracy."
+    "name": "Balbuzard pêcheur III",
+    "description": "Un fusil de sniper à verrou à lunette avec des dégâts et une précision fiables."
   },
   "osprey-iv": {
-    "name": "Osprey IV",
-    "description": "A scoped bolt-action sniper rifle with reliable damage output and accuracy."
+    "name": "Balbuzard pêcheur IV",
+    "description": "Un fusil de sniper à verrou à lunette avec des dégâts et une précision fiables."
   },
   "rattler-i": {
-    "name": "Rattler I",
-    "description": "Fully automatic assault rifle. A cheap offensive option, but has to be reloaded 2 bullets at a time."
+    "name": "Hochet I",
+    "description": "Fusil d'assaut entièrement automatique. Une option offensive bon marché, mais qui doit être rechargée 2 balles à la fois."
   },
   "rattler-ii": {
-    "name": "Rattler II",
-    "description": "Fully automatic assault rifle. A cheap offensive option, but has to be reloaded 2 bullets at a time."
+    "name": "Hochet II",
+    "description": "Fusil d'assaut entièrement automatique. Une option offensive bon marché, mais qui doit être rechargée 2 balles à la fois."
   },
   "rattler-iii": {
-    "name": "Rattler III",
-    "description": "Fully automatic assault rifle. A cheap offensive option, but has to be reloaded 2 bullets at a time."
+    "name": "Hochet III",
+    "description": "Fusil d'assaut entièrement automatique. Une option offensive bon marché, mais qui doit être rechargée 2 balles à la fois."
   },
   "rattler-iv": {
-    "name": "Rattler IV",
-    "description": "Fully automatic assault rifle. A cheap offensive option, but has to be reloaded 2 bullets at a time."
+    "name": "Hochet IV",
+    "description": "Fusil d'assaut entièrement automatique. Une option offensive bon marché, mais qui doit être rechargée 2 balles à la fois."
   },
   "renegade-i": {
-    "name": "Renegade I",
-    "description": "Lever-action battle rifle with high damage output, accuracy, and headshot damage."
+    "name": "Renégat I",
+    "description": "Fusil de combat à levier avec des dégâts, une précision et des tirs à la tête élevés."
   },
   "renegade-ii": {
-    "name": "Renegade II",
-    "description": "Lever-action battle rifle with high damage output, accuracy, and headshot damage."
+    "name": "Renégat II",
+    "description": "Fusil de combat à levier avec des dégâts, une précision et des tirs à la tête élevés."
   },
   "renegade-iii": {
-    "name": "Renegade III",
-    "description": "Lever-action battle rifle with high damage output, accuracy, and headshot damage."
+    "name": "Renégat III",
+    "description": "Fusil de combat à levier avec des dégâts, une précision et des tirs à la tête élevés."
   },
   "renegade-iv": {
-    "name": "Renegade IV",
-    "description": "Lever-action battle rifle with high damage output, accuracy, and headshot damage."
+    "name": "Renégat IV",
+    "description": "Fusil de combat à levier avec des dégâts, une précision et des tirs à la tête élevés."
   },
   "stitcher-i": {
-    "name": "Stitcher I",
-    "description": "Full automatic SMG. Deals good damage, but has quite a low fire-rate and can be hard to control."
+    "name": "Couseuse I",
+    "description": "SMG entièrement automatique. Inflige de bons dégâts, mais a une cadence de tir assez faible et peut être difficile à contrôler."
   },
   "stitcher-ii": {
-    "name": "Stitcher II",
-    "description": "Full automatic SMG. Deals good damage, but has quite a low fire-rate and can be hard to control."
+    "name": "Brodeuse II",
+    "description": "SMG entièrement automatique. Inflige de bons dégâts, mais a une cadence de tir assez faible et peut être difficile à contrôler."
   },
   "stitcher-iii": {
-    "name": "Stitcher III",
-    "description": "Full automatic SMG. Deals good damage, but has quite a low fire-rate and can be hard to control."
+    "name": "Brodeuse III",
+    "description": "SMG entièrement automatique. Inflige de bons dégâts, mais a une cadence de tir assez faible et peut être difficile à contrôler."
   },
   "stitcher-iv": {
-    "name": "Stitcher IV",
-    "description": "Full automatic SMG. Deals good damage, but has quite a low fire-rate and can be hard to control."
+    "name": "Brodeuse IV",
+    "description": "SMG entièrement automatique. Inflige de bons dégâts, mais a une cadence de tir assez faible et peut être difficile à contrôler."
   },
   "tempest-i": {
-    "name": "Tempest I",
-    "description": "Fully automatic assault rifle with moderate fire rate and accuracy."
+    "name": "Tempête I",
+    "description": "Fusil d'assaut entièrement automatique avec une cadence de tir et une précision modérées."
   },
   "tempest-ii": {
-    "name": "Tempest II",
-    "description": "Fully automatic assault rifle with moderate fire rate and accuracy."
+    "name": "Tempête II",
+    "description": "Fusil d'assaut entièrement automatique avec une cadence de tir et une précision modérées."
   },
   "tempest-iii": {
-    "name": "Tempest III",
-    "description": "Fully automatic assault rifle with moderate fire rate and accuracy."
+    "name": "Tempête III",
+    "description": "Fusil d'assaut entièrement automatique avec une cadence de tir et une précision modérées."
   },
   "tempest-iv": {
-    "name": "Tempest IV",
-    "description": "Fully automatic assault rifle with moderate fire rate and accuracy."
+    "name": "Tempête IV",
+    "description": "Fusil d'assaut entièrement automatique avec une cadence de tir et une précision modérées."
   },
   "torrente-i": {
-    "name": "Torrente I",
-    "description": "Has large ammo capacity, but is only accurate while crouched. "
+    "name": "Torrent I",
+    "description": "Possède une grande capacité de munitions, mais n'est précis qu'en position accroupie. "
   },
   "torrente-ii": {
-    "name": "Torrente II",
-    "description": "Has large ammo capacity, but is only accurate while crouched. "
+    "name": "Torrent II",
+    "description": "Possède une grande capacité de munitions, mais n'est précis qu'en position accroupie. "
   },
   "torrente-iii": {
-    "name": "Torrente III",
-    "description": "Has large ammo capacity, but is only accurate while crouched. "
+    "name": "Torrent III",
+    "description": "Possède une grande capacité de munitions, mais n'est précis qu'en position accroupie. "
   },
   "torrente-iv": {
-    "name": "Torrente IV",
-    "description": "Has large ammo capacity, but is only accurate while crouched. "
+    "name": "Torrent IV",
+    "description": "Possède une grande capacité de munitions, mais n'est précis qu'en position accroupie. "
   },
   "venator-i": {
-    "name": "Venator I",
-    "description": "Semi-automatic pistol. Fires two shots at a time."
+    "name": "Venateur I",
+    "description": "Pistolet semi-automatique. Tire deux coups à la fois."
   },
   "venator-ii": {
-    "name": "Venator II",
-    "description": "Semi-automatic pistol. Fires two shots at a time."
+    "name": "Venateur II",
+    "description": "Pistolet semi-automatique. Tire deux coups à la fois."
   },
   "venator-iii": {
-    "name": "Venator III",
-    "description": "Semi-automatic pistol. Fires two shots at a time"
+    "name": "Venateur III",
+    "description": "Pistolet semi-automatique. Tire deux coups à la fois"
   },
   "venator-iv": {
     "name": "Venator IV",
-    "description": "Semi-automatic pistol. Fires two shots at a time"
+    "description": "Pistolet semi-automatique. Tire deux coups à la fois"
   },
   "vulcano-i": {
-    "name": "Vulcano I",
-    "description": "Semi-automatic shotgun with good bullet spread but sharp falloff."
+    "name": "Vulcan I",
+    "description": "Fusil semi-automatique avec une bonne propagation de balle mais une atténuation nette."
   },
   "vulcano-ii": {
-    "name": "Vulcano II",
-    "description": "Semi-automatic shotgun with good bullet spread but sharp falloff."
+    "name": "Vulcan II",
+    "description": "Fusil semi-automatique avec une bonne propagation de balle mais une atténuation nette."
   },
   "vulcano-iii": {
-    "name": "Vulcano III",
-    "description": "Semi-automatic shotgun with good bullet spread but sharp falloff"
+    "name": "Vulcan III",
+    "description": "Fusil semi-automatique avec une bonne propagation des balles mais une atténuation nette"
   },
   "vulcano-iv": {
-    "name": "Vulcano IV",
-    "description": "Semi-automatic shotgun with good bullet spread but sharp falloff"
+    "name": "Vulcan IV",
+    "description": "Fusil semi-automatique avec une bonne propagation des balles mais une atténuation nette"
   }
 }
