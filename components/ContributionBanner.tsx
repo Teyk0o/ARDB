@@ -1,10 +1,12 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { getTranslation, Language } from '@/lib/translations';
 
 export default function ContributionBanner() {
   const [isVisible, setIsVisible] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
+  const [language, setLanguage] = useState<Language>('en');
 
   useEffect(() => {
     setIsMounted(true);
@@ -13,6 +15,23 @@ export default function ContributionBanner() {
     if (!isDismissed) {
       setIsVisible(true);
     }
+
+    // Get language from localStorage (synced with ItemsPage)
+    const savedLanguage = localStorage.getItem('arc-db-language') as Language;
+    if (savedLanguage && ['en', 'fr'].includes(savedLanguage)) {
+      setLanguage(savedLanguage);
+    }
+
+    // Listen for language changes
+    const handleStorageChange = () => {
+      const newLanguage = localStorage.getItem('arc-db-language') as Language;
+      if (newLanguage && ['en', 'fr'].includes(newLanguage)) {
+        setLanguage(newLanguage);
+      }
+    };
+
+    window.addEventListener('storage', handleStorageChange);
+    return () => window.removeEventListener('storage', handleStorageChange);
   }, []);
 
   const handleDismiss = () => {
@@ -24,6 +43,27 @@ export default function ContributionBanner() {
     return null;
   }
 
+  const t = getTranslation(language);
+
+  const translations = {
+    en: {
+      title: 'Help Arc Raiders Database Grow',
+      description: 'Contribute code on GitHub or help translate to other languages on Crowdin',
+      github: 'GitHub',
+      crowdin: 'Crowdin',
+      close: 'Close'
+    },
+    fr: {
+      title: 'Aidez la Base de Données Arc Raiders à Grandir',
+      description: 'Contribuez du code sur GitHub ou aidez à traduire dans d\'autres langues sur Crowdin',
+      github: 'GitHub',
+      crowdin: 'Crowdin',
+      close: 'Fermer'
+    }
+  };
+
+  const text = translations[language] || translations.en;
+
   return (
     <div
       className="fixed bottom-0 left-0 right-0 shadow-2xl z-40"
@@ -32,9 +72,9 @@ export default function ContributionBanner() {
       <div className="container mx-auto px-4 py-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex-1">
-            <h3 className="font-bold mb-1" style={{ color: '#130918' }}>Help Arc Raiders Database Grow</h3>
+            <h3 className="font-bold mb-1" style={{ color: '#130918' }}>{text.title}</h3>
             <p className="text-sm" style={{ color: 'rgba(19, 9, 24, 0.8)' }}>
-              Contribute code on GitHub or help translate to other languages on Crowdin
+              {text.description}
             </p>
           </div>
 
@@ -52,7 +92,7 @@ export default function ContributionBanner() {
               onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = 'rgba(19, 9, 24, 0.8)')}
               onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = '#130918')}
             >
-              GitHub
+              {text.github}
             </a>
             <a
               href="https://crowdin.com/project/ardb"
@@ -67,7 +107,7 @@ export default function ContributionBanner() {
               onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = 'rgba(19, 9, 24, 0.8)')}
               onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = '#130918')}
             >
-              Crowdin
+              {text.crowdin}
             </a>
             <button
               onClick={handleDismiss}
@@ -85,7 +125,7 @@ export default function ContributionBanner() {
               }}
               aria-label="Dismiss banner"
             >
-              Close
+              {text.close}
             </button>
           </div>
         </div>

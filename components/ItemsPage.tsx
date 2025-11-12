@@ -40,6 +40,13 @@ export default function ItemsPage({ items, initialFilters = {} }: ItemsPageProps
   const [language, setLanguage] = useState<Language>('en');
   const { translateItem, translateItems, loading: translationsLoading } = useItemTranslation(language);
 
+  // Sync language to localStorage for ContributionBanner
+  useEffect(() => {
+    localStorage.setItem('arc-db-language', language);
+    // Dispatch custom event for other components
+    window.dispatchEvent(new Event('storage'));
+  }, [language]);
+
   // Sync filters with URL
   useEffect(() => {
     const params = new URLSearchParams();
