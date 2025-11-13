@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
 
     steps:
       - name: Checkout repository
@@ -48,14 +49,62 @@ jobs:
             echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
           fi
 
-      - name: Commit and push if changed
+      - name: Create branch and commit if changed
         if: env.CHANGES_DETECTED == 'true'
         run: |
           git config user.name "Arc Raiders Data Sync"
           git config user.email "sync@arcraidersdatabase.com"
+
+          # Create a unique branch name with timestamp
+          BRANCH_NAME="chore/sync-items-$(date +%Y%m%d-%H%M%S)"
+          git checkout -b "$BRANCH_NAME"
+
           git add data/items.json
           git commit -m "chore: sync items data from upstream"
-          git push
+          git push origin "$BRANCH_NAME"
+
+          # Save branch name for next step
+          echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
+
+      - name: Create Pull Request if changed
+        if: env.CHANGES_DETECTED == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { repo, owner } = context;
+            const branchName = process.env.BRANCH_NAME;
+
+            const pr = await github.rest.pulls.create({
+              owner,
+              repo,
+              title: "chore: sync items data from upstream",
+              head: branchName,
+              base: "main",
+              body: `## 📊 Items Data Synchronization
+
+Cette PR synchronise les données d'items depuis le repository en amont (\`arcraiders-data\`).
+
+### 🔍 Détails
+- **Source:** RaidTheory/arcraiders-data (branche main)
+- **Destination:** data/items.json
+- **Type:** Synchronisation de données
+
+### 🔧 Processus appliqué
+1. ✅ Téléchargement des dernières données d'items
+2. ✅ Fusion des relations recettes/recyclage
+3. ✅ Construction des références "used_in"
+4. ✅ Suppression des doublons
+
+### ✨ Prochaines étapes
+- [ ] Revue des changements
+- [ ] Test des impacts éventuels
+- [ ] Fusion et déploiement
+
+---
+*Générée automatiquement par le workflow de synchronisation*`
+            });
+
+            console.log(`Pull Request créée: #${pr.data.number}`);
 
       - name: Notify if no changes
         if: env.CHANGES_DETECTED == 'false'
