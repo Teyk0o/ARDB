@@ -306,6 +306,7 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
           onClose={() => setSelectedItem(null)}
           onItemClick={(item) => setSelectedItem(item)}
           language={language}
+          allItems={displayItems}
         />
       )}
     </div>
