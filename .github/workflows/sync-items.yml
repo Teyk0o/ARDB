@@ -19,8 +19,36 @@ jobs:
 
       - name: Download latest items data
         run: |
-          curl -s "https://raw.githubusercontent.com/RaidTheory/arcraiders-data/refs/heads/main/items.json" \
-            -o items-new.json
+          mkdir -p temp-items
+
+          # Get the list of files from the items folder via GitHub API
+          curl -s "https://api.github.com/repos/RaidTheory/arcraiders-data/contents/items?ref=main" | \
+            grep '"download_url"' | \
+            cut -d'"' -f4 | \
+            while read url; do
+              if [[ ! -z "$url" ]]; then
+                curl -s "$url" -o "temp-items/$(basename $url)"
+              fi
+            done
+
+          # Merge all JSON files into one
+          node -e "
+            const fs = require('fs');
+            const path = require('path');
+
+            const items = [];
+            const dir = 'temp-items';
+
+            fs.readdirSync(dir).forEach(file => {
+              if (file.endsWith('.json')) {
+                const content = JSON.parse(fs.readFileSync(path.join(dir, file), 'utf-8'));
+                items.push(content);
+              }
+            });
+
+            fs.writeFileSync('items-new.json', JSON.stringify(items, null, 2));
+            console.log('Merged ' + items.length + ' items');
+          "
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
