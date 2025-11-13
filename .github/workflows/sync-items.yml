@@ -129,7 +129,8 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const fs = require('fs');
-            const { repo, owner } = context;
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
             const branchName = process.env.BRANCH_NAME;
             const body = fs.readFileSync('pr-body.md', 'utf-8');
 
