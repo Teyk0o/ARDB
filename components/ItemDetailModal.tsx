@@ -1,14 +1,16 @@
 'use client';
 
 import Image from 'next/image';
-import { Item, ItemComponent } from '@/types/item';
+import { Item } from '@/types/item';
 import { Language, getTranslation, getStatLabel, getRarityLabel, getItemTypeLabel, getLootAreaLabel } from '@/lib/translations';
+import CraftRelationshipsAccordion from './CraftRelationshipsAccordion';
 
 interface ItemDetailModalProps {
   item: Item;
   onClose: () => void;
   onItemClick: (item: Item) => void;
   language: Language;
+  allItems?: Item[];
 }
 
 const rarityColors: Record<string, string> = {
@@ -19,55 +21,7 @@ const rarityColors: Record<string, string> = {
   Legendary: 'bg-arc-yellow/20 text-arc-yellow border-arc-yellow/30',
 };
 
-function ComponentList({
-  components,
-  title,
-  color,
-  bgColor,
-  onItemClick
-}: {
-  components: ItemComponent[];
-  title: string;
-  color: string;
-  bgColor: string;
-  onItemClick: (item: Item) => void;
-}) {
-  return (
-    <div className={`${bgColor} border border-${color}/30 rounded-lg p-4`}>
-      <h3 className={`text-${color} font-bold mb-3 flex items-center gap-2`}>
-        {title}
-      </h3>
-      <div className="flex flex-wrap gap-2">
-        {components.map((comp, idx) => {
-          const compItem = comp.item || comp.component;
-          if (!compItem) return null;
-          return (
-            <div
-              key={idx}
-              onClick={() => compItem.id && onItemClick(compItem as Item)}
-              className="flex items-center gap-2 bg-arc-blue-lighter px-3 py-2 rounded border border-arc-white/10 hover:border-arc-yellow/50 cursor-pointer transition-all group"
-            >
-              {compItem.icon && (compItem.icon.startsWith('http://') || compItem.icon.startsWith('https://')) && (
-                <Image
-                  src={compItem.icon}
-                  alt={compItem.name || 'Item'}
-                  width={24}
-                  height={24}
-                  className="object-contain"
-                />
-              )}
-              <span className="text-arc-white group-hover:text-arc-yellow transition-colors">
-                {compItem.name || 'Unknown'}
-              </span>
-            </div>
-          );
-        })}
-      </div>
-    </div>
-  );
-}
-
-export default function ItemDetailModal({ item, onClose, onItemClick, language }: ItemDetailModalProps) {
+export default function ItemDetailModal({ item, onClose, onItemClick, language, allItems = [] }: ItemDetailModalProps) {
   const t = getTranslation(language);
   const rarityClass = item.rarity ? rarityColors[item.rarity] || rarityColors.Common : rarityColors.Common;
 
@@ -141,45 +95,16 @@ export default function ItemDetailModal({ item, onClose, onItemClick, language }
             </div>
           )}
 
-          {/* Recycle From */}
-          {item.recycle_from && item.recycle_from.length > 0 && (
-            <div className="mb-6">
-              <ComponentList
-                components={item.recycle_from}
-                title={t.recycleThese}
-                color="blue-400"
-                bgColor="bg-blue-500/5"
-                onItemClick={onItemClick}
-              />
-            </div>
-          )}
-
-          {/* Used In */}
-          {item.used_in && item.used_in.length > 0 && (
-            <div className="mb-6">
-              <ComponentList
-                components={item.used_in}
-                title={t.requiredToCraft}
-                color="arc-yellow"
-                bgColor="bg-arc-yellow/5"
-                onItemClick={onItemClick}
-              />
-            </div>
-          )}
-
-          {/* Crafting Components */}
-          {(item.crafting_components || item.recipe) &&
-           (item.crafting_components?.length || item.recipe?.length) && (
-            <div className="mb-6">
-              <ComponentList
-                components={item.crafting_components || item.recipe || []}
-                title={t.craftingRecipe}
-                color="green-400"
-                bgColor="bg-green-500/5"
-                onItemClick={onItemClick}
-              />
-            </div>
-          )}
+          {/* Craft Relationships Accordion */}
+          <div className="mb-6">
+            <h3 className="text-arc-yellow font-bold mb-3 text-lg">{t.craftingRecipe}</h3>
+            <CraftRelationshipsAccordion
+              item={item}
+              onItemClick={onItemClick}
+              language={language}
+              allItems={allItems}
+            />
+          </div>
 
           {/* Additional Info */}
           <div className="grid md:grid-cols-2 gap-4">
