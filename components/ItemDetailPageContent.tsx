@@ -138,7 +138,18 @@ export default function ItemDetailPageContent({
 
 
       {/* Hero Section with Item Image */}
-      <div className={`bg-gradient-to-b ${rarityGradient} border-b-2 border-arc-yellow/30`}>
+      <div
+        className={`border-b-2 border-arc-yellow/30 ${
+          item.rarity === 'Common' ? 'bg-gradient-to-b from-gray-600/20 to-gray-700/10' :
+          item.rarity === 'Uncommon' ? 'bg-gradient-to-b from-green-600/20 to-green-700/10' :
+          item.rarity === 'Rare' ? 'bg-gradient-to-b from-blue-600/20 to-blue-700/10' :
+          item.rarity === 'Epic' ? 'bg-gradient-to-b from-purple-600/20 to-purple-700/10' :
+          'bg-gradient-to-b'
+        }`}
+        style={isLegendary ? {
+          backgroundImage: 'linear-gradient(to bottom, rgba(241, 170, 28, 0.3), rgba(241, 170, 28, 0.1))'
+        } : undefined}
+      >
         <div className="max-w-6xl mx-auto px-4 py-12 md:py-16">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
             {/* Image */}
