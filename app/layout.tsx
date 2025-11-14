@@ -4,6 +4,7 @@ import ContributionBanner from "@/components/ContributionBanner";
 import LanguageDetector from "@/components/LanguageDetector";
 import DiscordButton from "@/components/DiscordButton";
 import { getSEOConfig } from "@/lib/seoConfig";
+import { Analytics } from "@vercel/analytics/next"
 
 const seoEn = getSEOConfig('en');
 
@@ -137,6 +138,7 @@ export default function RootLayout({
       <body className="antialiased">
         <LanguageDetector />
         {children}
+		<Analytics />
         <ContributionBanner />
         <DiscordButton />
       </body>
