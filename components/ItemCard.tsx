@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import Image from 'next/image';
 import { Item } from '@/types/item';
 import { Language, getRarityLabel, getItemTypeLabel } from '@/lib/translations';
@@ -17,6 +18,7 @@ const rarityColors: Record<string, string> = {
 };
 
 export default function ItemCard({ item, onClick, language }: ItemCardProps) {
+  const [imageFailed, setImageFailed] = useState(false);
   const rarityClass = item.rarity ? rarityColors[item.rarity] || rarityColors.Common : rarityColors.Common;
   const isLegendary = item.rarity === 'Legendary';
 
@@ -31,16 +33,17 @@ export default function ItemCard({ item, onClick, language }: ItemCardProps) {
       <div className="relative z-10 flex items-start gap-4">
         {/* Icon */}
         <div className="flex-shrink-0 w-20 h-20 bg-arc-blue-lighter rounded-lg flex items-center justify-center overflow-hidden border-2 border-arc-white/20 group-hover:border-arc-yellow/60 transition-colors">
-          {item.icon && (item.icon.startsWith('http://') || item.icon.startsWith('https://')) ? (
+          {item.icon && (item.icon.startsWith('http://') || item.icon.startsWith('https://')) && !imageFailed ? (
             <Image
               src={item.icon}
               alt={item.name}
               width={80}
               height={80}
               className="object-contain"
+              onError={() => setImageFailed(true)}
             />
           ) : (
-            <span className="text-3xl">📦</span>
+            <span className="text-3xl">❌</span>
           )}
         </div>
 

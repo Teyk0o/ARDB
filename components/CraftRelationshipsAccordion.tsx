@@ -32,6 +32,7 @@ function ItemChip({
   onClick: () => void;
   quantity?: number;
 }) {
+  const [imageFailed, setImageFailed] = useState(false);
   if (!item) return null;
 
   return (
@@ -39,15 +40,18 @@ function ItemChip({
       onClick={onClick}
       className="flex items-center gap-2 bg-arc-blue-lighter px-3 py-2 rounded border border-arc-white/10 hover:border-arc-yellow/50 cursor-pointer transition-all group hover:bg-arc-blue"
     >
-      {item.icon && (item.icon.startsWith('http://') || item.icon.startsWith('https://')) && (
+      {item.icon && (item.icon.startsWith('http://') || item.icon.startsWith('https://')) && !imageFailed ? (
         <Image
           src={item.icon}
           alt={item.name || 'Item'}
           width={24}
           height={24}
           className="object-contain"
+          onError={() => setImageFailed(true)}
         />
-      )}
+      ) : item.icon && (item.icon.startsWith('http://') || item.icon.startsWith('https://')) ? (
+        <span className="text-sm">❌</span>
+      ) : null}
       <span className="text-arc-white group-hover:text-arc-yellow transition-colors">
         {item.name || 'Unknown'}
       </span>

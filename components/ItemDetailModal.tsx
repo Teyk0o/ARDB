@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import Image from 'next/image';
 import { Item } from '@/types/item';
 import { Language, getTranslation, getStatLabel, getRarityLabel, getItemTypeLabel, getLootAreaLabel } from '@/lib/translations';
@@ -22,6 +23,7 @@ const rarityColors: Record<string, string> = {
 };
 
 export default function ItemDetailModal({ item, onClose, onItemClick, language, allItems = [] }: ItemDetailModalProps) {
+  const [imageFailed, setImageFailed] = useState(false);
   const t = getTranslation(language);
   const rarityClass = item.rarity ? rarityColors[item.rarity] || rarityColors.Common : rarityColors.Common;
 
@@ -47,16 +49,17 @@ export default function ItemDetailModal({ item, onClose, onItemClick, language, 
           {/* Header */}
           <div className="flex items-start gap-6 mb-6">
             <div className="flex-shrink-0 w-20 h-20 bg-arc-blue-lighter rounded-xl flex items-center justify-center overflow-hidden border-2 border-arc-yellow/30">
-              {item.icon && (item.icon.startsWith('http://') || item.icon.startsWith('https://')) ? (
+              {item.icon && (item.icon.startsWith('http://') || item.icon.startsWith('https://')) && !imageFailed ? (
                 <Image
                   src={item.icon}
                   alt={item.name}
                   width={80}
                   height={80}
                   className="object-contain"
+                  onError={() => setImageFailed(true)}
                 />
               ) : (
-                <span className="text-4xl">📦</span>
+                <span className="text-4xl">❌</span>
               )}
             </div>
             <div className="flex-1">
