@@ -4,11 +4,11 @@ import { useState, useMemo, useEffect } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Item, FilterOptions } from '@/types/item';
 import ItemCard from './ItemCard';
-import ItemDetailModal from './ItemDetailModal';
 import CustomSelect from './CustomSelect';
 import MultiSelect from './MultiSelect';
 import LoadingSpinner from './LoadingSpinner';
 import { Language, getTranslation, getItemTypeLabel, getRarityLabel } from '@/lib/translations';
+import { generateSlug } from '@/lib/slugUtils';
 import { useItems } from '@/lib/useItems';
 
 interface ItemsPageProps {
@@ -19,7 +19,6 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
   const router = useRouter();
   const searchParams = useSearchParams();
 
-  const [selectedItem, setSelectedItem] = useState<Item | null>(null);
   const [language, setLanguage] = useState<Language>(() => {
     // Load language from localStorage on initial render
     if (typeof window !== 'undefined') {
@@ -263,7 +262,7 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
               <ItemCard
                 key={item.id}
                 item={item}
-                onClick={() => setSelectedItem(item)}
+                onClick={() => router.push(`/items/${generateSlug(item.nameEn || item.name)}`)}
                 language={language}
               />
             ))}
@@ -298,17 +297,6 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
           <p className="text-arc-white/40 text-sm">{t.footer}</p>
         </div>
       </footer>
-
-      {/* Item Detail Modal */}
-      {selectedItem && (
-        <ItemDetailModal
-          item={selectedItem}
-          onClose={() => setSelectedItem(null)}
-          onItemClick={(item) => setSelectedItem(item)}
-          language={language}
-          allItems={displayItems}
-        />
-      )}
     </div>
   );
 }

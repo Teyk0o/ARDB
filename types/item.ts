@@ -27,6 +27,7 @@ export interface Vendor {
 export interface Item {
   id: string;
   name: string;
+  nameEn?: string; // English name for URL slugs
   description?: string;
   item_type: string;
   icon?: string;
