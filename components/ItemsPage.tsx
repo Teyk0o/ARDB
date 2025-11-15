@@ -12,6 +12,7 @@ import { Language, getTranslation, getItemTypeLabel, getRarityLabel } from '@/li
 import { generateSlug } from '@/lib/slugUtils';
 import { useItems } from '@/lib/useItems';
 import { useHasNewChanges, markChangelogAsViewed } from '@/lib/useHasNewChanges';
+import { matchesSearch } from '@/lib/searchUtils';
 
 interface ItemsPageProps {
   initialFilters?: { [key: string]: string | string[] | undefined };
@@ -120,13 +121,12 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
       return true;
     });
 
-    // Search filter (on already translated items)
+    // Search filter (on already translated items) with accent and plural support
     if (filters.search) {
-      const searchLower = filters.search.toLowerCase();
       filtered = filtered.filter((item) => {
         return (
-          item.name.toLowerCase().includes(searchLower) ||
-          item.description?.toLowerCase().includes(searchLower)
+          matchesSearch(item.name, filters.search) ||
+          matchesSearch(item.description || '', filters.search)
         );
       });
     }
@@ -217,7 +217,7 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
               {filters.search && (
                 <button
                   onClick={() => setFilters({ ...filters, search: '' })}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 text-arc-white/60 hover:text-arc-yellow transition-colors"
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-arc-white/60 hover:text-arc-yellow transition-colors cursor-pointer"
                   aria-label="Clear search"
                 >
                   ✕

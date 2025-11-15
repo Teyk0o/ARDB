@@ -200,13 +200,13 @@ export default function ChangelogPage() {
                         <div className="bg-arc-blue rounded-lg border-2 border-green-500/40 overflow-hidden hover:border-green-500/60 transition-colors">
                           <button
                             onClick={() => toggleExpandEntry(entry.timestamp)}
-                            className="w-full bg-green-500/10 border-b border-green-500/20 px-4 py-3 hover:bg-green-500/15 transition-colors text-left"
+                            className="w-full bg-green-500/10 border-b border-green-500/20 px-4 py-3 hover:bg-green-500/15 transition-colors text-left cursor-pointer"
                           >
                             <h4 className="font-bold text-green-400 flex items-center gap-2">
                               <span className="inline-block w-2 h-2 rounded-full bg-green-400"></span>
                               {t.added}
                               <span className="bg-green-500/20 px-2 py-0.5 rounded text-xs ml-auto">{entry.changes.added.length}</span>
-                              <span className="text-green-400/60 text-xs ml-2">{expandedEntries.has(entry.timestamp) ? '▼' : '▶'}</span>
+                              <span className="text-green-400/60 text-xs ml-2 cursor-pointer">{expandedEntries.has(entry.timestamp) ? '▼' : '▶'}</span>
                             </h4>
                           </button>
                           <div className={`p-4 space-y-2 ${expandedEntries.has(entry.timestamp) ? 'max-h-none' : 'max-h-48 overflow-y-auto'}`}>
@@ -233,13 +233,13 @@ export default function ChangelogPage() {
                         <div className="bg-arc-blue rounded-lg border-2 border-blue-500/40 overflow-hidden hover:border-blue-500/60 transition-colors">
                           <button
                             onClick={() => toggleExpandEntry(entry.timestamp)}
-                            className="w-full bg-blue-500/10 border-b border-blue-500/20 px-4 py-3 hover:bg-blue-500/15 transition-colors text-left"
+                            className="w-full bg-blue-500/10 border-b border-blue-500/20 px-4 py-3 hover:bg-blue-500/15 transition-colors text-left cursor-pointer"
                           >
                             <h4 className="font-bold text-blue-400 flex items-center gap-2">
                               <span className="inline-block w-2 h-2 rounded-full bg-blue-400"></span>
                               {t.modified}
                               <span className="bg-blue-500/20 px-2 py-0.5 rounded text-xs ml-auto">{entry.changes.modified.length}</span>
-                              <span className="text-blue-400/60 text-xs ml-2">{expandedEntries.has(entry.timestamp) ? '▼' : '▶'}</span>
+                              <span className="text-blue-400/60 text-xs ml-2 cursor-pointer">{expandedEntries.has(entry.timestamp) ? '▼' : '▶'}</span>
                             </h4>
                           </button>
                           <div className={`p-4 space-y-2 ${expandedEntries.has(entry.timestamp) ? 'max-h-none' : 'max-h-48 overflow-y-auto'}`}>
@@ -266,13 +266,13 @@ export default function ChangelogPage() {
                         <div className="bg-arc-blue rounded-lg border-2 border-red-500/40 overflow-hidden hover:border-red-500/60 transition-colors">
                           <button
                             onClick={() => toggleExpandEntry(entry.timestamp)}
-                            className="w-full bg-red-500/10 border-b border-red-500/20 px-4 py-3 hover:bg-red-500/15 transition-colors text-left"
+                            className="w-full bg-red-500/10 border-b border-red-500/20 px-4 py-3 hover:bg-red-500/15 transition-colors text-left cursor-pointer"
                           >
                             <h4 className="font-bold text-red-400 flex items-center gap-2">
                               <span className="inline-block w-2 h-2 rounded-full bg-red-400"></span>
                               {t.removed}
                               <span className="bg-red-500/20 px-2 py-0.5 rounded text-xs ml-auto">{entry.changes.removed.length}</span>
-                              <span className="text-red-400/60 text-xs ml-2">{expandedEntries.has(entry.timestamp) ? '▼' : '▶'}</span>
+                              <span className="text-red-400/60 text-xs ml-2 cursor-pointer">{expandedEntries.has(entry.timestamp) ? '▼' : '▶'}</span>
                             </h4>
                           </button>
                           <div className={`p-4 space-y-2 ${expandedEntries.has(entry.timestamp) ? 'max-h-none' : 'max-h-48 overflow-y-auto'}`}>
