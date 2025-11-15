@@ -13,18 +13,19 @@ const changelogPath = path.join(__dirname, '../data/changelog.json');
 const newItems = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
 const newItemsMap = new Map(newItems.map(item => [item.id, item]));
 
-// Load old items changelog to get previous state
+// Load old items from a snapshot file (not from changelog)
 let oldItemsMap = new Map();
 let changelogEntries = [];
 
+const oldItemsPath = path.join(__dirname, '../data/.items-snapshot.json');
+
 if (fs.existsSync(changelogPath)) {
   changelogEntries = JSON.parse(fs.readFileSync(changelogPath, 'utf-8'));
+}
 
-  // Reconstruct old items map from last changelog entry
-  if (changelogEntries.length > 0) {
-    const lastEntry = changelogEntries[changelogEntries.length - 1];
-    oldItemsMap = new Map(lastEntry.previousState || []);
-  }
+if (fs.existsSync(oldItemsPath)) {
+  const oldItems = JSON.parse(fs.readFileSync(oldItemsPath, 'utf-8'));
+  oldItemsMap = new Map(oldItems.map(item => [item.id, item]));
 }
 
 // Helper function to get a comparable value (for deep comparison)
@@ -53,32 +54,16 @@ newItems.forEach(newItem => {
   const oldItem = oldItemsMap.get(newItem.id);
 
   if (!oldItem) {
-    changes.added.push({
-      id: newItem.id,
-      name: newItem.name?.en || newItem.name,
-      type: newItem.type,
-      rarity: newItem.rarity,
-    });
+    changes.added.push(newItem.name?.en || newItem.name);
   } else if (getItemSnapshot(newItem) !== getItemSnapshot(oldItem)) {
-    changes.modified.push({
-      id: newItem.id,
-      name: newItem.name?.en || newItem.name,
-      type: newItem.type,
-      rarity: newItem.rarity,
-      changes: detectSpecificChanges(oldItem, newItem),
-    });
+    changes.modified.push(newItem.name?.en || newItem.name);
   }
 });
 
 // Check for removed items
 oldItemsMap.forEach((oldItem, itemId) => {
   if (!newItemsMap.has(itemId)) {
-    changes.removed.push({
-      id: itemId,
-      name: oldItem.name?.en || oldItem.name,
-      type: oldItem.type,
-      rarity: oldItem.rarity,
-    });
+    changes.removed.push(oldItem.name?.en || oldItem.name);
   }
 });
 
@@ -89,7 +74,6 @@ const changelogEntry = {
   changes: changes,
   summary: `${changes.added.length} added, ${changes.modified.length} modified, ${changes.removed.length} removed`,
   totalItems: newItems.length,
-  previousState: Array.from(newItemsMap.entries()),
 };
 
 // Only add entry if there are actual changes
@@ -109,6 +93,10 @@ if (changes.added.length > 0 || changes.modified.length > 0 || changes.removed.l
 } else {
   console.log('No changes detected - changelog not updated');
 }
+
+// Always save current items as snapshot for next comparison
+fs.writeFileSync(oldItemsPath, JSON.stringify(newItems, null, 2));
+console.log('Items snapshot saved for next comparison');
 
 function detectSpecificChanges(oldItem, newItem) {
   const changes = [];

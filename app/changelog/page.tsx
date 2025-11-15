@@ -9,25 +9,9 @@ interface ChangelogEntry {
   date: string;
   timestamp: number;
   changes: {
-    added: Array<{
-      id: string;
-      name: string;
-      type: string;
-      rarity: string;
-    }>;
-    modified: Array<{
-      id: string;
-      name: string;
-      type: string;
-      rarity: string;
-      changes: string[];
-    }>;
-    removed: Array<{
-      id: string;
-      name: string;
-      type: string;
-      rarity: string;
-    }>;
+    added: string[];
+    modified: string[];
+    removed: string[];
   };
   summary: string;
   totalItems: number;
@@ -226,13 +210,13 @@ export default function ChangelogPage() {
                             </h4>
                           </button>
                           <div className={`p-4 space-y-2 ${expandedEntries.has(entry.timestamp) ? 'max-h-none' : 'max-h-48 overflow-y-auto'}`}>
-                            {entry.changes.added.slice(0, expandedEntries.has(entry.timestamp) ? undefined : 5).map((item) => (
+                            {entry.changes.added.slice(0, expandedEntries.has(entry.timestamp) ? undefined : 5).map((itemName, idx) => (
                               <div
-                                key={item.id}
+                                key={idx}
                                 className="text-arc-white/70 text-sm hover:text-arc-white hover:pl-2 transition-all truncate"
-                                title={item.name}
+                                title={itemName}
                               >
-                                + {item.name}
+                                + {itemName}
                               </div>
                             ))}
                             {entry.changes.added.length > 5 && !expandedEntries.has(entry.timestamp) && (
@@ -259,13 +243,13 @@ export default function ChangelogPage() {
                             </h4>
                           </button>
                           <div className={`p-4 space-y-2 ${expandedEntries.has(entry.timestamp) ? 'max-h-none' : 'max-h-48 overflow-y-auto'}`}>
-                            {entry.changes.modified.slice(0, expandedEntries.has(entry.timestamp) ? undefined : 5).map((item) => (
+                            {entry.changes.modified.slice(0, expandedEntries.has(entry.timestamp) ? undefined : 5).map((itemName, idx) => (
                               <div
-                                key={item.id}
+                                key={idx}
                                 className="text-arc-white/70 text-sm hover:text-arc-white hover:pl-2 transition-all truncate"
-                                title={item.name}
+                                title={itemName}
                               >
-                                ~ {item.name}
+                                ~ {itemName}
                               </div>
                             ))}
                             {entry.changes.modified.length > 5 && !expandedEntries.has(entry.timestamp) && (
@@ -292,13 +276,13 @@ export default function ChangelogPage() {
                             </h4>
                           </button>
                           <div className={`p-4 space-y-2 ${expandedEntries.has(entry.timestamp) ? 'max-h-none' : 'max-h-48 overflow-y-auto'}`}>
-                            {entry.changes.removed.slice(0, expandedEntries.has(entry.timestamp) ? undefined : 5).map((item) => (
+                            {entry.changes.removed.slice(0, expandedEntries.has(entry.timestamp) ? undefined : 5).map((itemName, idx) => (
                               <div
-                                key={item.id}
+                                key={idx}
                                 className="text-arc-white/70 text-sm hover:text-arc-white hover:pl-2 transition-all truncate"
-                                title={item.name}
+                                title={itemName}
                               >
-                                - {item.name}
+                                - {itemName}
                               </div>
                             ))}
                             {entry.changes.removed.length > 5 && !expandedEntries.has(entry.timestamp) && (
