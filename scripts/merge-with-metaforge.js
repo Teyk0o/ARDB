@@ -13,7 +13,9 @@ const itemsData = JSON.parse(fs.readFileSync(raidTheoryPath, 'utf-8'));
 // Create a map for easy lookup and for building relationships
 const itemsMap = new Map();
 itemsData.forEach(item => {
-  itemsMap.set(item.id, item);
+  if (item && item.id) {
+    itemsMap.set(item.id, item);
+  }
 });
 
 // Build used_in relationships from recipe data
@@ -99,7 +101,7 @@ let itemsWithRelationships = itemsData.map(item => {
     merged.stat_block = {};
     Object.keys(merged.effects).forEach(effectKey => {
       const effect = merged.effects[effectKey];
-      if (effect.value) {
+      if (effect && effect.value) {
         merged.stat_block[effectKey] = effect.value;
       }
     });
@@ -112,7 +114,7 @@ let itemsWithRelationships = itemsData.map(item => {
 const ids = new Set();
 const uniqueItems = [];
 itemsWithRelationships.forEach(item => {
-  if (!ids.has(item.id)) {
+  if (item && item.id && !ids.has(item.id)) {
     uniqueItems.push(item);
     ids.add(item.id);
   }
