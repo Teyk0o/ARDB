@@ -25,7 +25,7 @@ export async function GET(request: NextRequest) {
     // Filter by days if specified
     const now = Date.now();
     const daysInMs = days * 24 * 60 * 60 * 1000;
-    const filtered = entries.filter(entry => now - entry.timestamp < daysInMs);
+    const filtered = entries.filter((entry: any) => now - entry.timestamp < daysInMs);
 
     // Return limited results
     const limited = filtered.slice(0, limit);

@@ -148,12 +148,6 @@ jobs:
 
             console.log("Pull Request created successfully");
 
-      - name: Send daily notification
-        if: env.CHANGES_DETECTED == 'true'
-        run: node scripts/send-daily-notification.js
-        env:
-          NOTIFICATION_WEBHOOK_URL: ${{ secrets.NOTIFICATION_WEBHOOK_URL }}
-
       - name: Notify if no changes
         if: env.CHANGES_DETECTED == 'false'
         run: echo "Items data is up to date"
