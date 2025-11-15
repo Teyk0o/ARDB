@@ -188,14 +188,23 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
         <div className="container mx-auto px-4 py-4">
           <div className="flex flex-col md:flex-row gap-4">
             {/* Search */}
-            <div className="flex-1">
+            <div className="flex-1 relative">
               <input
                 type="text"
                 placeholder={t.searchPlaceholder}
                 value={filters.search}
                 onChange={(e) => setFilters({ ...filters, search: e.target.value })}
-                className="w-full bg-arc-blue border-2 border-arc-blue-lighter focus:border-arc-yellow rounded-lg px-4 py-3 text-arc-white placeholder-arc-white/40 outline-none transition-colors"
+                className="w-full bg-arc-blue border-2 border-arc-blue-lighter focus:border-arc-yellow rounded-lg px-4 py-3 pr-10 text-arc-white placeholder-arc-white/40 outline-none transition-colors"
               />
+              {filters.search && (
+                <button
+                  onClick={() => setFilters({ ...filters, search: '' })}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-arc-white/60 hover:text-arc-yellow transition-colors"
+                  aria-label="Clear search"
+                >
+                  ✕
+                </button>
+              )}
             </div>
 
             {/* Type Filter */}
@@ -215,14 +224,13 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
             />
 
             {/* Reset Button */}
-            {(filters.types.length > 0 || filters.rarities.length > 0) && (
-              <button
-                onClick={resetFilters}
-                className="bg-arc-blue border-2 border-arc-blue-lighter hover:border-arc-yellow rounded-lg px-4 py-3 text-arc-white font-medium transition-colors whitespace-nowrap cursor-pointer"
-              >
-                Reset
-              </button>
-            )}
+            <button
+              onClick={resetFilters}
+              disabled={filters.search === '' && filters.types.length === 0 && filters.rarities.length === 0}
+              className="bg-arc-blue border-2 border-arc-blue-lighter hover:border-arc-yellow disabled:opacity-50 disabled:cursor-not-allowed rounded-lg px-4 py-3 text-arc-white font-medium transition-colors whitespace-nowrap cursor-pointer"
+            >
+              Reset
+            </button>
           </div>
 
           {/* Stats */}
