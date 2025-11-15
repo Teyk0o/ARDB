@@ -169,7 +169,7 @@ export default function ChangelogPage() {
               <p className="text-arc-white/70 text-sm">{t.changelogOnlyInEnglish}</p>
             </div>
             <div className="space-y-6">
-              {entries.map((entry) => (
+              {[...entries].reverse().map((entry) => (
                 <div
                   key={entry.timestamp}
                   className="bg-arc-blue-light border-2 border-arc-blue-lighter rounded-lg overflow-hidden hover:border-arc-yellow/50 transition-all duration-300 hover:shadow-lg hover:shadow-arc-yellow/10"
