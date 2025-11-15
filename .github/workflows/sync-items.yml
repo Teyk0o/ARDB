@@ -66,6 +66,9 @@ jobs:
           # Remove any remaining duplicates
           node scripts/remove-duplicates.js
 
+          # Generate changelog
+          node scripts/generate-changelog.js
+
       - name: Detect changes
         run: |
           # Compare with git to see if there are actual changes
@@ -87,7 +90,7 @@ jobs:
           BRANCH_NAME="chore/sync-items-$(date +%Y%m%d-%H%M%S)"
           git checkout -b "$BRANCH_NAME"
 
-          git add data/items.json
+          git add data/items.json data/changelog.json
           git commit -m "chore: sync items data from upstream"
           git push origin "$BRANCH_NAME"
 
@@ -144,6 +147,12 @@ jobs:
             });
 
             console.log("Pull Request created successfully");
+
+      - name: Send daily notification
+        if: env.CHANGES_DETECTED == 'true'
+        run: node scripts/send-daily-notification.js
+        env:
+          NOTIFICATION_WEBHOOK_URL: ${{ secrets.NOTIFICATION_WEBHOOK_URL }}
 
       - name: Notify if no changes
         if: env.CHANGES_DETECTED == 'false'

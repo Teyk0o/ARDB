@@ -148,6 +148,13 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
             {/* Navigation Links */}
             <div className="flex items-center gap-4">
               <a
+                href="/changelog"
+                className="text-arc-yellow hover:text-arc-yellow/80 font-medium transition-colors hidden sm:block"
+                title="View recent updates"
+              >
+                {t.changelog || 'Changelog'}
+              </a>
+              <a
                 href="/categories"
                 className="text-arc-yellow hover:text-arc-yellow/80 font-medium transition-colors hidden sm:block"
               >
