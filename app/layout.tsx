@@ -3,7 +3,6 @@ import "./globals.css";
 import ContributionBanner from "@/components/ContributionBanner";
 import LanguageDetector from "@/components/LanguageDetector";
 import DiscordButton from "@/components/DiscordButton";
-import UpdateNotification from "@/components/UpdateNotification";
 import { getSEOConfig } from "@/lib/seoConfig";
 import { Analytics } from "@vercel/analytics/next"
 
@@ -142,7 +141,6 @@ export default function RootLayout({
 		<Analytics />
         <ContributionBanner />
         <DiscordButton />
-        <UpdateNotification />
       </body>
     </html>
   );

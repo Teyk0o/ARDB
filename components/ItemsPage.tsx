@@ -2,6 +2,7 @@
 
 import { useState, useMemo, useEffect } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
+import Link from 'next/link';
 import { Item, FilterOptions } from '@/types/item';
 import ItemCard from './ItemCard';
 import CustomSelect from './CustomSelect';
@@ -10,6 +11,7 @@ import LoadingSpinner from './LoadingSpinner';
 import { Language, getTranslation, getItemTypeLabel, getRarityLabel } from '@/lib/translations';
 import { generateSlug } from '@/lib/slugUtils';
 import { useItems } from '@/lib/useItems';
+import { useHasNewChanges, markChangelogAsViewed } from '@/lib/useHasNewChanges';
 
 interface ItemsPageProps {
   initialFilters?: { [key: string]: string | string[] | undefined };
@@ -18,6 +20,7 @@ interface ItemsPageProps {
 export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
   const router = useRouter();
   const searchParams = useSearchParams();
+  const { hasNewChanges, loading } = useHasNewChanges();
 
   const [language, setLanguage] = useState<Language>(() => {
     // Load language from localStorage on initial render
@@ -147,13 +150,21 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
             </div>
             {/* Navigation Links */}
             <div className="flex items-center gap-4">
-              <a
+              <Link
                 href="/changelog"
-                className="text-arc-yellow hover:text-arc-yellow/80 font-medium transition-colors hidden sm:block"
+                onClick={() => markChangelogAsViewed()}
+                className={`inline-flex items-center gap-2 font-medium transition-colors hidden sm:flex ${hasNewChanges ? '' : 'text-arc-white/70'}`}
                 title="View recent updates"
+                style={hasNewChanges ? { color: '#f1aa1c' } : {}}
               >
                 {t.changelog || 'Changelog'}
-              </a>
+                {hasNewChanges && (
+                  <span
+                    className="w-2 h-2 rounded-full animate-pulse flex-shrink-0"
+                    style={{ backgroundColor: '#f1aa1c', marginTop: '2px' }}
+                  />
+                )}
+              </Link>
               <a
                 href="/categories"
                 className="text-arc-yellow hover:text-arc-yellow/80 font-medium transition-colors hidden sm:block"

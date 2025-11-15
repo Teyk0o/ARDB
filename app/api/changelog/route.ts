@@ -2,8 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 
-export const dynamic = 'force-static';
-export const revalidate = 3600; // Revalidate every hour
+export const revalidate = 60; // Revalidate every minute
 
 export async function GET(request: NextRequest) {
   try {
