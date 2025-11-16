@@ -1,0 +1,79 @@
+name: Sync Quests from RaidTheory
+
+on:
+  # Run daily at 2 AM UTC
+  schedule:
+    - cron: '0 2 * * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  sync-quests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Download all quest files
+        run: |
+          mkdir -p data/quests
+          cd data/quests
+
+          # Get list of quest files from GitHub API
+          QUEST_FILES=$(curl -s "https://api.github.com/repos/RaidTheory/arcraiders-data/contents/quests" | \
+            jq -r '.[] | select(.name | endswith(".json")) | .download_url')
+
+          # Download each quest file
+          echo "Downloading quest files..."
+          echo "$QUEST_FILES" | while read url; do
+            filename=$(basename "$url")
+            echo "  - $filename"
+            curl -sL "$url" -o "$filename"
+          done
+
+          echo "✓ Downloaded $(ls -1 *.json 2>/dev/null | wc -l) quest files"
+
+      - name: Re-generate item tags
+        run: |
+          npm ci
+          npm run generate-tags
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --quiet data/quests/ data/item-tags-computed.json || echo "has_changes=true" >> $GITHUB_OUTPUT
+
+      - name: Create Pull Request
+        if: steps.check_changes.outputs.has_changes == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'chore: sync quests from RaidTheory and regenerate tags'
+          title: 'Sync quests and item tags'
+          body: |
+            ## Automated Quest & Tag Sync
+
+            This PR updates quest data from [RaidTheory/arcraiders-data](https://github.com/RaidTheory/arcraiders-data) and regenerates item tags based on the latest data.
+
+            ### Changes
+            - ✓ Synced quest files from upstream
+            - ✓ Regenerated item tags (keep/sell/recycle)
+
+            ### Review Checklist
+            - [ ] Quest files updated correctly
+            - [ ] Tag statistics look reasonable
+            - [ ] No unexpected changes
+
+            🤖 Generated automatically by GitHub Actions
+          branch: sync-quests-${{ github.run_number }}
+          delete-branch: true
+          labels: |
+            automated
+            data-sync

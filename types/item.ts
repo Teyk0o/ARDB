@@ -36,6 +36,9 @@ export interface Item {
   workbench?: string | null;
   loadout_slots?: string[];
 
+  // Tag for player guidance (keep, sell, recycle)
+  tag?: 'keep' | 'sell' | 'recycle';
+
   // Components and recipes
   components?: ItemComponent[];
   recycle_components?: ItemComponent[];

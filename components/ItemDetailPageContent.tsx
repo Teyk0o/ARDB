@@ -8,6 +8,9 @@ import { Language, getTranslation, getStatLabel, getRarityLabel, getItemTypeLabe
 import { generateSlug } from '@/lib/slugUtils';
 import CraftRelationshipsAccordion from './CraftRelationshipsAccordion';
 import CustomSelect from './CustomSelect';
+import TagReasonDisplay from './TagReasonDisplay';
+import tagReasons from '@/data/item-tag-reasons.json';
+import type { ItemTagReasons } from '@/lib/tagReasoning';
 
 interface ItemDetailPageContentProps {
   item: Item;
@@ -245,6 +248,16 @@ export default function ItemDetailPageContent({
                     ))}
                 </div>
               </div>
+            )}
+
+            {/* Tag Reason Display */}
+            {item.tag && (tagReasons as Record<string, ItemTagReasons>)[item.id] && (
+              <TagReasonDisplay
+                itemId={item.id}
+                reasons={(tagReasons as Record<string, ItemTagReasons>)[item.id]}
+                language={language}
+                allItems={allItems}
+              />
             )}
 
             {/* Craft Relationships */}

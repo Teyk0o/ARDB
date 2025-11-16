@@ -1,4 +1,5 @@
 import { Item } from '@/types/item';
+import computedTags from '@/data/item-tags-computed.json';
 
 type Language = 'en' | 'fr' | 'de' | 'es' | 'pt' | 'pl' | 'no' | 'da' | 'it' | 'ru' | 'ja' | 'zh-TW' | 'uk' | 'zh-CN' | 'kr' | 'tr' | 'hr' | 'sr';
 
@@ -29,6 +30,12 @@ function transformItem(item: ExternalItem, language: Language): Item {
     item_type: item.type,
     icon: (item as any).imageFilename || (item as any).icon,
   };
+
+  // Add computed tag if available
+  const tags = computedTags as Record<string, 'keep' | 'sell' | 'recycle'>;
+  if (tags[item.id]) {
+    transformed.tag = tags[item.id];
+  }
 
   // Map RaidTheory fields to our internal format
   if ((item as any).rarity) transformed.rarity = (item as any).rarity;

@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run generate-tags && next build",
+    "generate-tags": "npx tsx scripts/generate-tags.ts",
     "start": "next start",
     "lint": "eslint"
   },

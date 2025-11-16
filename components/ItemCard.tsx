@@ -2,6 +2,8 @@ import { useState } from 'react';
 import Image from 'next/image';
 import { Item } from '@/types/item';
 import { Language, getRarityLabel, getItemTypeLabel } from '@/lib/translations';
+import TagBadge from './TagBadge';
+import { getTagLabel } from '@/lib/tagTranslations';
 
 interface ItemCardProps {
   item: Item;
@@ -68,6 +70,13 @@ export default function ItemCard({ item, onClick, language }: ItemCardProps) {
             )}
           </div>
           <p className="text-arc-white/70 text-base mt-1 font-medium">{getItemTypeLabel(item.item_type, language)}</p>
+
+          {/* Tag Badge */}
+          {item.tag && (
+            <div className="mt-2">
+              <TagBadge tag={item.tag} label={getTagLabel(item.tag, language)} />
+            </div>
+          )}
 
           {item.description && (
             <p className="text-arc-white/60 text-sm mt-3 line-clamp-2 leading-relaxed">

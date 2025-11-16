@@ -1,0 +1,3271 @@
+{
+  "advanced_arc_powercell": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "advanced_arc_powercell",
+        "recycleComponentId": "arc_powercell",
+        "recycleComponentName": "ARC Powercell",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "advanced_arc_powercell",
+            "itemName": "Advanced ARC Powercell",
+            "targetId": "arc_powercell",
+            "targetName": "ARC Powercell"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "arc_powercell",
+            "itemName": "ARC Powercell",
+            "workshopStation": "refiner",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "advanced_electrical_components": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "advanced_electrical_components",
+        "workshopStation": "gear_bench",
+        "workshopLevel": "3"
+      },
+      {
+        "type": "workshop",
+        "itemId": "advanced_electrical_components",
+        "workshopStation": "utility_station",
+        "workshopLevel": "3"
+      }
+    ]
+  },
+  "advanced_mechanical_components": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "advanced_mechanical_components",
+        "workshopStation": "gunsmith",
+        "workshopLevel": "3"
+      }
+    ]
+  },
+  "alarm_clock": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "alarm_clock",
+        "recycleComponentId": "plastic_parts",
+        "recycleComponentName": "Plastic Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "alarm_clock",
+            "itemName": "Alarm Clock",
+            "targetId": "plastic_parts",
+            "targetName": "Plastic Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "plastic_parts",
+            "itemName": "Plastic Parts",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "antiseptic": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "antiseptic",
+        "questId": "ss10c",
+        "questName": "Doctor's Orders"
+      },
+      {
+        "type": "workshop",
+        "itemId": "antiseptic",
+        "workshopStation": "medical_lab",
+        "workshopLevel": "3"
+      }
+    ]
+  },
+  "apricot": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "apricot",
+        "workshopStation": "scrappy",
+        "workshopLevel": "3"
+      },
+      {
+        "type": "workshop",
+        "itemId": "apricot",
+        "workshopStation": "scrappy",
+        "workshopLevel": "5"
+      }
+    ]
+  },
+  "arc_alloy": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "arc_alloy",
+        "questId": "ss2",
+        "questName": "Clearer Skies"
+      },
+      {
+        "type": "workshop",
+        "itemId": "arc_alloy",
+        "workshopStation": "medical_lab",
+        "workshopLevel": "1"
+      },
+      {
+        "type": "workshop",
+        "itemId": "arc_alloy",
+        "workshopStation": "explosives_station",
+        "workshopLevel": "1"
+      },
+      {
+        "type": "workshop",
+        "itemId": "arc_alloy",
+        "workshopStation": "utility_station",
+        "workshopLevel": "1"
+      }
+    ]
+  },
+  "arc_circuitry": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "arc_circuitry",
+        "workshopStation": "refiner",
+        "workshopLevel": "3"
+      }
+    ]
+  },
+  "arc_coolant": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "arc_coolant",
+        "recycleComponentId": "chemicals",
+        "recycleComponentName": "Chemicals",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "arc_coolant",
+            "itemName": "ARC Coolant",
+            "targetId": "chemicals",
+            "targetName": "Chemicals"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "chemicals",
+            "itemName": "Chemicals",
+            "workshopStation": "explosives_station",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "arc_flex_rubber": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "arc_flex_rubber",
+        "recycleComponentId": "rubber_parts",
+        "recycleComponentName": "Rubber Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "arc_flex_rubber",
+            "itemName": "ARC Flex Rubber",
+            "targetId": "rubber_parts",
+            "targetName": "Rubber Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "rubber_parts",
+            "itemName": "Rubber Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "arc_motion_core": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "arc_motion_core",
+        "workshopStation": "refiner",
+        "workshopLevel": "2"
+      }
+    ]
+  },
+  "arc_performance_steel": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "arc_performance_steel",
+        "recycleComponentId": "metal_parts",
+        "recycleComponentName": "Metal Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "arc_performance_steel",
+            "itemName": "ARC Performance Steel",
+            "targetId": "metal_parts",
+            "targetName": "Metal Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "metal_parts",
+            "itemName": "Metal Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "arc_powercell": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "arc_powercell",
+        "workshopStation": "refiner",
+        "workshopLevel": "1"
+      }
+    ]
+  },
+  "arc_synthetic_resin": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "arc_synthetic_resin",
+        "recycleComponentId": "plastic_parts",
+        "recycleComponentName": "Plastic Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "arc_synthetic_resin",
+            "itemName": "ARC Synthetic Resin",
+            "targetId": "plastic_parts",
+            "targetName": "Plastic Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "plastic_parts",
+            "itemName": "Plastic Parts",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "arc_thermo_lining": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "arc_thermo_lining",
+        "recycleComponentId": "fabric",
+        "recycleComponentName": "Fabric",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "arc_thermo_lining",
+            "itemName": "ARC Thermo Lining",
+            "targetId": "fabric",
+            "targetName": "Fabric"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "fabric",
+            "itemName": "Fabric",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "bastion_cell": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "bastion_cell",
+        "workshopStation": "gear_bench",
+        "workshopLevel": "3"
+      }
+    ]
+  },
+  "battery": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "battery",
+        "questId": "ss10y",
+        "questName": "After Rain Comes"
+      },
+      {
+        "type": "quest",
+        "itemId": "battery",
+        "questId": "ss3",
+        "questName": "Trash Into Treasure"
+      }
+    ]
+  },
+  "bicycle_pump": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "bicycle_pump",
+        "recycleComponentId": "metal_parts",
+        "recycleComponentName": "Metal Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "bicycle_pump",
+            "itemName": "Bicycle Pump",
+            "targetId": "metal_parts",
+            "targetName": "Metal Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "metal_parts",
+            "itemName": "Metal Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "bombardier_cell": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "bombardier_cell",
+        "workshopStation": "refiner",
+        "workshopLevel": "3"
+      }
+    ]
+  },
+  "broken_flashlight": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "broken_flashlight",
+        "recycleComponentId": "battery",
+        "recycleComponentName": "Battery",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "broken_flashlight",
+            "itemName": "Broken Flashlight",
+            "targetId": "battery",
+            "targetName": "Battery"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "battery",
+            "itemName": "Battery",
+            "questId": "ss10y",
+            "questName": "After Rain Comes"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "broken_flashlight",
+        "recycleComponentId": "metal_parts",
+        "recycleComponentName": "Metal Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "broken_flashlight",
+            "itemName": "Broken Flashlight",
+            "targetId": "metal_parts",
+            "targetName": "Metal Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "metal_parts",
+            "itemName": "Metal Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "broken_handheld_radio": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "broken_handheld_radio",
+        "recycleComponentId": "wires",
+        "recycleComponentName": "Wires",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "broken_handheld_radio",
+            "itemName": "Broken Handheld Radio",
+            "targetId": "wires",
+            "targetName": "Wires"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "wires",
+            "itemName": "Wires",
+            "questId": "ss10y",
+            "questName": "After Rain Comes"
+          }
+        ]
+      }
+    ]
+  },
+  "broken_taser": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "broken_taser",
+        "recycleComponentId": "battery",
+        "recycleComponentName": "Battery",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "broken_taser",
+            "itemName": "Broken Taser",
+            "targetId": "battery",
+            "targetName": "Battery"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "battery",
+            "itemName": "Battery",
+            "questId": "ss10y",
+            "questName": "After Rain Comes"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "broken_taser",
+        "recycleComponentId": "wires",
+        "recycleComponentName": "Wires",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "broken_taser",
+            "itemName": "Broken Taser",
+            "targetId": "wires",
+            "targetName": "Wires"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "wires",
+            "itemName": "Wires",
+            "questId": "ss10y",
+            "questName": "After Rain Comes"
+          }
+        ]
+      }
+    ]
+  },
+  "burned_arc_circuitry": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "burned_arc_circuitry",
+        "recycleComponentId": "arc_alloy",
+        "recycleComponentName": "ARC Alloy",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "burned_arc_circuitry",
+            "itemName": "Burned Arc Circuitry",
+            "targetId": "arc_alloy",
+            "targetName": "ARC Alloy"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "arc_alloy",
+            "itemName": "ARC Alloy",
+            "questId": "ss2",
+            "questName": "Clearer Skies"
+          }
+        ]
+      }
+    ]
+  },
+  "camera_lens": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "camera_lens",
+        "recycleComponentId": "plastic_parts",
+        "recycleComponentName": "Plastic Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "camera_lens",
+            "itemName": "Camera Lens",
+            "targetId": "plastic_parts",
+            "targetName": "Plastic Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "plastic_parts",
+            "itemName": "Plastic Parts",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "candle_holder": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "candle_holder",
+        "recycleComponentId": "metal_parts",
+        "recycleComponentName": "Metal Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "candle_holder",
+            "itemName": "Candle Holder",
+            "targetId": "metal_parts",
+            "targetName": "Metal Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "metal_parts",
+            "itemName": "Metal Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "canister": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "canister",
+        "recycleComponentId": "plastic_parts",
+        "recycleComponentName": "Plastic Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "canister",
+            "itemName": "Canister",
+            "targetId": "plastic_parts",
+            "targetName": "Plastic Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "plastic_parts",
+            "itemName": "Plastic Parts",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "chemicals": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "chemicals",
+        "workshopStation": "explosives_station",
+        "workshopLevel": "1"
+      }
+    ]
+  },
+  "coolant": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "coolant",
+        "recycleComponentId": "chemicals",
+        "recycleComponentName": "Chemicals",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "coolant",
+            "itemName": "Coolant",
+            "targetId": "chemicals",
+            "targetName": "Chemicals"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "chemicals",
+            "itemName": "Chemicals",
+            "workshopStation": "explosives_station",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "cooling_coil": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "cooling_coil",
+        "recycleComponentId": "chemicals",
+        "recycleComponentName": "Chemicals",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "cooling_coil",
+            "itemName": "Cooling Coil",
+            "targetId": "chemicals",
+            "targetName": "Chemicals"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "chemicals",
+            "itemName": "Chemicals",
+            "workshopStation": "explosives_station",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "cooling_fan": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "cooling_fan",
+        "recycleComponentId": "plastic_parts",
+        "recycleComponentName": "Plastic Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "cooling_fan",
+            "itemName": "Cooling Fan",
+            "targetId": "plastic_parts",
+            "targetName": "Plastic Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "plastic_parts",
+            "itemName": "Plastic Parts",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "1"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "cooling_fan",
+        "recycleComponentId": "battery",
+        "recycleComponentName": "Battery",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "cooling_fan",
+            "itemName": "Cooling Fan",
+            "targetId": "battery",
+            "targetName": "Battery"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "battery",
+            "itemName": "Battery",
+            "questId": "ss10y",
+            "questName": "After Rain Comes"
+          }
+        ]
+      }
+    ]
+  },
+  "cracked_bioscanner": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "cracked_bioscanner",
+        "workshopStation": "medical_lab",
+        "workshopLevel": "2"
+      }
+    ]
+  },
+  "crude_explosives": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "crude_explosives",
+        "workshopStation": "explosives_station",
+        "workshopLevel": "2"
+      }
+    ]
+  },
+  "crumpled_plastic_bottle": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "crumpled_plastic_bottle",
+        "recycleComponentId": "plastic_parts",
+        "recycleComponentName": "Plastic Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "crumpled_plastic_bottle",
+            "itemName": "Crumpled Plastic Bottle",
+            "targetId": "plastic_parts",
+            "targetName": "Plastic Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "plastic_parts",
+            "itemName": "Plastic Parts",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "damaged_arc_motion_core": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "damaged_arc_motion_core",
+        "recycleComponentId": "arc_alloy",
+        "recycleComponentName": "ARC Alloy",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "damaged_arc_motion_core",
+            "itemName": "Damaged ARC Motion Core",
+            "targetId": "arc_alloy",
+            "targetName": "ARC Alloy"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "arc_alloy",
+            "itemName": "ARC Alloy",
+            "questId": "ss2",
+            "questName": "Clearer Skies"
+          }
+        ]
+      }
+    ]
+  },
+  "damaged_arc_powercell": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "damaged_arc_powercell",
+        "recycleComponentId": "arc_alloy",
+        "recycleComponentName": "ARC Alloy",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "damaged_arc_powercell",
+            "itemName": "Damaged ARC Powercell",
+            "targetId": "arc_alloy",
+            "targetName": "ARC Alloy"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "arc_alloy",
+            "itemName": "ARC Alloy",
+            "questId": "ss2",
+            "questName": "Clearer Skies"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "damaged_arc_powercell",
+        "recycleComponentId": "metal_parts",
+        "recycleComponentName": "Metal Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "damaged_arc_powercell",
+            "itemName": "Damaged ARC Powercell",
+            "targetId": "metal_parts",
+            "targetName": "Metal Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "metal_parts",
+            "itemName": "Metal Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "damaged_heat_sink": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "damaged_heat_sink",
+        "workshopStation": "utility_station",
+        "workshopLevel": "2"
+      }
+    ]
+  },
+  "damaged_hornet_driver": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "damaged_hornet_driver",
+        "recycleComponentId": "arc_alloy",
+        "recycleComponentName": "ARC Alloy",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "damaged_hornet_driver",
+            "itemName": "Damaged Hornet Driver",
+            "targetId": "arc_alloy",
+            "targetName": "ARC Alloy"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "arc_alloy",
+            "itemName": "ARC Alloy",
+            "questId": "ss2",
+            "questName": "Clearer Skies"
+          }
+        ]
+      }
+    ]
+  },
+  "damaged_rocketeer_driver": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "damaged_rocketeer_driver",
+        "recycleComponentId": "arc_alloy",
+        "recycleComponentName": "ARC Alloy",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "damaged_rocketeer_driver",
+            "itemName": "Damaged Rocketeer Driver",
+            "targetId": "arc_alloy",
+            "targetName": "ARC Alloy"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "arc_alloy",
+            "itemName": "ARC Alloy",
+            "questId": "ss2",
+            "questName": "Clearer Skies"
+          }
+        ]
+      }
+    ]
+  },
+  "deflated_football": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "deflated_football",
+        "recycleComponentId": "rubber_parts",
+        "recycleComponentName": "Rubber Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "deflated_football",
+            "itemName": "Deflated Football",
+            "targetId": "rubber_parts",
+            "targetName": "Rubber Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "rubber_parts",
+            "itemName": "Rubber Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "degraded_arc_rubber": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "degraded_arc_rubber",
+        "recycleComponentId": "rubber_parts",
+        "recycleComponentName": "Rubber Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "degraded_arc_rubber",
+            "itemName": "Degraded ARC Rubber",
+            "targetId": "rubber_parts",
+            "targetName": "Rubber Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "rubber_parts",
+            "itemName": "Rubber Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "dog_collar": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "dog_collar",
+        "workshopStation": "scrappy",
+        "workshopLevel": "2"
+      }
+    ]
+  },
+  "duct_tape": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "duct_tape",
+        "recycleComponentId": "fabric",
+        "recycleComponentName": "Fabric",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "duct_tape",
+            "itemName": "Duct Tape",
+            "targetId": "fabric",
+            "targetName": "Fabric"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "fabric",
+            "itemName": "Fabric",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "durable_cloth": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "durable_cloth",
+        "questId": "ss10c",
+        "questName": "Doctor's Orders"
+      },
+      {
+        "type": "workshop",
+        "itemId": "durable_cloth",
+        "workshopStation": "medical_lab",
+        "workshopLevel": "2"
+      }
+    ]
+  },
+  "electrical_components": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "electrical_components",
+        "workshopStation": "gear_bench",
+        "workshopLevel": "2"
+      },
+      {
+        "type": "workshop",
+        "itemId": "electrical_components",
+        "workshopStation": "utility_station",
+        "workshopLevel": "2"
+      }
+    ]
+  },
+  "exodus_modules": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "exodus_modules",
+        "recycleComponentId": "wires",
+        "recycleComponentName": "Wires",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "exodus_modules",
+            "itemName": "Exodus Modules",
+            "targetId": "wires",
+            "targetName": "Wires"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "wires",
+            "itemName": "Wires",
+            "questId": "ss10y",
+            "questName": "After Rain Comes"
+          }
+        ]
+      }
+    ]
+  },
+  "expired_respirator": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "expired_respirator",
+        "recycleComponentId": "rubber_parts",
+        "recycleComponentName": "Rubber Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "expired_respirator",
+            "itemName": "Expired Respirator",
+            "targetId": "rubber_parts",
+            "targetName": "Rubber Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "rubber_parts",
+            "itemName": "Rubber Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "expired_respirator",
+        "recycleComponentId": "fabric",
+        "recycleComponentName": "Fabric",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "expired_respirator",
+            "itemName": "Expired Respirator",
+            "targetId": "fabric",
+            "targetName": "Fabric"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "fabric",
+            "itemName": "Fabric",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "explosive_compound": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "explosive_compound",
+        "workshopStation": "explosives_station",
+        "workshopLevel": "3"
+      }
+    ]
+  },
+  "fabric": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "fabric",
+        "workshopStation": "gear_bench",
+        "workshopLevel": "1"
+      },
+      {
+        "type": "workshop",
+        "itemId": "fabric",
+        "workshopStation": "medical_lab",
+        "workshopLevel": "1"
+      }
+    ]
+  },
+  "fertilizer": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "fertilizer",
+        "questId": "ss10q",
+        "questName": "Unexpected Initiative"
+      }
+    ]
+  },
+  "fireball_burner": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "fireball_burner",
+        "workshopStation": "refiner",
+        "workshopLevel": "2"
+      }
+    ]
+  },
+  "flow_controller": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "flow_controller",
+        "questId": "12_snap_and_salvage",
+        "questName": "Snap and Salvage"
+      }
+    ]
+  },
+  "frequency_modulation_box": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "frequency_modulation_box",
+        "recycleComponentId": "advanced_electrical_components",
+        "recycleComponentName": "Advanced Electrical Components",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "frequency_modulation_box",
+            "itemName": "Frequency Modulation Box",
+            "targetId": "advanced_electrical_components",
+            "targetName": "Advanced Electrical Components"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "advanced_electrical_components",
+            "itemName": "Advanced Electrical Components",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "fried_motherboard": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "fried_motherboard",
+        "workshopStation": "utility_station",
+        "workshopLevel": "3"
+      }
+    ]
+  },
+  "frying_pan": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "frying_pan",
+        "recycleComponentId": "metal_parts",
+        "recycleComponentName": "Metal Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "frying_pan",
+            "itemName": "Frying Pan",
+            "targetId": "metal_parts",
+            "targetName": "Metal Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "metal_parts",
+            "itemName": "Metal Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "garlic_press": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "garlic_press",
+        "recycleComponentId": "metal_parts",
+        "recycleComponentName": "Metal Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "garlic_press",
+            "itemName": "Garlic Press",
+            "targetId": "metal_parts",
+            "targetName": "Metal Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "metal_parts",
+            "itemName": "Metal Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "geiger_counter": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "geiger_counter",
+        "recycleComponentId": "battery",
+        "recycleComponentName": "Battery",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "geiger_counter",
+            "itemName": "Geiger Counter",
+            "targetId": "battery",
+            "targetName": "Battery"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "battery",
+            "itemName": "Battery",
+            "questId": "ss10y",
+            "questName": "After Rain Comes"
+          }
+        ]
+      }
+    ]
+  },
+  "great_mullein": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "great_mullein",
+        "questId": "ss10c",
+        "questName": "Doctor's Orders"
+      }
+    ]
+  },
+  "headphones": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "headphones",
+        "recycleComponentId": "rubber_parts",
+        "recycleComponentName": "Rubber Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "headphones",
+            "itemName": "Headphones",
+            "targetId": "rubber_parts",
+            "targetName": "Rubber Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "rubber_parts",
+            "itemName": "Rubber Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "hornet_driver": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "hornet_driver",
+        "questId": "ss9",
+        "questName": "The Trifecta"
+      },
+      {
+        "type": "workshop",
+        "itemId": "hornet_driver",
+        "workshopStation": "gear_bench",
+        "workshopLevel": "2"
+      }
+    ]
+  },
+  "household_cleaner": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "household_cleaner",
+        "recycleComponentId": "chemicals",
+        "recycleComponentName": "Chemicals",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "household_cleaner",
+            "itemName": "Household Cleaner",
+            "targetId": "chemicals",
+            "targetName": "Chemicals"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "chemicals",
+            "itemName": "Chemicals",
+            "workshopStation": "explosives_station",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "humidifier": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "humidifier",
+        "recycleComponentId": "wires",
+        "recycleComponentName": "Wires",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "humidifier",
+            "itemName": "Humidifier",
+            "targetId": "wires",
+            "targetName": "Wires"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "wires",
+            "itemName": "Wires",
+            "questId": "ss10y",
+            "questName": "After Rain Comes"
+          }
+        ]
+      }
+    ]
+  },
+  "ice_cream_scooper": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "ice_cream_scooper",
+        "recycleComponentId": "metal_parts",
+        "recycleComponentName": "Metal Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "ice_cream_scooper",
+            "itemName": "Ice Cream Scooper",
+            "targetId": "metal_parts",
+            "targetName": "Metal Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "metal_parts",
+            "itemName": "Metal Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "impure_arc_coolant": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "impure_arc_coolant",
+        "recycleComponentId": "chemicals",
+        "recycleComponentName": "Chemicals",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "impure_arc_coolant",
+            "itemName": "Impure ARC Coolant",
+            "targetId": "chemicals",
+            "targetName": "Chemicals"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "chemicals",
+            "itemName": "Chemicals",
+            "workshopStation": "explosives_station",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "industrial_battery": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "industrial_battery",
+        "workshopStation": "gear_bench",
+        "workshopLevel": "3"
+      }
+    ]
+  },
+  "industrial_charger": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "industrial_charger",
+        "recycleComponentId": "metal_parts",
+        "recycleComponentName": "Metal Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "industrial_charger",
+            "itemName": "Industrial Charger",
+            "targetId": "metal_parts",
+            "targetName": "Metal Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "metal_parts",
+            "itemName": "Metal Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "industrial_magnet": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "industrial_magnet",
+        "recycleComponentId": "metal_parts",
+        "recycleComponentName": "Metal Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "industrial_magnet",
+            "itemName": "Industrial Magnet",
+            "targetId": "metal_parts",
+            "targetName": "Metal Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "metal_parts",
+            "itemName": "Metal Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "laboratory_reagents": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "laboratory_reagents",
+        "workshopStation": "explosives_station",
+        "workshopLevel": "3"
+      }
+    ]
+  },
+  "leaper_pulse_unit": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "leaper_pulse_unit",
+        "questId": "ss10x5",
+        "questName": "Into the Fray"
+      },
+      {
+        "type": "workshop",
+        "itemId": "leaper_pulse_unit",
+        "workshopStation": "utility_station",
+        "workshopLevel": "3"
+      }
+    ]
+  },
+  "lemon": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "lemon",
+        "workshopStation": "scrappy",
+        "workshopLevel": "3"
+      }
+    ]
+  },
+  "magnet": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "magnet",
+        "recycleComponentId": "metal_parts",
+        "recycleComponentName": "Metal Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "magnet",
+            "itemName": "Magnet",
+            "targetId": "metal_parts",
+            "targetName": "Metal Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "metal_parts",
+            "itemName": "Metal Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "magnetic_accelerator": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "magnetic_accelerator",
+        "recycleComponentId": "advanced_mechanical_components",
+        "recycleComponentName": "Advanced Mechanical Components",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "magnetic_accelerator",
+            "itemName": "Magnetic Accelerator",
+            "targetId": "advanced_mechanical_components",
+            "targetName": "Advanced Mechanical Components"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "advanced_mechanical_components",
+            "itemName": "Advanced Mechanical Components",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "3"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "magnetic_accelerator",
+        "recycleComponentId": "arc_motion_core",
+        "recycleComponentName": "ARC Motion Core",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "magnetic_accelerator",
+            "itemName": "Magnetic Accelerator",
+            "targetId": "arc_motion_core",
+            "targetName": "ARC Motion Core"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "arc_motion_core",
+            "itemName": "ARC Motion Core",
+            "workshopStation": "refiner",
+            "workshopLevel": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "magnetron": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "magnetron",
+        "questId": "12_snap_and_salvage",
+        "questName": "Snap and Salvage"
+      }
+    ]
+  },
+  "matriarch_reactor": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "matriarch_reactor",
+        "recycleComponentId": "power_rod",
+        "recycleComponentName": "Power Rod",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "matriarch_reactor",
+            "itemName": "Matriarch Reactor",
+            "targetId": "power_rod",
+            "targetName": "Power Rod"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "power_rod",
+            "itemName": "Power Rod",
+            "questId": "ss10x15",
+            "questName": "Tribute to Toledo"
+          }
+        ]
+      }
+    ]
+  },
+  "mechanical_components": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "mechanical_components",
+        "workshopStation": "gunsmith",
+        "workshopLevel": "2"
+      }
+    ]
+  },
+  "metal_brackets": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "metal_brackets",
+        "recycleComponentId": "metal_parts",
+        "recycleComponentName": "Metal Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "metal_brackets",
+            "itemName": "Metal Brackets",
+            "targetId": "metal_parts",
+            "targetName": "Metal Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "metal_parts",
+            "itemName": "Metal Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "metal_parts": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "metal_parts",
+        "workshopStation": "gunsmith",
+        "workshopLevel": "1"
+      },
+      {
+        "type": "workshop",
+        "itemId": "metal_parts",
+        "workshopStation": "refiner",
+        "workshopLevel": "1"
+      }
+    ]
+  },
+  "microscope": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "microscope",
+        "recycleComponentId": "advanced_mechanical_components",
+        "recycleComponentName": "Advanced Mechanical Components",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "microscope",
+            "itemName": "Microscope",
+            "targetId": "advanced_mechanical_components",
+            "targetName": "Advanced Mechanical Components"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "advanced_mechanical_components",
+            "itemName": "Advanced Mechanical Components",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "mini_centrifuge": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "mini_centrifuge",
+        "recycleComponentId": "advanced_mechanical_components",
+        "recycleComponentName": "Advanced Mechanical Components",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "mini_centrifuge",
+            "itemName": "Mini Centrifuge",
+            "targetId": "advanced_mechanical_components",
+            "targetName": "Advanced Mechanical Components"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "advanced_mechanical_components",
+            "itemName": "Advanced Mechanical Components",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "mod_components": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "mod_components",
+        "recycleComponentId": "mechanical_components",
+        "recycleComponentName": "Mechanical Components",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "mod_components",
+            "itemName": "Mod Components",
+            "targetId": "mechanical_components",
+            "targetName": "Mechanical Components"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "mechanical_components",
+            "itemName": "Mechanical Components",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "motor": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "motor",
+        "workshopStation": "refiner",
+        "workshopLevel": "3"
+      }
+    ]
+  },
+  "mushroom": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "mushroom",
+        "workshopStation": "scrappy",
+        "workshopLevel": "5"
+      }
+    ]
+  },
+  "number_plate": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "number_plate",
+        "recycleComponentId": "metal_parts",
+        "recycleComponentName": "Metal Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "number_plate",
+            "itemName": "Number Plate",
+            "targetId": "metal_parts",
+            "targetName": "Metal Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "metal_parts",
+            "itemName": "Metal Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "oil": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "oil",
+        "recycleComponentId": "chemicals",
+        "recycleComponentName": "Chemicals",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "oil",
+            "itemName": "Oil",
+            "targetId": "chemicals",
+            "targetName": "Chemicals"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "chemicals",
+            "itemName": "Chemicals",
+            "workshopStation": "explosives_station",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "olives": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "olives",
+        "workshopStation": "scrappy",
+        "workshopLevel": "4"
+      }
+    ]
+  },
+  "plastic_parts": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "plastic_parts",
+        "workshopStation": "gear_bench",
+        "workshopLevel": "1"
+      },
+      {
+        "type": "workshop",
+        "itemId": "plastic_parts",
+        "workshopStation": "utility_station",
+        "workshopLevel": "1"
+      }
+    ]
+  },
+  "polluted_air_filter": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "polluted_air_filter",
+        "recycleComponentId": "fabric",
+        "recycleComponentName": "Fabric",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "polluted_air_filter",
+            "itemName": "Polluted Air Filter",
+            "targetId": "fabric",
+            "targetName": "Fabric"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "fabric",
+            "itemName": "Fabric",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "pop_trigger": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "pop_trigger",
+        "workshopStation": "explosives_station",
+        "workshopLevel": "2"
+      }
+    ]
+  },
+  "portable_tv": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "portable_tv",
+        "recycleComponentId": "battery",
+        "recycleComponentName": "Battery",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "portable_tv",
+            "itemName": "Portable TV",
+            "targetId": "battery",
+            "targetName": "Battery"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "battery",
+            "itemName": "Battery",
+            "questId": "ss10y",
+            "questName": "After Rain Comes"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "portable_tv",
+        "recycleComponentId": "wires",
+        "recycleComponentName": "Wires",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "portable_tv",
+            "itemName": "Portable TV",
+            "targetId": "wires",
+            "targetName": "Wires"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "wires",
+            "itemName": "Wires",
+            "questId": "ss10y",
+            "questName": "After Rain Comes"
+          }
+        ]
+      }
+    ]
+  },
+  "power_bank": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "power_bank",
+        "recycleComponentId": "battery",
+        "recycleComponentName": "Battery",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "power_bank",
+            "itemName": "Power Bank",
+            "targetId": "battery",
+            "targetName": "Battery"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "battery",
+            "itemName": "Battery",
+            "questId": "ss10y",
+            "questName": "After Rain Comes"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "power_bank",
+        "recycleComponentId": "wires",
+        "recycleComponentName": "Wires",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "power_bank",
+            "itemName": "Power Bank",
+            "targetId": "wires",
+            "targetName": "Wires"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "wires",
+            "itemName": "Wires",
+            "questId": "ss10y",
+            "questName": "After Rain Comes"
+          }
+        ]
+      }
+    ]
+  },
+  "power_cable": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "power_cable",
+        "workshopStation": "gear_bench",
+        "workshopLevel": "2"
+      }
+    ]
+  },
+  "power_rod": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "power_rod",
+        "questId": "ss10x15",
+        "questName": "Tribute to Toledo"
+      }
+    ]
+  },
+  "prickly_pear": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "prickly_pear",
+        "workshopStation": "scrappy",
+        "workshopLevel": "4"
+      }
+    ]
+  },
+  "processor": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "processor",
+        "recycleComponentId": "wires",
+        "recycleComponentName": "Wires",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "processor",
+            "itemName": "Processor",
+            "targetId": "wires",
+            "targetName": "Wires"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "wires",
+            "itemName": "Wires",
+            "questId": "ss10y",
+            "questName": "After Rain Comes"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "processor",
+        "recycleComponentId": "plastic_parts",
+        "recycleComponentName": "Plastic Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "processor",
+            "itemName": "Processor",
+            "targetId": "plastic_parts",
+            "targetName": "Plastic Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "plastic_parts",
+            "itemName": "Plastic Parts",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "projector": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "projector",
+        "recycleComponentId": "wires",
+        "recycleComponentName": "Wires",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "projector",
+            "itemName": "Projector",
+            "targetId": "wires",
+            "targetName": "Wires"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "wires",
+            "itemName": "Wires",
+            "questId": "ss10y",
+            "questName": "After Rain Comes"
+          }
+        ]
+      }
+    ]
+  },
+  "queen_reactor": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "queen_reactor",
+        "recycleComponentId": "power_rod",
+        "recycleComponentName": "Power Rod",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "queen_reactor",
+            "itemName": "Queen Reactor",
+            "targetId": "power_rod",
+            "targetName": "Power Rod"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "power_rod",
+            "itemName": "Power Rod",
+            "questId": "ss10x15",
+            "questName": "Tribute to Toledo"
+          }
+        ]
+      }
+    ]
+  },
+  "remote_control": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "remote_control",
+        "recycleComponentId": "plastic_parts",
+        "recycleComponentName": "Plastic Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "remote_control",
+            "itemName": "Remote Control",
+            "targetId": "plastic_parts",
+            "targetName": "Plastic Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "plastic_parts",
+            "itemName": "Plastic Parts",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "rocket_thruster": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "rocket_thruster",
+        "recycleComponentId": "synthesized_fuel",
+        "recycleComponentName": "Synthesized Fuel",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "rocket_thruster",
+            "itemName": "Rocket Thruster",
+            "targetId": "synthesized_fuel",
+            "targetName": "Synthesized Fuel"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "synthesized_fuel",
+            "itemName": "Synthesized Fuel",
+            "workshopStation": "explosives_station",
+            "workshopLevel": "2"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "rocket_thruster",
+        "recycleComponentId": "metal_parts",
+        "recycleComponentName": "Metal Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "rocket_thruster",
+            "itemName": "Rocket Thruster",
+            "targetId": "metal_parts",
+            "targetName": "Metal Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "metal_parts",
+            "itemName": "Metal Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "rocketeer_driver": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "rocketeer_driver",
+        "questId": "ss10v",
+        "questName": "Out of the Shadows"
+      },
+      {
+        "type": "workshop",
+        "itemId": "rocketeer_driver",
+        "workshopStation": "explosives_station",
+        "workshopLevel": "3"
+      }
+    ]
+  },
+  "rope": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "rope",
+        "recycleComponentId": "fabric",
+        "recycleComponentName": "Fabric",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "rope",
+            "itemName": "Rope",
+            "targetId": "fabric",
+            "targetName": "Fabric"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "fabric",
+            "itemName": "Fabric",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "rotary_encoder": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "rotary_encoder",
+        "recycleComponentId": "electrical_components",
+        "recycleComponentName": "Electrical Components",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "rotary_encoder",
+            "itemName": "Rotary Encoder",
+            "targetId": "electrical_components",
+            "targetName": "Electrical Components"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "electrical_components",
+            "itemName": "Electrical Components",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "rubber_pad": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "rubber_pad",
+        "recycleComponentId": "rubber_parts",
+        "recycleComponentName": "Rubber Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "rubber_pad",
+            "itemName": "Rubber Pad",
+            "targetId": "rubber_parts",
+            "targetName": "Rubber Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "rubber_parts",
+            "itemName": "Rubber Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "rubber_parts": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "rubber_parts",
+        "workshopStation": "gunsmith",
+        "workshopLevel": "1"
+      }
+    ]
+  },
+  "ruined_accordion": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "ruined_accordion",
+        "recycleComponentId": "rubber_parts",
+        "recycleComponentName": "Rubber Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "ruined_accordion",
+            "itemName": "Ruined Accordion",
+            "targetId": "rubber_parts",
+            "targetName": "Rubber Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "rubber_parts",
+            "itemName": "Rubber Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "ruined_riot_shield": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "ruined_riot_shield",
+        "recycleComponentId": "plastic_parts",
+        "recycleComponentName": "Plastic Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "ruined_riot_shield",
+            "itemName": "Ruined Riot Shield",
+            "targetId": "plastic_parts",
+            "targetName": "Plastic Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "plastic_parts",
+            "itemName": "Plastic Parts",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "1"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "ruined_riot_shield",
+        "recycleComponentId": "rubber_parts",
+        "recycleComponentName": "Rubber Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "ruined_riot_shield",
+            "itemName": "Ruined Riot Shield",
+            "targetId": "rubber_parts",
+            "targetName": "Rubber Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "rubber_parts",
+            "itemName": "Rubber Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "rusted_bolts": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "rusted_bolts",
+        "recycleComponentId": "metal_parts",
+        "recycleComponentName": "Metal Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "rusted_bolts",
+            "itemName": "Rusted Bolts",
+            "targetId": "metal_parts",
+            "targetName": "Metal Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "metal_parts",
+            "itemName": "Metal Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "rusted_gear": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "rusted_gear",
+        "workshopStation": "gunsmith",
+        "workshopLevel": "3"
+      }
+    ]
+  },
+  "rusted_shut_medical_kit": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "rusted_shut_medical_kit",
+        "workshopStation": "medical_lab",
+        "workshopLevel": "3"
+      }
+    ]
+  },
+  "rusted_tools": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "rusted_tools",
+        "workshopStation": "gunsmith",
+        "workshopLevel": "2"
+      }
+    ]
+  },
+  "sample_cleaner": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "sample_cleaner",
+        "recycleComponentId": "electrical_components",
+        "recycleComponentName": "Electrical Components",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "sample_cleaner",
+            "itemName": "Sample Cleaner",
+            "targetId": "electrical_components",
+            "targetName": "Electrical Components"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "electrical_components",
+            "itemName": "Electrical Components",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "sensors": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "sensors",
+        "recycleComponentId": "wires",
+        "recycleComponentName": "Wires",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "sensors",
+            "itemName": "Sensors",
+            "targetId": "wires",
+            "targetName": "Wires"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "wires",
+            "itemName": "Wires",
+            "questId": "ss10y",
+            "questName": "After Rain Comes"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "sensors",
+        "recycleComponentId": "metal_parts",
+        "recycleComponentName": "Metal Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "sensors",
+            "itemName": "Sensors",
+            "targetId": "metal_parts",
+            "targetName": "Metal Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "metal_parts",
+            "itemName": "Metal Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "sentinel_firing_core": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "sentinel_firing_core",
+        "workshopStation": "gunsmith",
+        "workshopLevel": "3"
+      }
+    ]
+  },
+  "shredder_gyro": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "shredder_gyro",
+        "recycleComponentId": "mechanical_components",
+        "recycleComponentName": "Mechanical Components",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "shredder_gyro",
+            "itemName": "Shredder Gyro",
+            "targetId": "mechanical_components",
+            "targetName": "Mechanical Components"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "mechanical_components",
+            "itemName": "Mechanical Components",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "2"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "shredder_gyro",
+        "recycleComponentId": "arc_alloy",
+        "recycleComponentName": "ARC Alloy",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "shredder_gyro",
+            "itemName": "Shredder Gyro",
+            "targetId": "arc_alloy",
+            "targetName": "ARC Alloy"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "arc_alloy",
+            "itemName": "ARC Alloy",
+            "questId": "ss2",
+            "questName": "Clearer Skies"
+          }
+        ]
+      }
+    ]
+  },
+  "signal_amplifier": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "signal_amplifier",
+        "recycleComponentId": "electrical_components",
+        "recycleComponentName": "Electrical Components",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "signal_amplifier",
+            "itemName": "Signal Amplifier",
+            "targetId": "electrical_components",
+            "targetName": "Electrical Components"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "electrical_components",
+            "itemName": "Electrical Components",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "simple_gun_parts": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "simple_gun_parts",
+        "recycleComponentId": "metal_parts",
+        "recycleComponentName": "Metal Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "simple_gun_parts",
+            "itemName": "Simple Gun Parts",
+            "targetId": "metal_parts",
+            "targetName": "Metal Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "metal_parts",
+            "itemName": "Metal Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "snitch_scanner": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "snitch_scanner",
+        "questId": "ss9",
+        "questName": "The Trifecta"
+      },
+      {
+        "type": "workshop",
+        "itemId": "snitch_scanner",
+        "workshopStation": "utility_station",
+        "workshopLevel": "2"
+      }
+    ]
+  },
+  "speaker_component": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "speaker_component",
+        "recycleComponentId": "plastic_parts",
+        "recycleComponentName": "Plastic Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "speaker_component",
+            "itemName": "Speaker Component",
+            "targetId": "plastic_parts",
+            "targetName": "Plastic Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "plastic_parts",
+            "itemName": "Plastic Parts",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "1"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "speaker_component",
+        "recycleComponentId": "rubber_parts",
+        "recycleComponentName": "Rubber Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "speaker_component",
+            "itemName": "Speaker Component",
+            "targetId": "rubber_parts",
+            "targetName": "Rubber Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "rubber_parts",
+            "itemName": "Rubber Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "spectrometer": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "spectrometer",
+        "recycleComponentId": "advanced_electrical_components",
+        "recycleComponentName": "Advanced Electrical Components",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "spectrometer",
+            "itemName": "Spectrometer",
+            "targetId": "advanced_electrical_components",
+            "targetName": "Advanced Electrical Components"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "advanced_electrical_components",
+            "itemName": "Advanced Electrical Components",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "spotter_relay": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "spotter_relay",
+        "recycleComponentId": "electrical_components",
+        "recycleComponentName": "Electrical Components",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "spotter_relay",
+            "itemName": "Spotter Relay",
+            "targetId": "electrical_components",
+            "targetName": "Electrical Components"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "electrical_components",
+            "itemName": "Electrical Components",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "2"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "spotter_relay",
+        "recycleComponentId": "arc_alloy",
+        "recycleComponentName": "ARC Alloy",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "spotter_relay",
+            "itemName": "Spotter Relay",
+            "targetId": "arc_alloy",
+            "targetName": "ARC Alloy"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "arc_alloy",
+            "itemName": "ARC Alloy",
+            "questId": "ss2",
+            "questName": "Clearer Skies"
+          }
+        ]
+      }
+    ]
+  },
+  "spring_cushion": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "spring_cushion",
+        "recycleComponentId": "durable_cloth",
+        "recycleComponentName": "Durable Cloth",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "spring_cushion",
+            "itemName": "Spring Cushion",
+            "targetId": "durable_cloth",
+            "targetName": "Durable Cloth"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "durable_cloth",
+            "itemName": "Durable Cloth",
+            "questId": "ss10c",
+            "questName": "Doctor's Orders"
+          }
+        ]
+      }
+    ]
+  },
+  "steel_spring": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "steel_spring",
+        "recycleComponentId": "metal_parts",
+        "recycleComponentName": "Metal Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "steel_spring",
+            "itemName": "Steel Spring",
+            "targetId": "metal_parts",
+            "targetName": "Metal Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "metal_parts",
+            "itemName": "Metal Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "surveyor_vault": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "surveyor_vault",
+        "questId": "ss10d",
+        "questName": "Mixed Signals"
+      },
+      {
+        "type": "workshop",
+        "itemId": "surveyor_vault",
+        "workshopStation": "medical_lab",
+        "workshopLevel": "3"
+      }
+    ]
+  },
+  "synthesized_fuel": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "synthesized_fuel",
+        "workshopStation": "explosives_station",
+        "workshopLevel": "2"
+      }
+    ]
+  },
+  "syringe": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "syringe",
+        "questId": "ss10c",
+        "questName": "Doctor's Orders"
+      }
+    ]
+  },
+  "tattered_arc_lining": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "tattered_arc_lining",
+        "recycleComponentId": "fabric",
+        "recycleComponentName": "Fabric",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "tattered_arc_lining",
+            "itemName": "Tattered Arc Lining",
+            "targetId": "fabric",
+            "targetName": "Fabric"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "fabric",
+            "itemName": "Fabric",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "tattered_clothes": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "tattered_clothes",
+        "recycleComponentId": "fabric",
+        "recycleComponentName": "Fabric",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "tattered_clothes",
+            "itemName": "Tattered Clothes",
+            "targetId": "fabric",
+            "targetName": "Fabric"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "fabric",
+            "itemName": "Fabric",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "telemetry_transceiver": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "telemetry_transceiver",
+        "recycleComponentId": "advanced_electrical_components",
+        "recycleComponentName": "Advanced Electrical Components",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "telemetry_transceiver",
+            "itemName": "Telemetry Transceiver",
+            "targetId": "advanced_electrical_components",
+            "targetName": "Advanced Electrical Components"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "advanced_electrical_components",
+            "itemName": "Advanced Electrical Components",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "thermostat": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "thermostat",
+        "recycleComponentId": "rubber_parts",
+        "recycleComponentName": "Rubber Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "thermostat",
+            "itemName": "Thermostat",
+            "targetId": "rubber_parts",
+            "targetName": "Rubber Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "rubber_parts",
+            "itemName": "Rubber Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "tick_pod": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "tick_pod",
+        "workshopStation": "medical_lab",
+        "workshopLevel": "2"
+      }
+    ]
+  },
+  "toaster": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "toaster",
+        "workshopStation": "refiner",
+        "workshopLevel": "2"
+      }
+    ]
+  },
+  "torn_blanket": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "torn_blanket",
+        "recycleComponentId": "fabric",
+        "recycleComponentName": "Fabric",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "torn_blanket",
+            "itemName": "Torn Blanket",
+            "targetId": "fabric",
+            "targetName": "Fabric"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "fabric",
+            "itemName": "Fabric",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "turbo_pump": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "turbo_pump",
+        "recycleComponentId": "mechanical_components",
+        "recycleComponentName": "Mechanical Components",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "turbo_pump",
+            "itemName": "Turbo Pump",
+            "targetId": "mechanical_components",
+            "targetName": "Mechanical Components"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "mechanical_components",
+            "itemName": "Mechanical Components",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "unusable_weapon": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "unusable_weapon",
+        "recycleComponentId": "metal_parts",
+        "recycleComponentName": "Metal Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "unusable_weapon",
+            "itemName": "Unusable Weapon",
+            "targetId": "metal_parts",
+            "targetName": "Metal Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "metal_parts",
+            "itemName": "Metal Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "voltage_converter": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "voltage_converter",
+        "recycleComponentId": "wires",
+        "recycleComponentName": "Wires",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "voltage_converter",
+            "itemName": "Voltage Converter",
+            "targetId": "wires",
+            "targetName": "Wires"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "wires",
+            "itemName": "Wires",
+            "questId": "ss10y",
+            "questName": "After Rain Comes"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "voltage_converter",
+        "recycleComponentId": "rubber_parts",
+        "recycleComponentName": "Rubber Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "voltage_converter",
+            "itemName": "Voltage Converter",
+            "targetId": "rubber_parts",
+            "targetName": "Rubber Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "rubber_parts",
+            "itemName": "Rubber Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "wasp_driver": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "wasp_driver",
+        "questId": "ss9",
+        "questName": "The Trifecta"
+      },
+      {
+        "type": "workshop",
+        "itemId": "wasp_driver",
+        "workshopStation": "gunsmith",
+        "workshopLevel": "2"
+      }
+    ]
+  },
+  "water_filter": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "water_filter",
+        "recycleComponentId": "rubber_parts",
+        "recycleComponentName": "Rubber Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "water_filter",
+            "itemName": "Water Filter",
+            "targetId": "rubber_parts",
+            "targetName": "Rubber Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "rubber_parts",
+            "itemName": "Rubber Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "water_pump": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "water_pump",
+        "questId": "ss10q",
+        "questName": "Unexpected Initiative"
+      }
+    ]
+  },
+  "wires": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "wires",
+        "questId": "ss10y",
+        "questName": "After Rain Comes"
+      },
+      {
+        "type": "quest",
+        "itemId": "wires",
+        "questId": "ss3",
+        "questName": "Trash Into Treasure"
+      }
+    ]
+  }
+}
