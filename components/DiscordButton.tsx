@@ -62,7 +62,8 @@ export default function DiscordButton() {
     };
   }, []);
 
-  if (!isMounted) {
+  // Only show button if mounted and language is French
+  if (!isMounted || language !== 'fr') {
     return null;
   }
 
