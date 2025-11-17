@@ -433,7 +433,7 @@ export default function ProjectsPage() {
 
                                             <div className="flex-1 min-w-0">
                                               <div className="text-arc-white font-medium truncate mb-1">
-                                                {cat.category}
+                                                {cat.name}
                                               </div>
                                               <div className="flex items-center gap-2">
                                                 <span
