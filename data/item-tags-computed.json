@@ -54,7 +54,7 @@
   "duct_tape": "recycle",
   "durable_cloth": "keep",
   "electrical_components": "keep",
-  "exodus_modules": "recycle",
+  "exodus_modules": "sell",
   "expired_respirator": "recycle",
   "explosive_compound": "keep",
   "explosive_mixture": "sell",
