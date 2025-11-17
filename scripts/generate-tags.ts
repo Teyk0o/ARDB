@@ -2,7 +2,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { TagGenerator } from '../lib/tagGenerator';
 import { TagReasonAnalyzer } from '../lib/tagReasoning';
-import type { Quest, WorkshopUpgrades } from '../types/tags';
+import type { Quest, WorkshopUpgrades, Project } from '../types/tags';
 
 /**
  * Build-time tag generation script
@@ -60,17 +60,38 @@ function loadItems(): any[] {
   return items;
 }
 
+function loadProjects(): Project[] {
+  const projectsPath = path.join(DATA_DIR, 'projects.json');
+  console.log('📂 Loading projects...');
+
+  const projects = JSON.parse(fs.readFileSync(projectsPath, 'utf8'));
+
+  // Count total phase requirements
+  let totalPhases = 0;
+  let totalReqs = 0;
+  projects.forEach((project: Project) => {
+    totalPhases += project.phases.length;
+    project.phases.forEach(phase => {
+      totalReqs += (phase.requirementItemIds?.length || 0);
+    });
+  });
+
+  console.log(`✓ Loaded ${projects.length} project(s) with ${totalPhases} phases (${totalReqs} total requirements)`);
+  return projects;
+}
+
 function generateTags(): void {
   console.log('\n🚀 Starting tag generation...\n');
 
   // Load all data
   const quests = loadQuests();
   const workshopUpgrades = loadWorkshopUpgrades();
+  const projects = loadProjects();
   const items = loadItems();
 
   // Generate tags
   console.log('\n🔍 Analyzing item dependencies...');
-  const generator = new TagGenerator(quests, workshopUpgrades, items);
+  const generator = new TagGenerator(quests, workshopUpgrades, projects, items);
   const tags = generator.generateTags();
 
   // Statistics
@@ -98,7 +119,7 @@ function generateTags(): void {
 
   // Generate reasons
   console.log(`\n🔍 Analyzing tag reasons...`);
-  const reasonAnalyzer = new TagReasonAnalyzer(quests, workshopUpgrades, items, tags);
+  const reasonAnalyzer = new TagReasonAnalyzer(quests, workshopUpgrades, projects, items, tags);
   const reasons = reasonAnalyzer.generateAllReasons();
 
   const reasonStats = Object.values(reasons).reduce((acc, r) => {

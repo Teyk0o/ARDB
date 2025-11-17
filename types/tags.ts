@@ -47,11 +47,38 @@ export interface WorkshopUpgrades {
 }
 
 /**
+ * Project phase data structure
+ */
+export interface ProjectPhase {
+  phase: number;
+  name: Record<string, string>;
+  requirementItemIds?: Array<{
+    itemId: string;
+    quantity: number;
+  }>;
+  requirementCategories?: Array<{
+    name: string;
+    valueRequired: number;
+  }>;
+}
+
+/**
+ * Project data structure from RaidTheory
+ */
+export interface Project {
+  id: string;
+  name: Record<string, string>;
+  description: Record<string, string>;
+  phases: ProjectPhase[];
+}
+
+/**
  * Tag generation context
  */
 export interface TagGenerationContext {
   quests: Quest[];
   workshopUpgrades: WorkshopUpgrades;
+  projects: Project[];
   items: any[]; // Raw items from items.json
 }
 

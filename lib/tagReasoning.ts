@@ -1,7 +1,7 @@
-import type { Quest, WorkshopUpgrades } from '../types/tags';
+import type { Quest, WorkshopUpgrades, Project } from '../types/tags';
 
 export interface TagReason {
-  type: 'quest' | 'workshop' | 'crafting' | 'recycle';
+  type: 'quest' | 'workshop' | 'crafting' | 'recycle' | 'project';
   itemId: string;
   itemName?: string;
   questId?: string;
@@ -12,6 +12,9 @@ export interface TagReason {
   craftedItemName?: string;
   recycleComponentId?: string;
   recycleComponentName?: string;
+  projectId?: string;
+  projectName?: string;
+  projectPhase?: number;
   // Full dependency chain
   chain?: DependencyChainStep[];
 }
@@ -39,17 +42,20 @@ export interface ItemTagReasons {
 export class TagReasonAnalyzer {
   private quests: Quest[];
   private workshopUpgrades: WorkshopUpgrades;
+  private projects: Project[];
   private items: Map<string, any>;
   private itemTags: Record<string, 'keep' | 'sell' | 'recycle'>;
 
   constructor(
     quests: Quest[],
     workshopUpgrades: WorkshopUpgrades,
+    projects: Project[],
     items: any[],
     itemTags: Record<string, 'keep' | 'sell' | 'recycle'>
   ) {
     this.quests = quests;
     this.workshopUpgrades = workshopUpgrades;
+    this.projects = projects;
     this.items = new Map(items.map(item => [item.id, item]));
     this.itemTags = itemTags;
   }
@@ -86,6 +92,22 @@ export class TagReasonAnalyzer {
               itemId,
               workshopStation: stationId,
               workshopLevel: levelNum
+            });
+          }
+        });
+      });
+
+      // Check project requirements
+      this.projects.forEach(project => {
+        project.phases.forEach(phase => {
+          const requiredItems = phase.requirementItemIds || [];
+          if (requiredItems.some(req => req.itemId === itemId)) {
+            reasons.push({
+              type: 'project',
+              itemId,
+              projectId: project.id,
+              projectName: project.name.en,
+              projectPhase: phase.phase
             });
           }
         });

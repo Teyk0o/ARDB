@@ -1,22 +1,24 @@
-import type { ItemTag, Quest, WorkshopUpgrades, DependencyNode } from '../types/tags';
+import type { ItemTag, Quest, WorkshopUpgrades, Project, DependencyNode } from '../types/tags';
 
 /**
  * Tag Generator - Recursive utility detection algorithm
  *
- * Determines if items are useful for quests/workshops by traversing
+ * Determines if items are useful for quests/workshops/projects by traversing
  * the entire crafting dependency chain recursively.
  */
 
 export class TagGenerator {
   private quests: Quest[];
   private workshopUpgrades: WorkshopUpgrades;
+  private projects: Project[];
   private items: Map<string, any>;
   private utilityCache: Map<string, boolean>;
   private recyclableCache: Map<string, boolean>;
 
-  constructor(quests: Quest[], workshopUpgrades: WorkshopUpgrades, items: any[]) {
+  constructor(quests: Quest[], workshopUpgrades: WorkshopUpgrades, projects: Project[], items: any[]) {
     this.quests = quests;
     this.workshopUpgrades = workshopUpgrades;
+    this.projects = projects;
     this.items = new Map(items.map(item => [item.id, item]));
     this.utilityCache = new Map();
     this.recyclableCache = new Map();
@@ -57,7 +59,7 @@ export class TagGenerator {
       'Emote',
       'Blueprint',
       'Modification',
-      'Trinket',
+      // Note: Trinket removed - some trinkets are needed for projects (e.g., light_bulb)
       'Special',
       'Key',
       'Misc'
@@ -114,7 +116,12 @@ export class TagGenerator {
       isUseful = true;
     }
 
-    // 3. Recursive check: is this item used to craft something useful?
+    // 3. Check direct project requirements
+    if (!isUseful && this.isRequiredForProject(itemId)) {
+      isUseful = true;
+    }
+
+    // 4. Recursive check: is this item used to craft something useful?
     if (!isUseful) {
       const item = this.items.get(itemId);
       if (item) {
@@ -173,6 +180,18 @@ export class TagGenerator {
       }
     }
     return false;
+  }
+
+  /**
+   * Check if item is directly required for any project phase
+   */
+  private isRequiredForProject(itemId: string): boolean {
+    return this.projects.some(project => {
+      return project.phases.some(phase => {
+        const requiredItems = phase.requirementItemIds || [];
+        return requiredItems.some(req => req.itemId === itemId);
+      });
+    });
   }
 
   /**

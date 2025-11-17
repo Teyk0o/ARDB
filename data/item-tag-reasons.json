@@ -40,6 +40,13 @@
         "itemId": "advanced_electrical_components",
         "workshopStation": "utility_station",
         "workshopLevel": "3"
+      },
+      {
+        "type": "project",
+        "itemId": "advanced_electrical_components",
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project",
+        "projectPhase": 4
       }
     ]
   },
@@ -141,6 +148,13 @@
         "itemId": "arc_alloy",
         "workshopStation": "utility_station",
         "workshopLevel": "1"
+      },
+      {
+        "type": "project",
+        "itemId": "arc_alloy",
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project",
+        "projectPhase": 1
       }
     ]
   },
@@ -337,6 +351,13 @@
         "itemId": "battery",
         "questId": "ss3",
         "questName": "Trash Into Treasure"
+      },
+      {
+        "type": "project",
+        "itemId": "battery",
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project",
+        "projectPhase": 3
       }
     ]
   },
@@ -430,6 +451,21 @@
   "broken_handheld_radio": {
     "tag": "recycle",
     "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "broken_handheld_radio",
+        "recycleComponentId": "sensors",
+        "recycleComponentName": "Sensors",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "broken_handheld_radio",
+            "itemName": "Broken Handheld Radio",
+            "targetId": "sensors",
+            "targetName": "Sensors"
+          }
+        ]
+      },
       {
         "type": "recycle",
         "itemId": "broken_handheld_radio",
@@ -611,6 +647,28 @@
       }
     ]
   },
+  "cat_bed": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "cat_bed",
+        "workshopStation": "scrappy",
+        "workshopLevel": "4"
+      }
+    ]
+  },
+  "celeste_journal": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "celeste_journal",
+        "questId": "ss10t",
+        "questName": "Celeste's Journals"
+      }
+    ]
+  },
   "chemicals": {
     "tag": "keep",
     "reasons": [
@@ -673,55 +731,33 @@
             "workshopLevel": "1"
           }
         ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "cooling_coil",
+        "recycleComponentId": "steel_spring",
+        "recycleComponentName": "Steel Spring",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "cooling_coil",
+            "itemName": "Cooling Coil",
+            "targetId": "steel_spring",
+            "targetName": "Steel Spring"
+          }
+        ]
       }
     ]
   },
   "cooling_fan": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "cooling_fan",
-        "recycleComponentId": "plastic_parts",
-        "recycleComponentName": "Plastic Parts",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "cooling_fan",
-            "itemName": "Cooling Fan",
-            "targetId": "plastic_parts",
-            "targetName": "Plastic Parts"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "plastic_parts",
-            "itemName": "Plastic Parts",
-            "workshopStation": "gear_bench",
-            "workshopLevel": "1"
-          }
-        ]
-      },
-      {
-        "type": "recycle",
-        "itemId": "cooling_fan",
-        "recycleComponentId": "battery",
-        "recycleComponentName": "Battery",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "cooling_fan",
-            "itemName": "Cooling Fan",
-            "targetId": "battery",
-            "targetName": "Battery"
-          },
-          {
-            "action": "use_in_quest",
-            "itemId": "battery",
-            "itemName": "Battery",
-            "questId": "ss10y",
-            "questName": "After Rain Comes"
-          }
-        ]
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project",
+        "projectPhase": 2
       }
     ]
   },
@@ -1021,6 +1057,13 @@
         "itemId": "durable_cloth",
         "workshopStation": "medical_lab",
         "workshopLevel": "2"
+      },
+      {
+        "type": "project",
+        "itemId": "durable_cloth",
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project",
+        "projectPhase": 2
       }
     ]
   },
@@ -1038,6 +1081,25 @@
         "itemId": "electrical_components",
         "workshopStation": "utility_station",
         "workshopLevel": "2"
+      },
+      {
+        "type": "project",
+        "itemId": "electrical_components",
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project",
+        "projectPhase": 2
+      }
+    ]
+  },
+  "exodus_modules": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "exodus_modules",
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project",
+        "projectPhase": 3
       }
     ]
   },
@@ -1267,6 +1329,21 @@
             "questName": "After Rain Comes"
           }
         ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "geiger_counter",
+        "recycleComponentId": "exodus_modules",
+        "recycleComponentName": "Exodus Modules",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "geiger_counter",
+            "itemName": "Geiger Counter",
+            "targetId": "exodus_modules",
+            "targetName": "Exodus Modules"
+          }
+        ]
       }
     ]
   },
@@ -1353,29 +1430,14 @@
     ]
   },
   "humidifier": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "humidifier",
-        "recycleComponentId": "wires",
-        "recycleComponentName": "Wires",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "humidifier",
-            "itemName": "Humidifier",
-            "targetId": "wires",
-            "targetName": "Wires"
-          },
-          {
-            "action": "use_in_quest",
-            "itemId": "wires",
-            "itemName": "Wires",
-            "questId": "ss10y",
-            "questName": "After Rain Comes"
-          }
-        ]
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project",
+        "projectPhase": 4
       }
     ]
   },
@@ -1498,6 +1560,26 @@
       }
     ]
   },
+  "ion_sputter": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "ion_sputter",
+        "recycleComponentId": "exodus_modules",
+        "recycleComponentName": "Exodus Modules",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "ion_sputter",
+            "itemName": "Ion Sputter",
+            "targetId": "exodus_modules",
+            "targetName": "Exodus Modules"
+          }
+        ]
+      }
+    ]
+  },
   "laboratory_reagents": {
     "tag": "keep",
     "reasons": [
@@ -1523,6 +1605,13 @@
         "itemId": "leaper_pulse_unit",
         "workshopStation": "utility_station",
         "workshopLevel": "3"
+      },
+      {
+        "type": "project",
+        "itemId": "leaper_pulse_unit",
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project",
+        "projectPhase": 4
       }
     ]
   },
@@ -1534,6 +1623,18 @@
         "itemId": "lemon",
         "workshopStation": "scrappy",
         "workshopLevel": "3"
+      }
+    ]
+  },
+  "light_bulb": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "light_bulb",
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project",
+        "projectPhase": 3
       }
     ]
   },
@@ -1565,51 +1666,14 @@
     ]
   },
   "magnetic_accelerator": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "magnetic_accelerator",
-        "recycleComponentId": "advanced_mechanical_components",
-        "recycleComponentName": "Advanced Mechanical Components",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "magnetic_accelerator",
-            "itemName": "Magnetic Accelerator",
-            "targetId": "advanced_mechanical_components",
-            "targetName": "Advanced Mechanical Components"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "advanced_mechanical_components",
-            "itemName": "Advanced Mechanical Components",
-            "workshopStation": "gunsmith",
-            "workshopLevel": "3"
-          }
-        ]
-      },
-      {
-        "type": "recycle",
-        "itemId": "magnetic_accelerator",
-        "recycleComponentId": "arc_motion_core",
-        "recycleComponentName": "ARC Motion Core",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "magnetic_accelerator",
-            "itemName": "Magnetic Accelerator",
-            "targetId": "arc_motion_core",
-            "targetName": "ARC Motion Core"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "arc_motion_core",
-            "itemName": "ARC Motion Core",
-            "workshopStation": "refiner",
-            "workshopLevel": "2"
-          }
-        ]
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project",
+        "projectPhase": 4
       }
     ]
   },
@@ -1646,6 +1710,21 @@
             "itemName": "Power Rod",
             "questId": "ss10x15",
             "questName": "Tribute to Toledo"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "matriarch_reactor",
+        "recycleComponentId": "magnetic_accelerator",
+        "recycleComponentName": "Magnetic Accelerator",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "matriarch_reactor",
+            "itemName": "Matriarch Reactor",
+            "targetId": "magnetic_accelerator",
+            "targetName": "Magnetic Accelerator"
           }
         ]
       }
@@ -1703,6 +1782,13 @@
         "itemId": "metal_parts",
         "workshopStation": "refiner",
         "workshopLevel": "1"
+      },
+      {
+        "type": "project",
+        "itemId": "metal_parts",
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project",
+        "projectPhase": 1
       }
     ]
   },
@@ -1782,6 +1868,21 @@
             "itemName": "Mechanical Components",
             "workshopStation": "gunsmith",
             "workshopLevel": "2"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "mod_components",
+        "recycleComponentId": "steel_spring",
+        "recycleComponentName": "Steel Spring",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "mod_components",
+            "itemName": "Mod Components",
+            "targetId": "steel_spring",
+            "targetName": "Steel Spring"
           }
         ]
       }
@@ -2160,6 +2261,61 @@
             "questName": "Tribute to Toledo"
           }
         ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "queen_reactor",
+        "recycleComponentId": "magnetic_accelerator",
+        "recycleComponentName": "Magnetic Accelerator",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "queen_reactor",
+            "itemName": "Queen Reactor",
+            "targetId": "magnetic_accelerator",
+            "targetName": "Magnetic Accelerator"
+          }
+        ]
+      }
+    ]
+  },
+  "radio": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "radio",
+        "recycleComponentId": "sensors",
+        "recycleComponentName": "Sensors",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "radio",
+            "itemName": "Radio",
+            "targetId": "sensors",
+            "targetName": "Sensors"
+          }
+        ]
+      }
+    ]
+  },
+  "radio_relay": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "radio_relay",
+        "recycleComponentId": "sensors",
+        "recycleComponentName": "Sensors",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "radio_relay",
+            "itemName": "Radio Relay",
+            "targetId": "sensors",
+            "targetName": "Sensors"
+          }
+        ]
       }
     ]
   },
@@ -2185,6 +2341,21 @@
             "itemName": "Plastic Parts",
             "workshopStation": "gear_bench",
             "workshopLevel": "1"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "remote_control",
+        "recycleComponentId": "sensors",
+        "recycleComponentName": "Sensors",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "remote_control",
+            "itemName": "Remote Control",
+            "targetId": "sensors",
+            "targetName": "Sensors"
           }
         ]
       }
@@ -2345,6 +2516,13 @@
         "itemId": "rubber_parts",
         "workshopStation": "gunsmith",
         "workshopLevel": "1"
+      },
+      {
+        "type": "project",
+        "itemId": "rubber_parts",
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project",
+        "projectPhase": 1
       }
     ]
   },
@@ -2370,6 +2548,21 @@
             "itemName": "Rubber Parts",
             "workshopStation": "gunsmith",
             "workshopLevel": "1"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "ruined_accordion",
+        "recycleComponentId": "steel_spring",
+        "recycleComponentName": "Steel Spring",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "ruined_accordion",
+            "itemName": "Ruined Accordion",
+            "targetId": "steel_spring",
+            "targetName": "Steel Spring"
           }
         ]
       }
@@ -2512,51 +2705,14 @@
     ]
   },
   "sensors": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "sensors",
-        "recycleComponentId": "wires",
-        "recycleComponentName": "Wires",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "sensors",
-            "itemName": "Sensors",
-            "targetId": "wires",
-            "targetName": "Wires"
-          },
-          {
-            "action": "use_in_quest",
-            "itemId": "wires",
-            "itemName": "Wires",
-            "questId": "ss10y",
-            "questName": "After Rain Comes"
-          }
-        ]
-      },
-      {
-        "type": "recycle",
-        "itemId": "sensors",
-        "recycleComponentId": "metal_parts",
-        "recycleComponentName": "Metal Parts",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "sensors",
-            "itemName": "Sensors",
-            "targetId": "metal_parts",
-            "targetName": "Metal Parts"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "metal_parts",
-            "itemName": "Metal Parts",
-            "workshopStation": "gunsmith",
-            "workshopLevel": "1"
-          }
-        ]
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project",
+        "projectPhase": 3
       }
     ]
   },
@@ -2764,6 +2920,56 @@
             "workshopLevel": "3"
           }
         ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "spectrometer",
+        "recycleComponentId": "sensors",
+        "recycleComponentName": "Sensors",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "spectrometer",
+            "itemName": "Spectrometer",
+            "targetId": "sensors",
+            "targetName": "Sensors"
+          }
+        ]
+      }
+    ]
+  },
+  "spectrum_analyzer": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "spectrum_analyzer",
+        "recycleComponentId": "sensors",
+        "recycleComponentName": "Sensors",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "spectrum_analyzer",
+            "itemName": "Spectrum Analyzer",
+            "targetId": "sensors",
+            "targetName": "Sensors"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "spectrum_analyzer",
+        "recycleComponentId": "exodus_modules",
+        "recycleComponentName": "Exodus Modules",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "spectrum_analyzer",
+            "itemName": "Spectrum Analyzer",
+            "targetId": "exodus_modules",
+            "targetName": "Exodus Modules"
+          }
+        ]
       }
     ]
   },
@@ -2840,33 +3046,33 @@
             "questName": "Doctor's Orders"
           }
         ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "spring_cushion",
+        "recycleComponentId": "steel_spring",
+        "recycleComponentName": "Steel Spring",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "spring_cushion",
+            "itemName": "Spring Cushion",
+            "targetId": "steel_spring",
+            "targetName": "Steel Spring"
+          }
+        ]
       }
     ]
   },
   "steel_spring": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "steel_spring",
-        "recycleComponentId": "metal_parts",
-        "recycleComponentName": "Metal Parts",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "steel_spring",
-            "itemName": "Steel Spring",
-            "targetId": "metal_parts",
-            "targetName": "Metal Parts"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "metal_parts",
-            "itemName": "Metal Parts",
-            "workshopStation": "gunsmith",
-            "workshopLevel": "1"
-          }
-        ]
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project",
+        "projectPhase": 1
       }
     ]
   },
@@ -3014,6 +3220,21 @@
             "workshopLevel": "1"
           }
         ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "thermostat",
+        "recycleComponentId": "sensors",
+        "recycleComponentName": "Sensors",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "thermostat",
+            "itemName": "Thermostat",
+            "targetId": "sensors",
+            "targetName": "Sensors"
+          }
+        ]
       }
     ]
   },
@@ -3117,6 +3338,17 @@
             "workshopLevel": "1"
           }
         ]
+      }
+    ]
+  },
+  "very_comfortable_pillow": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "workshop",
+        "itemId": "very_comfortable_pillow",
+        "workshopStation": "scrappy",
+        "workshopLevel": "5"
       }
     ]
   },
@@ -3238,6 +3470,13 @@
         "itemId": "wires",
         "questId": "ss3",
         "questName": "Trash Into Treasure"
+      },
+      {
+        "type": "project",
+        "itemId": "wires",
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project",
+        "projectPhase": 2
       }
     ]
   }
