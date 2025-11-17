@@ -166,12 +166,25 @@ export default function TranslatePage() {
 
       {/* Footer */}
       <footer className="border-t border-arc-blue-lighter mt-12 py-8">
-        <div className="container mx-auto px-4 text-center">
+        <div className="container mx-auto px-4 text-center space-y-2">
           <p className="text-arc-white/70 text-sm">
             <a href="/" className="text-arc-yellow hover:underline">
               {t.backToDatabase}
             </a>
           </p>
+          {language === 'fr' && (
+            <div className="flex items-center justify-center gap-2">
+              <span className="text-arc-white/60 text-sm">Rejoignez l&apos;équipe francophone</span>
+              <a
+                href="https://discord.gg/54EQD8fpky"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-arc-yellow hover:text-arc-yellow/80 font-bold text-sm transition-colors underline"
+              >
+                The Vanguard Protocol
+              </a>
+            </div>
+          )}
         </div>
       </footer>
     </div>

@@ -182,6 +182,18 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
                     />
                   )}
                 </Link>
+                <Link
+                  href="/projects"
+                  className="text-arc-yellow hover:text-arc-yellow/80 text-sm sm:text-base font-medium transition-colors"
+                >
+                  {t.projects || 'Projects'}
+                </Link>
+                <Link
+                  href="/workshop-upgrades"
+                  className="text-arc-yellow hover:text-arc-yellow/80 text-sm sm:text-base font-medium transition-colors"
+                >
+                  {t.workshopUpgrades || 'Workshop Upgrades'}
+                </Link>
                 <a
                   href="/categories"
                   className="text-arc-yellow hover:text-arc-yellow/80 text-sm sm:text-base font-medium transition-colors"
@@ -342,6 +354,19 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
               {t.helpTranslate}
             </a>
           </div>
+          {language === 'fr' && (
+            <div className="flex items-center justify-center gap-2 mb-2">
+              <span className="text-arc-white/60 text-sm">Rejoignez l&apos;équipe francophone</span>
+              <a
+                href="https://discord.gg/54EQD8fpky"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-arc-yellow hover:text-arc-yellow/80 font-bold text-sm transition-colors underline"
+              >
+                The Vanguard Protocol
+              </a>
+            </div>
+          )}
           <p className="text-arc-white/50 text-xs mb-2">{t.license}</p>
           <p className="text-arc-white/40 text-sm">{t.footer}</p>
         </div>

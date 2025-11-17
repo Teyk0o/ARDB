@@ -142,6 +142,19 @@ export default function CategoriesPage() {
               {t.categoriesTitle} - Help Translate
             </a>
           </p>
+          {language === 'fr' && (
+            <div className="flex items-center justify-center gap-2">
+              <span className="text-arc-white/60 text-sm">Rejoignez l&apos;équipe francophone</span>
+              <a
+                href="https://discord.gg/54EQD8fpky"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-arc-yellow hover:text-arc-yellow/80 font-bold text-sm transition-colors underline"
+              >
+                The Vanguard Protocol
+              </a>
+            </div>
+          )}
         </div>
       </footer>
     </div>
