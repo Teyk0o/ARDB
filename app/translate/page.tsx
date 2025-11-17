@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { translatePageTranslations, getTranslation } from '@/lib/translations';
 import { Language } from '@/lib/translations';
-import CustomSelect from '@/components/CustomSelect';
+import MainHeader from '@/components/MainHeader';
 
 export default function TranslatePage() {
   const [language, setLanguage] = useState<Language>('en');
@@ -49,54 +49,7 @@ export default function TranslatePage() {
   return (
     <div className="min-h-screen bg-arc-blue">
       {/* Header */}
-      <header className="bg-arc-blue-light border-b-2 border-arc-yellow/30 grain-texture">
-        <div className="container mx-auto px-4 py-8">
-          <div className="flex justify-between items-center gap-4 mb-4">
-            <div className="flex-1">
-              <h1 className="text-3xl md:text-4xl font-bold text-arc-white mb-2">
-                {t.pageTitle}
-              </h1>
-              <p className="text-arc-white/70">
-                {t.pageSubtitle}
-              </p>
-            </div>
-            {/* Navigation Links */}
-            <div className="flex items-center gap-4">
-              <a
-                href="/categories"
-                className="text-arc-yellow hover:text-arc-yellow/80 font-medium transition-colors hidden sm:block"
-              >
-                {tMain.categories}
-              </a>
-              {/* Language Selector */}
-              <CustomSelect
-                value={language}
-                onChange={(value) => setLanguage(value as Language)}
-                options={[
-                  { value: 'en', label: '🇬🇧 English' },
-                  { value: 'fr', label: '🇫🇷 Français' },
-                  { value: 'de', label: '🇩🇪 Deutsch' },
-                  { value: 'es', label: '🇪🇸 Español' },
-                  { value: 'pt', label: '🇵🇹 Português' },
-                  { value: 'pl', label: '🇵🇱 Polski' },
-                  { value: 'no', label: '🇳🇴 Norsk' },
-                  { value: 'da', label: '🇩🇰 Dansk' },
-                  { value: 'it', label: '🇮🇹 Italiano' },
-                  { value: 'ru', label: '🇷🇺 Русский' },
-                  { value: 'ja', label: '🇯🇵 日本語' },
-                  { value: 'zh-TW', label: '🇹🇼 繁體中文' },
-                  { value: 'uk', label: '🇺🇦Українська' },
-                  { value: 'zh-CN', label: '🇨🇳 简体中文' },
-                  { value: 'kr', label: '🇰🇷 한국어' },
-                  { value: 'tr', label: '🇹🇷 Türkçe' },
-                  { value: 'hr', label: '🇭🇷 Hrvatski' },
-                  { value: 'sr', label: '🇷🇸 Српски' },
-                ]}
-              />
-            </div>
-          </div>
-        </div>
-      </header>
+      <MainHeader language={language} setLanguage={setLanguage} />
 
       {/* Main Content */}
       <main className="container mx-auto px-4 py-8">

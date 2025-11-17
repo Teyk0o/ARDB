@@ -7,7 +7,7 @@ import { Item } from '@/types/item';
 import { Language, getTranslation, getStatLabel, getRarityLabel, getItemTypeLabel, getLootAreaLabel } from '@/lib/translations';
 import { generateSlug } from '@/lib/slugUtils';
 import CraftRelationshipsAccordion from './CraftRelationshipsAccordion';
-import CustomSelect from './CustomSelect';
+import MainHeader from './MainHeader';
 import TagReasonDisplay from './TagReasonDisplay';
 import tagReasons from '@/data/item-tag-reasons.json';
 import type { ItemTagReasons } from '@/lib/tagReasoning';
@@ -136,64 +136,19 @@ export default function ItemDetailPageContent({
     }
   };
 
+  const handleLanguageChange = (newLang: Language) => {
+    if (onLanguageChange) {
+      onLanguageChange(newLang);
+    }
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('arc-db-language', newLang);
+    }
+  };
+
   return (
     <div className="min-h-screen bg-arc-blue text-arc-white">
       {/* Header */}
-      <header className="relative bg-arc-blue-light border-b-2 border-arc-yellow/30 grain-texture">
-        <div className="relative z-10 container mx-auto px-4 py-8">
-          <div className="flex justify-between items-center gap-4">
-            <div className="flex-1">
-              <img
-                src="/ARC_Raider_Stacked_White_Color.png"
-                alt="Arc Raiders"
-                className="h-24 md:h-28 w-auto mb-2"
-              />
-              <p className="text-xl text-arc-white/70">{t.subtitle}</p>
-            </div>
-            {/* Navigation Links */}
-            <div className="flex items-center gap-4">
-              <a
-                href="/"
-                className="text-arc-yellow hover:text-arc-yellow/80 font-medium transition-colors hidden sm:block"
-              >
-                {language === 'fr' ? 'Accueil' : language === 'de' ? 'Startseite' : language === 'es' ? 'Inicio' : language === 'it' ? 'Home' : language === 'pt' ? 'Início' : language === 'pl' ? 'Strona główna' : language === 'no' ? 'Hjem' : language === 'da' ? 'Hjem' : language === 'ru' ? 'Главная' : language === 'ja' ? 'ホーム' : language === 'zh-TW' ? '首頁' : language === 'zh-CN' ? '首页' : language === 'uk' ? 'Головна' : language === 'kr' ? '홈' : language === 'tr' ? 'Ana Sayfa' : language === 'hr' ? 'Početna' : language === 'sr' ? 'Почетна' : 'Home'}
-              </a>
-              {/* Language Selector */}
-              <CustomSelect
-                value={language}
-                onChange={(value) => {
-                  if (onLanguageChange) {
-                    onLanguageChange(value as Language);
-                  }
-                  if (typeof window !== 'undefined') {
-                    localStorage.setItem('arc-db-language', value);
-                  }
-                }}
-                options={[
-                  { value: 'en', label: '🇬🇧 English' },
-                  { value: 'fr', label: '🇫🇷 Français' },
-                  { value: 'de', label: '🇩🇪 Deutsch' },
-                  { value: 'es', label: '🇪🇸 Español' },
-                  { value: 'pt', label: '🇵🇹 Português' },
-                  { value: 'pl', label: '🇵🇱 Polski' },
-                  { value: 'no', label: '🇳🇴 Norsk' },
-                  { value: 'da', label: '🇩🇰 Dansk' },
-                  { value: 'it', label: '🇮🇹 Italiano' },
-                  { value: 'ru', label: '🇷🇺 Русский' },
-                  { value: 'ja', label: '🇯🇵 日本語' },
-                  { value: 'zh-TW', label: '🇹🇼 繁體中文' },
-                  { value: 'uk', label: '🇺🇦Українська' },
-                  { value: 'zh-CN', label: '🇨🇳 简体中文' },
-                  { value: 'kr', label: '🇰🇷 한국어' },
-                  { value: 'tr', label: '🇹🇷 Türkçe' },
-                  { value: 'hr', label: '🇭🇷 Hrvatski' },
-                  { value: 'sr', label: '🇷🇸 Српски' },
-                ]}
-              />
-            </div>
-          </div>
-        </div>
-      </header>
+      <MainHeader language={language} setLanguage={handleLanguageChange} />
 
 
       {/* Hero Section with Item Image */}

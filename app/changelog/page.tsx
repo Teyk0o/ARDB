@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import CustomSelect from '@/components/CustomSelect';
+import MainHeader from '@/components/MainHeader';
 import { getTranslation, Language } from '@/lib/translations';
 
 interface ChangelogEntry {
@@ -99,55 +99,7 @@ export default function ChangelogPage() {
   return (
     <div className="min-h-screen bg-arc-blue">
       {/* Header */}
-      <header className="relative bg-arc-blue-light border-b-2 border-arc-yellow/30 grain-texture">
-        <div className="relative z-10 container mx-auto px-4 py-8">
-          <div className="flex justify-between items-center mb-6">
-            <Link href="/" className="hover:opacity-80 transition-opacity">
-              <img
-                src="/ARC_Raider_Stacked_White_Color.png"
-                alt="Arc Raiders"
-                className="h-24 md:h-28 w-auto"
-              />
-            </Link>
-            <div className="flex items-center gap-4">
-              <Link
-                href="/"
-                className="text-arc-yellow hover:text-arc-yellow/80 font-medium transition-colors"
-              >
-                {t.home}
-              </Link>
-              <CustomSelect
-                value={language}
-                onChange={(value) => setLanguage(value as Language)}
-                options={[
-                  { value: 'en', label: '🇬🇧 English' },
-                  { value: 'fr', label: '🇫🇷 Français' },
-                  { value: 'de', label: '🇩🇪 Deutsch' },
-                  { value: 'es', label: '🇪🇸 Español' },
-                  { value: 'pt', label: '🇵🇹 Português' },
-                  { value: 'pl', label: '🇵🇱 Polski' },
-                  { value: 'no', label: '🇳🇴 Norsk' },
-                  { value: 'da', label: '🇩🇰 Dansk' },
-                  { value: 'it', label: '🇮🇹 Italiano' },
-                  { value: 'ru', label: '🇷🇺 Русский' },
-                  { value: 'ja', label: '🇯🇵 日本語' },
-                  { value: 'zh-TW', label: '🇹🇼 繁體中文' },
-                  { value: 'uk', label: '🇺🇦Українська' },
-                  { value: 'zh-CN', label: '🇨🇳 简体中文' },
-                  { value: 'kr', label: '🇰🇷 한국어' },
-                  { value: 'tr', label: '🇹🇷 Türkçe' },
-                  { value: 'hr', label: '🇭🇷 Hrvatski' },
-                  { value: 'sr', label: '🇷🇸 Српски' },
-                ]}
-              />
-            </div>
-          </div>
-          <div>
-            <h1 className="text-3xl md:text-4xl font-bold text-arc-yellow mb-2">{t.changelog || 'Updates'}</h1>
-            <p className="text-arc-white/70">{t.databaseUpdatedAutomatically}</p>
-          </div>
-        </div>
-      </header>
+      <MainHeader language={language} setLanguage={setLanguage} />
 
       {/* Content */}
       <main className="container mx-auto px-4 py-12">

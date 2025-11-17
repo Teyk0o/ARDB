@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import MainHeader from '@/components/MainHeader';
 import { categoryTranslations } from '@/lib/translations';
 import { Language } from '@/lib/translations';
 
@@ -61,16 +62,7 @@ export default function CategoriesPage() {
   return (
     <div className="min-h-screen bg-arc-blue">
       {/* Header */}
-      <header className="bg-arc-blue-light border-b-2 border-arc-yellow/30 grain-texture">
-        <div className="container mx-auto px-4 py-8">
-          <h1 className="text-3xl md:text-4xl font-bold text-arc-white mb-2">
-            {t.categoriesTitle}
-          </h1>
-          <p className="text-arc-white/70">
-            {t.categoriesSubtitle}
-          </p>
-        </div>
-      </header>
+      <MainHeader language={language} setLanguage={setLanguage} />
 
       {/* Main Content */}
       <main className="container mx-auto px-4 py-8">
