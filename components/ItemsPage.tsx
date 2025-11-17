@@ -8,7 +8,8 @@ import ItemCard from './ItemCard';
 import CustomSelect from './CustomSelect';
 import MultiSelect from './MultiSelect';
 import LoadingSpinner from './LoadingSpinner';
-import { Language, getTranslation, getItemTypeLabel, getRarityLabel } from '@/lib/translations';
+import SearchWithHistory from './SearchWithHistory';
+import { Language, getTranslation, getItemTypeLabel, getRarityLabel, getTagLabel } from '@/lib/translations';
 import { generateSlug } from '@/lib/slugUtils';
 import { useItems } from '@/lib/useItems';
 import { useHasNewChanges, markChangelogAsViewed } from '@/lib/useHasNewChanges';
@@ -51,6 +52,7 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
     search: '',
     types: getInitialTypes(),
     rarities: [],
+    tags: [],
   });
 
   // Sync language to localStorage for ContributionBanner
@@ -73,6 +75,9 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
     if (filters.rarities.length > 0) {
       params.set('rarities', filters.rarities.join(','));
     }
+    if (filters.tags.length > 0) {
+      params.set('tags', filters.tags.join(','));
+    }
 
     const queryString = params.toString();
     const newUrl = queryString ? `/?${queryString}` : '/';
@@ -84,24 +89,28 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
       search: '',
       types: [],
       rarities: [],
+      tags: [],
     });
   };
 
   const t = getTranslation(language);
 
-  // Extract unique types and rarities
-  const { types, rarities } = useMemo(() => {
+  // Extract unique types, rarities, and tags
+  const { types, rarities, tags } = useMemo(() => {
     const typesSet = new Set<string>();
     const raritiesSet = new Set<string>();
+    const tagsSet = new Set<string>();
 
     displayItems.forEach((item) => {
       if (item.item_type) typesSet.add(item.item_type);
       if (item.rarity) raritiesSet.add(item.rarity);
+      if (item.tag) tagsSet.add(item.tag);
     });
 
     return {
       types: Array.from(typesSet).sort(),
       rarities: Array.from(raritiesSet).sort(),
+      tags: Array.from(tagsSet).sort(),
     };
   }, [displayItems]);
 
@@ -115,6 +124,11 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
 
       // Rarity filter (multiple selection)
       if (filters.rarities.length > 0 && !filters.rarities.includes(item.rarity || '')) {
+        return false;
+      }
+
+      // Tag filter (multiple selection)
+      if (filters.tags.length > 0 && !filters.tags.includes(item.tag || '')) {
         return false;
       }
 
@@ -138,64 +152,71 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
     <div className="min-h-screen bg-arc-blue">
       {/* Header */}
       <header className="relative bg-arc-blue-light border-b-2 border-arc-yellow/30 grain-texture">
-        <div className="relative z-10 container mx-auto px-4 py-8">
-          <div className="flex justify-between items-center gap-4">
-            <div className="flex-1">
+        <div className="relative z-10 container mx-auto px-4 py-4 md:py-8">
+          {/* Logo and Title - Full width on mobile */}
+          <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-4 mb-4 sm:mb-0">
+            <div className="flex-shrink-0">
               <img
                 src="/ARC_Raider_Stacked_White_Color.png"
                 alt="Arc Raiders"
-                className="h-24 md:h-28 w-auto mb-2"
+                className="h-20 sm:h-24 md:h-28 w-auto mb-2"
               />
-              <p className="text-xl text-arc-white/70">{t.subtitle}</p>
+              <p className="text-base sm:text-lg md:text-xl text-arc-white/70 hidden sm:block">{t.subtitle}</p>
             </div>
-            {/* Navigation Links */}
-            <div className="flex items-center gap-4">
-              <Link
-                href="/changelog"
-                onClick={() => markChangelogAsViewed()}
-                className={`inline-flex items-center gap-2 font-medium transition-colors hidden sm:flex ${hasNewChanges ? '' : 'text-arc-white/70'}`}
-                title="View recent updates"
-                style={hasNewChanges ? { color: '#f1aa1c' } : {}}
-              >
-                {t.changelog || 'Changelog'}
-                {hasNewChanges && (
-                  <span
-                    className="w-2 h-2 rounded-full animate-pulse flex-shrink-0"
-                    style={{ backgroundColor: '#f1aa1c', marginTop: '2px' }}
-                  />
-                )}
-              </Link>
-              <a
-                href="/categories"
-                className="text-arc-yellow hover:text-arc-yellow/80 font-medium transition-colors hidden sm:block"
-              >
-                {t.categories}
-              </a>
+
+            {/* Navigation - Stacked on mobile, horizontal on larger screens */}
+            <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4">
+              <div className="flex items-center gap-3 sm:gap-4 flex-wrap">
+                <Link
+                  href="/changelog"
+                  onClick={() => markChangelogAsViewed()}
+                  className={`inline-flex items-center gap-2 text-sm sm:text-base font-medium transition-colors ${hasNewChanges ? '' : 'text-arc-white/70'}`}
+                  title="View recent updates"
+                  style={hasNewChanges ? { color: '#f1aa1c' } : {}}
+                >
+                  {t.changelog || 'Changelog'}
+                  {hasNewChanges && (
+                    <span
+                      className="w-2 h-2 rounded-full animate-pulse flex-shrink-0"
+                      style={{ backgroundColor: '#f1aa1c', marginTop: '2px' }}
+                    />
+                  )}
+                </Link>
+                <a
+                  href="/categories"
+                  className="text-arc-yellow hover:text-arc-yellow/80 text-sm sm:text-base font-medium transition-colors"
+                >
+                  {t.categories}
+                </a>
+              </div>
+
               {/* Language Selector */}
-              <CustomSelect
-                value={language}
-                onChange={(value) => setLanguage(value as Language)}
-                options={[
-                  { value: 'en', label: '🇬🇧 English' },
-                  { value: 'fr', label: '🇫🇷 Français' },
-                  { value: 'de', label: '🇩🇪 Deutsch' },
-                  { value: 'es', label: '🇪🇸 Español' },
-                  { value: 'pt', label: '🇵🇹 Português' },
-                  { value: 'pl', label: '🇵🇱 Polski' },
-                  { value: 'no', label: '🇳🇴 Norsk' },
-                  { value: 'da', label: '🇩🇰 Dansk' },
-                  { value: 'it', label: '🇮🇹 Italiano' },
-                  { value: 'ru', label: '🇷🇺 Русский' },
-                  { value: 'ja', label: '🇯🇵 日本語' },
-                  { value: 'zh-TW', label: '🇹🇼 繁體中文' },
-                  { value: 'uk', label: '🇺🇦Українська' },
-                  { value: 'zh-CN', label: '🇨🇳 简体中文' },
-                  { value: 'kr', label: '🇰🇷 한국어' },
-                  { value: 'tr', label: '🇹🇷 Türkçe' },
-                  { value: 'hr', label: '🇭🇷 Hrvatski' },
-                  { value: 'sr', label: '🇷🇸 Српски' },
-                ]}
-              />
+              <div className="w-full sm:w-auto">
+                <CustomSelect
+                  value={language}
+                  onChange={(value) => setLanguage(value as Language)}
+                  options={[
+                    { value: 'en', label: '🇬🇧 English' },
+                    { value: 'fr', label: '🇫🇷 Français' },
+                    { value: 'de', label: '🇩🇪 Deutsch' },
+                    { value: 'es', label: '🇪🇸 Español' },
+                    { value: 'pt', label: '🇵🇹 Português' },
+                    { value: 'pl', label: '🇵🇱 Polski' },
+                    { value: 'no', label: '🇳🇴 Norsk' },
+                    { value: 'da', label: '🇩🇰 Dansk' },
+                    { value: 'it', label: '🇮🇹 Italiano' },
+                    { value: 'ru', label: '🇷🇺 Русский' },
+                    { value: 'ja', label: '🇯🇵 日本語' },
+                    { value: 'zh-TW', label: '🇹🇼 繁體中文' },
+                    { value: 'uk', label: '🇺🇦Українська' },
+                    { value: 'zh-CN', label: '🇨🇳 简体中文' },
+                    { value: 'kr', label: '🇰🇷 한국어' },
+                    { value: 'tr', label: '🇹🇷 Türkçe' },
+                    { value: 'hr', label: '🇭🇷 Hrvatski' },
+                    { value: 'sr', label: '🇷🇸 Српски' },
+                  ]}
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -203,49 +224,51 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
 
       {/* Search and Filters */}
       <div className="sticky top-0 z-30 bg-arc-blue-light/95 backdrop-blur-md border-b border-arc-blue-lighter shadow-lg">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex flex-col md:flex-row gap-4">
-            {/* Search */}
-            <div className="flex-1 relative">
-              <input
-                type="text"
-                placeholder={t.searchPlaceholder}
-                value={filters.search}
-                onChange={(e) => setFilters({ ...filters, search: e.target.value })}
-                className="w-full bg-arc-blue border-2 border-arc-blue-lighter focus:border-arc-yellow rounded-lg px-4 py-3 pr-10 text-arc-white placeholder-arc-white/40 outline-none transition-colors"
-              />
-              {filters.search && (
-                <button
-                  onClick={() => setFilters({ ...filters, search: '' })}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 text-arc-white/60 hover:text-arc-yellow transition-colors cursor-pointer"
-                  aria-label="Clear search"
-                >
-                  ✕
-                </button>
-              )}
-            </div>
+        <div className="container mx-auto px-4 py-3 lg:py-4">
+          <div className="flex flex-col lg:flex-row gap-3 lg:gap-4">
+            {/* Search - Full width on mobile/tablet, flexible on desktop */}
+            <SearchWithHistory
+              value={filters.search}
+              onChange={(value) => setFilters({ ...filters, search: value })}
+              placeholder={t.searchPlaceholder}
+              language={language}
+            />
 
             {/* Type Filter */}
-            <MultiSelect
-              values={filters.types}
-              onChange={(selectedTypes) => setFilters({ ...filters, types: selectedTypes })}
-              options={types.map(type => ({ value: type, label: getItemTypeLabel(type, language) }))}
-              placeholder={t.allTypes}
-            />
+            <div className="w-full sm:w-auto">
+              <MultiSelect
+                values={filters.types}
+                onChange={(selectedTypes) => setFilters({ ...filters, types: selectedTypes })}
+                options={types.map(type => ({ value: type, label: getItemTypeLabel(type, language) }))}
+                placeholder={t.allTypes}
+              />
+            </div>
 
             {/* Rarity Filter */}
-            <MultiSelect
-              values={filters.rarities}
-              onChange={(selectedRarities) => setFilters({ ...filters, rarities: selectedRarities })}
-              options={rarities.map(rarity => ({ value: rarity, label: rarity ? getRarityLabel(rarity, language) : 'Unknown' }))}
-              placeholder={t.allRarities}
-            />
+            <div className="w-full sm:w-auto">
+              <MultiSelect
+                values={filters.rarities}
+                onChange={(selectedRarities) => setFilters({ ...filters, rarities: selectedRarities })}
+                options={rarities.map(rarity => ({ value: rarity, label: rarity ? getRarityLabel(rarity, language) : 'Unknown' }))}
+                placeholder={t.allRarities}
+              />
+            </div>
+
+            {/* Tag Filter */}
+            <div className="w-full sm:w-auto">
+              <MultiSelect
+                values={filters.tags}
+                onChange={(selectedTags) => setFilters({ ...filters, tags: selectedTags })}
+                options={tags.map(tag => ({ value: tag, label: getTagLabel(tag, language) }))}
+                placeholder={t.allTags}
+              />
+            </div>
 
             {/* Reset Button */}
             <button
               onClick={resetFilters}
-              disabled={filters.search === '' && filters.types.length === 0 && filters.rarities.length === 0}
-              className="bg-arc-blue border-2 border-arc-blue-lighter hover:border-arc-yellow disabled:opacity-50 disabled:cursor-not-allowed rounded-lg px-4 py-3 text-arc-white font-medium transition-colors whitespace-nowrap cursor-pointer"
+              disabled={filters.search === '' && filters.types.length === 0 && filters.rarities.length === 0 && filters.tags.length === 0}
+              className="w-full sm:w-auto bg-arc-blue border-2 border-arc-blue-lighter hover:border-arc-yellow disabled:opacity-50 disabled:cursor-not-allowed rounded-lg px-4 py-3 text-arc-white font-medium transition-colors whitespace-nowrap cursor-pointer"
             >
               Reset
             </button>
