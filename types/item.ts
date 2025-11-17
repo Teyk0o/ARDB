@@ -74,4 +74,5 @@ export interface FilterOptions {
   search: string;
   types: string[];
   rarities: string[];
+  tags: string[];
 }
