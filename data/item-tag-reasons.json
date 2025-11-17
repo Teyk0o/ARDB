@@ -1041,33 +1041,6 @@
       }
     ]
   },
-  "exodus_modules": {
-    "tag": "recycle",
-    "reasons": [
-      {
-        "type": "recycle",
-        "itemId": "exodus_modules",
-        "recycleComponentId": "wires",
-        "recycleComponentName": "Wires",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "exodus_modules",
-            "itemName": "Exodus Modules",
-            "targetId": "wires",
-            "targetName": "Wires"
-          },
-          {
-            "action": "use_in_quest",
-            "itemId": "wires",
-            "itemName": "Wires",
-            "questId": "ss10y",
-            "questName": "After Rain Comes"
-          }
-        ]
-      }
-    ]
-  },
   "expired_respirator": {
     "tag": "recycle",
     "reasons": [
