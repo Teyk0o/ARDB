@@ -137,7 +137,7 @@ jobs:
             const branchName = process.env.BRANCH_NAME;
             const body = fs.readFileSync('pr-body.md', 'utf-8');
 
-            await github.rest.pulls.create({
+            const pr = await github.rest.pulls.create({
               owner,
               repo,
               title: "chore: sync items data from upstream",
@@ -147,6 +147,16 @@ jobs:
             });
 
             console.log("Pull Request created successfully");
+
+            // Request review from Teyk0o
+            await github.rest.pulls.requestReviewers({
+              owner,
+              repo,
+              pull_number: pr.data.number,
+              reviewers: ['Teyk0o']
+            });
+
+            console.log("Review requested from Teyk0o");
 
       - name: Notify if no changes
         if: env.CHANGES_DETECTED == 'false'

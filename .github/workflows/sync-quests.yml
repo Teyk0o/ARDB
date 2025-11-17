@@ -74,6 +74,7 @@ jobs:
             🤖 Generated automatically by GitHub Actions
           branch: sync-quests-${{ github.run_number }}
           delete-branch: true
+          reviewers: Teyk0o
           labels: |
             automated
             data-sync
