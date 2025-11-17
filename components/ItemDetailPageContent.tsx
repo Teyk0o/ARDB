@@ -11,6 +11,7 @@ import CustomSelect from './CustomSelect';
 import TagReasonDisplay from './TagReasonDisplay';
 import tagReasons from '@/data/item-tag-reasons.json';
 import type { ItemTagReasons } from '@/lib/tagReasoning';
+import type { Quest } from '@/types/tags';
 
 interface ItemDetailPageContentProps {
   item: Item;
@@ -34,6 +35,61 @@ const rarityGradients: Record<string, string> = {
   Epic: 'from-purple-600/20 to-purple-700/10',
   Legendary: 'from-arc-yellow/30 to-arc-yellow/10',
 };
+
+// Workshop/Workbench name translations
+const workshopNames: Record<string, Record<Language, string>> = {
+  gunsmith: {
+    en: 'Gunsmith', fr: 'Armurier', de: 'Waffenschmied', es: 'Armero', pt: 'Armeiro',
+    pl: 'Rusznikarz', no: 'Våpensmed', da: 'Våbensmed', it: 'Armaiolo', ru: 'Оружейник',
+    ja: '武器職人', 'zh-TW': '槍匠', uk: 'Зброяр', 'zh-CN': '枪匠', kr: '총기 제작자',
+    tr: 'Silahçı', hr: 'Oružar', sr: 'Oružar'
+  },
+  gear_bench: {
+    en: 'Gear Bench', fr: 'Établi d\'équipement', de: 'Ausrüstungswerkbank', es: 'Banco de equipo',
+    pt: 'Bancada de equipamento', pl: 'Stół wyposażenia', no: 'Utstyrsbenk', da: 'Udstyrsbænk',
+    it: 'Banco dell\'equipaggiamento', ru: 'Верстак снаряжения', ja: '装備ベンチ',
+    'zh-TW': '裝備工作台', uk: 'Верстак спорядження', 'zh-CN': '装备工作台',
+    kr: '장비 작업대', tr: 'Ekipman Tezgahı', hr: 'Radni stol za opremu', sr: 'Radni sto za opremu'
+  },
+  medical_lab: {
+    en: 'Medical Lab', fr: 'Laboratoire médical', de: 'Medizinisches Labor', es: 'Laboratorio médico',
+    pt: 'Laboratório médico', pl: 'Laboratorium medyczne', no: 'Medisinsk lab', da: 'Medicinsk laboratorium',
+    it: 'Laboratorio medico', ru: 'Медицинская лаборатория', ja: '医療ラボ',
+    'zh-TW': '醫療實驗室', uk: 'Медична лабораторія', 'zh-CN': '医疗实验室',
+    kr: '의료 연구소', tr: 'Tıbbi Laboratuvar', hr: 'Medicinski laboratorij', sr: 'Medicinski laboratorijum'
+  },
+  explosives_station: {
+    en: 'Explosives Station', fr: 'Station d\'explosifs', de: 'Sprengstoffstation', es: 'Estación de explosivos',
+    pt: 'Estação de explosivos', pl: 'Stacja wybuchowa', no: 'Eksplosivstasjon', da: 'Eksplosivstation',
+    it: 'Stazione esplosivi', ru: 'Станция взрывчатки', ja: '爆発物ステーション',
+    'zh-TW': '爆炸物站', uk: 'Станція вибухівки', 'zh-CN': '爆炸物站',
+    kr: '폭발물 스테이션', tr: 'Patlayıcı İstasyonu', hr: 'Stanica eksploziva', sr: 'Stanica eksploziva'
+  },
+  utility_station: {
+    en: 'Utility Station', fr: 'Station utilitaire', de: 'Versorgungsstation', es: 'Estación de utilidad',
+    pt: 'Estação utilitária', pl: 'Stacja użytkowa', no: 'Bruksstasjon', da: 'Forsyningsstation',
+    it: 'Stazione di utilità', ru: 'Служебная станция', ja: 'ユーティリティステーション',
+    'zh-TW': '實用站', uk: 'Службова станція', 'zh-CN': '实用站',
+    kr: '유틸리티 스테이션', tr: 'Yardımcı İstasyon', hr: 'Stanica za usluge', sr: 'Stanica za usluge'
+  },
+  refiner: {
+    en: 'Refiner', fr: 'Raffinerie', de: 'Raffinerie', es: 'Refinador', pt: 'Refinador',
+    pl: 'Rafineria', no: 'Raffineri', da: 'Raffinaderi', it: 'Raffineria', ru: 'Очиститель',
+    ja: '精製所', 'zh-TW': '精煉廠', uk: 'Очищувач', 'zh-CN': '精炼厂',
+    kr: '정제소', tr: 'Rafineri', hr: 'Rafinerija', sr: 'Rafinerija'
+  },
+  scrappy: {
+    en: 'Scrappy', fr: 'Scrappy', de: 'Scrappy', es: 'Scrappy', pt: 'Scrappy',
+    pl: 'Scrappy', no: 'Scrappy', da: 'Scrappy', it: 'Scrappy', ru: 'Scrappy',
+    ja: 'Scrappy', 'zh-TW': 'Scrappy', uk: 'Scrappy', 'zh-CN': 'Scrappy',
+    kr: 'Scrappy', tr: 'Scrappy', hr: 'Scrappy', sr: 'Scrappy'
+  }
+};
+
+// Helper function to get translated workbench name
+function getWorkbenchName(workbenchId: string, language: Language): string {
+  return workshopNames[workbenchId]?.[language] || workshopNames[workbenchId]?.en || workbenchId;
+}
 
 export default function ItemDetailPageContent({
   item,
@@ -297,7 +353,7 @@ export default function ItemDetailPageContent({
                 <h3 className="text-green-400 font-bold mb-3 text-lg">
                   {t.workbench}
                 </h3>
-                <p className="text-arc-white">{item.workbench}</p>
+                <p className="text-arc-white">{getWorkbenchName(item.workbench, language)}</p>
               </div>
             )}
 
