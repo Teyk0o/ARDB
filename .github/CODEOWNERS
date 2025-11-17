@@ -1,0 +1,18 @@
+# CODEOWNERS file for Arc Raiders Database
+# This file defines individuals or teams that are responsible for code in the repository
+# GitHub will automatically request reviews from these users when a PR is opened
+
+# Default owner for everything in the repo
+* @Teyk0o
+
+# Data files - require review for automated sync PRs
+/data/ @Teyk0o
+
+# Workflows - require review for CI/CD changes
+/.github/workflows/ @Teyk0o
+
+# Core application files
+/app/ @Teyk0o
+/components/ @Teyk0o
+/lib/ @Teyk0o
+/scripts/ @Teyk0o
