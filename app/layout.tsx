@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import ContributionBanner from "@/components/ContributionBanner";
+import TeamBanner from "@/components/TeamBanner";
 import LanguageDetector from "@/components/LanguageDetector";
 import DiscordButton from "@/components/DiscordButton";
 import { getSEOConfig } from "@/lib/seoConfig";
@@ -136,6 +137,7 @@ export default function RootLayout({
         />
       </head>
       <body className="antialiased">
+        <TeamBanner />
         <LanguageDetector />
         {children}
 		<Analytics />
