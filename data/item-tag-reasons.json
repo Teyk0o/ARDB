@@ -1202,6 +1202,39 @@
       }
     ]
   },
+  "first_wave_compass": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "first_wave_compass",
+        "questId": "ss10h",
+        "questName": "Broken Monument"
+      }
+    ]
+  },
+  "first_wave_rations": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "first_wave_rations",
+        "questId": "ss10h",
+        "questName": "Broken Monument"
+      }
+    ]
+  },
+  "first_wave_tape": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "first_wave_tape",
+        "questId": "ss10h",
+        "questName": "Broken Monument"
+      }
+    ]
+  },
   "flow_controller": {
     "tag": "keep",
     "reasons": [
@@ -2674,6 +2707,33 @@
         "itemId": "rusted_tools",
         "workshopStation": "gunsmith",
         "workshopLevel": "2"
+      }
+    ]
+  },
+  "rusty_arc_steel": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "rusty_arc_steel",
+        "recycleComponentId": "metal_parts",
+        "recycleComponentName": "Metal Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "rusty_arc_steel",
+            "itemName": "Rusty ARC Steel",
+            "targetId": "metal_parts",
+            "targetName": "Metal Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "metal_parts",
+            "itemName": "Metal Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
       }
     ]
   },
