@@ -2650,6 +2650,33 @@
       }
     ]
   },
+  "ruined_tactical_vest": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "ruined_tactical_vest",
+        "recycleComponentId": "fabric",
+        "recycleComponentName": "Fabric",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "ruined_tactical_vest",
+            "itemName": "Ruined Tactical Vest",
+            "targetId": "fabric",
+            "targetName": "Fabric"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "fabric",
+            "itemName": "Fabric",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
   "rusted_bolts": {
     "tag": "recycle",
     "reasons": [
