@@ -90,7 +90,7 @@ jobs:
           BRANCH_NAME="chore/sync-items-$(date +%Y%m%d-%H%M%S)"
           git checkout -b "$BRANCH_NAME"
 
-          git add data/items.json data/changelog.json
+          git add data/items.json data/changelog.json data/.items-snapshot.json
           git commit -m "chore: sync items data from upstream"
           git push origin "$BRANCH_NAME"
 
