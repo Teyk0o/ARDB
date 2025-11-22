@@ -21,7 +21,7 @@ export function transformItems(externalItems: ExternalItem[], language: Language
   return externalItems.map((item) => transformItem(item, language));
 }
 
-function transformItem(item: ExternalItem, language: Language): Item {
+export function transformItem(item: ExternalItem, language: Language): Item {
   const transformed: any = {
     id: item.id,
     name: getTranslation(item.name, language),
