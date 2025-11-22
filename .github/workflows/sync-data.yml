@@ -1,0 +1,298 @@
+name: Sync All Data from Upstream
+
+on:
+  schedule:
+    # Run daily at 2 AM UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  # Job 1: Sync items data
+  sync-items:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    # Continue even if other jobs fail
+    continue-on-error: true
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download latest items data
+        id: download
+        continue-on-error: true
+        run: |
+          mkdir -p temp-items
+
+          # Get the list of files from the items folder via GitHub API
+          curl -s "https://api.github.com/repos/RaidTheory/arcraiders-data/contents/items?ref=main" | \
+            grep '"download_url"' | \
+            cut -d'"' -f4 | \
+            while read url; do
+              if [[ ! -z "$url" ]]; then
+                curl -s "$url" -o "temp-items/$(basename $url)"
+              fi
+            done
+
+          # Merge all JSON files into one
+          node -e "
+            const fs = require('fs');
+            const path = require('path');
+
+            const items = [];
+            const dir = 'temp-items';
+
+            fs.readdirSync(dir).forEach(file => {
+              if (file.endsWith('.json')) {
+                const content = JSON.parse(fs.readFileSync(path.join(dir, file), 'utf-8'));
+                items.push(content);
+              }
+            });
+
+            fs.writeFileSync('items-new.json', JSON.stringify(items, null, 2));
+            console.log('Merged ' + items.length + ' items');
+          "
+
+      - name: Setup Node.js
+        if: steps.download.outcome == 'success'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Process and merge items data
+        if: steps.download.outcome == 'success'
+        id: process
+        continue-on-error: true
+        run: |
+          # Replace the current data with new data
+          mv items-new.json data/items.json
+
+          # Merge relationships from recipes/recycling and build used_in references
+          node scripts/merge-with-metaforge.js
+
+          # Remove any remaining duplicates
+          node scripts/remove-duplicates.js
+
+          # Generate changelog
+          node scripts/generate-changelog.js
+
+      - name: Detect changes
+        if: steps.process.outcome == 'success'
+        id: changes
+        run: |
+          if git diff --quiet data/items.json data/changelog.json data/.items-snapshot.json; then
+            echo "changes_detected=false" >> $GITHUB_OUTPUT
+          else
+            echo "changes_detected=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Pull Request
+        if: steps.changes.outputs.changes_detected == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'chore: sync items data from upstream'
+          title: 'Sync items and changelog'
+          body: |
+            ## Automated Items Sync
+
+            Updates items data from [RaidTheory/arcraiders-data](https://github.com/RaidTheory/arcraiders-data).
+
+            ### Changes
+            - ✓ Items data synced
+            - ✓ Changelog generated
+            - ✓ Snapshot updated
+
+            ### Review
+            - [ ] Check changelog entries
+            - [ ] Verify item changes
+
+            🤖 Auto-generated
+          branch: sync-items-${{ github.run_number }}
+          delete-branch: true
+          reviewers: Teyk0o
+          labels: |
+            automated
+            data-sync
+
+  # Job 2: Sync projects data
+  sync-projects:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    # Independent from items sync
+    continue-on-error: true
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download projects.json
+        id: download
+        continue-on-error: true
+        run: |
+          mkdir -p data
+          echo "Downloading projects.json..."
+          curl -sL "https://raw.githubusercontent.com/RaidTheory/arcraiders-data/refs/heads/main/projects.json" -o data/projects.json
+          echo "✓ Downloaded projects.json"
+
+      - name: Setup Node.js
+        if: steps.download.outcome == 'success'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Re-generate item tags
+        if: steps.download.outcome == 'success'
+        id: generate
+        continue-on-error: true
+        run: |
+          npm ci
+          npm run generate-tags
+
+      - name: Check for changes
+        if: steps.generate.outcome == 'success'
+        id: changes
+        run: |
+          if git diff --quiet data/projects.json data/item-tags-computed.json data/item-tag-reasons.json; then
+            echo "changes_detected=false" >> $GITHUB_OUTPUT
+          else
+            echo "changes_detected=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Pull Request
+        if: steps.changes.outputs.changes_detected == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'chore: sync projects from RaidTheory and regenerate tags'
+          title: 'Sync projects and item tags'
+          body: |
+            ## Automated Projects Sync
+
+            Updates project data from [RaidTheory/arcraiders-data](https://github.com/RaidTheory/arcraiders-data).
+
+            ### Changes
+            - ✓ Projects synced
+            - ✓ Item tags regenerated
+            - ✓ Tag reasons updated
+
+            ### Review
+            - [ ] Verify projects
+            - [ ] Check tag stats
+
+            🤖 Auto-generated
+          branch: sync-projects-${{ github.run_number }}
+          delete-branch: true
+          reviewers: Teyk0o
+          labels: |
+            automated
+            data-sync
+
+  # Job 3: Sync quests data
+  sync-quests:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    # Independent from other syncs
+    continue-on-error: true
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download all quest files
+        id: download
+        continue-on-error: true
+        run: |
+          mkdir -p data/quests
+          cd data/quests
+
+          # Get list of quest files from GitHub API
+          QUEST_FILES=$(curl -s "https://api.github.com/repos/RaidTheory/arcraiders-data/contents/quests" | \
+            jq -r '.[] | select(.name | endswith(".json")) | .download_url')
+
+          # Download each quest file
+          echo "Downloading quest files..."
+          echo "$QUEST_FILES" | while read url; do
+            filename=$(basename "$url")
+            echo "  - $filename"
+            curl -sL "$url" -o "$filename"
+          done
+
+          echo "✓ Downloaded $(ls -1 *.json 2>/dev/null | wc -l) quest files"
+
+      - name: Setup Node.js
+        if: steps.download.outcome == 'success'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Re-generate item tags
+        if: steps.download.outcome == 'success'
+        id: generate
+        continue-on-error: true
+        run: |
+          npm ci
+          npm run generate-tags
+
+      - name: Check for changes
+        if: steps.generate.outcome == 'success'
+        id: changes
+        run: |
+          if git diff --quiet data/quests/ data/item-tags-computed.json; then
+            echo "changes_detected=false" >> $GITHUB_OUTPUT
+          else
+            echo "changes_detected=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Pull Request
+        if: steps.changes.outputs.changes_detected == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'chore: sync quests from RaidTheory and regenerate tags'
+          title: 'Sync quests and item tags'
+          body: |
+            ## Automated Quests Sync
+
+            Updates quest data from [RaidTheory/arcraiders-data](https://github.com/RaidTheory/arcraiders-data).
+
+            ### Changes
+            - ✓ Quests synced
+            - ✓ Item tags regenerated
+
+            ### Review
+            - [ ] Verify quests
+            - [ ] Check tag stats
+
+            🤖 Auto-generated
+          branch: sync-quests-${{ github.run_number }}
+          delete-branch: true
+          reviewers: Teyk0o
+          labels: |
+            automated
+            data-sync
+
+  # Summary job: runs after all syncs complete (success or failure)
+  summary:
+    runs-on: ubuntu-latest
+    needs: [sync-items, sync-projects, sync-quests]
+    # Always run, even if some jobs failed
+    if: always()
+
+    steps:
+      - name: Check results
+        run: |
+          echo "=== Sync Summary ==="
+          echo "Items sync: ${{ needs.sync-items.result }}"
+          echo "Projects sync: ${{ needs.sync-projects.result }}"
+          echo "Quests sync: ${{ needs.sync-quests.result }}"
+
+          # Exit with success even if some jobs failed
+          # This ensures the workflow shows as green if at least one sync succeeded
+          exit 0
