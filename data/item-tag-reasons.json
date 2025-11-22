@@ -1005,6 +1005,33 @@
       }
     ]
   },
+  "diving_goggles": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "diving_goggles",
+        "recycleComponentId": "rubber_parts",
+        "recycleComponentName": "Rubber Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "diving_goggles",
+            "itemName": "Diving Goggles",
+            "targetId": "rubber_parts",
+            "targetName": "Rubber Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "rubber_parts",
+            "itemName": "Rubber Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
   "dog_collar": {
     "tag": "keep",
     "reasons": [
@@ -2644,6 +2671,33 @@
             "itemId": "rubber_parts",
             "itemName": "Rubber Parts",
             "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "ruined_tactical_vest": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "ruined_tactical_vest",
+        "recycleComponentId": "fabric",
+        "recycleComponentName": "Fabric",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "ruined_tactical_vest",
+            "itemName": "Ruined Tactical Vest",
+            "targetId": "fabric",
+            "targetName": "Fabric"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "fabric",
+            "itemName": "Fabric",
+            "workshopStation": "gear_bench",
             "workshopLevel": "1"
           }
         ]
