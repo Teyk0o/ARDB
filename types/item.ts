@@ -28,7 +28,9 @@ export interface Item {
   id: string;
   name: string;
   nameEn?: string; // English name for URL slugs
+  nameTranslations?: { [key: string]: string }; // All language translations for search
   description?: string;
+  descriptionTranslations?: { [key: string]: string }; // All description translations for search
   item_type: string;
   icon?: string;
   rarity?: string;

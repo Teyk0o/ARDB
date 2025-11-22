@@ -75,3 +75,49 @@ export function matchesSearch(text: string, query: string): boolean {
 
   return allWordsMatch;
 }
+
+/**
+ * Checks if an item matches a search query across all available languages
+ * Allows users to search in any language regardless of the current UI language
+ * @param nameObject - Object containing translations (e.g., { en: "Battery", fr: "Batterie", ... })
+ * @param descriptionObject - Optional object containing description translations
+ * @param query - Search query string
+ * @returns true if the query matches any language version of the name or description
+ */
+export function matchesSearchMultiLang(
+  nameObject: string | { [key: string]: string },
+  descriptionObject: string | { [key: string]: string } | null | undefined,
+  query: string
+): boolean {
+  if (!query) return true;
+
+  // If name is a string (old format), use regular search
+  if (typeof nameObject === 'string') {
+    const descStr = typeof descriptionObject === 'string' ? descriptionObject : '';
+    return matchesSearch(nameObject, query) || matchesSearch(descStr, query);
+  }
+
+  // Search across all language versions of the name
+  const nameMatches = Object.values(nameObject).some(translatedName => {
+    if (translatedName && typeof translatedName === 'string') {
+      return matchesSearch(translatedName, query);
+    }
+    return false;
+  });
+
+  if (nameMatches) return true;
+
+  // Search across all language versions of the description if it exists
+  if (descriptionObject && typeof descriptionObject === 'object') {
+    const descriptionMatches = Object.values(descriptionObject).some(translatedDesc => {
+      if (translatedDesc && typeof translatedDesc === 'string') {
+        return matchesSearch(translatedDesc, query);
+      }
+      return false;
+    });
+
+    if (descriptionMatches) return true;
+  }
+
+  return false;
+}

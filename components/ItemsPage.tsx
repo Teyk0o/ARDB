@@ -12,7 +12,7 @@ import SearchWithHistory from './SearchWithHistory';
 import { Language, getTranslation, getItemTypeLabel, getRarityLabel, getTagLabel } from '@/lib/translations';
 import { generateSlug } from '@/lib/slugUtils';
 import { useItems } from '@/lib/useItems';
-import { matchesSearch } from '@/lib/searchUtils';
+import { matchesSearchMultiLang } from '@/lib/searchUtils';
 
 interface ItemsPageProps {
   initialFilters?: { [key: string]: string | string[] | undefined };
@@ -133,12 +133,14 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
       return true;
     });
 
-    // Search filter (on already translated items) with accent and plural support
+    // Search filter with multi-language support
+    // Searches across all available language translations, not just the current UI language
     if (filters.search) {
       filtered = filtered.filter((item) => {
-        return (
-          matchesSearch(item.name, filters.search) ||
-          matchesSearch(item.description || '', filters.search)
+        return matchesSearchMultiLang(
+          item.nameTranslations || item.name,
+          item.descriptionTranslations || item.description,
+          filters.search
         );
       });
     }

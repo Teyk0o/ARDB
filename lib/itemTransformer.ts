@@ -26,7 +26,9 @@ export function transformItem(item: ExternalItem, language: Language): Item {
     id: item.id,
     name: getTranslation(item.name, language),
     nameEn: getTranslation(item.name, 'en'), // Store English name for URL slugs
+    nameTranslations: item.name, // Store all translations for multi-language search
     description: getTranslation(item.description, language),
+    descriptionTranslations: item.description, // Store all description translations
     item_type: item.type,
     icon: (item as any).imageFilename || (item as any).icon,
   };
