@@ -9513,11 +9513,11 @@
           "rarity": "Uncommon",
           "value": 640,
           "recyclesInto": {
-            "metal_parts": 8,
-            "steel_spring": 2
+            "metal_parts": 3,
+            "rubber_parts": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/mechanical_components.png",
-          "updatedAt": "11/03/2025",
+          "updatedAt": "11/23/2025",
           "weightKg": 0.5,
           "stackSize": 10,
           "foundIn": "Mechanical",
@@ -10112,11 +10112,11 @@
           "rarity": "Uncommon",
           "value": 640,
           "recyclesInto": {
-            "metal_parts": 8,
-            "steel_spring": 2
+            "metal_parts": 3,
+            "rubber_parts": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/mechanical_components.png",
-          "updatedAt": "11/03/2025",
+          "updatedAt": "11/23/2025",
           "weightKg": 0.5,
           "stackSize": 10,
           "foundIn": "Mechanical",
@@ -10486,6 +10486,114 @@
       },
       {
         "item": {
+          "id": "vita_shot",
+          "name": {
+            "en": "Vita Shot",
+            "de": "Vita-Spritze",
+            "fr": "Dose de Vita",
+            "es": "Inyección de Vita",
+            "pt": "Injeção Vita",
+            "pl": "Zastrzyk Vita",
+            "no": "Vita-sprøyte",
+            "da": "Vita-indsprøjtning",
+            "it": "Iniezione Vita",
+            "ru": "Витаминная сыворотка",
+            "ja": "ヴィタショット",
+            "zh-TW": "活力注射劑",
+            "uk": "Віта-ін'єкція",
+            "zh-CN": "活力注射剂",
+            "kr": "비타 샷",
+            "tr": "Vita İğnesi",
+            "hr": "Vita Injekcija",
+            "sr": "Vita Injekcija"
+          },
+          "description": {
+            "en": "A medical item that restores a large amount of health.",
+            "de": "Ein medizinischer Gegenstand, der eine große Menge Gesundheit wiederherstellt.",
+            "fr": "Un objet médical qui restaure une grande quantité de santé.",
+            "es": "Un objeto médico que restaura una gran cantidad de salud.",
+            "pt": "Um item médico que restaura uma grande quantidade de saúde.",
+            "pl": "Przedmiot medyczny, który przywraca dużą ilość zdrowia.",
+            "no": "En medisinsk gjenstand som gjenoppretter en stor mengde helse.",
+            "da": "En medicinsk genstand, der gendanner en stor mængde helbred.",
+            "it": "Un oggetto medico che ripristina una grande quantità di salute.",
+            "ru": "Медицинский предмет, восстанавливающий большое количество здоровья.",
+            "ja": "大量の体力を回復する医療アイテム。",
+            "zh-TW": "可恢復大量生命值的醫療物品。",
+            "uk": "Медичний предмет, що відновлює велику кількість здоров'я.",
+            "zh-CN": "可恢复大量生命值的医疗物品。",
+            "kr": "많은 양의 체력을 회복하는 의료 아이템.",
+            "tr": "Büyük miktarda sağlık yenileyen tıbbi bir eşya.",
+            "hr": "Medicinski predmet koji obnavlja veliku količinu zdravlja.",
+            "sr": "Medicinski predmet koji obnavlja veliku količinu zdravlja."
+          },
+          "type": "Quick Use",
+          "value": 2000,
+          "rarity": "Rare",
+          "weightKg": 0.4,
+          "stackSize": 3,
+          "stationLevelRequired": 3,
+          "effects": {
+            "Healing": {
+              "en": "Healing",
+              "de": "Heilung",
+              "fr": "Soins",
+              "es": "Curación",
+              "pt": "Cura",
+              "pl": "Leczenie",
+              "no": "Helbredelse",
+              "da": "Helbredelse",
+              "it": "Guarigione",
+              "ru": "Исцеление",
+              "ja": "回復量",
+              "zh-TW": "治療量",
+              "uk": "Зцілення",
+              "zh-CN": "治疗量",
+              "kr": "회복량",
+              "tr": "İyileştirme",
+              "hr": "Liječenje",
+              "sr": "Lečenje",
+              "value": 50
+            },
+            "Use Time": {
+              "en": "Use Time",
+              "de": "Anwendungszeit",
+              "fr": "Temps d'utilisation",
+              "es": "Tiempo de uso",
+              "pt": "Tempo de uso",
+              "pl": "Czas użycia",
+              "no": "Brukstid",
+              "da": "Brugstid",
+              "it": "Tempo d'uso",
+              "ru": "Время использования",
+              "ja": "使用時間",
+              "zh-TW": "使用時間",
+              "uk": "Час використання",
+              "zh-CN": "使用时间",
+              "kr": "사용 시간",
+              "tr": "Kullanım Süresi",
+              "hr": "Vrijeme Korištenja",
+              "sr": "Vreme Korišćenja",
+              "value": "4s"
+            }
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/vita_shot.png",
+          "recipe": {
+            "antiseptic": 1,
+            "syringe": 1
+          },
+          "recyclesInto": {
+            "chemicals": 4,
+            "syringe": 1
+          },
+          "updatedAt": "11/03/2025"
+        },
+        "component": {
+          "id": "antiseptic"
+        }
+      },
+      {
+        "item": {
           "id": "vita_spray",
           "name": {
             "en": "Vita Spray",
@@ -10665,6 +10773,7 @@
           "rarity": "Rare",
           "value": 1000,
           "weightKg": 3,
+          "foundIn": "Medical",
           "recyclesInto": {
             "syringe": 2,
             "antiseptic": 1
@@ -11198,11 +11307,11 @@
           "rarity": "Uncommon",
           "value": 640,
           "recyclesInto": {
-            "metal_parts": 8,
-            "steel_spring": 2
+            "metal_parts": 3,
+            "rubber_parts": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/mechanical_components.png",
-          "updatedAt": "11/03/2025",
+          "updatedAt": "11/23/2025",
           "weightKg": 0.5,
           "stackSize": 10,
           "foundIn": "Mechanical",
@@ -12510,6 +12619,10 @@
             "hr": "Lagani štit koji blokira malu količinu dolazne štete bez utjecaja na pokretljivost.",
             "sr": "Lagani štit koji blokira malu količinu dolazne štete bez uticaja na pokretljivost."
           },
+          "durability": 100,
+          "shieldCharge": 40,
+          "damageMitigation": 40,
+          "movementSpeedModifier": 0,
           "recyclesInto": {
             "plastic_parts": 4
           },
@@ -12954,6 +13067,7 @@
           "type": "Recyclable",
           "rarity": "Uncommon",
           "weightKg": 0.25,
+          "stackSize": 5,
           "value": 640,
           "foundIn": "ARC",
           "imageFilename": "https://cdn.arctracker.io/items/damaged_arc_motion_core.png",
@@ -15021,6 +15135,9 @@
             "sr": "Anti-ARC projektili koje uglavnom koristi Hullcracker. Kompatibilno sa: Hullcracker"
           },
           "type": "Ammunition",
+          "compatibleWith": [
+            "Hullcracker"
+          ],
           "value": 250,
           "rarity": "Rare",
           "weightKg": 0.1,
@@ -16160,11 +16277,11 @@
           "rarity": "Uncommon",
           "value": 640,
           "recyclesInto": {
-            "metal_parts": 8,
-            "steel_spring": 2
+            "metal_parts": 3,
+            "rubber_parts": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/mechanical_components.png",
-          "updatedAt": "11/03/2025",
+          "updatedAt": "11/23/2025",
           "weightKg": 0.5,
           "stackSize": 10,
           "foundIn": "Mechanical",
@@ -18059,11 +18176,11 @@
           "rarity": "Uncommon",
           "value": 640,
           "recyclesInto": {
-            "metal_parts": 8,
-            "steel_spring": 2
+            "metal_parts": 3,
+            "rubber_parts": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/mechanical_components.png",
-          "updatedAt": "11/03/2025",
+          "updatedAt": "11/23/2025",
           "weightKg": 0.5,
           "stackSize": 10,
           "foundIn": "Mechanical",
@@ -18776,6 +18893,7 @@
             "sr": "Može se reciklirati u materijale za izradu."
           },
           "weightKg": 1,
+          "stackSize": 3,
           "foundIn": "Technological",
           "imageFilename": "https://cdn.arctracker.io/items/cooling_fan.png",
           "updatedAt": "10/30/2025"
@@ -18811,6 +18929,7 @@
           "type": "Recyclable",
           "value": 1000,
           "weightKg": 2,
+          "stackSize": 3,
           "recyclesInto": {
             "rubber_parts": 3,
             "battery": 3
@@ -22367,11 +22486,11 @@
           "rarity": "Uncommon",
           "value": 640,
           "recyclesInto": {
-            "metal_parts": 8,
-            "steel_spring": 2
+            "metal_parts": 3,
+            "rubber_parts": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/mechanical_components.png",
-          "updatedAt": "11/03/2025",
+          "updatedAt": "11/23/2025",
           "weightKg": 0.5,
           "stackSize": 10,
           "foundIn": "Mechanical",
@@ -22498,7 +22617,7 @@
       "hr": "Poluautomatski pištolj s pristojnom štetom i preciznošću. Može se ispaljivati onoliko brzo koliko možete povlačiti okidač.",
       "sr": "Poluautomatski pištolj sa pristojnom štetom i preciznošću. Može se ispaljivati onoliko brzo koliko možete povlačiti okidač."
     },
-    "type": "Weapon",
+    "type": "Pistol",
     "rarity": "Uncommon",
     "value": 5000,
     "weightKg": 4,
@@ -22509,7 +22628,7 @@
     "imageFilename": "https://cdn.arctracker.io/items/burletta.png",
     "updatedAt": "10/30/2025",
     "icon": "https://cdn.arctracker.io/items/burletta.png",
-    "item_type": "Weapon"
+    "item_type": "Pistol"
   },
   {
     "id": "burletta_iii",
@@ -22553,7 +22672,7 @@
       "hr": "Poluautomatski pištolj s pristojnom štetom i preciznošću. Može se ispaljivati onoliko brzo koliko možete povlačiti okidač.",
       "sr": "Poluautomatski pištolj sa pristojnom štetom i preciznošću. Može se ispaljivati onoliko brzo koliko možete povlačiti okidač."
     },
-    "type": "Weapon",
+    "type": "Pistol",
     "rarity": "Uncommon",
     "value": 7000,
     "weightKg": 4,
@@ -22564,7 +22683,7 @@
     "imageFilename": "https://cdn.arctracker.io/items/burletta.png",
     "updatedAt": "10/30/2025",
     "icon": "https://cdn.arctracker.io/items/burletta.png",
-    "item_type": "Weapon"
+    "item_type": "Pistol"
   },
   {
     "id": "burletta_iv",
@@ -22608,7 +22727,7 @@
       "hr": "Poluautomatski pištolj s pristojnom štetom i preciznošću. Može se ispaljivati onoliko brzo koliko možete povlačiti okidač.",
       "sr": "Poluautomatski pištolj sa pristojnom štetom i preciznošću. Može se ispaljivati onoliko brzo koliko možete povlačiti okidač."
     },
-    "type": "Weapon",
+    "type": "Pistol",
     "rarity": "Uncommon",
     "value": 9000,
     "weightKg": 4,
@@ -22619,59 +22738,7 @@
     "imageFilename": "https://cdn.arctracker.io/items/burletta.png",
     "updatedAt": "10/30/2025",
     "icon": "https://cdn.arctracker.io/items/burletta.png",
-    "item_type": "Weapon"
-  },
-  {
-    "id": "burned_arc_circuit",
-    "name": {
-      "en": "Burned Arc Circuit",
-      "de": "Verbrannter Arc-Schaltkreis",
-      "fr": "Circuit Arc brûlé",
-      "es": "Circuito Arc quemado",
-      "pt": "Circuito Arc queimado",
-      "pl": "Spalony obwód Arc",
-      "no": "Brent Arc-krets",
-      "da": "Brændt Arc-kredsløb",
-      "it": "Circuito Arc bruciato",
-      "ja": "焼損したアークサーキット",
-      "kr": "타버린 아크 회로",
-      "zh-CN": "烧毁的电弧电路",
-      "zh-TW": "燒毀的電弧電路",
-      "ru": "Сгоревшая Arc-схема",
-      "tr": "Yanmış Arc Devresi",
-      "uk": "Згоріла Arc-схема",
-      "sr": "Izgorela Arc struja",
-      "hr": "Izgoreli Arc sklop"
-    },
-    "description": {
-      "en": "Can be recycled into crafting materials.",
-      "de": "Kann zu Handwerksmaterialien recycelt werden.",
-      "fr": "Peut être recyclé en matériaux de fabrication.",
-      "es": "Puede reciclarse en materiales de fabricación.",
-      "pt": "Pode ser reciclado em materiais de fabricação.",
-      "pl": "Można przetworzyć na materiały rzemieślnicze.",
-      "no": "Kan resirkuleres til håndverksmaterialer.",
-      "da": "Kan genbruges til håndværksmaterialer.",
-      "it": "Può essere riciclato in materiali da crafting.",
-      "ja": "クラフト素材にリサイクルできます。",
-      "kr": "제작 재료로 재활용할 수 있습니다.",
-      "zh-CN": "可以回收为制作材料。",
-      "zh-TW": "可以回收為製作材料。",
-      "ru": "Можно переработать в материалы для крафта.",
-      "tr": "İşleme malzemelerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
-      "sr": "Može se reciklirati u materijale za izradu.",
-      "hr": "Može se reciklirati u materijale za izradu."
-    },
-    "type": "Recyclable",
-    "rarity": "Uncommon",
-    "weightKg": 1,
-    "foundIn": "ARC",
-    "imageFilename": "https://cdn.arctracker.io/items/burned_arc_circuit.png",
-    "updatedAt": "11/04/2025",
-    "icon": "https://cdn.arctracker.io/items/burned_arc_circuit.png",
-    "item_type": "Recyclable",
-    "loot_area": "ARC"
+    "item_type": "Pistol"
   },
   {
     "id": "burned_arc_circuitry",
@@ -25232,6 +25299,10 @@
             "hr": "Kompatibilno s: Il Toro, Vulcano",
             "sr": "Kompatibilno sa: Il Toro, Vulcano"
           },
+          "compatibleWith": [
+            "Il Toro",
+            "Vulcano"
+          ],
           "type": "Ammunition",
           "value": 20,
           "weightKg": 0.085,
@@ -25725,6 +25796,7 @@
             "sr": "Može se reciklirati u materijale za izradu."
           },
           "weightKg": 2,
+          "stackSize": 3,
           "foundIn": "Industrial",
           "imageFilename": "https://cdn.arctracker.io/items/cooling_coil.png",
           "updatedAt": "10/30/2025"
@@ -26392,6 +26464,7 @@
             "chemicals": 2,
             "crude_explosives": 2
           },
+          "foundIn": "Medical",
           "imageFilename": "https://cdn.arctracker.io/items/laboratory_reagents.png",
           "updatedAt": "10/30/2025"
         },
@@ -27293,6 +27366,9 @@
             "plastic_parts": 3,
             "chemicals": 2
           },
+          "salvagesInto": {
+            "plastic_parts": 2
+          },
           "weightKg": 0.3,
           "stackSize": 5,
           "foundIn": "Medical",
@@ -27505,6 +27581,10 @@
             }
           },
           "imageFilename": "https://cdn.arctracker.io/items/vita_shot.png",
+          "recipe": {
+            "antiseptic": 1,
+            "syringe": 1
+          },
           "recyclesInto": {
             "chemicals": 4,
             "syringe": 1
@@ -29039,11 +29119,11 @@
           "rarity": "Uncommon",
           "value": 640,
           "recyclesInto": {
-            "metal_parts": 8,
-            "steel_spring": 2
+            "metal_parts": 3,
+            "rubber_parts": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/mechanical_components.png",
-          "updatedAt": "11/03/2025",
+          "updatedAt": "11/23/2025",
           "weightKg": 0.5,
           "stackSize": 10,
           "foundIn": "Mechanical",
@@ -29366,11 +29446,11 @@
           "rarity": "Uncommon",
           "value": 640,
           "recyclesInto": {
-            "metal_parts": 8,
-            "steel_spring": 2
+            "metal_parts": 3,
+            "rubber_parts": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/mechanical_components.png",
-          "updatedAt": "11/03/2025",
+          "updatedAt": "11/23/2025",
           "weightKg": 0.5,
           "stackSize": 10,
           "foundIn": "Mechanical",
@@ -30584,6 +30664,7 @@
       "sr": "Može se reciklirati u materijale za izradu."
     },
     "weightKg": 2,
+    "stackSize": 3,
     "foundIn": "Industrial",
     "imageFilename": "https://cdn.arctracker.io/items/cooling_coil.png",
     "updatedAt": "10/30/2025",
@@ -30641,6 +30722,7 @@
       "sr": "Može se reciklirati u materijale za izradu."
     },
     "weightKg": 1,
+    "stackSize": 3,
     "foundIn": "Technological",
     "imageFilename": "https://cdn.arctracker.io/items/cooling_fan.png",
     "updatedAt": "10/30/2025",
@@ -30674,6 +30756,7 @@
     "type": "Recyclable",
     "value": 1000,
     "weightKg": 2,
+    "stackSize": 3,
     "recyclesInto": {
       "rubber_parts": 3,
       "battery": 3
@@ -30918,6 +31001,9 @@
             "sr": "Anti-ARC projektili koje uglavnom koristi Hullcracker. Kompatibilno sa: Hullcracker"
           },
           "type": "Ammunition",
+          "compatibleWith": [
+            "Hullcracker"
+          ],
           "value": 250,
           "rarity": "Rare",
           "weightKg": 0.1,
@@ -31436,6 +31522,7 @@
             "chemicals": 2,
             "crude_explosives": 2
           },
+          "foundIn": "Medical",
           "imageFilename": "https://cdn.arctracker.io/items/laboratory_reagents.png",
           "updatedAt": "10/30/2025"
         },
@@ -32251,6 +32338,7 @@
     "type": "Recyclable",
     "rarity": "Uncommon",
     "weightKg": 0.25,
+    "stackSize": 5,
     "value": 640,
     "foundIn": "ARC",
     "imageFilename": "https://cdn.arctracker.io/items/damaged_arc_motion_core.png",
@@ -38634,6 +38722,7 @@
             "power_rod": 1,
             "magnetic_accelerator": 1
           },
+          "foundIn": "ARC",
           "imageFilename": "https://cdn.arctracker.io/items/queen_part.png",
           "updatedAt": "10/30/2025"
         },
@@ -38769,7 +38858,7 @@
       "ja": "エクソダスモジュール",
       "zh-TW": "出埃及模組",
       "uk": "Модулі Виходу",
-      "zh-CN": "出埃及模组",
+      "zh-CN": "离浊模块",
       "kr": "엑소더스 모듈",
       "tr": "Exodus Modülleri",
       "hr": "Exodus Moduli",
@@ -41189,11 +41278,11 @@
           "rarity": "Uncommon",
           "value": 640,
           "recyclesInto": {
-            "metal_parts": 8,
-            "steel_spring": 2
+            "metal_parts": 3,
+            "rubber_parts": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/mechanical_components.png",
-          "updatedAt": "11/03/2025",
+          "updatedAt": "11/23/2025",
           "weightKg": 0.5,
           "stackSize": 10,
           "foundIn": "Mechanical",
@@ -43262,6 +43351,7 @@
           "rarity": "Uncommon",
           "type": "Recyclable",
           "value": 270,
+          "foundIn": "Residential",
           "recyclesInto": {
             "fabric": 11
           },
@@ -43912,7 +44002,7 @@
       "hr": "Zadaje snažan udarac, ali se mora puniti između svakog hica.",
       "sr": "Zadaje snažan udarac, ali mora da se punjenje između svakog hica."
     },
-    "type": "Weapon",
+    "type": "Battle Rifle",
     "rarity": "Common",
     "value": 2000,
     "weightKg": 8,
@@ -44056,7 +44146,7 @@
     },
     "isWeapon": true,
     "icon": "https://cdn.arctracker.io/items/ferro.png",
-    "item_type": "Weapon",
+    "item_type": "Battle Rifle",
     "stat_block": {
       "Durability": "120/120",
       "Ammo Type": "Heavy Ammo",
@@ -44752,7 +44842,7 @@
       "hr": "Klasično improvizovano oružje, sigurno će ostaviti tragove opeklina.",
       "sr": "Klasično improvizovano oružje, sigurno će ostaviti tragove opeklina."
     },
-    "type": "Weapon",
+    "type": "Quick Use",
     "rarity": "Uncommon",
     "value": 640,
     "weightKg": 1,
@@ -44803,7 +44893,7 @@
     "imageFilename": "https://cdn.arctracker.io/items/flame_spray.png",
     "updatedAt": "11/04/2025",
     "icon": "https://cdn.arctracker.io/items/flame_spray.png",
-    "item_type": "Weapon",
+    "item_type": "Quick Use",
     "stat_block": {
       "Durability": "100/100",
       "Damage": "10/s"
@@ -45435,6 +45525,7 @@
           "imageFilename": "https://cdn.arctracker.io/items/prickly_pear.png",
           "type": "Nature",
           "value": 640,
+          "foundIn": "Nature",
           "recyclesInto": {},
           "updatedAt": "10/30/2025"
         },
@@ -50830,9 +50921,9 @@
             "it": "Convertitore di tensione",
             "ru": "Преобразователь напряжения",
             "ja": "電圧変換器",
-            "zh-TW": "電壓轉換器",
+            "zh-TW": "變壓器",
             "uk": "Перетворювач напруги",
-            "zh-CN": "电压转换器",
+            "zh-CN": "变电器",
             "kr": "전압 변환기",
             "tr": "Voltaj Dönüştürücü",
             "hr": "Pretvarač Napona",
@@ -52021,7 +52112,7 @@
             "ja": "エクソダスモジュール",
             "zh-TW": "出埃及模組",
             "uk": "Модулі Виходу",
-            "zh-CN": "出埃及模组",
+            "zh-CN": "离浊模块",
             "kr": "엑소더스 모듈",
             "tr": "Exodus Modülleri",
             "hr": "Exodus Moduli",
@@ -53084,11 +53175,11 @@
           "rarity": "Uncommon",
           "value": 640,
           "recyclesInto": {
-            "metal_parts": 8,
-            "steel_spring": 2
+            "metal_parts": 3,
+            "rubber_parts": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/mechanical_components.png",
-          "updatedAt": "11/03/2025",
+          "updatedAt": "11/23/2025",
           "weightKg": 0.5,
           "stackSize": 10,
           "foundIn": "Mechanical",
@@ -54803,6 +54894,7 @@
             "power_rod": 1,
             "magnetic_accelerator": 1
           },
+          "foundIn": "ARC",
           "imageFilename": "https://cdn.arctracker.io/items/queen_part.png",
           "updatedAt": "10/30/2025"
         },
@@ -55213,7 +55305,7 @@
       "hr": "Poluautomatska jurišna puška. Brza i precizna, ali ima nisku brzinu metka i dugo traje punjenje.",
       "sr": "Poluautomatska jurišna puška. Brza i precizna, ali ima nisku brzinu metka i dugo traje punjenje."
     },
-    "type": "Weapon",
+    "type": "Assault Rifle",
     "rarity": "Common",
     "value": 840,
     "weightKg": 7,
@@ -55224,7 +55316,7 @@
     "imageFilename": "https://cdn.arctracker.io/items/kettle.png",
     "updatedAt": "10/30/2025",
     "icon": "https://cdn.arctracker.io/items/kettle.png",
-    "item_type": "Weapon"
+    "item_type": "Assault Rifle"
   },
   {
     "id": "kettle_iii",
@@ -55268,7 +55360,7 @@
       "hr": "Brzo i precizno, ali ima nisku brzinu metka i dugo traje punjenje.",
       "sr": "Brzo i precizno, ali ima nisku brzinu metka i dugo traje punjenje."
     },
-    "type": "Weapon",
+    "type": "Assault Rifle",
     "rarity": "Common",
     "value": 3000,
     "weightKg": 7,
@@ -55407,7 +55499,7 @@
     "updatedAt": "10/31/2025",
     "isWeapon": true,
     "icon": "https://cdn.arctracker.io/items/kettle.png",
-    "item_type": "Weapon",
+    "item_type": "Assault Rifle",
     "stat_block": {
       "Durability": "120/120",
       "Ammo Type": "Light Ammo",
@@ -55462,7 +55554,7 @@
       "hr": "Brzo i precizno, ali ima nisku brzinu metka i dugo traje punjenje.",
       "sr": "Brzo i precizno, ali ima nisku brzinu metka i dugo traje punjenje."
     },
-    "type": "Weapon",
+    "type": "Assault Rifle",
     "rarity": "Common",
     "value": 5000,
     "weightKg": 7,
@@ -55577,7 +55669,7 @@
     "updatedAt": "10/31/2025",
     "isWeapon": true,
     "icon": "https://cdn.arctracker.io/items/kettle.png",
-    "item_type": "Weapon",
+    "item_type": "Assault Rifle",
     "stat_block": {
       "Durability": "130/130",
       "Ammo Type": "Light Ammo",
@@ -55761,10 +55853,12 @@
       "chemicals": 2,
       "crude_explosives": 2
     },
+    "foundIn": "Medical",
     "imageFilename": "https://cdn.arctracker.io/items/laboratory_reagents.png",
     "updatedAt": "10/30/2025",
     "icon": "https://cdn.arctracker.io/items/laboratory_reagents.png",
-    "item_type": "Recyclable"
+    "item_type": "Recyclable",
+    "loot_area": "Medical"
   },
   {
     "id": "lances_mixtape_5th_edition",
@@ -55863,6 +55957,9 @@
       "sr": "Anti-ARC projektili koje uglavnom koristi Hullcracker. Kompatibilno sa: Hullcracker"
     },
     "type": "Ammunition",
+    "compatibleWith": [
+      "Hullcracker"
+    ],
     "value": 250,
     "rarity": "Rare",
     "weightKg": 0.1,
@@ -57345,6 +57442,10 @@
       "hr": "Lagani štit koji blokira malu količinu dolazne štete bez utjecaja na pokretljivost.",
       "sr": "Lagani štit koji blokira malu količinu dolazne štete bez uticaja na pokretljivost."
     },
+    "durability": 100,
+    "shieldCharge": 40,
+    "damageMitigation": 40,
+    "movementSpeedModifier": 0,
     "recyclesInto": {
       "plastic_parts": 4
     },
@@ -60470,7 +60571,7 @@
             "ja": "エクソダスモジュール",
             "zh-TW": "出埃及模組",
             "uk": "Модулі Виходу",
-            "zh-CN": "出埃及模组",
+            "zh-CN": "离浊模块",
             "kr": "엑소더스 모듈",
             "tr": "Exodus Modülleri",
             "hr": "Exodus Moduli",
@@ -62113,6 +62214,7 @@
             "power_rod": 1,
             "magnetic_accelerator": 1
           },
+          "foundIn": "ARC",
           "imageFilename": "https://cdn.arctracker.io/items/queen_part.png",
           "updatedAt": "10/30/2025"
         },
@@ -62493,11 +62595,11 @@
     "rarity": "Uncommon",
     "value": 640,
     "recyclesInto": {
-      "metal_parts": 8,
-      "steel_spring": 2
+      "metal_parts": 3,
+      "rubber_parts": 2
     },
     "imageFilename": "https://cdn.arctracker.io/items/mechanical_components.png",
-    "updatedAt": "11/03/2025",
+    "updatedAt": "11/23/2025",
     "weightKg": 0.5,
     "stackSize": 10,
     "foundIn": "Mechanical",
@@ -65446,7 +65548,7 @@
             "hr": "Poluautomatski pištolj s pristojnom štetom i preciznošću. Može se ispaljivati onoliko brzo koliko možete povlačiti okidač.",
             "sr": "Poluautomatski pištolj sa pristojnom štetom i preciznošću. Može se ispaljivati onoliko brzo koliko možete povlačiti okidač."
           },
-          "type": "Weapon",
+          "type": "Pistol",
           "rarity": "Uncommon",
           "value": 5000,
           "weightKg": 4,
@@ -65504,7 +65606,7 @@
             "hr": "Poluautomatski pištolj s pristojnom štetom i preciznošću. Može se ispaljivati onoliko brzo koliko možete povlačiti okidač.",
             "sr": "Poluautomatski pištolj sa pristojnom štetom i preciznošću. Može se ispaljivati onoliko brzo koliko možete povlačiti okidač."
           },
-          "type": "Weapon",
+          "type": "Pistol",
           "rarity": "Uncommon",
           "value": 7000,
           "weightKg": 4,
@@ -65562,7 +65664,7 @@
             "hr": "Poluautomatski pištolj s pristojnom štetom i preciznošću. Može se ispaljivati onoliko brzo koliko možete povlačiti okidač.",
             "sr": "Poluautomatski pištolj sa pristojnom štetom i preciznošću. Može se ispaljivati onoliko brzo koliko možete povlačiti okidač."
           },
-          "type": "Weapon",
+          "type": "Pistol",
           "rarity": "Uncommon",
           "value": 9000,
           "weightKg": 4,
@@ -66949,6 +67051,7 @@
           "rarity": "Rare",
           "value": 1000,
           "weightKg": 3,
+          "foundIn": "Mechanical",
           "recyclesInto": {
             "oil": 2,
             "mechanical_components": 1
@@ -67696,7 +67799,7 @@
             "hr": "Potpuno automatski SMG. Zadaje dobru štetu, ali ima prilično nisku brzinu paljbe i može biti teško kontrolirati.",
             "sr": "Potpuno automatski SMG. Zadaje dobru štetu, ali ima prilično nisku brzinu paljbe i može biti teško kontrolisati."
           },
-          "type": "Weapon",
+          "type": "SMG",
           "rarity": "Uncommon",
           "value": 5000,
           "weightKg": 5,
@@ -74196,11 +74299,11 @@
           "rarity": "Uncommon",
           "value": 640,
           "recyclesInto": {
-            "metal_parts": 8,
-            "steel_spring": 2
+            "metal_parts": 3,
+            "rubber_parts": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/mechanical_components.png",
-          "updatedAt": "11/03/2025",
+          "updatedAt": "11/23/2025",
           "weightKg": 0.5,
           "stackSize": 10,
           "foundIn": "Mechanical",
@@ -74601,6 +74704,10 @@
             "hr": "Kompatibilno s: Il Toro, Vulcano",
             "sr": "Kompatibilno sa: Il Toro, Vulcano"
           },
+          "compatibleWith": [
+            "Il Toro",
+            "Vulcano"
+          ],
           "type": "Ammunition",
           "value": 20,
           "weightKg": 0.085,
@@ -74743,7 +74850,7 @@
             "hr": "Zadaje dobru štetu, ali ima prilično nisku brzinu paljbe i može biti teško kontrolirati.",
             "sr": "Zadaje dobru štetu, ali ima prilično nisku brzinu paljbe i može biti teško kontrolisati."
           },
-          "type": "Weapon",
+          "type": "SMG",
           "rarity": "Common",
           "value": 800,
           "recyclesInto": {
@@ -76018,7 +76125,7 @@
             "hr": "Zadaje snažan udarac, ali se mora puniti između svakog hica.",
             "sr": "Zadaje snažan udarac, ali mora da se punjenje između svakog hica."
           },
-          "type": "Weapon",
+          "type": "Battle Rifle",
           "rarity": "Common",
           "value": 2000,
           "weightKg": 8,
@@ -77255,11 +77362,11 @@
           "rarity": "Uncommon",
           "value": 640,
           "recyclesInto": {
-            "metal_parts": 8,
-            "steel_spring": 2
+            "metal_parts": 3,
+            "rubber_parts": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/mechanical_components.png",
-          "updatedAt": "11/03/2025",
+          "updatedAt": "11/23/2025",
           "weightKg": 0.5,
           "stackSize": 10,
           "foundIn": "Mechanical",
@@ -78082,6 +78189,7 @@
           "rarity": "Rare",
           "value": 1000,
           "weightKg": 2,
+          "foundIn": "Mechanical",
           "recyclesInto": {
             "metal_parts": 8,
             "steel_spring": 1
@@ -78144,6 +78252,7 @@
           "weight": 1,
           "stackSize": 3,
           "value": 640,
+          "foundIn": "ARC",
           "recyclesInto": {
             "metal_parts": 8
           },
@@ -78492,7 +78601,7 @@
             "hr": "Zadaje dobru štetu, ali ima prilično nisku brzinu paljbe i može biti teško kontrolirati.",
             "sr": "Zadaje dobru štetu, ali ima prilično nisku brzinu paljbe i može biti teško kontrolisati."
           },
-          "type": "Weapon",
+          "type": "SMG",
           "rarity": "Common",
           "value": 800,
           "recyclesInto": {
@@ -78669,7 +78778,7 @@
             "hr": "Zadaje dobru štetu, ali ima prilično nisku brzinu paljbe i može biti teško kontrolirati.",
             "sr": "Zadaje dobru štetu, ali ima prilično nisku brzinu paljbe i može biti teško kontrolisati."
           },
-          "type": "Weapon",
+          "type": "SMG",
           "rarity": "Common",
           "value": 2000,
           "recyclesInto": {
@@ -78884,7 +78993,7 @@
             "hr": "Potpuno automatski SMG. Zadaje dobru štetu, ali ima prilično nisku brzinu paljbe i može biti teško kontrolirati.",
             "sr": "Potpuno automatski SMG. Zadaje dobru štetu, ali ima prilično nisku brzinu paljbe i može biti teško kontrolisati."
           },
-          "type": "Weapon",
+          "type": "SMG",
           "rarity": "Uncommon",
           "value": 3000,
           "weightKg": 5,
@@ -80955,11 +81064,11 @@
           "rarity": "Uncommon",
           "value": 640,
           "recyclesInto": {
-            "metal_parts": 8,
-            "steel_spring": 2
+            "metal_parts": 3,
+            "rubber_parts": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/mechanical_components.png",
-          "updatedAt": "11/03/2025",
+          "updatedAt": "11/23/2025",
           "weightKg": 0.5,
           "stackSize": 10,
           "foundIn": "Mechanical",
@@ -81375,6 +81484,7 @@
     "rarity": "Rare",
     "value": 1000,
     "weightKg": 3,
+    "foundIn": "Mechanical",
     "recyclesInto": {
       "oil": 2,
       "mechanical_components": 1
@@ -81382,7 +81492,8 @@
     "imageFilename": "https://cdn.arctracker.io/items/motor.png",
     "updatedAt": "10/30/2025",
     "icon": "https://cdn.arctracker.io/items/motor.png",
-    "item_type": "Recyclable"
+    "item_type": "Recyclable",
+    "loot_area": "Mechanical"
   },
   {
     "id": "mushroom",
@@ -81980,11 +82091,11 @@
           "rarity": "Uncommon",
           "value": 640,
           "recyclesInto": {
-            "metal_parts": 8,
-            "steel_spring": 2
+            "metal_parts": 3,
+            "rubber_parts": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/mechanical_components.png",
-          "updatedAt": "11/03/2025",
+          "updatedAt": "11/23/2025",
           "weightKg": 0.5,
           "stackSize": 10,
           "foundIn": "Mechanical",
@@ -83085,6 +83196,7 @@
           "rarity": "Rare",
           "value": 1000,
           "weightKg": 3,
+          "foundIn": "Mechanical",
           "recyclesInto": {
             "oil": 2,
             "mechanical_components": 1
@@ -83206,6 +83318,7 @@
           "rarity": "Rare",
           "value": 700,
           "weightKg": 0.5,
+          "foundIn": "Exodus",
           "recyclesInto": {
             "oil": 1,
             "plastic_parts": 1
@@ -86434,6 +86547,10 @@
             "hr": "Lagani štit koji blokira malu količinu dolazne štete bez utjecaja na pokretljivost.",
             "sr": "Lagani štit koji blokira malu količinu dolazne štete bez uticaja na pokretljivost."
           },
+          "durability": 100,
+          "shieldCharge": 40,
+          "damageMitigation": 40,
+          "movementSpeedModifier": 0,
           "recyclesInto": {
             "plastic_parts": 4
           },
@@ -87613,6 +87730,7 @@
             "sr": "Može se reciklirati u materijale za izradu."
           },
           "weightKg": 1,
+          "stackSize": 3,
           "foundIn": "Technological",
           "imageFilename": "https://cdn.arctracker.io/items/cooling_fan.png",
           "updatedAt": "10/30/2025"
@@ -88683,7 +88801,7 @@
             "hr": "Poluautomatska jurišna puška. Brza i precizna, ali ima nisku brzinu metka i dugo traje punjenje.",
             "sr": "Poluautomatska jurišna puška. Brza i precizna, ali ima nisku brzinu metka i dugo traje punjenje."
           },
-          "type": "Weapon",
+          "type": "Assault Rifle",
           "rarity": "Common",
           "value": 840,
           "weightKg": 7,
@@ -88857,6 +88975,10 @@
             "hr": "Lagani štit koji blokira malu količinu dolazne štete bez utjecaja na pokretljivost.",
             "sr": "Lagani štit koji blokira malu količinu dolazne štete bez uticaja na pokretljivost."
           },
+          "durability": 100,
+          "shieldCharge": 40,
+          "damageMitigation": 40,
+          "movementSpeedModifier": 0,
           "recyclesInto": {
             "plastic_parts": 4
           },
@@ -89554,6 +89676,7 @@
           "rarity": "Rare",
           "value": 700,
           "weightKg": 0.5,
+          "foundIn": "Exodus",
           "recyclesInto": {
             "oil": 1,
             "plastic_parts": 1
@@ -89614,6 +89737,9 @@
           "recyclesInto": {
             "plastic_parts": 3,
             "chemicals": 2
+          },
+          "salvagesInto": {
+            "plastic_parts": 2
           },
           "weightKg": 0.3,
           "stackSize": 5,
@@ -90821,6 +90947,7 @@
             "power_rod": 1,
             "magnetic_accelerator": 1
           },
+          "foundIn": "ARC",
           "imageFilename": "https://cdn.arctracker.io/items/queen_part.png",
           "updatedAt": "10/30/2025"
         },
@@ -91120,6 +91247,7 @@
     "imageFilename": "https://cdn.arctracker.io/items/prickly_pear.png",
     "type": "Nature",
     "value": 640,
+    "foundIn": "Nature",
     "recyclesInto": {},
     "updatedAt": "10/30/2025",
     "used_in": [
@@ -91252,7 +91380,8 @@
       }
     ],
     "icon": "https://cdn.arctracker.io/items/prickly_pear.png",
-    "item_type": "Nature"
+    "item_type": "Nature",
+    "loot_area": "Nature"
   },
   {
     "id": "processor",
@@ -92524,7 +92653,7 @@
             "ja": "エクソダスモジュール",
             "zh-TW": "出埃及模組",
             "uk": "Модулі Виходу",
-            "zh-CN": "出埃及模组",
+            "zh-CN": "离浊模块",
             "kr": "엑소더스 모듈",
             "tr": "Exodus Modülleri",
             "hr": "Exodus Moduli",
@@ -93570,6 +93699,7 @@
       "power_rod": 1,
       "magnetic_accelerator": 1
     },
+    "foundIn": "ARC",
     "imageFilename": "https://cdn.arctracker.io/items/queen_part.png",
     "updatedAt": "10/30/2025",
     "used_in": [
@@ -93928,7 +94058,8 @@
       }
     ],
     "icon": "https://cdn.arctracker.io/items/queen_part.png",
-    "item_type": "Recyclable"
+    "item_type": "Recyclable",
+    "loot_area": "ARC"
   },
   {
     "id": "radio",
@@ -98587,11 +98718,11 @@
           "rarity": "Uncommon",
           "value": 640,
           "recyclesInto": {
-            "metal_parts": 8,
-            "steel_spring": 2
+            "metal_parts": 3,
+            "rubber_parts": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/mechanical_components.png",
-          "updatedAt": "11/03/2025",
+          "updatedAt": "11/23/2025",
           "weightKg": 0.5,
           "stackSize": 10,
           "foundIn": "Mechanical",
@@ -99130,7 +99261,7 @@
             "hr": "Zadaje dobru štetu, ali ima prilično nisku brzinu paljbe i može biti teško kontrolirati.",
             "sr": "Zadaje dobru štetu, ali ima prilično nisku brzinu paljbe i može biti teško kontrolisati."
           },
-          "type": "Weapon",
+          "type": "SMG",
           "rarity": "Common",
           "value": 800,
           "recyclesInto": {
@@ -99697,6 +99828,7 @@
           "type": "Recyclable",
           "value": 1000,
           "weightKg": 2,
+          "stackSize": 3,
           "recyclesInto": {
             "rubber_parts": 3,
             "battery": 3
@@ -101060,7 +101192,7 @@
             "hr": "Poluautomatska jurišna puška. Brza i precizna, ali ima nisku brzinu metka i dugo traje punjenje.",
             "sr": "Poluautomatska jurišna puška. Brza i precizna, ali ima nisku brzinu metka i dugo traje punjenje."
           },
-          "type": "Weapon",
+          "type": "Assault Rifle",
           "rarity": "Common",
           "value": 840,
           "weightKg": 7,
@@ -101204,6 +101336,71 @@
         },
         "component": {
           "id": "looting_mk1"
+        }
+      },
+      {
+        "item": {
+          "id": "mechanical_components",
+          "name": {
+            "en": "Mechanical Components",
+            "de": "Mechanische Komponenten",
+            "fr": "Composants mécaniques",
+            "es": "Componentes mecánicos",
+            "pt": "Componentes mecânicos",
+            "pl": "Komponenty mechaniczne",
+            "no": "Mekaniske komponenter",
+            "da": "Mekaniske komponenter",
+            "it": "Componenti meccanici",
+            "ru": "Механические компоненты",
+            "ja": "機械部品",
+            "zh-TW": "機械零件",
+            "uk": "Механічні компоненти",
+            "zh-CN": "机械零件",
+            "kr": "기계 부품",
+            "tr": "Mekanik Bileşenler",
+            "hr": "Mehaničke Komponente",
+            "sr": "Mehaničke Komponente"
+          },
+          "description": {
+            "en": "Used to craft a wide range of items. Can be recycled into crafting materials. Used to craft: Il Toro, Burletta, Anvil, Muzzle Brake II, Extended Medium Mag II",
+            "de": "Wird zur Herstellung einer Vielzahl von Gegenständen verwendet. Kann zu Handwerksmaterialien recycelt werden. Wird verwendet für: Il Toro, Burletta, Anvil, Mündungsbremse II, Erweitertes mittleres Magazin II",
+            "fr": "Permet de fabriquer une large gamme d'objets. Peut être recyclé en matériaux d'artisanat. Permet de fabriquer : Il Toro, Burletta, Enclume, Frein de bouche II, Chargeur moyen étendu II",
+            "es": "Usado para fabricar una amplia gama de objetos. Puede reciclarse en materiales de fabricación. Usado para fabricar: Il Toro, Burletta, Yunque, Freno de boca II, Cargador mediano extendido II",
+            "pt": "Usado para fabricar uma ampla gama de itens. Pode ser reciclado em materiais de fabricação. Usado para fabricar: Il Toro, Burletta, Anvil, Freio de boca II, Carregador médio estendido II",
+            "pl": "Używany do wytwarzania szerokiej gamy przedmiotów. Może być przetworzony na materiały rzemieślnicze. Używany do wytworzenia: Il Toro, Burletta, Anvil, Hamulec wylotowy II, Rozszerzony średni magazynek II",
+            "no": "Brukes til å lage et bredt spekter av gjenstander. Kan resirkuleres til håndverksmateriell. Brukes til å lage: Il Toro, Burletta, Anvil, Munningsbrems II, Utvidet medium magasin II",
+            "da": "Bruges til at fremstille en bred vifte af genstande. Kan genbruges til håndværksmaterialer. Bruges til at fremstille: Il Toro, Burletta, Anvil, Mundingsbremse II, Udvidet medium magasin II",
+            "it": "Usato per fabbricare un'ampia gamma di oggetti. Può essere riciclato in materiali da fabbricazione. Usato per fabbricare: Il Toro, Burletta, Anvil, Freno di bocca II, Caricatore medio esteso II",
+            "ru": "Используется для создания широкого спектра предметов. Можно переработать в материалы для крафта. Используется для создания: Il Toro, Burletta, Anvil, дульный тормоз II, расширенный средний магазин II",
+            "ja": "幅広いアイテムの製作に使用。製作材料にリサイクル可能。製作可能: Il Toro、Burletta、Anvil、マズルブレーキII、拡張ミディアムマガジンII",
+            "zh-TW": "用於製作各種物品。可回收成製作材料。用於製作：Il Toro、Burletta、Anvil、槍口制退器II、延長中型彈匣II",
+            "uk": "Використовується для створення широкого спектру предметів. Можна переробити на матеріали для крафту. Використовується для створення: Il Toro, Burletta, Anvil, дульний гальмо II, розширений середній магазин II",
+            "zh-CN": "用于制作各种物品。可回收成制作材料。用于制作：Il Toro、Burletta、Anvil、枪口制退器II、延长中型弹匣II",
+            "kr": "다양한 아이템 제작에 사용됩니다. 제작 재료로 재활용 가능. 제작 가능: Il Toro, Burletta, Anvil, 총구 제동기 II, 확장 중형 탄창 II",
+            "tr": "Çok çeşitli eşyaları üretmek için kullanılır. Üretim malzemelerine geri dönüştürülebilir. Üretim için kullanılır: Il Toro, Burletta, Anvil, Namlu Freni II, Uzatılmış Orta Şarjör II",
+            "hr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu. Koristi se za izradu: Il Toro, Burletta, Anvil, Muzzle Brake II, Extended Medium Mag II",
+            "sr": "Koristi se za pravljenje širokog spektra predmeta. Može se reciklirati u materijale za pravljenje. Koristi se za pravljenje: Il Toro, Burletta, Anvil, Muzzle Brake II, Extended Medium Mag II"
+          },
+          "type": "Refined Material",
+          "rarity": "Uncommon",
+          "value": 640,
+          "recyclesInto": {
+            "metal_parts": 3,
+            "rubber_parts": 2
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/mechanical_components.png",
+          "updatedAt": "11/23/2025",
+          "weightKg": 0.5,
+          "stackSize": 10,
+          "foundIn": "Mechanical",
+          "recipe": {
+            "metal_parts": 7,
+            "rubber_parts": 3
+          },
+          "craftBench": "refiner"
+        },
+        "component": {
+          "id": "mechanical_components"
         }
       },
       {
@@ -101807,7 +102004,7 @@
             "hr": "Zadaje dobru štetu, ali ima prilično nisku brzinu paljbe i može biti teško kontrolirati.",
             "sr": "Zadaje dobru štetu, ali ima prilično nisku brzinu paljbe i može biti teško kontrolisati."
           },
-          "type": "Weapon",
+          "type": "SMG",
           "rarity": "Common",
           "value": 800,
           "recyclesInto": {
@@ -101984,7 +102181,7 @@
             "hr": "Zadaje dobru štetu, ali ima prilično nisku brzinu paljbe i može biti teško kontrolirati.",
             "sr": "Zadaje dobru štetu, ali ima prilično nisku brzinu paljbe i može biti teško kontrolisati."
           },
-          "type": "Weapon",
+          "type": "SMG",
           "rarity": "Common",
           "value": 2000,
           "recyclesInto": {
@@ -102359,9 +102556,9 @@
             "it": "Convertitore di tensione",
             "ru": "Преобразователь напряжения",
             "ja": "電圧変換器",
-            "zh-TW": "電壓轉換器",
+            "zh-TW": "變壓器",
             "uk": "Перетворювач напруги",
-            "zh-CN": "电压转换器",
+            "zh-CN": "变电器",
             "kr": "전압 변환기",
             "tr": "Voltaj Dönüştürücü",
             "hr": "Pretvarač Napona",
@@ -102640,13 +102837,15 @@
     },
     "type": "Recyclable",
     "rarity": "Uncommon",
+    "foundIn": "Security",
     "value": 640,
     "weightKg": 0.8,
     "recyclesInto": {},
     "imageFilename": "https://cdn.arctracker.io/items/ruined_baton.png",
     "updatedAt": "10/30/2025",
     "icon": "https://cdn.arctracker.io/items/ruined_baton.png",
-    "item_type": "Recyclable"
+    "item_type": "Recyclable",
+    "loot_area": "Security"
   },
   {
     "id": "ruined_handcuffs",
@@ -103041,6 +103240,7 @@
     "rarity": "Rare",
     "value": 1000,
     "weightKg": 3,
+    "foundIn": "Medical",
     "recyclesInto": {
       "syringe": 2,
       "antiseptic": 1
@@ -103048,7 +103248,8 @@
     "imageFilename": "https://cdn.arctracker.io/items/rusted_shut_medical_kit.png",
     "updatedAt": "10/30/2025",
     "icon": "https://cdn.arctracker.io/items/rusted_shut_medical_kit.png",
-    "item_type": "Recyclable"
+    "item_type": "Recyclable",
+    "loot_area": "Medical"
   },
   {
     "id": "rusted_tools",
@@ -103096,6 +103297,7 @@
     "rarity": "Rare",
     "value": 1000,
     "weightKg": 2,
+    "foundIn": "Mechanical",
     "recyclesInto": {
       "metal_parts": 8,
       "steel_spring": 1
@@ -103106,7 +103308,8 @@
     "imageFilename": "https://cdn.arctracker.io/items/rusted_tools.png",
     "updatedAt": "10/30/2025",
     "icon": "https://cdn.arctracker.io/items/rusted_tools.png",
-    "item_type": "Recyclable"
+    "item_type": "Recyclable",
+    "loot_area": "Mechanical"
   },
   {
     "id": "rusty_arc_steel",
@@ -103155,6 +103358,7 @@
     "weight": 1,
     "stackSize": 3,
     "value": 640,
+    "foundIn": "ARC",
     "recyclesInto": {
       "metal_parts": 8
     },
@@ -103164,7 +103368,8 @@
     "imageFilename": "https://cdn.arctracker.io/items/rusty_arc_steel.png",
     "updatedAt": "11/17/2025",
     "icon": "https://cdn.arctracker.io/items/rusty_arc_steel.png",
-    "item_type": "Recyclable"
+    "item_type": "Recyclable",
+    "loot_area": "ARC"
   },
   {
     "name": {
@@ -104580,6 +104785,10 @@
       "hr": "Kompatibilno s: Il Toro, Vulcano",
       "sr": "Kompatibilno sa: Il Toro, Vulcano"
     },
+    "compatibleWith": [
+      "Il Toro",
+      "Vulcano"
+    ],
     "type": "Ammunition",
     "value": 20,
     "weightKg": 0.085,
@@ -108329,7 +108538,7 @@
             "hr": "Poluautomatski pištolj s pristojnom štetom i preciznošću. Može se ispaljivati onoliko brzo koliko možete povlačiti okidač.",
             "sr": "Poluautomatski pištolj sa pristojnom štetom i preciznošću. Može se ispaljivati onoliko brzo koliko možete povlačiti okidač."
           },
-          "type": "Weapon",
+          "type": "Pistol",
           "rarity": "Uncommon",
           "value": 5000,
           "weightKg": 4,
@@ -108387,7 +108596,7 @@
             "hr": "Poluautomatski pištolj s pristojnom štetom i preciznošću. Može se ispaljivati onoliko brzo koliko možete povlačiti okidač.",
             "sr": "Poluautomatski pištolj sa pristojnom štetom i preciznošću. Može se ispaljivati onoliko brzo koliko možete povlačiti okidač."
           },
-          "type": "Weapon",
+          "type": "Pistol",
           "rarity": "Uncommon",
           "value": 7000,
           "weightKg": 4,
@@ -108445,7 +108654,7 @@
             "hr": "Poluautomatski pištolj s pristojnom štetom i preciznošću. Može se ispaljivati onoliko brzo koliko možete povlačiti okidač.",
             "sr": "Poluautomatski pištolj sa pristojnom štetom i preciznošću. Može se ispaljivati onoliko brzo koliko možete povlačiti okidač."
           },
-          "type": "Weapon",
+          "type": "Pistol",
           "rarity": "Uncommon",
           "value": 9000,
           "weightKg": 4,
@@ -108568,7 +108777,7 @@
             "hr": "Zadaje snažan udarac, ali se mora puniti između svakog hica.",
             "sr": "Zadaje snažan udarac, ali mora da se punjenje između svakog hica."
           },
-          "type": "Weapon",
+          "type": "Battle Rifle",
           "rarity": "Common",
           "value": 2000,
           "weightKg": 8,
@@ -110368,7 +110577,7 @@
             "hr": "Potpuno automatski SMG. Zadaje dobru štetu, ali ima prilično nisku brzinu paljbe i može biti teško kontrolirati.",
             "sr": "Potpuno automatski SMG. Zadaje dobru štetu, ali ima prilično nisku brzinu paljbe i može biti teško kontrolisati."
           },
-          "type": "Weapon",
+          "type": "SMG",
           "rarity": "Uncommon",
           "value": 3000,
           "weightKg": 5,
@@ -110583,7 +110792,7 @@
             "hr": "Potpuno automatski SMG. Zadaje dobru štetu, ali ima prilično nisku brzinu paljbe i može biti teško kontrolirati.",
             "sr": "Potpuno automatski SMG. Zadaje dobru štetu, ali ima prilično nisku brzinu paljbe i može biti teško kontrolisati."
           },
-          "type": "Weapon",
+          "type": "SMG",
           "rarity": "Uncommon",
           "value": 5000,
           "weightKg": 5,
@@ -111489,7 +111698,7 @@
             "ja": "エクソダスモジュール",
             "zh-TW": "出埃及模組",
             "uk": "Модулі Виходу",
-            "zh-CN": "出埃及模组",
+            "zh-CN": "离浊模块",
             "kr": "엑소더스 모듈",
             "tr": "Exodus Modülleri",
             "hr": "Exodus Moduli",
@@ -114214,6 +114423,7 @@
             "sr": "Može se reciklirati u materijale za izradu."
           },
           "weightKg": 2,
+          "stackSize": 3,
           "foundIn": "Industrial",
           "imageFilename": "https://cdn.arctracker.io/items/cooling_coil.png",
           "updatedAt": "10/30/2025"
@@ -114391,71 +114601,6 @@
       },
       {
         "item": {
-          "id": "mechanical_components",
-          "name": {
-            "en": "Mechanical Components",
-            "de": "Mechanische Komponenten",
-            "fr": "Composants mécaniques",
-            "es": "Componentes mecánicos",
-            "pt": "Componentes mecânicos",
-            "pl": "Komponenty mechaniczne",
-            "no": "Mekaniske komponenter",
-            "da": "Mekaniske komponenter",
-            "it": "Componenti meccanici",
-            "ru": "Механические компоненты",
-            "ja": "機械部品",
-            "zh-TW": "機械零件",
-            "uk": "Механічні компоненти",
-            "zh-CN": "机械零件",
-            "kr": "기계 부품",
-            "tr": "Mekanik Bileşenler",
-            "hr": "Mehaničke Komponente",
-            "sr": "Mehaničke Komponente"
-          },
-          "description": {
-            "en": "Used to craft a wide range of items. Can be recycled into crafting materials. Used to craft: Il Toro, Burletta, Anvil, Muzzle Brake II, Extended Medium Mag II",
-            "de": "Wird zur Herstellung einer Vielzahl von Gegenständen verwendet. Kann zu Handwerksmaterialien recycelt werden. Wird verwendet für: Il Toro, Burletta, Anvil, Mündungsbremse II, Erweitertes mittleres Magazin II",
-            "fr": "Permet de fabriquer une large gamme d'objets. Peut être recyclé en matériaux d'artisanat. Permet de fabriquer : Il Toro, Burletta, Enclume, Frein de bouche II, Chargeur moyen étendu II",
-            "es": "Usado para fabricar una amplia gama de objetos. Puede reciclarse en materiales de fabricación. Usado para fabricar: Il Toro, Burletta, Yunque, Freno de boca II, Cargador mediano extendido II",
-            "pt": "Usado para fabricar uma ampla gama de itens. Pode ser reciclado em materiais de fabricação. Usado para fabricar: Il Toro, Burletta, Anvil, Freio de boca II, Carregador médio estendido II",
-            "pl": "Używany do wytwarzania szerokiej gamy przedmiotów. Może być przetworzony na materiały rzemieślnicze. Używany do wytworzenia: Il Toro, Burletta, Anvil, Hamulec wylotowy II, Rozszerzony średni magazynek II",
-            "no": "Brukes til å lage et bredt spekter av gjenstander. Kan resirkuleres til håndverksmateriell. Brukes til å lage: Il Toro, Burletta, Anvil, Munningsbrems II, Utvidet medium magasin II",
-            "da": "Bruges til at fremstille en bred vifte af genstande. Kan genbruges til håndværksmaterialer. Bruges til at fremstille: Il Toro, Burletta, Anvil, Mundingsbremse II, Udvidet medium magasin II",
-            "it": "Usato per fabbricare un'ampia gamma di oggetti. Può essere riciclato in materiali da fabbricazione. Usato per fabbricare: Il Toro, Burletta, Anvil, Freno di bocca II, Caricatore medio esteso II",
-            "ru": "Используется для создания широкого спектра предметов. Можно переработать в материалы для крафта. Используется для создания: Il Toro, Burletta, Anvil, дульный тормоз II, расширенный средний магазин II",
-            "ja": "幅広いアイテムの製作に使用。製作材料にリサイクル可能。製作可能: Il Toro、Burletta、Anvil、マズルブレーキII、拡張ミディアムマガジンII",
-            "zh-TW": "用於製作各種物品。可回收成製作材料。用於製作：Il Toro、Burletta、Anvil、槍口制退器II、延長中型彈匣II",
-            "uk": "Використовується для створення широкого спектру предметів. Можна переробити на матеріали для крафту. Використовується для створення: Il Toro, Burletta, Anvil, дульний гальмо II, розширений середній магазин II",
-            "zh-CN": "用于制作各种物品。可回收成制作材料。用于制作：Il Toro、Burletta、Anvil、枪口制退器II、延长中型弹匣II",
-            "kr": "다양한 아이템 제작에 사용됩니다. 제작 재료로 재활용 가능. 제작 가능: Il Toro, Burletta, Anvil, 총구 제동기 II, 확장 중형 탄창 II",
-            "tr": "Çok çeşitli eşyaları üretmek için kullanılır. Üretim malzemelerine geri dönüştürülebilir. Üretim için kullanılır: Il Toro, Burletta, Anvil, Namlu Freni II, Uzatılmış Orta Şarjör II",
-            "hr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu. Koristi se za izradu: Il Toro, Burletta, Anvil, Muzzle Brake II, Extended Medium Mag II",
-            "sr": "Koristi se za pravljenje širokog spektra predmeta. Može se reciklirati u materijale za pravljenje. Koristi se za pravljenje: Il Toro, Burletta, Anvil, Muzzle Brake II, Extended Medium Mag II"
-          },
-          "type": "Refined Material",
-          "rarity": "Uncommon",
-          "value": 640,
-          "recyclesInto": {
-            "metal_parts": 8,
-            "steel_spring": 2
-          },
-          "imageFilename": "https://cdn.arctracker.io/items/mechanical_components.png",
-          "updatedAt": "11/03/2025",
-          "weightKg": 0.5,
-          "stackSize": 10,
-          "foundIn": "Mechanical",
-          "recipe": {
-            "metal_parts": 7,
-            "rubber_parts": 3
-          },
-          "craftBench": "refiner"
-        },
-        "component": {
-          "id": "mechanical_components"
-        }
-      },
-      {
-        "item": {
           "id": "mod_components",
           "name": {
             "en": "Mod Components",
@@ -114629,6 +114774,7 @@
           "rarity": "Rare",
           "value": 1000,
           "weightKg": 2,
+          "foundIn": "Mechanical",
           "recyclesInto": {
             "metal_parts": 8,
             "steel_spring": 1
@@ -115266,7 +115412,7 @@
       "hr": "Zadaje dobru štetu, ali ima prilično nisku brzinu paljbe i može biti teško kontrolirati.",
       "sr": "Zadaje dobru štetu, ali ima prilično nisku brzinu paljbe i može biti teško kontrolisati."
     },
-    "type": "Weapon",
+    "type": "SMG",
     "rarity": "Common",
     "value": 800,
     "recyclesInto": {
@@ -115516,7 +115662,7 @@
       "workbench",
       "weapon_bench"
     ],
-    "item_type": "Weapon",
+    "item_type": "SMG",
     "stat_block": {
       "Durability": "100/100",
       "Ammo Type": "Light Ammo",
@@ -115567,7 +115713,7 @@
       "hr": "Zadaje dobru štetu, ali ima prilično nisku brzinu paljbe i može biti teško kontrolirati.",
       "sr": "Zadaje dobru štetu, ali ima prilično nisku brzinu paljbe i može biti teško kontrolisati."
     },
-    "type": "Weapon",
+    "type": "SMG",
     "rarity": "Common",
     "value": 2000,
     "recyclesInto": {
@@ -115735,7 +115881,7 @@
     },
     "isWeapon": true,
     "icon": "https://cdn.arctracker.io/items/stitcher.png",
-    "item_type": "Weapon",
+    "item_type": "SMG",
     "stat_block": {
       "Durability": "110/110",
       "Ammo Type": "Light Ammo",
@@ -115788,7 +115934,7 @@
       "hr": "Potpuno automatski SMG. Zadaje dobru štetu, ali ima prilično nisku brzinu paljbe i može biti teško kontrolirati.",
       "sr": "Potpuno automatski SMG. Zadaje dobru štetu, ali ima prilično nisku brzinu paljbe i može biti teško kontrolisati."
     },
-    "type": "Weapon",
+    "type": "SMG",
     "rarity": "Uncommon",
     "value": 3000,
     "weightKg": 5,
@@ -115956,7 +116102,7 @@
     },
     "isWeapon": true,
     "icon": "https://cdn.arctracker.io/items/stitcher.png",
-    "item_type": "Weapon",
+    "item_type": "SMG",
     "stat_block": {
       "Durability": "120/120",
       "Ammo Type": "Light Ammo",
@@ -116009,7 +116155,7 @@
       "hr": "Potpuno automatski SMG. Zadaje dobru štetu, ali ima prilično nisku brzinu paljbe i može biti teško kontrolirati.",
       "sr": "Potpuno automatski SMG. Zadaje dobru štetu, ali ima prilično nisku brzinu paljbe i može biti teško kontrolisati."
     },
-    "type": "Weapon",
+    "type": "SMG",
     "rarity": "Uncommon",
     "value": 5000,
     "weightKg": 5,
@@ -116177,7 +116323,7 @@
     },
     "isWeapon": true,
     "icon": "https://cdn.arctracker.io/items/stitcher.png",
-    "item_type": "Weapon",
+    "item_type": "SMG",
     "stat_block": {
       "Durability": "130/130",
       "Ammo Type": "Light Ammo",
@@ -116533,6 +116679,7 @@
     "rarity": "Rare",
     "value": 700,
     "weightKg": 0.5,
+    "foundIn": "Exodus",
     "recyclesInto": {
       "oil": 1,
       "plastic_parts": 1
@@ -116602,7 +116749,8 @@
       }
     ],
     "icon": "https://cdn.arctracker.io/items/synthesized_fuel.png",
-    "item_type": "Topside Material"
+    "item_type": "Topside Material",
+    "loot_area": "Exodus"
   },
   {
     "id": "syringe",
@@ -116653,11 +116801,124 @@
       "plastic_parts": 3,
       "chemicals": 2
     },
+    "salvagesInto": {
+      "plastic_parts": 2
+    },
     "weightKg": 0.3,
     "stackSize": 5,
     "foundIn": "Medical",
     "imageFilename": "https://cdn.arctracker.io/items/syringe.png",
     "updatedAt": "11/03/2025",
+    "used_in": [
+      {
+        "item": {
+          "id": "vita_shot",
+          "name": {
+            "en": "Vita Shot",
+            "de": "Vita-Spritze",
+            "fr": "Dose de Vita",
+            "es": "Inyección de Vita",
+            "pt": "Injeção Vita",
+            "pl": "Zastrzyk Vita",
+            "no": "Vita-sprøyte",
+            "da": "Vita-indsprøjtning",
+            "it": "Iniezione Vita",
+            "ru": "Витаминная сыворотка",
+            "ja": "ヴィタショット",
+            "zh-TW": "活力注射劑",
+            "uk": "Віта-ін'єкція",
+            "zh-CN": "活力注射剂",
+            "kr": "비타 샷",
+            "tr": "Vita İğnesi",
+            "hr": "Vita Injekcija",
+            "sr": "Vita Injekcija"
+          },
+          "description": {
+            "en": "A medical item that restores a large amount of health.",
+            "de": "Ein medizinischer Gegenstand, der eine große Menge Gesundheit wiederherstellt.",
+            "fr": "Un objet médical qui restaure une grande quantité de santé.",
+            "es": "Un objeto médico que restaura una gran cantidad de salud.",
+            "pt": "Um item médico que restaura uma grande quantidade de saúde.",
+            "pl": "Przedmiot medyczny, który przywraca dużą ilość zdrowia.",
+            "no": "En medisinsk gjenstand som gjenoppretter en stor mengde helse.",
+            "da": "En medicinsk genstand, der gendanner en stor mængde helbred.",
+            "it": "Un oggetto medico che ripristina una grande quantità di salute.",
+            "ru": "Медицинский предмет, восстанавливающий большое количество здоровья.",
+            "ja": "大量の体力を回復する医療アイテム。",
+            "zh-TW": "可恢復大量生命值的醫療物品。",
+            "uk": "Медичний предмет, що відновлює велику кількість здоров'я.",
+            "zh-CN": "可恢复大量生命值的医疗物品。",
+            "kr": "많은 양의 체력을 회복하는 의료 아이템.",
+            "tr": "Büyük miktarda sağlık yenileyen tıbbi bir eşya.",
+            "hr": "Medicinski predmet koji obnavlja veliku količinu zdravlja.",
+            "sr": "Medicinski predmet koji obnavlja veliku količinu zdravlja."
+          },
+          "type": "Quick Use",
+          "value": 2000,
+          "rarity": "Rare",
+          "weightKg": 0.4,
+          "stackSize": 3,
+          "stationLevelRequired": 3,
+          "effects": {
+            "Healing": {
+              "en": "Healing",
+              "de": "Heilung",
+              "fr": "Soins",
+              "es": "Curación",
+              "pt": "Cura",
+              "pl": "Leczenie",
+              "no": "Helbredelse",
+              "da": "Helbredelse",
+              "it": "Guarigione",
+              "ru": "Исцеление",
+              "ja": "回復量",
+              "zh-TW": "治療量",
+              "uk": "Зцілення",
+              "zh-CN": "治疗量",
+              "kr": "회복량",
+              "tr": "İyileştirme",
+              "hr": "Liječenje",
+              "sr": "Lečenje",
+              "value": 50
+            },
+            "Use Time": {
+              "en": "Use Time",
+              "de": "Anwendungszeit",
+              "fr": "Temps d'utilisation",
+              "es": "Tiempo de uso",
+              "pt": "Tempo de uso",
+              "pl": "Czas użycia",
+              "no": "Brukstid",
+              "da": "Brugstid",
+              "it": "Tempo d'uso",
+              "ru": "Время использования",
+              "ja": "使用時間",
+              "zh-TW": "使用時間",
+              "uk": "Час використання",
+              "zh-CN": "使用时间",
+              "kr": "사용 시간",
+              "tr": "Kullanım Süresi",
+              "hr": "Vrijeme Korištenja",
+              "sr": "Vreme Korišćenja",
+              "value": "4s"
+            }
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/vita_shot.png",
+          "recipe": {
+            "antiseptic": 1,
+            "syringe": 1
+          },
+          "recyclesInto": {
+            "chemicals": 4,
+            "syringe": 1
+          },
+          "updatedAt": "11/03/2025"
+        },
+        "component": {
+          "id": "syringe"
+        }
+      }
+    ],
     "recycle_from": [
       {
         "item": {
@@ -116706,6 +116967,7 @@
           "rarity": "Rare",
           "value": 1000,
           "weightKg": 3,
+          "foundIn": "Medical",
           "recyclesInto": {
             "syringe": 2,
             "antiseptic": 1
@@ -116811,6 +117073,10 @@
             }
           },
           "imageFilename": "https://cdn.arctracker.io/items/vita_shot.png",
+          "recipe": {
+            "antiseptic": 1,
+            "syringe": 1
+          },
           "recyclesInto": {
             "chemicals": 4,
             "syringe": 1
@@ -118118,6 +118384,7 @@
     "rarity": "Uncommon",
     "type": "Recyclable",
     "value": 270,
+    "foundIn": "Residential",
     "recyclesInto": {
       "fabric": 11
     },
@@ -118127,7 +118394,8 @@
     "imageFilename": "https://cdn.arctracker.io/items/tattered_clothes.png",
     "updatedAt": "11/10/2025",
     "icon": "https://cdn.arctracker.io/items/tattered_clothes.png",
-    "item_type": "Recyclable"
+    "item_type": "Recyclable",
+    "loot_area": "Residential"
   },
   {
     "name": {
@@ -122943,11 +123211,144 @@
       }
     },
     "imageFilename": "https://cdn.arctracker.io/items/vita_shot.png",
+    "recipe": {
+      "antiseptic": 1,
+      "syringe": 1
+    },
     "recyclesInto": {
       "chemicals": 4,
       "syringe": 1
     },
     "updatedAt": "11/03/2025",
+    "crafting_components": [
+      {
+        "item": {
+          "id": "antiseptic",
+          "name": {
+            "en": "Antiseptic",
+            "de": "Desinfektionsmittel",
+            "fr": "Antiseptique",
+            "es": "Antiséptico",
+            "pt": "Antisséptico",
+            "pl": "Środek antyseptyczny",
+            "no": "Antiseptisk middel",
+            "da": "Antiseptisk middel",
+            "it": "Antisettico",
+            "ru": "Антисептик",
+            "ja": "消毒薬",
+            "zh-TW": "防腐劑",
+            "uk": "Антисептик",
+            "zh-CN": "消毒剂",
+            "kr": "소독제",
+            "tr": "Antiseptik",
+            "hr": "Antiseptik",
+            "sr": "Antiseptik"
+          },
+          "description": {
+            "en": "Used to craft medical supplies. Can be recycled into chemicals. Used to craft: Sterilized Bandage, Vita Spray, Vita Shot",
+            "de": "Wird zur Herstellung medizinischer Vorräte verwendet. Kann zu Chemikalien recycelt werden. Wird verwendet für: Sterilisierter Verband, Vita-Spray, Vita-Spritze",
+            "fr": "Permet de fabriquer des fournitures médicales. Peut être recyclé en produits chimiques. Permet de fabriquer : Bandage stérilisé, Spray de Vita, Dose de Vita",
+            "es": "Se usa para fabricar suministros médicos. Se puede reciclar en productos químicos. Se usa para fabricar: Venda esterilizado, Aerosol Vita, Inyección de Vita",
+            "pt": "Usado para fabricar suprimentos médicos. Pode ser reciclado em produtos químicos. Usado para fabricar: Bandagem esterilizada, Spray Vita, Injeção Vita",
+            "pl": "Używany do wytwarzania zapasów medycznych. Można przetworzyć na chemikalia. Używany do wytworzenia: Sterylny bandaż, Spray Vita, Zastrzyk Vita",
+            "no": "Brukes til å lage medisinske forsyninger. Kan resirkuleres til kjemikalier. Brukes til å lage: Sterilisert bandasje, Vita-spray, Vita-sprøyte",
+            "da": "Bruges til at lave medicinske forsyninger. Kan genbruges til kemikalier. Bruges til at lave: Steriliseret bandage, Vita-spray, Vita-indsprøjtning",
+            "it": "Usato per creare forniture mediche. Può essere riciclato in sostanze chimiche. Usato per creare: Benda sterilizzata, Spray Vita, Iniezione Vita",
+            "ru": "Используется для создания медицинских принадлежностей. Можно переработать в химикаты. Используется для крафта: Стерильный бинт, Вита-спрей, Вита-укол",
+            "ja": "医療品のクラフトに使用。化学薬品にリサイクル可能。クラフト用途：滅菌包帯、ヴィータスプレー、ヴィータショット",
+            "zh-TW": "用來製作醫療物資。可回收成化學物質。用來製作:滅菌繃帶,維生素噴霧,維生素注射",
+            "uk": "Використовується для створення медичних приладь. Можна переробити на хімікати. Використовується для крафту: Стерильний бинт, Віта-спрей, Віта-укол",
+            "zh-CN": "用于制作医疗用品。可回收为化学品。用于制作：消毒绷带、活力喷雾、活力注射剂",
+            "kr": "의료 용품 제작에 사용. 화학물질로 재활용 가능. 제작 용도: 멸균 붕대, 비타 스프레이, 비타 샷",
+            "tr": "Tıbbi malzeme üretmek için kullanılır. Kimyasallara geri dönüştürülebilir. Üretim: Sterilize Bandaj, Vita Spreyi, Vita İğnesi",
+            "hr": "Koristi se za izradu medicinskih potrepština. Može se reciklirati u kemikalije. Koristi se za izradu: Sterilizovani Zavoj, Vita Sprej, Vita Injekcija",
+            "sr": "Koristi se za izradu medicinskih potrepština. Može se reciklirati u hemikalije. Koristi se za izradu: Sterilizovani Zavoj, Vita Sprej, Vita Injekcija"
+          },
+          "type": "Refined Material",
+          "rarity": "Rare",
+          "recyclesInto": {
+            "chemicals": 10
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/antiseptic.png",
+          "foundIn": "Medical",
+          "weightKg": 1,
+          "stackSize": 5,
+          "value": 1000,
+          "updatedAt": "11/03/2025",
+          "recipe": {
+            "chemicals": 10,
+            "great_mullein": 2
+          },
+          "craftBench": "refiner"
+        },
+        "component": {
+          "id": "antiseptic"
+        }
+      },
+      {
+        "item": {
+          "id": "syringe",
+          "name": {
+            "en": "Syringe",
+            "de": "Spritze",
+            "fr": "Seringue",
+            "es": "Jeringa",
+            "pt": "Seringa",
+            "pl": "Strzykawka",
+            "no": "Sprøyte",
+            "da": "Sprøjte",
+            "it": "Siringa",
+            "ru": "Шприц",
+            "ja": "注射器",
+            "zh-TW": "注射器",
+            "uk": "Шприц",
+            "zh-CN": "注射器",
+            "kr": "주사기",
+            "tr": "Şırınga",
+            "hr": "Štrcaljka",
+            "sr": "Špric"
+          },
+          "description": {
+            "en": "Used to craft medical supplies. Can be recycled into plastic. Used to craft: Vita Shot",
+            "de": "Wird zur Herstellung medizinischer Vorräte verwendet. Kann zu Plastik recycelt werden. Wird verwendet für: Vita-Spritze",
+            "fr": "Utilisée pour fabriquer des fournitures médicales. Peut être recyclée en plastique. Utilisée pour fabriquer : Vita Shot",
+            "es": "Se usa para fabricar suministros médicos. Se puede reciclar en plástico. Se usa para fabricar: Inyección de Vita",
+            "pt": "Usada para fabricar suprimentos médicos. Pode ser reciclada em plástico. Usada para fabricar: Injeção Vita",
+            "pl": "Używana do wytwarzania zapasów medycznych. Można przetworzyć na plastik. Używana do wytworzenia: Zastrzyk Vita",
+            "no": "Brukes til å lage medisinske forsyninger. Kan resirkuleres til plast. Brukes til å lage: Vita-sprøyte",
+            "da": "Bruges til at lave medicinske forsyninger. Kan genbruges til plastik. Bruges til at lave: Vita-indsprøjtning",
+            "it": "Usata per creare forniture mediche. Può essere riciclata in plastica. Usata per creare: Iniezione Vita",
+            "ru": "Используется для создания медицинских принадлежностей. Можно переработать в пластик. Используется для крафта: Вита-укол",
+            "ja": "医療品のクラフトに使用。プラスチックにリサイクル可能。クラフト用途：ヴィータショット",
+            "zh-TW": "用於製作醫療用品。可回收為塑膠。用於製作：活力注射劑",
+            "uk": "Використовується для створення медичних приладь. Можна переробити на пластик. Використовується для крафту: Віта-укол",
+            "zh-CN": "用于制作医疗用品。可回收为塑料。用于制作：活力注射剂",
+            "kr": "의료 용품 제작에 사용. 플라스틱으로 재활용 가능. 제작 용도: 비타 샷",
+            "tr": "Tıbbi malzeme üretmek için kullanılır. Plastiğe geri dönüştürülebilir. Üretim: Vita İğnesi",
+            "hr": "Koristi se za izradu medicinskih potrepština. Može se reciklirati u plastiku. Koristi se za izradu: Vita Injekcija",
+            "sr": "Koristi se za izradu medicinskih potrepština. Može se reciklirati u plastiku. Koristi se za izradu: Vita Injekcija"
+          },
+          "type": "Topside Material",
+          "rarity": "Rare",
+          "value": 500,
+          "recyclesInto": {
+            "plastic_parts": 3,
+            "chemicals": 2
+          },
+          "salvagesInto": {
+            "plastic_parts": 2
+          },
+          "weightKg": 0.3,
+          "stackSize": 5,
+          "foundIn": "Medical",
+          "imageFilename": "https://cdn.arctracker.io/items/syringe.png",
+          "updatedAt": "11/03/2025"
+        },
+        "component": {
+          "id": "syringe"
+        }
+      }
+    ],
     "icon": "https://cdn.arctracker.io/items/vita_shot.png",
     "item_type": "Quick Use",
     "stat_block": {
@@ -123411,9 +123812,9 @@
       "it": "Convertitore di tensione",
       "ru": "Преобразователь напряжения",
       "ja": "電圧変換器",
-      "zh-TW": "電壓轉換器",
+      "zh-TW": "變壓器",
       "uk": "Перетворювач напруги",
-      "zh-CN": "电压转换器",
+      "zh-CN": "变电器",
       "kr": "전압 변환기",
       "tr": "Voltaj Dönüştürücü",
       "hr": "Pretvarač Napona",
@@ -124113,7 +124514,7 @@
             "ja": "エクソダスモジュール",
             "zh-TW": "出埃及模組",
             "uk": "Модулі Виходу",
-            "zh-CN": "出埃及模组",
+            "zh-CN": "离浊模块",
             "kr": "엑소더스 모듈",
             "tr": "Exodus Modülleri",
             "hr": "Exodus Moduli",
@@ -127622,9 +128023,9 @@
             "it": "Convertitore di tensione",
             "ru": "Преобразователь напряжения",
             "ja": "電圧変換器",
-            "zh-TW": "電壓轉換器",
+            "zh-TW": "變壓器",
             "uk": "Перетворювач напруги",
-            "zh-CN": "电压转换器",
+            "zh-CN": "变电器",
             "kr": "전압 변환기",
             "tr": "Voltaj Dönüştürücü",
             "hr": "Pretvarač Napona",
@@ -128281,11 +128682,11 @@
           "rarity": "Uncommon",
           "value": 640,
           "recyclesInto": {
-            "metal_parts": 8,
-            "steel_spring": 2
+            "metal_parts": 3,
+            "rubber_parts": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/mechanical_components.png",
-          "updatedAt": "11/03/2025",
+          "updatedAt": "11/23/2025",
           "weightKg": 0.5,
           "stackSize": 10,
           "foundIn": "Mechanical",

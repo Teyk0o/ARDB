@@ -3190,6 +3190,158 @@
       }
     ]
   },
+  "stitcher_i": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "stitcher_i",
+        "recycleComponentId": "metal_parts",
+        "recycleComponentName": "Metal Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "stitcher_i",
+            "itemName": "Stitcher I",
+            "targetId": "metal_parts",
+            "targetName": "Metal Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "metal_parts",
+            "itemName": "Metal Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "stitcher_i",
+        "recycleComponentId": "rubber_parts",
+        "recycleComponentName": "Rubber Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "stitcher_i",
+            "itemName": "Stitcher I",
+            "targetId": "rubber_parts",
+            "targetName": "Rubber Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "rubber_parts",
+            "itemName": "Rubber Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "stitcher_ii": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "stitcher_ii",
+        "recycleComponentId": "metal_parts",
+        "recycleComponentName": "Metal Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "stitcher_ii",
+            "itemName": "Stitcher II",
+            "targetId": "metal_parts",
+            "targetName": "Metal Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "metal_parts",
+            "itemName": "Metal Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "stitcher_ii",
+        "recycleComponentId": "rubber_parts",
+        "recycleComponentName": "Rubber Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "stitcher_ii",
+            "itemName": "Stitcher II",
+            "targetId": "rubber_parts",
+            "targetName": "Rubber Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "rubber_parts",
+            "itemName": "Rubber Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "stitcher_iii": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "stitcher_iii",
+        "recycleComponentId": "metal_parts",
+        "recycleComponentName": "Metal Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "stitcher_iii",
+            "itemName": "Stitcher III",
+            "targetId": "metal_parts",
+            "targetName": "Metal Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "metal_parts",
+            "itemName": "Metal Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "stitcher_iv": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "stitcher_iv",
+        "recycleComponentId": "mechanical_components",
+        "recycleComponentName": "Mechanical Components",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "stitcher_iv",
+            "itemName": "Stitcher IV",
+            "targetId": "mechanical_components",
+            "targetName": "Mechanical Components"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "mechanical_components",
+            "itemName": "Mechanical Components",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "2"
+          }
+        ]
+      }
+    ]
+  },
   "surveyor_vault": {
     "tag": "keep",
     "reasons": [
