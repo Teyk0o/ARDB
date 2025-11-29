@@ -1,0 +1,55 @@
+{
+  "id": "tattered_clothes",
+  "name": {
+    "en": "Tattered Clothes",
+    "de": "Zerfetzte Kleidung",
+    "fr": "Vêtements en Lambeaux",
+    "es": "Ropa Andrajosa",
+    "pt": "Roupas Esfarrapadas",
+    "pl": "Podarte Ubrania",
+    "no": "Fillete Klær",
+    "da": "Pjaltede Tøj",
+    "it": "Vestiti Logori",
+    "ru": "Рваная одежда",
+    "ja": "ぼろぼろの服",
+    "zh-TW": "破爛衣物",
+    "uk": "Подерта одежа",
+    "zh-CN": "破烂衣物",
+    "kr": "너덜너덜한 옷",
+    "tr": "Yırtık Giysiler",
+    "hr": "Pocijepana odjeća",
+    "sr": "Pocepana odeća"
+  },
+  "description": {
+    "en": "Can be recycled into fabric.",
+    "de": "Kann zu Stoff recycelt werden.",
+    "fr": "Peut être recyclé en tissu.",
+    "es": "Puede reciclarse en tela.",
+    "pt": "Pode ser reciclado em tecido.",
+    "pl": "Można przetworzyć na tkaninę.",
+    "no": "Kan resirkuleres til stoff.",
+    "da": "Kan genbruges til stof.",
+    "it": "Può essere riciclato in tessuto.",
+    "ru": "Можно переработать в ткань.",
+    "ja": "布にリサイクルできます。",
+    "zh-TW": "可回收為布料。",
+    "uk": "Можна переробити на тканину.",
+    "zh-CN": "可回收为布料。",
+    "kr": "천으로 재활용할 수 있습니다.",
+    "tr": "Kumaşa dönüştürülmek üzere geri dönüştürülebilir.",
+    "hr": "Može se reciklirati u tkaninu.",
+    "sr": "Može se reciklirati u tkaninu."
+  },
+  "rarity": "Uncommon",
+  "type": "Recyclable",
+  "value": 270,
+  "foundIn": "Residential",
+  "recyclesInto": {
+    "fabric": 11
+  },
+  "salvagesInto": {
+    "fabric": 5
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/tattered_clothes.png",
+  "updatedAt": "11/10/2025"
+}

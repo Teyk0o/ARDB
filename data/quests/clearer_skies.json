@@ -5,7 +5,7 @@
     "en": "Clearer Skies",
     "de": "Klarer Himmel",
     "fr": "Cieux plus clairs",
-    "es": "Cielos despejados",
+    "es": "Cielos más despejados",
     "pt": "Céus mais claros",
     "pl": "Jaśniejsze niebo",
     "no": "Klarere himmel",
@@ -22,9 +22,6 @@
     "hr": "Vedro Nebo"
   },
   "trader": "Shani",
-"description": {
-    "de": "Ein Schwarm orientierungsloser Wespen ist in der Nähe eines unserer Oberlichter abgestürzt. Du musst die Reihen der ARC lichten, bevor noch mehr Unfälle passieren. Und kannst du ein paar besonders robuste Materialien sammeln, um den Schaden zu beheben?"
-  },  
   "objectives": [
     {
       "en": "Destroy 3 ARC enemies",
@@ -48,7 +45,7 @@
     },
     {
       "en": "Get 3 ARC Alloy for Shani",
-      "de": "3 ARC-Legierungen für Shani besorgen",
+      "de": "3 ARC-Legierung für Shani besorgen",
       "fr": "Obtenez 3 alliages ARC pour Shani",
       "es": "Consigue 3 aleaciones ARC para Shani",
       "pt": "Consiga 3 ligas ARC para Shani",
