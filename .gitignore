@@ -93,3 +93,5 @@ Desktop.ini
 .eslintcache
 .stylelintcache
 /.claude/
+__pycache__/
+*.pyc
