@@ -6,16 +6,21 @@
     "dev": "next dev",
     "build": "npm run generate-tags && next build",
     "generate-tags": "npx tsx scripts/generate-tags.ts",
+    "migrate": "npx tsx scripts/migrate-db.ts",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
     "@vercel/analytics": "^1.5.0",
+    "@vercel/postgres": "^0.10.0",
+    "dotenv": "^17.2.3",
+    "jose": "^5.9.6",
     "leaflet": "^1.9.4",
     "next": "16.0.1",
     "react": "19.2.0",
     "react-dom": "19.2.0",
-    "react-icons": "^5.5.0"
+    "react-icons": "^5.5.0",
+    "react-window": "^2.2.3"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
