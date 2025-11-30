@@ -17,7 +17,7 @@ export default function WorkshopUpgradesPage() {
   const getInitialLanguage = (): Language => {
     if (typeof window !== 'undefined') {
       const saved = localStorage.getItem('arc-db-language') as Language;
-      if (saved && ['en', 'fr', 'de', 'es', 'pt', 'pl', 'no', 'da', 'it', 'ru', 'ja', 'zh-TW', 'uk', 'zh-CN', 'kr', 'tr', 'hr', 'sr'].includes(saved)) {
+      if (saved && ['en', 'fr', 'es', 'de', 'zh-CN'].includes(saved)) {
         return saved;
       }
     }
@@ -128,20 +128,7 @@ export default function WorkshopUpgradesPage() {
       fr: { Common: 'Commun', Uncommon: 'Peu commun', Rare: 'Rare', Epic: 'Épique', Legendary: 'Légendaire', Artifact: 'Artefact' },
       de: { Common: 'Gewöhnlich', Uncommon: 'Ungewöhnlich', Rare: 'Selten', Epic: 'Episch', Legendary: 'Legendär', Artifact: 'Artefakt' },
       es: { Common: 'Común', Uncommon: 'Poco común', Rare: 'Raro', Epic: 'Épico', Legendary: 'Legendario', Artifact: 'Artefacto' },
-      pt: { Common: 'Comum', Uncommon: 'Incomum', Rare: 'Raro', Epic: 'Épico', Legendary: 'Lendário', Artifact: 'Artefato' },
-      pl: { Common: 'Pospolity', Uncommon: 'Niepospolity', Rare: 'Rzadki', Epic: 'Epicki', Legendary: 'Legendarny', Artifact: 'Artefakt' },
-      no: { Common: 'Vanlig', Uncommon: 'Uvanlig', Rare: 'Sjelden', Epic: 'Episk', Legendary: 'Legendarisk', Artifact: 'Artefakt' },
-      da: { Common: 'Almindelig', Uncommon: 'Ualmindelig', Rare: 'Sjælden', Epic: 'Episk', Legendary: 'Legendarisk', Artifact: 'Artefakt' },
-      it: { Common: 'Comune', Uncommon: 'Non comune', Rare: 'Raro', Epic: 'Epico', Legendary: 'Leggendario', Artifact: 'Artefatto' },
-      ru: { Common: 'Обычный', Uncommon: 'Необычный', Rare: 'Редкий', Epic: 'Эпический', Legendary: 'Легендарный', Artifact: 'Артефакт' },
-      ja: { Common: 'コモン', Uncommon: 'アンコモン', Rare: 'レア', Epic: 'エピック', Legendary: 'レジェンダリー', Artifact: 'アーティファクト' },
-      'zh-TW': { Common: '普通', Uncommon: '不常見', Rare: '稀有', Epic: '史詩', Legendary: '傳說', Artifact: '神器' },
-      uk: { Common: 'Звичайний', Uncommon: 'Незвичайний', Rare: 'Рідкісний', Epic: 'Епічний', Legendary: 'Легендарний', Artifact: 'Артефакт' },
       'zh-CN': { Common: '普通', Uncommon: '不常见', Rare: '稀有', Epic: '史诗', Legendary: '传说', Artifact: '神器' },
-      kr: { Common: '일반', Uncommon: '고급', Rare: '희귀', Epic: '영웅', Legendary: '전설', Artifact: '유물' },
-      tr: { Common: 'Sıradan', Uncommon: 'Nadir', Rare: 'Ender', Epic: 'Destansı', Legendary: 'Efsanevi', Artifact: 'Eser' },
-      hr: { Common: 'Uobičajeno', Uncommon: 'Neuobičajeno', Rare: 'Rijetko', Epic: 'Epsko', Legendary: 'Legendarno', Artifact: 'Artefakt' },
-      sr: { Common: 'Uobičajeno', Uncommon: 'Neuobičajeno', Rare: 'Retko', Epic: 'Epsko', Legendary: 'Legendarno', Artifact: 'Artefakt' }
     };
     return labels[language]?.[rarity] || rarity;
   };
@@ -185,87 +172,6 @@ export default function WorkshopUpgradesPage() {
         refiner: 'Refinería',
         scrappy: 'Scrappy'
       },
-      pt: {
-        gunsmith: 'Armeiro',
-        gear_bench: 'Bancada de equipamento',
-        medical_lab: 'Laboratório médico',
-        explosives_station: 'Estação de explosivos',
-        utility_station: 'Estação de utilidades',
-        refiner: 'Refinaria',
-        scrappy: 'Scrappy'
-      },
-      pl: {
-        gunsmith: 'Kowal',
-        gear_bench: 'Warsztat wyposażenia',
-        medical_lab: 'Laboratorium medyczne',
-        explosives_station: 'Stacja materiałów wybuchowych',
-        utility_station: 'Stacja narzędziowa',
-        refiner: 'Rafineria',
-        scrappy: 'Scrappy'
-      },
-      no: {
-        gunsmith: 'Våpensmed',
-        gear_bench: 'Utstyrsbenk',
-        medical_lab: 'Medisinsk laboratorium',
-        explosives_station: 'Sprengstoffstasjon',
-        utility_station: 'Verktøystasjon',
-        refiner: 'Raffineri',
-        scrappy: 'Scrappy'
-      },
-      da: {
-        gunsmith: 'Våbensmed',
-        gear_bench: 'Udstyrsbænk',
-        medical_lab: 'Medicinsk laboratorium',
-        explosives_station: 'Sprængstofstation',
-        utility_station: 'Værktøjsstation',
-        refiner: 'Raffinaderi',
-        scrappy: 'Scrappy'
-      },
-      it: {
-        gunsmith: 'Armaiolo',
-        gear_bench: 'Banco attrezzatura',
-        medical_lab: 'Laboratorio medico',
-        explosives_station: 'Stazione esplosivi',
-        utility_station: 'Stazione utilità',
-        refiner: 'Raffineria',
-        scrappy: 'Scrappy'
-      },
-      ru: {
-        gunsmith: 'Оружейник',
-        gear_bench: 'Верстак снаряжения',
-        medical_lab: 'Медицинская лаборатория',
-        explosives_station: 'Станция взрывчатки',
-        utility_station: 'Станция инструментов',
-        refiner: 'Нефтеперерабатывающий завод',
-        scrappy: 'Scrappy'
-      },
-      ja: {
-        gunsmith: '武器職人',
-        gear_bench: '装備作業台',
-        medical_lab: '医療研究所',
-        explosives_station: '爆発物ステーション',
-        utility_station: 'ユーティリティステーション',
-        refiner: '精製所',
-        scrappy: 'Scrappy'
-      },
-      'zh-TW': {
-        gunsmith: '槍械工坊',
-        gear_bench: '裝備工作台',
-        medical_lab: '醫療實驗室',
-        explosives_station: '爆破物站',
-        utility_station: '工具站',
-        refiner: '精煉廠',
-        scrappy: 'Scrappy'
-      },
-      uk: {
-        gunsmith: 'Зброяр',
-        gear_bench: 'Верстак спорядження',
-        medical_lab: 'Медична лабораторія',
-        explosives_station: 'Станція вибухівки',
-        utility_station: 'Станція інструментів',
-        refiner: 'Нафтопереробний завод',
-        scrappy: 'Scrappy'
-      },
       'zh-CN': {
         gunsmith: '枪械工坊',
         gear_bench: '装备工作台',
@@ -273,42 +179,6 @@ export default function WorkshopUpgradesPage() {
         explosives_station: '爆破物站',
         utility_station: '工具站',
         refiner: '精炼厂',
-        scrappy: 'Scrappy'
-      },
-      kr: {
-        gunsmith: '총기공',
-        gear_bench: '장비 작업대',
-        medical_lab: '의료 연구소',
-        explosives_station: '폭발물 스테이션',
-        utility_station: '유틸리티 스테이션',
-        refiner: '정제소',
-        scrappy: 'Scrappy'
-      },
-      tr: {
-        gunsmith: 'Silahçı',
-        gear_bench: 'Ekipman Tezgahı',
-        medical_lab: 'Tıbbi Laboratuvar',
-        explosives_station: 'Patlayıcı İstasyonu',
-        utility_station: 'Araç İstasyonu',
-        refiner: 'Rafineri',
-        scrappy: 'Scrappy'
-      },
-      hr: {
-        gunsmith: 'Oružar',
-        gear_bench: 'Klupa za opremu',
-        medical_lab: 'Medicinski laboratorij',
-        explosives_station: 'Stanica eksploziva',
-        utility_station: 'Stanica alata',
-        refiner: 'Rafinerija',
-        scrappy: 'Scrappy'
-      },
-      sr: {
-        gunsmith: 'Oružar',
-        gear_bench: 'Klupa za opremu',
-        medical_lab: 'Medicinski laboratorij',
-        explosives_station: 'Stanica eksploziva',
-        utility_station: 'Stanica alata',
-        refiner: 'Rafinerija',
         scrappy: 'Scrappy'
       }
     };

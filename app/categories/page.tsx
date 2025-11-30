@@ -13,7 +13,7 @@ export default function CategoriesPage() {
     setIsMounted(true);
     // Get language from localStorage
     const saved = localStorage.getItem('arc-db-language') as Language;
-    if (saved && ['en', 'fr', 'de', 'es', 'pt', 'pl', 'no', 'da', 'it', 'ru', 'ja', 'zh-TW', 'uk', 'zh-CN', 'kr', 'tr', 'hr', 'sr'].includes(saved)) {
+    if (saved && ['en', 'fr', 'es', 'de', 'zh-CN'].includes(saved)) {
       setLanguage(saved);
     }
   }, []);
@@ -60,7 +60,7 @@ export default function CategoriesPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-arc-blue">
+    <div className="min-h-screen" style={{ backgroundColor: '#130918' }}>
       {/* Header */}
       <MainHeader language={language} setLanguage={setLanguage} />
 
@@ -79,15 +79,32 @@ export default function CategoriesPage() {
             <a
               key={category.key}
               href={`/${filterQuery}`}
-              className="group bg-arc-blue-light border-2 border-arc-blue-lighter hover:border-arc-yellow rounded-lg p-6 transition-all duration-300 hover:shadow-lg"
+              className="group rounded-lg p-6 transition-all duration-300 hover:shadow-lg cursor-pointer block"
+              style={{
+                backgroundColor: '#1a1120',
+                border: '1px solid #2d1f38'
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.borderColor = '#f1aa1c';
+                e.currentTarget.style.boxShadow = '0 10px 15px -3px rgba(241, 170, 28, 0.2)';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.borderColor = '#2d1f38';
+                e.currentTarget.style.boxShadow = '';
+              }}
             >
-              <h2 className="text-xl font-bold text-arc-white mb-2 group-hover:text-arc-yellow transition-colors">
+              <h2
+                className="text-xl font-bold mb-2 transition-colors"
+                style={{ color: '#ffffff' }}
+                onMouseEnter={(e) => e.currentTarget.style.color = '#f1aa1c'}
+                onMouseLeave={(e) => e.currentTarget.style.color = '#ffffff'}
+              >
                 {categoryName}
               </h2>
-              <p className="text-arc-white/70 text-sm mb-4">
+              <p className="text-sm mb-4" style={{ color: 'rgba(255, 255, 255, 0.7)' }}>
                 {categoryDesc}
               </p>
-              <div className="text-arc-yellow text-sm font-semibold">
+              <div className="text-sm font-semibold" style={{ color: '#f1aa1c' }}>
                 {t.exploreItems}
               </div>
             </a>
@@ -97,20 +114,32 @@ export default function CategoriesPage() {
 
         {/* Crafting Tips Section */}
         <section className="mt-16">
-          <h2 className="text-2xl font-bold text-arc-white mb-6">{t.gettingStarted}</h2>
+          <h2 className="text-2xl font-bold mb-6" style={{ color: '#ffffff' }}>{t.gettingStarted}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-arc-blue-light border-2 border-arc-yellow/30 rounded-lg p-6">
-              <h3 className="text-lg font-bold text-arc-yellow mb-3">{t.basics}</h3>
-              <ul className="text-arc-white/70 space-y-2 text-sm">
+            <div
+              className="rounded-lg p-6"
+              style={{
+                backgroundColor: '#1a1120',
+                border: '1px solid rgba(241, 170, 28, 0.3)'
+              }}
+            >
+              <h3 className="text-lg font-bold mb-3" style={{ color: '#f1aa1c' }}>{t.basics}</h3>
+              <ul className="space-y-2 text-sm" style={{ color: 'rgba(255, 255, 255, 0.7)' }}>
                 <li>• {t.basicsTip1}</li>
                 <li>• {t.basicsTip2}</li>
                 <li>• {t.basicsTip3}</li>
                 <li>• {t.basicsTip4}</li>
               </ul>
             </div>
-            <div className="bg-arc-blue-light border-2 border-arc-yellow/30 rounded-lg p-6">
-              <h3 className="text-lg font-bold text-arc-yellow mb-3">{t.tips}</h3>
-              <ul className="text-arc-white/70 space-y-2 text-sm">
+            <div
+              className="rounded-lg p-6"
+              style={{
+                backgroundColor: '#1a1120',
+                border: '1px solid rgba(241, 170, 28, 0.3)'
+              }}
+            >
+              <h3 className="text-lg font-bold mb-3" style={{ color: '#f1aa1c' }}>{t.tips}</h3>
+              <ul className="space-y-2 text-sm" style={{ color: 'rgba(255, 255, 255, 0.7)' }}>
                 <li>• {t.tipsTip1}</li>
                 <li>• {t.tipsTip2}</li>
                 <li>• {t.tipsTip3}</li>
@@ -122,26 +151,30 @@ export default function CategoriesPage() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-arc-blue-lighter mt-12 py-8">
+      <footer className="mt-12 py-8" style={{ borderTop: '1px solid #2d1f38' }}>
         <div className="container mx-auto px-4 text-center space-y-2">
-          <p className="text-arc-white/70 text-sm">
-            <a href="/" className="text-arc-yellow hover:underline">
+          <p className="text-sm" style={{ color: 'rgba(255, 255, 255, 0.7)' }}>
+            <a
+              href="/"
+              className="font-medium transition-colors cursor-pointer"
+              style={{ color: '#f1aa1c' }}
+              onMouseEnter={(e) => e.currentTarget.style.opacity = '0.8'}
+              onMouseLeave={(e) => e.currentTarget.style.opacity = '1'}
+            >
               {t.backToDatabase}
-            </a>
-          </p>
-          <p className="text-arc-white/70 text-sm">
-            <a href="/translate" className="text-arc-yellow hover:underline">
-              {t.categoriesTitle} - Help Translate
             </a>
           </p>
           {language === 'fr' && (
             <div className="flex items-center justify-center gap-2">
-              <span className="text-arc-white/60 text-sm">Rejoignez l&apos;équipe francophone</span>
+              <span className="text-sm" style={{ color: 'rgba(255, 255, 255, 0.6)' }}>Rejoignez l&apos;équipe francophone</span>
               <a
                 href="https://discord.gg/54EQD8fpky"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-arc-yellow hover:text-arc-yellow/80 font-bold text-sm transition-colors underline"
+                className="font-bold text-sm transition-colors cursor-pointer"
+                style={{ color: '#f1aa1c' }}
+                onMouseEnter={(e) => e.currentTarget.style.opacity = '0.8'}
+                onMouseLeave={(e) => e.currentTarget.style.opacity = '1'}
               >
                 The Vanguard Protocol
               </a>

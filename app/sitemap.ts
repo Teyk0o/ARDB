@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 
-const languages = ['en', 'fr', 'de', 'es', 'pt', 'pl', 'no', 'da', 'it', 'ru', 'ja', 'zh-TW', 'uk', 'zh-CN', 'kr', 'tr', 'hr', 'sr'];
+const languages = ['en', 'fr', 'es', 'de', 'zh-CN'];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.arcraidersdatabase.com';
@@ -26,18 +26,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       alternates: {
         languages: languages.reduce((acc, lang) => {
           acc[lang] = `${baseUrl}/categories`;
-          return acc;
-        }, {} as Record<string, string>),
-      },
-    },
-    {
-      url: `${baseUrl}/translate`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.6,
-      alternates: {
-        languages: languages.reduce((acc, lang) => {
-          acc[lang] = `${baseUrl}/translate`;
           return acc;
         }, {} as Record<string, string>),
       },

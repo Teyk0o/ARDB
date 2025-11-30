@@ -14,7 +14,7 @@ export default function ProjectsPage() {
   const getInitialLanguage = (): Language => {
     if (typeof window !== 'undefined') {
       const saved = localStorage.getItem('arc-db-language') as Language;
-      if (saved && ['en', 'fr', 'de', 'es', 'pt', 'pl', 'no', 'da', 'it', 'ru', 'ja', 'zh-TW', 'uk', 'zh-CN', 'kr', 'tr', 'hr', 'sr'].includes(saved)) {
+      if (saved && ['en', 'fr', 'es', 'de', 'zh-CN'].includes(saved)) {
         return saved;
       }
     }
@@ -147,20 +147,7 @@ export default function ProjectsPage() {
       fr: { Common: 'Commun', Uncommon: 'Peu commun', Rare: 'Rare', Epic: 'Épique', Legendary: 'Légendaire', Artifact: 'Artefact' },
       de: { Common: 'Gewöhnlich', Uncommon: 'Ungewöhnlich', Rare: 'Selten', Epic: 'Episch', Legendary: 'Legendär', Artifact: 'Artefakt' },
       es: { Common: 'Común', Uncommon: 'Poco común', Rare: 'Raro', Epic: 'Épico', Legendary: 'Legendario', Artifact: 'Artefacto' },
-      pt: { Common: 'Comum', Uncommon: 'Incomum', Rare: 'Raro', Epic: 'Épico', Legendary: 'Lendário', Artifact: 'Artefato' },
-      pl: { Common: 'Pospolity', Uncommon: 'Niepospolity', Rare: 'Rzadki', Epic: 'Epicki', Legendary: 'Legendarny', Artifact: 'Artefakt' },
-      no: { Common: 'Vanlig', Uncommon: 'Uvanlig', Rare: 'Sjelden', Epic: 'Episk', Legendary: 'Legendarisk', Artifact: 'Artefakt' },
-      da: { Common: 'Almindelig', Uncommon: 'Ualmindelig', Rare: 'Sjælden', Epic: 'Episk', Legendary: 'Legendarisk', Artifact: 'Artefakt' },
-      it: { Common: 'Comune', Uncommon: 'Non comune', Rare: 'Raro', Epic: 'Epico', Legendary: 'Leggendario', Artifact: 'Artefatto' },
-      ru: { Common: 'Обычный', Uncommon: 'Необычный', Rare: 'Редкий', Epic: 'Эпический', Legendary: 'Легендарный', Artifact: 'Артефакт' },
-      ja: { Common: 'コモン', Uncommon: 'アンコモン', Rare: 'レア', Epic: 'エピック', Legendary: 'レジェンダリー', Artifact: 'アーティファクト' },
-      'zh-TW': { Common: '普通', Uncommon: '不常見', Rare: '稀有', Epic: '史詩', Legendary: '傳說', Artifact: '神器' },
-      uk: { Common: 'Звичайний', Uncommon: 'Незвичайний', Rare: 'Рідкісний', Epic: 'Епічний', Legendary: 'Легендарний', Artifact: 'Артефакт' },
       'zh-CN': { Common: '普通', Uncommon: '不常见', Rare: '稀有', Epic: '史诗', Legendary: '传说', Artifact: '神器' },
-      kr: { Common: '일반', Uncommon: '고급', Rare: '희귀', Epic: '영웅', Legendary: '전설', Artifact: '유물' },
-      tr: { Common: 'Sıradan', Uncommon: 'Nadir', Rare: 'Ender', Epic: 'Destansı', Legendary: 'Efsanevi', Artifact: 'Eser' },
-      hr: { Common: 'Uobičajeno', Uncommon: 'Neuobičajeno', Rare: 'Rijetko', Epic: 'Epsko', Legendary: 'Legendarno', Artifact: 'Artefakt' },
-      sr: { Common: 'Uobičajeno', Uncommon: 'Neuobičajeno', Rare: 'Retko', Epic: 'Epsko', Legendary: 'Legendarno', Artifact: 'Artefakt' }
     };
     return labels[language]?.[rarity] || rarity;
   };
