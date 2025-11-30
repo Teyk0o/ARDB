@@ -6,6 +6,7 @@ export interface ItemComponent {
     item_type?: string;
     rarity?: string;
     description?: string;
+    nameTranslations?: { [key: string]: string };
   };
   component?: {
     id: string;
@@ -14,6 +15,7 @@ export interface ItemComponent {
     item_type?: string;
     rarity?: string;
     description?: string;
+    nameTranslations?: { [key: string]: string };
   };
   quantity: number;
 }
@@ -35,6 +37,7 @@ export interface Item {
   icon?: string;
   rarity?: string;
   value?: number;
+  max_stack?: number;
   workbench?: string | null;
   loadout_slots?: string[];
 
@@ -70,6 +73,13 @@ export interface Item {
   // Timestamps
   created_at?: string;
   updated_at?: string;
+
+  // Community edit metadata
+  communityEdited?: boolean;
+  lastEditId?: number;
+
+  // Index signature for compatibility with Record<string, unknown>
+  [key: string]: unknown;
 }
 
 export interface FilterOptions {
