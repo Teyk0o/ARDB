@@ -4,9 +4,9 @@ import { transformItem } from '@/lib/itemTransformer';
 import { normalizeSearchText } from '@/lib/searchUtils';
 import { similarityScore } from '@/lib/fuzzySearch';
 
-type Language = 'en' | 'fr' | 'de' | 'es' | 'pt' | 'pl' | 'no' | 'da' | 'it' | 'ru' | 'ja' | 'zh-TW' | 'uk' | 'zh-CN' | 'kr' | 'tr' | 'hr' | 'sr';
+type Language = 'en' | 'fr' | 'es' | 'de' | 'zh-CN';
 
-const SUPPORTED_LANGUAGES: Language[] = ['en', 'fr', 'de', 'es', 'pt', 'pl', 'no', 'da', 'it', 'ru', 'ja', 'zh-TW', 'uk', 'zh-CN', 'kr', 'tr', 'hr', 'sr'];
+const SUPPORTED_LANGUAGES: Language[] = ['en', 'fr', 'es', 'de', 'zh-CN'];
 
 interface MultilingualField {
   [key: string]: string;
@@ -141,6 +141,34 @@ export async function GET(
 
     // Transform the item to the requested language
     const transformedItem = transformItem(searchResult.item, lang);
+
+    // Apply community overrides if any
+    const { getItemOverride } = await import('@/lib/db/db');
+    const { deepMerge } = await import('@/lib/itemLoader');
+
+    try {
+      const override = await getItemOverride(transformedItem.id);
+
+      if (override) {
+        // Merge override data with base item
+        const mergedItem = deepMerge(transformedItem, override.override_data);
+        mergedItem.communityEdited = true;
+        mergedItem.lastEditId = override.last_edit_id || undefined;
+
+        return NextResponse.json({
+          success: true,
+          query,
+          matchType: searchResult.matchType,
+          matchedLanguage: searchResult.matchedLanguage,
+          matchScore: searchResult.score,
+          responseLanguage: lang,
+          item: mergedItem,
+        });
+      }
+    } catch (overrideError) {
+      console.error('Failed to load override:', overrideError);
+      // Continue with base item if override fails
+    }
 
     // Prepare response with metadata
     const response = {

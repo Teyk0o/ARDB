@@ -1,18 +1,17 @@
 import { NextResponse } from 'next/server';
-import itemsData from '@/data/items.json';
-import { transformItems } from '@/lib/itemTransformer';
+import { getAllItemsWithOverrides } from '@/lib/itemLoader';
 
-type Language = 'en' | 'fr' | 'de' | 'es' | 'pt' | 'pl' | 'no' | 'da' | 'it' | 'ru' | 'ja' | 'zh-TW' | 'uk' | 'zh-CN' | 'kr' | 'tr' | 'hr' | 'sr';
+type Language = 'en' | 'fr' | 'es' | 'de' | 'zh-CN';
 
 export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url);
     const lang = (searchParams.get('lang') || 'en') as Language;
 
-    // Transform items to include language-specific translations
-    const transformedItems = transformItems(itemsData as any, lang);
+    // Get items with community overrides applied
+    const items = await getAllItemsWithOverrides(lang);
 
-    return NextResponse.json(transformedItems);
+    return NextResponse.json(items);
   } catch (error) {
     console.error('Error loading items:', error);
     return NextResponse.json(
@@ -21,3 +20,6 @@ export async function GET(request: Request) {
     );
   }
 }
+
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
