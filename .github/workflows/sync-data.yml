@@ -71,6 +71,9 @@ jobs:
           # Generate changelog
           node scripts/generate-changelog.js
 
+          # Clean up temporary directory
+          rm -rf temp-items
+
           echo "✅ Items sync completed"
 
       # ===== SYNC PROJECTS =====
@@ -139,108 +142,40 @@ jobs:
             echo "✓ Changes detected"
           fi
 
-      # ===== GENERATE PR BODY =====
-      - name: Generate PR Description
+      # ===== COMMIT AND PUSH TO MAIN =====
+      - name: Commit and Push Changes
         if: steps.changes.outputs.changes_detected == 'true'
         run: |
-          # Check which syncs succeeded
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Add all data changes
+          git add data/
+
+          # Create commit with detailed message
           ITEMS_STATUS="${{ steps.sync_items.outcome }}"
           PROJECTS_STATUS="${{ steps.sync_projects.outcome }}"
           QUESTS_STATUS="${{ steps.sync_quests.outcome }}"
           TAGS_STATUS="${{ steps.regenerate_tags.outcome }}"
 
-          cat > pr-body.md << EOF
-          ## 🔄 Automated Data Synchronization
+          cat > commit-message.txt << EOF
+          chore: sync all data from upstream
 
-          Synchronizes all game data from [RaidTheory/arcraiders-data](https://github.com/RaidTheory/arcraiders-data).
+          Automated data synchronization from RaidTheory/arcraiders-data
 
-          ### 📊 Sync Results
+          Sync Results:
+          - Items: ${ITEMS_STATUS}
+          - Projects: ${PROJECTS_STATUS}
+          - Quests: ${QUESTS_STATUS}
+          - Tags: ${TAGS_STATUS}
 
-          | Data Type | Status | Notes |
-          |-----------|:------:|-------|
-          | **Items** | $([ "$ITEMS_STATUS" = "success" ] && echo "✅" || echo "❌") | $([ "$ITEMS_STATUS" = "success" ] && echo "Items data, changelog, and snapshot updated" || echo "Sync failed - check logs") |
-          | **Projects** | $([ "$PROJECTS_STATUS" = "success" ] && echo "✅" || echo "❌") | $([ "$PROJECTS_STATUS" = "success" ] && echo "Projects data synchronized" || echo "Sync failed - check logs") |
-          | **Quests** | $([ "$QUESTS_STATUS" = "success" ] && echo "✅" || echo "❌") | $([ "$QUESTS_STATUS" = "success" ] && echo "Quest files synchronized" || echo "Sync failed - check logs") |
-          | **Item Tags** | $([ "$TAGS_STATUS" = "success" ] && echo "✅" || echo "❌") | $([ "$TAGS_STATUS" = "success" ] && echo "Tags regenerated (keep/sell/recycle)" || echo "Generation failed - check logs") |
-
-          ### 📝 Changes Included
-
-          <details>
-          <summary><b>📦 Items Data</b></summary>
-
-          - Downloaded latest items from upstream
-          - Merged recipe/recycling relationships
-          - Removed duplicates
-          - Generated changelog with detected changes
-          - Updated snapshot for next sync
-
-          </details>
-
-          <details>
-          <summary><b>🎯 Projects Data</b></summary>
-
-          - Synchronized projects.json from upstream
-          - Projects define crafting progression and unlocks
-
-          </details>
-
-          <details>
-          <summary><b>📋 Quests Data</b></summary>
-
-          - Synchronized all quest files from upstream
-          - Quests influence item tag recommendations
-
-          </details>
-
-          <details>
-          <summary><b>🏷️ Item Tags</b></summary>
-
-          - Regenerated keep/sell/recycle recommendations
-          - Based on latest items, projects, and quests
-          - Updated tag reasons for transparency
-
-          </details>
-
-          ### ✅ Review Checklist
-
-          - [ ] **Changelog** - Review changes in \`data/changelog.json\`
-          - [ ] **Items Count** - Verify total items count is reasonable
-          - [ ] **Tag Stats** - Check tag distribution (keep/sell/recycle ratios)
-          - [ ] **No Breaking Changes** - Ensure no critical items removed
-          - [ ] **Build Passes** - Verify deployment will succeed
-
-          ### 🔍 How to Review
-
-          1. Check the **Files changed** tab for detailed diffs
-          2. Review \`data/changelog.json\` for added/modified/removed items
-          3. Look at \`data/item-tags-computed.json\` for tag changes
-          4. Verify \`data/projects.json\` and \`data/quests/*.json\` if relevant
-
-          ---
-          🤖 **Automated sync** • Daily at 2 AM UTC • [Workflow](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})
+          Workflow: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
           EOF
 
-      # ===== CREATE PULL REQUEST =====
-      - name: Create Pull Request
-        if: steps.changes.outputs.changes_detected == 'true'
-        uses: peter-evans/create-pull-request@v6
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: |
-            chore: sync all data from upstream
+          git commit -F commit-message.txt
+          git push origin main
 
-            - Items: ${{ steps.sync_items.outcome }}
-            - Projects: ${{ steps.sync_projects.outcome }}
-            - Quests: ${{ steps.sync_quests.outcome }}
-            - Tags: ${{ steps.regenerate_tags.outcome }}
-          title: '🔄 Sync all data from RaidTheory'
-          body-path: pr-body.md
-          branch: sync-data-${{ github.run_number }}
-          delete-branch: true
-          reviewers: Teyk0o
-          labels: |
-            automated
-            data-sync
+          echo "✅ Changes committed and pushed to main"
 
       # ===== SUMMARY =====
       - name: Workflow Summary
@@ -255,4 +190,4 @@ jobs:
           echo "| Quests | ${{ steps.sync_quests.outcome == 'success' && '✅' || '❌' }} |" >> $GITHUB_STEP_SUMMARY
           echo "| Tags | ${{ steps.regenerate_tags.outcome == 'success' && '✅' || '❌' }} |" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "**Changes:** ${{ steps.changes.outputs.changes_detected == 'true' && 'PR created ✓' || 'None detected' }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Changes:** ${{ steps.changes.outputs.changes_detected == 'true' && 'Pushed to main ✓' || 'None detected' }}" >> $GITHUB_STEP_SUMMARY
