@@ -6,7 +6,7 @@ import { Item } from '@/types/item';
 import ItemDetailPageWrapper from '@/components/ItemDetailPageWrapper';
 import { notFound } from 'next/navigation';
 
-type Language = 'en' | 'fr' | 'de' | 'es' | 'pt' | 'pl' | 'no' | 'da' | 'it' | 'ru' | 'ja' | 'zh-TW' | 'uk' | 'zh-CN' | 'kr' | 'tr' | 'hr' | 'sr';
+type Language = 'en' | 'fr' | 'es' | 'de' | 'zh-CN';
 
 interface PageProps {
   params: Promise<{
@@ -68,22 +68,9 @@ export async function generateMetadata(
       languages: {
         'en': itemUrl,
         'fr': itemUrl,
-        'de': itemUrl,
         'es': itemUrl,
-        'pt': itemUrl,
-        'pl': itemUrl,
-        'no': itemUrl,
-        'da': itemUrl,
-        'it': itemUrl,
-        'ru': itemUrl,
-        'ja': itemUrl,
-        'zh-TW': itemUrl,
-        'uk': itemUrl,
+        'de': itemUrl,
         'zh-CN': itemUrl,
-        'kr': itemUrl,
-        'tr': itemUrl,
-        'hr': itemUrl,
-        'sr': itemUrl,
         'x-default': itemUrl,
       },
     },

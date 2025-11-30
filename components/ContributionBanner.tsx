@@ -19,14 +19,14 @@ export default function ContributionBanner() {
 
     // Get language from localStorage (synced with ItemsPage)
     const savedLanguage = localStorage.getItem('arc-db-language') as Language;
-    if (savedLanguage && ['en', 'fr', 'de', 'es', 'pt', 'pl', 'no', 'da', 'it', 'ru', 'ja', 'zh-TW', 'uk', 'zh-CN', 'kr', 'tr', 'hr', 'sr'].includes(savedLanguage)) {
+    if (savedLanguage && ['en', 'fr', 'es', 'de', 'zh-CN'].includes(savedLanguage)) {
       setLanguage(savedLanguage);
     }
 
     // Listen for language changes
     const handleStorageChange = () => {
       const newLanguage = localStorage.getItem('arc-db-language') as Language;
-      if (newLanguage && ['en', 'fr', 'de', 'es', 'pt', 'pl', 'no', 'da', 'it', 'ru', 'ja', 'zh-TW', 'uk', 'zh-CN', 'kr', 'tr', 'hr', 'sr'].includes(newLanguage)) {
+      if (newLanguage && ['en', 'fr', 'es', 'de', 'zh-CN'].includes(newLanguage)) {
         setLanguage(newLanguage);
       }
     };

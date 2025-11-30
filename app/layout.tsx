@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Suspense } from "react";
 import ContributionBanner from "@/components/ContributionBanner";
 import TeamBanner from "@/components/TeamBanner";
 import LanguageDetector from "@/components/LanguageDetector";
 import DiscordButton from "@/components/DiscordButton";
+import AuthRefreshHandler from "@/components/auth/AuthRefreshHandler";
 import { getSEOConfig } from "@/lib/seoConfig";
 import { Analytics } from "@vercel/analytics/next"
 
@@ -22,22 +24,9 @@ export const metadata: Metadata = {
     languages: {
       'en': '/',
       'fr': '/',
-      'de': '/',
       'es': '/',
-      'pt': '/',
-      'pl': '/',
-      'no': '/',
-      'da': '/',
-      'it': '/',
-      'ru': '/',
-      'ja': '/',
-      'zh-TW': '/',
-      'uk': '/',
+      'de': '/',
       'zh-CN': '/',
-      'kr': '/',
-      'tr': '/',
-      'hr': '/',
-      'sr': '/',
       'x-default': '/',
     },
   },
@@ -104,7 +93,7 @@ export default function RootLayout({
       name: 'Teyk0o',
       url: 'https://github.com/Teyk0o',
     },
-    inLanguage: ['en', 'fr', 'de', 'es', 'pt', 'pl', 'no', 'da', 'it', 'ru', 'ja', 'zh-TW', 'uk', 'zh-CN', 'kr', 'tr', 'hr', 'sr'],
+    inLanguage: ['en', 'fr', 'es', 'de', 'zh-CN'],
     about: {
       '@type': 'VideoGame',
       name: 'Arc Raiders',
@@ -139,6 +128,9 @@ export default function RootLayout({
       <body className="antialiased">
         <TeamBanner />
         <LanguageDetector />
+        <Suspense fallback={null}>
+          <AuthRefreshHandler />
+        </Suspense>
         {children}
 		<Analytics />
         <ContributionBanner />
