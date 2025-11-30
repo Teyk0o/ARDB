@@ -38,7 +38,19 @@ function ItemChip({
   return (
     <button
       onClick={onClick}
-      className="flex items-center gap-2 bg-arc-blue-lighter px-3 py-2 rounded border border-arc-white/10 hover:border-arc-yellow/50 cursor-pointer transition-all group hover:bg-arc-blue"
+      className="flex items-center gap-2 px-3 py-2 rounded cursor-pointer transition-all group"
+      style={{
+        backgroundColor: '#130918',
+        border: '1px solid #2d1f38'
+      }}
+      onMouseEnter={(e) => {
+        e.currentTarget.style.borderColor = '#f1aa1c';
+        e.currentTarget.style.backgroundColor = '#1a1120';
+      }}
+      onMouseLeave={(e) => {
+        e.currentTarget.style.borderColor = '#2d1f38';
+        e.currentTarget.style.backgroundColor = '#130918';
+      }}
     >
       {item.icon && (item.icon.startsWith('http://') || item.icon.startsWith('https://')) && !imageFailed ? (
         <Image
@@ -52,11 +64,11 @@ function ItemChip({
       ) : item.icon && (item.icon.startsWith('http://') || item.icon.startsWith('https://')) ? (
         <span className="text-sm">❌</span>
       ) : null}
-      <span className="text-arc-white group-hover:text-arc-yellow transition-colors">
+      <span className="text-white transition-colors">
         {item.name || 'Unknown'}
       </span>
       {quantity && quantity > 1 && (
-        <span className="ml-1 text-arc-yellow/70 text-sm font-semibold">
+        <span className="ml-1 text-sm font-semibold" style={{ color: 'rgba(241, 170, 28, 0.7)' }}>
           x{quantity}
         </span>
       )}
@@ -76,23 +88,37 @@ function AccordionItem({
   onItemClick: (item: Item) => void;
 }) {
   return (
-    <div className={`border rounded-lg overflow-hidden transition-all ${section.borderColor}`}>
+    <div
+      className="rounded-lg overflow-hidden transition-all"
+      style={{ border: '1px solid #2d1f38' }}
+    >
       {/* Header */}
       <button
         onClick={onToggle}
-        className={`w-full px-4 py-3 flex items-center justify-between ${section.bgColor} hover:${section.bgColor.replace('/', '/60')} transition-colors`}
+        className="w-full px-4 py-3 flex items-center justify-between transition-all cursor-pointer"
+        style={{
+          backgroundColor: '#1a1120',
+          border: 'none'
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.backgroundColor = 'rgba(26, 17, 32, 0.7)';
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.backgroundColor = '#1a1120';
+        }}
       >
         <div className="flex items-center gap-3">
           <span className="text-xl">{section.icon}</span>
-          <span className={`font-bold ${section.color}`}>{section.title}</span>
-          <span className={`text-sm ${section.color}/70`}>
+          <span className="font-bold" style={{ color: section.color }}>
+            {section.title}
+          </span>
+          <span className="text-sm" style={{ color: 'rgba(255, 255, 255, 0.5)' }}>
             ({section.components.length})
           </span>
         </div>
         <span
-          className={`text-arc-white/60 transition-transform ${
-            isOpen ? 'rotate-180' : ''
-          }`}
+          className={`transition-transform ${isOpen ? 'rotate-180' : ''}`}
+          style={{ color: 'rgba(255, 255, 255, 0.6)' }}
         >
           ▼
         </span>
@@ -100,7 +126,13 @@ function AccordionItem({
 
       {/* Content */}
       {isOpen && section.components.length > 0 && (
-        <div className={`p-4 bg-arc-blue-lighter/50 border-t ${section.borderColor}`}>
+        <div
+          className="p-4"
+          style={{
+            backgroundColor: 'rgba(26, 17, 32, 0.5)',
+            borderTop: '1px solid #2d1f38'
+          }}
+        >
           <div className="flex flex-wrap gap-2">
             {section.components.map((comp, idx) => {
               const compItem = comp.item || comp.component;
@@ -123,7 +155,14 @@ function AccordionItem({
 
       {/* Empty state */}
       {isOpen && section.components.length === 0 && (
-        <div className={`p-4 bg-arc-blue-lighter/50 border-t ${section.borderColor} text-arc-white/50 text-sm`}>
+        <div
+          className="p-4 text-sm"
+          style={{
+            backgroundColor: 'rgba(26, 17, 32, 0.5)',
+            borderTop: '1px solid #2d1f38',
+            color: 'rgba(255, 255, 255, 0.5)'
+          }}
+        >
           Aucun item
         </div>
       )}
@@ -169,89 +208,11 @@ export default function CraftRelationshipsAccordion({
         recipe: 'Ingredientes requeridos',
         recycle_from: 'Recicla esto para obtenerlo',
       },
-      pt: {
-        recycle_components: 'Itens obtidos pela reciclagem',
-        used_in: 'Componente utilizado para',
-        recipe: 'Ingredientes necessários',
-        recycle_from: 'Recicle isto para obtê-lo',
-      },
-      pl: {
-        recycle_components: 'Przedmioty uzyskane z recyklingu',
-        used_in: 'Komponent użyty do',
-        recipe: 'Wymagane składniki',
-        recycle_from: 'Przetwórz to aby to uzyskać',
-      },
-      no: {
-        recycle_components: 'Gjenstander oppnådd fra gjenvinning',
-        used_in: 'Komponent brukt til',
-        recipe: 'Nødvendige ingredienser',
-        recycle_from: 'Gjenvin dette for å få det',
-      },
-      da: {
-        recycle_components: 'Genstande opnået fra genbrug',
-        used_in: 'Komponent brugt til',
-        recipe: 'Påkrævede ingredienser',
-        recycle_from: 'Genbrug dette for at få det',
-      },
-      it: {
-        recycle_components: 'Oggetti ottenuti dal riciclaggio',
-        used_in: 'Componente utilizzato per',
-        recipe: 'Ingredienti richiesti',
-        recycle_from: 'Ricicla questo per ottenerlo',
-      },
-      ru: {
-        recycle_components: 'Предметы, полученные из переработки',
-        used_in: 'Компонент используется для',
-        recipe: 'Требуемые ингредиенты',
-        recycle_from: 'Переработайте это чтобы получить',
-      },
-      ja: {
-        recycle_components: 'リサイクルで入手できるアイテム',
-        used_in: 'コンポーネント使用用途',
-        recipe: '必要な材料',
-        recycle_from: 'これをリサイクルして入手',
-      },
-      'zh-TW': {
-        recycle_components: '回收獲得的物品',
-        used_in: '組件用於',
-        recipe: '所需材料',
-        recycle_from: '回收此物品來獲得',
-      },
-      uk: {
-        recycle_components: 'Предмети отримані з переробки',
-        used_in: 'Компонент використовується для',
-        recipe: 'Необхідні інгредієнти',
-        recycle_from: 'Переробіть це щоб отримати',
-      },
       'zh-CN': {
         recycle_components: '回收获得的物品',
         used_in: '组件用于',
         recipe: '所需材料',
         recycle_from: '回收此物品来获得',
-      },
-      kr: {
-        recycle_components: '재활용으로 획득한 항목',
-        used_in: '구성 요소 사용 대상',
-        recipe: '필요한 재료',
-        recycle_from: '이를 재활용하여 획득',
-      },
-      tr: {
-        recycle_components: 'Geri dönüşümden elde edilen öğeler',
-        used_in: 'Bileşen kullanıldığı yer',
-        recipe: 'Gerekli malzemeler',
-        recycle_from: 'Bunu elde etmek için geri dönüştür',
-      },
-      hr: {
-        recycle_components: 'Stavke dobivene recikliranjem',
-        used_in: 'Komponenta korištena za',
-        recipe: 'Potrebni sastojci',
-        recycle_from: 'Reciklirajte ovo da biste ga dobili',
-      },
-      sr: {
-        recycle_components: 'Ставке добијене рециклирањем',
-        used_in: 'Компонента коришћена за',
-        recipe: 'Потребни састојци',
-        recycle_from: 'Рециклирајте ово да бисте га добили',
       },
     };
     return titles[language] || titles.en;
@@ -305,7 +266,14 @@ export default function CraftRelationshipsAccordion({
   // If no craft relations, show a message
   if (visibleSections.length === 0) {
     return (
-      <div className="bg-arc-blue-lighter/30 border border-arc-white/10 rounded-lg p-4 text-center text-arc-white/60">
+      <div
+        className="rounded-lg p-4 text-center"
+        style={{
+          backgroundColor: 'rgba(26, 17, 32, 0.3)',
+          border: '1px solid rgba(255, 255, 255, 0.1)',
+          color: 'rgba(255, 255, 255, 0.6)'
+        }}
+      >
         {language === 'fr' ? 'Aucune relation de craft' : 'No craft relationships'}
       </div>
     );

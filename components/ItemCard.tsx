@@ -27,14 +27,35 @@ export default function ItemCard({ item, onClick, language }: ItemCardProps) {
   return (
     <div
       onClick={onClick}
-      className="group relative bg-arc-blue-light border-2 border-arc-blue-lighter rounded-lg p-5 cursor-pointer transition-all duration-300 hover:border-arc-yellow hover:shadow-lg hover:shadow-arc-yellow/20 hover:-translate-y-1 animate-fadeIn overflow-hidden"
+      className="group relative rounded-lg p-5 cursor-pointer transition-all duration-300 hover:shadow-lg hover:-translate-y-1 animate-fadeIn overflow-hidden"
+      style={{
+        backgroundColor: '#1a1120',
+        border: '1px solid #2d1f38'
+      }}
+      onMouseEnter={(e) => {
+        e.currentTarget.style.borderColor = '#f1aa1c';
+        e.currentTarget.style.boxShadow = '0 10px 15px -3px rgba(241, 170, 28, 0.2)';
+      }}
+      onMouseLeave={(e) => {
+        e.currentTarget.style.borderColor = '#2d1f38';
+        e.currentTarget.style.boxShadow = '';
+      }}
     >
-      {/* Grain texture */}
-      <div className="grain-texture absolute inset-0 pointer-events-none" />
-
-      <div className="relative z-10 flex items-start gap-4">
+      <div className="flex items-start gap-4">
         {/* Icon */}
-        <div className="flex-shrink-0 w-20 h-20 bg-arc-blue-lighter rounded-lg flex items-center justify-center overflow-hidden border-2 border-arc-white/20 group-hover:border-arc-yellow/60 transition-colors">
+        <div
+          className="flex-shrink-0 w-20 h-20 rounded-lg flex items-center justify-center overflow-hidden transition-all"
+          style={{
+            backgroundColor: '#130918',
+            border: '2px solid rgba(255, 255, 255, 0.2)'
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.borderColor = 'rgba(241, 170, 28, 0.6)';
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.2)';
+          }}
+        >
           {item.icon && (item.icon.startsWith('http://') || item.icon.startsWith('https://')) && !imageFailed ? (
             <Image
               src={item.icon}
@@ -52,7 +73,16 @@ export default function ItemCard({ item, onClick, language }: ItemCardProps) {
         {/* Content */}
         <div className="flex-1 min-w-0">
           <div className="flex items-start justify-between gap-2">
-            <h3 className="font-bold text-arc-white text-xl leading-tight group-hover:text-arc-yellow transition-colors">
+            <h3
+              className="font-bold text-xl leading-tight transition-colors"
+              style={{ color: '#ffffff' }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.color = '#f1aa1c';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.color = '#ffffff';
+              }}
+            >
               {item.name}
             </h3>
             {item.rarity && (
@@ -69,7 +99,7 @@ export default function ItemCard({ item, onClick, language }: ItemCardProps) {
               </span>
             )}
           </div>
-          <p className="text-arc-white/70 text-base mt-1 font-medium">{getItemTypeLabel(item.item_type, language)}</p>
+          <p className="text-white/70 text-base mt-1 font-medium">{getItemTypeLabel(item.item_type, language)}</p>
 
           {/* Tag Badge */}
           {item.tag && (
@@ -79,7 +109,7 @@ export default function ItemCard({ item, onClick, language }: ItemCardProps) {
           )}
 
           {item.description && (
-            <p className="text-arc-white/60 text-sm mt-3 line-clamp-2 leading-relaxed">
+            <p className="text-white/60 text-sm mt-3 line-clamp-2 leading-relaxed">
               {item.description}
             </p>
           )}

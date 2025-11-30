@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo, useEffect, memo } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { Item, FilterOptions } from '@/types/item';
@@ -17,6 +17,11 @@ import { matchesSearchMultiLang } from '@/lib/searchUtils';
 interface ItemsPageProps {
   initialFilters?: { [key: string]: string | string[] | undefined };
 }
+
+// Memoized ItemCard wrapper to prevent unnecessary re-renders
+const MemoizedItemCard = memo(({ item, onClick, language }: { item: Item; onClick: () => void; language: Language }) => (
+  <ItemCard item={item} onClick={onClick} language={language} />
+));
 
 export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
   const router = useRouter();
@@ -149,12 +154,12 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
   }, [displayItems, filters]);
 
   return (
-    <div className="min-h-screen bg-arc-blue">
+    <div className="min-h-screen" style={{ backgroundColor: '#130918' }}>
       {/* Header */}
       <MainHeader language={language} setLanguage={setLanguage} />
 
       {/* Search and Filters */}
-      <div className="sticky top-0 z-30 bg-arc-blue-light/95 backdrop-blur-md border-b border-arc-blue-lighter shadow-lg">
+      <div className="sticky top-0 z-30 backdrop-blur-md shadow-lg" style={{ backgroundColor: 'rgba(26, 17, 32, 0.95)', borderBottom: '1px solid #2d1f38' }}>
         <div className="container mx-auto px-4 py-3 lg:py-4">
           <div className="flex flex-col lg:flex-row gap-3 lg:gap-4">
             {/* Search - Full width on mobile/tablet, flexible on desktop */}
@@ -190,7 +195,7 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
               <MultiSelect
                 values={filters.tags}
                 onChange={(selectedTags) => setFilters({ ...filters, tags: selectedTags })}
-                options={tags.map(tag => ({ value: tag, label: getTagLabel(tag, language) }))}
+                options={tags.map(tag => ({ value: tag, label: getTagLabel(tag as 'keep' | 'sell' | 'recycle', language) }))}
                 placeholder={t.allTags}
               />
             </div>
@@ -199,7 +204,20 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
             <button
               onClick={resetFilters}
               disabled={filters.search === '' && filters.types.length === 0 && filters.rarities.length === 0 && filters.tags.length === 0}
-              className="w-full sm:w-auto bg-arc-blue border-2 border-arc-blue-lighter hover:border-arc-yellow disabled:opacity-50 disabled:cursor-not-allowed rounded-lg px-4 py-3 text-arc-white font-medium transition-colors whitespace-nowrap cursor-pointer"
+              className="w-full sm:w-auto rounded-lg px-4 py-3 font-medium transition-all whitespace-nowrap cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+              style={{
+                backgroundColor: '#2d1f38',
+                color: '#ffffff',
+                border: '1px solid #2d1f38'
+              }}
+              onMouseEnter={(e) => {
+                if (filters.search !== '' || filters.types.length > 0 || filters.rarities.length > 0 || filters.tags.length > 0) {
+                  e.currentTarget.style.borderColor = '#f1aa1c';
+                }
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.borderColor = '#2d1f38';
+              }}
             >
               Reset
             </button>
@@ -208,18 +226,18 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
           {/* Stats */}
           <div className="flex gap-6 mt-4 text-sm">
             <div>
-              <span className="text-arc-white/50">{t.showing}</span>{' '}
-              <span className="text-arc-yellow font-bold">{filteredItems.length}</span>{' '}
-              <span className="text-arc-white/70">{t.items}</span>
+              <span className="text-white/50">{t.showing}</span>{' '}
+              <span className="font-bold" style={{ color: '#f1aa1c' }}>{filteredItems.length}</span>{' '}
+              <span className="text-white/70">{t.items}</span>
             </div>
             <div>
-              <span className="text-arc-white/50">{t.total}</span>{' '}
-              <span className="text-arc-yellow font-bold">{displayItems.length}</span>{' '}
-              <span className="text-arc-white/70">{t.items}</span>
+              <span className="text-white/50">{t.total}</span>{' '}
+              <span className="font-bold" style={{ color: '#f1aa1c' }}>{displayItems.length}</span>{' '}
+              <span className="text-white/70">{t.items}</span>
             </div>
             <div>
-              <span className="text-arc-white/50">{t.types}</span>{' '}
-              <span className="text-arc-yellow font-bold">{types.length}</span>
+              <span className="text-white/50">{t.types}</span>{' '}
+              <span className="font-bold" style={{ color: '#f1aa1c' }}>{types.length}</span>
             </div>
           </div>
         </div>
@@ -231,15 +249,15 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
         {itemsLoading ? (
           <LoadingSpinner />
         ) : filteredItems.length === 0 ? (
-          <div className="text-center py-20">
+          <div className="text-center py-20 rounded-lg" style={{ backgroundColor: '#1a1120', border: '1px solid #2d1f38' }}>
             <div className="text-6xl mb-4">🔍</div>
-            <h2 className="text-2xl font-bold text-arc-white mb-2">{t.noItemsFound}</h2>
-            <p className="text-arc-white/60">{t.tryAdjusting}</p>
+            <h2 className="text-2xl font-bold text-white mb-2">{t.noItemsFound}</h2>
+            <p className="text-white/60">{t.tryAdjusting}</p>
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {filteredItems.map((item) => (
-              <ItemCard
+              <MemoizedItemCard
                 key={item.id}
                 item={item}
                 onClick={() => router.push(`/items/${generateSlug(item.nameEn || item.name)}`)}
@@ -251,43 +269,42 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-arc-blue-lighter mt-12 py-8">
+      <footer className="mt-12 py-8" style={{ borderTop: '1px solid #2d1f38' }}>
         <div className="container mx-auto px-4 text-center">
-          <p className="text-arc-white/70 text-base font-medium mb-3">{t.disclaimer}</p>
-          <p className="text-arc-white/50 text-sm mb-2">{t.credits}</p>
+          <p className="text-white/70 text-base font-medium mb-3">{t.disclaimer}</p>
+          <p className="text-white/50 text-sm mb-2">{t.credits}</p>
           <div className="flex items-center justify-center gap-2 mb-2 flex-wrap">
-            <span className="text-arc-white/60 text-sm">{t.openSource}</span>
+            <span className="text-white/60 text-sm">{t.openSource}</span>
             <a
               href="https://github.com/Teyk0o/ARDB"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-arc-yellow hover:text-arc-yellow/80 font-bold text-sm transition-colors underline"
+              className="font-bold text-sm transition-colors underline cursor-pointer"
+              style={{ color: '#f1aa1c' }}
+              onMouseEnter={(e) => e.currentTarget.style.opacity = '0.8'}
+              onMouseLeave={(e) => e.currentTarget.style.opacity = '1'}
             >
               {t.github}
-            </a>
-            <span className="text-arc-white/60 text-sm">|</span>
-            <a
-              href="/translate"
-              className="text-arc-yellow hover:text-arc-yellow/80 font-bold text-sm transition-colors underline"
-            >
-              {t.helpTranslate}
             </a>
           </div>
           {language === 'fr' && (
             <div className="flex items-center justify-center gap-2 mb-2">
-              <span className="text-arc-white/60 text-sm">Rejoignez l&apos;équipe francophone</span>
+              <span className="text-white/60 text-sm">Rejoignez l&apos;équipe francophone</span>
               <a
                 href="https://discord.gg/54EQD8fpky"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-arc-yellow hover:text-arc-yellow/80 font-bold text-sm transition-colors underline"
+                className="font-bold text-sm transition-colors underline cursor-pointer"
+                style={{ color: '#f1aa1c' }}
+                onMouseEnter={(e) => e.currentTarget.style.opacity = '0.8'}
+                onMouseLeave={(e) => e.currentTarget.style.opacity = '1'}
               >
                 The Vanguard Protocol
               </a>
             </div>
           )}
-          <p className="text-arc-white/50 text-xs mb-2">{t.license}</p>
-          <p className="text-arc-white/40 text-sm">{t.footer}</p>
+          <p className="text-white/50 text-xs mb-2">{t.license}</p>
+          <p className="text-white/40 text-sm">{t.footer}</p>
         </div>
       </footer>
     </div>

@@ -110,13 +110,26 @@ export default function SearchWithHistory({
         onKeyDown={handleKeyDown}
         onFocus={() => setShowDropdown(searchHistory.length > 0)}
         onBlur={handleInputBlur}
-        className="w-full bg-arc-blue border-2 border-arc-blue-lighter focus:border-arc-yellow rounded-lg px-4 py-3 pr-10 text-arc-white placeholder-arc-white/40 outline-none transition-colors"
+        className="w-full rounded-lg px-4 py-3 pr-10 text-white placeholder-white/40 outline-none transition-all"
+        style={{
+          backgroundColor: '#130918',
+          border: '1px solid #2d1f38'
+        }}
+        onFocusCapture={(e) => {
+          e.currentTarget.style.borderColor = '#f1aa1c';
+        }}
+        onBlurCapture={(e) => {
+          e.currentTarget.style.borderColor = '#2d1f38';
+        }}
       />
 
       {value && (
         <button
           onClick={() => onChange('')}
-          className="absolute right-3 top-1/2 -translate-y-1/2 text-arc-white/60 hover:text-arc-yellow transition-colors cursor-pointer z-10"
+          className="absolute right-3 top-1/2 -translate-y-1/2 transition-colors cursor-pointer z-10"
+          style={{ color: 'rgba(255, 255, 255, 0.6)' }}
+          onMouseEnter={(e) => e.currentTarget.style.color = '#f1aa1c'}
+          onMouseLeave={(e) => e.currentTarget.style.color = 'rgba(255, 255, 255, 0.6)'}
           aria-label="Clear search"
         >
           ✕
@@ -128,10 +141,10 @@ export default function SearchWithHistory({
         <div
           ref={dropdownRef}
           className="absolute top-full left-0 right-0 mt-2 rounded-lg shadow-2xl overflow-hidden z-50"
-          style={{ backgroundColor: '#130918', border: '2px solid #1a1120' }}
+          style={{ backgroundColor: '#1a1120', border: '1px solid #2d1f38' }}
         >
-          <div className="flex items-center justify-between px-4 py-2" style={{ borderBottom: '1px solid #1a1120' }}>
-            <span className="text-sm font-medium" style={{ color: 'rgba(255, 255, 255, 0.6)' }}>{t.recentSearches}</span>
+          <div className="flex items-center justify-between px-4 py-2" style={{ borderBottom: '1px solid #2d1f38' }}>
+            <span className="text-sm font-medium text-white/60">{t.recentSearches}</span>
             <button
               onClick={handleClearHistory}
               className="text-xs transition-colors cursor-pointer"
@@ -147,16 +160,24 @@ export default function SearchWithHistory({
               <li
                 key={index}
                 onClick={() => handleHistoryClick(searchTerm)}
-                className="px-4 py-3 transition-colors cursor-pointer flex items-center gap-2"
+                className="px-4 py-3 transition-all cursor-pointer flex items-center gap-2"
                 style={{
                   color: '#ffffff',
-                  borderBottom: index < searchHistory.length - 1 ? '1px solid rgba(26, 17, 32, 0.3)' : 'none'
+                  backgroundColor: 'transparent',
+                  borderBottom: index < searchHistory.length - 1 ? '1px solid #2d1f38' : 'none'
                 }}
-                onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#1a1120'}
-                onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'transparent'}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.backgroundColor = '#130918';
+                  e.currentTarget.style.color = '#f1aa1c';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.backgroundColor = 'transparent';
+                  e.currentTarget.style.color = '#ffffff';
+                }}
               >
                 <svg
-                  className="w-4 h-4 text-arc-white/40 flex-shrink-0"
+                  className="w-4 h-4 flex-shrink-0"
+                  style={{ color: 'rgba(255, 255, 255, 0.4)' }}
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
