@@ -114,6 +114,18 @@ jobs:
           npm run generate-tags
           echo "✅ Tags regenerated"
 
+      # ===== DETECT CONFLICTS =====
+      - name: Detect Sync Conflicts
+        id: detect_conflicts
+        continue-on-error: true
+        env:
+          POSTGRES_URL: ${{ secrets.POSTGRES_URL }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          echo "⚠️  Checking for conflicts with community edits..."
+          npx tsx scripts/detect-sync-conflicts.ts
+          echo "✅ Conflict detection completed"
+
       # ===== CHECK FOR CHANGES =====
       - name: Detect Changes
         id: changes
