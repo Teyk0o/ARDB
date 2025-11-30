@@ -1,9 +1,12 @@
 'use client';
 
 import Link from 'next/link';
-import CustomSelect from '@/components/CustomSelect';
+import LanguagePicker from '@/components/LanguagePicker';
 import { getTranslation, Language } from '@/lib/translations';
 import { useHasNewChanges, markChangelogAsViewed } from '@/lib/useHasNewChanges';
+import { useAuth } from '@/hooks/useAuth';
+import DiscordLoginButton from '@/components/auth/DiscordLoginButton';
+import UserMenu from '@/components/auth/UserMenu';
 
 /**
  * MainHeader component
@@ -12,15 +15,18 @@ import { useHasNewChanges, markChangelogAsViewed } from '@/lib/useHasNewChanges'
  *
  * @param language - Current language
  * @param setLanguage - Function to update language
+ * @param hideLanguagePicker - Optional: Hide the language picker (e.g., for moderation pages)
  */
 interface MainHeaderProps {
   language: Language;
   setLanguage: (lang: Language) => void;
+  hideLanguagePicker?: boolean;
 }
 
-export default function MainHeader({ language, setLanguage }: MainHeaderProps) {
+export default function MainHeader({ language, setLanguage, hideLanguagePicker = false }: MainHeaderProps) {
   const t = getTranslation(language);
   const { hasNewChanges } = useHasNewChanges();
+  const { user, loading: authLoading } = useAuth();
 
   return (
     <header className="relative bg-arc-blue-light border-b-2 border-arc-yellow/30 grain-texture">
@@ -43,34 +49,48 @@ export default function MainHeader({ language, setLanguage }: MainHeaderProps) {
             <div className="flex items-center gap-3 sm:gap-4 flex-wrap">
               <Link
                 href="/"
-                className="text-arc-yellow hover:text-arc-yellow/80 text-sm sm:text-base font-medium transition-colors"
+                className="text-sm sm:text-base font-medium transition-colors cursor-pointer"
+                style={{ color: '#ffffff' }}
+                onMouseEnter={(e) => e.currentTarget.style.color = '#f1aa1c'}
+                onMouseLeave={(e) => e.currentTarget.style.color = '#ffffff'}
               >
                 {t.itemsNav || 'Items'}
               </Link>
               <Link
                 href="/categories"
-                className="text-arc-yellow hover:text-arc-yellow/80 text-sm sm:text-base font-medium transition-colors"
+                className="text-sm sm:text-base font-medium transition-colors cursor-pointer"
+                style={{ color: '#ffffff' }}
+                onMouseEnter={(e) => e.currentTarget.style.color = '#f1aa1c'}
+                onMouseLeave={(e) => e.currentTarget.style.color = '#ffffff'}
               >
                 {t.categories}
               </Link>
               <Link
                 href="/projects"
-                className="text-arc-yellow hover:text-arc-yellow/80 text-sm sm:text-base font-medium transition-colors"
+                className="text-sm sm:text-base font-medium transition-colors cursor-pointer"
+                style={{ color: '#ffffff' }}
+                onMouseEnter={(e) => e.currentTarget.style.color = '#f1aa1c'}
+                onMouseLeave={(e) => e.currentTarget.style.color = '#ffffff'}
               >
                 {t.projects || 'Projects'}
               </Link>
               <Link
                 href="/workshop-upgrades"
-                className="text-arc-yellow hover:text-arc-yellow/80 text-sm sm:text-base font-medium transition-colors"
+                className="text-sm sm:text-base font-medium transition-colors cursor-pointer"
+                style={{ color: '#ffffff' }}
+                onMouseEnter={(e) => e.currentTarget.style.color = '#f1aa1c'}
+                onMouseLeave={(e) => e.currentTarget.style.color = '#ffffff'}
               >
                 {t.workshopUpgrades || 'Workshop Upgrades'}
               </Link>
               <Link
                 href="/changelog"
                 onClick={() => markChangelogAsViewed()}
-                className={`inline-flex items-center gap-2 text-sm sm:text-base font-medium transition-colors ${hasNewChanges ? '' : 'text-arc-white/70'}`}
+                className="inline-flex items-center gap-2 text-sm sm:text-base font-medium transition-colors cursor-pointer"
                 title="View recent updates"
-                style={hasNewChanges ? { color: '#f1aa1c' } : {}}
+                style={{ color: '#ffffff' }}
+                onMouseEnter={(e) => e.currentTarget.style.color = '#f1aa1c'}
+                onMouseLeave={(e) => e.currentTarget.style.color = '#ffffff'}
               >
                 {t.changelog || 'Changelog'}
                 {hasNewChanges && (
@@ -83,32 +103,20 @@ export default function MainHeader({ language, setLanguage }: MainHeaderProps) {
             </div>
 
             {/* Language Selector */}
-            <div className="w-full sm:w-auto">
-              <CustomSelect
-                value={language}
-                onChange={(value) => setLanguage(value as Language)}
-                options={[
-                  { value: 'en', label: '🇬🇧 English' },
-                  { value: 'fr', label: '🇫🇷 Français' },
-                  { value: 'de', label: '🇩🇪 Deutsch' },
-                  { value: 'es', label: '🇪🇸 Español' },
-                  { value: 'pt', label: '🇵🇹 Português' },
-                  { value: 'pl', label: '🇵🇱 Polski' },
-                  { value: 'no', label: '🇳🇴 Norsk' },
-                  { value: 'da', label: '🇩🇰 Dansk' },
-                  { value: 'it', label: '🇮🇹 Italiano' },
-                  { value: 'ru', label: '🇷🇺 Русский' },
-                  { value: 'ja', label: '🇯🇵 日本語' },
-                  { value: 'zh-TW', label: '🇹🇼 繁體中文' },
-                  { value: 'uk', label: '🇺🇦Українська' },
-                  { value: 'zh-CN', label: '🇨🇳 简体中文' },
-                  { value: 'kr', label: '🇰🇷 한국어' },
-                  { value: 'tr', label: '🇹🇷 Türkçe' },
-                  { value: 'hr', label: '🇭🇷 Hrvatski' },
-                  { value: 'sr', label: '🇷🇸 Српски' },
-                ]}
-              />
-            </div>
+            {!hideLanguagePicker && (
+              <LanguagePicker language={language} setLanguage={setLanguage} />
+            )}
+
+            {/* Auth Section */}
+            {!authLoading && (
+              <div className="w-full sm:w-auto">
+                {user ? (
+                  <UserMenu user={user} language={language} />
+                ) : (
+                  <DiscordLoginButton returnTo="/" className="w-full sm:w-auto" />
+                )}
+              </div>
+            )}
           </div>
         </div>
       </div>
