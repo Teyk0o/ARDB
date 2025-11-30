@@ -77,8 +77,8 @@ export default function MultiSelect({
       ref={dropdownRef}
       className="fixed rounded-lg shadow-2xl max-h-60 overflow-y-auto"
       style={{
-        backgroundColor: '#130918',
-        border: '2px solid rgba(241, 170, 28, 0.5)',
+        backgroundColor: '#1a1120',
+        border: '1px solid #2d1f38',
         top: `${dropdownPosition.top}px`,
         left: `${dropdownPosition.left}px`,
         width: `${dropdownPosition.width}px`,
@@ -92,8 +92,26 @@ export default function MultiSelect({
             e.preventDefault();
             toggleValue(option.value);
           }}
-          className="px-4 py-3 cursor-pointer transition-all text-arc-white hover:bg-arc-yellow hover:text-arc-blue font-medium flex items-center gap-2"
-          style={values.includes(option.value) ? { backgroundColor: '#1a1120' } : { backgroundColor: '#130918' }}
+          className="px-4 py-3 cursor-pointer transition-all font-medium flex items-center gap-2"
+          style={values.includes(option.value) ? {
+            backgroundColor: '#130918',
+            color: '#f1aa1c'
+          } : {
+            backgroundColor: 'transparent',
+            color: '#ffffff'
+          }}
+          onMouseEnter={(e) => {
+            if (!values.includes(option.value)) {
+              e.currentTarget.style.backgroundColor = '#130918';
+              e.currentTarget.style.color = '#f1aa1c';
+            }
+          }}
+          onMouseLeave={(e) => {
+            if (!values.includes(option.value)) {
+              e.currentTarget.style.backgroundColor = 'transparent';
+              e.currentTarget.style.color = '#ffffff';
+            }
+          }}
         >
           <input
             type="checkbox"
@@ -117,14 +135,28 @@ export default function MultiSelect({
         <button
           type="button"
           onClick={() => setIsOpen(!isOpen)}
-          className="w-full bg-arc-blue border-2 border-arc-blue-lighter focus:border-arc-yellow rounded-lg px-4 py-3 text-arc-white outline-none cursor-pointer transition-colors hover:border-arc-yellow/50 flex items-center justify-between"
+          className="w-full rounded-lg px-4 py-3 outline-none cursor-pointer transition-all flex items-center justify-between"
+          style={{
+            backgroundColor: '#130918',
+            border: '1px solid #2d1f38',
+            color: '#ffffff'
+          }}
+          onMouseEnter={(e) => e.currentTarget.style.borderColor = '#f1aa1c'}
+          onMouseLeave={(e) => {
+            if (!isOpen) e.currentTarget.style.borderColor = '#2d1f38';
+          }}
+          onFocus={(e) => e.currentTarget.style.borderColor = '#f1aa1c'}
+          onBlur={(e) => {
+            if (!isOpen) e.currentTarget.style.borderColor = '#2d1f38';
+          }}
         >
-          <span className={values.length === 0 ? 'text-arc-white/40' : ''}>{displayText}</span>
+          <span className={values.length === 0 ? 'text-white/40' : ''}>{displayText}</span>
           <svg
             className={`w-5 h-5 transition-transform ${isOpen ? 'rotate-180' : ''}`}
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
+            style={{ color: 'rgba(255, 255, 255, 0.5)' }}
           >
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
           </svg>
