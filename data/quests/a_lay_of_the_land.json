@@ -1,11 +1,11 @@
 {
   "id": "ss10k",
-  "updatedAt": "11/06/2025",
+  "updatedAt": "11/23/2025",
   "name": {
     "en": "A Lay of the Land",
     "de": "Eine Lagebeschreibung",
     "fr": "Un aperçu du terrain",
-    "es": "Un reconocimiento del terreno",
+    "es": "Reconociendo el terreno",
     "pt": "Um reconhecimento do terreno",
     "pl": "Rozpoznanie terenu",
     "no": "Et overblikk over terrenget",
@@ -13,7 +13,7 @@
     "it": "Una ricognizione del territorio",
     "uk": "Огляд місцевості",
     "kr": "지형 파악",
-    "ru": "Изучение местности",
+    "ru": "Рельеф местности",
     "zh-CN": "地形勘察",
     "ja": "地勢の把握",
     "tr": "Arazinin Keşfi",
@@ -21,6 +21,9 @@
     "sr": "Pregled terena",
     "hr": "Pregled terena"
   },
+  "map": [
+    "the_spaceport"
+  ],
   "trader": "Shani",
   "videoUrl": "https://youtu.be/pWXjplDChHc",
   "description": {
@@ -56,7 +59,7 @@
       "it": "Raggiungi il magazzino di Jiangsu",
       "uk": "Дістаньтеся до складу Цзянсу",
       "kr": "Jiangsu 창고에 도착",
-      "ru": "Доберитесь до склада Цзянсу",
+      "ru": "Доберитесь до склада Jiangsu",
       "zh-CN": "抵达江苏仓库",
       "ja": "江蘇省倉庫に向かう",
       "tr": "Jiangsu Deposu'na ulaş",
@@ -115,7 +118,7 @@
       "da": "Lever 1 LiDAR-scanner til Shani",
       "it": "Consegna 1 scanner LiDAR a Shani",
       "uk": "Доставте 1 LiDAR сканер Шані",
-      "kr": "LiDAR 스캐너 1개를 Shani에게 전달",
+      "kr": "LiDAR 스캐너 1개를 샤니에게 전달",
       "ru": "Доставьте 1 LiDAR сканер Шани",
       "zh-CN": "将1个LiDAR扫描仪交给Shani",
       "ja": "シャニにLiDARスキャナを1個届ける",

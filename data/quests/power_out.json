@@ -1,6 +1,6 @@
 {
   "id": "ss10x10",
-  "updatedAt": "11/06/2025",
+  "updatedAt": "11/23/2025",
   "name": {
     "en": "Power Out",
     "de": "Stromausfall",
@@ -21,6 +21,9 @@
     "sr": "Nestanak struje",
     "hr": "Nestanak struje"
   },
+  "map": [
+    "the_spaceport"
+  ],
   "trader": "Celeste",
   "description": {
     "en": "This goes beyond bad luck. Something—or someone—has knocked out some of our electrical substations. The engineer I sent out to fix it hasn't returned, so I need all available Raiders to look into it. That includes you.",
@@ -54,7 +57,7 @@
       "da": "Find den elektriske transformerstation syd for rumhavnen, ved siden af kontrolpunktet",
       "it": "Trova la sottostazione elettrica a sud dello spazioporto, vicino al checkpoint",
       "uk": "Знайдіть електричну підстанцію на південь від Космопорту, біля контрольного пункту",
-      "kr": "우주항 남쪽, 검문소 옆에 있는 전기 변전소를 찾으세요",
+      "kr": "우주 기지 남쪽, 검문소 옆에 있는 전기 변전소를 찾으세요",
       "ru": "Найдите электрическую подстанцию к югу от Космопорта, рядом с контрольно-пропускным пунктом",
       "zh-CN": "找到太空港南边检查站旁的变电站",
       "ja": "宇宙港の南にある変電所を見つける",

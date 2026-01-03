@@ -1,6 +1,6 @@
 {
   "id": "12_cold_storage",
-  "updatedAt": "11/20/2025",
+  "updatedAt": "11/23/2025",
   "name": {
     "en": "Cold Storage",
     "de": "Tiefkühllagerung",
@@ -21,6 +21,9 @@
     "sr": "Hladnjača",
     "hr": "Hladnjača"
   },
+  "map": [
+    "stella_montis"
+  ],
   "trader": "Celeste",
   "videoUrl": "https://youtu.be/tc7nK7AmixQ",
   "description": {
@@ -66,7 +69,7 @@
     },
     {
       "en": "In one round, deliver the Rare Books to Shani",
-      "de": "Liefere die seltenen Bücher an Shani",
+      "de": "Liefere die Bücher der alten Welt an Shani",
       "fr": "En une manche, livrer les livres rares à Shani",
       "es": "En una ronda, entrega los libros raros a Shani",
       "pt": "Em uma rodada, entregue os Livros Raros para Shani",

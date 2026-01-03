@@ -3,9 +3,9 @@
   "updatedAt": "11/06/2025",
   "name": {
     "en": "Keeping the Memory",
-    "de": "Die Erinnerung bewahren",
+    "de": "In Erinnerung behalten",
     "fr": "Conservation mémorielle",
-    "es": "Guardando la memoria",
+    "es": "Preservar la memoria",
     "pt": "Guardando a memória",
     "pl": "Zachowanie pamięci",
     "no": "Bevare minnet",
@@ -13,7 +13,7 @@
     "it": "Preservare la memoria",
     "uk": "Зберігаючи пам'ять",
     "kr": "기억 지키기",
-    "ru": "Сохраняя память",
+    "ru": "В память о былом",
     "zh-CN": "保存记忆",
     "ja": "受け継がれる記憶",
     "tr": "Anıyı Korumak",
@@ -21,10 +21,13 @@
     "sr": "Čuvanje Uspomene",
     "hr": "Čuvanje Uspomene"
   },
+  "map": [
+    "dam_battlegrounds"
+  ],
   "trader": "Celeste",
   "description": {
     "en": "I lost my cool a bit when I sent you after that trap. I don't usually lose my temper, but the First Wave... We went through a lot, back then. Lost a lot of people. It's still a bit of a raw wound for me, but I want you to understand.",
-    "de": "Ich habe etwas die Fassung verloren, als ich dich wegen dieser Falle losgeschickt habe. Normalerweise verliere ich nicht die Beherrschung, aber die First Wave... Wir haben damals viel durchgemacht. Viele Menschen verloren. Es ist immer noch eine offene Wunde für mich, aber ich möchte, dass du es verstehst.",
+    "de": "Ich hab da etwas die Beherrschung verloren, als ich dich wegen der Falle losgeschickt hab. Ich verlier sonst nicht so leicht die Fassung, aber die Erste Welle... Wir haben damals viel durchgemacht. Wir haben viele verloren. Ich hab das noch nicht verwunden, aber ich will, dass du mich verstehst.",
     "fr": "J'ai un peu perdu mon sang-froid quand je vous ai demandé de vous occuper de ce piège. Ça ne m'arrive pas souvent, mais la Première vague... Nous avons enduré tant de choses à l'époque. Perdu beaucoup de monde. C'est une blessure qui ne se referme pas complètement. Il faut que vous le compreniez.",
     "es": "Perdí un poco la calma cuando te envié tras esa trampa. Normalmente no pierdo los estribos, pero la First Wave... Pasamos por mucho en aquel entonces. Perdimos a mucha gente. Todavía es una herida abierta para mí, pero quiero que lo entiendas.",
     "pt": "Perdi um pouco a calma quando te enviei atrás daquela armadilha. Normalmente não perco a paciência, mas a First Wave... Passámos por muito naquela altura. Perdemos muita gente. Ainda é uma ferida aberta para mim, mas quero que compreendas.",
@@ -45,7 +48,7 @@
   "objectives": [
     {
       "en": "Reach the wreckage in the Formicai Hills",
-      "de": "Erreiche das Wrack in den Formicai Hills",
+      "de": "Geh zu dem Wrack am Formicai-Hügel",
       "fr": "Atteindre l'épave dans les Collines de Formicai",
       "es": "Alcanza los restos en las Formicai Hills",
       "pt": "Alcance os destroços nas Formicai Hills",
@@ -54,8 +57,8 @@
       "da": "Nå vraget i Formicai Hills",
       "it": "Raggiungi il relitto nelle Formicai Hills",
       "uk": "Дістаньтеся до уламків на Формікайських пагорбах",
-      "kr": "Formicai Hills의 잔해에 도달하세요",
-      "ru": "Доберитесь до обломков на Формикайских холмах",
+      "kr": "개미탑 언덕에 있는 잔해에 도달하세요",
+      "ru": "Добраться до обломков на Холмах Формикаи",
       "zh-CN": "到达Formicai山丘的残骸处",
       "ja": "フォルミカイ山地の残骸に到達する",
       "tr": "Formicai Tepeleri'ndeki enkaza ulaşın",
@@ -65,7 +68,7 @@
     },
     {
       "en": "Search for the missing helmet",
-      "de": "Suche nach dem vermissten Helm",
+      "de": "Suche nach dem fehlenden Helm",
       "fr": "Chercher le casque manquant",
       "es": "Busca el casco perdido",
       "pt": "Procure o capacete desaparecido",
@@ -74,7 +77,7 @@
       "da": "Søg efter den forsvundne hjelm",
       "it": "Cerca l'elmo mancante",
       "uk": "Знайдіть зниклий шолом",
-      "kr": "분실된 헬멧을 찾으세요",
+      "kr": "잃어버린 헬멧을 찾으세요",
       "ru": "Найдите пропавший шлем",
       "zh-CN": "寻找丢失的头盔",
       "ja": "無くなったヘルメットを探す",
@@ -85,7 +88,7 @@
     },
     {
       "en": "Return the helmet to the memorial",
-      "de": "Bringe den Helm zum Denkmal zurück",
+      "de": "Bring den Helm zurück zum Denkmal",
       "fr": "Rapporter le casque au monument commémoratif",
       "es": "Devuelve el casco al memorial",
       "pt": "Devolva o capacete ao memorial",
@@ -94,7 +97,7 @@
       "da": "Returner hjelmen til mindesmærket",
       "it": "Riporta l'elmo al memoriale",
       "uk": "Поверніть шолом до меморіалу",
-      "kr": "헬멧을 추모비로 돌려놓으세요",
+      "kr": "기념물에 헬멧을 되돌려 놓으세요",
       "ru": "Верните шлем к мемориалу",
       "zh-CN": "将头盔归还到纪念碑",
       "ja": "記念碑にヘルメットを戻す",

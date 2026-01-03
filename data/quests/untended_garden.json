@@ -5,7 +5,7 @@
     "en": "Untended Garden",
     "de": "Ungepflegter Garten",
     "fr": "Jardin abandonné",
-    "es": "Jardín descuidado",
+    "es": "Jardín desatendido",
     "pt": "Jardim abandonado",
     "pl": "Zaniedbany ogród",
     "no": "Forsømt hage",
@@ -21,6 +21,9 @@
     "sr": "Neobrađena bašta",
     "hr": "Neobrađeni vrt"
   },
+  "map": [
+    "dam_battlegrounds"
+  ],
   "trader": "Celeste",
   "description": {
     "en": "According to the files you found in the lab, the cultivation researchers were actually the ones who set up the hydroponic domes out in the swamp. Sounds like the most obvious place to search next, don't you think?",

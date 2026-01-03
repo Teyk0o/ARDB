@@ -702,29 +702,54 @@
     ]
   },
   "candle_holder": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "candle_holder",
-        "recycleComponentId": "metal_parts",
-        "recycleComponentName": "Metal Parts",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "candle_holder",
-            "itemName": "Candle Holder",
-            "targetId": "metal_parts",
-            "targetName": "Metal Parts"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "metal_parts",
-            "itemName": "Metal Parts",
-            "workshopStation": "gunsmith",
-            "workshopLevel": "1"
-          }
-        ]
+        "projectId": "flickering_flames_project",
+        "projectName": "Flickering Flames",
+        "projectPhase": 2
+      }
+    ]
+  },
+  "candleberries": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "candleberries",
+        "projectId": "flickering_flames_project",
+        "projectName": "Flickering Flames",
+        "projectPhase": 1
+      },
+      {
+        "type": "project",
+        "itemId": "candleberries",
+        "projectId": "flickering_flames_project",
+        "projectName": "Flickering Flames",
+        "projectPhase": 2
+      },
+      {
+        "type": "project",
+        "itemId": "candleberries",
+        "projectId": "flickering_flames_project",
+        "projectName": "Flickering Flames",
+        "projectPhase": 3
+      },
+      {
+        "type": "project",
+        "itemId": "candleberries",
+        "projectId": "flickering_flames_project",
+        "projectName": "Flickering Flames",
+        "projectPhase": 4
+      },
+      {
+        "type": "project",
+        "itemId": "candleberries",
+        "projectId": "flickering_flames_project",
+        "projectName": "Flickering Flames",
+        "projectPhase": 5
       }
     ]
   },
@@ -785,6 +810,18 @@
         "itemId": "chemicals",
         "workshopStation": "explosives_station",
         "workshopLevel": "1"
+      }
+    ]
+  },
+  "coffee_pot": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "coffee_pot",
+        "projectId": "flickering_flames_project",
+        "projectName": "Flickering Flames",
+        "projectPhase": 4
       }
     ]
   },
@@ -994,6 +1031,33 @@
       }
     ]
   },
+  "damaged_fireball_burner": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "damaged_fireball_burner",
+        "recycleComponentId": "arc_alloy",
+        "recycleComponentName": "ARC Alloy",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "damaged_fireball_burner",
+            "itemName": "Damaged Fireball Burner",
+            "targetId": "arc_alloy",
+            "targetName": "ARC Alloy"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "arc_alloy",
+            "itemName": "ARC Alloy",
+            "questId": "ss2",
+            "questName": "Clearer Skies"
+          }
+        ]
+      }
+    ]
+  },
   "damaged_heat_sink": {
     "tag": "keep",
     "reasons": [
@@ -1054,6 +1118,104 @@
             "itemName": "ARC Alloy",
             "questId": "ss2",
             "questName": "Clearer Skies"
+          }
+        ]
+      }
+    ]
+  },
+  "damaged_tick_pod": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "damaged_tick_pod",
+        "recycleComponentId": "arc_alloy",
+        "recycleComponentName": "ARC Alloy",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "damaged_tick_pod",
+            "itemName": "Damaged Tick Pod",
+            "targetId": "arc_alloy",
+            "targetName": "ARC Alloy"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "arc_alloy",
+            "itemName": "ARC Alloy",
+            "questId": "ss2",
+            "questName": "Clearer Skies"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "damaged_tick_pod",
+        "recycleComponentId": "metal_parts",
+        "recycleComponentName": "Metal Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "damaged_tick_pod",
+            "itemName": "Damaged Tick Pod",
+            "targetId": "metal_parts",
+            "targetName": "Metal Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "metal_parts",
+            "itemName": "Metal Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "damaged_wasp_driver": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "damaged_wasp_driver",
+        "recycleComponentId": "arc_alloy",
+        "recycleComponentName": "ARC Alloy",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "damaged_wasp_driver",
+            "itemName": "Damaged Wasp Driver",
+            "targetId": "arc_alloy",
+            "targetName": "ARC Alloy"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "arc_alloy",
+            "itemName": "ARC Alloy",
+            "questId": "ss2",
+            "questName": "Clearer Skies"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "damaged_wasp_driver",
+        "recycleComponentId": "metal_parts",
+        "recycleComponentName": "Metal Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "damaged_wasp_driver",
+            "itemName": "Damaged Wasp Driver",
+            "targetId": "metal_parts",
+            "targetName": "Metal Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "metal_parts",
+            "itemName": "Metal Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
           }
         ]
       }
@@ -1151,30 +1313,42 @@
       }
     ]
   },
-  "duct_tape": {
+  "dried_out_arc_resin": {
     "tag": "recycle",
     "reasons": [
       {
         "type": "recycle",
-        "itemId": "duct_tape",
-        "recycleComponentId": "fabric",
-        "recycleComponentName": "Fabric",
+        "itemId": "dried_out_arc_resin",
+        "recycleComponentId": "plastic_parts",
+        "recycleComponentName": "Plastic Parts",
         "chain": [
           {
             "action": "recycle",
-            "itemId": "duct_tape",
-            "itemName": "Duct Tape",
-            "targetId": "fabric",
-            "targetName": "Fabric"
+            "itemId": "dried_out_arc_resin",
+            "itemName": "Dried-Out ARC Resin",
+            "targetId": "plastic_parts",
+            "targetName": "Plastic Parts"
           },
           {
             "action": "use_in_workshop",
-            "itemId": "fabric",
-            "itemName": "Fabric",
+            "itemId": "plastic_parts",
+            "itemName": "Plastic Parts",
             "workshopStation": "gear_bench",
             "workshopLevel": "1"
           }
         ]
+      }
+    ]
+  },
+  "duct_tape": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "duct_tape",
+        "projectId": "flickering_flames_project",
+        "projectName": "Flickering Flames",
+        "projectPhase": 3
       }
     ]
   },
@@ -1199,6 +1373,13 @@
         "projectId": "expedition_project",
         "projectName": "Expedition Project",
         "projectPhase": 2
+      },
+      {
+        "type": "project",
+        "itemId": "durable_cloth",
+        "projectId": "flickering_flames_project",
+        "projectName": "Flickering Flames",
+        "projectPhase": 1
       }
     ]
   },
@@ -1223,6 +1404,18 @@
         "projectId": "expedition_project",
         "projectName": "Expedition Project",
         "projectPhase": 2
+      }
+    ]
+  },
+  "empty_wine_bottle": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "empty_wine_bottle",
+        "projectId": "flickering_flames_project",
+        "projectName": "Flickering Flames",
+        "projectPhase": 1
       }
     ]
   },
@@ -1326,6 +1519,18 @@
       }
     ]
   },
+  "film_reel": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "film_reel",
+        "projectId": "flickering_flames_project",
+        "projectName": "Flickering Flames",
+        "projectPhase": 3
+      }
+    ]
+  },
   "fireball_burner": {
     "tag": "keep",
     "reasons": [
@@ -1334,6 +1539,13 @@
         "itemId": "fireball_burner",
         "workshopStation": "refiner",
         "workshopLevel": "2"
+      },
+      {
+        "type": "project",
+        "itemId": "fireball_burner",
+        "projectId": "flickering_flames_project",
+        "projectName": "Flickering Flames",
+        "projectPhase": 4
       }
     ]
   },
@@ -1381,6 +1593,33 @@
       }
     ]
   },
+  "fossilized_lightning": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "fossilized_lightning",
+        "recycleComponentId": "explosive_compound",
+        "recycleComponentName": "Explosive Compound",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "fossilized_lightning",
+            "itemName": "Fossilized Lightning",
+            "targetId": "explosive_compound",
+            "targetName": "Explosive Compound"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "explosive_compound",
+            "itemName": "Explosive Compound",
+            "workshopStation": "explosives_station",
+            "workshopLevel": "3"
+          }
+        ]
+      }
+    ]
+  },
   "frequency_modulation_box": {
     "tag": "recycle",
     "reasons": [
@@ -1420,29 +1659,14 @@
     ]
   },
   "frying_pan": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "frying_pan",
-        "recycleComponentId": "metal_parts",
-        "recycleComponentName": "Metal Parts",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "frying_pan",
-            "itemName": "Frying Pan",
-            "targetId": "metal_parts",
-            "targetName": "Metal Parts"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "metal_parts",
-            "itemName": "Metal Parts",
-            "workshopStation": "gunsmith",
-            "workshopLevel": "1"
-          }
-        ]
+        "projectId": "flickering_flames_project",
+        "projectName": "Flickering Flames",
+        "projectPhase": 5
       }
     ]
   },
@@ -1671,6 +1895,13 @@
         "itemId": "industrial_battery",
         "workshopStation": "gear_bench",
         "workshopLevel": "3"
+      },
+      {
+        "type": "project",
+        "itemId": "industrial_battery",
+        "projectId": "flickering_flames_project",
+        "projectName": "Flickering Flames",
+        "projectPhase": 2
       }
     ]
   },
@@ -1803,6 +2034,13 @@
         "projectId": "expedition_project",
         "projectName": "Expedition Project",
         "projectPhase": 3
+      },
+      {
+        "type": "project",
+        "itemId": "light_bulb",
+        "projectId": "flickering_flames_project",
+        "projectName": "Flickering Flames",
+        "projectPhase": 2
       }
     ]
   },
@@ -2075,6 +2313,25 @@
         "itemId": "mushroom",
         "workshopStation": "scrappy",
         "workshopLevel": "5"
+      },
+      {
+        "type": "project",
+        "itemId": "mushroom",
+        "projectId": "flickering_flames_project",
+        "projectName": "Flickering Flames",
+        "projectPhase": 5
+      }
+    ]
+  },
+  "music_album": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "music_album",
+        "projectId": "flickering_flames_project",
+        "projectName": "Flickering Flames",
+        "projectPhase": 5
       }
     ]
   },
@@ -2157,6 +2414,20 @@
         "itemId": "plastic_parts",
         "workshopStation": "utility_station",
         "workshopLevel": "1"
+      },
+      {
+        "type": "project",
+        "itemId": "plastic_parts",
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project",
+        "projectPhase": 1
+      },
+      {
+        "type": "project",
+        "itemId": "plastic_parts",
+        "projectId": "flickering_flames_project",
+        "projectName": "Flickering Flames",
+        "projectPhase": 1
       }
     ]
   },
@@ -2529,6 +2800,55 @@
       }
     ]
   },
+  "ripped_safety_vest": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "ripped_safety_vest",
+        "recycleComponentId": "durable_cloth",
+        "recycleComponentName": "Durable Cloth",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "ripped_safety_vest",
+            "itemName": "Ripped Safety Vest",
+            "targetId": "durable_cloth",
+            "targetName": "Durable Cloth"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "durable_cloth",
+            "itemName": "Durable Cloth",
+            "questId": "ss10c",
+            "questName": "Doctor's Orders"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "ripped_safety_vest",
+        "recycleComponentId": "fabric",
+        "recycleComponentName": "Fabric",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "ripped_safety_vest",
+            "itemName": "Ripped Safety Vest",
+            "targetId": "fabric",
+            "targetName": "Fabric"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "fabric",
+            "itemName": "Fabric",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
   "rocket_thruster": {
     "tag": "recycle",
     "reasons": [
@@ -2684,13 +3004,6 @@
         "itemId": "rubber_parts",
         "workshopStation": "gunsmith",
         "workshopLevel": "1"
-      },
-      {
-        "type": "project",
-        "itemId": "rubber_parts",
-        "projectId": "expedition_project",
-        "projectName": "Expedition Project",
-        "projectPhase": 1
       }
     ]
   },
@@ -2731,6 +3044,158 @@
             "itemName": "Ruined Accordion",
             "targetId": "steel_spring",
             "targetName": "Steel Spring"
+          }
+        ]
+      }
+    ]
+  },
+  "ruined_augment": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "ruined_augment",
+        "recycleComponentId": "plastic_parts",
+        "recycleComponentName": "Plastic Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "ruined_augment",
+            "itemName": "Ruined Augment",
+            "targetId": "plastic_parts",
+            "targetName": "Plastic Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "plastic_parts",
+            "itemName": "Plastic Parts",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "1"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "ruined_augment",
+        "recycleComponentId": "rubber_parts",
+        "recycleComponentName": "Rubber Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "ruined_augment",
+            "itemName": "Ruined Augment",
+            "targetId": "rubber_parts",
+            "targetName": "Rubber Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "rubber_parts",
+            "itemName": "Rubber Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "ruined_baton": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "ruined_baton",
+        "recycleComponentId": "metal_parts",
+        "recycleComponentName": "Metal Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "ruined_baton",
+            "itemName": "Ruined Baton",
+            "targetId": "metal_parts",
+            "targetName": "Metal Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "metal_parts",
+            "itemName": "Metal Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "ruined_baton",
+        "recycleComponentId": "rubber_parts",
+        "recycleComponentName": "Rubber Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "ruined_baton",
+            "itemName": "Ruined Baton",
+            "targetId": "rubber_parts",
+            "targetName": "Rubber Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "rubber_parts",
+            "itemName": "Rubber Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "ruined_handcuffs": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "ruined_handcuffs",
+        "recycleComponentId": "metal_parts",
+        "recycleComponentName": "Metal Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "ruined_handcuffs",
+            "itemName": "Ruined Handcuffs",
+            "targetId": "metal_parts",
+            "targetName": "Metal Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "metal_parts",
+            "itemName": "Metal Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "ruined_parachute": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "ruined_parachute",
+        "recycleComponentId": "fabric",
+        "recycleComponentName": "Fabric",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "ruined_parachute",
+            "itemName": "Ruined Parachute",
+            "targetId": "fabric",
+            "targetName": "Fabric"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "fabric",
+            "itemName": "Fabric",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "1"
           }
         ]
       }
@@ -3793,29 +4258,14 @@
     ]
   },
   "water_filter": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "water_filter",
-        "recycleComponentId": "rubber_parts",
-        "recycleComponentName": "Rubber Parts",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "water_filter",
-            "itemName": "Water Filter",
-            "targetId": "rubber_parts",
-            "targetName": "Rubber Parts"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "rubber_parts",
-            "itemName": "Rubber Parts",
-            "workshopStation": "gunsmith",
-            "workshopLevel": "1"
-          }
-        ]
+        "projectId": "flickering_flames_project",
+        "projectName": "Flickering Flames",
+        "projectPhase": 4
       }
     ]
   },
@@ -3838,6 +4288,18 @@
         "itemId": "wires",
         "questId": "ss10y",
         "questName": "After Rain Comes"
+      },
+      {
+        "type": "quest",
+        "itemId": "wires",
+        "questId": "ss10m",
+        "questName": "Eyes on the Prize"
+      },
+      {
+        "type": "quest",
+        "itemId": "wires",
+        "questId": "ss10x11",
+        "questName": "Flickering Threat"
       },
       {
         "type": "quest",

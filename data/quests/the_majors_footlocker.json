@@ -5,7 +5,7 @@
     "en": "The Major's Footlocker",
     "de": "Die Truhe des Majors",
     "fr": "Le casier de la capitaine",
-    "es": "El baúl del mayor",
+    "es": "El baúl de la comandante",
     "pt": "O baú do major",
     "pl": "Kufer majora",
     "no": "Majorens fotskrin",
@@ -21,6 +21,9 @@
     "sr": "Majorov sanduk",
     "hr": "Majorov sanduk"
   },
+  "map": [
+    "dam_battlegrounds"
+  ],
   "trader": "Tian Wen",
   "description": {
     "en": "I have another job. It's.. about my mom. Those First Wave sites I sent you to before? I actually hoped you'd find something of my mother's. She fought in the Raider resistance. It was a long shot; but now I've got an actual lead.",
@@ -92,7 +95,7 @@
   ],
   "rewardItemIds": [
     {
-      "itemId": "launcher_ammo_blueprint",
+      "itemId": "hullcracker_blueprint",
       "quantity": 1
     }
   ],
