@@ -198,7 +198,7 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
           </div>
 
           {/* Filters section - Collapsible on mobile, always visible on desktop */}
-          <div className={`flex flex-col lg:flex-row gap-3 lg:gap-4 transition-all ${!showFilters ? 'hidden lg:flex' : ''}`}>
+          <div className={`flex flex-col lg:flex-row gap-3 lg:gap-4 mt-3 lg:mt-0 transition-all ${!showFilters ? 'hidden lg:flex' : ''}`}>
             {/* Type Filter */}
             <div className="w-full lg:w-auto">
               <MultiSelect
