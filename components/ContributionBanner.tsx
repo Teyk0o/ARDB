@@ -357,8 +357,8 @@ export default function ContributionBanner() {
         <div className="flex flex-col gap-3 md:gap-4">
           {/* Text content */}
           <div className="flex-1">
-            <h3 className="font-bold text-sm md:text-base mb-1" style={{ color: '#130918' }}>{text.title}</h3>
-            <p className="text-xs md:text-sm" style={{ color: 'rgba(19, 9, 24, 0.8)' }}>
+            <h3 className="font-bold text-base md:text-lg mb-1" style={{ color: '#130918' }}>{text.title}</h3>
+            <p className="text-sm md:text-base" style={{ color: 'rgba(19, 9, 24, 0.8)' }}>
               {text.description}
             </p>
           </div>
@@ -369,7 +369,7 @@ export default function ContributionBanner() {
               href="https://github.com/Teyk0o/ARDB"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-bold py-2 px-3 md:px-4 rounded transition-colors text-xs md:text-sm whitespace-nowrap border-2 flex-1 md:flex-none text-center"
+              className="font-bold py-2 px-3 md:px-4 rounded transition-colors text-sm md:text-base whitespace-nowrap border-2 flex-1 md:flex-none text-center"
               style={{
                 backgroundColor: '#130918',
                 borderColor: '#130918',
@@ -382,7 +382,7 @@ export default function ContributionBanner() {
             </a>
             <button
               onClick={() => setShowFeatureModal(true)}
-              className="font-bold py-2 px-3 md:px-4 rounded transition-colors text-xs md:text-sm whitespace-nowrap border-2 cursor-pointer flex-1 md:flex-none text-center"
+              className="font-bold py-2 px-3 md:px-4 rounded transition-colors text-sm md:text-base whitespace-nowrap border-2 cursor-pointer flex-1 md:flex-none text-center"
               style={{
                 backgroundColor: 'rgba(19, 9, 24, 0.2)',
                 borderColor: '#130918',
@@ -395,7 +395,7 @@ export default function ContributionBanner() {
             </button>
             <button
               onClick={handleDismiss}
-              className="font-bold py-2 px-3 md:px-4 rounded transition-colors text-xs md:text-sm border-2 cursor-pointer flex-1 md:flex-none text-center"
+              className="font-bold py-2 px-3 md:px-4 rounded transition-colors text-sm md:text-base border-2 cursor-pointer flex-1 md:flex-none text-center"
               style={{
                 backgroundColor: 'transparent',
                 borderColor: '#130918',
