@@ -27,6 +27,8 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
   const router = useRouter();
   const searchParams = useSearchParams();
 
+  const [showFilters, setShowFilters] = useState(false);
+
   const [language, setLanguage] = useState<Language>(() => {
     // Load language from localStorage on initial render
     if (typeof window !== 'undefined') {
@@ -161,7 +163,8 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
       {/* Search and Filters */}
       <div className="sticky top-0 z-30 backdrop-blur-md shadow-lg" style={{ backgroundColor: 'rgba(26, 17, 32, 0.95)', borderBottom: '1px solid #2d1f38' }}>
         <div className="container mx-auto px-4 py-3 lg:py-4">
-          <div className="flex flex-col lg:flex-row gap-3 lg:gap-4">
+          {/* Search bar with toggle button */}
+          <div className="flex gap-3 lg:gap-4 mb-0 lg:mb-4">
             {/* Search - Full width on mobile/tablet, flexible on desktop */}
             <SearchWithHistory
               value={filters.search}
@@ -170,8 +173,34 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
               language={language}
             />
 
+            {/* Filter toggle button - Only visible on mobile */}
+            <button
+              onClick={() => setShowFilters(!showFilters)}
+              className="lg:hidden rounded-lg px-4 py-3 font-medium transition-all cursor-pointer whitespace-nowrap"
+              style={{
+                backgroundColor: showFilters ? '#f1aa1c' : '#2d1f38',
+                color: showFilters ? '#130918' : '#ffffff',
+                border: `1px solid ${showFilters ? '#f1aa1c' : '#2d1f38'}`
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.borderColor = '#f1aa1c';
+                e.currentTarget.style.opacity = '0.9';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.borderColor = showFilters ? '#f1aa1c' : '#2d1f38';
+                e.currentTarget.style.opacity = '1';
+              }}
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
+              </svg>
+            </button>
+          </div>
+
+          {/* Filters section - Collapsible on mobile, always visible on desktop */}
+          <div className={`flex flex-col lg:flex-row gap-3 lg:gap-4 transition-all ${!showFilters ? 'hidden lg:flex' : ''}`}>
             {/* Type Filter */}
-            <div className="w-full sm:w-auto">
+            <div className="w-full lg:w-auto">
               <MultiSelect
                 values={filters.types}
                 onChange={(selectedTypes) => setFilters({ ...filters, types: selectedTypes })}
@@ -181,7 +210,7 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
             </div>
 
             {/* Rarity Filter */}
-            <div className="w-full sm:w-auto">
+            <div className="w-full lg:w-auto">
               <MultiSelect
                 values={filters.rarities}
                 onChange={(selectedRarities) => setFilters({ ...filters, rarities: selectedRarities })}
@@ -191,7 +220,7 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
             </div>
 
             {/* Tag Filter */}
-            <div className="w-full sm:w-auto">
+            <div className="w-full lg:w-auto">
               <MultiSelect
                 values={filters.tags}
                 onChange={(selectedTags) => setFilters({ ...filters, tags: selectedTags })}
@@ -204,7 +233,7 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
             <button
               onClick={resetFilters}
               disabled={filters.search === '' && filters.types.length === 0 && filters.rarities.length === 0 && filters.tags.length === 0}
-              className="w-full sm:w-auto rounded-lg px-4 py-3 font-medium transition-all whitespace-nowrap cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full lg:w-auto rounded-lg px-4 py-3 font-medium transition-all whitespace-nowrap cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
               style={{
                 backgroundColor: '#2d1f38',
                 color: '#ffffff',
