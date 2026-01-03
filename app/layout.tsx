@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Suspense } from "react";
 import ContributionBanner from "@/components/ContributionBanner";
-import TeamBanner from "@/components/TeamBanner";
 import LanguageDetector from "@/components/LanguageDetector";
 import DiscordButton from "@/components/DiscordButton";
 import AuthRefreshHandler from "@/components/auth/AuthRefreshHandler";
@@ -126,7 +125,6 @@ export default function RootLayout({
         />
       </head>
       <body className="antialiased">
-        <TeamBanner />
         <LanguageDetector />
         <Suspense fallback={null}>
           <AuthRefreshHandler />
