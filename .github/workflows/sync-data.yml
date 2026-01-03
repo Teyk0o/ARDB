@@ -173,7 +173,7 @@ jobs:
           EOF
 
           git commit -F commit-message.txt
-          git push origin main
+          git push https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git main
 
           echo "✅ Changes committed and pushed to main"
 
