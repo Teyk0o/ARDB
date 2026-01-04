@@ -45,7 +45,14 @@
         "type": "project",
         "itemId": "advanced_electrical_components",
         "projectId": "expedition_project",
-        "projectName": "Expedition Project",
+        "projectName": "Expedition Project (Season 2)",
+        "projectPhase": 4
+      },
+      {
+        "type": "project",
+        "itemId": "advanced_electrical_components",
+        "projectId": "expedition_project_s1",
+        "projectName": "Expedition Project (Season 1)",
         "projectPhase": 4
       }
     ]
@@ -153,7 +160,14 @@
         "type": "project",
         "itemId": "arc_alloy",
         "projectId": "expedition_project",
-        "projectName": "Expedition Project",
+        "projectName": "Expedition Project (Season 2)",
+        "projectPhase": 1
+      },
+      {
+        "type": "project",
+        "itemId": "arc_alloy",
+        "projectId": "expedition_project_s1",
+        "projectName": "Expedition Project (Season 1)",
         "projectPhase": 1
       }
     ]
@@ -356,7 +370,14 @@
         "type": "project",
         "itemId": "battery",
         "projectId": "expedition_project",
-        "projectName": "Expedition Project",
+        "projectName": "Expedition Project (Season 2)",
+        "projectPhase": 3
+      },
+      {
+        "type": "project",
+        "itemId": "battery",
+        "projectId": "expedition_project_s1",
+        "projectName": "Expedition Project (Season 1)",
         "projectPhase": 3
       }
     ]
@@ -853,44 +874,14 @@
     ]
   },
   "cooling_coil": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "cooling_coil",
-        "recycleComponentId": "chemicals",
-        "recycleComponentName": "Chemicals",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "cooling_coil",
-            "itemName": "Cooling Coil",
-            "targetId": "chemicals",
-            "targetName": "Chemicals"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "chemicals",
-            "itemName": "Chemicals",
-            "workshopStation": "explosives_station",
-            "workshopLevel": "1"
-          }
-        ]
-      },
-      {
-        "type": "recycle",
-        "itemId": "cooling_coil",
-        "recycleComponentId": "steel_spring",
-        "recycleComponentName": "Steel Spring",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "cooling_coil",
-            "itemName": "Cooling Coil",
-            "targetId": "steel_spring",
-            "targetName": "Steel Spring"
-          }
-        ]
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project (Season 2)",
+        "projectPhase": 2
       }
     ]
   },
@@ -900,8 +891,8 @@
       {
         "type": "project",
         "itemId": "cooling_fan",
-        "projectId": "expedition_project",
-        "projectName": "Expedition Project",
+        "projectId": "expedition_project_s1",
+        "projectName": "Expedition Project (Season 1)",
         "projectPhase": 2
       }
     ]
@@ -1371,7 +1362,14 @@
         "type": "project",
         "itemId": "durable_cloth",
         "projectId": "expedition_project",
-        "projectName": "Expedition Project",
+        "projectName": "Expedition Project (Season 2)",
+        "projectPhase": 2
+      },
+      {
+        "type": "project",
+        "itemId": "durable_cloth",
+        "projectId": "expedition_project_s1",
+        "projectName": "Expedition Project (Season 1)",
         "projectPhase": 2
       },
       {
@@ -1402,7 +1400,14 @@
         "type": "project",
         "itemId": "electrical_components",
         "projectId": "expedition_project",
-        "projectName": "Expedition Project",
+        "projectName": "Expedition Project (Season 2)",
+        "projectPhase": 2
+      },
+      {
+        "type": "project",
+        "itemId": "electrical_components",
+        "projectId": "expedition_project_s1",
+        "projectName": "Expedition Project (Season 1)",
         "projectPhase": 2
       }
     ]
@@ -1426,7 +1431,14 @@
         "type": "project",
         "itemId": "exodus_modules",
         "projectId": "expedition_project",
-        "projectName": "Expedition Project",
+        "projectName": "Expedition Project (Season 2)",
+        "projectPhase": 3
+      },
+      {
+        "type": "project",
+        "itemId": "exodus_modules",
+        "projectId": "expedition_project_s1",
+        "projectName": "Expedition Project (Season 1)",
         "projectPhase": 3
       }
     ]
@@ -1621,29 +1633,14 @@
     ]
   },
   "frequency_modulation_box": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "frequency_modulation_box",
-        "recycleComponentId": "advanced_electrical_components",
-        "recycleComponentName": "Advanced Electrical Components",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "frequency_modulation_box",
-            "itemName": "Frequency Modulation Box",
-            "targetId": "advanced_electrical_components",
-            "targetName": "Advanced Electrical Components"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "advanced_electrical_components",
-            "itemName": "Advanced Electrical Components",
-            "workshopStation": "gear_bench",
-            "workshopLevel": "3"
-          }
-        ]
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project (Season 2)",
+        "projectPhase": 4
       }
     ]
   },
@@ -1827,8 +1824,8 @@
       {
         "type": "project",
         "itemId": "humidifier",
-        "projectId": "expedition_project",
-        "projectName": "Expedition Project",
+        "projectId": "expedition_project_s1",
+        "projectName": "Expedition Project (Season 1)",
         "projectPhase": 4
       }
     ]
@@ -1960,22 +1957,14 @@
     ]
   },
   "ion_sputter": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "ion_sputter",
-        "recycleComponentId": "exodus_modules",
-        "recycleComponentName": "Exodus Modules",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "ion_sputter",
-            "itemName": "Ion Sputter",
-            "targetId": "exodus_modules",
-            "targetName": "Exodus Modules"
-          }
-        ]
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project (Season 2)",
+        "projectPhase": 4
       }
     ]
   },
@@ -2009,7 +1998,14 @@
         "type": "project",
         "itemId": "leaper_pulse_unit",
         "projectId": "expedition_project",
-        "projectName": "Expedition Project",
+        "projectName": "Expedition Project (Season 2)",
+        "projectPhase": 4
+      },
+      {
+        "type": "project",
+        "itemId": "leaper_pulse_unit",
+        "projectId": "expedition_project_s1",
+        "projectName": "Expedition Project (Season 1)",
         "projectPhase": 4
       }
     ]
@@ -2032,7 +2028,14 @@
         "type": "project",
         "itemId": "light_bulb",
         "projectId": "expedition_project",
-        "projectName": "Expedition Project",
+        "projectName": "Expedition Project (Season 2)",
+        "projectPhase": 3
+      },
+      {
+        "type": "project",
+        "itemId": "light_bulb",
+        "projectId": "expedition_project_s1",
+        "projectName": "Expedition Project (Season 1)",
         "projectPhase": 3
       },
       {
@@ -2077,8 +2080,8 @@
       {
         "type": "project",
         "itemId": "magnetic_accelerator",
-        "projectId": "expedition_project",
-        "projectName": "Expedition Project",
+        "projectId": "expedition_project_s1",
+        "projectName": "Expedition Project (Season 1)",
         "projectPhase": 4
       }
     ]
@@ -2193,7 +2196,14 @@
         "type": "project",
         "itemId": "metal_parts",
         "projectId": "expedition_project",
-        "projectName": "Expedition Project",
+        "projectName": "Expedition Project (Season 2)",
+        "projectPhase": 1
+      },
+      {
+        "type": "project",
+        "itemId": "metal_parts",
+        "projectId": "expedition_project_s1",
+        "projectName": "Expedition Project (Season 1)",
         "projectPhase": 1
       }
     ]
@@ -2419,7 +2429,7 @@
         "type": "project",
         "itemId": "plastic_parts",
         "projectId": "expedition_project",
-        "projectName": "Expedition Project",
+        "projectName": "Expedition Project (Season 2)",
         "projectPhase": 1
       },
       {
@@ -3004,6 +3014,13 @@
         "itemId": "rubber_parts",
         "workshopStation": "gunsmith",
         "workshopLevel": "1"
+      },
+      {
+        "type": "project",
+        "itemId": "rubber_parts",
+        "projectId": "expedition_project_s1",
+        "projectName": "Expedition Project (Season 1)",
+        "projectPhase": 1
       }
     ]
   },
@@ -3397,8 +3414,8 @@
       {
         "type": "project",
         "itemId": "sensors",
-        "projectId": "expedition_project",
-        "projectName": "Expedition Project",
+        "projectId": "expedition_project_s1",
+        "projectName": "Expedition Project (Season 1)",
         "projectPhase": 3
       }
     ]
@@ -3415,51 +3432,14 @@
     ]
   },
   "shredder_gyro": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "shredder_gyro",
-        "recycleComponentId": "mechanical_components",
-        "recycleComponentName": "Mechanical Components",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "shredder_gyro",
-            "itemName": "Shredder Gyro",
-            "targetId": "mechanical_components",
-            "targetName": "Mechanical Components"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "mechanical_components",
-            "itemName": "Mechanical Components",
-            "workshopStation": "gunsmith",
-            "workshopLevel": "2"
-          }
-        ]
-      },
-      {
-        "type": "recycle",
-        "itemId": "shredder_gyro",
-        "recycleComponentId": "arc_alloy",
-        "recycleComponentName": "ARC Alloy",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "shredder_gyro",
-            "itemName": "Shredder Gyro",
-            "targetId": "arc_alloy",
-            "targetName": "ARC Alloy"
-          },
-          {
-            "action": "use_in_quest",
-            "itemId": "arc_alloy",
-            "itemName": "ARC Alloy",
-            "questId": "ss2",
-            "questName": "Clearer Skies"
-          }
-        ]
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project (Season 2)",
+        "projectPhase": 3
       }
     ]
   },
@@ -3758,7 +3738,14 @@
         "type": "project",
         "itemId": "steel_spring",
         "projectId": "expedition_project",
-        "projectName": "Expedition Project",
+        "projectName": "Expedition Project (Season 2)",
+        "projectPhase": 1
+      },
+      {
+        "type": "project",
+        "itemId": "steel_spring",
+        "projectId": "expedition_project_s1",
+        "projectName": "Expedition Project (Season 1)",
         "projectPhase": 1
       }
     ]
@@ -4311,7 +4298,14 @@
         "type": "project",
         "itemId": "wires",
         "projectId": "expedition_project",
-        "projectName": "Expedition Project",
+        "projectName": "Expedition Project (Season 2)",
+        "projectPhase": 2
+      },
+      {
+        "type": "project",
+        "itemId": "wires",
+        "projectId": "expedition_project_s1",
+        "projectName": "Expedition Project (Season 1)",
         "projectPhase": 2
       }
     ]
