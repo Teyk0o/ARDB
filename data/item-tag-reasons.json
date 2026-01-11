@@ -1046,6 +1046,28 @@
             "questName": "Clearer Skies"
           }
         ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "damaged_fireball_burner",
+        "recycleComponentId": "metal_parts",
+        "recycleComponentName": "Metal Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "damaged_fireball_burner",
+            "itemName": "Damaged Fireball Burner",
+            "targetId": "metal_parts",
+            "targetName": "Metal Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "metal_parts",
+            "itemName": "Metal Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
       }
     ]
   },
@@ -1233,6 +1255,28 @@
             "itemId": "rubber_parts",
             "itemName": "Rubber Parts",
             "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "deflated_football",
+        "recycleComponentId": "fabric",
+        "recycleComponentName": "Fabric",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "deflated_football",
+            "itemName": "Deflated Football",
+            "targetId": "fabric",
+            "targetName": "Fabric"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "fabric",
+            "itemName": "Fabric",
+            "workshopStation": "gear_bench",
             "workshopLevel": "1"
           }
         ]
@@ -2232,6 +2276,28 @@
             "workshopLevel": "3"
           }
         ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "microscope",
+        "recycleComponentId": "mechanical_components",
+        "recycleComponentName": "Mechanical Components",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "microscope",
+            "itemName": "Microscope",
+            "targetId": "mechanical_components",
+            "targetName": "Mechanical Components"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "mechanical_components",
+            "itemName": "Mechanical Components",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "2"
+          }
+        ]
       }
     ]
   },
@@ -2257,6 +2323,28 @@
             "itemName": "Advanced Mechanical Components",
             "workshopStation": "gunsmith",
             "workshopLevel": "3"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "mini_centrifuge",
+        "recycleComponentId": "mechanical_components",
+        "recycleComponentName": "Mechanical Components",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "mini_centrifuge",
+            "itemName": "Mini Centrifuge",
+            "targetId": "mechanical_components",
+            "targetName": "Mechanical Components"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "mechanical_components",
+            "itemName": "Mechanical Components",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "2"
           }
         ]
       }
@@ -3602,6 +3690,28 @@
             "targetName": "Sensors"
           }
         ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "spectrometer",
+        "recycleComponentId": "electrical_components",
+        "recycleComponentName": "Electrical Components",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "spectrometer",
+            "itemName": "Spectrometer",
+            "targetId": "electrical_components",
+            "targetName": "Electrical Components"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "electrical_components",
+            "itemName": "Electrical Components",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "2"
+          }
+        ]
       }
     ]
   },
@@ -4019,6 +4129,28 @@
             "workshopLevel": "3"
           }
         ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "telemetry_transceiver",
+        "recycleComponentId": "electrical_components",
+        "recycleComponentName": "Electrical Components",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "telemetry_transceiver",
+            "itemName": "Telemetry Transceiver",
+            "targetId": "electrical_components",
+            "targetName": "Electrical Components"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "electrical_components",
+            "itemName": "Electrical Components",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "2"
+          }
+        ]
       }
     ]
   },
@@ -4135,6 +4267,21 @@
             "itemName": "Mechanical Components",
             "workshopStation": "gunsmith",
             "workshopLevel": "2"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "turbo_pump",
+        "recycleComponentId": "steel_spring",
+        "recycleComponentName": "Steel Spring",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "turbo_pump",
+            "itemName": "Turbo Pump",
+            "targetId": "steel_spring",
+            "targetName": "Steel Spring"
           }
         ]
       }
