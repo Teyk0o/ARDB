@@ -1240,28 +1240,6 @@
       {
         "type": "recycle",
         "itemId": "deflated_football",
-        "recycleComponentId": "rubber_parts",
-        "recycleComponentName": "Rubber Parts",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "deflated_football",
-            "itemName": "Deflated Football",
-            "targetId": "rubber_parts",
-            "targetName": "Rubber Parts"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "rubber_parts",
-            "itemName": "Rubber Parts",
-            "workshopStation": "gunsmith",
-            "workshopLevel": "1"
-          }
-        ]
-      },
-      {
-        "type": "recycle",
-        "itemId": "deflated_football",
         "recycleComponentId": "fabric",
         "recycleComponentName": "Fabric",
         "chain": [
@@ -1277,6 +1255,28 @@
             "itemId": "fabric",
             "itemName": "Fabric",
             "workshopStation": "gear_bench",
+            "workshopLevel": "1"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "deflated_football",
+        "recycleComponentId": "rubber_parts",
+        "recycleComponentName": "Rubber Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "deflated_football",
+            "itemName": "Deflated Football",
+            "targetId": "rubber_parts",
+            "targetName": "Rubber Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "rubber_parts",
+            "itemName": "Rubber Parts",
+            "workshopStation": "gunsmith",
             "workshopLevel": "1"
           }
         ]
@@ -1493,28 +1493,6 @@
       {
         "type": "recycle",
         "itemId": "expired_respirator",
-        "recycleComponentId": "rubber_parts",
-        "recycleComponentName": "Rubber Parts",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "expired_respirator",
-            "itemName": "Expired Respirator",
-            "targetId": "rubber_parts",
-            "targetName": "Rubber Parts"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "rubber_parts",
-            "itemName": "Rubber Parts",
-            "workshopStation": "gunsmith",
-            "workshopLevel": "1"
-          }
-        ]
-      },
-      {
-        "type": "recycle",
-        "itemId": "expired_respirator",
         "recycleComponentId": "fabric",
         "recycleComponentName": "Fabric",
         "chain": [
@@ -1530,6 +1508,28 @@
             "itemId": "fabric",
             "itemName": "Fabric",
             "workshopStation": "gear_bench",
+            "workshopLevel": "1"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "expired_respirator",
+        "recycleComponentId": "rubber_parts",
+        "recycleComponentName": "Rubber Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "expired_respirator",
+            "itemName": "Expired Respirator",
+            "targetId": "rubber_parts",
+            "targetName": "Rubber Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "rubber_parts",
+            "itemName": "Rubber Parts",
+            "workshopStation": "gunsmith",
             "workshopLevel": "1"
           }
         ]
@@ -2147,6 +2147,21 @@
       {
         "type": "recycle",
         "itemId": "matriarch_reactor",
+        "recycleComponentId": "magnetic_accelerator",
+        "recycleComponentName": "Magnetic Accelerator",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "matriarch_reactor",
+            "itemName": "Matriarch Reactor",
+            "targetId": "magnetic_accelerator",
+            "targetName": "Magnetic Accelerator"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "matriarch_reactor",
         "recycleComponentId": "power_rod",
         "recycleComponentName": "Power Rod",
         "chain": [
@@ -2163,21 +2178,6 @@
             "itemName": "Power Rod",
             "questId": "ss10x15",
             "questName": "Tribute to Toledo"
-          }
-        ]
-      },
-      {
-        "type": "recycle",
-        "itemId": "matriarch_reactor",
-        "recycleComponentId": "magnetic_accelerator",
-        "recycleComponentName": "Magnetic Accelerator",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "matriarch_reactor",
-            "itemName": "Matriarch Reactor",
-            "targetId": "magnetic_accelerator",
-            "targetName": "Magnetic Accelerator"
           }
         ]
       }
@@ -2704,28 +2704,6 @@
       {
         "type": "recycle",
         "itemId": "processor",
-        "recycleComponentId": "wires",
-        "recycleComponentName": "Wires",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "processor",
-            "itemName": "Processor",
-            "targetId": "wires",
-            "targetName": "Wires"
-          },
-          {
-            "action": "use_in_quest",
-            "itemId": "wires",
-            "itemName": "Wires",
-            "questId": "ss10y",
-            "questName": "After Rain Comes"
-          }
-        ]
-      },
-      {
-        "type": "recycle",
-        "itemId": "processor",
         "recycleComponentId": "plastic_parts",
         "recycleComponentName": "Plastic Parts",
         "chain": [
@@ -2742,6 +2720,28 @@
             "itemName": "Plastic Parts",
             "workshopStation": "gear_bench",
             "workshopLevel": "1"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "processor",
+        "recycleComponentId": "wires",
+        "recycleComponentName": "Wires",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "processor",
+            "itemName": "Processor",
+            "targetId": "wires",
+            "targetName": "Wires"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "wires",
+            "itemName": "Wires",
+            "questId": "ss10y",
+            "questName": "After Rain Comes"
           }
         ]
       }
@@ -2780,6 +2780,21 @@
       {
         "type": "recycle",
         "itemId": "queen_reactor",
+        "recycleComponentId": "magnetic_accelerator",
+        "recycleComponentName": "Magnetic Accelerator",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "queen_reactor",
+            "itemName": "Queen Reactor",
+            "targetId": "magnetic_accelerator",
+            "targetName": "Magnetic Accelerator"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "queen_reactor",
         "recycleComponentId": "power_rod",
         "recycleComponentName": "Power Rod",
         "chain": [
@@ -2796,21 +2811,6 @@
             "itemName": "Power Rod",
             "questId": "ss10x15",
             "questName": "Tribute to Toledo"
-          }
-        ]
-      },
-      {
-        "type": "recycle",
-        "itemId": "queen_reactor",
-        "recycleComponentId": "magnetic_accelerator",
-        "recycleComponentName": "Magnetic Accelerator",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "queen_reactor",
-            "itemName": "Queen Reactor",
-            "targetId": "magnetic_accelerator",
-            "targetName": "Magnetic Accelerator"
           }
         ]
       }
@@ -2953,28 +2953,6 @@
       {
         "type": "recycle",
         "itemId": "rocket_thruster",
-        "recycleComponentId": "synthesized_fuel",
-        "recycleComponentName": "Synthesized Fuel",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "rocket_thruster",
-            "itemName": "Rocket Thruster",
-            "targetId": "synthesized_fuel",
-            "targetName": "Synthesized Fuel"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "synthesized_fuel",
-            "itemName": "Synthesized Fuel",
-            "workshopStation": "explosives_station",
-            "workshopLevel": "2"
-          }
-        ]
-      },
-      {
-        "type": "recycle",
-        "itemId": "rocket_thruster",
         "recycleComponentId": "metal_parts",
         "recycleComponentName": "Metal Parts",
         "chain": [
@@ -2991,6 +2969,28 @@
             "itemName": "Metal Parts",
             "workshopStation": "gunsmith",
             "workshopLevel": "1"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "rocket_thruster",
+        "recycleComponentId": "synthesized_fuel",
+        "recycleComponentName": "Synthesized Fuel",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "rocket_thruster",
+            "itemName": "Rocket Thruster",
+            "targetId": "synthesized_fuel",
+            "targetName": "Synthesized Fuel"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "synthesized_fuel",
+            "itemName": "Synthesized Fuel",
+            "workshopStation": "explosives_station",
+            "workshopLevel": "2"
           }
         ]
       }
@@ -3721,21 +3721,6 @@
       {
         "type": "recycle",
         "itemId": "spectrum_analyzer",
-        "recycleComponentId": "sensors",
-        "recycleComponentName": "Sensors",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "spectrum_analyzer",
-            "itemName": "Spectrum Analyzer",
-            "targetId": "sensors",
-            "targetName": "Sensors"
-          }
-        ]
-      },
-      {
-        "type": "recycle",
-        "itemId": "spectrum_analyzer",
         "recycleComponentId": "exodus_modules",
         "recycleComponentName": "Exodus Modules",
         "chain": [
@@ -3747,34 +3732,27 @@
             "targetName": "Exodus Modules"
           }
         ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "spectrum_analyzer",
+        "recycleComponentId": "sensors",
+        "recycleComponentName": "Sensors",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "spectrum_analyzer",
+            "itemName": "Spectrum Analyzer",
+            "targetId": "sensors",
+            "targetName": "Sensors"
+          }
+        ]
       }
     ]
   },
   "spotter_relay": {
     "tag": "recycle",
     "reasons": [
-      {
-        "type": "recycle",
-        "itemId": "spotter_relay",
-        "recycleComponentId": "electrical_components",
-        "recycleComponentName": "Electrical Components",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "spotter_relay",
-            "itemName": "Spotter Relay",
-            "targetId": "electrical_components",
-            "targetName": "Electrical Components"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "electrical_components",
-            "itemName": "Electrical Components",
-            "workshopStation": "gear_bench",
-            "workshopLevel": "2"
-          }
-        ]
-      },
       {
         "type": "recycle",
         "itemId": "spotter_relay",
@@ -3794,6 +3772,28 @@
             "itemName": "ARC Alloy",
             "questId": "ss2",
             "questName": "Clearer Skies"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "spotter_relay",
+        "recycleComponentId": "electrical_components",
+        "recycleComponentName": "Electrical Components",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "spotter_relay",
+            "itemName": "Spotter Relay",
+            "targetId": "electrical_components",
+            "targetName": "Electrical Components"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "electrical_components",
+            "itemName": "Electrical Components",
+            "workshopStation": "gear_bench",
+            "workshopLevel": "2"
           }
         ]
       }
@@ -4331,28 +4331,6 @@
       {
         "type": "recycle",
         "itemId": "voltage_converter",
-        "recycleComponentId": "wires",
-        "recycleComponentName": "Wires",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "voltage_converter",
-            "itemName": "Voltage Converter",
-            "targetId": "wires",
-            "targetName": "Wires"
-          },
-          {
-            "action": "use_in_quest",
-            "itemId": "wires",
-            "itemName": "Wires",
-            "questId": "ss10y",
-            "questName": "After Rain Comes"
-          }
-        ]
-      },
-      {
-        "type": "recycle",
-        "itemId": "voltage_converter",
         "recycleComponentId": "rubber_parts",
         "recycleComponentName": "Rubber Parts",
         "chain": [
@@ -4369,6 +4347,28 @@
             "itemName": "Rubber Parts",
             "workshopStation": "gunsmith",
             "workshopLevel": "1"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "voltage_converter",
+        "recycleComponentId": "wires",
+        "recycleComponentName": "Wires",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "voltage_converter",
+            "itemName": "Voltage Converter",
+            "targetId": "wires",
+            "targetName": "Wires"
+          },
+          {
+            "action": "use_in_quest",
+            "itemId": "wires",
+            "itemName": "Wires",
+            "questId": "ss10y",
+            "questName": "After Rain Comes"
           }
         ]
       }
