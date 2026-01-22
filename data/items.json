@@ -701,6 +701,7 @@
           "rarity": "Epic",
           "value": 5000,
           "weightKg": 5,
+          "stackSize": 1,
           "blueprintLocked": true,
           "effects": {
             "Backpack Slots": {
@@ -902,7 +903,7 @@
             "electrical_components": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/combat_mk3_aggressive.png",
-          "updatedAt": "01/13/2026",
+          "updatedAt": "01/20/2026",
           "repairCost": {
             "advanced_electrical_components": 1,
             "processor": 2
@@ -964,6 +965,7 @@
           "rarity": "Epic",
           "value": 5000,
           "weightKg": 5,
+          "stackSize": 1,
           "blueprintLocked": true,
           "effects": {
             "Backpack Slots": {
@@ -1165,7 +1167,7 @@
             "electrical_components": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/combat_mk3_flanking.png",
-          "updatedAt": "01/13/2026",
+          "updatedAt": "01/20/2026",
           "repairCost": {
             "advanced_electrical_components": 1,
             "processor": 2
@@ -1227,6 +1229,7 @@
           "rarity": "Epic",
           "value": 5000,
           "weightKg": 3,
+          "stackSize": 1,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -1311,7 +1314,150 @@
             "electrical_components": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/looting_mk3_cautious.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
+        },
+        "component": {
+          "id": "advanced_electrical_components"
+        }
+      },
+      {
+        "item": {
+          "id": "looting_mk3_survivor",
+          "name": {
+            "da": "Plyndring Mk. 3 (Survivor)",
+            "de": "Beute-Marke 3 (Überleben)",
+            "en": "Looting Mk. 3 (Survivor)",
+            "es": "Saqueo Ver. 3 (Superviviente)",
+            "fr": "Butin 3 (Survie)",
+            "he": "ביזה Mk. 3 (שורד)",
+            "hr": "Pljačkaški Mk. 3 (Preživjeli)",
+            "it": "Saccheggio Mk. 3 (Sopravvissuto)",
+            "ja": "略奪MK3 (サバイバー)",
+            "kr": "노획 마크(생존자)",
+            "no": "Plyndring Mk. 3 (Survivor)",
+            "pl": "Grabież Mk. 3 (Ocalały)",
+            "pt": "Saque Mk. 3 (Sobrevivente)",
+            "pt-BR": "Saque Mk. 3 (Sobrevivente)",
+            "ru": "Добыча 3 (Выживший)",
+            "sr": "Pljačkaški Mk. 3 (Preživeli)",
+            "tr": "Yağmalama Mk. 3 (Hayatta Kalan)",
+            "uk": "Мародерський Mk. 3 (вижилий)",
+            "zh-CN": "掠夺 Mk. 3（幸存者）",
+            "zh-TW": "掠奪 Mk. 3（倖存者）"
+          },
+          "description": {
+            "da": "En robust pakæsel-forstærkning. Stor vægtkapacitet og stort rygsækrum. Mens du er nede og stationær, regenererer helbred op til 75% af maks helbred når du er nede.",
+            "de": "Ein robustes Packesel-Augment. Große Tragekapazität und viel Platz im Rucksack. Im entkräfteten und bewegungslosen Zustand erholt sich die Gesundheit auf bis zu 75% der max. Gesundheit im entkräfteten Zustand.",
+            "en": "A heavy-duty pack mule augment. Large weight capacity and large backpack space. While downed and stationary, health regenerates up to 75% of max downed health.",
+            "es": "Un aumento de mula de carga resistente. Gran capacidad de peso y gran espacio de mochila. Mientras estás derribado e inmóvil, la salud se regenera hasta el 75% de la salud máxima derribado.",
+            "fr": "Une amélioration de mulet de bât robuste. Grande capacité de poids et grand espace de sac à dos. Lorsque vous êtes à terre et immobile, la santé se régénère jusqu'à 75% de la santé maximale à terre.",
+            "he": "תוסף לנשיאת משקלים כבדים. קיבולת משקל גדולה ומקום רב בתיק. במצב נפילה וללא תנועה, הבריאות מתחדשת עד 75% מבריאות הנפילה המירבית.",
+            "hr": "Pojačana augmentacija tovarne životinje. Veliki kapacitet težine i veliki prostor za ruksak. Dok ste oboreni i nepokretni, zdravlje se regenerira do 75% maksimalnog zdravlja u oborenom stanju.",
+            "it": "Un potenziamento da mulo da soma resistente. Grande capacità di peso e grande spazio zaino. Mentre sei a terra e fermo, la salute si rigenera fino al 75% della salute massima a terra.",
+            "ja": "頑丈な荷役用強化装備。大きな重量容量と大きなバックパックスペース。ダウン中で静止している間、ヘルスが最大ダウンヘルスの75%まで回復します。",
+            "kr": "튼튼한 짐꾼 증강. 큰 무게 용량과 큰 배낭 공간. 다운되어 정지 상태일 때 체력이 최대 다운 체력의 75%까지 재생됩니다.",
+            "no": "En robust pakkmuldyr-forsterkning. Stor vektkapasitet og stort sekkeromsplass. Mens du er nede og stasjonær, regenererer helse opp til 75% av maks helse når du er nede.",
+            "pl": "Wytrzymała augmentacja jucznego zwierzęcia. Duża pojemność wagowa i duża przestrzeń plecaka. Podczas leżenia i bezruchu zdrowie regeneruje się do 75% maksymalnego zdrowia w stanie leżącym.",
+            "pt": "Um aumento de mula de carga resistente. Grande capacidade de peso e grande espaço de mochila. Enquanto caído e parado, a saúde regenera até 75% da saúde máxima caído.",
+            "pt-BR": "Um aumento de mula de carga resistente. Grande capacidade de peso e grande espaço de mochila. Enquanto caído e parado, a saúde regenera até 75% da saúde máxima caído.",
+            "ru": "Усиленная аугментация вьючного животного. Большая грузоподъемность и большое пространство рюкзака. В состоянии нокдауна и неподвижности здоровье восстанавливается до 75% от максимального здоровья в нокдауне.",
+            "sr": "Pojačana augmentacija tovarne životinje. Veliki kapacitet težine i veliki prostor za ranac. Dok ste oboreni i nepokretni, zdravlje se regeneriše do 75% maksimalnog zdravlja u oborenom stanju.",
+            "tr": "Ağır hizmet tipi yük hayvanı güçlendirmesi. Büyük ağırlık kapasitesi ve büyük sırt çantası alanı. Yere düşmüş ve hareketsiz durumdayken, sağlık maksimum düşmüş sağlığın %75'ine kadar yenilenir.",
+            "uk": "Посилена аугментація в'ючної тварини. Велика вантажопідйомність і великий простір рюкзака. Під час знепритомнення та нерухомості здоров'я відновлюється до 75% від максимального здоров'я у знепритомненні.",
+            "zh-CN": "重型驮兽增强装备。大载重容量和大背包空间。倒地且静止时，生命值恢复至最大倒地生命值的75%。",
+            "zh-TW": "重型馱獸增強裝備。大載重容量和大背包空間。倒地且靜止時，生命值恢復至最大倒地生命值的75%。"
+          },
+          "type": "Augment",
+          "rarity": "Epic",
+          "value": 5000,
+          "weightKg": 4,
+          "stackSize": 1,
+          "blueprintLocked": true,
+          "effects": {
+            "Durability": {
+              "value": "100/100",
+              "da": "Holdbarhed",
+              "de": "Haltbarkeit",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "he": "עמידות",
+              "hr": "Izdržljivost",
+              "it": "Tenuta",
+              "ja": "耐久性",
+              "kr": "내구성",
+              "no": "Holdbarhet",
+              "pl": "Wytrzymałość",
+              "pt": "Durabilidade",
+              "pt-BR": "Durabilidade",
+              "ru": "Прочность",
+              "sr": "Izdržljivost",
+              "tr": "Dayanıklılık",
+              "uk": "Міцність",
+              "zh-CN": "耐久度",
+              "zh-TW": "耐久度"
+            },
+            "Max Loadout Weight": {
+              "value": 80,
+              "da": "Maks udstyrsvægt",
+              "de": "Max. Loadout-Gewicht",
+              "en": "Max Loadout Weight",
+              "es": "Peso máximo de equipamiento",
+              "fr": "Poids max. de l'équipement",
+              "he": "משקל ציוד מירבי",
+              "hr": "Maks. težina opreme",
+              "it": "Peso max equipaggiamento",
+              "ja": "最大装備重量",
+              "kr": "최대 장비 무게",
+              "no": "Maks utstyrsvekt",
+              "pl": "Maks. waga ekwipunku",
+              "pt": "Peso máximo de equipamento",
+              "pt-BR": "Peso Máximo de Carga",
+              "ru": "Макс. вес снаряжения",
+              "sr": "Maks. težina opreme",
+              "tr": "Maks. Donanım Ağırlığı",
+              "uk": "Макс. вага спорядження",
+              "zh-CN": "最大装备重量",
+              "zh-TW": "最大裝備重量"
+            },
+            "Shield Compatibility": {
+              "value": "Light, Medium",
+              "da": "Skjoldkompatibilitet",
+              "de": "Schildkompatibilität",
+              "en": "Shield Compatibility",
+              "es": "Compatibilidad con escudo",
+              "fr": "Compatibilité bouclier",
+              "he": "תאימות מגן",
+              "hr": "Kompatibilnost sa štitom",
+              "it": "Compatibilità scudo",
+              "ja": "シールド互換性",
+              "kr": "실드 호환성",
+              "no": "Skjoldkompatibilitet",
+              "pl": "Kompatybilność z tarczą",
+              "pt": "Compatibilidade com escudo",
+              "pt-BR": "Compatibilidade de Escudo",
+              "ru": "Совместимость со щитом",
+              "sr": "Kompatibilnost sa štitom",
+              "tr": "Kalkan Uyumluluğu",
+              "uk": "Сумісність зі щитом",
+              "zh-CN": "护盾兼容性",
+              "zh-TW": "護盾相容性"
+            }
+          },
+          "craftBench": "equipment_bench",
+          "recipe": {
+            "advanced_electrical_components": 2,
+            "processor": 3
+          },
+          "recyclesInto": {
+            "advanced_electrical_components": 1,
+            "processor": 1
+          },
+          "salvagesInto": {
+            "electrical_components": 2
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/looting_mk3_survivor.png",
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "advanced_electrical_components"
@@ -1744,6 +1890,7 @@
           "rarity": "Epic",
           "value": 5000,
           "weightKg": 5,
+          "stackSize": 1,
           "blueprintLocked": true,
           "effects": {
             "Durability": {
@@ -1830,7 +1977,7 @@
             "electrical_components": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_defensive.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "advanced_electrical_components"
@@ -1887,6 +2034,8 @@
           "rarity": "Epic",
           "value": 5000,
           "weightKg": 4,
+          "stackSize": 1,
+          "blueprintLocked": true,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -1972,7 +2121,7 @@
             "electrical_components": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_healing.png",
-          "updatedAt": "01/13/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "advanced_electrical_components"
@@ -2031,6 +2180,7 @@
           "rarity": "Epic",
           "value": 5000,
           "weightKg": 5,
+          "stackSize": 1,
           "blueprintLocked": true,
           "effects": {
             "Backpack Slots": {
@@ -2232,7 +2382,7 @@
             "electrical_components": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/combat_mk3_aggressive.png",
-          "updatedAt": "01/13/2026",
+          "updatedAt": "01/20/2026",
           "repairCost": {
             "advanced_electrical_components": 1,
             "processor": 2
@@ -2294,6 +2444,7 @@
           "rarity": "Epic",
           "value": 5000,
           "weightKg": 5,
+          "stackSize": 1,
           "blueprintLocked": true,
           "effects": {
             "Backpack Slots": {
@@ -2495,7 +2646,7 @@
             "electrical_components": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/combat_mk3_flanking.png",
-          "updatedAt": "01/13/2026",
+          "updatedAt": "01/20/2026",
           "repairCost": {
             "advanced_electrical_components": 1,
             "processor": 2
@@ -2624,6 +2775,7 @@
           "rarity": "Epic",
           "value": 5000,
           "weightKg": 3,
+          "stackSize": 1,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -2708,7 +2860,7 @@
             "electrical_components": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/looting_mk3_cautious.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "looting_mk3_cautious"
@@ -2766,6 +2918,7 @@
           "value": 5000,
           "weightKg": 4,
           "stackSize": 1,
+          "blueprintLocked": true,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -2839,8 +2992,8 @@
           },
           "craftBench": "equipment_bench",
           "recipe": {
-            "advanced_mechanical_components": 2,
-            "processor": 2
+            "advanced_electrical_components": 2,
+            "processor": 3
           },
           "recyclesInto": {
             "advanced_electrical_components": 1,
@@ -2850,7 +3003,7 @@
             "electrical_components": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/looting_mk3_survivor.png",
-          "updatedAt": "01/13/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "looting_mk3_survivor"
@@ -3208,6 +3361,7 @@
           "rarity": "Epic",
           "value": 5000,
           "weightKg": 5,
+          "stackSize": 1,
           "blueprintLocked": true,
           "effects": {
             "Durability": {
@@ -3294,7 +3448,7 @@
             "electrical_components": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_defensive.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "tactical_mk3_defensive"
@@ -3351,6 +3505,8 @@
           "rarity": "Epic",
           "value": 5000,
           "weightKg": 4,
+          "stackSize": 1,
+          "blueprintLocked": true,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -3436,7 +3592,7 @@
             "electrical_components": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_healing.png",
-          "updatedAt": "01/13/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "tactical_mk3_healing"
@@ -3637,13 +3793,13 @@
           "weightKg": 0.25,
           "stackSize": 15,
           "recyclesInto": {
-            "rubber_parts": 3
+            "rubber_parts": 2
           },
           "salvagesInto": {
             "rubber_parts": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/wires.png",
-          "updatedAt": "01/13/2026",
+          "updatedAt": "01/20/2026",
           "tip": "Wires are an uncommon item used to craft weapon mods that can be recycled into crafting materials."
         },
         "component": {
@@ -3907,148 +4063,6 @@
           },
           "imageFilename": "https://cdn.arctracker.io/items/bettina.png",
           "updatedAt": "01/09/2026"
-        },
-        "component": {
-          "id": "advanced_mechanical_components"
-        }
-      },
-      {
-        "item": {
-          "id": "looting_mk3_survivor",
-          "name": {
-            "da": "Plyndring Mk. 3 (Survivor)",
-            "de": "Beute-Marke 3 (Überleben)",
-            "en": "Looting Mk. 3 (Survivor)",
-            "es": "Saqueo Ver. 3 (Superviviente)",
-            "fr": "Butin 3 (Survie)",
-            "he": "ביזה Mk. 3 (שורד)",
-            "hr": "Pljačkaški Mk. 3 (Preživjeli)",
-            "it": "Saccheggio Mk. 3 (Sopravvissuto)",
-            "ja": "略奪MK3 (サバイバー)",
-            "kr": "노획 마크(생존자)",
-            "no": "Plyndring Mk. 3 (Survivor)",
-            "pl": "Grabież Mk. 3 (Ocalały)",
-            "pt": "Saque Mk. 3 (Sobrevivente)",
-            "pt-BR": "Saque Mk. 3 (Sobrevivente)",
-            "ru": "Добыча 3 (Выживший)",
-            "sr": "Pljačkaški Mk. 3 (Preživeli)",
-            "tr": "Yağmalama Mk. 3 (Hayatta Kalan)",
-            "uk": "Мародерський Mk. 3 (вижилий)",
-            "zh-CN": "掠夺 Mk. 3（幸存者）",
-            "zh-TW": "掠奪 Mk. 3（倖存者）"
-          },
-          "description": {
-            "da": "En robust pakæsel-forstærkning. Stor vægtkapacitet og stort rygsækrum. Mens du er nede og stationær, regenererer helbred op til 75% af maks helbred når du er nede.",
-            "de": "Ein robustes Packesel-Augment. Große Tragekapazität und viel Platz im Rucksack. Im entkräfteten und bewegungslosen Zustand erholt sich die Gesundheit auf bis zu 75% der max. Gesundheit im entkräfteten Zustand.",
-            "en": "A heavy-duty pack mule augment. Large weight capacity and large backpack space. While downed and stationary, health regenerates up to 75% of max downed health.",
-            "es": "Un aumento de mula de carga resistente. Gran capacidad de peso y gran espacio de mochila. Mientras estás derribado e inmóvil, la salud se regenera hasta el 75% de la salud máxima derribado.",
-            "fr": "Une amélioration de mulet de bât robuste. Grande capacité de poids et grand espace de sac à dos. Lorsque vous êtes à terre et immobile, la santé se régénère jusqu'à 75% de la santé maximale à terre.",
-            "he": "תוסף לנשיאת משקלים כבדים. קיבולת משקל גדולה ומקום רב בתיק. במצב נפילה וללא תנועה, הבריאות מתחדשת עד 75% מבריאות הנפילה המירבית.",
-            "hr": "Pojačana augmentacija tovarne životinje. Veliki kapacitet težine i veliki prostor za ruksak. Dok ste oboreni i nepokretni, zdravlje se regenerira do 75% maksimalnog zdravlja u oborenom stanju.",
-            "it": "Un potenziamento da mulo da soma resistente. Grande capacità di peso e grande spazio zaino. Mentre sei a terra e fermo, la salute si rigenera fino al 75% della salute massima a terra.",
-            "ja": "頑丈な荷役用強化装備。大きな重量容量と大きなバックパックスペース。ダウン中で静止している間、ヘルスが最大ダウンヘルスの75%まで回復します。",
-            "kr": "튼튼한 짐꾼 증강. 큰 무게 용량과 큰 배낭 공간. 다운되어 정지 상태일 때 체력이 최대 다운 체력의 75%까지 재생됩니다.",
-            "no": "En robust pakkmuldyr-forsterkning. Stor vektkapasitet og stort sekkeromsplass. Mens du er nede og stasjonær, regenererer helse opp til 75% av maks helse når du er nede.",
-            "pl": "Wytrzymała augmentacja jucznego zwierzęcia. Duża pojemność wagowa i duża przestrzeń plecaka. Podczas leżenia i bezruchu zdrowie regeneruje się do 75% maksymalnego zdrowia w stanie leżącym.",
-            "pt": "Um aumento de mula de carga resistente. Grande capacidade de peso e grande espaço de mochila. Enquanto caído e parado, a saúde regenera até 75% da saúde máxima caído.",
-            "pt-BR": "Um aumento de mula de carga resistente. Grande capacidade de peso e grande espaço de mochila. Enquanto caído e parado, a saúde regenera até 75% da saúde máxima caído.",
-            "ru": "Усиленная аугментация вьючного животного. Большая грузоподъемность и большое пространство рюкзака. В состоянии нокдауна и неподвижности здоровье восстанавливается до 75% от максимального здоровья в нокдауне.",
-            "sr": "Pojačana augmentacija tovarne životinje. Veliki kapacitet težine i veliki prostor za ranac. Dok ste oboreni i nepokretni, zdravlje se regeneriše do 75% maksimalnog zdravlja u oborenom stanju.",
-            "tr": "Ağır hizmet tipi yük hayvanı güçlendirmesi. Büyük ağırlık kapasitesi ve büyük sırt çantası alanı. Yere düşmüş ve hareketsiz durumdayken, sağlık maksimum düşmüş sağlığın %75'ine kadar yenilenir.",
-            "uk": "Посилена аугментація в'ючної тварини. Велика вантажопідйомність і великий простір рюкзака. Під час знепритомнення та нерухомості здоров'я відновлюється до 75% від максимального здоров'я у знепритомненні.",
-            "zh-CN": "重型驮兽增强装备。大载重容量和大背包空间。倒地且静止时，生命值恢复至最大倒地生命值的75%。",
-            "zh-TW": "重型馱獸增強裝備。大載重容量和大背包空間。倒地且靜止時，生命值恢復至最大倒地生命值的75%。"
-          },
-          "type": "Augment",
-          "rarity": "Epic",
-          "value": 5000,
-          "weightKg": 4,
-          "stackSize": 1,
-          "effects": {
-            "Durability": {
-              "value": "100/100",
-              "da": "Holdbarhed",
-              "de": "Haltbarkeit",
-              "en": "Durability",
-              "es": "Durabilidad",
-              "fr": "Durabilité",
-              "he": "עמידות",
-              "hr": "Izdržljivost",
-              "it": "Tenuta",
-              "ja": "耐久性",
-              "kr": "내구성",
-              "no": "Holdbarhet",
-              "pl": "Wytrzymałość",
-              "pt": "Durabilidade",
-              "pt-BR": "Durabilidade",
-              "ru": "Прочность",
-              "sr": "Izdržljivost",
-              "tr": "Dayanıklılık",
-              "uk": "Міцність",
-              "zh-CN": "耐久度",
-              "zh-TW": "耐久度"
-            },
-            "Max Loadout Weight": {
-              "value": 80,
-              "da": "Maks udstyrsvægt",
-              "de": "Max. Loadout-Gewicht",
-              "en": "Max Loadout Weight",
-              "es": "Peso máximo de equipamiento",
-              "fr": "Poids max. de l'équipement",
-              "he": "משקל ציוד מירבי",
-              "hr": "Maks. težina opreme",
-              "it": "Peso max equipaggiamento",
-              "ja": "最大装備重量",
-              "kr": "최대 장비 무게",
-              "no": "Maks utstyrsvekt",
-              "pl": "Maks. waga ekwipunku",
-              "pt": "Peso máximo de equipamento",
-              "pt-BR": "Peso Máximo de Carga",
-              "ru": "Макс. вес снаряжения",
-              "sr": "Maks. težina opreme",
-              "tr": "Maks. Donanım Ağırlığı",
-              "uk": "Макс. вага спорядження",
-              "zh-CN": "最大装备重量",
-              "zh-TW": "最大裝備重量"
-            },
-            "Shield Compatibility": {
-              "value": "Light, Medium",
-              "da": "Skjoldkompatibilitet",
-              "de": "Schildkompatibilität",
-              "en": "Shield Compatibility",
-              "es": "Compatibilidad con escudo",
-              "fr": "Compatibilité bouclier",
-              "he": "תאימות מגן",
-              "hr": "Kompatibilnost sa štitom",
-              "it": "Compatibilità scudo",
-              "ja": "シールド互換性",
-              "kr": "실드 호환성",
-              "no": "Skjoldkompatibilitet",
-              "pl": "Kompatybilność z tarczą",
-              "pt": "Compatibilidade com escudo",
-              "pt-BR": "Compatibilidade de Escudo",
-              "ru": "Совместимость со щитом",
-              "sr": "Kompatibilnost sa štitom",
-              "tr": "Kalkan Uyumluluğu",
-              "uk": "Сумісність зі щитом",
-              "zh-CN": "护盾兼容性",
-              "zh-TW": "護盾相容性"
-            }
-          },
-          "craftBench": "equipment_bench",
-          "recipe": {
-            "advanced_mechanical_components": 2,
-            "processor": 2
-          },
-          "recyclesInto": {
-            "advanced_electrical_components": 1,
-            "processor": 1
-          },
-          "salvagesInto": {
-            "electrical_components": 2
-          },
-          "imageFilename": "https://cdn.arctracker.io/items/looting_mk3_survivor.png",
-          "updatedAt": "01/13/2026"
         },
         "component": {
           "id": "advanced_mechanical_components"
@@ -19381,13 +19395,13 @@
           "weightKg": 0.25,
           "stackSize": 5,
           "recyclesInto": {
-            "arc_alloy": 3
-          },
-          "salvagesInto": {
             "arc_alloy": 2
           },
+          "salvagesInto": {
+            "arc_alloy": 1
+          },
           "imageFilename": "https://cdn.arctracker.io/items/damaged_arc_motion_core.png",
-          "updatedAt": "01/13/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "damaged_arc_motion_core"
@@ -29555,13 +29569,13 @@
           "weightKg": 0.25,
           "stackSize": 15,
           "recyclesInto": {
-            "rubber_parts": 3
+            "rubber_parts": 2
           },
           "salvagesInto": {
             "rubber_parts": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/wires.png",
-          "updatedAt": "01/13/2026",
+          "updatedAt": "01/20/2026",
           "tip": "Wires are an uncommon item used to craft weapon mods that can be recycled into crafting materials."
         },
         "component": {
@@ -39943,6 +39957,7 @@
     "rarity": "Uncommon",
     "value": 640,
     "weightKg": 2,
+    "stackSize": 1,
     "effects": {
       "Durability": {
         "value": "100/100",
@@ -40027,7 +40042,7 @@
       "plastic_parts": 3
     },
     "imageFilename": "https://cdn.arctracker.io/items/combat_i.png",
-    "updatedAt": "01/09/2026",
+    "updatedAt": "01/20/2026",
     "crafting_components": [
       {
         "item": {
@@ -40211,6 +40226,7 @@
     "rarity": "Rare",
     "value": 2000,
     "weightKg": 3,
+    "stackSize": 1,
     "effects": {
       "Durability": {
         "value": "100/100",
@@ -40318,7 +40334,7 @@
       "electrical_components": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/combat_i.png",
-    "updatedAt": "01/09/2026",
+    "updatedAt": "01/20/2026",
     "crafting_components": [
       {
         "item": {
@@ -40519,6 +40535,7 @@
     "rarity": "Epic",
     "value": 5000,
     "weightKg": 5,
+    "stackSize": 1,
     "blueprintLocked": true,
     "effects": {
       "Backpack Slots": {
@@ -40720,7 +40737,7 @@
       "electrical_components": 2
     },
     "imageFilename": "https://cdn.arctracker.io/items/combat_mk3_aggressive.png",
-    "updatedAt": "01/13/2026",
+    "updatedAt": "01/20/2026",
     "repairCost": {
       "advanced_electrical_components": 1,
       "processor": 2
@@ -40986,6 +41003,7 @@
     "rarity": "Epic",
     "value": 5000,
     "weightKg": 5,
+    "stackSize": 1,
     "blueprintLocked": true,
     "effects": {
       "Backpack Slots": {
@@ -41187,7 +41205,7 @@
       "electrical_components": 2
     },
     "imageFilename": "https://cdn.arctracker.io/items/combat_mk3_flanking.png",
-    "updatedAt": "01/13/2026",
+    "updatedAt": "01/20/2026",
     "repairCost": {
       "advanced_electrical_components": 1,
       "processor": 2
@@ -41645,13 +41663,13 @@
           "weightKg": 0.25,
           "stackSize": 15,
           "recyclesInto": {
-            "rubber_parts": 3
+            "rubber_parts": 2
           },
           "salvagesInto": {
             "rubber_parts": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/wires.png",
-          "updatedAt": "01/13/2026",
+          "updatedAt": "01/20/2026",
           "tip": "Wires are an uncommon item used to craft weapon mods that can be recycled into crafting materials."
         },
         "component": {
@@ -41913,13 +41931,13 @@
           "weightKg": 0.25,
           "stackSize": 15,
           "recyclesInto": {
-            "rubber_parts": 3
+            "rubber_parts": 2
           },
           "salvagesInto": {
             "rubber_parts": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/wires.png",
-          "updatedAt": "01/13/2026",
+          "updatedAt": "01/20/2026",
           "tip": "Wires are an uncommon item used to craft weapon mods that can be recycled into crafting materials."
         },
         "component": {
@@ -42270,13 +42288,13 @@
           "weightKg": 0.25,
           "stackSize": 15,
           "recyclesInto": {
-            "rubber_parts": 3
+            "rubber_parts": 2
           },
           "salvagesInto": {
             "rubber_parts": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/wires.png",
-          "updatedAt": "01/13/2026",
+          "updatedAt": "01/20/2026",
           "tip": "Wires are an uncommon item used to craft weapon mods that can be recycled into crafting materials."
         },
         "component": {
@@ -45900,13 +45918,13 @@
     "weightKg": 0.25,
     "stackSize": 5,
     "recyclesInto": {
-      "arc_alloy": 3
-    },
-    "salvagesInto": {
       "arc_alloy": 2
     },
+    "salvagesInto": {
+      "arc_alloy": 1
+    },
     "imageFilename": "https://cdn.arctracker.io/items/damaged_arc_motion_core.png",
-    "updatedAt": "01/13/2026",
+    "updatedAt": "01/20/2026",
     "icon": "https://cdn.arctracker.io/items/damaged_arc_motion_core.png",
     "item_type": "Recyclable",
     "loot_area": "ARC"
@@ -51673,6 +51691,7 @@
           "rarity": "Rare",
           "value": 2000,
           "weightKg": 3,
+          "stackSize": 1,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -51780,7 +51799,7 @@
             "electrical_components": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/combat_i.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "electrical_components"
@@ -51979,6 +51998,7 @@
           "rarity": "Rare",
           "value": 2000,
           "weightKg": 2,
+          "stackSize": 1,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -52063,7 +52083,7 @@
             "electrical_components": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/looting_mk2.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "electrical_components"
@@ -52307,6 +52327,7 @@
           "rarity": "Rare",
           "value": 2000,
           "weightKg": 2,
+          "stackSize": 1,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -52391,7 +52412,7 @@
             "electrical_components": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/tactical_i.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "electrical_components"
@@ -52643,6 +52664,7 @@
           "rarity": "Rare",
           "value": 2000,
           "weightKg": 3,
+          "stackSize": 1,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -52750,7 +52772,7 @@
             "electrical_components": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/combat_i.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "combat_mk2"
@@ -53013,6 +53035,7 @@
           "rarity": "Rare",
           "value": 2000,
           "weightKg": 2,
+          "stackSize": 1,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -53097,7 +53120,7 @@
             "electrical_components": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/looting_mk2.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "looting_mk2"
@@ -53748,6 +53771,7 @@
           "rarity": "Rare",
           "value": 2000,
           "weightKg": 2,
+          "stackSize": 1,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -53832,7 +53856,7 @@
             "electrical_components": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/tactical_i.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "tactical_mk2"
@@ -58431,13 +58455,13 @@
           "weightKg": 0.25,
           "stackSize": 15,
           "recyclesInto": {
-            "rubber_parts": 3
+            "rubber_parts": 2
           },
           "salvagesInto": {
             "rubber_parts": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/wires.png",
-          "updatedAt": "01/13/2026",
+          "updatedAt": "01/20/2026",
           "tip": "Wires are an uncommon item used to craft weapon mods that can be recycled into crafting materials."
         },
         "component": {
@@ -66710,13 +66734,13 @@
           "weightKg": 0.25,
           "stackSize": 15,
           "recyclesInto": {
-            "rubber_parts": 3
+            "rubber_parts": 2
           },
           "salvagesInto": {
             "rubber_parts": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/wires.png",
-          "updatedAt": "01/13/2026",
+          "updatedAt": "01/20/2026",
           "tip": "Wires are an uncommon item used to craft weapon mods that can be recycled into crafting materials."
         },
         "component": {
@@ -82874,6 +82898,7 @@
     "rarity": "Uncommon",
     "value": 640,
     "weightKg": 1,
+    "stackSize": 1,
     "effects": {
       "Durability": {
         "value": "100/100",
@@ -82961,7 +82986,7 @@
       "plastic_parts": 3
     },
     "imageFilename": "https://cdn.arctracker.io/items/looting_mk1.png",
-    "updatedAt": "01/09/2026",
+    "updatedAt": "01/20/2026",
     "crafting_components": [
       {
         "item": {
@@ -83148,6 +83173,7 @@
     "rarity": "Rare",
     "value": 2000,
     "weightKg": 2,
+    "stackSize": 1,
     "effects": {
       "Durability": {
         "value": "100/100",
@@ -83232,7 +83258,7 @@
       "electrical_components": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/looting_mk2.png",
-    "updatedAt": "01/09/2026",
+    "updatedAt": "01/20/2026",
     "crafting_components": [
       {
         "item": {
@@ -83432,6 +83458,7 @@
     "rarity": "Epic",
     "value": 5000,
     "weightKg": 3,
+    "stackSize": 1,
     "effects": {
       "Durability": {
         "value": "100/100",
@@ -83516,7 +83543,7 @@
       "electrical_components": 2
     },
     "imageFilename": "https://cdn.arctracker.io/items/looting_mk3_cautious.png",
-    "updatedAt": "01/09/2026",
+    "updatedAt": "01/20/2026",
     "crafting_components": [
       {
         "item": {
@@ -83718,6 +83745,7 @@
     "value": 5000,
     "weightKg": 4,
     "stackSize": 1,
+    "blueprintLocked": true,
     "effects": {
       "Durability": {
         "value": "100/100",
@@ -83791,8 +83819,8 @@
     },
     "craftBench": "equipment_bench",
     "recipe": {
-      "advanced_mechanical_components": 2,
-      "processor": 2
+      "advanced_electrical_components": 2,
+      "processor": 3
     },
     "recyclesInto": {
       "advanced_electrical_components": 1,
@@ -83802,78 +83830,78 @@
       "electrical_components": 2
     },
     "imageFilename": "https://cdn.arctracker.io/items/looting_mk3_survivor.png",
-    "updatedAt": "01/13/2026",
+    "updatedAt": "01/20/2026",
     "crafting_components": [
       {
         "item": {
-          "id": "advanced_mechanical_components",
+          "id": "advanced_electrical_components",
           "name": {
-            "da": "Avancerede mekaniske komponenter",
-            "de": "Fortschrittliche mechanische Komponenten",
-            "en": "Advanced Mechanical Components",
-            "es": "Componentes mecánicos avanzados",
-            "fr": "Composants Mécaniques Avancés",
-            "he": "רכיבים מכניים מתקדמים",
-            "hr": "Napredne Mehaničke Komponente",
-            "it": "Componenti meccanici avanzati",
-            "ja": "高度な機械部品",
-            "kr": "고급 기계 부품",
-            "no": "Avanserte mekaniske komponenter",
-            "pl": "Zaawansowane komponenty mechaniczne",
-            "pt": "Componentes mecânicos avançados",
-            "pt-BR": "Componentes Mecânicos Avançados",
-            "ru": "Продвинутые механические компоненты",
-            "sr": "Napredne Mehaničke Komponente",
-            "tr": "Gelişmiş Mekanik Bileşenler",
-            "uk": "Просунуті механічні компоненти",
-            "zh-CN": "高级机械元件",
-            "zh-TW": "進階機械元件"
+            "da": "Avancerede elektriske komponenter",
+            "de": "Fortschrittliche elektrische Komponenten",
+            "en": "Advanced Electrical Components",
+            "es": "Componentes eléctricos avanzados",
+            "fr": "Composants Électriques Avancés",
+            "he": "רכיבים חשמליים מתקדמים",
+            "hr": "Napredne Električne Komponente",
+            "it": "Componenti elettrici avanzati",
+            "ja": "高度な電気部品",
+            "kr": "고급 전기 부품",
+            "no": "Avanserte elektriske komponenter",
+            "pl": "Zaawansowane komponenty elektryczne",
+            "pt": "Componentes elétricos avançados",
+            "pt-BR": "Componentes Elétricos Avançados",
+            "ru": "Продвинутые электрические компоненты",
+            "sr": "Napredne Električne Komponente",
+            "tr": "Gelişmiş Elektrik Bileşenleri",
+            "uk": "Просунуті електричні компоненти",
+            "zh-CN": "高级电子元件",
+            "zh-TW": "進階電子元件"
           },
           "description": {
-            "da": "Bruges til at fremstille avancerede våben. Kan genbruges til håndværksmaterialer. Bruges til at fremstille: Torrente, Venator, Osprey, Renegade, Bettina",
-            "de": "Wird zur Herstellung fortschrittlicher Waffen verwendet. Kann zu Herstellungsmaterialien recycelt werden. Zur Herstellung von: Torrente, Venator, Osprey, Renegade, Bettina",
-            "en": "Used to craft advanced weapons. Can be recycled into crafting materials. Used to craft: Torrente, Venator, Osprey, Renegade, Bettina",
-            "es": "Usado para fabricar armas avanzadas. Puede reciclarse en materiales de fabricación. Usado para fabricar: Torrente, Venator, Osprey, Renegado, Bettina",
-            "fr": "Permet de fabriquer des armes avancées. Peut être recyclé en matériaux d'artisanat. Permet de fabriquer : Torrente, Venator, Balbuzard, Renégat, Bettina",
-            "he": "משמש ליצירת כלי נשק מתקדמים. ניתן למיחזור לחומרי יצירה. משמש ליצירת: Torrente, Venator, Osprey, Renegade, Bettina",
-            "hr": "Koristi se za izradu naprednog oružja. Može se reciklirati u materijale za izradu. Koristi se za izradu: Torrente, Venator, Osprey, Renegade, Bettina",
-            "it": "Usato per fabbricare armi avanzate. Si può riciclare in materiali da creazione. Si usa per creare: Torrente, Venator, Osprey, Renegade, Bettina",
-            "ja": "高度な武器の製作に使用。製作材料にリサイクル可能。製作可能: Torrente、Venator、Osprey、Renegade、Bettina",
-            "kr": "고급 무기 제작에 사용됩니다. 제작 재료로 재활용 가능. 제작 가능: 토렌테, 베나토르, 오스프레이, 레니게이드, 베티나",
-            "no": "Brukes til å lage avanserte våpen. Kan resirkuleres til håndverksmateriell. Brukes til å lage: Torrente, Venator, Osprey, Renegade, Bettina",
-            "pl": "Używany do wytwarzania zaawansowanej broni. Może być przetworzony na materiały rzemieślnicze. Używany do wytworzenia: Torrente, Venator, Osprey, Renegade, Bettina",
-            "pt": "Usado para fabricar armas avançadas. Pode ser reciclado em materiais de fabricação. Usado para fabricar: Torrente, Venator, Osprey, Renegade, Bettina",
-            "pt-BR": "Serve para fabricar armas avançadas. Reciclar gera materiais de fabricação. Usado para fabricar: Torrente, Venator, Águia-Pescadora, Renegado, Bettina",
-            "ru": "Используется для создания продвинутого оружия. Можно переработать в материалы для крафта. Используется для создания: Torrente, Venator, Osprey, Renegade, Bettina",
-            "sr": "Koristi se za pravljenje naprednog oružja. Može se reciklirati u materijale za pravljenje. Koristi se za pravljenje: Torrente, Venator, Osprey, Renegade, Bettina",
-            "tr": "Gelişmiş silahları üretmek için kullanılır. Üretim malzemelerine geri dönüştürülebilir. Üretim için kullanılır: Torrente, Venator, Osprey, Renegade, Bettina",
-            "uk": "Використовується для створення просунутої зброї. Можна переробити на матеріали для крафту. Використовується для створення: Torrente, Venator, Osprey, Renegade, Bettina",
-            "zh-CN": "用于制作高级武器。可回收为制作材料。用于制作:磁力加速器，奔流，复仇者，鱼鹰，叛逆",
-            "zh-TW": "用來製作進階武器。可回收成製作材料。用來製作:奔流,獵人,魚鷹,叛將,貝蒂娜"
+            "da": "Bruges til at lave en bred vifte af genstande. Kan genbruges til håndværksmaterialer. Bruges til at lave: Taktisk Mk. 3 (Defensiv), Kamp Mk. 3 (Flankering), Kamp Mk. 3 (Aggressiv), Plyndring Mk. 3 (Forsigtig), Taktisk Mk. 3 (Helbredelse)",
+            "de": "Wird zur Herstellung verschiedenster Gegenstände verwendet. Kann zu Herstellungsmaterialien recycelt werden. Zur Herstellung von: Taktisch-Marke 3 (Defensiv), Kampf-Marke 3 (Flankierend), Kampf-Marke 3 (Aggressiv), Beute-Marke 3 (Vorsichtig), Taktisch-Marke 3 (Heilung)",
+            "en": "Used to craft a wide range of items. Can be recycled into crafting materials. Used to craft: Tactical Mk. 3 (Defensive), Combat Mk. 3 (Flanking), Combat Mk. 3 (Aggressive), Looting Mk. 3 (Cautious), Tactical Mk. 3 (Healing)",
+            "es": "Se usan para fabricar una amplia gama de objetos. Se pueden reciclar en materiales de fabricación. Se usan para fabricar: Táctico Ver. 3 (Defensivo), Combate Ver. 3 (Flanqueo), Combate Ver. 3 (Agresivo), Saqueo Ver. 3 (Cauteloso), Táctico Ver. 3 (Curación)",
+            "fr": "Utilisés pour fabriquer une large gamme d'objets. Peuvent être recyclés en matériaux de fabrication. Utilisés pour fabriquer : Tactique 3 (défense), Combat 3 (contournement), Combat 3 (agression), Butin 3 (prudence), Tactique 3 (soins)",
+            "he": "משמש ליצירת מגוון רחב של פריטים. ניתן למיחזור לחומרי יצירה. משמש ליצירת: טקטי Mk. 3 (הגנתי), קרבי Mk. 3 (איגוף), קרבי Mk. 3 (אגרסיבי), איסוף Mk. 3 (זהיר), טקטי Mk. 3 (ריפוי)",
+            "hr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu. Koristi se za izradu: Tactical Mk. 3 (Defensive), Combat Mk. 3 (Flanking), Combat Mk. 3 (Aggressive), Looting Mk. 3 (Cautious), Tactical Mk. 3 (Healing)",
+            "it": "Si usa per creare una vasta gamma di oggetti. Si può riciclare in materiali da creazione. Si usa per creare: Tattico Mk. 3 (Difensivo), Combattimento Mk. 3 (Fiancheggiamento), Combattimento Mk. 3 (Aggressivo), Saccheggio Mk. 3 (Cauto), Tattico Mk. 3 (Guarigione)",
+            "ja": "幅広いアイテムの製作に使用。クラフト素材にリサイクル可能。製作用途：戦術MK3（防御型）、戦闘MK3（側面攻撃型）、戦闘MK3（攻撃型）、略奪MK3（慎重型）、戦術MK3（回復型）",
+            "kr": "다양한 아이템을 제작하는 데 사용됩니다. 제작 재료로 재활용할 수 있습니다. 제작 용도: 전술 마크 3 (방어형), 전투 마크 3 (측면기동), 전투 마크 3 (공격), 노획 마크 3 (신중), 전술 마크 3 (치유)",
+            "no": "Brukes til å lage et bredt spekter av gjenstander. Kan resirkuleres til håndverksmateriell. Brukes til å lage: Taktisk Mk. 3 (Defensiv), Kamp Mk. 3 (Flankering), Kamp Mk. 3 (Aggressiv), Plyndring Mk. 3 (Forsiktig), Taktisk Mk. 3 (Helbredelse)",
+            "pl": "Używane do wytwarzania szerokiej gamy przedmiotów. Można przetworzyć na materiały rzemieślnicze. Używane do wytworzenia: Taktyczny Mk. 3 (Defensywny), Bojowy Mk. 3 (Flankowanie), Bojowy Mk. 3 (Agresywny), Grabieżczy Mk. 3 (Ostrożny), Taktyczny Mk. 3 (Leczenie)",
+            "pt": "Usados para fabricar uma ampla gama de itens. Podem ser reciclados em materiais de fabricação. Usados para fabricar: Tático Mk. 3 (Defensivo), Combate Mk. 3 (Flanqueamento), Combate Mk.3 (Agressivo), Saque Mk. 3 (Cauteloso), Tático Mk. 3 (Cura)",
+            "pt-BR": "Serve para fabricar uma ampla gama de itens. Pode reciclar por materiais de fabricação. Usados para fabricar: Tático Mk. 3 (Defensivo), Combate Mk. 3 (Flanqueador), Combate Mk.3 (Agressivo), Saque Mk. 3 (Cauteloso), Tático Mk. 3 (Cura)",
+            "ru": "Используется для создания широкого спектра предметов. Можно переработать в материалы для крафта. Используется для создания: Тактический Mk. 3 (Защитный), Боевой Mk. 3 (Фланговый), Боевой Mk. 3 (Агрессивный), Мародёрский Mk. 3 (Осторожный), Тактический Mk. 3 (Лечебный)",
+            "sr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu. Koristi se za izradu: Tactical Mk. 3 (Defensive), Combat Mk. 3 (Flanking), Combat Mk. 3 (Aggressive), Looting Mk. 3 (Cautious), Tactical Mk. 3 (Healing)",
+            "tr": "Geniş bir yelpazede eşya üretmek için kullanılır. Üretim malzemelerine geri dönüştürülebilir. Şunları üretmek için kullanılır: Taktik Mk. 3 (Savunma), Savaş Mk. 3 (Kuşatma), Savaş Mk. 3 (Saldırgan), Yağma Mk. 3 (İhtiyatlı), Taktik Mk. 3 (İyileştirme)",
+            "uk": "Використовується для створення широкого спектру предметів. Можна переробити на матеріали для крафту. Використовується для створення: Тактичний Mk. 3 (Захисний), Бойовий Mk. 3 (Фланговий), Бойовий Mk. 3 (Агресивний), Мародерський Mk. 3 (Обережний), Тактичний Mk. 3 (Лікувальний)",
+            "zh-CN": "用于制作各种物品。可回收为制作材料。用于制作:奇袭者暗门钥匙，光电斗篷，耀眼明星，战术Mk.3(防御型)，战斗Mk.3(侧翼突击)",
+            "zh-TW": "用來製作多種物品。可回收成製作材料。用來製作:戰術第3型(防禦),戰鬥第3型(側擊),戰鬥第3型(積極),搜刮第3型(謹慎),戰術第3型(治療)"
           },
           "type": "Refined Material",
           "rarity": "Rare",
-          "foundIn": "Mechanical",
+          "foundIn": "Electrical",
           "value": 1750,
           "weightKg": 1,
           "stackSize": 5,
           "craftBench": "refiner",
           "recipe": {
-            "mechanical_components": 2,
-            "steel_spring": 2
+            "electrical_components": 2,
+            "wires": 3
           },
           "recyclesInto": {
-            "mechanical_components": 1,
-            "steel_spring": 1
+            "electrical_components": 1,
+            "wires": 1
           },
           "salvagesInto": {
-            "mechanical_components": 1
+            "electrical_components": 1
           },
-          "imageFilename": "https://cdn.arctracker.io/items/advanced_mechanical_components.png",
+          "imageFilename": "https://cdn.arctracker.io/items/advanced_electrical_components.png",
           "updatedAt": "01/13/2026"
         },
         "component": {
-          "id": "advanced_mechanical_components"
+          "id": "advanced_electrical_components"
         }
       },
       {
@@ -84617,13 +84645,13 @@
           "weightKg": 0.25,
           "stackSize": 15,
           "recyclesInto": {
-            "rubber_parts": 3
+            "rubber_parts": 2
           },
           "salvagesInto": {
             "rubber_parts": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/wires.png",
-          "updatedAt": "01/13/2026",
+          "updatedAt": "01/20/2026",
           "tip": "Wires are an uncommon item used to craft weapon mods that can be recycled into crafting materials."
         },
         "component": {
@@ -84751,6 +84779,7 @@
           "rarity": "Rare",
           "value": 2000,
           "weightKg": 3,
+          "stackSize": 1,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -84858,7 +84887,7 @@
             "electrical_components": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/combat_i.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "magnet"
@@ -84915,6 +84944,7 @@
           "rarity": "Rare",
           "value": 2000,
           "weightKg": 2,
+          "stackSize": 1,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -84999,7 +85029,7 @@
             "electrical_components": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/looting_mk2.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "magnet"
@@ -85175,6 +85205,7 @@
           "rarity": "Rare",
           "value": 2000,
           "weightKg": 2,
+          "stackSize": 1,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -85259,7 +85290,7 @@
             "electrical_components": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/tactical_i.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "magnet"
@@ -85531,6 +85562,7 @@
           "rarity": "Rare",
           "value": 2000,
           "weightKg": 3,
+          "stackSize": 1,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -85638,7 +85670,7 @@
             "electrical_components": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/combat_i.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "combat_mk2"
@@ -85829,6 +85861,7 @@
           "rarity": "Rare",
           "value": 2000,
           "weightKg": 2,
+          "stackSize": 1,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -85913,7 +85946,7 @@
             "electrical_components": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/looting_mk2.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "looting_mk2"
@@ -86289,6 +86322,7 @@
           "rarity": "Rare",
           "value": 2000,
           "weightKg": 2,
+          "stackSize": 1,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -86373,7 +86407,7 @@
             "electrical_components": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/tactical_i.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "tactical_mk2"
@@ -116971,13 +117005,13 @@
           "weightKg": 0.25,
           "stackSize": 15,
           "recyclesInto": {
-            "rubber_parts": 3
+            "rubber_parts": 2
           },
           "salvagesInto": {
             "rubber_parts": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/wires.png",
-          "updatedAt": "01/13/2026",
+          "updatedAt": "01/20/2026",
           "tip": "Wires are an uncommon item used to craft weapon mods that can be recycled into crafting materials."
         },
         "component": {
@@ -117239,13 +117273,13 @@
           "weightKg": 0.25,
           "stackSize": 15,
           "recyclesInto": {
-            "rubber_parts": 3
+            "rubber_parts": 2
           },
           "salvagesInto": {
             "rubber_parts": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/wires.png",
-          "updatedAt": "01/13/2026",
+          "updatedAt": "01/20/2026",
           "tip": "Wires are an uncommon item used to craft weapon mods that can be recycled into crafting materials."
         },
         "component": {
@@ -117633,13 +117667,13 @@
           "weightKg": 0.25,
           "stackSize": 15,
           "recyclesInto": {
-            "rubber_parts": 3
+            "rubber_parts": 2
           },
           "salvagesInto": {
             "rubber_parts": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/wires.png",
-          "updatedAt": "01/13/2026",
+          "updatedAt": "01/20/2026",
           "tip": "Wires are an uncommon item used to craft weapon mods that can be recycled into crafting materials."
         },
         "component": {
@@ -119856,13 +119890,13 @@
           "weightKg": 0.25,
           "stackSize": 15,
           "recyclesInto": {
-            "rubber_parts": 3
+            "rubber_parts": 2
           },
           "salvagesInto": {
             "rubber_parts": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/wires.png",
-          "updatedAt": "01/13/2026",
+          "updatedAt": "01/20/2026",
           "tip": "Wires are an uncommon item used to craft weapon mods that can be recycled into crafting materials."
         },
         "component": {
@@ -121902,6 +121936,7 @@
           "rarity": "Uncommon",
           "value": 640,
           "weightKg": 2,
+          "stackSize": 1,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -121986,7 +122021,7 @@
             "plastic_parts": 3
           },
           "imageFilename": "https://cdn.arctracker.io/items/combat_i.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "plastic_parts"
@@ -123221,6 +123256,7 @@
           "rarity": "Uncommon",
           "value": 640,
           "weightKg": 1,
+          "stackSize": 1,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -123308,7 +123344,7 @@
             "plastic_parts": 3
           },
           "imageFilename": "https://cdn.arctracker.io/items/looting_mk1.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "plastic_parts"
@@ -123483,6 +123519,7 @@
           "rarity": "Uncommon",
           "value": 640,
           "weightKg": 2,
+          "stackSize": 1,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -123567,7 +123604,7 @@
             "plastic_parts": 3
           },
           "imageFilename": "https://cdn.arctracker.io/items/tactical_i.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "plastic_parts"
@@ -124316,6 +124353,7 @@
           "rarity": "Uncommon",
           "value": 640,
           "weightKg": 2,
+          "stackSize": 1,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -124400,7 +124438,7 @@
             "plastic_parts": 3
           },
           "imageFilename": "https://cdn.arctracker.io/items/combat_i.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "combat_mk1"
@@ -125829,6 +125867,7 @@
           "rarity": "Uncommon",
           "value": 640,
           "weightKg": 1,
+          "stackSize": 1,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -125916,7 +125955,7 @@
             "plastic_parts": 3
           },
           "imageFilename": "https://cdn.arctracker.io/items/looting_mk1.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "looting_mk1"
@@ -126595,6 +126634,7 @@
           "rarity": "Uncommon",
           "value": 640,
           "weightKg": 2,
+          "stackSize": 1,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -126679,7 +126719,7 @@
             "plastic_parts": 3
           },
           "imageFilename": "https://cdn.arctracker.io/items/tactical_i.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "tactical_mk1"
@@ -128619,6 +128659,7 @@
           "rarity": "Epic",
           "value": 5000,
           "weightKg": 5,
+          "stackSize": 1,
           "blueprintLocked": true,
           "effects": {
             "Backpack Slots": {
@@ -128820,7 +128861,7 @@
             "electrical_components": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/combat_mk3_aggressive.png",
-          "updatedAt": "01/13/2026",
+          "updatedAt": "01/20/2026",
           "repairCost": {
             "advanced_electrical_components": 1,
             "processor": 2
@@ -128882,6 +128923,7 @@
           "rarity": "Epic",
           "value": 5000,
           "weightKg": 5,
+          "stackSize": 1,
           "blueprintLocked": true,
           "effects": {
             "Backpack Slots": {
@@ -129083,7 +129125,7 @@
             "electrical_components": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/combat_mk3_flanking.png",
-          "updatedAt": "01/13/2026",
+          "updatedAt": "01/20/2026",
           "repairCost": {
             "advanced_electrical_components": 1,
             "processor": 2
@@ -129145,6 +129187,7 @@
           "rarity": "Epic",
           "value": 5000,
           "weightKg": 3,
+          "stackSize": 1,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -129229,7 +129272,7 @@
             "electrical_components": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/looting_mk3_cautious.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "processor"
@@ -129287,6 +129330,7 @@
           "value": 5000,
           "weightKg": 4,
           "stackSize": 1,
+          "blueprintLocked": true,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -129360,8 +129404,8 @@
           },
           "craftBench": "equipment_bench",
           "recipe": {
-            "advanced_mechanical_components": 2,
-            "processor": 2
+            "advanced_electrical_components": 2,
+            "processor": 3
           },
           "recyclesInto": {
             "advanced_electrical_components": 1,
@@ -129371,7 +129415,7 @@
             "electrical_components": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/looting_mk3_survivor.png",
-          "updatedAt": "01/13/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "processor"
@@ -129428,6 +129472,7 @@
           "rarity": "Epic",
           "value": 5000,
           "weightKg": 5,
+          "stackSize": 1,
           "blueprintLocked": true,
           "effects": {
             "Durability": {
@@ -129514,7 +129559,7 @@
             "electrical_components": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_defensive.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "processor"
@@ -129571,6 +129616,8 @@
           "rarity": "Epic",
           "value": 5000,
           "weightKg": 4,
+          "stackSize": 1,
+          "blueprintLocked": true,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -129656,7 +129703,7 @@
             "electrical_components": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_healing.png",
-          "updatedAt": "01/13/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "processor"
@@ -130080,6 +130127,7 @@
           "rarity": "Epic",
           "value": 5000,
           "weightKg": 5,
+          "stackSize": 1,
           "blueprintLocked": true,
           "effects": {
             "Backpack Slots": {
@@ -130281,7 +130329,7 @@
             "electrical_components": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/combat_mk3_aggressive.png",
-          "updatedAt": "01/13/2026",
+          "updatedAt": "01/20/2026",
           "repairCost": {
             "advanced_electrical_components": 1,
             "processor": 2
@@ -130343,6 +130391,7 @@
           "rarity": "Epic",
           "value": 5000,
           "weightKg": 5,
+          "stackSize": 1,
           "blueprintLocked": true,
           "effects": {
             "Backpack Slots": {
@@ -130544,7 +130593,7 @@
             "electrical_components": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/combat_mk3_flanking.png",
-          "updatedAt": "01/13/2026",
+          "updatedAt": "01/20/2026",
           "repairCost": {
             "advanced_electrical_components": 1,
             "processor": 2
@@ -130673,6 +130722,7 @@
           "rarity": "Epic",
           "value": 5000,
           "weightKg": 3,
+          "stackSize": 1,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -130757,7 +130807,7 @@
             "electrical_components": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/looting_mk3_cautious.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "looting_mk3_cautious"
@@ -130815,6 +130865,7 @@
           "value": 5000,
           "weightKg": 4,
           "stackSize": 1,
+          "blueprintLocked": true,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -130888,8 +130939,8 @@
           },
           "craftBench": "equipment_bench",
           "recipe": {
-            "advanced_mechanical_components": 2,
-            "processor": 2
+            "advanced_electrical_components": 2,
+            "processor": 3
           },
           "recyclesInto": {
             "advanced_electrical_components": 1,
@@ -130899,7 +130950,7 @@
             "electrical_components": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/looting_mk3_survivor.png",
-          "updatedAt": "01/13/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "looting_mk3_survivor"
@@ -131090,6 +131141,7 @@
           "rarity": "Epic",
           "value": 5000,
           "weightKg": 5,
+          "stackSize": 1,
           "blueprintLocked": true,
           "effects": {
             "Durability": {
@@ -131176,7 +131228,7 @@
             "electrical_components": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_defensive.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "tactical_mk3_defensive"
@@ -131233,6 +131285,8 @@
           "rarity": "Epic",
           "value": 5000,
           "weightKg": 4,
+          "stackSize": 1,
+          "blueprintLocked": true,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -131318,7 +131372,7 @@
             "electrical_components": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_healing.png",
-          "updatedAt": "01/13/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "tactical_mk3_healing"
@@ -131844,13 +131898,13 @@
           "weightKg": 0.25,
           "stackSize": 15,
           "recyclesInto": {
-            "rubber_parts": 3
+            "rubber_parts": 2
           },
           "salvagesInto": {
             "rubber_parts": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/wires.png",
-          "updatedAt": "01/13/2026",
+          "updatedAt": "01/20/2026",
           "tip": "Wires are an uncommon item used to craft weapon mods that can be recycled into crafting materials."
         },
         "component": {
@@ -136819,6 +136873,7 @@
           "rarity": "Uncommon",
           "value": 640,
           "weightKg": 2,
+          "stackSize": 1,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -136903,7 +136958,7 @@
             "plastic_parts": 3
           },
           "imageFilename": "https://cdn.arctracker.io/items/combat_i.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "rubber_parts"
@@ -137774,6 +137829,7 @@
           "rarity": "Uncommon",
           "value": 640,
           "weightKg": 1,
+          "stackSize": 1,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -137861,7 +137917,7 @@
             "plastic_parts": 3
           },
           "imageFilename": "https://cdn.arctracker.io/items/looting_mk1.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "rubber_parts"
@@ -138709,6 +138765,7 @@
           "rarity": "Uncommon",
           "value": 640,
           "weightKg": 2,
+          "stackSize": 1,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -138793,7 +138850,7 @@
             "plastic_parts": 3
           },
           "imageFilename": "https://cdn.arctracker.io/items/tactical_i.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "rubber_parts"
@@ -139013,6 +139070,7 @@
           "rarity": "Uncommon",
           "value": 640,
           "weightKg": 2,
+          "stackSize": 1,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -139097,7 +139155,7 @@
             "plastic_parts": 3
           },
           "imageFilename": "https://cdn.arctracker.io/items/combat_i.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "combat_mk1"
@@ -141139,6 +141197,7 @@
           "rarity": "Uncommon",
           "value": 640,
           "weightKg": 1,
+          "stackSize": 1,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -141226,7 +141285,7 @@
             "plastic_parts": 3
           },
           "imageFilename": "https://cdn.arctracker.io/items/looting_mk1.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "looting_mk1"
@@ -142517,6 +142576,7 @@
           "rarity": "Uncommon",
           "value": 640,
           "weightKg": 2,
+          "stackSize": 1,
           "effects": {
             "Durability": {
               "value": "100/100",
@@ -142601,7 +142661,7 @@
             "plastic_parts": 3
           },
           "imageFilename": "https://cdn.arctracker.io/items/tactical_i.png",
-          "updatedAt": "01/09/2026"
+          "updatedAt": "01/20/2026"
         },
         "component": {
           "id": "tactical_mk1"
@@ -142862,13 +142922,13 @@
           "weightKg": 0.25,
           "stackSize": 15,
           "recyclesInto": {
-            "rubber_parts": 3
+            "rubber_parts": 2
           },
           "salvagesInto": {
             "rubber_parts": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/wires.png",
-          "updatedAt": "01/13/2026",
+          "updatedAt": "01/20/2026",
           "tip": "Wires are an uncommon item used to craft weapon mods that can be recycled into crafting materials."
         },
         "component": {
@@ -146103,13 +146163,13 @@
           "weightKg": 0.25,
           "stackSize": 15,
           "recyclesInto": {
-            "rubber_parts": 3
+            "rubber_parts": 2
           },
           "salvagesInto": {
             "rubber_parts": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/wires.png",
-          "updatedAt": "01/13/2026",
+          "updatedAt": "01/20/2026",
           "tip": "Wires are an uncommon item used to craft weapon mods that can be recycled into crafting materials."
         },
         "component": {
@@ -146346,13 +146406,13 @@
           "weightKg": 0.25,
           "stackSize": 15,
           "recyclesInto": {
-            "rubber_parts": 3
+            "rubber_parts": 2
           },
           "salvagesInto": {
             "rubber_parts": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/wires.png",
-          "updatedAt": "01/13/2026",
+          "updatedAt": "01/20/2026",
           "tip": "Wires are an uncommon item used to craft weapon mods that can be recycled into crafting materials."
         },
         "component": {
@@ -146686,13 +146746,13 @@
           "weightKg": 0.25,
           "stackSize": 15,
           "recyclesInto": {
-            "rubber_parts": 3
+            "rubber_parts": 2
           },
           "salvagesInto": {
             "rubber_parts": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/wires.png",
-          "updatedAt": "01/13/2026",
+          "updatedAt": "01/20/2026",
           "tip": "Wires are an uncommon item used to craft weapon mods that can be recycled into crafting materials."
         },
         "component": {
@@ -146982,13 +147042,13 @@
           "weightKg": 0.25,
           "stackSize": 15,
           "recyclesInto": {
-            "rubber_parts": 3
+            "rubber_parts": 2
           },
           "salvagesInto": {
             "rubber_parts": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/wires.png",
-          "updatedAt": "01/13/2026",
+          "updatedAt": "01/20/2026",
           "tip": "Wires are an uncommon item used to craft weapon mods that can be recycled into crafting materials."
         },
         "component": {
@@ -148055,13 +148115,13 @@
           "weightKg": 0.25,
           "stackSize": 15,
           "recyclesInto": {
-            "rubber_parts": 3
+            "rubber_parts": 2
           },
           "salvagesInto": {
             "rubber_parts": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/wires.png",
-          "updatedAt": "01/13/2026",
+          "updatedAt": "01/20/2026",
           "tip": "Wires are an uncommon item used to craft weapon mods that can be recycled into crafting materials."
         },
         "component": {
@@ -148348,13 +148408,13 @@
           "weightKg": 0.25,
           "stackSize": 15,
           "recyclesInto": {
-            "rubber_parts": 3
+            "rubber_parts": 2
           },
           "salvagesInto": {
             "rubber_parts": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/wires.png",
-          "updatedAt": "01/13/2026",
+          "updatedAt": "01/20/2026",
           "tip": "Wires are an uncommon item used to craft weapon mods that can be recycled into crafting materials."
         },
         "component": {
@@ -155963,13 +156023,13 @@
           "weightKg": 0.25,
           "stackSize": 15,
           "recyclesInto": {
-            "rubber_parts": 3
+            "rubber_parts": 2
           },
           "salvagesInto": {
             "rubber_parts": 1
           },
           "imageFilename": "https://cdn.arctracker.io/items/wires.png",
-          "updatedAt": "01/13/2026",
+          "updatedAt": "01/20/2026",
           "tip": "Wires are an uncommon item used to craft weapon mods that can be recycled into crafting materials."
         },
         "component": {
@@ -164151,6 +164211,7 @@
     "rarity": "Uncommon",
     "value": 640,
     "weightKg": 2,
+    "stackSize": 1,
     "effects": {
       "Durability": {
         "value": "100/100",
@@ -164235,7 +164296,7 @@
       "plastic_parts": 3
     },
     "imageFilename": "https://cdn.arctracker.io/items/tactical_i.png",
-    "updatedAt": "01/09/2026",
+    "updatedAt": "01/20/2026",
     "crafting_components": [
       {
         "item": {
@@ -164419,6 +164480,7 @@
     "rarity": "Rare",
     "value": 2000,
     "weightKg": 2,
+    "stackSize": 1,
     "effects": {
       "Durability": {
         "value": "100/100",
@@ -164503,7 +164565,7 @@
       "electrical_components": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/tactical_i.png",
-    "updatedAt": "01/09/2026",
+    "updatedAt": "01/20/2026",
     "crafting_components": [
       {
         "item": {
@@ -164703,6 +164765,7 @@
     "rarity": "Epic",
     "value": 5000,
     "weightKg": 5,
+    "stackSize": 1,
     "blueprintLocked": true,
     "effects": {
       "Durability": {
@@ -164789,7 +164852,7 @@
       "electrical_components": 2
     },
     "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_defensive.png",
-    "updatedAt": "01/09/2026",
+    "updatedAt": "01/20/2026",
     "crafting_components": [
       {
         "item": {
@@ -165045,6 +165108,8 @@
     "rarity": "Epic",
     "value": 5000,
     "weightKg": 4,
+    "stackSize": 1,
+    "blueprintLocked": true,
     "effects": {
       "Durability": {
         "value": "100/100",
@@ -165130,7 +165195,7 @@
       "electrical_components": 2
     },
     "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_healing.png",
-    "updatedAt": "01/13/2026",
+    "updatedAt": "01/20/2026",
     "crafting_components": [
       {
         "item": {
@@ -174550,13 +174615,13 @@
     "weightKg": 0.25,
     "stackSize": 15,
     "recyclesInto": {
-      "rubber_parts": 3
+      "rubber_parts": 2
     },
     "salvagesInto": {
       "rubber_parts": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/wires.png",
-    "updatedAt": "01/13/2026",
+    "updatedAt": "01/20/2026",
     "tip": "Wires are an uncommon item used to craft weapon mods that can be recycled into crafting materials.",
     "used_in": [
       {
