@@ -1564,17 +1564,6 @@
       }
     ]
   },
-  "fertilizer": {
-    "tag": "keep",
-    "reasons": [
-      {
-        "type": "quest",
-        "itemId": "fertilizer",
-        "questId": "ss10q",
-        "questName": "Unexpected Initiative"
-      }
-    ]
-  },
   "film_reel": {
     "tag": "keep",
     "reasons": [
@@ -4404,13 +4393,29 @@
     ]
   },
   "water_pump": {
-    "tag": "keep",
+    "tag": "recycle",
     "reasons": [
       {
-        "type": "quest",
+        "type": "recycle",
         "itemId": "water_pump",
-        "questId": "ss10q",
-        "questName": "Unexpected Initiative"
+        "recycleComponentId": "metal_parts",
+        "recycleComponentName": "Metal Parts",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "water_pump",
+            "itemName": "Water Pump",
+            "targetId": "metal_parts",
+            "targetName": "Metal Parts"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "metal_parts",
+            "itemName": "Metal Parts",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "1"
+          }
+        ]
       }
     ]
   },

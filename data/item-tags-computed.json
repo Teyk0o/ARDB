@@ -75,7 +75,7 @@
   "explosive_compound": "keep",
   "fabric": "keep",
   "faded_photograph": "sell",
-  "fertilizer": "keep",
+  "fertilizer": "sell",
   "film_reel": "keep",
   "fine_wristwatch": "sell",
   "fireball_burner": "keep",
@@ -208,6 +208,6 @@
   "voltage_converter": "recycle",
   "wasp_driver": "keep",
   "water_filter": "keep",
-  "water_pump": "keep",
+  "water_pump": "recycle",
   "wires": "keep"
 }
