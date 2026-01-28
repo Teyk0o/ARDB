@@ -1845,5 +1845,41 @@
     },
     "summary": "0 added, 10 modified, 0 removed",
     "totalItems": 497
+  },
+  {
+    "date": "2026-01-28T02:50:52.722Z",
+    "timestamp": 1769568652722,
+    "changes": {
+      "added": [
+        "Looting Mk. 3 (Safekeeper)",
+        "Tactical Mk. 3 (Revival)"
+      ],
+      "modified": [
+        "Anvil Blueprint",
+        "Anvil Splitter",
+        "Bobcat Blueprint",
+        "Bobcat I",
+        "Bobcat II",
+        "Bobcat III",
+        "Bobcat IV",
+        "Deadline",
+        "Deadline Blueprint",
+        "Hairpin I",
+        "Hairpin II",
+        "Hairpin III",
+        "Hairpin IV",
+        "Hullcracker Blueprint",
+        "Jupiter",
+        "Jupiter Blueprint",
+        "Kettle II",
+        "Osprey Blueprint",
+        "Snap Hook",
+        "Snap Hook Blueprint",
+        "Tempest IV"
+      ],
+      "removed": []
+    },
+    "summary": "2 added, 21 modified, 0 removed",
+    "totalItems": 499
   }
 ]
