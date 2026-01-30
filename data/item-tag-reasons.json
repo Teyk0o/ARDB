@@ -249,29 +249,14 @@
     ]
   },
   "arc_performance_steel": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "arc_performance_steel",
-        "recycleComponentId": "metal_parts",
-        "recycleComponentName": "Metal Parts",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "arc_performance_steel",
-            "itemName": "ARC Performance Steel",
-            "targetId": "metal_parts",
-            "targetName": "Metal Parts"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "metal_parts",
-            "itemName": "Metal Parts",
-            "workshopStation": "gunsmith",
-            "workshopLevel": "1"
-          }
-        ]
+        "projectId": "trophy_display_project",
+        "projectName": "Trophy Display",
+        "projectPhase": 3
       }
     ]
   },
@@ -287,29 +272,14 @@
     ]
   },
   "arc_synthetic_resin": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "arc_synthetic_resin",
-        "recycleComponentId": "plastic_parts",
-        "recycleComponentName": "Plastic Parts",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "arc_synthetic_resin",
-            "itemName": "ARC Synthetic Resin",
-            "targetId": "plastic_parts",
-            "targetName": "Plastic Parts"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "plastic_parts",
-            "itemName": "Plastic Parts",
-            "workshopStation": "gear_bench",
-            "workshopLevel": "1"
-          }
-        ]
+        "projectId": "trophy_display_project",
+        "projectName": "Trophy Display",
+        "projectPhase": 4
       }
     ]
   },
@@ -348,6 +318,13 @@
         "itemId": "bastion_cell",
         "workshopStation": "gear_bench",
         "workshopLevel": "3"
+      },
+      {
+        "type": "project",
+        "itemId": "bastion_cell",
+        "projectId": "trophy_display_project",
+        "projectName": "Trophy Display",
+        "projectPhase": 3
       }
     ]
   },
@@ -525,6 +502,13 @@
         "itemId": "bombardier_cell",
         "workshopStation": "refiner",
         "workshopLevel": "3"
+      },
+      {
+        "type": "project",
+        "itemId": "bombardier_cell",
+        "projectId": "trophy_display_project",
+        "projectName": "Trophy Display",
+        "projectPhase": 5
       }
     ]
   },
@@ -1484,55 +1468,25 @@
         "projectId": "expedition_project_s1",
         "projectName": "Expedition Project (Season 1)",
         "projectPhase": 3
+      },
+      {
+        "type": "project",
+        "itemId": "exodus_modules",
+        "projectId": "trophy_display_project",
+        "projectName": "Trophy Display",
+        "projectPhase": 5
       }
     ]
   },
   "expired_respirator": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "expired_respirator",
-        "recycleComponentId": "fabric",
-        "recycleComponentName": "Fabric",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "expired_respirator",
-            "itemName": "Expired Respirator",
-            "targetId": "fabric",
-            "targetName": "Fabric"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "fabric",
-            "itemName": "Fabric",
-            "workshopStation": "gear_bench",
-            "workshopLevel": "1"
-          }
-        ]
-      },
-      {
-        "type": "recycle",
-        "itemId": "expired_respirator",
-        "recycleComponentId": "rubber_parts",
-        "recycleComponentName": "Rubber Parts",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "expired_respirator",
-            "itemName": "Expired Respirator",
-            "targetId": "rubber_parts",
-            "targetName": "Rubber Parts"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "rubber_parts",
-            "itemName": "Rubber Parts",
-            "workshopStation": "gunsmith",
-            "workshopLevel": "1"
-          }
-        ]
+        "projectId": "trophy_display_project",
+        "projectName": "Trophy Display",
+        "projectPhase": 2
       }
     ]
   },
@@ -1728,44 +1682,14 @@
     ]
   },
   "geiger_counter": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "geiger_counter",
-        "recycleComponentId": "battery",
-        "recycleComponentName": "Battery",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "geiger_counter",
-            "itemName": "Geiger Counter",
-            "targetId": "battery",
-            "targetName": "Battery"
-          },
-          {
-            "action": "use_in_quest",
-            "itemId": "battery",
-            "itemName": "Battery",
-            "questId": "ss10y",
-            "questName": "After Rain Comes"
-          }
-        ]
-      },
-      {
-        "type": "recycle",
-        "itemId": "geiger_counter",
-        "recycleComponentId": "exodus_modules",
-        "recycleComponentName": "Exodus Modules",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "geiger_counter",
-            "itemName": "Geiger Counter",
-            "targetId": "exodus_modules",
-            "targetName": "Exodus Modules"
-          }
-        ]
+        "projectId": "trophy_display_project",
+        "projectName": "Trophy Display",
+        "projectPhase": 5
       }
     ]
   },
@@ -1821,6 +1745,13 @@
         "itemId": "hornet_driver",
         "workshopStation": "gear_bench",
         "workshopLevel": "2"
+      },
+      {
+        "type": "project",
+        "itemId": "hornet_driver",
+        "projectId": "trophy_display_project",
+        "projectName": "Trophy Display",
+        "projectPhase": 2
       }
     ]
   },
@@ -2040,6 +1971,13 @@
         "projectId": "expedition_project_s1",
         "projectName": "Expedition Project (Season 1)",
         "projectPhase": 4
+      },
+      {
+        "type": "project",
+        "itemId": "leaper_pulse_unit",
+        "projectId": "trophy_display_project",
+        "projectName": "Trophy Display",
+        "projectPhase": 3
       }
     ]
   },
@@ -2116,6 +2054,13 @@
         "projectId": "expedition_project_s1",
         "projectName": "Expedition Project (Season 1)",
         "projectPhase": 4
+      },
+      {
+        "type": "project",
+        "itemId": "magnetic_accelerator",
+        "projectId": "trophy_display_project",
+        "projectName": "Trophy Display",
+        "projectPhase": 4
       }
     ]
   },
@@ -2131,44 +2076,14 @@
     ]
   },
   "matriarch_reactor": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "matriarch_reactor",
-        "recycleComponentId": "magnetic_accelerator",
-        "recycleComponentName": "Magnetic Accelerator",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "matriarch_reactor",
-            "itemName": "Matriarch Reactor",
-            "targetId": "magnetic_accelerator",
-            "targetName": "Magnetic Accelerator"
-          }
-        ]
-      },
-      {
-        "type": "recycle",
-        "itemId": "matriarch_reactor",
-        "recycleComponentId": "power_rod",
-        "recycleComponentName": "Power Rod",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "matriarch_reactor",
-            "itemName": "Matriarch Reactor",
-            "targetId": "power_rod",
-            "targetName": "Power Rod"
-          },
-          {
-            "action": "use_in_quest",
-            "itemId": "power_rod",
-            "itemName": "Power Rod",
-            "questId": "ss10x15",
-            "questName": "Tribute to Toledo"
-          }
-        ]
+        "projectId": "trophy_display_project",
+        "projectName": "Trophy Display",
+        "projectPhase": 5
       }
     ]
   },
@@ -2553,6 +2468,13 @@
         "itemId": "pop_trigger",
         "workshopStation": "explosives_station",
         "workshopLevel": "2"
+      },
+      {
+        "type": "project",
+        "itemId": "pop_trigger",
+        "projectId": "trophy_display_project",
+        "projectName": "Trophy Display",
+        "projectPhase": 1
       }
     ]
   },
@@ -2764,44 +2686,14 @@
     ]
   },
   "queen_reactor": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "queen_reactor",
-        "recycleComponentId": "magnetic_accelerator",
-        "recycleComponentName": "Magnetic Accelerator",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "queen_reactor",
-            "itemName": "Queen Reactor",
-            "targetId": "magnetic_accelerator",
-            "targetName": "Magnetic Accelerator"
-          }
-        ]
-      },
-      {
-        "type": "recycle",
-        "itemId": "queen_reactor",
-        "recycleComponentId": "power_rod",
-        "recycleComponentName": "Power Rod",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "queen_reactor",
-            "itemName": "Queen Reactor",
-            "targetId": "power_rod",
-            "targetName": "Power Rod"
-          },
-          {
-            "action": "use_in_quest",
-            "itemId": "power_rod",
-            "itemName": "Power Rod",
-            "questId": "ss10x15",
-            "questName": "Tribute to Toledo"
-          }
-        ]
+        "projectId": "trophy_display_project",
+        "projectName": "Trophy Display",
+        "projectPhase": 4
       }
     ]
   },
@@ -2999,6 +2891,13 @@
         "itemId": "rocketeer_driver",
         "workshopStation": "explosives_station",
         "workshopLevel": "3"
+      },
+      {
+        "type": "project",
+        "itemId": "rocketeer_driver",
+        "projectId": "trophy_display_project",
+        "projectName": "Trophy Display",
+        "projectPhase": 4
       }
     ]
   },
@@ -3372,29 +3271,14 @@
     ]
   },
   "rusted_bolts": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "rusted_bolts",
-        "recycleComponentId": "metal_parts",
-        "recycleComponentName": "Metal Parts",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "rusted_bolts",
-            "itemName": "Rusted Bolts",
-            "targetId": "metal_parts",
-            "targetName": "Metal Parts"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "metal_parts",
-            "itemName": "Metal Parts",
-            "workshopStation": "gunsmith",
-            "workshopLevel": "1"
-          }
-        ]
+        "projectId": "trophy_display_project",
+        "projectName": "Trophy Display",
+        "projectPhase": 1
       }
     ]
   },
@@ -3516,6 +3400,13 @@
         "itemId": "shredder_gyro",
         "projectId": "expedition_project",
         "projectName": "Expedition Project (Season 2)",
+        "projectPhase": 3
+      },
+      {
+        "type": "project",
+        "itemId": "shredder_gyro",
+        "projectId": "trophy_display_project",
+        "projectName": "Trophy Display",
         "projectPhase": 3
       }
     ]
@@ -3740,51 +3631,14 @@
     ]
   },
   "spotter_relay": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "spotter_relay",
-        "recycleComponentId": "arc_alloy",
-        "recycleComponentName": "ARC Alloy",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "spotter_relay",
-            "itemName": "Spotter Relay",
-            "targetId": "arc_alloy",
-            "targetName": "ARC Alloy"
-          },
-          {
-            "action": "use_in_quest",
-            "itemId": "arc_alloy",
-            "itemName": "ARC Alloy",
-            "questId": "ss2",
-            "questName": "Clearer Skies"
-          }
-        ]
-      },
-      {
-        "type": "recycle",
-        "itemId": "spotter_relay",
-        "recycleComponentId": "electrical_components",
-        "recycleComponentName": "Electrical Components",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "spotter_relay",
-            "itemName": "Spotter Relay",
-            "targetId": "electrical_components",
-            "targetName": "Electrical Components"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "electrical_components",
-            "itemName": "Electrical Components",
-            "workshopStation": "gear_bench",
-            "workshopLevel": "2"
-          }
-        ]
+        "projectId": "trophy_display_project",
+        "projectName": "Trophy Display",
+        "projectPhase": 2
       }
     ]
   },
@@ -4015,6 +3869,13 @@
         "itemId": "surveyor_vault",
         "workshopStation": "medical_lab",
         "workshopLevel": "3"
+      },
+      {
+        "type": "project",
+        "itemId": "surveyor_vault",
+        "projectId": "trophy_display_project",
+        "projectName": "Trophy Display",
+        "projectPhase": 1
       }
     ]
   },
@@ -4193,6 +4054,13 @@
         "itemId": "tick_pod",
         "workshopStation": "medical_lab",
         "workshopLevel": "2"
+      },
+      {
+        "type": "project",
+        "itemId": "tick_pod",
+        "projectId": "trophy_display_project",
+        "projectName": "Trophy Display",
+        "projectPhase": 1
       }
     ]
   },
@@ -4377,6 +4245,13 @@
         "itemId": "wasp_driver",
         "workshopStation": "gunsmith",
         "workshopLevel": "2"
+      },
+      {
+        "type": "project",
+        "itemId": "wasp_driver",
+        "projectId": "trophy_display_project",
+        "projectName": "Trophy Display",
+        "projectPhase": 2
       }
     ]
   },
