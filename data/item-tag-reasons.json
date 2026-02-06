@@ -1924,6 +1924,12 @@
     "tag": "keep",
     "reasons": [
       {
+        "type": "quest",
+        "itemId": "ion_sputter",
+        "questId": "with_a_view",
+        "questName": "With A View"
+      },
+      {
         "type": "project",
         "itemId": "ion_sputter",
         "projectId": "expedition_project",
@@ -2388,6 +2394,17 @@
             "workshopLevel": "1"
           }
         ]
+      }
+    ]
+  },
+  "old_world_books": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "old_world_books",
+        "questId": "12_cold_storage",
+        "questName": "Cold Storage"
       }
     ]
   },
@@ -2929,29 +2946,13 @@
     ]
   },
   "rotary_encoder": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "quest",
         "itemId": "rotary_encoder",
-        "recycleComponentId": "electrical_components",
-        "recycleComponentName": "Electrical Components",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "rotary_encoder",
-            "itemName": "Rotary Encoder",
-            "targetId": "electrical_components",
-            "targetName": "Electrical Components"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "electrical_components",
-            "itemName": "Electrical Components",
-            "workshopStation": "gear_bench",
-            "workshopLevel": "2"
-          }
-        ]
+        "questId": "with_a_view",
+        "questName": "With A View"
       }
     ]
   },
