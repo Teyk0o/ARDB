@@ -478,10 +478,10 @@ export default function ProgressPage() {
                   onMouseLeave={(e) => {
                     e.currentTarget.style.borderColor = '#2d1f38';
                   }}
-                  title="Share"
+                  title={t.shareProgress || 'Share Progress'}
                 >
                   <FaShare />
-                  <span className="hidden md:inline">Share</span>
+                  <span className="hidden md:inline">{t.shareProgress || 'Share Progress'}</span>
                 </button>
               </div>
             </div>
@@ -581,16 +581,19 @@ export default function ProgressPage() {
               )}
 
               {/* No results */}
-              {((activeTab === 'all' || activeTab === 'quests') && filteredQuests.length === 0 && searchQuery) ||
-              ((activeTab === 'all' || activeTab === 'projects') && filteredProjects.length === 0 && searchQuery) ||
-              ((activeTab === 'all' || activeTab === 'workshops') && filteredWorkshops.length === 0 && searchQuery) ? (
+              {searchQuery && (
+                (activeTab === 'all' && filteredQuests.length === 0 && filteredProjects.length === 0 && filteredWorkshops.length === 0) ||
+                (activeTab === 'quests' && filteredQuests.length === 0) ||
+                (activeTab === 'projects' && filteredProjects.length === 0) ||
+                (activeTab === 'workshops' && filteredWorkshops.length === 0)
+              ) && (
                 <div className="text-center py-12">
                   <FaFilter className="text-arc-white/30 text-5xl mx-auto mb-4" />
                   <p className="text-arc-white/50 text-lg">
                     {t.noResults || 'No results found'}
                   </p>
                 </div>
-              ) : null}
+              )}
             </div>
           </>
         )}
