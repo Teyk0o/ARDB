@@ -6,6 +6,7 @@ import { useMemo } from 'react';
 import { useCompletions } from '@/contexts/CompletionsContext';
 import { generateClientTags, type CompletionsFilter } from '@/lib/tagGeneratorClient';
 import type { Quest, WorkshopUpgrades } from '@/types/tags';
+import type { Item } from '@/types/item';
 
 // Import JSON data directly (client-safe)
 import workshopUpgradesData from '@/data/workshop_upgrades.json';

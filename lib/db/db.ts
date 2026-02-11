@@ -632,11 +632,12 @@ export async function getUserCompletionsCount(
     total: 0,
   };
 
-  result.rows.forEach((row: { completion_type: string; count: string }) => {
-    const count = parseInt(row.count, 10);
-    if (row.completion_type === 'quest') counts.quests = count;
-    if (row.completion_type === 'project') counts.projects = count;
-    if (row.completion_type === 'workshop') counts.workshops = count;
+  result.rows.forEach((row) => {
+    const typedRow = row as { completion_type: string; count: string };
+    const count = parseInt(typedRow.count, 10);
+    if (typedRow.completion_type === 'quest') counts.quests = count;
+    if (typedRow.completion_type === 'project') counts.projects = count;
+    if (typedRow.completion_type === 'workshop') counts.workshops = count;
     counts.total += count;
   });
 
