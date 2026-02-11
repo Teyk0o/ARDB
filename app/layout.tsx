@@ -5,6 +5,7 @@ import ContributionBanner from "@/components/ContributionBanner";
 import LanguageDetector from "@/components/LanguageDetector";
 import DiscordButton from "@/components/DiscordButton";
 import AuthRefreshHandler from "@/components/auth/AuthRefreshHandler";
+import CompletionsWrapper from "@/components/providers/CompletionsWrapper";
 import { getSEOConfig } from "@/lib/seoConfig";
 import { Analytics } from "@vercel/analytics/next"
 
@@ -129,7 +130,9 @@ export default function RootLayout({
         <Suspense fallback={null}>
           <AuthRefreshHandler />
         </Suspense>
-        {children}
+        <CompletionsWrapper>
+          {children}
+        </CompletionsWrapper>
 		<Analytics />
         <ContributionBanner />
         <DiscordButton />
