@@ -643,3 +643,128 @@ export async function getUserCompletionsCount(
 
   return counts;
 }
+
+/**
+ * Shared Progress Links
+ */
+
+export interface SharedProgress {
+  id: string;
+  progressData: {
+    quests: string[];
+    projects: string[];
+    workshops: string[];
+  };
+  createdBy: number | null;
+  viewCount: number;
+  expiresAt: string | null;
+  createdAt: string;
+}
+
+/**
+ * Generate a short random ID for share links
+ */
+function generateShareId(): string {
+  const chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+  let result = '';
+  for (let i = 0; i < 8; i++) {
+    result += chars.charAt(Math.floor(Math.random() * chars.length));
+  }
+  return result;
+}
+
+/**
+ * Create a shared progress link
+ */
+export async function createSharedProgress(
+  progressData: { quests: string[]; projects: string[]; workshops: string[] },
+  userId: number | null = null,
+  expiresInDays: number = 30
+): Promise<string> {
+  let shareId = generateShareId();
+  let attempts = 0;
+  const maxAttempts = 10;
+
+  // Ensure unique ID
+  while (attempts < maxAttempts) {
+    const existing = await sql`
+      SELECT id FROM shared_progress WHERE id = ${shareId}
+    `;
+    if (existing.rows.length === 0) break;
+    shareId = generateShareId();
+    attempts++;
+  }
+
+  if (attempts >= maxAttempts) {
+    throw new Error('Failed to generate unique share ID');
+  }
+
+  const expiresAt = new Date();
+  expiresAt.setDate(expiresAt.getDate() + expiresInDays);
+
+  await sql`
+    INSERT INTO shared_progress (id, progress_data, created_by, expires_at)
+    VALUES (
+      ${shareId},
+      ${JSON.stringify(progressData)},
+      ${userId},
+      ${expiresAt.toISOString()}
+    )
+  `;
+
+  return shareId;
+}
+
+/**
+ * Get shared progress by ID
+ */
+export async function getSharedProgress(shareId: string): Promise<SharedProgress | null> {
+  const result = await sql`
+    SELECT
+      id,
+      progress_data,
+      created_by,
+      view_count,
+      expires_at,
+      created_at
+    FROM shared_progress
+    WHERE id = ${shareId}
+      AND (expires_at IS NULL OR expires_at > NOW())
+  `;
+
+  if (result.rows.length === 0) {
+    return null;
+  }
+
+  const row = result.rows[0] as any;
+  return {
+    id: row.id,
+    progressData: row.progress_data,
+    createdBy: row.created_by,
+    viewCount: row.view_count,
+    expiresAt: row.expires_at,
+    createdAt: row.created_at,
+  };
+}
+
+/**
+ * Increment view count for a shared progress link
+ */
+export async function incrementShareViewCount(shareId: string): Promise<void> {
+  await sql`
+    UPDATE shared_progress
+    SET view_count = view_count + 1
+    WHERE id = ${shareId}
+  `;
+}
+
+/**
+ * Delete expired shared progress links (cleanup job)
+ */
+export async function deleteExpiredSharedProgress(): Promise<number> {
+  const result = await sql`
+    DELETE FROM shared_progress
+    WHERE expires_at IS NOT NULL AND expires_at < NOW()
+  `;
+  return result.rowCount || 0;
+}
