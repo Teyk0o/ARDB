@@ -212,3 +212,55 @@ export function getTagLabel(tag: 'keep' | 'sell' | 'recycle', language: Language
   const key = `tag${tag.charAt(0).toUpperCase() + tag.slice(1)}` as 'tagKeep' | 'tagSell' | 'tagRecycle';
   return TAG_LABELS[language]?.[key] || TAG_LABELS.en[key];
 }
+
+/**
+ * Get translated workshop label
+ * @param workshopId - Workshop ID (e.g., gunsmith, refiner)
+ * @param language - Language code
+ * @returns Translated label
+ */
+export function getWorkshopLabel(workshopId: string, language: Language): string {
+  const labels: Record<Language, Record<string, string>> = {
+    en: {
+      gunsmith: 'Gunsmith',
+      refiner: 'Refiner',
+      gear_bench: 'Gear Bench',
+      medical_lab: 'Medical Lab',
+      explosives_station: 'Explosives Station',
+      utility_station: 'Utility Station',
+    },
+    fr: {
+      gunsmith: 'Armurier',
+      refiner: 'Raffinerie',
+      gear_bench: 'Établi d\'équipement',
+      medical_lab: 'Laboratoire médical',
+      explosives_station: 'Station d\'explosifs',
+      utility_station: 'Station utilitaire',
+    },
+    es: {
+      gunsmith: 'Armero',
+      refiner: 'Refinería',
+      gear_bench: 'Banco de equipo',
+      medical_lab: 'Laboratorio médico',
+      explosives_station: 'Estación de explosivos',
+      utility_station: 'Estación de utilidades',
+    },
+    de: {
+      gunsmith: 'Waffenschmied',
+      refiner: 'Raffinerie',
+      gear_bench: 'Ausrüstungsbank',
+      medical_lab: 'Medizinlabor',
+      explosives_station: 'Sprengstoffstation',
+      utility_station: 'Werkzeugstation',
+    },
+    'zh-CN': {
+      gunsmith: '枪械工坊',
+      refiner: '精炼站',
+      gear_bench: '装备台',
+      medical_lab: '医疗实验室',
+      explosives_station: '爆炸物站',
+      utility_station: '工具站',
+    },
+  };
+  return labels[language]?.[workshopId] || workshopId.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+}
