@@ -76,6 +76,16 @@ export interface SyncConflict {
   created_at: Date;
 }
 
+export interface UserCompletion {
+  id: number;
+  user_id: number;
+  completion_type: 'quest' | 'project' | 'workshop';
+  completion_id: string;
+  metadata: Record<string, unknown>;
+  completed_at: Date;
+  created_at: Date;
+}
+
 /**
  * User queries
  */
@@ -493,4 +503,142 @@ export async function checkUserCooldown(userId: number): Promise<{
     canSubmit: remainingTime === 0,
     remainingTime: Math.ceil(remainingTime / 1000), // Return in seconds
   };
+}
+
+/**
+ * User Completions Management
+ * Track completed quests, projects, and workshop upgrades
+ */
+
+export async function getUserCompletions(userId: number): Promise<UserCompletion[]> {
+  const result = await sql<UserCompletion>`
+    SELECT * FROM user_completions
+    WHERE user_id = ${userId}
+    ORDER BY completed_at DESC
+  `;
+  return result.rows;
+}
+
+export async function getUserCompletionsByType(
+  userId: number,
+  type: 'quest' | 'project' | 'workshop'
+): Promise<UserCompletion[]> {
+  const result = await sql<UserCompletion>`
+    SELECT * FROM user_completions
+    WHERE user_id = ${userId} AND completion_type = ${type}
+    ORDER BY completed_at DESC
+  `;
+  return result.rows;
+}
+
+export async function addCompletion(
+  userId: number,
+  completionType: 'quest' | 'project' | 'workshop',
+  completionId: string,
+  metadata?: Record<string, unknown>
+): Promise<UserCompletion> {
+  const result = await sql<UserCompletion>`
+    INSERT INTO user_completions (user_id, completion_type, completion_id, metadata)
+    VALUES (${userId}, ${completionType}, ${completionId}, ${JSON.stringify(metadata || {})})
+    ON CONFLICT (user_id, completion_type, completion_id)
+    DO UPDATE SET completed_at = NOW(), metadata = ${JSON.stringify(metadata || {})}
+    RETURNING *
+  `;
+  return result.rows[0];
+}
+
+export async function removeCompletion(
+  userId: number,
+  completionType: 'quest' | 'project' | 'workshop',
+  completionId: string
+): Promise<boolean> {
+  const result = await sql`
+    DELETE FROM user_completions
+    WHERE user_id = ${userId}
+      AND completion_type = ${completionType}
+      AND completion_id = ${completionId}
+  `;
+  return result.rowCount !== null && result.rowCount > 0;
+}
+
+export async function bulkAddCompletions(
+  userId: number,
+  completions: Array<{
+    completion_type: 'quest' | 'project' | 'workshop';
+    completion_id: string;
+    metadata?: Record<string, unknown>;
+  }>
+): Promise<UserCompletion[]> {
+  if (completions.length === 0) {
+    return [];
+  }
+
+  // Build VALUES clause for bulk insert
+  const values = completions
+    .map(
+      (_, index) =>
+        `($${index * 4 + 1}, $${index * 4 + 2}, $${index * 4 + 3}, $${index * 4 + 4})`
+    )
+    .join(', ');
+
+  const params = completions.flatMap((c) => [
+    userId,
+    c.completion_type,
+    c.completion_id,
+    JSON.stringify(c.metadata || {}),
+  ]);
+
+  const query = `
+    INSERT INTO user_completions (user_id, completion_type, completion_id, metadata)
+    VALUES ${values}
+    ON CONFLICT (user_id, completion_type, completion_id)
+    DO UPDATE SET completed_at = NOW(), metadata = EXCLUDED.metadata
+    RETURNING *
+  `;
+
+  const result = await sql.query<UserCompletion>(query, params);
+  return result.rows;
+}
+
+export async function clearUserCompletions(userId: number): Promise<boolean> {
+  const result = await sql`
+    DELETE FROM user_completions
+    WHERE user_id = ${userId}
+  `;
+  return result.rowCount !== null && result.rowCount > 0;
+}
+
+export async function getUserCompletionsCount(
+  userId: number
+): Promise<{
+  quests: number;
+  projects: number;
+  workshops: number;
+  total: number;
+}> {
+  const result = await sql`
+    SELECT
+      completion_type,
+      COUNT(*) as count
+    FROM user_completions
+    WHERE user_id = ${userId}
+    GROUP BY completion_type
+  `;
+
+  const counts = {
+    quests: 0,
+    projects: 0,
+    workshops: 0,
+    total: 0,
+  };
+
+  result.rows.forEach((row: { completion_type: string; count: string }) => {
+    const count = parseInt(row.count, 10);
+    if (row.completion_type === 'quest') counts.quests = count;
+    if (row.completion_type === 'project') counts.projects = count;
+    if (row.completion_type === 'workshop') counts.workshops = count;
+    counts.total += count;
+  });
+
+  return counts;
 }
