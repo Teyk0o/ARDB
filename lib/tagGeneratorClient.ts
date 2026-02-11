@@ -7,6 +7,9 @@ import { TagGenerator, type CompletionsFilter } from './tagGenerator';
 import { TagReasonAnalyzer, type ItemTagReasons } from './tagReasoning';
 import type { Quest, WorkshopUpgrades, Project, ItemTag } from '../types/tags';
 
+// Re-export CompletionsFilter for consumers
+export type { CompletionsFilter };
+
 /**
  * Generate tags with user completions filter
  */
