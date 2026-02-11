@@ -211,16 +211,17 @@ export class TagGenerator {
 
   /**
    * Check if item is directly required for any project phase
-   * Filters out completed projects if completions are provided
+   * Filters out completed project phases if completions are provided
    */
   private isRequiredForProject(itemId: string): boolean {
     return this.projects.some(project => {
-      // Skip completed projects
-      if (this.completions?.projects?.has(project.id)) {
-        return false;
-      }
-
       return project.phases.some(phase => {
+        // Skip completed project phases (format: "projectId:phase")
+        const phaseKey = `${project.id}:${phase.phase}`;
+        if (this.completions?.projects?.has(phaseKey)) {
+          return false;
+        }
+
         const requiredItems = phase.requirementItemIds || [];
         return requiredItems.some(req => req.itemId === itemId);
       });

@@ -118,7 +118,9 @@ export class TagReasonAnalyzer {
         project.phases.forEach(phase => {
           const requiredItems = phase.requirementItemIds || [];
           if (requiredItems.some(req => req.itemId === itemId)) {
-            const isCompleted = this.completions?.projects?.has(project.id) || false;
+            // Check completion status for individual phase (format: "projectId:phase")
+            const phaseKey = `${project.id}:${phase.phase}`;
+            const isCompleted = this.completions?.projects?.has(phaseKey) || false;
             reasons.push({
               type: 'project',
               itemId,

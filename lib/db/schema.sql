@@ -93,6 +93,17 @@ CREATE TABLE IF NOT EXISTS user_completions (
   UNIQUE(user_id, completion_type, completion_id)
 );
 
+-- Table: shared_progress
+-- Stores shared progress states for URL sharing
+CREATE TABLE IF NOT EXISTS shared_progress (
+  id VARCHAR(8) PRIMARY KEY,
+  progress_data JSONB NOT NULL,
+  created_by INTEGER REFERENCES users(id) ON DELETE SET NULL,
+  view_count INTEGER DEFAULT 0,
+  expires_at TIMESTAMP,
+  created_at TIMESTAMP DEFAULT NOW()
+);
+
 -- Indexes for performance optimization
 CREATE INDEX IF NOT EXISTS idx_item_edits_status ON item_edits(status);
 CREATE INDEX IF NOT EXISTS idx_item_edits_item_id ON item_edits(item_id);
@@ -108,6 +119,8 @@ CREATE INDEX IF NOT EXISTS idx_users_discord_id ON users(discord_id);
 CREATE INDEX IF NOT EXISTS idx_user_completions_user_id ON user_completions(user_id);
 CREATE INDEX IF NOT EXISTS idx_user_completions_type ON user_completions(completion_type);
 CREATE INDEX IF NOT EXISTS idx_user_completions_lookup ON user_completions(user_id, completion_type);
+CREATE INDEX IF NOT EXISTS idx_shared_progress_created_at ON shared_progress(created_at DESC);
+CREATE INDEX IF NOT EXISTS idx_shared_progress_expires_at ON shared_progress(expires_at);
 
 -- Function to automatically update updated_at timestamp
 CREATE OR REPLACE FUNCTION update_updated_at_column()

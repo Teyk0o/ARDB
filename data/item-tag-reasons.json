@@ -33,27 +33,31 @@
         "type": "workshop",
         "itemId": "advanced_electrical_components",
         "workshopStation": "gear_bench",
-        "workshopLevel": "3"
+        "workshopLevel": "3",
+        "completed": false
       },
       {
         "type": "workshop",
         "itemId": "advanced_electrical_components",
         "workshopStation": "utility_station",
-        "workshopLevel": "3"
+        "workshopLevel": "3",
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "advanced_electrical_components",
         "projectId": "expedition_project",
         "projectName": "Expedition Project (Season 2)",
-        "projectPhase": 4
+        "projectPhase": 4,
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "advanced_electrical_components",
         "projectId": "expedition_project_s1",
         "projectName": "Expedition Project (Season 1)",
-        "projectPhase": 4
+        "projectPhase": 4,
+        "completed": false
       }
     ]
   },
@@ -64,7 +68,8 @@
         "type": "workshop",
         "itemId": "advanced_mechanical_components",
         "workshopStation": "gunsmith",
-        "workshopLevel": "3"
+        "workshopLevel": "3",
+        "completed": false
       }
     ]
   },
@@ -102,13 +107,15 @@
         "type": "quest",
         "itemId": "antiseptic",
         "questId": "ss10c",
-        "questName": "Doctor's Orders"
+        "questName": "Doctor's Orders",
+        "completed": false
       },
       {
         "type": "workshop",
         "itemId": "antiseptic",
         "workshopStation": "medical_lab",
-        "workshopLevel": "3"
+        "workshopLevel": "3",
+        "completed": false
       }
     ]
   },
@@ -119,13 +126,15 @@
         "type": "workshop",
         "itemId": "apricot",
         "workshopStation": "scrappy",
-        "workshopLevel": "3"
+        "workshopLevel": "3",
+        "completed": false
       },
       {
         "type": "workshop",
         "itemId": "apricot",
         "workshopStation": "scrappy",
-        "workshopLevel": "5"
+        "workshopLevel": "5",
+        "completed": false
       }
     ]
   },
@@ -136,39 +145,45 @@
         "type": "quest",
         "itemId": "arc_alloy",
         "questId": "ss2",
-        "questName": "Clearer Skies"
+        "questName": "Clearer Skies",
+        "completed": false
       },
       {
         "type": "workshop",
         "itemId": "arc_alloy",
         "workshopStation": "medical_lab",
-        "workshopLevel": "1"
+        "workshopLevel": "1",
+        "completed": false
       },
       {
         "type": "workshop",
         "itemId": "arc_alloy",
         "workshopStation": "explosives_station",
-        "workshopLevel": "1"
+        "workshopLevel": "1",
+        "completed": false
       },
       {
         "type": "workshop",
         "itemId": "arc_alloy",
         "workshopStation": "utility_station",
-        "workshopLevel": "1"
+        "workshopLevel": "1",
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "arc_alloy",
         "projectId": "expedition_project",
         "projectName": "Expedition Project (Season 2)",
-        "projectPhase": 1
+        "projectPhase": 1,
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "arc_alloy",
         "projectId": "expedition_project_s1",
         "projectName": "Expedition Project (Season 1)",
-        "projectPhase": 1
+        "projectPhase": 1,
+        "completed": false
       }
     ]
   },
@@ -179,7 +194,8 @@
         "type": "workshop",
         "itemId": "arc_circuitry",
         "workshopStation": "refiner",
-        "workshopLevel": "3"
+        "workshopLevel": "3",
+        "completed": false
       }
     ]
   },
@@ -244,7 +260,8 @@
         "type": "workshop",
         "itemId": "arc_motion_core",
         "workshopStation": "refiner",
-        "workshopLevel": "2"
+        "workshopLevel": "2",
+        "completed": false
       }
     ]
   },
@@ -256,7 +273,8 @@
         "itemId": "arc_performance_steel",
         "projectId": "trophy_display_project",
         "projectName": "Trophy Display",
-        "projectPhase": 3
+        "projectPhase": 3,
+        "completed": false
       }
     ]
   },
@@ -267,7 +285,8 @@
         "type": "workshop",
         "itemId": "arc_powercell",
         "workshopStation": "refiner",
-        "workshopLevel": "1"
+        "workshopLevel": "1",
+        "completed": false
       }
     ]
   },
@@ -279,7 +298,8 @@
         "itemId": "arc_synthetic_resin",
         "projectId": "trophy_display_project",
         "projectName": "Trophy Display",
-        "projectPhase": 4
+        "projectPhase": 4,
+        "completed": false
       }
     ]
   },
@@ -317,14 +337,16 @@
         "type": "workshop",
         "itemId": "bastion_cell",
         "workshopStation": "gear_bench",
-        "workshopLevel": "3"
+        "workshopLevel": "3",
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "bastion_cell",
         "projectId": "trophy_display_project",
         "projectName": "Trophy Display",
-        "projectPhase": 3
+        "projectPhase": 3,
+        "completed": false
       }
     ]
   },
@@ -335,27 +357,31 @@
         "type": "quest",
         "itemId": "battery",
         "questId": "ss10y",
-        "questName": "After Rain Comes"
+        "questName": "After Rain Comes",
+        "completed": false
       },
       {
         "type": "quest",
         "itemId": "battery",
         "questId": "ss3",
-        "questName": "Trash Into Treasure"
+        "questName": "Trash Into Treasure",
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "battery",
         "projectId": "expedition_project",
         "projectName": "Expedition Project (Season 2)",
-        "projectPhase": 3
+        "projectPhase": 3,
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "battery",
         "projectId": "expedition_project_s1",
         "projectName": "Expedition Project (Season 1)",
-        "projectPhase": 3
+        "projectPhase": 3,
+        "completed": false
       }
     ]
   },
@@ -501,14 +527,16 @@
         "type": "workshop",
         "itemId": "bombardier_cell",
         "workshopStation": "refiner",
-        "workshopLevel": "3"
+        "workshopLevel": "3",
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "bombardier_cell",
         "projectId": "trophy_display_project",
         "projectName": "Trophy Display",
-        "projectPhase": 5
+        "projectPhase": 5,
+        "completed": false
       }
     ]
   },
@@ -714,7 +742,8 @@
         "itemId": "candle_holder",
         "projectId": "flickering_flames_project",
         "projectName": "Flickering Flames",
-        "projectPhase": 2
+        "projectPhase": 2,
+        "completed": false
       }
     ]
   },
@@ -726,35 +755,40 @@
         "itemId": "candleberries",
         "projectId": "flickering_flames_project",
         "projectName": "Flickering Flames",
-        "projectPhase": 1
+        "projectPhase": 1,
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "candleberries",
         "projectId": "flickering_flames_project",
         "projectName": "Flickering Flames",
-        "projectPhase": 2
+        "projectPhase": 2,
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "candleberries",
         "projectId": "flickering_flames_project",
         "projectName": "Flickering Flames",
-        "projectPhase": 3
+        "projectPhase": 3,
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "candleberries",
         "projectId": "flickering_flames_project",
         "projectName": "Flickering Flames",
-        "projectPhase": 4
+        "projectPhase": 4,
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "candleberries",
         "projectId": "flickering_flames_project",
         "projectName": "Flickering Flames",
-        "projectPhase": 5
+        "projectPhase": 5,
+        "completed": false
       }
     ]
   },
@@ -792,7 +826,8 @@
         "type": "workshop",
         "itemId": "cat_bed",
         "workshopStation": "scrappy",
-        "workshopLevel": "4"
+        "workshopLevel": "4",
+        "completed": false
       }
     ]
   },
@@ -803,7 +838,8 @@
         "type": "quest",
         "itemId": "celeste_journal",
         "questId": "ss10t",
-        "questName": "Celeste's Journals"
+        "questName": "Celeste's Journals",
+        "completed": false
       }
     ]
   },
@@ -814,7 +850,8 @@
         "type": "workshop",
         "itemId": "chemicals",
         "workshopStation": "explosives_station",
-        "workshopLevel": "1"
+        "workshopLevel": "1",
+        "completed": false
       }
     ]
   },
@@ -826,7 +863,8 @@
         "itemId": "coffee_pot",
         "projectId": "flickering_flames_project",
         "projectName": "Flickering Flames",
-        "projectPhase": 4
+        "projectPhase": 4,
+        "completed": false
       }
     ]
   },
@@ -865,7 +903,8 @@
         "itemId": "cooling_coil",
         "projectId": "expedition_project",
         "projectName": "Expedition Project (Season 2)",
-        "projectPhase": 2
+        "projectPhase": 2,
+        "completed": false
       }
     ]
   },
@@ -877,7 +916,8 @@
         "itemId": "cooling_fan",
         "projectId": "expedition_project_s1",
         "projectName": "Expedition Project (Season 1)",
-        "projectPhase": 2
+        "projectPhase": 2,
+        "completed": false
       }
     ]
   },
@@ -888,7 +928,8 @@
         "type": "workshop",
         "itemId": "cracked_bioscanner",
         "workshopStation": "medical_lab",
-        "workshopLevel": "2"
+        "workshopLevel": "2",
+        "completed": false
       }
     ]
   },
@@ -899,7 +940,8 @@
         "type": "workshop",
         "itemId": "crude_explosives",
         "workshopStation": "explosives_station",
-        "workshopLevel": "2"
+        "workshopLevel": "2",
+        "completed": false
       }
     ]
   },
@@ -1062,7 +1104,8 @@
         "type": "workshop",
         "itemId": "damaged_heat_sink",
         "workshopStation": "utility_station",
-        "workshopLevel": "2"
+        "workshopLevel": "2",
+        "completed": false
       }
     ]
   },
@@ -1328,7 +1371,8 @@
         "type": "workshop",
         "itemId": "dog_collar",
         "workshopStation": "scrappy",
-        "workshopLevel": "2"
+        "workshopLevel": "2",
+        "completed": false
       }
     ]
   },
@@ -1367,7 +1411,8 @@
         "itemId": "duct_tape",
         "projectId": "flickering_flames_project",
         "projectName": "Flickering Flames",
-        "projectPhase": 3
+        "projectPhase": 3,
+        "completed": false
       }
     ]
   },
@@ -1378,34 +1423,39 @@
         "type": "quest",
         "itemId": "durable_cloth",
         "questId": "ss10c",
-        "questName": "Doctor's Orders"
+        "questName": "Doctor's Orders",
+        "completed": false
       },
       {
         "type": "workshop",
         "itemId": "durable_cloth",
         "workshopStation": "medical_lab",
-        "workshopLevel": "2"
+        "workshopLevel": "2",
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "durable_cloth",
         "projectId": "expedition_project",
         "projectName": "Expedition Project (Season 2)",
-        "projectPhase": 2
+        "projectPhase": 2,
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "durable_cloth",
         "projectId": "expedition_project_s1",
         "projectName": "Expedition Project (Season 1)",
-        "projectPhase": 2
+        "projectPhase": 2,
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "durable_cloth",
         "projectId": "flickering_flames_project",
         "projectName": "Flickering Flames",
-        "projectPhase": 1
+        "projectPhase": 1,
+        "completed": false
       }
     ]
   },
@@ -1416,27 +1466,31 @@
         "type": "workshop",
         "itemId": "electrical_components",
         "workshopStation": "gear_bench",
-        "workshopLevel": "2"
+        "workshopLevel": "2",
+        "completed": false
       },
       {
         "type": "workshop",
         "itemId": "electrical_components",
         "workshopStation": "utility_station",
-        "workshopLevel": "2"
+        "workshopLevel": "2",
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "electrical_components",
         "projectId": "expedition_project",
         "projectName": "Expedition Project (Season 2)",
-        "projectPhase": 2
+        "projectPhase": 2,
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "electrical_components",
         "projectId": "expedition_project_s1",
         "projectName": "Expedition Project (Season 1)",
-        "projectPhase": 2
+        "projectPhase": 2,
+        "completed": false
       }
     ]
   },
@@ -1448,7 +1502,8 @@
         "itemId": "empty_wine_bottle",
         "projectId": "flickering_flames_project",
         "projectName": "Flickering Flames",
-        "projectPhase": 1
+        "projectPhase": 1,
+        "completed": false
       }
     ]
   },
@@ -1460,21 +1515,24 @@
         "itemId": "exodus_modules",
         "projectId": "expedition_project",
         "projectName": "Expedition Project (Season 2)",
-        "projectPhase": 3
+        "projectPhase": 3,
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "exodus_modules",
         "projectId": "expedition_project_s1",
         "projectName": "Expedition Project (Season 1)",
-        "projectPhase": 3
+        "projectPhase": 3,
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "exodus_modules",
         "projectId": "trophy_display_project",
         "projectName": "Trophy Display",
-        "projectPhase": 5
+        "projectPhase": 5,
+        "completed": false
       }
     ]
   },
@@ -1486,7 +1544,8 @@
         "itemId": "expired_respirator",
         "projectId": "trophy_display_project",
         "projectName": "Trophy Display",
-        "projectPhase": 2
+        "projectPhase": 2,
+        "completed": false
       }
     ]
   },
@@ -1497,7 +1556,8 @@
         "type": "workshop",
         "itemId": "explosive_compound",
         "workshopStation": "explosives_station",
-        "workshopLevel": "3"
+        "workshopLevel": "3",
+        "completed": false
       }
     ]
   },
@@ -1508,13 +1568,15 @@
         "type": "workshop",
         "itemId": "fabric",
         "workshopStation": "gear_bench",
-        "workshopLevel": "1"
+        "workshopLevel": "1",
+        "completed": false
       },
       {
         "type": "workshop",
         "itemId": "fabric",
         "workshopStation": "medical_lab",
-        "workshopLevel": "1"
+        "workshopLevel": "1",
+        "completed": false
       }
     ]
   },
@@ -1526,7 +1588,8 @@
         "itemId": "film_reel",
         "projectId": "flickering_flames_project",
         "projectName": "Flickering Flames",
-        "projectPhase": 3
+        "projectPhase": 3,
+        "completed": false
       }
     ]
   },
@@ -1537,14 +1600,16 @@
         "type": "workshop",
         "itemId": "fireball_burner",
         "workshopStation": "refiner",
-        "workshopLevel": "2"
+        "workshopLevel": "2",
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "fireball_burner",
         "projectId": "flickering_flames_project",
         "projectName": "Flickering Flames",
-        "projectPhase": 4
+        "projectPhase": 4,
+        "completed": false
       }
     ]
   },
@@ -1555,7 +1620,8 @@
         "type": "quest",
         "itemId": "first_wave_compass",
         "questId": "ss10h",
-        "questName": "Broken Monument"
+        "questName": "Broken Monument",
+        "completed": false
       }
     ]
   },
@@ -1566,7 +1632,8 @@
         "type": "quest",
         "itemId": "first_wave_rations",
         "questId": "ss10h",
-        "questName": "Broken Monument"
+        "questName": "Broken Monument",
+        "completed": false
       }
     ]
   },
@@ -1577,7 +1644,8 @@
         "type": "quest",
         "itemId": "first_wave_tape",
         "questId": "ss10h",
-        "questName": "Broken Monument"
+        "questName": "Broken Monument",
+        "completed": false
       }
     ]
   },
@@ -1588,7 +1656,8 @@
         "type": "quest",
         "itemId": "flow_controller",
         "questId": "12_snap_and_salvage",
-        "questName": "Snap and Salvage"
+        "questName": "Snap and Salvage",
+        "completed": false
       }
     ]
   },
@@ -1627,7 +1696,8 @@
         "itemId": "frequency_modulation_box",
         "projectId": "expedition_project",
         "projectName": "Expedition Project (Season 2)",
-        "projectPhase": 4
+        "projectPhase": 4,
+        "completed": false
       }
     ]
   },
@@ -1638,7 +1708,8 @@
         "type": "workshop",
         "itemId": "fried_motherboard",
         "workshopStation": "utility_station",
-        "workshopLevel": "3"
+        "workshopLevel": "3",
+        "completed": false
       }
     ]
   },
@@ -1650,7 +1721,8 @@
         "itemId": "frying_pan",
         "projectId": "flickering_flames_project",
         "projectName": "Flickering Flames",
-        "projectPhase": 5
+        "projectPhase": 5,
+        "completed": false
       }
     ]
   },
@@ -1689,7 +1761,8 @@
         "itemId": "geiger_counter",
         "projectId": "trophy_display_project",
         "projectName": "Trophy Display",
-        "projectPhase": 5
+        "projectPhase": 5,
+        "completed": false
       }
     ]
   },
@@ -1700,7 +1773,8 @@
         "type": "quest",
         "itemId": "great_mullein",
         "questId": "ss10c",
-        "questName": "Doctor's Orders"
+        "questName": "Doctor's Orders",
+        "completed": false
       }
     ]
   },
@@ -1738,20 +1812,23 @@
         "type": "quest",
         "itemId": "hornet_driver",
         "questId": "ss9",
-        "questName": "The Trifecta"
+        "questName": "The Trifecta",
+        "completed": false
       },
       {
         "type": "workshop",
         "itemId": "hornet_driver",
         "workshopStation": "gear_bench",
-        "workshopLevel": "2"
+        "workshopLevel": "2",
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "hornet_driver",
         "projectId": "trophy_display_project",
         "projectName": "Trophy Display",
-        "projectPhase": 2
+        "projectPhase": 2,
+        "completed": false
       }
     ]
   },
@@ -1790,7 +1867,8 @@
         "itemId": "humidifier",
         "projectId": "expedition_project_s1",
         "projectName": "Expedition Project (Season 1)",
-        "projectPhase": 4
+        "projectPhase": 4,
+        "completed": false
       }
     ]
   },
@@ -1855,14 +1933,16 @@
         "type": "workshop",
         "itemId": "industrial_battery",
         "workshopStation": "gear_bench",
-        "workshopLevel": "3"
+        "workshopLevel": "3",
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "industrial_battery",
         "projectId": "flickering_flames_project",
         "projectName": "Flickering Flames",
-        "projectPhase": 2
+        "projectPhase": 2,
+        "completed": false
       }
     ]
   },
@@ -1927,14 +2007,16 @@
         "type": "quest",
         "itemId": "ion_sputter",
         "questId": "with_a_view",
-        "questName": "With A View"
+        "questName": "With A View",
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "ion_sputter",
         "projectId": "expedition_project",
         "projectName": "Expedition Project (Season 2)",
-        "projectPhase": 4
+        "projectPhase": 4,
+        "completed": false
       }
     ]
   },
@@ -1945,7 +2027,8 @@
         "type": "workshop",
         "itemId": "laboratory_reagents",
         "workshopStation": "explosives_station",
-        "workshopLevel": "3"
+        "workshopLevel": "3",
+        "completed": false
       }
     ]
   },
@@ -1956,34 +2039,39 @@
         "type": "quest",
         "itemId": "leaper_pulse_unit",
         "questId": "ss10x5",
-        "questName": "Into the Fray"
+        "questName": "Into the Fray",
+        "completed": false
       },
       {
         "type": "workshop",
         "itemId": "leaper_pulse_unit",
         "workshopStation": "utility_station",
-        "workshopLevel": "3"
+        "workshopLevel": "3",
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "leaper_pulse_unit",
         "projectId": "expedition_project",
         "projectName": "Expedition Project (Season 2)",
-        "projectPhase": 4
+        "projectPhase": 4,
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "leaper_pulse_unit",
         "projectId": "expedition_project_s1",
         "projectName": "Expedition Project (Season 1)",
-        "projectPhase": 4
+        "projectPhase": 4,
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "leaper_pulse_unit",
         "projectId": "trophy_display_project",
         "projectName": "Trophy Display",
-        "projectPhase": 3
+        "projectPhase": 3,
+        "completed": false
       }
     ]
   },
@@ -1994,7 +2082,8 @@
         "type": "workshop",
         "itemId": "lemon",
         "workshopStation": "scrappy",
-        "workshopLevel": "3"
+        "workshopLevel": "3",
+        "completed": false
       }
     ]
   },
@@ -2006,21 +2095,24 @@
         "itemId": "light_bulb",
         "projectId": "expedition_project",
         "projectName": "Expedition Project (Season 2)",
-        "projectPhase": 3
+        "projectPhase": 3,
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "light_bulb",
         "projectId": "expedition_project_s1",
         "projectName": "Expedition Project (Season 1)",
-        "projectPhase": 3
+        "projectPhase": 3,
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "light_bulb",
         "projectId": "flickering_flames_project",
         "projectName": "Flickering Flames",
-        "projectPhase": 2
+        "projectPhase": 2,
+        "completed": false
       }
     ]
   },
@@ -2059,14 +2151,16 @@
         "itemId": "magnetic_accelerator",
         "projectId": "expedition_project_s1",
         "projectName": "Expedition Project (Season 1)",
-        "projectPhase": 4
+        "projectPhase": 4,
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "magnetic_accelerator",
         "projectId": "trophy_display_project",
         "projectName": "Trophy Display",
-        "projectPhase": 4
+        "projectPhase": 4,
+        "completed": false
       }
     ]
   },
@@ -2077,7 +2171,8 @@
         "type": "quest",
         "itemId": "magnetron",
         "questId": "12_snap_and_salvage",
-        "questName": "Snap and Salvage"
+        "questName": "Snap and Salvage",
+        "completed": false
       }
     ]
   },
@@ -2089,7 +2184,8 @@
         "itemId": "matriarch_reactor",
         "projectId": "trophy_display_project",
         "projectName": "Trophy Display",
-        "projectPhase": 5
+        "projectPhase": 5,
+        "completed": false
       }
     ]
   },
@@ -2100,7 +2196,8 @@
         "type": "workshop",
         "itemId": "mechanical_components",
         "workshopStation": "gunsmith",
-        "workshopLevel": "2"
+        "workshopLevel": "2",
+        "completed": false
       }
     ]
   },
@@ -2138,27 +2235,31 @@
         "type": "workshop",
         "itemId": "metal_parts",
         "workshopStation": "gunsmith",
-        "workshopLevel": "1"
+        "workshopLevel": "1",
+        "completed": false
       },
       {
         "type": "workshop",
         "itemId": "metal_parts",
         "workshopStation": "refiner",
-        "workshopLevel": "1"
+        "workshopLevel": "1",
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "metal_parts",
         "projectId": "expedition_project",
         "projectName": "Expedition Project (Season 2)",
-        "projectPhase": 1
+        "projectPhase": 1,
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "metal_parts",
         "projectId": "expedition_project_s1",
         "projectName": "Expedition Project (Season 1)",
-        "projectPhase": 1
+        "projectPhase": 1,
+        "completed": false
       }
     ]
   },
@@ -2309,7 +2410,8 @@
         "type": "quest",
         "itemId": "moisture_meter",
         "questId": "ss10q",
-        "questName": "Unexpected Initiative"
+        "questName": "Unexpected Initiative",
+        "completed": false
       }
     ]
   },
@@ -2320,7 +2422,8 @@
         "type": "workshop",
         "itemId": "motor",
         "workshopStation": "refiner",
-        "workshopLevel": "3"
+        "workshopLevel": "3",
+        "completed": false
       }
     ]
   },
@@ -2331,14 +2434,16 @@
         "type": "workshop",
         "itemId": "mushroom",
         "workshopStation": "scrappy",
-        "workshopLevel": "5"
+        "workshopLevel": "5",
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "mushroom",
         "projectId": "flickering_flames_project",
         "projectName": "Flickering Flames",
-        "projectPhase": 5
+        "projectPhase": 5,
+        "completed": false
       }
     ]
   },
@@ -2350,7 +2455,8 @@
         "itemId": "music_album",
         "projectId": "flickering_flames_project",
         "projectName": "Flickering Flames",
-        "projectPhase": 5
+        "projectPhase": 5,
+        "completed": false
       }
     ]
   },
@@ -2388,7 +2494,8 @@
         "type": "quest",
         "itemId": "nutrient_meter",
         "questId": "ss10q",
-        "questName": "Unexpected Initiative"
+        "questName": "Unexpected Initiative",
+        "completed": false
       }
     ]
   },
@@ -2426,7 +2533,8 @@
         "type": "quest",
         "itemId": "old_world_books",
         "questId": "12_cold_storage",
-        "questName": "Cold Storage"
+        "questName": "Cold Storage",
+        "completed": false
       }
     ]
   },
@@ -2437,7 +2545,8 @@
         "type": "workshop",
         "itemId": "olives",
         "workshopStation": "scrappy",
-        "workshopLevel": "4"
+        "workshopLevel": "4",
+        "completed": false
       }
     ]
   },
@@ -2448,27 +2557,31 @@
         "type": "workshop",
         "itemId": "plastic_parts",
         "workshopStation": "gear_bench",
-        "workshopLevel": "1"
+        "workshopLevel": "1",
+        "completed": false
       },
       {
         "type": "workshop",
         "itemId": "plastic_parts",
         "workshopStation": "utility_station",
-        "workshopLevel": "1"
+        "workshopLevel": "1",
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "plastic_parts",
         "projectId": "expedition_project",
         "projectName": "Expedition Project (Season 2)",
-        "projectPhase": 1
+        "projectPhase": 1,
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "plastic_parts",
         "projectId": "flickering_flames_project",
         "projectName": "Flickering Flames",
-        "projectPhase": 1
+        "projectPhase": 1,
+        "completed": false
       }
     ]
   },
@@ -2506,14 +2619,16 @@
         "type": "workshop",
         "itemId": "pop_trigger",
         "workshopStation": "explosives_station",
-        "workshopLevel": "2"
+        "workshopLevel": "2",
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "pop_trigger",
         "projectId": "trophy_display_project",
         "projectName": "Trophy Display",
-        "projectPhase": 1
+        "projectPhase": 1,
+        "completed": false
       }
     ]
   },
@@ -2622,7 +2737,8 @@
         "type": "workshop",
         "itemId": "power_cable",
         "workshopStation": "gear_bench",
-        "workshopLevel": "2"
+        "workshopLevel": "2",
+        "completed": false
       }
     ]
   },
@@ -2633,7 +2749,8 @@
         "type": "quest",
         "itemId": "power_rod",
         "questId": "ss10x15",
-        "questName": "Tribute to Toledo"
+        "questName": "Tribute to Toledo",
+        "completed": false
       }
     ]
   },
@@ -2644,7 +2761,8 @@
         "type": "workshop",
         "itemId": "prickly_pear",
         "workshopStation": "scrappy",
-        "workshopLevel": "4"
+        "workshopLevel": "4",
+        "completed": false
       }
     ]
   },
@@ -2732,7 +2850,8 @@
         "itemId": "queen_reactor",
         "projectId": "trophy_display_project",
         "projectName": "Trophy Display",
-        "projectPhase": 4
+        "projectPhase": 4,
+        "completed": false
       }
     ]
   },
@@ -2923,20 +3042,23 @@
         "type": "quest",
         "itemId": "rocketeer_driver",
         "questId": "ss10v",
-        "questName": "Out of the Shadows"
+        "questName": "Out of the Shadows",
+        "completed": false
       },
       {
         "type": "workshop",
         "itemId": "rocketeer_driver",
         "workshopStation": "explosives_station",
-        "workshopLevel": "3"
+        "workshopLevel": "3",
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "rocketeer_driver",
         "projectId": "trophy_display_project",
         "projectName": "Trophy Display",
-        "projectPhase": 4
+        "projectPhase": 4,
+        "completed": false
       }
     ]
   },
@@ -2974,7 +3096,8 @@
         "type": "quest",
         "itemId": "rotary_encoder",
         "questId": "with_a_view",
-        "questName": "With A View"
+        "questName": "With A View",
+        "completed": false
       }
     ]
   },
@@ -3012,14 +3135,16 @@
         "type": "workshop",
         "itemId": "rubber_parts",
         "workshopStation": "gunsmith",
-        "workshopLevel": "1"
+        "workshopLevel": "1",
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "rubber_parts",
         "projectId": "expedition_project_s1",
         "projectName": "Expedition Project (Season 1)",
-        "projectPhase": 1
+        "projectPhase": 1,
+        "completed": false
       }
     ]
   },
@@ -3301,7 +3426,8 @@
         "itemId": "rusted_bolts",
         "projectId": "trophy_display_project",
         "projectName": "Trophy Display",
-        "projectPhase": 1
+        "projectPhase": 1,
+        "completed": false
       }
     ]
   },
@@ -3312,7 +3438,8 @@
         "type": "workshop",
         "itemId": "rusted_gear",
         "workshopStation": "gunsmith",
-        "workshopLevel": "3"
+        "workshopLevel": "3",
+        "completed": false
       }
     ]
   },
@@ -3323,7 +3450,8 @@
         "type": "workshop",
         "itemId": "rusted_shut_medical_kit",
         "workshopStation": "medical_lab",
-        "workshopLevel": "3"
+        "workshopLevel": "3",
+        "completed": false
       }
     ]
   },
@@ -3334,7 +3462,8 @@
         "type": "workshop",
         "itemId": "rusted_tools",
         "workshopStation": "gunsmith",
-        "workshopLevel": "2"
+        "workshopLevel": "2",
+        "completed": false
       }
     ]
   },
@@ -3400,7 +3529,8 @@
         "itemId": "sensors",
         "projectId": "expedition_project_s1",
         "projectName": "Expedition Project (Season 1)",
-        "projectPhase": 3
+        "projectPhase": 3,
+        "completed": false
       }
     ]
   },
@@ -3411,7 +3541,8 @@
         "type": "workshop",
         "itemId": "sentinel_firing_core",
         "workshopStation": "gunsmith",
-        "workshopLevel": "3"
+        "workshopLevel": "3",
+        "completed": false
       }
     ]
   },
@@ -3423,14 +3554,16 @@
         "itemId": "shredder_gyro",
         "projectId": "expedition_project",
         "projectName": "Expedition Project (Season 2)",
-        "projectPhase": 3
+        "projectPhase": 3,
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "shredder_gyro",
         "projectId": "trophy_display_project",
         "projectName": "Trophy Display",
-        "projectPhase": 3
+        "projectPhase": 3,
+        "completed": false
       }
     ]
   },
@@ -3495,13 +3628,15 @@
         "type": "quest",
         "itemId": "snitch_scanner",
         "questId": "ss9",
-        "questName": "The Trifecta"
+        "questName": "The Trifecta",
+        "completed": false
       },
       {
         "type": "workshop",
         "itemId": "snitch_scanner",
         "workshopStation": "utility_station",
-        "workshopLevel": "2"
+        "workshopLevel": "2",
+        "completed": false
       }
     ]
   },
@@ -3661,7 +3796,8 @@
         "itemId": "spotter_relay",
         "projectId": "trophy_display_project",
         "projectName": "Trophy Display",
-        "projectPhase": 2
+        "projectPhase": 2,
+        "completed": false
       }
     ]
   },
@@ -3715,14 +3851,16 @@
         "itemId": "steel_spring",
         "projectId": "expedition_project",
         "projectName": "Expedition Project (Season 2)",
-        "projectPhase": 1
+        "projectPhase": 1,
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "steel_spring",
         "projectId": "expedition_project_s1",
         "projectName": "Expedition Project (Season 1)",
-        "projectPhase": 1
+        "projectPhase": 1,
+        "completed": false
       }
     ]
   },
@@ -3885,20 +4023,23 @@
         "type": "quest",
         "itemId": "surveyor_vault",
         "questId": "ss10d",
-        "questName": "Mixed Signals"
+        "questName": "Mixed Signals",
+        "completed": false
       },
       {
         "type": "workshop",
         "itemId": "surveyor_vault",
         "workshopStation": "medical_lab",
-        "workshopLevel": "3"
+        "workshopLevel": "3",
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "surveyor_vault",
         "projectId": "trophy_display_project",
         "projectName": "Trophy Display",
-        "projectPhase": 1
+        "projectPhase": 1,
+        "completed": false
       }
     ]
   },
@@ -3909,7 +4050,8 @@
         "type": "workshop",
         "itemId": "synthesized_fuel",
         "workshopStation": "explosives_station",
-        "workshopLevel": "2"
+        "workshopLevel": "2",
+        "completed": false
       }
     ]
   },
@@ -3920,7 +4062,8 @@
         "type": "quest",
         "itemId": "syringe",
         "questId": "ss10c",
-        "questName": "Doctor's Orders"
+        "questName": "Doctor's Orders",
+        "completed": false
       }
     ]
   },
@@ -4076,14 +4219,16 @@
         "type": "workshop",
         "itemId": "tick_pod",
         "workshopStation": "medical_lab",
-        "workshopLevel": "2"
+        "workshopLevel": "2",
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "tick_pod",
         "projectId": "trophy_display_project",
         "projectName": "Trophy Display",
-        "projectPhase": 1
+        "projectPhase": 1,
+        "completed": false
       }
     ]
   },
@@ -4094,7 +4239,8 @@
         "type": "workshop",
         "itemId": "toaster",
         "workshopStation": "refiner",
-        "workshopLevel": "2"
+        "workshopLevel": "2",
+        "completed": false
       }
     ]
   },
@@ -4201,7 +4347,8 @@
         "type": "workshop",
         "itemId": "very_comfortable_pillow",
         "workshopStation": "scrappy",
-        "workshopLevel": "5"
+        "workshopLevel": "5",
+        "completed": false
       }
     ]
   },
@@ -4261,20 +4408,23 @@
         "type": "quest",
         "itemId": "wasp_driver",
         "questId": "ss9",
-        "questName": "The Trifecta"
+        "questName": "The Trifecta",
+        "completed": false
       },
       {
         "type": "workshop",
         "itemId": "wasp_driver",
         "workshopStation": "gunsmith",
-        "workshopLevel": "2"
+        "workshopLevel": "2",
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "wasp_driver",
         "projectId": "trophy_display_project",
         "projectName": "Trophy Display",
-        "projectPhase": 2
+        "projectPhase": 2,
+        "completed": false
       }
     ]
   },
@@ -4286,7 +4436,8 @@
         "itemId": "water_filter",
         "projectId": "flickering_flames_project",
         "projectName": "Flickering Flames",
-        "projectPhase": 4
+        "projectPhase": 4,
+        "completed": false
       }
     ]
   },
@@ -4324,39 +4475,45 @@
         "type": "quest",
         "itemId": "wires",
         "questId": "ss10y",
-        "questName": "After Rain Comes"
+        "questName": "After Rain Comes",
+        "completed": false
       },
       {
         "type": "quest",
         "itemId": "wires",
         "questId": "ss10m",
-        "questName": "Eyes on the Prize"
+        "questName": "Eyes on the Prize",
+        "completed": false
       },
       {
         "type": "quest",
         "itemId": "wires",
         "questId": "ss10x11",
-        "questName": "Flickering Threat"
+        "questName": "Flickering Threat",
+        "completed": false
       },
       {
         "type": "quest",
         "itemId": "wires",
         "questId": "ss3",
-        "questName": "Trash Into Treasure"
+        "questName": "Trash Into Treasure",
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "wires",
         "projectId": "expedition_project",
         "projectName": "Expedition Project (Season 2)",
-        "projectPhase": 2
+        "projectPhase": 2,
+        "completed": false
       },
       {
         "type": "project",
         "itemId": "wires",
         "projectId": "expedition_project_s1",
         "projectName": "Expedition Project (Season 1)",
-        "projectPhase": 2
+        "projectPhase": 2,
+        "completed": false
       }
     ]
   }
