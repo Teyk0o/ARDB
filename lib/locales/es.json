@@ -256,5 +256,18 @@
   "monthAgo": "mes",
   "monthsAgo": "meses",
   "yearAgo": "año",
-  "yearsAgo": "años"
+  "yearsAgo": "años",
+  "myProgress": "Progreso",
+  "progressDescription": "Rastrea tus misiones, proyectos y mejoras de taller completados. Tus selecciones ayudan a filtrar las recomendaciones de objetos para mostrar solo lo relevante para tu progreso actual.",
+  "quests": "Misiones",
+  "workshops": "Talleres",
+  "selectAll": "Seleccionar todo",
+  "deselectAll": "Deseleccionar todo",
+  "export": "Exportar",
+  "import": "Importar",
+  "completions": "Completados",
+  "active": "activos",
+  "noResults": "No se encontraron resultados",
+  "cloudSyncEnabled": "Sincronización en la nube activada - Tu progreso se sincroniza en todos tus dispositivos",
+  "cloudSyncDisabled": "Inicia sesión con Discord para sincronizar tu progreso en todos tus dispositivos"
 }

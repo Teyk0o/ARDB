@@ -28,6 +28,8 @@
 - **Detailed Statistics** - Complete stat blocks for every item
 - **Crafting Recipes** - Full crafting and recycling information
 - **Recycling System** - Discover which items can be recycled to obtain others
+- **Progress Tracking** - Track completed quests, projects, and workshop upgrades to get personalized item recommendations
+- **Smart Recommendations** - Dynamic "keep/recycle/sell" tags that adapt based on your progress
 - **Multilingual Support** - Available in 18 languages (EN, FR, DE, ES, PT, PL, NO, DA, IT, RU, JA, ZH-TW, UK, ZH-CN, KR, TR, HR, SR)
 - **Responsive Design** - Optimized for desktop, tablet, and mobile
 - **Authentic Design** - Follows Arc Raiders brand guidelines

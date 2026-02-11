@@ -13,6 +13,8 @@ import { Language, getTranslation, getItemTypeLabel, getRarityLabel, getTagLabel
 import { generateSlug } from '@/lib/slugUtils';
 import { useItems } from '@/lib/useItems';
 import { matchesSearchMultiLang } from '@/lib/searchUtils';
+import { useFilteredTags, applyFilteredTags } from '@/hooks/useFilteredTags';
+import { useCompletions } from '@/contexts/CompletionsContext';
 
 interface ItemsPageProps {
   initialFilters?: { [key: string]: string | string[] | undefined };
@@ -39,7 +41,17 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
     }
     return 'en';
   });
-  const { items: displayItems, loading: itemsLoading } = useItems(language);
+  const { items: rawItems, loading: itemsLoading } = useItems(language);
+
+  // Apply filtered tags based on user completions
+  const { filteredTags, isLoading: tagsLoading } = useFilteredTags();
+  const completionsContext = useCompletions();
+  const completionsStats = completionsContext?.getStats() || { total: 0, quests: 0, projects: 0, workshops: 0 };
+
+  // Apply filtered tags to items
+  const displayItems = useMemo(() => {
+    return applyFilteredTags(rawItems, filteredTags);
+  }, [rawItems, filteredTags]);
 
   const getInitialTypes = () => {
     if (initialFilters.type) {
@@ -259,6 +271,16 @@ export default function ItemsPage({ initialFilters = {} }: ItemsPageProps) {
               <span className="font-bold" style={{ color: '#f1aa1c' }}>{filteredItems.length}</span>{' '}
               <span className="text-white/70">{t.items}</span>
             </div>
+
+            {/* Completions Indicator */}
+            {completionsStats.total > 0 && (
+              <Link href="/progress" className="transition-opacity hover:opacity-80">
+                <span className="text-white/50">{t.completions || 'Completions'}:</span>{' '}
+                <span className="font-bold" style={{ color: '#22c55e' }}>{completionsStats.total}</span>{' '}
+                <span className="text-white/70">{t.active || 'active'}</span>
+              </Link>
+            )}
+
             <div>
               <span className="text-white/50">{t.total}</span>{' '}
               <span className="font-bold" style={{ color: '#f1aa1c' }}>{displayItems.length}</span>{' '}

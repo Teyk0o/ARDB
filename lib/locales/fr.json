@@ -256,5 +256,18 @@
   "monthAgo": "mois",
   "monthsAgo": "mois",
   "yearAgo": "an",
-  "yearsAgo": "ans"
+  "yearsAgo": "ans",
+  "myProgress": "Progression",
+  "progressDescription": "Suivez vos quêtes, projets et améliorations d'atelier complétés. Vos sélections aident à filtrer les recommandations d'objets pour n'afficher que ce qui est pertinent pour votre progression actuelle.",
+  "quests": "Quêtes",
+  "workshops": "Ateliers",
+  "selectAll": "Tout sélectionner",
+  "deselectAll": "Tout désélectionner",
+  "export": "Exporter",
+  "import": "Importer",
+  "completions": "Complétions",
+  "active": "actives",
+  "noResults": "Aucun résultat trouvé",
+  "cloudSyncEnabled": "Synchronisation cloud activée - Votre progression se synchronise sur tous vos appareils",
+  "cloudSyncDisabled": "Connectez-vous avec Discord pour synchroniser votre progression sur tous vos appareils"
 }

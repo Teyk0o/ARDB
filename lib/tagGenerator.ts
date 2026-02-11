@@ -7,6 +7,12 @@ import type { ItemTag, Quest, WorkshopUpgrades, Project, DependencyNode } from '
  * the entire crafting dependency chain recursively.
  */
 
+export interface CompletionsFilter {
+  quests?: Set<string>;
+  projects?: Set<string>;
+  workshops?: Set<string>;
+}
+
 export class TagGenerator {
   private quests: Quest[];
   private workshopUpgrades: WorkshopUpgrades;
@@ -14,14 +20,22 @@ export class TagGenerator {
   private items: Map<string, any>;
   private utilityCache: Map<string, boolean>;
   private recyclableCache: Map<string, boolean>;
+  private completions?: CompletionsFilter;
 
-  constructor(quests: Quest[], workshopUpgrades: WorkshopUpgrades, projects: Project[], items: any[]) {
+  constructor(
+    quests: Quest[],
+    workshopUpgrades: WorkshopUpgrades,
+    projects: Project[],
+    items: any[],
+    completions?: CompletionsFilter
+  ) {
     this.quests = quests;
     this.workshopUpgrades = workshopUpgrades;
     this.projects = projects;
     this.items = new Map(items.map(item => [item.id, item]));
     this.utilityCache = new Map();
     this.recyclableCache = new Map();
+    this.completions = completions;
   }
 
   /**
@@ -160,9 +174,15 @@ export class TagGenerator {
 
   /**
    * Check if item is directly required for any quest
+   * Filters out completed quests if completions are provided
    */
   private isRequiredForQuest(itemId: string): boolean {
     return this.quests.some(quest => {
+      // Skip completed quests
+      if (this.completions?.quests?.has(quest.id)) {
+        return false;
+      }
+
       const requiredItems = quest.requiredItemIds || [];
       return requiredItems.some(req => req.itemId === itemId);
     });
@@ -170,10 +190,17 @@ export class TagGenerator {
 
   /**
    * Check if item is directly required for any workshop upgrade
+   * Filters out completed workshop upgrades if completions are provided
    */
   private isRequiredForWorkshop(itemId: string): boolean {
-    for (const station of Object.values(this.workshopUpgrades)) {
-      for (const levelRequirements of Object.values(station)) {
+    for (const [stationId, station] of Object.entries(this.workshopUpgrades)) {
+      for (const [level, levelRequirements] of Object.entries(station)) {
+        // Skip completed workshop upgrades
+        const workshopKey = `${stationId}:${level}`;
+        if (this.completions?.workshops?.has(workshopKey)) {
+          continue;
+        }
+
         if (levelRequirements.some(req => req.itemId === itemId)) {
           return true;
         }
@@ -184,9 +211,15 @@ export class TagGenerator {
 
   /**
    * Check if item is directly required for any project phase
+   * Filters out completed projects if completions are provided
    */
   private isRequiredForProject(itemId: string): boolean {
     return this.projects.some(project => {
+      // Skip completed projects
+      if (this.completions?.projects?.has(project.id)) {
+        return false;
+      }
+
       return project.phases.some(phase => {
         const requiredItems = phase.requirementItemIds || [];
         return requiredItems.some(req => req.itemId === itemId);

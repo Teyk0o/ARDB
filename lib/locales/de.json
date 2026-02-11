@@ -256,5 +256,18 @@
   "monthAgo": "Monat",
   "monthsAgo": "Monate",
   "yearAgo": "Jahr",
-  "yearsAgo": "Jahre"
+  "yearsAgo": "Jahre",
+  "myProgress": "Fortschritt",
+  "progressDescription": "Verfolgen Sie Ihre abgeschlossenen Quests, Projekte und Werkstatt-Upgrades. Ihre Auswahl hilft dabei, Gegenstandsempfehlungen zu filtern und nur das anzuzeigen, was für Ihren aktuellen Fortschritt relevant ist.",
+  "quests": "Quests",
+  "workshops": "Werkstätten",
+  "selectAll": "Alle auswählen",
+  "deselectAll": "Alle abwählen",
+  "export": "Exportieren",
+  "import": "Importieren",
+  "completions": "Abschlüsse",
+  "active": "aktiv",
+  "noResults": "Keine Ergebnisse gefunden",
+  "cloudSyncEnabled": "Cloud-Synchronisation aktiviert - Ihr Fortschritt wird auf allen Geräten synchronisiert",
+  "cloudSyncDisabled": "Melden Sie sich mit Discord an, um Ihren Fortschritt auf allen Geräten zu synchronisieren"
 }

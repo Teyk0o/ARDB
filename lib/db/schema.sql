@@ -80,6 +80,19 @@ CREATE TABLE IF NOT EXISTS sync_conflicts (
   created_at TIMESTAMP DEFAULT NOW()
 );
 
+-- Table: user_completions
+-- Tracks completed quests, projects, and workshop upgrades for users
+CREATE TABLE IF NOT EXISTS user_completions (
+  id SERIAL PRIMARY KEY,
+  user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  completion_type VARCHAR(20) NOT NULL CHECK (completion_type IN ('quest', 'project', 'workshop')),
+  completion_id VARCHAR(255) NOT NULL,
+  metadata JSONB DEFAULT '{}',
+  completed_at TIMESTAMP DEFAULT NOW(),
+  created_at TIMESTAMP DEFAULT NOW(),
+  UNIQUE(user_id, completion_type, completion_id)
+);
+
 -- Indexes for performance optimization
 CREATE INDEX IF NOT EXISTS idx_item_edits_status ON item_edits(status);
 CREATE INDEX IF NOT EXISTS idx_item_edits_item_id ON item_edits(item_id);
@@ -92,6 +105,9 @@ CREATE INDEX IF NOT EXISTS idx_item_history_item_id ON item_history(item_id);
 CREATE INDEX IF NOT EXISTS idx_item_history_created_at ON item_history(created_at DESC);
 CREATE INDEX IF NOT EXISTS idx_edit_comments_edit_id ON edit_comments(edit_id);
 CREATE INDEX IF NOT EXISTS idx_users_discord_id ON users(discord_id);
+CREATE INDEX IF NOT EXISTS idx_user_completions_user_id ON user_completions(user_id);
+CREATE INDEX IF NOT EXISTS idx_user_completions_type ON user_completions(completion_type);
+CREATE INDEX IF NOT EXISTS idx_user_completions_lookup ON user_completions(user_id, completion_type);
 
 -- Function to automatically update updated_at timestamp
 CREATE OR REPLACE FUNCTION update_updated_at_column()

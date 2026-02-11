@@ -256,5 +256,18 @@
   "monthAgo": "month ago",
   "monthsAgo": "months ago",
   "yearAgo": "year ago",
-  "yearsAgo": "years ago"
+  "yearsAgo": "years ago",
+  "myProgress": "Progress",
+  "progressDescription": "Track your completed quests, projects, and workshop upgrades. Your selections help filter item recommendations to show only what's relevant for your current progress.",
+  "quests": "Quests",
+  "workshops": "Workshops",
+  "selectAll": "Select All",
+  "deselectAll": "Deselect All",
+  "export": "Export",
+  "import": "Import",
+  "completions": "Completions",
+  "active": "active",
+  "noResults": "No results found",
+  "cloudSyncEnabled": "Cloud sync enabled - Your progress syncs across devices",
+  "cloudSyncDisabled": "Sign in with Discord to sync your progress across devices"
 }
