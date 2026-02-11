@@ -771,8 +771,8 @@ function ProjectCompletionItem({
   language: Language;
   isExpanded: boolean;
   onToggleExpand: () => void;
-  isCompleted: (type: string, id: string) => boolean;
-  toggleCompletion: (type: string, id: string) => void;
+  isCompleted: (type: 'quests' | 'projects' | 'workshops', id: string) => boolean;
+  toggleCompletion: (type: 'quests' | 'projects' | 'workshops', id: string) => Promise<void>;
 }) {
   const t = getTranslation(language);
   const color = '#3b82f6';
