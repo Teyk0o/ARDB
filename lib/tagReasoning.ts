@@ -1,5 +1,11 @@
 import type { Quest, WorkshopUpgrades, Project } from '../types/tags';
 
+export interface CompletionsFilter {
+  quests?: Set<string>;
+  projects?: Set<string>;
+  workshops?: Set<string>;
+}
+
 export interface TagReason {
   type: 'quest' | 'workshop' | 'crafting' | 'recycle' | 'project';
   itemId: string;
@@ -15,6 +21,8 @@ export interface TagReason {
   projectId?: string;
   projectName?: string;
   projectPhase?: number;
+  // Completion status
+  completed?: boolean;
   // Full dependency chain
   chain?: DependencyChainStep[];
 }
@@ -45,19 +53,22 @@ export class TagReasonAnalyzer {
   private projects: Project[];
   private items: Map<string, any>;
   private itemTags: Record<string, 'keep' | 'sell' | 'recycle'>;
+  private completions?: CompletionsFilter;
 
   constructor(
     quests: Quest[],
     workshopUpgrades: WorkshopUpgrades,
     projects: Project[],
     items: any[],
-    itemTags: Record<string, 'keep' | 'sell' | 'recycle'>
+    itemTags: Record<string, 'keep' | 'sell' | 'recycle'>,
+    completions?: CompletionsFilter
   ) {
     this.quests = quests;
     this.workshopUpgrades = workshopUpgrades;
     this.projects = projects;
     this.items = new Map(items.map(item => [item.id, item]));
     this.itemTags = itemTags;
+    this.completions = completions;
   }
 
   /**
@@ -74,11 +85,13 @@ export class TagReasonAnalyzer {
       this.quests.forEach(quest => {
         const requiredItems = quest.requiredItemIds || [];
         if (requiredItems.some(req => req.itemId === itemId)) {
+          const isCompleted = this.completions?.quests?.has(quest.id) || false;
           reasons.push({
             type: 'quest',
             itemId,
             questId: quest.id,
-            questName: quest.name.en
+            questName: quest.name.en,
+            completed: isCompleted
           });
         }
       });
@@ -87,11 +100,14 @@ export class TagReasonAnalyzer {
       Object.entries(this.workshopUpgrades).forEach(([stationId, levels]) => {
         Object.entries(levels).forEach(([levelNum, requirements]) => {
           if (requirements.some(req => req.itemId === itemId)) {
+            const workshopKey = `${stationId}:${levelNum}`;
+            const isCompleted = this.completions?.workshops?.has(workshopKey) || false;
             reasons.push({
               type: 'workshop',
               itemId,
               workshopStation: stationId,
-              workshopLevel: levelNum
+              workshopLevel: levelNum,
+              completed: isCompleted
             });
           }
         });
@@ -102,12 +118,14 @@ export class TagReasonAnalyzer {
         project.phases.forEach(phase => {
           const requiredItems = phase.requirementItemIds || [];
           if (requiredItems.some(req => req.itemId === itemId)) {
+            const isCompleted = this.completions?.projects?.has(project.id) || false;
             reasons.push({
               type: 'project',
               itemId,
               projectId: project.id,
               projectName: project.name.en,
-              projectPhase: phase.phase
+              projectPhase: phase.phase,
+              completed: isCompleted
             });
           }
         });
