@@ -256,5 +256,18 @@
   "monthAgo": "个月前",
   "monthsAgo": "个月前",
   "yearAgo": "年前",
-  "yearsAgo": "年前"
+  "yearsAgo": "年前",
+  "myProgress": "进度",
+  "progressDescription": "追踪已完成的任务、项目和工坊升级。你的选择有助于过滤物品推荐，只显示与当前进度相关的内容。",
+  "quests": "任务",
+  "workshops": "工坊",
+  "selectAll": "全选",
+  "deselectAll": "取消全选",
+  "export": "导出",
+  "import": "导入",
+  "completions": "完成",
+  "active": "活跃",
+  "noResults": "未找到结果",
+  "cloudSyncEnabled": "云同步已启用 - 您的进度会在所有设备上同步",
+  "cloudSyncDisabled": "使用 Discord 登录以在所有设备上同步您的进度"
 }
