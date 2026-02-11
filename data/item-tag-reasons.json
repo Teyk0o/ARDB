@@ -2302,6 +2302,17 @@
       }
     ]
   },
+  "moisture_meter": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "moisture_meter",
+        "questId": "ss10q",
+        "questName": "Unexpected Initiative"
+      }
+    ]
+  },
   "motor": {
     "tag": "keep",
     "reasons": [
@@ -2367,6 +2378,17 @@
             "workshopLevel": "1"
           }
         ]
+      }
+    ]
+  },
+  "nutrient_meter": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "nutrient_meter",
+        "questId": "ss10q",
+        "questName": "Unexpected Initiative"
       }
     ]
   },
