@@ -37,7 +37,17 @@ export function useFilteredTags() {
         questsArray = Object.values(questsData);
       }
 
-      const projectsArray = Array.isArray(projectsData) ? projectsData : [];
+      // Transform projects data to match Project type (map category → name)
+      const projectsArray = (Array.isArray(projectsData) ? projectsData : []).map((project: any) => ({
+        ...project,
+        phases: project.phases?.map((phase: any) => ({
+          ...phase,
+          requirementCategories: phase.requirementCategories?.map((req: any) => ({
+            name: req.category || req.name,
+            valueRequired: req.valueRequired,
+          })),
+        })),
+      }));
 
       // Prepare completions filter
       const completions: CompletionsFilter = {
