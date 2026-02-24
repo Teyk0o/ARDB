@@ -142,6 +142,13 @@
     "tag": "keep",
     "reasons": [
       {
+        "type": "quest",
+        "itemId": "arc_alloy",
+        "questId": "ss2",
+        "questName": "Clearer Skies",
+        "completed": false
+      },
+      {
         "type": "workshop",
         "itemId": "arc_alloy",
         "workshopStation": "medical_lab",
@@ -356,6 +363,13 @@
       {
         "type": "quest",
         "itemId": "battery",
+        "questId": "ss10y",
+        "questName": "After Rain Comes",
+        "completed": false
+      },
+      {
+        "type": "quest",
+        "itemId": "battery",
         "questId": "ss3",
         "questName": "Trash Into Treasure",
         "completed": false
@@ -379,29 +393,14 @@
     ]
   },
   "bicycle_pump": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "quest",
         "itemId": "bicycle_pump",
-        "recycleComponentId": "metal_parts",
-        "recycleComponentName": "Metal Parts",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "bicycle_pump",
-            "itemName": "Bicycle Pump",
-            "targetId": "metal_parts",
-            "targetName": "Metal Parts"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "metal_parts",
-            "itemName": "Metal Parts",
-            "workshopStation": "gunsmith",
-            "workshopLevel": "1"
-          }
-        ]
+        "questId": "the_league",
+        "questName": "The League",
+        "completed": false
       }
     ]
   },
@@ -517,6 +516,13 @@
     "tag": "keep",
     "reasons": [
       {
+        "type": "quest",
+        "itemId": "bombardier_cell",
+        "questId": "bombing_run",
+        "questName": "Bombing Run",
+        "completed": false
+      },
+      {
         "type": "workshop",
         "itemId": "bombardier_cell",
         "workshopStation": "refiner",
@@ -553,8 +559,8 @@
             "action": "use_in_quest",
             "itemId": "battery",
             "itemName": "Battery",
-            "questId": "ss3",
-            "questName": "Trash Into Treasure"
+            "questId": "ss10y",
+            "questName": "After Rain Comes"
           }
         ]
       },
@@ -617,8 +623,8 @@
             "action": "use_in_quest",
             "itemId": "wires",
             "itemName": "Wires",
-            "questId": "ss3",
-            "questName": "Trash Into Treasure"
+            "questId": "ss10y",
+            "questName": "After Rain Comes"
           }
         ]
       }
@@ -644,8 +650,8 @@
             "action": "use_in_quest",
             "itemId": "battery",
             "itemName": "Battery",
-            "questId": "ss3",
-            "questName": "Trash Into Treasure"
+            "questId": "ss10y",
+            "questName": "After Rain Comes"
           }
         ]
       },
@@ -666,8 +672,8 @@
             "action": "use_in_quest",
             "itemId": "wires",
             "itemName": "Wires",
-            "questId": "ss3",
-            "questName": "Trash Into Treasure"
+            "questId": "ss10y",
+            "questName": "After Rain Comes"
           }
         ]
       }
@@ -690,11 +696,11 @@
             "targetName": "ARC Alloy"
           },
           {
-            "action": "use_in_workshop",
+            "action": "use_in_quest",
             "itemId": "arc_alloy",
             "itemName": "ARC Alloy",
-            "workshopStation": "medical_lab",
-            "workshopLevel": "1"
+            "questId": "ss2",
+            "questName": "Clearer Skies"
           }
         ]
       }
@@ -820,6 +826,18 @@
         "itemId": "cat_bed",
         "workshopStation": "scrappy",
         "workshopLevel": "4",
+        "completed": false
+      }
+    ]
+  },
+  "celeste_journal": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "celeste_journal",
+        "questId": "ss10t",
+        "questName": "Celeste’s Journals",
         "completed": false
       }
     ]
@@ -970,11 +988,11 @@
             "targetName": "ARC Alloy"
           },
           {
-            "action": "use_in_workshop",
+            "action": "use_in_quest",
             "itemId": "arc_alloy",
             "itemName": "ARC Alloy",
-            "workshopStation": "medical_lab",
-            "workshopLevel": "1"
+            "questId": "ss2",
+            "questName": "Clearer Skies"
           }
         ]
       }
@@ -997,11 +1015,11 @@
             "targetName": "ARC Alloy"
           },
           {
-            "action": "use_in_workshop",
+            "action": "use_in_quest",
             "itemId": "arc_alloy",
             "itemName": "ARC Alloy",
-            "workshopStation": "medical_lab",
-            "workshopLevel": "1"
+            "questId": "ss2",
+            "questName": "Clearer Skies"
           }
         ]
       },
@@ -1046,11 +1064,11 @@
             "targetName": "ARC Alloy"
           },
           {
-            "action": "use_in_workshop",
+            "action": "use_in_quest",
             "itemId": "arc_alloy",
             "itemName": "ARC Alloy",
-            "workshopStation": "medical_lab",
-            "workshopLevel": "1"
+            "questId": "ss2",
+            "questName": "Clearer Skies"
           }
         ]
       },
@@ -1107,11 +1125,11 @@
             "targetName": "ARC Alloy"
           },
           {
-            "action": "use_in_workshop",
+            "action": "use_in_quest",
             "itemId": "arc_alloy",
             "itemName": "ARC Alloy",
-            "workshopStation": "medical_lab",
-            "workshopLevel": "1"
+            "questId": "ss2",
+            "questName": "Clearer Skies"
           }
         ]
       }
@@ -1134,11 +1152,11 @@
             "targetName": "ARC Alloy"
           },
           {
-            "action": "use_in_workshop",
+            "action": "use_in_quest",
             "itemId": "arc_alloy",
             "itemName": "ARC Alloy",
-            "workshopStation": "medical_lab",
-            "workshopLevel": "1"
+            "questId": "ss2",
+            "questName": "Clearer Skies"
           }
         ]
       }
@@ -1161,11 +1179,11 @@
             "targetName": "ARC Alloy"
           },
           {
-            "action": "use_in_workshop",
+            "action": "use_in_quest",
             "itemId": "arc_alloy",
             "itemName": "ARC Alloy",
-            "workshopStation": "medical_lab",
-            "workshopLevel": "1"
+            "questId": "ss2",
+            "questName": "Clearer Skies"
           }
         ]
       },
@@ -1210,11 +1228,11 @@
             "targetName": "ARC Alloy"
           },
           {
-            "action": "use_in_workshop",
+            "action": "use_in_quest",
             "itemId": "arc_alloy",
             "itemName": "ARC Alloy",
-            "workshopStation": "medical_lab",
-            "workshopLevel": "1"
+            "questId": "ss2",
+            "questName": "Clearer Skies"
           }
         ]
       },
@@ -1243,51 +1261,14 @@
     ]
   },
   "deflated_football": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "quest",
         "itemId": "deflated_football",
-        "recycleComponentId": "fabric",
-        "recycleComponentName": "Fabric",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "deflated_football",
-            "itemName": "Deflated Football",
-            "targetId": "fabric",
-            "targetName": "Fabric"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "fabric",
-            "itemName": "Fabric",
-            "workshopStation": "gear_bench",
-            "workshopLevel": "1"
-          }
-        ]
-      },
-      {
-        "type": "recycle",
-        "itemId": "deflated_football",
-        "recycleComponentId": "rubber_parts",
-        "recycleComponentName": "Rubber Parts",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "deflated_football",
-            "itemName": "Deflated Football",
-            "targetId": "rubber_parts",
-            "targetName": "Rubber Parts"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "rubber_parts",
-            "itemName": "Rubber Parts",
-            "workshopStation": "gunsmith",
-            "workshopLevel": "1"
-          }
-        ]
+        "questId": "the_league",
+        "questName": "The League",
+        "completed": false
       }
     ]
   },
@@ -1488,6 +1469,30 @@
       }
     ]
   },
+  "espresso_machine_parts": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "espresso_machine_parts",
+        "questId": "ss10x13",
+        "questName": "Espresso",
+        "completed": false
+      }
+    ]
+  },
+  "esr_analyzer": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "esr_analyzer",
+        "questId": "ss10g",
+        "questName": "A Reveal in Ruins",
+        "completed": false
+      }
+    ]
+  },
   "exodus_modules": {
     "tag": "keep",
     "reasons": [
@@ -1513,6 +1518,18 @@
         "projectId": "trophy_display_project",
         "projectName": "Trophy Display",
         "projectPhase": 5,
+        "completed": false
+      }
+    ]
+  },
+  "experimental_seed_sample": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "experimental_seed_sample",
+        "questId": "ss10x3",
+        "questName": "The Root of the Matter",
         "completed": false
       }
     ]
@@ -1594,67 +1611,51 @@
       }
     ]
   },
-  "flow_controller": {
-    "tag": "recycle",
+  "first_wave_compass": {
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
-        "itemId": "flow_controller",
-        "recycleComponentId": "advanced_mechanical_components",
-        "recycleComponentName": "Advanced Mechanical Components",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "flow_controller",
-            "itemName": "Flow Controller",
-            "targetId": "advanced_mechanical_components",
-            "targetName": "Advanced Mechanical Components"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "advanced_mechanical_components",
-            "itemName": "Advanced Mechanical Components",
-            "workshopStation": "gunsmith",
-            "workshopLevel": "3"
-          }
-        ]
-      },
+        "type": "quest",
+        "itemId": "first_wave_compass",
+        "questId": "ss10h",
+        "questName": "Broken Monument",
+        "completed": false
+      }
+    ]
+  },
+  "first_wave_rations": {
+    "tag": "keep",
+    "reasons": [
       {
-        "type": "recycle",
-        "itemId": "flow_controller",
-        "recycleComponentId": "sensors",
-        "recycleComponentName": "Sensors",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "flow_controller",
-            "itemName": "Flow Controller",
-            "targetId": "sensors",
-            "targetName": "Sensors"
-          }
-        ]
-      },
+        "type": "quest",
+        "itemId": "first_wave_rations",
+        "questId": "ss10h",
+        "questName": "Broken Monument",
+        "completed": false
+      }
+    ]
+  },
+  "first_wave_tape": {
+    "tag": "keep",
+    "reasons": [
       {
-        "type": "recycle",
+        "type": "quest",
+        "itemId": "first_wave_tape",
+        "questId": "ss10h",
+        "questName": "Broken Monument",
+        "completed": false
+      }
+    ]
+  },
+  "flow_controller": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
         "itemId": "flow_controller",
-        "recycleComponentId": "mechanical_components",
-        "recycleComponentName": "Mechanical Components",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "flow_controller",
-            "itemName": "Flow Controller",
-            "targetId": "mechanical_components",
-            "targetName": "Mechanical Components"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "mechanical_components",
-            "itemName": "Mechanical Components",
-            "workshopStation": "gunsmith",
-            "workshopLevel": "2"
-          }
-        ]
+        "questId": "12_snap_and_salvage",
+        "questName": "Snap and Salvage",
+        "completed": false
       }
     ]
   },
@@ -1805,6 +1806,13 @@
   "hornet_driver": {
     "tag": "keep",
     "reasons": [
+      {
+        "type": "quest",
+        "itemId": "hornet_driver",
+        "questId": "ss9",
+        "questName": "The Trifecta",
+        "completed": false
+      },
       {
         "type": "workshop",
         "itemId": "hornet_driver",
@@ -1994,6 +2002,13 @@
     "tag": "keep",
     "reasons": [
       {
+        "type": "quest",
+        "itemId": "ion_sputter",
+        "questId": "with_a_view",
+        "questName": "With a View",
+        "completed": false
+      },
+      {
         "type": "project",
         "itemId": "ion_sputter",
         "projectId": "expedition_project",
@@ -2066,6 +2081,30 @@
         "itemId": "lemon",
         "workshopStation": "scrappy",
         "workshopLevel": "3",
+        "completed": false
+      }
+    ]
+  },
+  "library_book": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "library_book",
+        "questId": "ss10x18",
+        "questName": "Building a Library",
+        "completed": false
+      }
+    ]
+  },
+  "lidar_scanner": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "lidar_scanner",
+        "questId": "ss10k",
+        "questName": "A Lay of the Land",
         "completed": false
       }
     ]
@@ -2148,59 +2187,38 @@
     ]
   },
   "magnetron": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "quest",
         "itemId": "magnetron",
-        "recycleComponentId": "magnetic_accelerator",
-        "recycleComponentName": "Magnetic Accelerator",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "magnetron",
-            "itemName": "Magnetron",
-            "targetId": "magnetic_accelerator",
-            "targetName": "Magnetic Accelerator"
-          }
-        ]
-      },
+        "questId": "12_snap_and_salvage",
+        "questName": "Snap and Salvage",
+        "completed": false
+      }
+    ]
+  },
+  "major_aivas_mementos": {
+    "tag": "keep",
+    "reasons": [
       {
-        "type": "recycle",
-        "itemId": "magnetron",
-        "recycleComponentId": "steel_spring",
-        "recycleComponentName": "Steel Spring",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "magnetron",
-            "itemName": "Magnetron",
-            "targetId": "steel_spring",
-            "targetName": "Steel Spring"
-          }
-        ]
-      },
+        "type": "quest",
+        "itemId": "major_aivas_mementos",
+        "questId": "ss10u",
+        "questName": "The Major’s Footlocker",
+        "completed": false
+      }
+    ]
+  },
+  "major_aivas_patch": {
+    "tag": "keep",
+    "reasons": [
       {
-        "type": "recycle",
-        "itemId": "magnetron",
-        "recycleComponentId": "advanced_mechanical_components",
-        "recycleComponentName": "Advanced Mechanical Components",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "magnetron",
-            "itemName": "Magnetron",
-            "targetId": "advanced_mechanical_components",
-            "targetName": "Advanced Mechanical Components"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "advanced_mechanical_components",
-            "itemName": "Advanced Mechanical Components",
-            "workshopStation": "gunsmith",
-            "workshopLevel": "3"
-          }
-        ]
+        "type": "quest",
+        "itemId": "major_aivas_patch",
+        "questId": "ss10p",
+        "questName": "Echoes of Victory Ridge",
+        "completed": false
       }
     ]
   },
@@ -2431,6 +2449,18 @@
       }
     ]
   },
+  "moisture_meter": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "moisture_meter",
+        "questId": "ss10q",
+        "questName": "Unexpected Initiative",
+        "completed": false
+      }
+    ]
+  },
   "motor": {
     "tag": "keep",
     "reasons": [
@@ -2503,6 +2533,18 @@
       }
     ]
   },
+  "nutrient_meter": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "nutrient_meter",
+        "questId": "ss10q",
+        "questName": "Unexpected Initiative",
+        "completed": false
+      }
+    ]
+  },
   "oil": {
     "tag": "recycle",
     "reasons": [
@@ -2527,6 +2569,18 @@
             "workshopLevel": "1"
           }
         ]
+      }
+    ]
+  },
+  "old_world_books": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "old_world_books",
+        "questId": "12_cold_storage",
+        "questName": "Cold Storage",
+        "completed": false
       }
     ]
   },
@@ -2636,6 +2690,18 @@
       }
     ]
   },
+  "possibly_toxic_plant": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "possibly_toxic_plant",
+        "questId": "ss10x19",
+        "questName": "A New Type of Plant",
+        "completed": false
+      }
+    ]
+  },
   "power_bank": {
     "tag": "recycle",
     "reasons": [
@@ -2656,8 +2722,8 @@
             "action": "use_in_quest",
             "itemId": "battery",
             "itemName": "Battery",
-            "questId": "ss3",
-            "questName": "Trash Into Treasure"
+            "questId": "ss10y",
+            "questName": "After Rain Comes"
           }
         ]
       },
@@ -2678,8 +2744,8 @@
             "action": "use_in_quest",
             "itemId": "wires",
             "itemName": "Wires",
-            "questId": "ss3",
-            "questName": "Trash Into Treasure"
+            "questId": "ss10y",
+            "questName": "After Rain Comes"
           }
         ]
       }
@@ -2698,51 +2764,14 @@
     ]
   },
   "power_rod": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "quest",
         "itemId": "power_rod",
-        "recycleComponentId": "advanced_electrical_components",
-        "recycleComponentName": "Advanced Electrical Components",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "power_rod",
-            "itemName": "Power Rod",
-            "targetId": "advanced_electrical_components",
-            "targetName": "Advanced Electrical Components"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "advanced_electrical_components",
-            "itemName": "Advanced Electrical Components",
-            "workshopStation": "gear_bench",
-            "workshopLevel": "3"
-          }
-        ]
-      },
-      {
-        "type": "recycle",
-        "itemId": "power_rod",
-        "recycleComponentId": "arc_circuitry",
-        "recycleComponentName": "ARC Circuitry",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "power_rod",
-            "itemName": "Power Rod",
-            "targetId": "arc_circuitry",
-            "targetName": "ARC Circuitry"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "arc_circuitry",
-            "itemName": "ARC Circuitry",
-            "workshopStation": "refiner",
-            "workshopLevel": "3"
-          }
-        ]
+        "questId": "ss10x15",
+        "questName": "Tribute to Toledo",
+        "completed": false
       }
     ]
   },
@@ -2800,8 +2829,8 @@
             "action": "use_in_quest",
             "itemId": "wires",
             "itemName": "Wires",
-            "questId": "ss3",
-            "questName": "Trash Into Treasure"
+            "questId": "ss10y",
+            "questName": "After Rain Comes"
           }
         ]
       }
@@ -2827,8 +2856,8 @@
             "action": "use_in_quest",
             "itemId": "wires",
             "itemName": "Wires",
-            "questId": "ss3",
-            "questName": "Trash Into Treasure"
+            "questId": "ss10y",
+            "questName": "After Rain Comes"
           }
         ]
       }
@@ -3617,6 +3646,13 @@
     "tag": "keep",
     "reasons": [
       {
+        "type": "quest",
+        "itemId": "snitch_scanner",
+        "questId": "ss9",
+        "questName": "The Trifecta",
+        "completed": false
+      },
+      {
         "type": "workshop",
         "itemId": "snitch_scanner",
         "workshopStation": "utility_station",
@@ -3832,6 +3868,18 @@
             "targetName": "Steel Spring"
           }
         ]
+      }
+    ]
+  },
+  "stack_of_movie_tapes": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "stack_of_movie_tapes",
+        "questId": "movie_night",
+        "questName": "Movie Night",
+        "completed": false
       }
     ]
   },
@@ -4386,8 +4434,8 @@
             "action": "use_in_quest",
             "itemId": "wires",
             "itemName": "Wires",
-            "questId": "ss3",
-            "questName": "Trash Into Treasure"
+            "questId": "ss10y",
+            "questName": "After Rain Comes"
           }
         ]
       }
@@ -4396,6 +4444,13 @@
   "wasp_driver": {
     "tag": "keep",
     "reasons": [
+      {
+        "type": "quest",
+        "itemId": "wasp_driver",
+        "questId": "ss9",
+        "questName": "The Trifecta",
+        "completed": false
+      },
       {
         "type": "workshop",
         "itemId": "wasp_driver",
@@ -4456,6 +4511,27 @@
   "wires": {
     "tag": "keep",
     "reasons": [
+      {
+        "type": "quest",
+        "itemId": "wires",
+        "questId": "ss10y",
+        "questName": "After Rain Comes",
+        "completed": false
+      },
+      {
+        "type": "quest",
+        "itemId": "wires",
+        "questId": "ss10m",
+        "questName": "Eyes on the Prize",
+        "completed": false
+      },
+      {
+        "type": "quest",
+        "itemId": "wires",
+        "questId": "ss10x11",
+        "questName": "Flickering Threat",
+        "completed": false
+      },
       {
         "type": "quest",
         "itemId": "wires",

@@ -1,27 +1,5 @@
 [
   {
-    "date": "2026-01-25T02:56:37.287Z",
-    "timestamp": 1769309797287,
-    "changes": {
-      "added": [],
-      "modified": [
-        "Aphelion",
-        "Aphelion Blueprint",
-        "Kettle I",
-        "Kettle II",
-        "Kettle III",
-        "Kettle IV",
-        "Stitcher I",
-        "Stitcher II",
-        "Stitcher III",
-        "Stitcher IV"
-      ],
-      "removed": []
-    },
-    "summary": "0 added, 10 modified, 0 removed",
-    "totalItems": 497
-  },
-  {
     "date": "2026-01-28T02:50:52.722Z",
     "timestamp": 1769568652722,
     "changes": {
@@ -1006,5 +984,90 @@
     },
     "summary": "0 added, 514 modified, 0 removed",
     "totalItems": 514
+  },
+  {
+    "date": "2026-02-24T03:08:43.861Z",
+    "timestamp": 1771902523861,
+    "changes": {
+      "added": [
+        "Book",
+        "Espresso Machine Parts",
+        "Major Aiva's Mementos",
+        "Possibly Toxic Plant",
+        "Stack of Movie Tapes"
+      ],
+      "modified": [
+        "ARC Thermo Lining",
+        "Anvil Splitter",
+        "Barricade Kit",
+        "Barricade Kit Blueprint",
+        "Blaze Grenade",
+        "Blaze Grenade Blueprint",
+        "Blaze Grenade Trap",
+        "Bombardier Cell",
+        "Buried City Hospital Key",
+        "Buried City JKV Employee Access Card",
+        "Buried City Residential Master Key",
+        "Buried City Town Hall Key",
+        "Burned Arc Circuitry",
+        "Cat Bed",
+        "Combat Mk. 3 (Flanking)",
+        "Combat Mk. 3 (Flanking) Blueprint",
+        "Dam Staff Room Key",
+        "Dam Surveillance Key",
+        "Dam Testing Annex Key",
+        "Dam Utility Key",
+        "Damaged Hornet Driver",
+        "Damaged Rocketeer Driver",
+        "Damaged Wasp Driver",
+        "Deadline",
+        "Deadline Blueprint",
+        "Durable Cloth",
+        "Equalizer",
+        "Equalizer Blueprint",
+        "Exodus Modules",
+        "Explosive Compound",
+        "Familiar Duck",
+        "Gentle Duck",
+        "Great Mullein",
+        "Hornet Driver",
+        "Jolt Mine Blueprint",
+        "Old World Books",
+        "Pilgrim's Peak Security Code",
+        "Power Cable",
+        "Rocketeer Driver",
+        "Showstopper",
+        "Showstopper Blueprint",
+        "Snap Hook",
+        "Snap Hook Blueprint",
+        "Snitch Scanner",
+        "Stella Montis Archives Key",
+        "Stella Montis Assembly Admin Key",
+        "Stella Montis Medical Storage Key",
+        "Surge Shield Recharger",
+        "Surveyor Vault",
+        "Tactical Mk. 3 (Defensive)",
+        "Tactical Mk. 3 (Defensive) Blueprint",
+        "Tactical Mk. 3 (Healing)",
+        "Tactical Mk. 3 (Healing) Blueprint",
+        "Tempest Blueprint",
+        "Vita Shot",
+        "Vita Shot Blueprint",
+        "Vita Spray",
+        "Wasp Driver"
+      ],
+      "removed": [
+        "Backpack (Black Hiker Color)",
+        "Banana",
+        "Blue (Radio Renegade Color)",
+        "Burgerboy",
+        "Cans Backpack Attachment",
+        "Cheer",
+        "Junior Outfit",
+        "Radio Renegade"
+      ]
+    },
+    "summary": "5 added, 58 modified, 8 removed",
+    "totalItems": 511
   }
 ]
