@@ -58,6 +58,14 @@
         "projectName": "Expedition Project (Season 1)",
         "projectPhase": 4,
         "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "advanced_electrical_components",
+        "projectId": "expedition_project_s3",
+        "projectName": "Expedition (Season 3)",
+        "projectPhase": 4,
+        "completed": false
       }
     ]
   },
@@ -184,6 +192,22 @@
         "projectName": "Expedition Project (Season 1)",
         "projectPhase": 1,
         "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "arc_alloy",
+        "projectId": "expedition_project_s3",
+        "projectName": "Expedition (Season 3)",
+        "projectPhase": 1,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "arc_alloy",
+        "projectId": "weather_monitor_system_project",
+        "projectName": "Weather Monitor System",
+        "projectPhase": 1,
+        "completed": false
       }
     ]
   },
@@ -294,6 +318,14 @@
         "workshopStation": "refiner",
         "workshopLevel": "1",
         "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "arc_powercell",
+        "projectId": "weather_monitor_system_project",
+        "projectName": "Weather Monitor System",
+        "projectPhase": 3,
+        "completed": false
       }
     ]
   },
@@ -387,6 +419,14 @@
         "itemId": "battery",
         "projectId": "expedition_project_s1",
         "projectName": "Expedition Project (Season 1)",
+        "projectPhase": 3,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "battery",
+        "projectId": "expedition_project_s3",
+        "projectName": "Expedition (Season 3)",
         "projectPhase": 3,
         "completed": false
       }
@@ -536,6 +576,27 @@
         "projectName": "Trophy Display",
         "projectPhase": 5,
         "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "bombardier_cell",
+        "projectId": "expedition_project_s3",
+        "projectName": "Expedition (Season 3)",
+        "projectPhase": 4,
+        "completed": false
+      }
+    ]
+  },
+  "breathtaking_snow_globe": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "breathtaking_snow_globe",
+        "projectId": "expedition_project_s3",
+        "projectName": "Expedition (Season 3)",
+        "projectPhase": 4,
+        "completed": false
       }
     ]
   },
@@ -585,6 +646,19 @@
             "workshopLevel": "1"
           }
         ]
+      }
+    ]
+  },
+  "broken_guidance_system": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "broken_guidance_system",
+        "projectId": "expedition_project_s3",
+        "projectName": "Expedition (Season 3)",
+        "projectPhase": 4,
+        "completed": false
       }
     ]
   },
@@ -707,29 +781,15 @@
     ]
   },
   "camera_lens": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "camera_lens",
-        "recycleComponentId": "plastic_parts",
-        "recycleComponentName": "Plastic Parts",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "camera_lens",
-            "itemName": "Camera Lens",
-            "targetId": "plastic_parts",
-            "targetName": "Plastic Parts"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "plastic_parts",
-            "itemName": "Plastic Parts",
-            "workshopStation": "gear_bench",
-            "workshopLevel": "1"
-          }
-        ]
+        "projectId": "weather_monitor_system_project",
+        "projectName": "Weather Monitor System",
+        "projectPhase": 5,
+        "completed": false
       }
     ]
   },
@@ -792,29 +852,15 @@
     ]
   },
   "canister": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "canister",
-        "recycleComponentId": "plastic_parts",
-        "recycleComponentName": "Plastic Parts",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "canister",
-            "itemName": "Canister",
-            "targetId": "plastic_parts",
-            "targetName": "Plastic Parts"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "plastic_parts",
-            "itemName": "Plastic Parts",
-            "workshopStation": "gear_bench",
-            "workshopLevel": "1"
-          }
-        ]
+        "projectId": "weather_monitor_system_project",
+        "projectName": "Weather Monitor System",
+        "projectPhase": 3,
+        "completed": false
       }
     ]
   },
@@ -851,6 +897,14 @@
         "workshopStation": "explosives_station",
         "workshopLevel": "1",
         "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "chemicals",
+        "projectId": "expedition_project_s3",
+        "projectName": "Expedition (Season 3)",
+        "projectPhase": 1,
+        "completed": false
       }
     ]
   },
@@ -863,6 +917,27 @@
         "projectId": "flickering_flames_project",
         "projectName": "Flickering Flames",
         "projectPhase": 4,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "coffee_pot",
+        "projectId": "expedition_project_s3",
+        "projectName": "Expedition (Season 3)",
+        "projectPhase": 3,
+        "completed": false
+      }
+    ]
+  },
+  "comet_igniter": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "comet_igniter",
+        "projectId": "weather_monitor_system_project",
+        "projectName": "Weather Monitor System",
+        "projectPhase": 2,
         "completed": false
       }
     ]
@@ -889,6 +964,21 @@
             "itemName": "Chemicals",
             "workshopStation": "explosives_station",
             "workshopLevel": "1"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "coolant",
+        "recycleComponentId": "oil",
+        "recycleComponentName": "Oil",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "coolant",
+            "itemName": "Coolant",
+            "targetId": "oil",
+            "targetName": "Oil"
           }
         ]
       }
@@ -1104,6 +1194,14 @@
         "itemId": "damaged_heat_sink",
         "workshopStation": "utility_station",
         "workshopLevel": "2",
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "damaged_heat_sink",
+        "projectId": "weather_monitor_system_project",
+        "projectName": "Weather Monitor System",
+        "projectPhase": 5,
         "completed": false
       }
     ]
@@ -1375,6 +1473,14 @@
         "projectName": "Flickering Flames",
         "projectPhase": 3,
         "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "duct_tape",
+        "projectId": "weather_monitor_system_project",
+        "projectName": "Weather Monitor System",
+        "projectPhase": 4,
+        "completed": false
       }
     ]
   },
@@ -1418,6 +1524,26 @@
         "projectName": "Flickering Flames",
         "projectPhase": 1,
         "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "durable_cloth",
+        "projectId": "expedition_project_s3",
+        "projectName": "Expedition (Season 3)",
+        "projectPhase": 2,
+        "completed": false
+      }
+    ]
+  },
+  "dusty_film_reel": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "dusty_film_reel",
+        "questId": "a_dead_end",
+        "questName": "A Dead End",
+        "completed": false
       }
     ]
   },
@@ -1451,6 +1577,14 @@
         "itemId": "electrical_components",
         "projectId": "expedition_project_s1",
         "projectName": "Expedition Project (Season 1)",
+        "projectPhase": 2,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "electrical_components",
+        "projectId": "expedition_project_s3",
+        "projectName": "Expedition (Season 3)",
         "projectPhase": 2,
         "completed": false
       }
@@ -1518,6 +1652,14 @@
         "projectId": "trophy_display_project",
         "projectName": "Trophy Display",
         "projectPhase": 5,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "exodus_modules",
+        "projectId": "expedition_project_s3",
+        "projectName": "Expedition (Season 3)",
+        "projectPhase": 3,
         "completed": false
       }
     ]
@@ -1591,6 +1733,19 @@
       }
     ]
   },
+  "fine_wristwatch": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "fine_wristwatch",
+        "projectId": "weather_monitor_system_project",
+        "projectName": "Weather Monitor System",
+        "projectPhase": 3,
+        "completed": false
+      }
+    ]
+  },
   "fireball_burner": {
     "tag": "keep",
     "reasons": [
@@ -1607,6 +1762,27 @@
         "projectId": "flickering_flames_project",
         "projectName": "Flickering Flames",
         "projectPhase": 4,
+        "completed": false
+      }
+    ]
+  },
+  "firefly_burner": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "firefly_burner",
+        "projectId": "expedition_project_s3",
+        "projectName": "Expedition (Season 3)",
+        "projectPhase": 3,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "firefly_burner",
+        "projectId": "weather_monitor_system_project",
+        "projectName": "Weather Monitor System",
+        "projectPhase": 5,
         "completed": false
       }
     ]
@@ -1945,29 +2121,15 @@
     ]
   },
   "industrial_charger": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "industrial_charger",
-        "recycleComponentId": "metal_parts",
-        "recycleComponentName": "Metal Parts",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "industrial_charger",
-            "itemName": "Industrial Charger",
-            "targetId": "metal_parts",
-            "targetName": "Metal Parts"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "metal_parts",
-            "itemName": "Metal Parts",
-            "workshopStation": "gunsmith",
-            "workshopLevel": "1"
-          }
-        ]
+        "projectId": "expedition_project_s3",
+        "projectName": "Expedition (Season 3)",
+        "projectPhase": 2,
+        "completed": false
       }
     ]
   },
@@ -2306,6 +2468,22 @@
         "projectName": "Expedition Project (Season 1)",
         "projectPhase": 1,
         "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "metal_parts",
+        "projectId": "expedition_project_s3",
+        "projectName": "Expedition (Season 3)",
+        "projectPhase": 1,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "metal_parts",
+        "projectId": "weather_monitor_system_project",
+        "projectName": "Weather Monitor System",
+        "projectPhase": 1,
+        "completed": false
       }
     ]
   },
@@ -2380,6 +2558,21 @@
             "itemName": "Advanced Mechanical Components",
             "workshopStation": "gunsmith",
             "workshopLevel": "3"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "mini_centrifuge",
+        "recycleComponentId": "canister",
+        "recycleComponentName": "Canister",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "mini_centrifuge",
+            "itemName": "Mini Centrifuge",
+            "targetId": "canister",
+            "targetName": "Canister"
           }
         ]
       },
@@ -2546,29 +2739,15 @@
     ]
   },
   "oil": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "oil",
-        "recycleComponentId": "chemicals",
-        "recycleComponentName": "Chemicals",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "oil",
-            "itemName": "Oil",
-            "targetId": "chemicals",
-            "targetName": "Chemicals"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "chemicals",
-            "itemName": "Chemicals",
-            "workshopStation": "explosives_station",
-            "workshopLevel": "1"
-          }
-        ]
+        "projectId": "weather_monitor_system_project",
+        "projectName": "Weather Monitor System",
+        "projectPhase": 1,
+        "completed": false
       }
     ]
   },
@@ -2628,6 +2807,14 @@
         "projectName": "Flickering Flames",
         "projectPhase": 1,
         "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "plastic_parts",
+        "projectId": "weather_monitor_system_project",
+        "projectName": "Weather Monitor System",
+        "projectPhase": 1,
+        "completed": false
       }
     ]
   },
@@ -2653,6 +2840,21 @@
             "itemName": "Fabric",
             "workshopStation": "gear_bench",
             "workshopLevel": "1"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "polluted_air_filter",
+        "recycleComponentId": "oil",
+        "recycleComponentName": "Oil",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "polluted_air_filter",
+            "itemName": "Polluted Air Filter",
+            "targetId": "oil",
+            "targetName": "Oil"
           }
         ]
       }
@@ -2833,6 +3035,18 @@
             "questName": "After Rain Comes"
           }
         ]
+      }
+    ]
+  },
+  "project_heartwood_blueprints": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "project_heartwood_blueprints",
+        "questId": "stable_housing",
+        "questName": "Stable Housing",
+        "completed": false
       }
     ]
   },
@@ -3449,6 +3663,14 @@
         "projectName": "Trophy Display",
         "projectPhase": 1,
         "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "rusted_bolts",
+        "projectId": "weather_monitor_system_project",
+        "projectName": "Weather Monitor System",
+        "projectPhase": 4,
+        "completed": false
       }
     ]
   },
@@ -3552,6 +3774,14 @@
         "projectName": "Expedition Project (Season 1)",
         "projectPhase": 3,
         "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "sensors",
+        "projectId": "weather_monitor_system_project",
+        "projectName": "Weather Monitor System",
+        "projectPhase": 2,
+        "completed": false
       }
     ]
   },
@@ -3612,6 +3842,21 @@
             "workshopLevel": "2"
           }
         ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "signal_amplifier",
+        "recycleComponentId": "voltage_converter",
+        "recycleComponentName": "Voltage Converter",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "signal_amplifier",
+            "itemName": "Signal Amplifier",
+            "targetId": "voltage_converter",
+            "targetName": "Voltage Converter"
+          }
+        ]
       }
     ]
   },
@@ -3657,6 +3902,14 @@
         "itemId": "snitch_scanner",
         "workshopStation": "utility_station",
         "workshopLevel": "2",
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "snitch_scanner",
+        "projectId": "weather_monitor_system_project",
+        "projectName": "Weather Monitor System",
+        "projectPhase": 2,
         "completed": false
       }
     ]
@@ -3900,6 +4153,22 @@
         "projectId": "expedition_project_s1",
         "projectName": "Expedition Project (Season 1)",
         "projectPhase": 1,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "steel_spring",
+        "projectId": "expedition_project_s3",
+        "projectName": "Expedition (Season 3)",
+        "projectPhase": 1,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "steel_spring",
+        "projectId": "weather_monitor_system_project",
+        "projectName": "Weather Monitor System",
+        "projectPhase": 3,
         "completed": false
       }
     ]
@@ -4339,6 +4608,21 @@
       {
         "type": "recycle",
         "itemId": "turbo_pump",
+        "recycleComponentId": "oil",
+        "recycleComponentName": "Oil",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "turbo_pump",
+            "itemName": "Turbo Pump",
+            "targetId": "oil",
+            "targetName": "Oil"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "turbo_pump",
         "recycleComponentId": "steel_spring",
         "recycleComponentName": "Steel Spring",
         "chain": [
@@ -4393,51 +4677,15 @@
     ]
   },
   "voltage_converter": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "voltage_converter",
-        "recycleComponentId": "rubber_parts",
-        "recycleComponentName": "Rubber Parts",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "voltage_converter",
-            "itemName": "Voltage Converter",
-            "targetId": "rubber_parts",
-            "targetName": "Rubber Parts"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "rubber_parts",
-            "itemName": "Rubber Parts",
-            "workshopStation": "gunsmith",
-            "workshopLevel": "1"
-          }
-        ]
-      },
-      {
-        "type": "recycle",
-        "itemId": "voltage_converter",
-        "recycleComponentId": "wires",
-        "recycleComponentName": "Wires",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "voltage_converter",
-            "itemName": "Voltage Converter",
-            "targetId": "wires",
-            "targetName": "Wires"
-          },
-          {
-            "action": "use_in_quest",
-            "itemId": "wires",
-            "itemName": "Wires",
-            "questId": "ss10y",
-            "questName": "After Rain Comes"
-          }
-        ]
+        "projectId": "weather_monitor_system_project",
+        "projectName": "Weather Monitor System",
+        "projectPhase": 5,
+        "completed": false
       }
     ]
   },
@@ -4465,6 +4713,14 @@
         "projectName": "Trophy Display",
         "projectPhase": 2,
         "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "wasp_driver",
+        "projectId": "weather_monitor_system_project",
+        "projectName": "Weather Monitor System",
+        "projectPhase": 4,
+        "completed": false
       }
     ]
   },
@@ -4482,29 +4738,15 @@
     ]
   },
   "water_pump": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "water_pump",
-        "recycleComponentId": "metal_parts",
-        "recycleComponentName": "Metal Parts",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "water_pump",
-            "itemName": "Water Pump",
-            "targetId": "metal_parts",
-            "targetName": "Metal Parts"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "metal_parts",
-            "itemName": "Metal Parts",
-            "workshopStation": "gunsmith",
-            "workshopLevel": "1"
-          }
-        ]
+        "projectId": "weather_monitor_system_project",
+        "projectName": "Weather Monitor System",
+        "projectPhase": 4,
+        "completed": false
       }
     ]
   },
@@ -4552,6 +4794,22 @@
         "itemId": "wires",
         "projectId": "expedition_project_s1",
         "projectName": "Expedition Project (Season 1)",
+        "projectPhase": 2,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "wires",
+        "projectId": "expedition_project_s3",
+        "projectName": "Expedition (Season 3)",
+        "projectPhase": 2,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "wires",
+        "projectId": "weather_monitor_system_project",
+        "projectName": "Weather Monitor System",
         "projectPhase": 2,
         "completed": false
       }
