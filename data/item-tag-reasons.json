@@ -114,7 +114,7 @@
       {
         "type": "quest",
         "itemId": "antiseptic",
-        "questId": "ss10c",
+        "questId": "doctors_orders",
         "questName": "Doctor's Orders",
         "completed": false
       },
@@ -152,7 +152,7 @@
       {
         "type": "quest",
         "itemId": "arc_alloy",
-        "questId": "ss2",
+        "questId": "clearer_skies",
         "questName": "Clearer Skies",
         "completed": false
       },
@@ -395,14 +395,7 @@
       {
         "type": "quest",
         "itemId": "battery",
-        "questId": "ss10y",
-        "questName": "After Rain Comes",
-        "completed": false
-      },
-      {
-        "type": "quest",
-        "itemId": "battery",
-        "questId": "ss3",
+        "questId": "trash_into_treasure",
         "questName": "Trash Into Treasure",
         "completed": false
       },
@@ -620,8 +613,8 @@
             "action": "use_in_quest",
             "itemId": "battery",
             "itemName": "Battery",
-            "questId": "ss10y",
-            "questName": "After Rain Comes"
+            "questId": "trash_into_treasure",
+            "questName": "Trash Into Treasure"
           }
         ]
       },
@@ -697,8 +690,8 @@
             "action": "use_in_quest",
             "itemId": "wires",
             "itemName": "Wires",
-            "questId": "ss10y",
-            "questName": "After Rain Comes"
+            "questId": "trash_into_treasure",
+            "questName": "Trash Into Treasure"
           }
         ]
       }
@@ -724,8 +717,8 @@
             "action": "use_in_quest",
             "itemId": "battery",
             "itemName": "Battery",
-            "questId": "ss10y",
-            "questName": "After Rain Comes"
+            "questId": "trash_into_treasure",
+            "questName": "Trash Into Treasure"
           }
         ]
       },
@@ -746,8 +739,8 @@
             "action": "use_in_quest",
             "itemId": "wires",
             "itemName": "Wires",
-            "questId": "ss10y",
-            "questName": "After Rain Comes"
+            "questId": "trash_into_treasure",
+            "questName": "Trash Into Treasure"
           }
         ]
       }
@@ -773,7 +766,7 @@
             "action": "use_in_quest",
             "itemId": "arc_alloy",
             "itemName": "ARC Alloy",
-            "questId": "ss2",
+            "questId": "clearer_skies",
             "questName": "Clearer Skies"
           }
         ]
@@ -882,7 +875,7 @@
       {
         "type": "quest",
         "itemId": "celeste_journal",
-        "questId": "ss10t",
+        "questId": "celestes_journals",
         "questName": "Celeste’s Journals",
         "completed": false
       }
@@ -1081,7 +1074,7 @@
             "action": "use_in_quest",
             "itemId": "arc_alloy",
             "itemName": "ARC Alloy",
-            "questId": "ss2",
+            "questId": "clearer_skies",
             "questName": "Clearer Skies"
           }
         ]
@@ -1108,7 +1101,7 @@
             "action": "use_in_quest",
             "itemId": "arc_alloy",
             "itemName": "ARC Alloy",
-            "questId": "ss2",
+            "questId": "clearer_skies",
             "questName": "Clearer Skies"
           }
         ]
@@ -1157,7 +1150,7 @@
             "action": "use_in_quest",
             "itemId": "arc_alloy",
             "itemName": "ARC Alloy",
-            "questId": "ss2",
+            "questId": "clearer_skies",
             "questName": "Clearer Skies"
           }
         ]
@@ -1226,7 +1219,7 @@
             "action": "use_in_quest",
             "itemId": "arc_alloy",
             "itemName": "ARC Alloy",
-            "questId": "ss2",
+            "questId": "clearer_skies",
             "questName": "Clearer Skies"
           }
         ]
@@ -1253,7 +1246,7 @@
             "action": "use_in_quest",
             "itemId": "arc_alloy",
             "itemName": "ARC Alloy",
-            "questId": "ss2",
+            "questId": "clearer_skies",
             "questName": "Clearer Skies"
           }
         ]
@@ -1280,7 +1273,7 @@
             "action": "use_in_quest",
             "itemId": "arc_alloy",
             "itemName": "ARC Alloy",
-            "questId": "ss2",
+            "questId": "clearer_skies",
             "questName": "Clearer Skies"
           }
         ]
@@ -1329,7 +1322,7 @@
             "action": "use_in_quest",
             "itemId": "arc_alloy",
             "itemName": "ARC Alloy",
-            "questId": "ss2",
+            "questId": "clearer_skies",
             "questName": "Clearer Skies"
           }
         ]
@@ -1490,7 +1483,7 @@
       {
         "type": "quest",
         "itemId": "durable_cloth",
-        "questId": "ss10c",
+        "questId": "doctors_orders",
         "questName": "Doctor's Orders",
         "completed": false
       },
@@ -1609,7 +1602,7 @@
       {
         "type": "quest",
         "itemId": "espresso_machine_parts",
-        "questId": "ss10x13",
+        "questId": "espresso",
         "questName": "Espresso",
         "completed": false
       }
@@ -1621,7 +1614,7 @@
       {
         "type": "quest",
         "itemId": "esr_analyzer",
-        "questId": "ss10g",
+        "questId": "a_reveal_in_ruins",
         "questName": "A Reveal in Ruins",
         "completed": false
       }
@@ -1670,7 +1663,7 @@
       {
         "type": "quest",
         "itemId": "experimental_seed_sample",
-        "questId": "ss10x3",
+        "questId": "the_root_of_the_matter",
         "questName": "The Root of the Matter",
         "completed": false
       }
@@ -1793,7 +1786,7 @@
       {
         "type": "quest",
         "itemId": "first_wave_compass",
-        "questId": "ss10h",
+        "questId": "broken_monument",
         "questName": "Broken Monument",
         "completed": false
       }
@@ -1805,7 +1798,7 @@
       {
         "type": "quest",
         "itemId": "first_wave_rations",
-        "questId": "ss10h",
+        "questId": "broken_monument",
         "questName": "Broken Monument",
         "completed": false
       }
@@ -1817,7 +1810,7 @@
       {
         "type": "quest",
         "itemId": "first_wave_tape",
-        "questId": "ss10h",
+        "questId": "broken_monument",
         "questName": "Broken Monument",
         "completed": false
       }
@@ -1829,7 +1822,7 @@
       {
         "type": "quest",
         "itemId": "flow_controller",
-        "questId": "12_snap_and_salvage",
+        "questId": "snap_and_salvage",
         "questName": "Snap and Salvage",
         "completed": false
       }
@@ -1946,7 +1939,7 @@
       {
         "type": "quest",
         "itemId": "great_mullein",
-        "questId": "ss10c",
+        "questId": "doctors_orders",
         "questName": "Doctor's Orders",
         "completed": false
       }
@@ -1985,7 +1978,7 @@
       {
         "type": "quest",
         "itemId": "hornet_driver",
-        "questId": "ss9",
+        "questId": "the_trifecta",
         "questName": "The Trifecta",
         "completed": false
       },
@@ -2198,7 +2191,7 @@
       {
         "type": "quest",
         "itemId": "leaper_pulse_unit",
-        "questId": "ss10x5",
+        "questId": "into_the_fray",
         "questName": "Into the Fray",
         "completed": false
       },
@@ -2247,25 +2240,13 @@
       }
     ]
   },
-  "library_book": {
-    "tag": "keep",
-    "reasons": [
-      {
-        "type": "quest",
-        "itemId": "library_book",
-        "questId": "ss10x18",
-        "questName": "Building a Library",
-        "completed": false
-      }
-    ]
-  },
   "lidar_scanner": {
     "tag": "keep",
     "reasons": [
       {
         "type": "quest",
         "itemId": "lidar_scanner",
-        "questId": "ss10k",
+        "questId": "a_lay_of_the_land",
         "questName": "A Lay of the Land",
         "completed": false
       }
@@ -2354,20 +2335,8 @@
       {
         "type": "quest",
         "itemId": "magnetron",
-        "questId": "12_snap_and_salvage",
+        "questId": "snap_and_salvage",
         "questName": "Snap and Salvage",
-        "completed": false
-      }
-    ]
-  },
-  "major_aivas_mementos": {
-    "tag": "keep",
-    "reasons": [
-      {
-        "type": "quest",
-        "itemId": "major_aivas_mementos",
-        "questId": "ss10u",
-        "questName": "The Major’s Footlocker",
         "completed": false
       }
     ]
@@ -2378,7 +2347,7 @@
       {
         "type": "quest",
         "itemId": "major_aivas_patch",
-        "questId": "ss10p",
+        "questId": "echoes_of_victory_ridge",
         "questName": "Echoes of Victory Ridge",
         "completed": false
       }
@@ -2648,7 +2617,7 @@
       {
         "type": "quest",
         "itemId": "moisture_meter",
-        "questId": "ss10q",
+        "questId": "unexpected_initiative",
         "questName": "Unexpected Initiative",
         "completed": false
       }
@@ -2732,7 +2701,7 @@
       {
         "type": "quest",
         "itemId": "nutrient_meter",
-        "questId": "ss10q",
+        "questId": "unexpected_initiative",
         "questName": "Unexpected Initiative",
         "completed": false
       }
@@ -2757,7 +2726,7 @@
       {
         "type": "quest",
         "itemId": "old_world_books",
-        "questId": "12_cold_storage",
+        "questId": "cold_storage",
         "questName": "Cold Storage",
         "completed": false
       }
@@ -2892,18 +2861,6 @@
       }
     ]
   },
-  "possibly_toxic_plant": {
-    "tag": "keep",
-    "reasons": [
-      {
-        "type": "quest",
-        "itemId": "possibly_toxic_plant",
-        "questId": "ss10x19",
-        "questName": "A New Type of Plant",
-        "completed": false
-      }
-    ]
-  },
   "power_bank": {
     "tag": "recycle",
     "reasons": [
@@ -2924,8 +2881,8 @@
             "action": "use_in_quest",
             "itemId": "battery",
             "itemName": "Battery",
-            "questId": "ss10y",
-            "questName": "After Rain Comes"
+            "questId": "trash_into_treasure",
+            "questName": "Trash Into Treasure"
           }
         ]
       },
@@ -2946,8 +2903,8 @@
             "action": "use_in_quest",
             "itemId": "wires",
             "itemName": "Wires",
-            "questId": "ss10y",
-            "questName": "After Rain Comes"
+            "questId": "trash_into_treasure",
+            "questName": "Trash Into Treasure"
           }
         ]
       }
@@ -2971,7 +2928,7 @@
       {
         "type": "quest",
         "itemId": "power_rod",
-        "questId": "ss10x15",
+        "questId": "tribute_to_toledo",
         "questName": "Tribute to Toledo",
         "completed": false
       }
@@ -3031,22 +2988,10 @@
             "action": "use_in_quest",
             "itemId": "wires",
             "itemName": "Wires",
-            "questId": "ss10y",
-            "questName": "After Rain Comes"
+            "questId": "trash_into_treasure",
+            "questName": "Trash Into Treasure"
           }
         ]
-      }
-    ]
-  },
-  "project_heartwood_blueprints": {
-    "tag": "keep",
-    "reasons": [
-      {
-        "type": "quest",
-        "itemId": "project_heartwood_blueprints",
-        "questId": "stable_housing",
-        "questName": "Stable Housing",
-        "completed": false
       }
     ]
   },
@@ -3070,8 +3015,8 @@
             "action": "use_in_quest",
             "itemId": "wires",
             "itemName": "Wires",
-            "questId": "ss10y",
-            "questName": "After Rain Comes"
+            "questId": "trash_into_treasure",
+            "questName": "Trash Into Treasure"
           }
         ]
       }
@@ -3192,7 +3137,7 @@
             "action": "use_in_quest",
             "itemId": "durable_cloth",
             "itemName": "Durable Cloth",
-            "questId": "ss10c",
+            "questId": "doctors_orders",
             "questName": "Doctor's Orders"
           }
         ]
@@ -3276,7 +3221,7 @@
       {
         "type": "quest",
         "itemId": "rocketeer_driver",
-        "questId": "ss10v",
+        "questId": "out_of_the_shadows",
         "questName": "Out of the Shadows",
         "completed": false
       },
@@ -3893,7 +3838,7 @@
       {
         "type": "quest",
         "itemId": "snitch_scanner",
-        "questId": "ss9",
+        "questId": "the_trifecta",
         "questName": "The Trifecta",
         "completed": false
       },
@@ -4102,7 +4047,7 @@
             "action": "use_in_quest",
             "itemId": "durable_cloth",
             "itemName": "Durable Cloth",
-            "questId": "ss10c",
+            "questId": "doctors_orders",
             "questName": "Doctor's Orders"
           }
         ]
@@ -4331,7 +4276,7 @@
       {
         "type": "quest",
         "itemId": "surveyor_vault",
-        "questId": "ss10d",
+        "questId": "mixed_signals",
         "questName": "Mixed Signals",
         "completed": false
       },
@@ -4370,7 +4315,7 @@
       {
         "type": "quest",
         "itemId": "syringe",
-        "questId": "ss10c",
+        "questId": "doctors_orders",
         "questName": "Doctor's Orders",
         "completed": false
       }
@@ -4580,6 +4525,18 @@
       }
     ]
   },
+  "torn_book": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "torn_book",
+        "questId": "building_a_library",
+        "questName": "Building a Library",
+        "completed": false
+      }
+    ]
+  },
   "turbo_pump": {
     "tag": "recycle",
     "reasons": [
@@ -4695,7 +4652,7 @@
       {
         "type": "quest",
         "itemId": "wasp_driver",
-        "questId": "ss9",
+        "questId": "the_trifecta",
         "questName": "The Trifecta",
         "completed": false
       },
@@ -4756,28 +4713,7 @@
       {
         "type": "quest",
         "itemId": "wires",
-        "questId": "ss10y",
-        "questName": "After Rain Comes",
-        "completed": false
-      },
-      {
-        "type": "quest",
-        "itemId": "wires",
-        "questId": "ss10m",
-        "questName": "Eyes on the Prize",
-        "completed": false
-      },
-      {
-        "type": "quest",
-        "itemId": "wires",
-        "questId": "ss10x11",
-        "questName": "Flickering Threat",
-        "completed": false
-      },
-      {
-        "type": "quest",
-        "itemId": "wires",
-        "questId": "ss3",
+        "questId": "trash_into_treasure",
         "questName": "Trash Into Treasure",
         "completed": false
       },
