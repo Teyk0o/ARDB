@@ -1,26 +1,12 @@
 import { NextResponse } from 'next/server';
 import itemsData from '@/data/items.json';
-import { transformItem } from '@/lib/itemTransformer';
+import { transformItem, type ExternalItem } from '@/lib/itemTransformer';
 import { normalizeSearchText } from '@/lib/searchUtils';
 import { similarityScore } from '@/lib/fuzzySearch';
 
 type Language = 'en' | 'fr' | 'es' | 'de' | 'zh-CN';
 
 const SUPPORTED_LANGUAGES: Language[] = ['en', 'fr', 'es', 'de', 'zh-CN'];
-
-interface MultilingualField {
-  [key: string]: string;
-}
-
-interface ExternalItem {
-  id: string;
-  name: MultilingualField;
-  description: MultilingualField;
-  type: string;
-  rarity: string;
-  value: number;
-  [key: string]: any;
-}
 
 interface SearchResult {
   item: ExternalItem;
@@ -125,7 +111,7 @@ export async function GET(
     }
 
     // Search for the item
-    const searchResult = searchItemByName(query, itemsData as ExternalItem[]);
+    const searchResult = searchItemByName(query, itemsData as unknown as ExternalItem[]);
 
     if (!searchResult) {
       return NextResponse.json(

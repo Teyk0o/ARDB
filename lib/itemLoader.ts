@@ -56,7 +56,7 @@ export async function getItemWithOverride(
   language: Language = 'en'
 ): Promise<Item | null> {
   // Find base item in JSON
-  const baseItemData = (itemsData as ExternalItem[]).find(
+  const baseItemData = (itemsData as unknown as ExternalItem[]).find(
     (item) => item.id === itemId
   );
 
@@ -94,7 +94,7 @@ export async function getAllItemsWithOverrides(
   language: Language = 'en'
 ): Promise<Item[]> {
   // Transform all base items
-  const baseItems = transformItems(itemsData as ExternalItem[], language);
+  const baseItems = transformItems(itemsData as unknown as ExternalItem[], language);
 
   try {
     // Get all overrides from database
