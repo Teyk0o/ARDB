@@ -662,6 +662,74 @@
         }
       }
     ],
+    "recycle_from": [
+      {
+        "item": {
+          "id": "assessor_matrix",
+          "name": {
+            "da": "Assessor Matrix",
+            "de": "Assessor Matrix",
+            "en": "Assessor Matrix",
+            "es": "Assessor Matrix",
+            "fr": "Assessor Matrix",
+            "he": "Assessor Matrix",
+            "hr": "Assessor Matrix",
+            "it": "Assessor Matrix",
+            "ja": "Assessor Matrix",
+            "ko-KR": "Assessor Matrix",
+            "no": "Assessor Matrix",
+            "pl": "Assessor Matrix",
+            "pt": "Assessor Matrix",
+            "pt-BR": "Assessor Matrix",
+            "ru": "Assessor Matrix",
+            "sr": "Assessor Matrix",
+            "tr": "Assessor Matrix",
+            "uk": "Assessor Matrix",
+            "zh-CN": "Assessor Matrix",
+            "zh-TW": "Assessor Matrix"
+          },
+          "description": {
+            "da": "",
+            "de": "",
+            "en": "",
+            "es": "",
+            "fr": "",
+            "he": "",
+            "hr": "",
+            "it": "",
+            "ja": "",
+            "ko-KR": "",
+            "no": "",
+            "pl": "",
+            "pt": "",
+            "pt-BR": "",
+            "ru": "",
+            "sr": "",
+            "tr": "",
+            "uk": "",
+            "zh-CN": "",
+            "zh-TW": ""
+          },
+          "type": "Recyclable",
+          "rarity": "Epic",
+          "value": 5000,
+          "weightKg": 0.5,
+          "stackSize": 1,
+          "recyclesInto": {
+            "advanced_arc_powercell": 3,
+            "advanced_mechanical_components": 1
+          },
+          "salvagesInto": {
+            "advanced_arc_powercell": 2
+          },
+          "updatedAt": "03/31/2026",
+          "addedIn": "1.22"
+        },
+        "component": {
+          "id": "assessor_matrix"
+        }
+      }
+    ],
     "icon": "https://cdn.arctracker.io/items/advanced_arc_powercell.png",
     "item_type": "Topside Material",
     "loot_area": "ARC"
@@ -4280,6 +4348,72 @@
         "component": {
           "id": "telemetry_transceiver"
         }
+      },
+      {
+        "item": {
+          "id": "vaporizer_regulator",
+          "name": {
+            "da": "Vaporizer Regulator",
+            "de": "Vaporizer Regulator",
+            "en": "Vaporizer Regulator",
+            "es": "Vaporizer Regulator",
+            "fr": "Vaporizer Regulator",
+            "he": "Vaporizer Regulator",
+            "hr": "Vaporizer Regulator",
+            "it": "Vaporizer Regulator",
+            "ja": "Vaporizer Regulator",
+            "ko-KR": "Vaporizer Regulator",
+            "no": "Vaporizer Regulator",
+            "pl": "Vaporizer Regulator",
+            "pt": "Vaporizer Regulator",
+            "pt-BR": "Vaporizer Regulator",
+            "ru": "Vaporizer Regulator",
+            "sr": "Vaporizer Regulator",
+            "tr": "Vaporizer Regulator",
+            "uk": "Vaporizer Regulator",
+            "zh-CN": "Vaporizer Regulator",
+            "zh-TW": "Vaporizer Regulator"
+          },
+          "description": {
+            "da": "",
+            "de": "",
+            "en": "",
+            "es": "",
+            "fr": "",
+            "he": "",
+            "hr": "",
+            "it": "",
+            "ja": "",
+            "ko-KR": "",
+            "no": "",
+            "pl": "",
+            "pt": "",
+            "pt-BR": "",
+            "ru": "",
+            "sr": "",
+            "tr": "",
+            "uk": "",
+            "zh-CN": "",
+            "zh-TW": ""
+          },
+          "type": "Recyclable",
+          "rarity": "Epic",
+          "value": 6000,
+          "weightKg": 0.5,
+          "stackSize": 1,
+          "recyclesInto": {
+            "advanced_electrical_components": 1,
+            "arc_circuitry": 2
+          },
+          "salvagesInto": {
+            "arc_circuitry": 2
+          },
+          "updatedAt": "03/31/2026",
+          "addedIn": "1.22"
+        },
+        "component": {
+          "id": "vaporizer_regulator"
+        }
       }
     ],
     "crafting_components": [
@@ -4736,6 +4870,80 @@
           },
           "repairDurability": 0.5,
           "upgradesTo": "bettina_ii"
+        },
+        "component": {
+          "id": "advanced_mechanical_components"
+        }
+      },
+      {
+        "item": {
+          "id": "canto_i",
+          "name": {
+            "da": "Canto I",
+            "de": "Canto I",
+            "en": "Canto I",
+            "es": "Canto I",
+            "fr": "Canto I",
+            "he": "Canto I",
+            "hr": "Canto I",
+            "it": "Canto I",
+            "ja": "Canto I",
+            "ko-KR": "Canto I",
+            "no": "Canto I",
+            "pl": "Canto I",
+            "pt": "Canto I",
+            "pt-BR": "Canto I",
+            "ru": "Canto I",
+            "sr": "Canto I",
+            "tr": "Canto I",
+            "uk": "Canto I",
+            "zh-CN": "Canto I",
+            "zh-TW": "Canto I"
+          },
+          "description": {
+            "da": "Fuldautomatisk maskinpistol med en større kaliber.",
+            "de": "Vollautomatische Maschinenpistole mit größerem Kaliber.",
+            "en": "Fully automatic submachine gun with a larger caliber.",
+            "es": "Subfusil totalmente automático con un calibre mayor.",
+            "fr": "Pistolet mitrailleur entièrement automatique d'un plus gros calibre.",
+            "he": "תת-מקלע אוטומטי מלא עם קליבר גדול יותר.",
+            "hr": "Potpuno automatska strojnica većeg kalibra.",
+            "it": "Pistola mitragliatrice completamente automatica con un calibro maggiore.",
+            "ja": "大口径のフルオートマチックサブマシンガン。",
+            "ko-KR": "더 큰 구경의 완전 자동 기관단총입니다.",
+            "no": "Helautomatisk maskinpistol med et større kaliber.",
+            "pl": "W pełni automatyczny pistolet maszynowy o większym kalibrze.",
+            "pt": "Submetralhadora totalmente automática com um calibre maior.",
+            "pt-BR": "Submetralhadora totalmente automática com calibre maior.",
+            "ru": "Полностью автоматический пистолет-пулемет большего калибра.",
+            "sr": "Potpuno automatski automat većeg kalibra.",
+            "tr": "Daha büyük kalibreli, tam otomatik makineli tabanca.",
+            "uk": "Повністю автоматичний пістолет-кулемет більшого калібру.",
+            "zh-CN": "全自动大口径冲锋枪。",
+            "zh-TW": "全自動大口徑衝鋒槍。"
+          },
+          "type": "SMG",
+          "rarity": "Legendary",
+          "value": 7000,
+          "weightKg": 6.5,
+          "stackSize": 1,
+          "blueprintLocked": true,
+          "craftBench": "weapon_bench",
+          "stationLevelRequired": 3,
+          "recipe": {
+            "advanced_mechanical_components": 2,
+            "magnet": 5,
+            "medium_gun_parts": 3
+          },
+          "recyclesInto": {
+            "advanced_mechanical_components": 1,
+            "medium_gun_parts": 2
+          },
+          "salvagesInto": {
+            "medium_gun_parts": 2
+          },
+          "updatedAt": "03/31/2026",
+          "addedIn": "1.22"
         },
         "component": {
           "id": "advanced_mechanical_components"
@@ -5775,6 +5983,72 @@
       }
     ],
     "recycle_from": [
+      {
+        "item": {
+          "id": "assessor_matrix",
+          "name": {
+            "da": "Assessor Matrix",
+            "de": "Assessor Matrix",
+            "en": "Assessor Matrix",
+            "es": "Assessor Matrix",
+            "fr": "Assessor Matrix",
+            "he": "Assessor Matrix",
+            "hr": "Assessor Matrix",
+            "it": "Assessor Matrix",
+            "ja": "Assessor Matrix",
+            "ko-KR": "Assessor Matrix",
+            "no": "Assessor Matrix",
+            "pl": "Assessor Matrix",
+            "pt": "Assessor Matrix",
+            "pt-BR": "Assessor Matrix",
+            "ru": "Assessor Matrix",
+            "sr": "Assessor Matrix",
+            "tr": "Assessor Matrix",
+            "uk": "Assessor Matrix",
+            "zh-CN": "Assessor Matrix",
+            "zh-TW": "Assessor Matrix"
+          },
+          "description": {
+            "da": "",
+            "de": "",
+            "en": "",
+            "es": "",
+            "fr": "",
+            "he": "",
+            "hr": "",
+            "it": "",
+            "ja": "",
+            "ko-KR": "",
+            "no": "",
+            "pl": "",
+            "pt": "",
+            "pt-BR": "",
+            "ru": "",
+            "sr": "",
+            "tr": "",
+            "uk": "",
+            "zh-CN": "",
+            "zh-TW": ""
+          },
+          "type": "Recyclable",
+          "rarity": "Epic",
+          "value": 5000,
+          "weightKg": 0.5,
+          "stackSize": 1,
+          "recyclesInto": {
+            "advanced_arc_powercell": 3,
+            "advanced_mechanical_components": 1
+          },
+          "salvagesInto": {
+            "advanced_arc_powercell": 2
+          },
+          "updatedAt": "03/31/2026",
+          "addedIn": "1.22"
+        },
+        "component": {
+          "id": "assessor_matrix"
+        }
+      },
       {
         "item": {
           "id": "bastion_cell",
@@ -8646,6 +8920,290 @@
         },
         "component": {
           "id": "bombardier_cell"
+        }
+      },
+      {
+        "item": {
+          "id": "canto_i",
+          "name": {
+            "da": "Canto I",
+            "de": "Canto I",
+            "en": "Canto I",
+            "es": "Canto I",
+            "fr": "Canto I",
+            "he": "Canto I",
+            "hr": "Canto I",
+            "it": "Canto I",
+            "ja": "Canto I",
+            "ko-KR": "Canto I",
+            "no": "Canto I",
+            "pl": "Canto I",
+            "pt": "Canto I",
+            "pt-BR": "Canto I",
+            "ru": "Canto I",
+            "sr": "Canto I",
+            "tr": "Canto I",
+            "uk": "Canto I",
+            "zh-CN": "Canto I",
+            "zh-TW": "Canto I"
+          },
+          "description": {
+            "da": "Fuldautomatisk maskinpistol med en større kaliber.",
+            "de": "Vollautomatische Maschinenpistole mit größerem Kaliber.",
+            "en": "Fully automatic submachine gun with a larger caliber.",
+            "es": "Subfusil totalmente automático con un calibre mayor.",
+            "fr": "Pistolet mitrailleur entièrement automatique d'un plus gros calibre.",
+            "he": "תת-מקלע אוטומטי מלא עם קליבר גדול יותר.",
+            "hr": "Potpuno automatska strojnica većeg kalibra.",
+            "it": "Pistola mitragliatrice completamente automatica con un calibro maggiore.",
+            "ja": "大口径のフルオートマチックサブマシンガン。",
+            "ko-KR": "더 큰 구경의 완전 자동 기관단총입니다.",
+            "no": "Helautomatisk maskinpistol med et større kaliber.",
+            "pl": "W pełni automatyczny pistolet maszynowy o większym kalibrze.",
+            "pt": "Submetralhadora totalmente automática com um calibre maior.",
+            "pt-BR": "Submetralhadora totalmente automática com calibre maior.",
+            "ru": "Полностью автоматический пистолет-пулемет большего калибра.",
+            "sr": "Potpuno automatski automat većeg kalibra.",
+            "tr": "Daha büyük kalibreli, tam otomatik makineli tabanca.",
+            "uk": "Повністю автоматичний пістолет-кулемет більшого калібру.",
+            "zh-CN": "全自动大口径冲锋枪。",
+            "zh-TW": "全自動大口徑衝鋒槍。"
+          },
+          "type": "SMG",
+          "rarity": "Legendary",
+          "value": 7000,
+          "weightKg": 6.5,
+          "stackSize": 1,
+          "blueprintLocked": true,
+          "craftBench": "weapon_bench",
+          "stationLevelRequired": 3,
+          "recipe": {
+            "advanced_mechanical_components": 2,
+            "magnet": 5,
+            "medium_gun_parts": 3
+          },
+          "recyclesInto": {
+            "advanced_mechanical_components": 1,
+            "medium_gun_parts": 2
+          },
+          "salvagesInto": {
+            "medium_gun_parts": 2
+          },
+          "updatedAt": "03/31/2026",
+          "addedIn": "1.22"
+        },
+        "component": {
+          "id": "canto_i"
+        }
+      },
+      {
+        "item": {
+          "id": "canto_ii",
+          "name": {
+            "da": "Canto II",
+            "de": "Canto II",
+            "en": "Canto II",
+            "es": "Canto II",
+            "fr": "Canto II",
+            "he": "Canto II",
+            "hr": "Canto II",
+            "it": "Canto II",
+            "ja": "Canto II",
+            "ko-KR": "Canto II",
+            "no": "Canto II",
+            "pl": "Canto II",
+            "pt": "Canto II",
+            "pt-BR": "Canto II",
+            "ru": "Canto II",
+            "sr": "Canto II",
+            "tr": "Canto II",
+            "uk": "Canto II",
+            "zh-CN": "Canto II",
+            "zh-TW": "Canto II"
+          },
+          "description": {
+            "da": "Fuldautomatisk maskinpistol med en større kaliber.",
+            "de": "Vollautomatische Maschinenpistole mit größerem Kaliber.",
+            "en": "Fully automatic submachine gun with a larger caliber.",
+            "es": "Subfusil totalmente automático con un calibre mayor.",
+            "fr": "Pistolet mitrailleur entièrement automatique d'un plus gros calibre.",
+            "he": "תת-מקלע אווטומטי מלא עם קליבר גדול יותר.",
+            "hr": "Potpuno automatska strojnica većeg kalibra.",
+            "it": "Pistola mitragliatrice completamente automatica con un calibro maggiore.",
+            "ja": "大口径のフルオートマチックサブマシンガン。",
+            "ko-KR": "더 큰 구경의 완전 자동 기관단총입니다.",
+            "no": "Helautomatisk maskinpistol med et større kaliber.",
+            "pl": "W pełni automatyczny pistolet maszynowy o większym kalibrze.",
+            "pt": "Submetralhadora totalmente automática com um calibre maior.",
+            "pt-BR": "Submetralhadora totalmente automática com calibre maior.",
+            "ru": "Полностью автоматический пистолет-пулемет большего калибра.",
+            "sr": "Potpuno automatski automat većeg kalibra.",
+            "tr": "Daha büyük kalibreli, tam otomatik makineli tabanca.",
+            "uk": "Повністю автоматичний пістолет-кулемет більшого калібру.",
+            "zh-CN": "全自动大口径冲锋枪。",
+            "zh-TW": "全自動大口徑衝鋒槍。"
+          },
+          "type": "SMG",
+          "rarity": "Legendary",
+          "value": 10000,
+          "weightKg": 6.5,
+          "stackSize": 1,
+          "recyclesInto": {
+            "advanced_mechanical_components": 2,
+            "medium_gun_parts": 2
+          },
+          "salvagesInto": {
+            "medium_gun_parts": 2
+          },
+          "upgradeCost": {
+            "advanced_mechanical_components": 1,
+            "medium_gun_parts": 2
+          },
+          "updatedAt": "03/31/2026",
+          "addedIn": "1.22"
+        },
+        "component": {
+          "id": "canto_ii"
+        }
+      },
+      {
+        "item": {
+          "id": "canto_iii",
+          "name": {
+            "da": "Canto III",
+            "de": "Canto III",
+            "en": "Canto III",
+            "es": "Canto III",
+            "fr": "Canto III",
+            "he": "Canto III",
+            "hr": "Canto III",
+            "it": "Canto III",
+            "ja": "Canto III",
+            "ko-KR": "Canto III",
+            "no": "Canto III",
+            "pl": "Canto III",
+            "pt": "Canto III",
+            "pt-BR": "Canto III",
+            "ru": "Canto III",
+            "sr": "Canto III",
+            "tr": "Canto III",
+            "uk": "Canto III",
+            "zh-CN": "Canto III",
+            "zh-TW": "Canto III"
+          },
+          "description": {
+            "da": "Fuldautomatisk maskinpistol med en større kaliber.",
+            "de": "Vollautomatische Maschinenpistole mit größerem Kaliber.",
+            "en": "Fully automatic submachine gun with a larger caliber.",
+            "es": "Subfusil totalmente automático con un calibre mayor.",
+            "fr": "Pistolet mitrailleur entièrement automatique d'un plus gros calibre.",
+            "he": "תת-מקלע אווטומטי מלא עם קליבר גדול יותר.",
+            "hr": "Potpuno automatska strojnica većeg kalibra.",
+            "it": "Pistola mitragliatrice completamente automatica con un calibro maggiore.",
+            "ja": "大口径のフルオートマチックサブマシンガン。",
+            "ko-KR": "더 큰 구경의 완전 자동 기관단총입니다.",
+            "no": "Helautomatisk maskinpistol med et større kaliber.",
+            "pl": "W pełni automatyczny pistolet maszynowy o większym kalibrze.",
+            "pt": "Submetralhadora totalmente automática com um calibre maior.",
+            "pt-BR": "Submetralhadora totalmente automática com calibre maior.",
+            "ru": "Полностью автоматический пистолет-пулемет большего калибра.",
+            "sr": "Potpuno automatski automat većeg kalibra.",
+            "tr": "Daha büyük kalibreli, tam otomatik makineli tabanca.",
+            "uk": "Повністю автоматичний пістолет-кулемет більшого калібру.",
+            "zh-CN": "全自动大口径冲锋枪。",
+            "zh-TW": "全自動大口徑衝鋒槍。"
+          },
+          "type": "SMG",
+          "rarity": "Legendary",
+          "value": 13000,
+          "weightKg": 6.5,
+          "stackSize": 1,
+          "recyclesInto": {
+            "advanced_mechanical_components": 2,
+            "medium_gun_parts": 3
+          },
+          "salvagesInto": {
+            "medium_gun_parts": 3
+          },
+          "upgradeCost": {
+            "advanced_mechanical_components": 1,
+            "medium_gun_parts": 2
+          },
+          "updatedAt": "03/31/2026",
+          "addedIn": "1.22"
+        },
+        "component": {
+          "id": "canto_iii"
+        }
+      },
+      {
+        "item": {
+          "id": "canto_iv",
+          "name": {
+            "da": "Canto IV",
+            "de": "Canto IV",
+            "en": "Canto IV",
+            "es": "Canto IV",
+            "fr": "Canto IV",
+            "he": "Canto IV",
+            "hr": "Canto IV",
+            "it": "Canto IV",
+            "ja": "Canto IV",
+            "ko-KR": "Canto IV",
+            "no": "Canto IV",
+            "pl": "Canto IV",
+            "pt": "Canto IV",
+            "pt-BR": "Canto IV",
+            "ru": "Canto IV",
+            "sr": "Canto IV",
+            "tr": "Canto IV",
+            "uk": "Canto IV",
+            "zh-CN": "Canto IV",
+            "zh-TW": "Canto IV"
+          },
+          "description": {
+            "da": "Fuldautomatisk maskinpistol med en større kaliber.",
+            "de": "Vollautomatische Maschinenpistole mit größerem Kaliber.",
+            "en": "Fully automatic submachine gun with a larger caliber.",
+            "es": "Subfusil totalmente automático con un calibre mayor.",
+            "fr": "Pistolet mitrailleur entièrement automatique d'un plus gros calibre.",
+            "he": "תת-מקלע אווטומטי מלא עם קליבר גדול יותר.",
+            "hr": "Potpuno automatska strojnica većeg kalibra.",
+            "it": "Pistola mitragliatrice completamente automatica con un calibro maggiore.",
+            "ja": "大口径のフルオートマチックサブマシンガン。",
+            "ko-KR": "더 큰 구경의 완전 자동 기관단총입니다.",
+            "no": "Helautomatisk maskinpistol med et større kaliber.",
+            "pl": "W pełni automatyczny pistolet maszynowy o większym kalibrze.",
+            "pt": "Submetralhadora totalmente automática com um calibre maior.",
+            "pt-BR": "Submetralhadora totalmente automática com calibre maior.",
+            "ru": "Полностью автоматический пистолет-пулемет большего калибра.",
+            "sr": "Potpuno automatski automat većeg kalibra.",
+            "tr": "Daha büyük kalibreli, tam otomatik makineli tabanca.",
+            "uk": "Повністю автоматичний пістолет-кулемет більшого калібру.",
+            "zh-CN": "全自动大口径冲锋枪。",
+            "zh-TW": "全自動大口徑衝鋒槍。"
+          },
+          "type": "SMG",
+          "rarity": "Legendary",
+          "value": 17000,
+          "weightKg": 6.5,
+          "stackSize": 1,
+          "recyclesInto": {
+            "advanced_mechanical_components": 3,
+            "medium_gun_parts": 3
+          },
+          "salvagesInto": {
+            "medium_gun_parts": 3
+          },
+          "upgradeCost": {
+            "advanced_mechanical_components": 2,
+            "medium_gun_parts": 2
+          },
+          "updatedAt": "03/31/2026",
+          "addedIn": "1.22"
+        },
+        "component": {
+          "id": "canto_iv"
         }
       },
       {
@@ -25349,6 +25907,72 @@
         "component": {
           "id": "power_rod"
         }
+      },
+      {
+        "item": {
+          "id": "vaporizer_regulator",
+          "name": {
+            "da": "Vaporizer Regulator",
+            "de": "Vaporizer Regulator",
+            "en": "Vaporizer Regulator",
+            "es": "Vaporizer Regulator",
+            "fr": "Vaporizer Regulator",
+            "he": "Vaporizer Regulator",
+            "hr": "Vaporizer Regulator",
+            "it": "Vaporizer Regulator",
+            "ja": "Vaporizer Regulator",
+            "ko-KR": "Vaporizer Regulator",
+            "no": "Vaporizer Regulator",
+            "pl": "Vaporizer Regulator",
+            "pt": "Vaporizer Regulator",
+            "pt-BR": "Vaporizer Regulator",
+            "ru": "Vaporizer Regulator",
+            "sr": "Vaporizer Regulator",
+            "tr": "Vaporizer Regulator",
+            "uk": "Vaporizer Regulator",
+            "zh-CN": "Vaporizer Regulator",
+            "zh-TW": "Vaporizer Regulator"
+          },
+          "description": {
+            "da": "",
+            "de": "",
+            "en": "",
+            "es": "",
+            "fr": "",
+            "he": "",
+            "hr": "",
+            "it": "",
+            "ja": "",
+            "ko-KR": "",
+            "no": "",
+            "pl": "",
+            "pt": "",
+            "pt-BR": "",
+            "ru": "",
+            "sr": "",
+            "tr": "",
+            "uk": "",
+            "zh-CN": "",
+            "zh-TW": ""
+          },
+          "type": "Recyclable",
+          "rarity": "Epic",
+          "value": 6000,
+          "weightKg": 0.5,
+          "stackSize": 1,
+          "recyclesInto": {
+            "advanced_electrical_components": 1,
+            "arc_circuitry": 2
+          },
+          "salvagesInto": {
+            "arc_circuitry": 2
+          },
+          "updatedAt": "03/31/2026",
+          "addedIn": "1.22"
+        },
+        "component": {
+          "id": "vaporizer_regulator"
+        }
       }
     ],
     "crafting_components": [
@@ -27973,6 +28597,68 @@
       "Magazine Size": 24,
       "Reduced Reload Time": "50%"
     }
+  },
+  {
+    "id": "assessor_matrix",
+    "name": {
+      "da": "Assessor Matrix",
+      "de": "Assessor Matrix",
+      "en": "Assessor Matrix",
+      "es": "Assessor Matrix",
+      "fr": "Assessor Matrix",
+      "he": "Assessor Matrix",
+      "hr": "Assessor Matrix",
+      "it": "Assessor Matrix",
+      "ja": "Assessor Matrix",
+      "ko-KR": "Assessor Matrix",
+      "no": "Assessor Matrix",
+      "pl": "Assessor Matrix",
+      "pt": "Assessor Matrix",
+      "pt-BR": "Assessor Matrix",
+      "ru": "Assessor Matrix",
+      "sr": "Assessor Matrix",
+      "tr": "Assessor Matrix",
+      "uk": "Assessor Matrix",
+      "zh-CN": "Assessor Matrix",
+      "zh-TW": "Assessor Matrix"
+    },
+    "description": {
+      "da": "",
+      "de": "",
+      "en": "",
+      "es": "",
+      "fr": "",
+      "he": "",
+      "hr": "",
+      "it": "",
+      "ja": "",
+      "ko-KR": "",
+      "no": "",
+      "pl": "",
+      "pt": "",
+      "pt-BR": "",
+      "ru": "",
+      "sr": "",
+      "tr": "",
+      "uk": "",
+      "zh-CN": "",
+      "zh-TW": ""
+    },
+    "type": "Recyclable",
+    "rarity": "Epic",
+    "value": 5000,
+    "weightKg": 0.5,
+    "stackSize": 1,
+    "recyclesInto": {
+      "advanced_arc_powercell": 3,
+      "advanced_mechanical_components": 1
+    },
+    "salvagesInto": {
+      "advanced_arc_powercell": 2
+    },
+    "updatedAt": "03/31/2026",
+    "addedIn": "1.22",
+    "item_type": "Recyclable"
   },
   {
     "id": "assorted_seeds",
@@ -39390,6 +40076,568 @@
     "icon": "https://cdn.arctracker.io/items/canister.png",
     "item_type": "Topside Material",
     "loot_area": "Commercial"
+  },
+  {
+    "id": "canto_blueprint",
+    "name": {
+      "da": "Canto Tegning",
+      "de": "Canto Bauplan",
+      "en": "Canto Blueprint",
+      "es": "Canto Plano",
+      "fr": "Canto Plan",
+      "he": "Canto תרשים",
+      "hr": "Canto Nacrt",
+      "it": "Canto Progetto",
+      "ja": "Canto 設計図",
+      "ko-KR": "Canto 청사진",
+      "no": "Canto Tegning",
+      "pl": "Canto Schemat",
+      "pt": "Esquema de Canto",
+      "pt-BR": "Esquema de Canto",
+      "ru": "Canto Чертеж",
+      "sr": "Canto Nacrt",
+      "tr": "Canto Taslak",
+      "uk": "Canto Креслення",
+      "zh-CN": "Canto 蓝图",
+      "zh-TW": "Canto 藍圖"
+    },
+    "description": {
+      "da": "Fuldautomatisk maskinpistol med en større kaliber.",
+      "de": "Vollautomatische Maschinenpistole mit größerem Kaliber.",
+      "en": "Fully automatic submachine gun with a larger caliber.",
+      "es": "Subfusil totalmente automático con un calibre mayor.",
+      "fr": "Pistolet mitrailleur entièrement automatique d'un plus gros calibre.",
+      "he": "תת-מקלע אווטומטי מלא עם קליבר גדול יותר.",
+      "hr": "Potpuno automatska strojnica većeg kalibra.",
+      "it": "Pistola mitragliatrice completamente automatica con un calibro maggiore.",
+      "ja": "大口径のフルオートマチックサブマシンガン。",
+      "ko-KR": "더 큰 구경의 완전 자동 기관단총입니다.",
+      "no": "Helautomatisk maskinpistol med et større kaliber.",
+      "pl": "W pełni automatyczny pistolet maszynowy o większym kalibrze.",
+      "pt": "Submetralhadora totalmente automática com um calibre maior.",
+      "pt-BR": "Submetralhadora totalmente automática com calibre maior.",
+      "ru": "Полностью автоматический пистолет-пулемет большего калибра.",
+      "sr": "Potpuno automatski automat većeg kalibra.",
+      "tr": "Daha büyük kalibreli, tam otomatik makineli tabanca.",
+      "uk": "Повністю автоматичний пістолет-кулемет більшого калібру.",
+      "zh-CN": "全自动大口径冲锋枪。",
+      "zh-TW": "全自動大口徑衝鋒槍。"
+    },
+    "type": "Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
+    "updatedAt": "03/31/2026",
+    "addedIn": "1.22",
+    "item_type": "Blueprint"
+  },
+  {
+    "id": "canto_i",
+    "name": {
+      "da": "Canto I",
+      "de": "Canto I",
+      "en": "Canto I",
+      "es": "Canto I",
+      "fr": "Canto I",
+      "he": "Canto I",
+      "hr": "Canto I",
+      "it": "Canto I",
+      "ja": "Canto I",
+      "ko-KR": "Canto I",
+      "no": "Canto I",
+      "pl": "Canto I",
+      "pt": "Canto I",
+      "pt-BR": "Canto I",
+      "ru": "Canto I",
+      "sr": "Canto I",
+      "tr": "Canto I",
+      "uk": "Canto I",
+      "zh-CN": "Canto I",
+      "zh-TW": "Canto I"
+    },
+    "description": {
+      "da": "Fuldautomatisk maskinpistol med en større kaliber.",
+      "de": "Vollautomatische Maschinenpistole mit größerem Kaliber.",
+      "en": "Fully automatic submachine gun with a larger caliber.",
+      "es": "Subfusil totalmente automático con un calibre mayor.",
+      "fr": "Pistolet mitrailleur entièrement automatique d'un plus gros calibre.",
+      "he": "תת-מקלע אוטומטי מלא עם קליבר גדול יותר.",
+      "hr": "Potpuno automatska strojnica većeg kalibra.",
+      "it": "Pistola mitragliatrice completamente automatica con un calibro maggiore.",
+      "ja": "大口径のフルオートマチックサブマシンガン。",
+      "ko-KR": "더 큰 구경의 완전 자동 기관단총입니다.",
+      "no": "Helautomatisk maskinpistol med et større kaliber.",
+      "pl": "W pełni automatyczny pistolet maszynowy o większym kalibrze.",
+      "pt": "Submetralhadora totalmente automática com um calibre maior.",
+      "pt-BR": "Submetralhadora totalmente automática com calibre maior.",
+      "ru": "Полностью автоматический пистолет-пулемет большего калибра.",
+      "sr": "Potpuno automatski automat većeg kalibra.",
+      "tr": "Daha büyük kalibreli, tam otomatik makineli tabanca.",
+      "uk": "Повністю автоматичний пістолет-кулемет більшого калібру.",
+      "zh-CN": "全自动大口径冲锋枪。",
+      "zh-TW": "全自動大口徑衝鋒槍。"
+    },
+    "type": "SMG",
+    "rarity": "Legendary",
+    "value": 7000,
+    "weightKg": 6.5,
+    "stackSize": 1,
+    "blueprintLocked": true,
+    "craftBench": "weapon_bench",
+    "stationLevelRequired": 3,
+    "recipe": {
+      "advanced_mechanical_components": 2,
+      "magnet": 5,
+      "medium_gun_parts": 3
+    },
+    "recyclesInto": {
+      "advanced_mechanical_components": 1,
+      "medium_gun_parts": 2
+    },
+    "salvagesInto": {
+      "medium_gun_parts": 2
+    },
+    "updatedAt": "03/31/2026",
+    "addedIn": "1.22",
+    "crafting_components": [
+      {
+        "item": {
+          "id": "advanced_mechanical_components",
+          "name": {
+            "da": "Avancerede mekaniske komponenter",
+            "de": "Fortschrittliche mechanische Komponenten",
+            "en": "Advanced Mechanical Components",
+            "es": "Componentes mecánicos avanzados",
+            "fr": "Composants Mécaniques Avancés",
+            "he": "רכיבים מכניים מתקדמים",
+            "hr": "Napredne Mehaničke Komponente",
+            "it": "Componenti meccanici avanzati",
+            "ja": "高度な機械部品",
+            "ko-KR": "고급 기계 부품",
+            "no": "Avanserte mekaniske komponenter",
+            "pl": "Zaawansowane komponenty mechaniczne",
+            "pt": "Componentes mecânicos avançados",
+            "pt-BR": "Componentes Mecânicos Avançados",
+            "ru": "Продвинутые механические компоненты",
+            "sr": "Napredne Mehaničke Komponente",
+            "tr": "Gelişmiş Mekanik Bileşenler",
+            "uk": "Просунуті механічні компоненти",
+            "zh-CN": "高级机械元件",
+            "zh-TW": "進階機械元件"
+          },
+          "description": {
+            "da": "Bruges til at fremstille avancerede våben. Kan genbruges til håndværksmaterialer. Bruges til at fremstille: Torrente, Venator, Osprey, Renegade, Bettina",
+            "de": "Wird zur Herstellung fortschrittlicher Waffen verwendet. Kann zu Herstellungsmaterialien recycelt werden. Zur Herstellung von: Torrente, Venator, Osprey, Renegade, Bettina",
+            "en": "Used to craft advanced weapons. Can be recycled into crafting materials. Used to craft: Torrente, Venator, Osprey, Renegade, Bettina",
+            "es": "Usado para fabricar armas avanzadas. Puede reciclarse en materiales de fabricación. Usado para fabricar: Torrente, Venator, Osprey, Renegado, Bettina",
+            "fr": "Permet de fabriquer des armes avancées. Peut être recyclé en matériaux d'artisanat. Permet de fabriquer : Torrente, Venator, Balbuzard, Renégat, Bettina",
+            "he": "משמש ליצירת כלי נשק מתקדמים. ניתן למיחזור לחומרי יצירה. משמש ליצירת: Torrente, Venator, Osprey, Renegade, Bettina",
+            "hr": "Koristi se za izradu naprednog oružja. Može se reciklirati u materijale za izradu. Koristi se za izradu: Torrente, Venator, Osprey, Renegade, Bettina",
+            "it": "Usato per fabbricare armi avanzate. Si può riciclare in materiali da creazione. Si usa per creare: Torrente, Venator, Osprey, Renegade, Bettina",
+            "ja": "高度な武器の製作に使用。製作材料にリサイクル可能。製作可能: Torrente、Venator、Osprey、Renegade、Bettina",
+            "ko-KR": "고급 무기 제작에 사용됩니다. 제작 재료로 재활용 가능. 제작 가능: 토렌테, 베나토르, 오스프레이, 레니게이드, 베티나",
+            "no": "Brukes til å lage avanserte våpen. Kan resirkuleres til håndverksmateriell. Brukes til å lage: Torrente, Venator, Osprey, Renegade, Bettina",
+            "pl": "Używany do wytwarzania zaawansowanej broni. Może być przetworzony na materiały rzemieślnicze. Używany do wytworzenia: Torrente, Venator, Osprey, Renegade, Bettina",
+            "pt": "Usado para fabricar armas avançadas. Pode ser reciclado em materiais de fabricação. Usado para fabricar: Torrente, Venator, Osprey, Renegade, Bettina",
+            "pt-BR": "Serve para fabricar armas avançadas. Reciclar gera materiais de fabricação. Usado para fabricar: Torrente, Venator, Águia-Pescadora, Renegado, Bettina",
+            "ru": "Используется для создания продвинутого оружия. Можно переработать в материалы для крафта. Используется для создания: Torrente, Venator, Osprey, Renegade, Bettina",
+            "sr": "Koristi se za pravljenje naprednog oružja. Može se reciklirati u materijale za pravljenje. Koristi se za pravljenje: Torrente, Venator, Osprey, Renegade, Bettina",
+            "tr": "Gelişmiş silahları üretmek için kullanılır. Üretim malzemelerine geri dönüştürülebilir. Üretim için kullanılır: Torrente, Venator, Osprey, Renegade, Bettina",
+            "uk": "Використовується для створення просунутої зброї. Можна переробити на матеріали для крафту. Використовується для створення: Torrente, Venator, Osprey, Renegade, Bettina",
+            "zh-CN": "用于制作高级武器。可回收为制作材料。用于制作:磁力加速器，奔流，复仇者，鱼鹰，叛逆",
+            "zh-TW": "用來製作進階武器。可回收成製作材料。用來製作:奔流,獵人,魚鷹,叛將,貝蒂娜"
+          },
+          "type": "Refined Material",
+          "rarity": "Rare",
+          "foundIn": "Mechanical",
+          "value": 1750,
+          "weightKg": 1,
+          "stackSize": 5,
+          "craftBench": "refiner",
+          "stationLevelRequired": 2,
+          "recipe": {
+            "mechanical_components": 2,
+            "steel_spring": 2
+          },
+          "recyclesInto": {
+            "mechanical_components": 1,
+            "steel_spring": 1
+          },
+          "salvagesInto": {
+            "mechanical_components": 1
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/advanced_mechanical_components.png",
+          "updatedAt": "03/17/2026",
+          "addedIn": "base"
+        },
+        "component": {
+          "id": "advanced_mechanical_components"
+        }
+      },
+      {
+        "item": {
+          "id": "magnet",
+          "name": {
+            "da": "Magnet",
+            "de": "Magnet",
+            "en": "Magnet",
+            "es": "Imán",
+            "fr": "Aimant",
+            "he": "מגנט",
+            "hr": "Magnet",
+            "it": "Magnete",
+            "ja": "磁石",
+            "ko-KR": "자석",
+            "no": "Magnet",
+            "pl": "Magnes",
+            "pt": "Ímã",
+            "pt-BR": "Ímã",
+            "ru": "Магнит",
+            "sr": "Magnet",
+            "tr": "Mıknatıs",
+            "uk": "Магніт",
+            "zh-CN": "磁铁",
+            "zh-TW": "磁鐵"
+          },
+          "description": {
+            "da": "Bruges til at lave en bred vifte af genstande. Kan genbruges til håndværksmaterialer.",
+            "de": "Wird zur Herstellung verschiedenster Gegenstände verwendet. Kann zu Herstellungsmaterialien recycelt werden.",
+            "en": "Used to craft a wide range of items. Can be recycled into crafting materials.",
+            "es": "Usado para fabricar una amplia gama de objetos. Puede reciclarse en materiales de fabricación.",
+            "fr": "Permet de fabriquer une large gamme d'objets. Peut être recyclé en matériaux d'artisanat.",
+            "he": "משמש ליצירת מגוון רחב של פריטים. ניתן למחזר לחומרי יצירה.",
+            "hr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu.",
+            "it": "Si usa per creare una vasta gamma di oggetti. Si può riciclare in materiali di fabbricazione.",
+            "ja": "幅広いアイテムの作成に使用。クラフト素材にリサイクル可能。",
+            "ko-KR": "다양한 아이템 제작에 사용됩니다. 제작 재료로 재활용 가능.",
+            "no": "Brukes til å lage et bredt spekter av gjenstander. Kan resirkuleres til håndverksmaterialer.",
+            "pl": "Używane do wytwarzania szerokiej gamy przedmiotów. Można przetworzyć na materiały rzemieślnicze.",
+            "pt": "Usado para fabricar uma ampla gama de itens. Pode ser reciclado em materiais de fabricação.",
+            "pt-BR": "Usado para fabricar uma grande variedade de itens. Pode ser reciclado em materiais de fabricação.",
+            "ru": "Используется для создания широкого спектра предметов. Можно переработать в материалы для крафта.",
+            "sr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu.",
+            "tr": "Geniş bir yelpazede eşya üretmek için kullanılır. Üretim malzemelerine geri dönüştürülebilir.",
+            "uk": "Використовується для створення широкого спектру предметів. Можна переробити в матеріали для крафту.",
+            "zh-CN": "用于制作各种物品。可回收为制作材料。",
+            "zh-TW": "用於製作各種物品。可回收為製作材料。"
+          },
+          "type": "Topside Material",
+          "rarity": "Uncommon",
+          "foundIn": "Exodus",
+          "value": 300,
+          "weightKg": 0.25,
+          "stackSize": 15,
+          "recyclesInto": {
+            "metal_parts": 2
+          },
+          "salvagesInto": {
+            "metal_parts": 1
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/magnet.png",
+          "updatedAt": "03/22/2026",
+          "addedIn": "base",
+          "vendors": [
+            {
+              "cost": {
+                "assorted_seeds": 6
+              },
+              "limit": 10,
+              "refreshSeconds": 86400,
+              "requiredLevel": 7,
+              "trader": "Celeste"
+            }
+          ]
+        },
+        "component": {
+          "id": "magnet"
+        }
+      },
+      {
+        "item": {
+          "id": "medium_gun_parts",
+          "name": {
+            "da": "Medium våbendele",
+            "de": "Teile für Waffe mit mittlerer Munition",
+            "en": "Medium Gun Parts",
+            "es": "Piezas de armas medianas",
+            "fr": "Pièces de Pistolet Moyen",
+            "he": "חלקי נשק בינוניים",
+            "hr": "Srednji Dijelovi Oružja",
+            "it": "Parti di armi medie",
+            "ja": "中型銃のパーツ",
+            "ko-KR": "준중형 총기 부품",
+            "no": "Medium våpendeler",
+            "pl": "Średnie części broni",
+            "pt": "Peças de armas médias",
+            "pt-BR": "Peças de Arma Média",
+            "ru": "Детали для оружия среднего калибра",
+            "sr": "Srednji Delovi Oružja",
+            "tr": "Orta Silah Parçaları",
+            "uk": "Середні зброярські деталі",
+            "zh-CN": "中型枪械零件",
+            "zh-TW": "中型槍械零件"
+          },
+          "description": {
+            "da": "Assorterede reservedele brugt til rifler. Bruges til at fremstille: Torrente, Venator, Osprey, Renegade, Tempest",
+            "de": "Verschiedenste Ersatzteile, die in Gewehren zum Einsatz kommen. Zur Herstellung von: Torrente, Venator, Osprey, Renegade, Tempest",
+            "en": "Assorted spare parts used for rifles. Used to craft: Torrente, Venator, Osprey, Renegade, Tempest",
+            "es": "Piezas de repuesto variadas usadas para rifles. Usado para fabricar: Torrente, Venator, Osprey, Renegado, Tempestad",
+            "fr": "Un assortiment de pièces détachées utilisées pour les fusils. Permet de fabriquer : Torrente, Venator, Balbuzard, Renégat, Tempête",
+            "he": "מגוון חלקי חילוף המשמשים לרובים. משמש ליצירת: Torrente, Venator, Osprey, Renegade, Tempest",
+            "hr": "Razni rezervni dijelovi za puške. Koristi se za izradu: Torrente, Venator, Osprey, Renegade, Tempest",
+            "it": "Parti di ricambio assortite usate per i fucili. Si usa per creare: Torrente, Venator, Osprey, Renegade, Tempest",
+            "ja": "ライフル用の各種予備パーツ。製作に使用: Torrente、Venator、Osprey、Renegade、Tempest",
+            "ko-KR": "소총용 각종 예비 부품. 제작 용도: 토렌테, 베나토르, 오스프레이, 레니게이드, 템페스트",
+            "no": "Assorterte reservedeler brukt til rifler. Brukes til å lage: Torrente, Venator, Osprey, Renegade, Tempest",
+            "pl": "Różne części zamienne używane do karabinów. Używany do wytworzenia: Torrente, Venator, Osprey, Renegade, Tempest",
+            "pt": "Peças de reposição variadas usadas para rifles. Usado para fabricar: Torrente, Venator, Osprey, Renegade, Tempest",
+            "pt-BR": "Peças de reposição variadas usadas para rifles. Usado para fabricar: Torrente, Venator, Águia-Pescadora, Renegado, Temporal",
+            "ru": "Различные запасные части для винтовок. Используется для создания: Torrente, Venator, Osprey, Renegade, Tempest",
+            "sr": "Razni rezervni delovi za puške. Koristi se za izradu: Torrente, Venator, Osprey, Renegade, Tempest",
+            "tr": "Tüfekler için çeşitli yedek parçalar. Üretimde kullanılır: Torrente, Venator, Osprey, Renegade, Tempest",
+            "uk": "Різноманітні запасні частини для гвинтівок. Використовується для створення: Torrente, Venator, Osprey, Renegade, Tempest",
+            "zh-CN": "用于步枪的各种备用零件。用于制作：Torrente、Venator、Osprey、Renegade、Tempest",
+            "zh-TW": "用於步槍的各種備用零件。用於製作：Torrente、Venator、Osprey、Renegade、Tempest"
+          },
+          "type": "Topside Material",
+          "rarity": "Rare",
+          "foundIn": "Raider, Security",
+          "value": 700,
+          "weightKg": 0.4,
+          "stackSize": 5,
+          "blueprintLocked": true,
+          "craftBench": "refiner",
+          "stationLevelRequired": 2,
+          "recipe": {
+            "simple_gun_parts": 4
+          },
+          "recyclesInto": {
+            "simple_gun_parts": 2
+          },
+          "salvagesInto": {
+            "simple_gun_parts": 1
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/medium_gun_parts.png",
+          "updatedAt": "03/22/2026",
+          "addedIn": "base",
+          "vendors": [
+            {
+              "cost": {
+                "assorted_seeds": 15
+              },
+              "limit": 3,
+              "refreshSeconds": 86400,
+              "requiredLevel": 12,
+              "trader": "Celeste"
+            }
+          ]
+        },
+        "component": {
+          "id": "medium_gun_parts"
+        }
+      }
+    ],
+    "workbench": "weapon_bench",
+    "item_type": "SMG"
+  },
+  {
+    "id": "canto_ii",
+    "name": {
+      "da": "Canto II",
+      "de": "Canto II",
+      "en": "Canto II",
+      "es": "Canto II",
+      "fr": "Canto II",
+      "he": "Canto II",
+      "hr": "Canto II",
+      "it": "Canto II",
+      "ja": "Canto II",
+      "ko-KR": "Canto II",
+      "no": "Canto II",
+      "pl": "Canto II",
+      "pt": "Canto II",
+      "pt-BR": "Canto II",
+      "ru": "Canto II",
+      "sr": "Canto II",
+      "tr": "Canto II",
+      "uk": "Canto II",
+      "zh-CN": "Canto II",
+      "zh-TW": "Canto II"
+    },
+    "description": {
+      "da": "Fuldautomatisk maskinpistol med en større kaliber.",
+      "de": "Vollautomatische Maschinenpistole mit größerem Kaliber.",
+      "en": "Fully automatic submachine gun with a larger caliber.",
+      "es": "Subfusil totalmente automático con un calibre mayor.",
+      "fr": "Pistolet mitrailleur entièrement automatique d'un plus gros calibre.",
+      "he": "תת-מקלע אווטומטי מלא עם קליבר גדול יותר.",
+      "hr": "Potpuno automatska strojnica većeg kalibra.",
+      "it": "Pistola mitragliatrice completamente automatica con un calibro maggiore.",
+      "ja": "大口径のフルオートマチックサブマシンガン。",
+      "ko-KR": "더 큰 구경의 완전 자동 기관단총입니다.",
+      "no": "Helautomatisk maskinpistol med et større kaliber.",
+      "pl": "W pełni automatyczny pistolet maszynowy o większym kalibrze.",
+      "pt": "Submetralhadora totalmente automática com um calibre maior.",
+      "pt-BR": "Submetralhadora totalmente automática com calibre maior.",
+      "ru": "Полностью автоматический пистолет-пулемет большего калибра.",
+      "sr": "Potpuno automatski automat većeg kalibra.",
+      "tr": "Daha büyük kalibreli, tam otomatik makineli tabanca.",
+      "uk": "Повністю автоматичний пістолет-кулемет більшого калібру.",
+      "zh-CN": "全自动大口径冲锋枪。",
+      "zh-TW": "全自動大口徑衝鋒槍。"
+    },
+    "type": "SMG",
+    "rarity": "Legendary",
+    "value": 10000,
+    "weightKg": 6.5,
+    "stackSize": 1,
+    "recyclesInto": {
+      "advanced_mechanical_components": 2,
+      "medium_gun_parts": 2
+    },
+    "salvagesInto": {
+      "medium_gun_parts": 2
+    },
+    "upgradeCost": {
+      "advanced_mechanical_components": 1,
+      "medium_gun_parts": 2
+    },
+    "updatedAt": "03/31/2026",
+    "addedIn": "1.22",
+    "item_type": "SMG"
+  },
+  {
+    "id": "canto_iii",
+    "name": {
+      "da": "Canto III",
+      "de": "Canto III",
+      "en": "Canto III",
+      "es": "Canto III",
+      "fr": "Canto III",
+      "he": "Canto III",
+      "hr": "Canto III",
+      "it": "Canto III",
+      "ja": "Canto III",
+      "ko-KR": "Canto III",
+      "no": "Canto III",
+      "pl": "Canto III",
+      "pt": "Canto III",
+      "pt-BR": "Canto III",
+      "ru": "Canto III",
+      "sr": "Canto III",
+      "tr": "Canto III",
+      "uk": "Canto III",
+      "zh-CN": "Canto III",
+      "zh-TW": "Canto III"
+    },
+    "description": {
+      "da": "Fuldautomatisk maskinpistol med en større kaliber.",
+      "de": "Vollautomatische Maschinenpistole mit größerem Kaliber.",
+      "en": "Fully automatic submachine gun with a larger caliber.",
+      "es": "Subfusil totalmente automático con un calibre mayor.",
+      "fr": "Pistolet mitrailleur entièrement automatique d'un plus gros calibre.",
+      "he": "תת-מקלע אווטומטי מלא עם קליבר גדול יותר.",
+      "hr": "Potpuno automatska strojnica većeg kalibra.",
+      "it": "Pistola mitragliatrice completamente automatica con un calibro maggiore.",
+      "ja": "大口径のフルオートマチックサブマシンガン。",
+      "ko-KR": "더 큰 구경의 완전 자동 기관단총입니다.",
+      "no": "Helautomatisk maskinpistol med et større kaliber.",
+      "pl": "W pełni automatyczny pistolet maszynowy o większym kalibrze.",
+      "pt": "Submetralhadora totalmente automática com um calibre maior.",
+      "pt-BR": "Submetralhadora totalmente automática com calibre maior.",
+      "ru": "Полностью автоматический пистолет-пулемет большего калибра.",
+      "sr": "Potpuno automatski automat većeg kalibra.",
+      "tr": "Daha büyük kalibreli, tam otomatik makineli tabanca.",
+      "uk": "Повністю автоматичний пістолет-кулемет більшого калібру.",
+      "zh-CN": "全自动大口径冲锋枪。",
+      "zh-TW": "全自動大口徑衝鋒槍。"
+    },
+    "type": "SMG",
+    "rarity": "Legendary",
+    "value": 13000,
+    "weightKg": 6.5,
+    "stackSize": 1,
+    "recyclesInto": {
+      "advanced_mechanical_components": 2,
+      "medium_gun_parts": 3
+    },
+    "salvagesInto": {
+      "medium_gun_parts": 3
+    },
+    "upgradeCost": {
+      "advanced_mechanical_components": 1,
+      "medium_gun_parts": 2
+    },
+    "updatedAt": "03/31/2026",
+    "addedIn": "1.22",
+    "item_type": "SMG"
+  },
+  {
+    "id": "canto_iv",
+    "name": {
+      "da": "Canto IV",
+      "de": "Canto IV",
+      "en": "Canto IV",
+      "es": "Canto IV",
+      "fr": "Canto IV",
+      "he": "Canto IV",
+      "hr": "Canto IV",
+      "it": "Canto IV",
+      "ja": "Canto IV",
+      "ko-KR": "Canto IV",
+      "no": "Canto IV",
+      "pl": "Canto IV",
+      "pt": "Canto IV",
+      "pt-BR": "Canto IV",
+      "ru": "Canto IV",
+      "sr": "Canto IV",
+      "tr": "Canto IV",
+      "uk": "Canto IV",
+      "zh-CN": "Canto IV",
+      "zh-TW": "Canto IV"
+    },
+    "description": {
+      "da": "Fuldautomatisk maskinpistol med en større kaliber.",
+      "de": "Vollautomatische Maschinenpistole mit größerem Kaliber.",
+      "en": "Fully automatic submachine gun with a larger caliber.",
+      "es": "Subfusil totalmente automático con un calibre mayor.",
+      "fr": "Pistolet mitrailleur entièrement automatique d'un plus gros calibre.",
+      "he": "תת-מקלע אווטומטי מלא עם קליבר גדול יותר.",
+      "hr": "Potpuno automatska strojnica većeg kalibra.",
+      "it": "Pistola mitragliatrice completamente automatica con un calibro maggiore.",
+      "ja": "大口径のフルオートマチックサブマシンガン。",
+      "ko-KR": "더 큰 구경의 완전 자동 기관단총입니다.",
+      "no": "Helautomatisk maskinpistol med et større kaliber.",
+      "pl": "W pełni automatyczny pistolet maszynowy o większym kalibrze.",
+      "pt": "Submetralhadora totalmente automática com um calibre maior.",
+      "pt-BR": "Submetralhadora totalmente automática com calibre maior.",
+      "ru": "Полностью автоматический пистолет-пулемет большего калибра.",
+      "sr": "Potpuno automatski automat većeg kalibra.",
+      "tr": "Daha büyük kalibreli, tam otomatik makineli tabanca.",
+      "uk": "Повністю автоматичний пістолет-кулемет більшого калібру.",
+      "zh-CN": "全自动大口径冲锋枪。",
+      "zh-TW": "全自動大口徑衝鋒槍。"
+    },
+    "type": "SMG",
+    "rarity": "Legendary",
+    "value": 17000,
+    "weightKg": 6.5,
+    "stackSize": 1,
+    "recyclesInto": {
+      "advanced_mechanical_components": 3,
+      "medium_gun_parts": 3
+    },
+    "salvagesInto": {
+      "medium_gun_parts": 3
+    },
+    "upgradeCost": {
+      "advanced_mechanical_components": 2,
+      "medium_gun_parts": 2
+    },
+    "updatedAt": "03/31/2026",
+    "addedIn": "1.22",
+    "item_type": "SMG"
   },
   {
     "id": "cat_bed",
@@ -53414,6 +54662,62 @@
     "loot_area": "Residential"
   },
   {
+    "id": "dodgers_note",
+    "name": {
+      "da": "Dodgers note",
+      "de": "Dodgers Notiz",
+      "en": "Dodger's Note",
+      "es": "Nota de Dodger",
+      "fr": "Note de Dodger",
+      "he": "הפתק של דודג'ר",
+      "hr": "Dodgerova bilješka",
+      "it": "Nota di Dodger",
+      "ja": "ドジャーのメモ",
+      "ko-KR": "다저의 메모",
+      "no": "Dodgers notat",
+      "pl": "Notatka Dodgera",
+      "pt": "Nota de Dodger",
+      "pt-BR": "Bilhete do Dodger",
+      "ru": "Записка Доджера",
+      "sr": "Dodgerova beleška",
+      "tr": "Dodger'ın Notu",
+      "uk": "Записка Доджера",
+      "zh-CN": "多杰的笔记",
+      "zh-TW": "多傑的筆記"
+    },
+    "description": {
+      "da": "",
+      "de": "",
+      "en": "",
+      "es": "",
+      "fr": "",
+      "he": "",
+      "hr": "",
+      "it": "",
+      "ja": "",
+      "ko-KR": "",
+      "no": "",
+      "pl": "",
+      "pt": "",
+      "pt-BR": "",
+      "ru": "",
+      "sr": "",
+      "tr": "",
+      "uk": "",
+      "zh-CN": "",
+      "zh-TW": ""
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "value": 0,
+    "weightKg": 0.5,
+    "stackSize": 1,
+    "questItem": true,
+    "updatedAt": "03/31/2026",
+    "addedIn": "1.22",
+    "item_type": "Trinket"
+  },
+  {
     "id": "dog_collar",
     "name": {
       "da": "Hundehalsbånd",
@@ -53478,6 +54782,342 @@
     "icon": "https://cdn.arctracker.io/items/dog_collar.png",
     "item_type": "Recyclable",
     "loot_area": "Residential"
+  },
+  {
+    "id": "dolabra",
+    "name": {
+      "da": "Dolabra",
+      "de": "Dolabra",
+      "en": "Dolabra",
+      "es": "Dolabra",
+      "fr": "Dolabra",
+      "he": "Dolabra",
+      "hr": "Dolabra",
+      "it": "Dolabra",
+      "ja": "Dolabra",
+      "ko-KR": "Dolabra",
+      "no": "Dolabra",
+      "pl": "Dolabra",
+      "pt": "Dolabra",
+      "pt-BR": "Dolabra",
+      "ru": "Dolabra",
+      "sr": "Dolabra",
+      "tr": "Dolabra",
+      "uk": "Dolabra",
+      "zh-CN": "Dolabra",
+      "zh-TW": "Dolabra"
+    },
+    "description": {
+      "da": "Et eksperimentelt våben, der enten kan affyre en bred eksplosion på kort afstand eller fokuseres til at affyre en præcis varmestråle på mellemlang afstand.",
+      "de": "Eine experimentelle Waffe, die entweder einen breiten Schuss mit kurzer Reichweite abgeben kann oder so fokussiert wird, dass sie einen konzentrierten Hitzestrahl mit mittlerer Reichweite verschießt.",
+      "en": "An experimental weapon that can either fire a wide short range blast, or be focused to fire a tight medium range beam of heat.",
+      "es": "Un arma experimental que puede disparar una ráfaga amplia a corta distancia o concentrarse para disparar un haz de calor preciso a media distancia.",
+      "fr": "Une arme expérimentale qui peut soit tirer une large décharge à courte portée, soit être concentrée pour tirer un faisceau de chaleur étroit à moyenne portée.",
+      "he": "נשק ניסיוני שיכול לירות פרץ רחב לטווח קצר, או להיות ממוקד לירי קרן חום הדוקה לטווח בינוני.",
+      "hr": "Eksperimentalno oružje koje može ispaliti široki prasak kratkog dometa ili se može fokusirati za ispaljivanje uskog toplinskog snopa srednjeg dometa.",
+      "it": "Un'arma sperimentale che può sparare un'ampia scarica a corto raggio o essere focalizzata per sparare un raggio di calore concentrato a medio raggio.",
+      "ja": "近距離に広範囲の爆風を発射するか、収束させて中距離に強力な熱線を照射することができる実験的な武器。",
+      "ko-KR": "근거리에서 넓은 폭발을 일으키거나, 초점을 맞춰 중거리에서 정밀한 열선을 발사할 수 있는 실험용 무기입니다.",
+      "no": "Et eksperimentelt våpen som enten kan avfyre en bred salve på kort hold, eller fokuseres for å avfyre en konsentrert varmestråle på mellomlangt hold.",
+      "pl": "Eksperymentalna broń, która może wystrzelić szeroki podmuch na krótki dystans lub zostać skupiona, aby wystrzelić wąską wiązkę ciepła o średnim zasięgu.",
+      "pt": "Uma arma experimental que pode disparar uma rajada ampla de curto alcance ou ser focada para disparar um feixe de calor estreito de médio alcance.",
+      "pt-BR": "Uma arma experimental que pode disparar uma rajada ampla de curto alcance ou ser focada para disparar um feixe de calor concentrado de médio alcance.",
+      "ru": "Экспериментальное оружие, которое может либо производить широкий залп на короткой дистанции, либо фокусироваться для стрельбы узким тепловым лучом на средней дистанции.",
+      "sr": "Eksperimentalno oružje koje može ispaliti široki prasak kratkog dometa ili se može fokusirati za ispaljivanje uskog toplotnog snopa srednjeg dometa.",
+      "tr": "İster kısa menzilli geniş bir patlama ateşleyebilen ister orta menzilli dar bir ısı ışını ateşlemek için odaklanabilen deneysel bir silah.",
+      "uk": "Експериментальна зброя, яка може або стріляти широким залпом на короткій дистанції, або фокусуватися для стрільби вузьким тепловим променем на середній дистанції.",
+      "zh-CN": "一种实验性武器，既可以发射宽范围的短程冲击，也可以聚焦发射窄范围的中程热能光束。",
+      "zh-TW": "一種實驗性武器，既可以發射寬範圍的短程衝擊，也可以聚焦發射窄範圍的中程熱能光束。"
+    },
+    "type": "Shotgun",
+    "rarity": "Legendary",
+    "value": 27500,
+    "weightKg": 8,
+    "stackSize": 1,
+    "isWeapon": true,
+    "blueprintLocked": true,
+    "craftBench": "weapon_bench",
+    "stationLevelRequired": 3,
+    "recipe": {
+      "magnetic_accelerator": 3,
+      "shredder_gyro": 3,
+      "vaporizer_regulator": 2
+    },
+    "recyclesInto": {
+      "magnetic_accelerator": 2
+    },
+    "salvagesInto": {
+      "magnetic_accelerator": 1
+    },
+    "updatedAt": "03/31/2026",
+    "addedIn": "1.22",
+    "crafting_components": [
+      {
+        "item": {
+          "id": "magnetic_accelerator",
+          "name": {
+            "da": "Magnetisk Accelerator",
+            "de": "Magnetischer Beschleuniger",
+            "en": "Magnetic Accelerator",
+            "es": "Acelerador Magnético",
+            "fr": "Accélérateur Magnétique",
+            "he": "מאיץ מגנטי",
+            "hr": "Magnetski Akcelerator",
+            "it": "Acceleratore Magnetico",
+            "ja": "磁力加速装置",
+            "ko-KR": "자성 가속기",
+            "no": "Magnetisk Akselerator",
+            "pl": "Akcelerator Magnetyczny",
+            "pt": "Acelerador Magnético",
+            "pt-BR": "Acelerador Magnético",
+            "ru": "Магнитный ускоритель",
+            "sr": "Magnetski Akcelerator",
+            "tr": "Manyetik Hızlandırıcı",
+            "uk": "Магнітний прискорювач",
+            "zh-CN": "磁力加速器",
+            "zh-TW": "磁力加速器"
+          },
+          "description": {
+            "da": "Bruges til at lave avancerede våben. Bruges til at lave: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
+            "de": "Wird zur Herstellung von fortschrittlichen Waffen verwendet. Zur Herstellung von: Tempest, Equalizer, Vulcano, Aphelion, Jupiter",
+            "en": "Used to craft advanced weapons. Used to craft: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
+            "es": "Usado para fabricar armas avanzadas. Usado para fabricar: Tempestad, Equalizer, Vulcano, Jupiter, Partecascos",
+            "fr": "Permet de fabriquer des armes avancées. Permet de fabriquer : Tempête, Égaliseur, Vulcano, Aphelion, Jupiter",
+            "he": "משמש ליצירת נשקים מתקדמים. משמש ליצירת: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
+            "hr": "Koristi se za izradu naprednog oružja. Koristi se za izradu: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
+            "it": "Si usa per creare armi avanzate. Si usa per creare: Tempesta, Equalizzatore, Vulcano, Aphelion, Giove",
+            "ja": "高度な武器の製作に使用。製作可能: Tempest、Equalizer、Vulcano、Jupiter、Hullcracker",
+            "ko-KR": "고급 무기 제작에 사용됩니다. 제작 가능: 템페스트, 이퀄라이저, 불카노, 주피터, 헐크래커",
+            "no": "Brukes til å lage avanserte våpen. Brukes til å lage: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
+            "pl": "Używany do wytwarzania zaawansowanej broni. Używany do wytworzenia: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
+            "pt": "Usado para fabricar armas avançadas. Usado para fabricar: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
+            "pt-BR": "Usado para fabricar armas avançadas. Usado para fabricar: Temporal, Equalizador, Vulcão, Jupiter, Afélio",
+            "ru": "Используется для создания продвинутого оружия. Используется для создания: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
+            "sr": "Koristi se za izradu naprednog oružja. Koristi se za izradu: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
+            "tr": "Gelişmiş silahlar üretmek için kullanılır. Üretilebilir: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
+            "uk": "Використовується для створення просунутої зброї. Використовується для створення: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
+            "zh-CN": "用于制作高级武器。可制作：Tempest、Equalizer、Vulcano、Jupiter、Hullcracker",
+            "zh-TW": "用於製作高級武器。可製作：Tempest、Equalizer、Vulcano、Jupiter、Hullcracker"
+          },
+          "type": "Refined Material",
+          "rarity": "Epic",
+          "foundIn": "Exodus",
+          "value": 5500,
+          "weightKg": 1,
+          "stackSize": 3,
+          "craftBench": "refiner",
+          "stationLevelRequired": 3,
+          "recipe": {
+            "advanced_mechanical_components": 2,
+            "arc_motion_core": 2
+          },
+          "recyclesInto": {
+            "advanced_mechanical_components": 1,
+            "arc_motion_core": 1
+          },
+          "salvagesInto": {
+            "advanced_mechanical_components": 1
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/magnetic_accelerator.png",
+          "updatedAt": "03/17/2026",
+          "addedIn": "base"
+        },
+        "component": {
+          "id": "magnetic_accelerator"
+        }
+      },
+      {
+        "item": {
+          "id": "shredder_gyro",
+          "name": {
+            "da": "Shredder-gyroskop",
+            "de": "Schredder-Gyroskop",
+            "en": "Shredder Gyro",
+            "es": "Giroscopio de Triturador",
+            "fr": "Gyroscope Shredder",
+            "he": "ג'יירו מגרסה",
+            "hr": "Shredder žiroskop",
+            "it": "Giroscopio Shredder",
+            "ja": "シュレッダージャイロ",
+            "ko-KR": "슈레더 자이로",
+            "no": "Shredder-gyroskop",
+            "pl": "Żyroskop Shreddера",
+            "pt": "Giroscópio Shredder",
+            "pt-BR": "Giroscópio de Triturador",
+            "ru": "Гироскоп Измельчителя",
+            "sr": "Shredder žiroskop",
+            "tr": "Öğütücü Jiroskop",
+            "uk": "Гіроскоп шредера",
+            "zh-CN": "粉碎者陀螺仪",
+            "zh-TW": "粉碎者陀螺儀"
+          },
+          "description": {
+            "da": "Kan genbruges til håndværksmaterialer.",
+            "de": "Kann zu Herstellungsmaterialien recycelt werden.",
+            "en": "Can be recycled into crafting materials.",
+            "es": "Puede reciclarse en materiales de fabricación.",
+            "fr": "Peut être recyclé en matériaux d'artisanat.",
+            "he": "ניתן למחזור לחומרי יצירה.",
+            "hr": "Može se reciklirati u materijale za izradu.",
+            "it": "Si può riciclare in materiali da creazione.",
+            "ja": "クラフト素材にリサイクルできます。",
+            "ko-KR": "제작 재료로 재활용할 수 있습니다.",
+            "no": "Kan resirkuleres til håndverksmateriell.",
+            "pl": "Można przetworzyć na materiały rzemieślnicze.",
+            "pt": "Pode ser reciclado em materiais de fabricação.",
+            "pt-BR": "Pode ser reciclado em materiais de fabricação.",
+            "ru": "Можно переработать в материалы для крафта.",
+            "sr": "Može se reciklirati u materijale za izradu.",
+            "tr": "Üretim malzemelerine geri dönüştürülebilir.",
+            "uk": "Можна переробити на матеріали для крафту.",
+            "zh-CN": "可回收为制作材料。",
+            "zh-TW": "可回收為製作材料。"
+          },
+          "type": "Recyclable",
+          "rarity": "Rare",
+          "foundIn": "ARC",
+          "value": 2000,
+          "weightKg": 1,
+          "stackSize": 3,
+          "recyclesInto": {
+            "arc_alloy": 2,
+            "mechanical_components": 2
+          },
+          "salvagesInto": {
+            "mechanical_components": 2
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/shredder_gyro.png",
+          "updatedAt": "02/24/2026",
+          "addedIn": "1.2"
+        },
+        "component": {
+          "id": "shredder_gyro"
+        }
+      },
+      {
+        "item": {
+          "id": "vaporizer_regulator",
+          "name": {
+            "da": "Vaporizer Regulator",
+            "de": "Vaporizer Regulator",
+            "en": "Vaporizer Regulator",
+            "es": "Vaporizer Regulator",
+            "fr": "Vaporizer Regulator",
+            "he": "Vaporizer Regulator",
+            "hr": "Vaporizer Regulator",
+            "it": "Vaporizer Regulator",
+            "ja": "Vaporizer Regulator",
+            "ko-KR": "Vaporizer Regulator",
+            "no": "Vaporizer Regulator",
+            "pl": "Vaporizer Regulator",
+            "pt": "Vaporizer Regulator",
+            "pt-BR": "Vaporizer Regulator",
+            "ru": "Vaporizer Regulator",
+            "sr": "Vaporizer Regulator",
+            "tr": "Vaporizer Regulator",
+            "uk": "Vaporizer Regulator",
+            "zh-CN": "Vaporizer Regulator",
+            "zh-TW": "Vaporizer Regulator"
+          },
+          "description": {
+            "da": "",
+            "de": "",
+            "en": "",
+            "es": "",
+            "fr": "",
+            "he": "",
+            "hr": "",
+            "it": "",
+            "ja": "",
+            "ko-KR": "",
+            "no": "",
+            "pl": "",
+            "pt": "",
+            "pt-BR": "",
+            "ru": "",
+            "sr": "",
+            "tr": "",
+            "uk": "",
+            "zh-CN": "",
+            "zh-TW": ""
+          },
+          "type": "Recyclable",
+          "rarity": "Epic",
+          "value": 6000,
+          "weightKg": 0.5,
+          "stackSize": 1,
+          "recyclesInto": {
+            "advanced_electrical_components": 1,
+            "arc_circuitry": 2
+          },
+          "salvagesInto": {
+            "arc_circuitry": 2
+          },
+          "updatedAt": "03/31/2026",
+          "addedIn": "1.22"
+        },
+        "component": {
+          "id": "vaporizer_regulator"
+        }
+      }
+    ],
+    "workbench": "weapon_bench",
+    "item_type": "Shotgun"
+  },
+  {
+    "id": "dolabra_blueprint",
+    "name": {
+      "da": "Dolabra Tegning",
+      "de": "Dolabra Bauplan",
+      "en": "Dolabra Blueprint",
+      "es": "Dolabra Plano",
+      "fr": "Dolabra Plan",
+      "he": "Dolabra תרשים",
+      "hr": "Dolabra Nacrt",
+      "it": "Dolabra Progetto",
+      "ja": "Dolabra 設計図",
+      "ko-KR": "Dolabra 청사진",
+      "no": "Dolabra Tegning",
+      "pl": "Dolabra Schemat",
+      "pt": "Esquema de Dolabra",
+      "pt-BR": "Esquema de Dolabra",
+      "ru": "Dolabra Чертеж",
+      "sr": "Dolabra Nacrt",
+      "tr": "Dolabra Taslak",
+      "uk": "Dolabra Креслення",
+      "zh-CN": "Dolabra 蓝图",
+      "zh-TW": "Dolabra 藍圖"
+    },
+    "description": {
+      "da": "Et eksperimentelt våben, der enten kan affyre en bred eksplosion på kort afstand eller fokuseres til at affyre en præcis varmestråle på mellemlang afstand.",
+      "de": "Eine experimentelle Waffe, die entweder einen breiten Schuss mit kurzer Reichweite abgeben kann oder so fokussiert wird, dass sie einen konzentrierten Hitzestrahl mit mittlerer Reichweite verschießt.",
+      "en": "An experimental weapon that can either fire a wide short range blast, or be focused to fire a tight medium range beam of heat.",
+      "es": "Un arma experimental que puede disparar una ráfaga amplia a corta distancia o concentrarse para disparar un haz de calor preciso a media distancia.",
+      "fr": "Une arme expérimentale qui peut soit tirer une large décharge à courte portée, soit être concentrée pour tirer un faisceau de chaleur étroit à moyenne portée.",
+      "he": "נשק ניסיוני שיכול לירות פרץ רחב לטווח קצר, או להיות ממוקד לירי קרן חום הדוקה לטווח בינוני.",
+      "hr": "Eksperimentalno oružje koje može ispaliti široki prasak kratkog dometa ili se može fokusirati za ispaljivanje uskog toplinskog snopa srednjeg dometa.",
+      "it": "Un'arma sperimentale che può sparare un'ampia scarica a corto raggio o essere focalizzata per sparare un raggio di calore concentrato a medio raggio.",
+      "ja": "近距離に広範囲の爆風を発射するか、収束させて中距離に強力な熱線を照射することができる実験的な武器。",
+      "ko-KR": "근거리에서 넓은 폭발을 일으키거나, 초점을 맞춰 중거리에서 정밀한 열선을 발사할 수 있는 실험용 무기입니다.",
+      "no": "Et eksperimentelt våpen som enten kan avfyre en bred salve på kort hold, eller fokuseres for å avfyre en konsentrert varmestråle på mellomlangt hold.",
+      "pl": "Eksperymentalna broń, która może wystrzelić szeroki podmuch na krótki dystans lub zostać skupiona, aby wystrzelić wąską wiązkę ciepła o średnim zasięgu.",
+      "pt": "Uma arma experimental que pode disparar uma rajada ampla de curto alcance ou ser focada para disparar um feixe de calor estreito de médio alcance.",
+      "pt-BR": "Uma arma experimental que pode disparar uma rajada ampla de curto alcance ou ser focada para disparar um feixe de calor concentrado de médio alcance.",
+      "ru": "Экспериментальное оружие, которое может либо производить широкий залп на короткой дистанции, либо фокусироваться для стрельбы узким тепловым лучом на средней дистанции.",
+      "sr": "Eksperimentalno oružje koje može ispaliti široki prasak kratkog dometa ili se može fokusirati za ispaljivanje uskog toplotnog snopa srednjeg dometa.",
+      "tr": "İster kısa menzilli geniş bir patlama ateşleyebilen ister orta menzilli dar bir ısı ışını ateşlemek için odaklanabilen deneysel bir silah.",
+      "uk": "Експериментальна зброя, яка може або стріляти широким залпом на короткій дистанції, або фокусуватися для стрільби вузьким тепловим променем на середній дистанції.",
+      "zh-CN": "一种实验性武器，既可以发射宽范围的短程冲击，也可以聚焦发射窄范围的中程热能光束。",
+      "zh-TW": "一種實驗性武器，既可以發射寬範圍的短程衝擊，也可以聚焦發射窄範圍的中程熱能光束。"
+    },
+    "type": "Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
+    "updatedAt": "03/31/2026",
+    "addedIn": "1.22",
+    "item_type": "Blueprint"
   },
   {
     "id": "doodly_duck",
@@ -58881,6 +60521,80 @@
       },
       {
         "item": {
+          "id": "surge_coil",
+          "name": {
+            "da": "Surge Coil",
+            "de": "Surge Coil",
+            "en": "Surge Coil",
+            "es": "Surge Coil",
+            "fr": "Surge Coil",
+            "he": "Surge Coil",
+            "hr": "Surge Coil",
+            "it": "Surge Coil",
+            "ja": "Surge Coil",
+            "ko-KR": "Surge Coil",
+            "no": "Surge Coil",
+            "pl": "Surge Coil",
+            "pt": "Surge Coil",
+            "pt-BR": "Surge Coil",
+            "ru": "Surge Coil",
+            "sr": "Surge Coil",
+            "tr": "Surge Coil",
+            "uk": "Surge Coil",
+            "zh-CN": "Surge Coil",
+            "zh-TW": "Surge Coil"
+          },
+          "description": {
+            "da": "En deployerbar enhed, der periodisk elektrificerer området omkring sig selv og kortvarigt lammer alt, der fanges i det.",
+            "de": "Ein einsetzbares Gerät, das den Bereich um sich herum regelmäßig unter Strom setzt und alles, was darin gefangen ist, kurzzeitig betäubt.",
+            "en": "A deployable device that periodically electrifies the area around itself and briefly stuns anything caught within it.",
+            "es": "Un dispositivo desplegable que electrifica periódicamente el área a su alrededor y aturde brevemente a cualquier cosa atrapada en su interior.",
+            "fr": "Un dispositif déployable qui électrifie périodiquement la zone autour de lui et étourdit brièvement tout ce qui s'y trouve.",
+            "he": "מכשיר הניתן לפריסה שמחשמל מעת לעת את האזור שסביבו ומהמם לזמן קצר את כל מי שנתפס בתוכו.",
+            "hr": "Uređaj koji se može postaviti i koji povremeno naelektrizira područje oko sebe te nakratko omami sve što se nađe u njemu.",
+            "it": "Un dispositivo dispiegabile che elettrizza periodicamente l'area circostante e stordisce brevemente chiunque vi rimanga intrappolato.",
+            "ja": "一定時間ごとに周囲を帯電させ、範囲内にいるものを短時間スタンさせる設置型デバイス。",
+            "ko-KR": "주변 지역을 주기적으로 전기화하고 그 안에 갇힌 대상을 잠시 기절시키는 설치형 장치입니다.",
+            "no": "En utplasserbar enhed som periodisk elektrifiserer området rundt seg selv og kortvarig lammer alt som fanges i det.",
+            "pl": "Urządzenie możliwe do rozstawienia, które okresowo elektryzuje obszar wokół siebie i na krótko ogłusza wszystko, co się w nim znajdzie.",
+            "pt": "Um dispositivo implantável que eletrifica periodicamente a área ao seu redor e atordoa brevemente qualquer coisa capturada nela.",
+            "pt-BR": "Um dispositivo implantável que eletrifica periodicamente a área ao seu redor e atordoa brevemente qualquer coisa capturada nela.",
+            "ru": "Развертываемое устройство, которое периодически наэлектризовывает область вокруг себя и ненадолго оглушает любого, кто в нее попадет.",
+            "sr": "Uređaj koji se može postaviti i koji periodično naelektriše područje oko sebe te nakratko omami sve što se nađe u njemu.",
+            "tr": "Etrafındaki alanı periyodik olarak elektriklendiren ve içinde kalan her şeyi kısa süreliğine sersemleten konuşlandırılabilir bir cihaz.",
+            "uk": "Пристрій, що розгортається, який періодично електризує область навколо себе та на короткий час приголомшує все, що потрапляє в нього.",
+            "zh-CN": "一种可部署的设备，定期使周围区域带电，并短暂击晕其中的任何目标。",
+            "zh-TW": "一種可部署的設備，定期使周圍區域帶電，並短暫擊暈其中的任何目標。"
+          },
+          "type": "Quick Use",
+          "rarity": "Uncommon",
+          "value": 2100,
+          "weightKg": 0,
+          "stackSize": 3,
+          "blueprintLocked": true,
+          "craftBench": "explosives_bench",
+          "stationLevelRequired": 3,
+          "recipe": {
+            "electrical_components": 1,
+            "hornet_driver": 1,
+            "sensors": 1
+          },
+          "recyclesInto": {
+            "electrical_components": 1,
+            "sensors": 1
+          },
+          "salvagesInto": {
+            "electrical_components": 1
+          },
+          "updatedAt": "03/31/2026",
+          "addedIn": "1.22"
+        },
+        "component": {
+          "id": "electrical_components"
+        }
+      },
+      {
+        "item": {
           "id": "surge_shield_recharger",
           "name": {
             "da": "Surge-skjoldoplader",
@@ -60438,6 +62152,80 @@
         },
         "component": {
           "id": "spotter_relay"
+        }
+      },
+      {
+        "item": {
+          "id": "surge_coil",
+          "name": {
+            "da": "Surge Coil",
+            "de": "Surge Coil",
+            "en": "Surge Coil",
+            "es": "Surge Coil",
+            "fr": "Surge Coil",
+            "he": "Surge Coil",
+            "hr": "Surge Coil",
+            "it": "Surge Coil",
+            "ja": "Surge Coil",
+            "ko-KR": "Surge Coil",
+            "no": "Surge Coil",
+            "pl": "Surge Coil",
+            "pt": "Surge Coil",
+            "pt-BR": "Surge Coil",
+            "ru": "Surge Coil",
+            "sr": "Surge Coil",
+            "tr": "Surge Coil",
+            "uk": "Surge Coil",
+            "zh-CN": "Surge Coil",
+            "zh-TW": "Surge Coil"
+          },
+          "description": {
+            "da": "En deployerbar enhed, der periodisk elektrificerer området omkring sig selv og kortvarigt lammer alt, der fanges i det.",
+            "de": "Ein einsetzbares Gerät, das den Bereich um sich herum regelmäßig unter Strom setzt und alles, was darin gefangen ist, kurzzeitig betäubt.",
+            "en": "A deployable device that periodically electrifies the area around itself and briefly stuns anything caught within it.",
+            "es": "Un dispositivo desplegable que electrifica periódicamente el área a su alrededor y aturde brevemente a cualquier cosa atrapada en su interior.",
+            "fr": "Un dispositif déployable qui électrifie périodiquement la zone autour de lui et étourdit brièvement tout ce qui s'y trouve.",
+            "he": "מכשיר הניתן לפריסה שמחשמל מעת לעת את האזור שסביבו ומהמם לזמן קצר את כל מי שנתפס בתוכו.",
+            "hr": "Uređaj koji se može postaviti i koji povremeno naelektrizira područje oko sebe te nakratko omami sve što se nađe u njemu.",
+            "it": "Un dispositivo dispiegabile che elettrizza periodicamente l'area circostante e stordisce brevemente chiunque vi rimanga intrappolato.",
+            "ja": "一定時間ごとに周囲を帯電させ、範囲内にいるものを短時間スタンさせる設置型デバイス。",
+            "ko-KR": "주변 지역을 주기적으로 전기화하고 그 안에 갇힌 대상을 잠시 기절시키는 설치형 장치입니다.",
+            "no": "En utplasserbar enhed som periodisk elektrifiserer området rundt seg selv og kortvarig lammer alt som fanges i det.",
+            "pl": "Urządzenie możliwe do rozstawienia, które okresowo elektryzuje obszar wokół siebie i na krótko ogłusza wszystko, co się w nim znajdzie.",
+            "pt": "Um dispositivo implantável que eletrifica periodicamente a área ao seu redor e atordoa brevemente qualquer coisa capturada nela.",
+            "pt-BR": "Um dispositivo implantável que eletrifica periodicamente a área ao seu redor e atordoa brevemente qualquer coisa capturada nela.",
+            "ru": "Развертываемое устройство, которое периодически наэлектризовывает область вокруг себя и ненадолго оглушает любого, кто в нее попадет.",
+            "sr": "Uređaj koji se može postaviti i koji periodično naelektriše područje oko sebe te nakratko omami sve što se nađe u njemu.",
+            "tr": "Etrafındaki alanı periyodik olarak elektriklendiren ve içinde kalan her şeyi kısa süreliğine sersemleten konuşlandırılabilir bir cihaz.",
+            "uk": "Пристрій, що розгортається, який періодично електризує область навколо себе та на короткий час приголомшує все, що потрапляє в нього.",
+            "zh-CN": "一种可部署的设备，定期使周围区域带电，并短暂击晕其中的任何目标。",
+            "zh-TW": "一種可部署的設備，定期使周圍區域帶電，並短暫擊暈其中的任何目標。"
+          },
+          "type": "Quick Use",
+          "rarity": "Uncommon",
+          "value": 2100,
+          "weightKg": 0,
+          "stackSize": 3,
+          "blueprintLocked": true,
+          "craftBench": "explosives_bench",
+          "stationLevelRequired": 3,
+          "recipe": {
+            "electrical_components": 1,
+            "hornet_driver": 1,
+            "sensors": 1
+          },
+          "recyclesInto": {
+            "electrical_components": 1,
+            "sensors": 1
+          },
+          "salvagesInto": {
+            "electrical_components": 1
+          },
+          "updatedAt": "03/31/2026",
+          "addedIn": "1.22"
+        },
+        "component": {
+          "id": "surge_coil"
         }
       },
       {
@@ -73781,8 +75569,12 @@
       "Max Loadout Weight": null,
       "Shield Compatibility": null
     },
+    "recyclesInto": {
+      "plastic_parts": 6,
+      "rubber_parts": 6
+    },
     "imageFilename": "https://cdn.arctracker.io/items/free_loadout_augment.png",
-    "updatedAt": "03/17/2026",
+    "updatedAt": "03/31/2026",
     "addedIn": "base",
     "icon": "https://cdn.arctracker.io/items/free_loadout_augment.png",
     "item_type": "Augment",
@@ -83094,61 +84886,6 @@
     }
   },
   {
-    "id": "horizontal_grip_blueprint",
-    "name": {
-      "da": "Horisontal Greb Tegning",
-      "de": "Bauplan: Horizontaler Griff",
-      "en": "Horizontal Grip Blueprint",
-      "es": "Plano de Empuñadura Horizontal",
-      "fr": "Schéma de Poignée Horizontale",
-      "he": "שרטוט ידית אחיזה אופקית",
-      "hr": "Nacrt Horizontalnog Rukohvata",
-      "it": "Progetto Impugnatura Orizzontale",
-      "ja": "横グリップ設計図",
-      "ko-KR": "수평 그립 설계도",
-      "no": "Horisontalt Grep Tegning",
-      "pl": "Projekt Chwytu Horyzontalnego",
-      "pt": "Projeto de Empunhadura Horizontal",
-      "pt-BR": "Esquema de Empunhadura Horizontal",
-      "ru": "Чертёж Горизонтальной Рукоятки",
-      "sr": "Nacrt Horizontalnog Rukohvata",
-      "tr": "Yatay Tutamaç Taslağı",
-      "uk": "Креслення Горизонтальної Рукоятки",
-      "zh-CN": "水平握把蓝图",
-      "zh-TW": "水平握把藍圖"
-    },
-    "description": {
-      "da": "Reducerer moderat både lodret og vandret rekyl.",
-      "de": "Verringert sowohl den vertikalen als auch den horizontalen Rückstoß moderat.",
-      "en": "Moderately reduces both vertical recoil and horizontal recoil.",
-      "es": "Reduce moderadamente el retroceso vertical y horizontal.",
-      "fr": "Réduit modérément le recul vertical et horizontal.",
-      "he": "מפחית בצורה מתונה הן את הרתע האנכי והן את הרתע האופקי.",
-      "hr": "Umjereno smanjuje i vertikalni i horizontalni trzaj.",
-      "it": "Riduce moderatamente sia il rinculo verticale che quello orizzontale.",
-      "ja": "垂直反動と水平反動を適度に軽減します。",
-      "ko-KR": "수직 반동과 수평 반동을 적당히 감소시킵니다.",
-      "no": "Reduserer moderat både vertikal og horisontal rekyl.",
-      "pl": "Umiarkowanie zmniejsza odrzut pionowy i poziomy.",
-      "pt": "Reduz moderadamente o recuo vertical e horizontal.",
-      "pt-BR": "Reduz moderadamente o recuo vertical e horizontal.",
-      "ru": "Умеренно снижает как вертикальную, так и горизонтальную отдачу.",
-      "sr": "Umereno smanjuje i vertikalni i horizontalni trzaj.",
-      "tr": "Hem dikey hem de yatay geri tepmeyi orta düzeyde azaltır.",
-      "uk": "Помірно зменшує як вертикальну, так і горизонтальну віддачу.",
-      "zh-CN": "适度降低垂直和水平后坐力。",
-      "zh-TW": "適度降低垂直和水平後座力。"
-    },
-    "type": "Blueprint",
-    "rarity": "Legendary",
-    "value": 5000,
-    "weightKg": 0,
-    "imageFilename": "https://cdn.arctracker.io/items/horizontal_grip.png",
-    "updatedAt": "01/13/2026",
-    "icon": "https://cdn.arctracker.io/items/horizontal_grip.png",
-    "item_type": "Blueprint"
-  },
-  {
     "id": "hornet_driver",
     "name": {
       "da": "Hvepsedriver",
@@ -83424,6 +85161,80 @@
           "imageFilename": "https://cdn.arctracker.io/items/showstopper.png",
           "updatedAt": "02/24/2026",
           "addedIn": "base"
+        },
+        "component": {
+          "id": "hornet_driver"
+        }
+      },
+      {
+        "item": {
+          "id": "surge_coil",
+          "name": {
+            "da": "Surge Coil",
+            "de": "Surge Coil",
+            "en": "Surge Coil",
+            "es": "Surge Coil",
+            "fr": "Surge Coil",
+            "he": "Surge Coil",
+            "hr": "Surge Coil",
+            "it": "Surge Coil",
+            "ja": "Surge Coil",
+            "ko-KR": "Surge Coil",
+            "no": "Surge Coil",
+            "pl": "Surge Coil",
+            "pt": "Surge Coil",
+            "pt-BR": "Surge Coil",
+            "ru": "Surge Coil",
+            "sr": "Surge Coil",
+            "tr": "Surge Coil",
+            "uk": "Surge Coil",
+            "zh-CN": "Surge Coil",
+            "zh-TW": "Surge Coil"
+          },
+          "description": {
+            "da": "En deployerbar enhed, der periodisk elektrificerer området omkring sig selv og kortvarigt lammer alt, der fanges i det.",
+            "de": "Ein einsetzbares Gerät, das den Bereich um sich herum regelmäßig unter Strom setzt und alles, was darin gefangen ist, kurzzeitig betäubt.",
+            "en": "A deployable device that periodically electrifies the area around itself and briefly stuns anything caught within it.",
+            "es": "Un dispositivo desplegable que electrifica periódicamente el área a su alrededor y aturde brevemente a cualquier cosa atrapada en su interior.",
+            "fr": "Un dispositif déployable qui électrifie périodiquement la zone autour de lui et étourdit brièvement tout ce qui s'y trouve.",
+            "he": "מכשיר הניתן לפריסה שמחשמל מעת לעת את האזור שסביבו ומהמם לזמן קצר את כל מי שנתפס בתוכו.",
+            "hr": "Uređaj koji se može postaviti i koji povremeno naelektrizira područje oko sebe te nakratko omami sve što se nađe u njemu.",
+            "it": "Un dispositivo dispiegabile che elettrizza periodicamente l'area circostante e stordisce brevemente chiunque vi rimanga intrappolato.",
+            "ja": "一定時間ごとに周囲を帯電させ、範囲内にいるものを短時間スタンさせる設置型デバイス。",
+            "ko-KR": "주변 지역을 주기적으로 전기화하고 그 안에 갇힌 대상을 잠시 기절시키는 설치형 장치입니다.",
+            "no": "En utplasserbar enhed som periodisk elektrifiserer området rundt seg selv og kortvarig lammer alt som fanges i det.",
+            "pl": "Urządzenie możliwe do rozstawienia, które okresowo elektryzuje obszar wokół siebie i na krótko ogłusza wszystko, co się w nim znajdzie.",
+            "pt": "Um dispositivo implantável que eletrifica periodicamente a área ao seu redor e atordoa brevemente qualquer coisa capturada nela.",
+            "pt-BR": "Um dispositivo implantável que eletrifica periodicamente a área ao seu redor e atordoa brevemente qualquer coisa capturada nela.",
+            "ru": "Развертываемое устройство, которое периодически наэлектризовывает область вокруг себя и ненадолго оглушает любого, кто в нее попадет.",
+            "sr": "Uređaj koji se može postaviti i koji periodično naelektriše područje oko sebe te nakratko omami sve što se nađe u njemu.",
+            "tr": "Etrafındaki alanı periyodik olarak elektriklendiren ve içinde kalan her şeyi kısa süreliğine sersemleten konuşlandırılabilir bir cihaz.",
+            "uk": "Пристрій, що розгортається, який періодично електризує область навколо себе та на короткий час приголомшує все, що потрапляє в нього.",
+            "zh-CN": "一种可部署的设备，定期使周围区域带电，并短暂击晕其中的任何目标。",
+            "zh-TW": "一種可部署的設備，定期使周圍區域帶電，並短暫擊暈其中的任何目標。"
+          },
+          "type": "Quick Use",
+          "rarity": "Uncommon",
+          "value": 2100,
+          "weightKg": 0,
+          "stackSize": 3,
+          "blueprintLocked": true,
+          "craftBench": "explosives_bench",
+          "stationLevelRequired": 3,
+          "recipe": {
+            "electrical_components": 1,
+            "hornet_driver": 1,
+            "sensors": 1
+          },
+          "recyclesInto": {
+            "electrical_components": 1,
+            "sensors": 1
+          },
+          "salvagesInto": {
+            "electrical_components": 1
+          },
+          "updatedAt": "03/31/2026",
+          "addedIn": "1.22"
         },
         "component": {
           "id": "hornet_driver"
@@ -88504,61 +90315,6 @@
       "Increased Horizontal Recoil": "20%",
       "Increased Vertical Recoil": "20%"
     }
-  },
-  {
-    "id": "kinetic_converter_blueprint",
-    "name": {
-      "da": "Kinetisk konverter Tegning",
-      "de": "Bauplan: Kinetischer Konverter",
-      "en": "Kinetic Converter Blueprint",
-      "es": "Plano de Convertidor cinético",
-      "fr": "Schéma Convertisseur Cinétique",
-      "he": "שרטוט ממיר קינטי",
-      "hr": "Nacrt za Kinetički pretvarač",
-      "it": "Progetto Convertitore cinetico",
-      "ja": "キネティック・コンバーター 設計図",
-      "ko-KR": "키네틱 컨버터 설계도",
-      "no": "Kinetisk konverter Tegning",
-      "pl": "Projekt Konwerter kinetyczny",
-      "pt": "Projeto de Conversor cinético",
-      "pt-BR": "Esquema de Conversor Cinético",
-      "ru": "Чертёж кинетического преобразователя",
-      "sr": "Nacrt za Kinetički pretvarač",
-      "tr": "Kinetik Dönüştürücü Taslağı",
-      "uk": "Креслення кінетичного перетворювача",
-      "zh-CN": "动能转换器蓝图",
-      "zh-TW": "動能轉換器藍圖"
-    },
-    "description": {
-      "da": "En tegning til at lave Kinetisk konverter.",
-      "de": "Ein Bauplan zur Herstellung des Kinetischen Konverters.",
-      "en": "A blueprint to craft the Kinetic Converter.",
-      "es": "Un plano para fabricar el Convertidor cinético.",
-      "fr": "Un schéma pour fabriquer le Convertisseur Cinétique.",
-      "he": "שרטוט ליצירת ממיר קינטי.",
-      "hr": "Nacrt za izradu Kinetičkog pretvarača.",
-      "it": "Un progetto per creare il Convertitore cinetico.",
-      "ja": "キネティック・コンバーター を製作するための設計図。",
-      "ko-KR": "키네틱 컨버터을 제작하기 위한 설계도.",
-      "no": "En tegning for å lage Kinetisk konverter.",
-      "pl": "Projekt do wytworzenia Konwertera kinetycznego.",
-      "pt": "Um projeto para fabricar o Conversor cinético.",
-      "pt-BR": "Um esquema para fabricar o Conversor Cinético.",
-      "ru": "Чертёж для создания кинетического преобразователя.",
-      "sr": "Nacrt za izradu Kinetičkog pretvarača.",
-      "tr": "Kinetik Dönüştürücü üretmek için bir plan.",
-      "uk": "Креслення для створення кінетичного перетворювача.",
-      "zh-CN": "用于制作动能转换器的蓝图。",
-      "zh-TW": "用於製作動能轉換器的藍圖。"
-    },
-    "type": "Blueprint",
-    "rarity": "Legendary",
-    "value": 5000,
-    "weightKg": 0,
-    "imageFilename": "https://cdn.arctracker.io/items/kinetic_converter.png",
-    "updatedAt": "01/19/2026",
-    "icon": "https://cdn.arctracker.io/items/kinetic_converter.png",
-    "item_type": "Blueprint"
   },
   {
     "id": "laboratory_reagents",
@@ -95770,6 +97526,80 @@
     "used_in": [
       {
         "item": {
+          "id": "canto_i",
+          "name": {
+            "da": "Canto I",
+            "de": "Canto I",
+            "en": "Canto I",
+            "es": "Canto I",
+            "fr": "Canto I",
+            "he": "Canto I",
+            "hr": "Canto I",
+            "it": "Canto I",
+            "ja": "Canto I",
+            "ko-KR": "Canto I",
+            "no": "Canto I",
+            "pl": "Canto I",
+            "pt": "Canto I",
+            "pt-BR": "Canto I",
+            "ru": "Canto I",
+            "sr": "Canto I",
+            "tr": "Canto I",
+            "uk": "Canto I",
+            "zh-CN": "Canto I",
+            "zh-TW": "Canto I"
+          },
+          "description": {
+            "da": "Fuldautomatisk maskinpistol med en større kaliber.",
+            "de": "Vollautomatische Maschinenpistole mit größerem Kaliber.",
+            "en": "Fully automatic submachine gun with a larger caliber.",
+            "es": "Subfusil totalmente automático con un calibre mayor.",
+            "fr": "Pistolet mitrailleur entièrement automatique d'un plus gros calibre.",
+            "he": "תת-מקלע אוטומטי מלא עם קליבר גדול יותר.",
+            "hr": "Potpuno automatska strojnica većeg kalibra.",
+            "it": "Pistola mitragliatrice completamente automatica con un calibro maggiore.",
+            "ja": "大口径のフルオートマチックサブマシンガン。",
+            "ko-KR": "더 큰 구경의 완전 자동 기관단총입니다.",
+            "no": "Helautomatisk maskinpistol med et større kaliber.",
+            "pl": "W pełni automatyczny pistolet maszynowy o większym kalibrze.",
+            "pt": "Submetralhadora totalmente automática com um calibre maior.",
+            "pt-BR": "Submetralhadora totalmente automática com calibre maior.",
+            "ru": "Полностью автоматический пистолет-пулемет большего калибра.",
+            "sr": "Potpuno automatski automat većeg kalibra.",
+            "tr": "Daha büyük kalibreli, tam otomatik makineli tabanca.",
+            "uk": "Повністю автоматичний пістолет-кулемет більшого калібру.",
+            "zh-CN": "全自动大口径冲锋枪。",
+            "zh-TW": "全自動大口徑衝鋒槍。"
+          },
+          "type": "SMG",
+          "rarity": "Legendary",
+          "value": 7000,
+          "weightKg": 6.5,
+          "stackSize": 1,
+          "blueprintLocked": true,
+          "craftBench": "weapon_bench",
+          "stationLevelRequired": 3,
+          "recipe": {
+            "advanced_mechanical_components": 2,
+            "magnet": 5,
+            "medium_gun_parts": 3
+          },
+          "recyclesInto": {
+            "advanced_mechanical_components": 1,
+            "medium_gun_parts": 2
+          },
+          "salvagesInto": {
+            "medium_gun_parts": 2
+          },
+          "updatedAt": "03/31/2026",
+          "addedIn": "1.22"
+        },
+        "component": {
+          "id": "magnet"
+        }
+      },
+      {
+        "item": {
           "id": "combat_mk2",
           "name": {
             "da": "Kamp Mk. 2",
@@ -98325,6 +100155,80 @@
       },
       {
         "item": {
+          "id": "dolabra",
+          "name": {
+            "da": "Dolabra",
+            "de": "Dolabra",
+            "en": "Dolabra",
+            "es": "Dolabra",
+            "fr": "Dolabra",
+            "he": "Dolabra",
+            "hr": "Dolabra",
+            "it": "Dolabra",
+            "ja": "Dolabra",
+            "ko-KR": "Dolabra",
+            "no": "Dolabra",
+            "pl": "Dolabra",
+            "pt": "Dolabra",
+            "pt-BR": "Dolabra",
+            "ru": "Dolabra",
+            "sr": "Dolabra",
+            "tr": "Dolabra",
+            "uk": "Dolabra",
+            "zh-CN": "Dolabra",
+            "zh-TW": "Dolabra"
+          },
+          "description": {
+            "da": "Et eksperimentelt våben, der enten kan affyre en bred eksplosion på kort afstand eller fokuseres til at affyre en præcis varmestråle på mellemlang afstand.",
+            "de": "Eine experimentelle Waffe, die entweder einen breiten Schuss mit kurzer Reichweite abgeben kann oder so fokussiert wird, dass sie einen konzentrierten Hitzestrahl mit mittlerer Reichweite verschießt.",
+            "en": "An experimental weapon that can either fire a wide short range blast, or be focused to fire a tight medium range beam of heat.",
+            "es": "Un arma experimental que puede disparar una ráfaga amplia a corta distancia o concentrarse para disparar un haz de calor preciso a media distancia.",
+            "fr": "Une arme expérimentale qui peut soit tirer une large décharge à courte portée, soit être concentrée pour tirer un faisceau de chaleur étroit à moyenne portée.",
+            "he": "נשק ניסיוני שיכול לירות פרץ רחב לטווח קצר, או להיות ממוקד לירי קרן חום הדוקה לטווח בינוני.",
+            "hr": "Eksperimentalno oružje koje može ispaliti široki prasak kratkog dometa ili se može fokusirati za ispaljivanje uskog toplinskog snopa srednjeg dometa.",
+            "it": "Un'arma sperimentale che può sparare un'ampia scarica a corto raggio o essere focalizzata per sparare un raggio di calore concentrato a medio raggio.",
+            "ja": "近距離に広範囲の爆風を発射するか、収束させて中距離に強力な熱線を照射することができる実験的な武器。",
+            "ko-KR": "근거리에서 넓은 폭발을 일으키거나, 초점을 맞춰 중거리에서 정밀한 열선을 발사할 수 있는 실험용 무기입니다.",
+            "no": "Et eksperimentelt våpen som enten kan avfyre en bred salve på kort hold, eller fokuseres for å avfyre en konsentrert varmestråle på mellomlangt hold.",
+            "pl": "Eksperymentalna broń, która może wystrzelić szeroki podmuch na krótki dystans lub zostać skupiona, aby wystrzelić wąską wiązkę ciepła o średnim zasięgu.",
+            "pt": "Uma arma experimental que pode disparar uma rajada ampla de curto alcance ou ser focada para disparar um feixe de calor estreito de médio alcance.",
+            "pt-BR": "Uma arma experimental que pode disparar uma rajada ampla de curto alcance ou ser focada para disparar um feixe de calor concentrado de médio alcance.",
+            "ru": "Экспериментальное оружие, которое может либо производить широкий залп на короткой дистанции, либо фокусироваться для стрельбы узким тепловым лучом на средней дистанции.",
+            "sr": "Eksperimentalno oružje koje može ispaliti široki prasak kratkog dometa ili se može fokusirati za ispaljivanje uskog toplotnog snopa srednjeg dometa.",
+            "tr": "İster kısa menzilli geniş bir patlama ateşleyebilen ister orta menzilli dar bir ısı ışını ateşlemek için odaklanabilen deneysel bir silah.",
+            "uk": "Експериментальна зброя, яка може або стріляти широким залпом на короткій дистанції, або фокусуватися для стрільби вузьким тепловим променем на середній дистанції.",
+            "zh-CN": "一种实验性武器，既可以发射宽范围的短程冲击，也可以聚焦发射窄范围的中程热能光束。",
+            "zh-TW": "一種實驗性武器，既可以發射寬範圍的短程衝擊，也可以聚焦發射窄範圍的中程熱能光束。"
+          },
+          "type": "Shotgun",
+          "rarity": "Legendary",
+          "value": 27500,
+          "weightKg": 8,
+          "stackSize": 1,
+          "isWeapon": true,
+          "blueprintLocked": true,
+          "craftBench": "weapon_bench",
+          "stationLevelRequired": 3,
+          "recipe": {
+            "magnetic_accelerator": 3,
+            "shredder_gyro": 3,
+            "vaporizer_regulator": 2
+          },
+          "recyclesInto": {
+            "magnetic_accelerator": 2
+          },
+          "salvagesInto": {
+            "magnetic_accelerator": 1
+          },
+          "updatedAt": "03/31/2026",
+          "addedIn": "1.22"
+        },
+        "component": {
+          "id": "magnetic_accelerator"
+        }
+      },
+      {
+        "item": {
           "id": "equalizer",
           "name": {
             "da": "Equalizer",
@@ -99596,6 +101500,80 @@
         },
         "component": {
           "id": "aphelion"
+        }
+      },
+      {
+        "item": {
+          "id": "dolabra",
+          "name": {
+            "da": "Dolabra",
+            "de": "Dolabra",
+            "en": "Dolabra",
+            "es": "Dolabra",
+            "fr": "Dolabra",
+            "he": "Dolabra",
+            "hr": "Dolabra",
+            "it": "Dolabra",
+            "ja": "Dolabra",
+            "ko-KR": "Dolabra",
+            "no": "Dolabra",
+            "pl": "Dolabra",
+            "pt": "Dolabra",
+            "pt-BR": "Dolabra",
+            "ru": "Dolabra",
+            "sr": "Dolabra",
+            "tr": "Dolabra",
+            "uk": "Dolabra",
+            "zh-CN": "Dolabra",
+            "zh-TW": "Dolabra"
+          },
+          "description": {
+            "da": "Et eksperimentelt våben, der enten kan affyre en bred eksplosion på kort afstand eller fokuseres til at affyre en præcis varmestråle på mellemlang afstand.",
+            "de": "Eine experimentelle Waffe, die entweder einen breiten Schuss mit kurzer Reichweite abgeben kann oder so fokussiert wird, dass sie einen konzentrierten Hitzestrahl mit mittlerer Reichweite verschießt.",
+            "en": "An experimental weapon that can either fire a wide short range blast, or be focused to fire a tight medium range beam of heat.",
+            "es": "Un arma experimental que puede disparar una ráfaga amplia a corta distancia o concentrarse para disparar un haz de calor preciso a media distancia.",
+            "fr": "Une arme expérimentale qui peut soit tirer une large décharge à courte portée, soit être concentrée pour tirer un faisceau de chaleur étroit à moyenne portée.",
+            "he": "נשק ניסיוני שיכול לירות פרץ רחב לטווח קצר, או להיות ממוקד לירי קרן חום הדוקה לטווח בינוני.",
+            "hr": "Eksperimentalno oružje koje može ispaliti široki prasak kratkog dometa ili se može fokusirati za ispaljivanje uskog toplinskog snopa srednjeg dometa.",
+            "it": "Un'arma sperimentale che può sparare un'ampia scarica a corto raggio o essere focalizzata per sparare un raggio di calore concentrato a medio raggio.",
+            "ja": "近距離に広範囲の爆風を発射するか、収束させて中距離に強力な熱線を照射することができる実験的な武器。",
+            "ko-KR": "근거리에서 넓은 폭발을 일으키거나, 초점을 맞춰 중거리에서 정밀한 열선을 발사할 수 있는 실험용 무기입니다.",
+            "no": "Et eksperimentelt våpen som enten kan avfyre en bred salve på kort hold, eller fokuseres for å avfyre en konsentrert varmestråle på mellomlangt hold.",
+            "pl": "Eksperymentalna broń, która może wystrzelić szeroki podmuch na krótki dystans lub zostać skupiona, aby wystrzelić wąską wiązkę ciepła o średnim zasięgu.",
+            "pt": "Uma arma experimental que pode disparar uma rajada ampla de curto alcance ou ser focada para disparar um feixe de calor estreito de médio alcance.",
+            "pt-BR": "Uma arma experimental que pode disparar uma rajada ampla de curto alcance ou ser focada para disparar um feixe de calor concentrado de médio alcance.",
+            "ru": "Экспериментальное оружие, которое может либо производить широкий залп на короткой дистанции, либо фокусироваться для стрельбы узким тепловым лучом на средней дистанции.",
+            "sr": "Eksperimentalno oružje koje može ispaliti široki prasak kratkog dometa ili se može fokusirati za ispaljivanje uskog toplotnog snopa srednjeg dometa.",
+            "tr": "İster kısa menzilli geniş bir patlama ateşleyebilen ister orta menzilli dar bir ısı ışını ateşlemek için odaklanabilen deneysel bir silah.",
+            "uk": "Експериментальна зброя, яка може або стріляти широким залпом на короткій дистанції, або фокусуватися для стрільби вузьким тепловим променем на середній дистанції.",
+            "zh-CN": "一种实验性武器，既可以发射宽范围的短程冲击，也可以聚焦发射窄范围的中程热能光束。",
+            "zh-TW": "一種實驗性武器，既可以發射寬範圍的短程衝擊，也可以聚焦發射窄範圍的中程熱能光束。"
+          },
+          "type": "Shotgun",
+          "rarity": "Legendary",
+          "value": 27500,
+          "weightKg": 8,
+          "stackSize": 1,
+          "isWeapon": true,
+          "blueprintLocked": true,
+          "craftBench": "weapon_bench",
+          "stationLevelRequired": 3,
+          "recipe": {
+            "magnetic_accelerator": 3,
+            "shredder_gyro": 3,
+            "vaporizer_regulator": 2
+          },
+          "recyclesInto": {
+            "magnetic_accelerator": 2
+          },
+          "salvagesInto": {
+            "magnetic_accelerator": 1
+          },
+          "updatedAt": "03/31/2026",
+          "addedIn": "1.22"
+        },
+        "component": {
+          "id": "dolabra"
         }
       },
       {
@@ -110991,6 +112969,80 @@
     "used_in": [
       {
         "item": {
+          "id": "canto_i",
+          "name": {
+            "da": "Canto I",
+            "de": "Canto I",
+            "en": "Canto I",
+            "es": "Canto I",
+            "fr": "Canto I",
+            "he": "Canto I",
+            "hr": "Canto I",
+            "it": "Canto I",
+            "ja": "Canto I",
+            "ko-KR": "Canto I",
+            "no": "Canto I",
+            "pl": "Canto I",
+            "pt": "Canto I",
+            "pt-BR": "Canto I",
+            "ru": "Canto I",
+            "sr": "Canto I",
+            "tr": "Canto I",
+            "uk": "Canto I",
+            "zh-CN": "Canto I",
+            "zh-TW": "Canto I"
+          },
+          "description": {
+            "da": "Fuldautomatisk maskinpistol med en større kaliber.",
+            "de": "Vollautomatische Maschinenpistole mit größerem Kaliber.",
+            "en": "Fully automatic submachine gun with a larger caliber.",
+            "es": "Subfusil totalmente automático con un calibre mayor.",
+            "fr": "Pistolet mitrailleur entièrement automatique d'un plus gros calibre.",
+            "he": "תת-מקלע אוטומטי מלא עם קליבר גדול יותר.",
+            "hr": "Potpuno automatska strojnica većeg kalibra.",
+            "it": "Pistola mitragliatrice completamente automatica con un calibro maggiore.",
+            "ja": "大口径のフルオートマチックサブマシンガン。",
+            "ko-KR": "더 큰 구경의 완전 자동 기관단총입니다.",
+            "no": "Helautomatisk maskinpistol med et større kaliber.",
+            "pl": "W pełni automatyczny pistolet maszynowy o większym kalibrze.",
+            "pt": "Submetralhadora totalmente automática com um calibre maior.",
+            "pt-BR": "Submetralhadora totalmente automática com calibre maior.",
+            "ru": "Полностью автоматический пистолет-пулемет большего калибра.",
+            "sr": "Potpuno automatski automat većeg kalibra.",
+            "tr": "Daha büyük kalibreli, tam otomatik makineli tabanca.",
+            "uk": "Повністю автоматичний пістолет-кулемет більшого калібру.",
+            "zh-CN": "全自动大口径冲锋枪。",
+            "zh-TW": "全自動大口徑衝鋒槍。"
+          },
+          "type": "SMG",
+          "rarity": "Legendary",
+          "value": 7000,
+          "weightKg": 6.5,
+          "stackSize": 1,
+          "blueprintLocked": true,
+          "craftBench": "weapon_bench",
+          "stationLevelRequired": 3,
+          "recipe": {
+            "advanced_mechanical_components": 2,
+            "magnet": 5,
+            "medium_gun_parts": 3
+          },
+          "recyclesInto": {
+            "advanced_mechanical_components": 1,
+            "medium_gun_parts": 2
+          },
+          "salvagesInto": {
+            "medium_gun_parts": 2
+          },
+          "updatedAt": "03/31/2026",
+          "addedIn": "1.22"
+        },
+        "component": {
+          "id": "medium_gun_parts"
+        }
+      },
+      {
+        "item": {
           "id": "complex_gun_parts",
           "name": {
             "da": "Komplekse våbendele",
@@ -112262,6 +114314,290 @@
       }
     ],
     "recycle_from": [
+      {
+        "item": {
+          "id": "canto_i",
+          "name": {
+            "da": "Canto I",
+            "de": "Canto I",
+            "en": "Canto I",
+            "es": "Canto I",
+            "fr": "Canto I",
+            "he": "Canto I",
+            "hr": "Canto I",
+            "it": "Canto I",
+            "ja": "Canto I",
+            "ko-KR": "Canto I",
+            "no": "Canto I",
+            "pl": "Canto I",
+            "pt": "Canto I",
+            "pt-BR": "Canto I",
+            "ru": "Canto I",
+            "sr": "Canto I",
+            "tr": "Canto I",
+            "uk": "Canto I",
+            "zh-CN": "Canto I",
+            "zh-TW": "Canto I"
+          },
+          "description": {
+            "da": "Fuldautomatisk maskinpistol med en større kaliber.",
+            "de": "Vollautomatische Maschinenpistole mit größerem Kaliber.",
+            "en": "Fully automatic submachine gun with a larger caliber.",
+            "es": "Subfusil totalmente automático con un calibre mayor.",
+            "fr": "Pistolet mitrailleur entièrement automatique d'un plus gros calibre.",
+            "he": "תת-מקלע אוטומטי מלא עם קליבר גדול יותר.",
+            "hr": "Potpuno automatska strojnica većeg kalibra.",
+            "it": "Pistola mitragliatrice completamente automatica con un calibro maggiore.",
+            "ja": "大口径のフルオートマチックサブマシンガン。",
+            "ko-KR": "더 큰 구경의 완전 자동 기관단총입니다.",
+            "no": "Helautomatisk maskinpistol med et større kaliber.",
+            "pl": "W pełni automatyczny pistolet maszynowy o większym kalibrze.",
+            "pt": "Submetralhadora totalmente automática com um calibre maior.",
+            "pt-BR": "Submetralhadora totalmente automática com calibre maior.",
+            "ru": "Полностью автоматический пистолет-пулемет большего калибра.",
+            "sr": "Potpuno automatski automat većeg kalibra.",
+            "tr": "Daha büyük kalibreli, tam otomatik makineli tabanca.",
+            "uk": "Повністю автоматичний пістолет-кулемет більшого калібру.",
+            "zh-CN": "全自动大口径冲锋枪。",
+            "zh-TW": "全自動大口徑衝鋒槍。"
+          },
+          "type": "SMG",
+          "rarity": "Legendary",
+          "value": 7000,
+          "weightKg": 6.5,
+          "stackSize": 1,
+          "blueprintLocked": true,
+          "craftBench": "weapon_bench",
+          "stationLevelRequired": 3,
+          "recipe": {
+            "advanced_mechanical_components": 2,
+            "magnet": 5,
+            "medium_gun_parts": 3
+          },
+          "recyclesInto": {
+            "advanced_mechanical_components": 1,
+            "medium_gun_parts": 2
+          },
+          "salvagesInto": {
+            "medium_gun_parts": 2
+          },
+          "updatedAt": "03/31/2026",
+          "addedIn": "1.22"
+        },
+        "component": {
+          "id": "canto_i"
+        }
+      },
+      {
+        "item": {
+          "id": "canto_ii",
+          "name": {
+            "da": "Canto II",
+            "de": "Canto II",
+            "en": "Canto II",
+            "es": "Canto II",
+            "fr": "Canto II",
+            "he": "Canto II",
+            "hr": "Canto II",
+            "it": "Canto II",
+            "ja": "Canto II",
+            "ko-KR": "Canto II",
+            "no": "Canto II",
+            "pl": "Canto II",
+            "pt": "Canto II",
+            "pt-BR": "Canto II",
+            "ru": "Canto II",
+            "sr": "Canto II",
+            "tr": "Canto II",
+            "uk": "Canto II",
+            "zh-CN": "Canto II",
+            "zh-TW": "Canto II"
+          },
+          "description": {
+            "da": "Fuldautomatisk maskinpistol med en større kaliber.",
+            "de": "Vollautomatische Maschinenpistole mit größerem Kaliber.",
+            "en": "Fully automatic submachine gun with a larger caliber.",
+            "es": "Subfusil totalmente automático con un calibre mayor.",
+            "fr": "Pistolet mitrailleur entièrement automatique d'un plus gros calibre.",
+            "he": "תת-מקלע אווטומטי מלא עם קליבר גדול יותר.",
+            "hr": "Potpuno automatska strojnica većeg kalibra.",
+            "it": "Pistola mitragliatrice completamente automatica con un calibro maggiore.",
+            "ja": "大口径のフルオートマチックサブマシンガン。",
+            "ko-KR": "더 큰 구경의 완전 자동 기관단총입니다.",
+            "no": "Helautomatisk maskinpistol med et større kaliber.",
+            "pl": "W pełni automatyczny pistolet maszynowy o większym kalibrze.",
+            "pt": "Submetralhadora totalmente automática com um calibre maior.",
+            "pt-BR": "Submetralhadora totalmente automática com calibre maior.",
+            "ru": "Полностью автоматический пистолет-пулемет большего калибра.",
+            "sr": "Potpuno automatski automat većeg kalibra.",
+            "tr": "Daha büyük kalibreli, tam otomatik makineli tabanca.",
+            "uk": "Повністю автоматичний пістолет-кулемет більшого калібру.",
+            "zh-CN": "全自动大口径冲锋枪。",
+            "zh-TW": "全自動大口徑衝鋒槍。"
+          },
+          "type": "SMG",
+          "rarity": "Legendary",
+          "value": 10000,
+          "weightKg": 6.5,
+          "stackSize": 1,
+          "recyclesInto": {
+            "advanced_mechanical_components": 2,
+            "medium_gun_parts": 2
+          },
+          "salvagesInto": {
+            "medium_gun_parts": 2
+          },
+          "upgradeCost": {
+            "advanced_mechanical_components": 1,
+            "medium_gun_parts": 2
+          },
+          "updatedAt": "03/31/2026",
+          "addedIn": "1.22"
+        },
+        "component": {
+          "id": "canto_ii"
+        }
+      },
+      {
+        "item": {
+          "id": "canto_iii",
+          "name": {
+            "da": "Canto III",
+            "de": "Canto III",
+            "en": "Canto III",
+            "es": "Canto III",
+            "fr": "Canto III",
+            "he": "Canto III",
+            "hr": "Canto III",
+            "it": "Canto III",
+            "ja": "Canto III",
+            "ko-KR": "Canto III",
+            "no": "Canto III",
+            "pl": "Canto III",
+            "pt": "Canto III",
+            "pt-BR": "Canto III",
+            "ru": "Canto III",
+            "sr": "Canto III",
+            "tr": "Canto III",
+            "uk": "Canto III",
+            "zh-CN": "Canto III",
+            "zh-TW": "Canto III"
+          },
+          "description": {
+            "da": "Fuldautomatisk maskinpistol med en større kaliber.",
+            "de": "Vollautomatische Maschinenpistole mit größerem Kaliber.",
+            "en": "Fully automatic submachine gun with a larger caliber.",
+            "es": "Subfusil totalmente automático con un calibre mayor.",
+            "fr": "Pistolet mitrailleur entièrement automatique d'un plus gros calibre.",
+            "he": "תת-מקלע אווטומטי מלא עם קליבר גדול יותר.",
+            "hr": "Potpuno automatska strojnica većeg kalibra.",
+            "it": "Pistola mitragliatrice completamente automatica con un calibro maggiore.",
+            "ja": "大口径のフルオートマチックサブマシンガン。",
+            "ko-KR": "더 큰 구경의 완전 자동 기관단총입니다.",
+            "no": "Helautomatisk maskinpistol med et større kaliber.",
+            "pl": "W pełni automatyczny pistolet maszynowy o większym kalibrze.",
+            "pt": "Submetralhadora totalmente automática com um calibre maior.",
+            "pt-BR": "Submetralhadora totalmente automática com calibre maior.",
+            "ru": "Полностью автоматический пистолет-пулемет большего калибра.",
+            "sr": "Potpuno automatski automat većeg kalibra.",
+            "tr": "Daha büyük kalibreli, tam otomatik makineli tabanca.",
+            "uk": "Повністю автоматичний пістолет-кулемет більшого калібру.",
+            "zh-CN": "全自动大口径冲锋枪。",
+            "zh-TW": "全自動大口徑衝鋒槍。"
+          },
+          "type": "SMG",
+          "rarity": "Legendary",
+          "value": 13000,
+          "weightKg": 6.5,
+          "stackSize": 1,
+          "recyclesInto": {
+            "advanced_mechanical_components": 2,
+            "medium_gun_parts": 3
+          },
+          "salvagesInto": {
+            "medium_gun_parts": 3
+          },
+          "upgradeCost": {
+            "advanced_mechanical_components": 1,
+            "medium_gun_parts": 2
+          },
+          "updatedAt": "03/31/2026",
+          "addedIn": "1.22"
+        },
+        "component": {
+          "id": "canto_iii"
+        }
+      },
+      {
+        "item": {
+          "id": "canto_iv",
+          "name": {
+            "da": "Canto IV",
+            "de": "Canto IV",
+            "en": "Canto IV",
+            "es": "Canto IV",
+            "fr": "Canto IV",
+            "he": "Canto IV",
+            "hr": "Canto IV",
+            "it": "Canto IV",
+            "ja": "Canto IV",
+            "ko-KR": "Canto IV",
+            "no": "Canto IV",
+            "pl": "Canto IV",
+            "pt": "Canto IV",
+            "pt-BR": "Canto IV",
+            "ru": "Canto IV",
+            "sr": "Canto IV",
+            "tr": "Canto IV",
+            "uk": "Canto IV",
+            "zh-CN": "Canto IV",
+            "zh-TW": "Canto IV"
+          },
+          "description": {
+            "da": "Fuldautomatisk maskinpistol med en større kaliber.",
+            "de": "Vollautomatische Maschinenpistole mit größerem Kaliber.",
+            "en": "Fully automatic submachine gun with a larger caliber.",
+            "es": "Subfusil totalmente automático con un calibre mayor.",
+            "fr": "Pistolet mitrailleur entièrement automatique d'un plus gros calibre.",
+            "he": "תת-מקלע אווטומטי מלא עם קליבר גדול יותר.",
+            "hr": "Potpuno automatska strojnica većeg kalibra.",
+            "it": "Pistola mitragliatrice completamente automatica con un calibro maggiore.",
+            "ja": "大口径のフルオートマチックサブマシンガン。",
+            "ko-KR": "더 큰 구경의 완전 자동 기관단총입니다.",
+            "no": "Helautomatisk maskinpistol med et større kaliber.",
+            "pl": "W pełni automatyczny pistolet maszynowy o większym kalibrze.",
+            "pt": "Submetralhadora totalmente automática com um calibre maior.",
+            "pt-BR": "Submetralhadora totalmente automática com calibre maior.",
+            "ru": "Полностью автоматический пистолет-пулемет большего калибра.",
+            "sr": "Potpuno automatski automat većeg kalibra.",
+            "tr": "Daha büyük kalibreli, tam otomatik makineli tabanca.",
+            "uk": "Повністю автоматичний пістолет-кулемет більшого калібру.",
+            "zh-CN": "全自动大口径冲锋枪。",
+            "zh-TW": "全自動大口徑衝鋒槍。"
+          },
+          "type": "SMG",
+          "rarity": "Legendary",
+          "value": 17000,
+          "weightKg": 6.5,
+          "stackSize": 1,
+          "recyclesInto": {
+            "advanced_mechanical_components": 3,
+            "medium_gun_parts": 3
+          },
+          "salvagesInto": {
+            "medium_gun_parts": 3
+          },
+          "upgradeCost": {
+            "advanced_mechanical_components": 2,
+            "medium_gun_parts": 2
+          },
+          "updatedAt": "03/31/2026",
+          "addedIn": "1.22"
+        },
+        "component": {
+          "id": "canto_iv"
+        }
+      },
       {
         "item": {
           "id": "osprey_i",
@@ -133872,6 +136208,62 @@
     "item_type": "Trinket"
   },
   {
+    "id": "official_shutdown_documentation",
+    "name": {
+      "da": "Officiel dokumentation om nedlukning",
+      "de": "Offizielle Stilllegungsdokumentation",
+      "en": "Official Shutdown Documentation",
+      "es": "Documentación oficial de cierre",
+      "fr": "Documentation officielle de fermeture",
+      "he": "תיעוד השבתה רשמי",
+      "hr": "Službena dokumentacija o gašenju",
+      "it": "Documentazione ufficiale di spegnimento",
+      "ja": "公式な閉鎖ドキュメント",
+      "ko-KR": "공식 폐쇄 문서",
+      "no": "Offisiell nedstengingsdokumentasjon",
+      "pl": "Oficjalna dokumentacja zamknięcia",
+      "pt": "Documentação oficial de encerramento",
+      "pt-BR": "Documentação oficial de encerramento",
+      "ru": "Официальная документация о прекращении работы",
+      "sr": "Službena dokumentacija o gašenju",
+      "tr": "Resmî Kapatma Belgeleri",
+      "uk": "Офіційна документація про припинення роботи",
+      "zh-CN": "官方关停文件",
+      "zh-TW": "官方關閉文件"
+    },
+    "description": {
+      "da": "",
+      "de": "",
+      "en": "",
+      "es": "",
+      "fr": "",
+      "he": "",
+      "hr": "",
+      "it": "",
+      "ja": "",
+      "ko-KR": "",
+      "no": "",
+      "pl": "",
+      "pt": "",
+      "pt-BR": "",
+      "ru": "",
+      "sr": "",
+      "tr": "",
+      "uk": "",
+      "zh-CN": "",
+      "zh-TW": ""
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "value": 0,
+    "weightKg": 0.5,
+    "stackSize": 1,
+    "questItem": true,
+    "updatedAt": "03/31/2026",
+    "addedIn": "1.22",
+    "item_type": "Trinket"
+  },
+  {
     "id": "oil",
     "name": {
       "da": "Olie",
@@ -141979,6 +144371,97 @@
         },
         "component": {
           "id": "firecracker"
+        }
+      },
+      {
+        "item": {
+          "id": "free_loadout_augment",
+          "name": {
+            "da": "Gratis udstyrsforbedring",
+            "de": "Augment mit Gratis-Loadout",
+            "en": "Free Loadout Augment",
+            "es": "Aumento de equipamiento gratuito",
+            "fr": "Amélioration de Chargement Gratuite",
+            "he": "שדרוג ציוד חינם",
+            "hr": "Besplatno poboljšanje opreme",
+            "it": "Potenziamento equipaggiamento gratuito",
+            "ja": "無料ロードアウトオーグメント",
+            "ko-KR": "무료 로드아웃 증강물",
+            "no": "Gratis utstyrsforsterkning",
+            "pl": "Darmowe ulepszenie wyposażenia",
+            "pt": "Aumento de equipamento gratuito",
+            "pt-BR": "Aprimoramento de Equipamento Gratuito",
+            "ru": "Бесплатное улучшение снаряжения",
+            "sr": "Besplatno poboljšanje opreme",
+            "tr": "Ücretsiz Teçhizat Yükseltici",
+            "uk": "Безкоштовне покращення спорядження",
+            "zh-CN": "免费装备增强",
+            "zh-TW": "免費裝備增強"
+          },
+          "description": {
+            "da": "Grundlæggende forbedring til nybegynder Raiders, tilbyder lidt mere rygsækplads og bærekapacitet.",
+            "de": "Basis-Augment für Raider-Neulinge, mit etwas mehr Platz im Rucksack und Tragekapazität.",
+            "en": "Basic augment for rookie Raiders, offering slightly more backpack space and carry capacity.",
+            "es": "Aumento básico para Raiders novatos, ofrece un poco más de espacio en la mochila y capacidad de carga.",
+            "fr": "Amélioration basique pour les Raiders débutants, offrant un peu plus d'espace de sac à dos et de capacité de transport.",
+            "he": "שדרוג בסיסי לריידרים מתחילים, המציע מעט יותר מקום בתיק וקיבולת נשיאה.",
+            "hr": "Osnovno poboljšanje za početničke Raidere, nudi malo više prostora u ruksaku i nosivosti.",
+            "it": "Potenziamento base per Raiders principianti, offre un po' più di spazio nello zaino e capacità di carico.",
+            "ja": "初心者レイダー向けの基本強化で、バックパックスペースと運搬容量がわずかに増加します。",
+            "ko-KR": "초보 레이더를 위한 기본 강화로, 배낭 공간과 운반 용량이 약간 증가합니다.",
+            "no": "Grunnleggende forsterkning for nybegynnere Raiders, gir litt mer sekkeplassplass og bærekapasitet.",
+            "pl": "Podstawowe ulepszenie dla początkujących Raiderów, oferujące nieco więcej miejsca w plecaku i pojemności ładunkowej.",
+            "pt": "Aumento básico para Raiders iniciantes, oferecendo um pouco mais de espaço na mochila e capacidade de carga.",
+            "pt-BR": "Aprimoramento básico para Raiders novatos, oferecendo um pouco mais de espaço na mochila e capacidade de carga.",
+            "ru": "Базовое улучшение для новичков-рейдеров, предоставляющее немного больше места в рюкзаке и грузоподъемности.",
+            "sr": "Osnovno poboljšanje za početničke Raidere, nudi malo više prostora u rancu i nosivosti.",
+            "tr": "Acemi Akıncılar için temel güçlendirme, biraz daha fazla sırt çantası alanı ve taşıma kapasitesi sunar.",
+            "uk": "Базове покращення для новачків-рейдерів, що надає трохи більше місця в рюкзаку та вантажопідйомності.",
+            "zh-CN": "新手掠夺者的基础增强，提供稍多的背包空间和负重能力。",
+            "zh-TW": "新手掠奪者的基礎增強，提供稍多的背包空間和負重能力。"
+          },
+          "type": "Augment",
+          "rarity": "Common",
+          "value": 100,
+          "weightKg": 1,
+          "stackSize": 1,
+          "effects": {
+            "Durability": {
+              "value": 100,
+              "da": "Holdbarhed",
+              "de": "Haltbarkeit",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "he": "עמידות",
+              "hr": "Izdržljivost",
+              "it": "Tenuta",
+              "ja": "耐久性",
+              "ko-KR": "내구성",
+              "no": "Holdbarhet",
+              "pl": "Wytrzymałość",
+              "pt": "Durabilidade",
+              "pt-BR": "Durabilidade",
+              "ru": "Прочность",
+              "sr": "Izdržljivost",
+              "tr": "Dayanıklılık",
+              "uk": "Міцність",
+              "zh-CN": "耐久度",
+              "zh-TW": "耐久度"
+            },
+            "Max Loadout Weight": null,
+            "Shield Compatibility": null
+          },
+          "recyclesInto": {
+            "plastic_parts": 6,
+            "rubber_parts": 6
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/free_loadout_augment.png",
+          "updatedAt": "03/31/2026",
+          "addedIn": "base"
+        },
+        "component": {
+          "id": "free_loadout_augment"
         }
       },
       {
@@ -158916,6 +161399,97 @@
       },
       {
         "item": {
+          "id": "free_loadout_augment",
+          "name": {
+            "da": "Gratis udstyrsforbedring",
+            "de": "Augment mit Gratis-Loadout",
+            "en": "Free Loadout Augment",
+            "es": "Aumento de equipamiento gratuito",
+            "fr": "Amélioration de Chargement Gratuite",
+            "he": "שדרוג ציוד חינם",
+            "hr": "Besplatno poboljšanje opreme",
+            "it": "Potenziamento equipaggiamento gratuito",
+            "ja": "無料ロードアウトオーグメント",
+            "ko-KR": "무료 로드아웃 증강물",
+            "no": "Gratis utstyrsforsterkning",
+            "pl": "Darmowe ulepszenie wyposażenia",
+            "pt": "Aumento de equipamento gratuito",
+            "pt-BR": "Aprimoramento de Equipamento Gratuito",
+            "ru": "Бесплатное улучшение снаряжения",
+            "sr": "Besplatno poboljšanje opreme",
+            "tr": "Ücretsiz Teçhizat Yükseltici",
+            "uk": "Безкоштовне покращення спорядження",
+            "zh-CN": "免费装备增强",
+            "zh-TW": "免費裝備增強"
+          },
+          "description": {
+            "da": "Grundlæggende forbedring til nybegynder Raiders, tilbyder lidt mere rygsækplads og bærekapacitet.",
+            "de": "Basis-Augment für Raider-Neulinge, mit etwas mehr Platz im Rucksack und Tragekapazität.",
+            "en": "Basic augment for rookie Raiders, offering slightly more backpack space and carry capacity.",
+            "es": "Aumento básico para Raiders novatos, ofrece un poco más de espacio en la mochila y capacidad de carga.",
+            "fr": "Amélioration basique pour les Raiders débutants, offrant un peu plus d'espace de sac à dos et de capacité de transport.",
+            "he": "שדרוג בסיסי לריידרים מתחילים, המציע מעט יותר מקום בתיק וקיבולת נשיאה.",
+            "hr": "Osnovno poboljšanje za početničke Raidere, nudi malo više prostora u ruksaku i nosivosti.",
+            "it": "Potenziamento base per Raiders principianti, offre un po' più di spazio nello zaino e capacità di carico.",
+            "ja": "初心者レイダー向けの基本強化で、バックパックスペースと運搬容量がわずかに増加します。",
+            "ko-KR": "초보 레이더를 위한 기본 강화로, 배낭 공간과 운반 용량이 약간 증가합니다.",
+            "no": "Grunnleggende forsterkning for nybegynnere Raiders, gir litt mer sekkeplassplass og bærekapasitet.",
+            "pl": "Podstawowe ulepszenie dla początkujących Raiderów, oferujące nieco więcej miejsca w plecaku i pojemności ładunkowej.",
+            "pt": "Aumento básico para Raiders iniciantes, oferecendo um pouco mais de espaço na mochila e capacidade de carga.",
+            "pt-BR": "Aprimoramento básico para Raiders novatos, oferecendo um pouco mais de espaço na mochila e capacidade de carga.",
+            "ru": "Базовое улучшение для новичков-рейдеров, предоставляющее немного больше места в рюкзаке и грузоподъемности.",
+            "sr": "Osnovno poboljšanje za početničke Raidere, nudi malo više prostora u rancu i nosivosti.",
+            "tr": "Acemi Akıncılar için temel güçlendirme, biraz daha fazla sırt çantası alanı ve taşıma kapasitesi sunar.",
+            "uk": "Базове покращення для новачків-рейдерів, що надає трохи більше місця в рюкзаку та вантажопідйомності.",
+            "zh-CN": "新手掠夺者的基础增强，提供稍多的背包空间和负重能力。",
+            "zh-TW": "新手掠奪者的基礎增強，提供稍多的背包空間和負重能力。"
+          },
+          "type": "Augment",
+          "rarity": "Common",
+          "value": 100,
+          "weightKg": 1,
+          "stackSize": 1,
+          "effects": {
+            "Durability": {
+              "value": 100,
+              "da": "Holdbarhed",
+              "de": "Haltbarkeit",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "he": "עמידות",
+              "hr": "Izdržljivost",
+              "it": "Tenuta",
+              "ja": "耐久性",
+              "ko-KR": "내구성",
+              "no": "Holdbarhet",
+              "pl": "Wytrzymałość",
+              "pt": "Durabilidade",
+              "pt-BR": "Durabilidade",
+              "ru": "Прочность",
+              "sr": "Izdržljivost",
+              "tr": "Dayanıklılık",
+              "uk": "Міцність",
+              "zh-CN": "耐久度",
+              "zh-TW": "耐久度"
+            },
+            "Max Loadout Weight": null,
+            "Shield Compatibility": null
+          },
+          "recyclesInto": {
+            "plastic_parts": 6,
+            "rubber_parts": 6
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/free_loadout_augment.png",
+          "updatedAt": "03/31/2026",
+          "addedIn": "base"
+        },
+        "component": {
+          "id": "free_loadout_augment"
+        }
+      },
+      {
+        "item": {
           "id": "gas_grenade",
           "name": {
             "da": "Gasgranat",
@@ -163150,6 +165724,118 @@
     "loot_area": "Exodus"
   },
   {
+    "id": "scout_patrol_note",
+    "name": {
+      "da": "Spejderpatruljens note",
+      "de": "Späherpatrouillen-Notiz",
+      "en": "Scout Patrol Note",
+      "es": "Nota de patrulla de exploradores",
+      "fr": "Note de patrouille d'éclaireurs",
+      "he": "פתק סיור סיירים",
+      "hr": "Bilješka izvidničke patrole",
+      "it": "Nota di pattuglia scout",
+      "ja": "偵察パトロールのメモ",
+      "ko-KR": "정찰 순찰 메모",
+      "no": "Speiderpatruljenotat",
+      "pl": "Notatka patrolu zwiadowczego",
+      "pt": "Nota de patrulha de reconhecimento",
+      "pt-BR": "Bilhete da Patrulha de Reconhecimento",
+      "ru": "Записка разведывательного патруля",
+      "sr": "Beleška izviđačke patrole",
+      "tr": "İzci Devriyesi Notu",
+      "uk": "Записка розвідувального патруля",
+      "zh-CN": "侦察兵巡逻笔记",
+      "zh-TW": "偵察兵巡邏筆記"
+    },
+    "description": {
+      "da": "",
+      "de": "",
+      "en": "",
+      "es": "",
+      "fr": "",
+      "he": "",
+      "hr": "",
+      "it": "",
+      "ja": "",
+      "ko-KR": "",
+      "no": "",
+      "pl": "",
+      "pt": "",
+      "pt-BR": "",
+      "ru": "",
+      "sr": "",
+      "tr": "",
+      "uk": "",
+      "zh-CN": "",
+      "zh-TW": ""
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "value": 0,
+    "weightKg": 0.5,
+    "stackSize": 1,
+    "questItem": true,
+    "updatedAt": "03/31/2026",
+    "addedIn": "1.22",
+    "item_type": "Trinket"
+  },
+  {
+    "id": "secret_meeting_info",
+    "name": {
+      "da": "Information om hemmeligt møde",
+      "de": "Geheime Besprechungsinfos",
+      "en": "Secret Meeting Info",
+      "es": "Información de reunión secreta",
+      "fr": "Informations sur la réunion secrète",
+      "he": "מידע על פגישה סודית",
+      "hr": "Informacije o tajnom sastanku",
+      "it": "Informazioni sulla riunione segreta",
+      "ja": "秘密の会議情報",
+      "ko-KR": "비밀 회의 정보",
+      "no": "Hemmelig møteinformasjon",
+      "pl": "Informacje o tajnym spotkaniu",
+      "pt": "Informações de reunião secreta",
+      "pt-BR": "Informações da Reunião Secreta",
+      "ru": "Информация о секретной встрече",
+      "sr": "Informacije o tajnom sastanku",
+      "tr": "Gizli Toplantı Bilgileri",
+      "uk": "Інформація про секретну зустріч",
+      "zh-CN": "秘密会议信息",
+      "zh-TW": "秘密會議資訊"
+    },
+    "description": {
+      "da": "",
+      "de": "",
+      "en": "",
+      "es": "",
+      "fr": "",
+      "he": "",
+      "hr": "",
+      "it": "",
+      "ja": "",
+      "ko-KR": "",
+      "no": "",
+      "pl": "",
+      "pt": "",
+      "pt-BR": "",
+      "ru": "",
+      "sr": "",
+      "tr": "",
+      "uk": "",
+      "zh-CN": "",
+      "zh-TW": ""
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "value": 0,
+    "weightKg": 0.5,
+    "stackSize": 1,
+    "questItem": true,
+    "updatedAt": "03/31/2026",
+    "addedIn": "1.22",
+    "item_type": "Trinket"
+  },
+  {
     "id": "seeker_grenade",
     "name": {
       "da": "Søgergranат",
@@ -163800,6 +166486,80 @@
               "trader": "Shani"
             }
           ]
+        },
+        "component": {
+          "id": "sensors"
+        }
+      },
+      {
+        "item": {
+          "id": "surge_coil",
+          "name": {
+            "da": "Surge Coil",
+            "de": "Surge Coil",
+            "en": "Surge Coil",
+            "es": "Surge Coil",
+            "fr": "Surge Coil",
+            "he": "Surge Coil",
+            "hr": "Surge Coil",
+            "it": "Surge Coil",
+            "ja": "Surge Coil",
+            "ko-KR": "Surge Coil",
+            "no": "Surge Coil",
+            "pl": "Surge Coil",
+            "pt": "Surge Coil",
+            "pt-BR": "Surge Coil",
+            "ru": "Surge Coil",
+            "sr": "Surge Coil",
+            "tr": "Surge Coil",
+            "uk": "Surge Coil",
+            "zh-CN": "Surge Coil",
+            "zh-TW": "Surge Coil"
+          },
+          "description": {
+            "da": "En deployerbar enhed, der periodisk elektrificerer området omkring sig selv og kortvarigt lammer alt, der fanges i det.",
+            "de": "Ein einsetzbares Gerät, das den Bereich um sich herum regelmäßig unter Strom setzt und alles, was darin gefangen ist, kurzzeitig betäubt.",
+            "en": "A deployable device that periodically electrifies the area around itself and briefly stuns anything caught within it.",
+            "es": "Un dispositivo desplegable que electrifica periódicamente el área a su alrededor y aturde brevemente a cualquier cosa atrapada en su interior.",
+            "fr": "Un dispositif déployable qui électrifie périodiquement la zone autour de lui et étourdit brièvement tout ce qui s'y trouve.",
+            "he": "מכשיר הניתן לפריסה שמחשמל מעת לעת את האזור שסביבו ומהמם לזמן קצר את כל מי שנתפס בתוכו.",
+            "hr": "Uređaj koji se može postaviti i koji povremeno naelektrizira područje oko sebe te nakratko omami sve što se nađe u njemu.",
+            "it": "Un dispositivo dispiegabile che elettrizza periodicamente l'area circostante e stordisce brevemente chiunque vi rimanga intrappolato.",
+            "ja": "一定時間ごとに周囲を帯電させ、範囲内にいるものを短時間スタンさせる設置型デバイス。",
+            "ko-KR": "주변 지역을 주기적으로 전기화하고 그 안에 갇힌 대상을 잠시 기절시키는 설치형 장치입니다.",
+            "no": "En utplasserbar enhed som periodisk elektrifiserer området rundt seg selv og kortvarig lammer alt som fanges i det.",
+            "pl": "Urządzenie możliwe do rozstawienia, które okresowo elektryzuje obszar wokół siebie i na krótko ogłusza wszystko, co się w nim znajdzie.",
+            "pt": "Um dispositivo implantável que eletrifica periodicamente a área ao seu redor e atordoa brevemente qualquer coisa capturada nela.",
+            "pt-BR": "Um dispositivo implantável que eletrifica periodicamente a área ao seu redor e atordoa brevemente qualquer coisa capturada nela.",
+            "ru": "Развертываемое устройство, которое периодически наэлектризовывает область вокруг себя и ненадолго оглушает любого, кто в нее попадет.",
+            "sr": "Uređaj koji se može postaviti i koji periodično naelektriše područje oko sebe te nakratko omami sve što se nađe u njemu.",
+            "tr": "Etrafındaki alanı periyodik olarak elektriklendiren ve içinde kalan her şeyi kısa süreliğine sersemleten konuşlandırılabilir bir cihaz.",
+            "uk": "Пристрій, що розгортається, який періодично електризує область навколо себе та на короткий час приголомшує все, що потрапляє в нього.",
+            "zh-CN": "一种可部署的设备，定期使周围区域带电，并短暂击晕其中的任何目标。",
+            "zh-TW": "一種可部署的設備，定期使周圍區域帶電，並短暫擊暈其中的任何目標。"
+          },
+          "type": "Quick Use",
+          "rarity": "Uncommon",
+          "value": 2100,
+          "weightKg": 0,
+          "stackSize": 3,
+          "blueprintLocked": true,
+          "craftBench": "explosives_bench",
+          "stationLevelRequired": 3,
+          "recipe": {
+            "electrical_components": 1,
+            "hornet_driver": 1,
+            "sensors": 1
+          },
+          "recyclesInto": {
+            "electrical_components": 1,
+            "sensors": 1
+          },
+          "salvagesInto": {
+            "electrical_components": 1
+          },
+          "updatedAt": "03/31/2026",
+          "addedIn": "1.22"
         },
         "component": {
           "id": "sensors"
@@ -164525,6 +167285,80 @@
         },
         "component": {
           "id": "spectrum_analyzer"
+        }
+      },
+      {
+        "item": {
+          "id": "surge_coil",
+          "name": {
+            "da": "Surge Coil",
+            "de": "Surge Coil",
+            "en": "Surge Coil",
+            "es": "Surge Coil",
+            "fr": "Surge Coil",
+            "he": "Surge Coil",
+            "hr": "Surge Coil",
+            "it": "Surge Coil",
+            "ja": "Surge Coil",
+            "ko-KR": "Surge Coil",
+            "no": "Surge Coil",
+            "pl": "Surge Coil",
+            "pt": "Surge Coil",
+            "pt-BR": "Surge Coil",
+            "ru": "Surge Coil",
+            "sr": "Surge Coil",
+            "tr": "Surge Coil",
+            "uk": "Surge Coil",
+            "zh-CN": "Surge Coil",
+            "zh-TW": "Surge Coil"
+          },
+          "description": {
+            "da": "En deployerbar enhed, der periodisk elektrificerer området omkring sig selv og kortvarigt lammer alt, der fanges i det.",
+            "de": "Ein einsetzbares Gerät, das den Bereich um sich herum regelmäßig unter Strom setzt und alles, was darin gefangen ist, kurzzeitig betäubt.",
+            "en": "A deployable device that periodically electrifies the area around itself and briefly stuns anything caught within it.",
+            "es": "Un dispositivo desplegable que electrifica periódicamente el área a su alrededor y aturde brevemente a cualquier cosa atrapada en su interior.",
+            "fr": "Un dispositif déployable qui électrifie périodiquement la zone autour de lui et étourdit brièvement tout ce qui s'y trouve.",
+            "he": "מכשיר הניתן לפריסה שמחשמל מעת לעת את האזור שסביבו ומהמם לזמן קצר את כל מי שנתפס בתוכו.",
+            "hr": "Uređaj koji se može postaviti i koji povremeno naelektrizira područje oko sebe te nakratko omami sve što se nađe u njemu.",
+            "it": "Un dispositivo dispiegabile che elettrizza periodicamente l'area circostante e stordisce brevemente chiunque vi rimanga intrappolato.",
+            "ja": "一定時間ごとに周囲を帯電させ、範囲内にいるものを短時間スタンさせる設置型デバイス。",
+            "ko-KR": "주변 지역을 주기적으로 전기화하고 그 안에 갇힌 대상을 잠시 기절시키는 설치형 장치입니다.",
+            "no": "En utplasserbar enhed som periodisk elektrifiserer området rundt seg selv og kortvarig lammer alt som fanges i det.",
+            "pl": "Urządzenie możliwe do rozstawienia, które okresowo elektryzuje obszar wokół siebie i na krótko ogłusza wszystko, co się w nim znajdzie.",
+            "pt": "Um dispositivo implantável que eletrifica periodicamente a área ao seu redor e atordoa brevemente qualquer coisa capturada nela.",
+            "pt-BR": "Um dispositivo implantável que eletrifica periodicamente a área ao seu redor e atordoa brevemente qualquer coisa capturada nela.",
+            "ru": "Развертываемое устройство, которое периодически наэлектризовывает область вокруг себя и ненадолго оглушает любого, кто в нее попадет.",
+            "sr": "Uređaj koji se može postaviti i koji periodično naelektriše područje oko sebe te nakratko omami sve što se nađe u njemu.",
+            "tr": "Etrafındaki alanı periyodik olarak elektriklendiren ve içinde kalan her şeyi kısa süreliğine sersemleten konuşlandırılabilir bir cihaz.",
+            "uk": "Пристрій, що розгортається, який періодично електризує область навколо себе та на короткий час приголомшує все, що потрапляє в нього.",
+            "zh-CN": "一种可部署的设备，定期使周围区域带电，并短暂击晕其中的任何目标。",
+            "zh-TW": "一種可部署的設備，定期使周圍區域帶電，並短暫擊暈其中的任何目標。"
+          },
+          "type": "Quick Use",
+          "rarity": "Uncommon",
+          "value": 2100,
+          "weightKg": 0,
+          "stackSize": 3,
+          "blueprintLocked": true,
+          "craftBench": "explosives_bench",
+          "stationLevelRequired": 3,
+          "recipe": {
+            "electrical_components": 1,
+            "hornet_driver": 1,
+            "sensors": 1
+          },
+          "recyclesInto": {
+            "electrical_components": 1,
+            "sensors": 1
+          },
+          "salvagesInto": {
+            "electrical_components": 1
+          },
+          "updatedAt": "03/31/2026",
+          "addedIn": "1.22"
+        },
+        "component": {
+          "id": "surge_coil"
         }
       },
       {
@@ -167752,6 +170586,82 @@
     "imageFilename": "https://cdn.arctracker.io/items/shredder_gyro.png",
     "updatedAt": "02/24/2026",
     "addedIn": "1.2",
+    "used_in": [
+      {
+        "item": {
+          "id": "dolabra",
+          "name": {
+            "da": "Dolabra",
+            "de": "Dolabra",
+            "en": "Dolabra",
+            "es": "Dolabra",
+            "fr": "Dolabra",
+            "he": "Dolabra",
+            "hr": "Dolabra",
+            "it": "Dolabra",
+            "ja": "Dolabra",
+            "ko-KR": "Dolabra",
+            "no": "Dolabra",
+            "pl": "Dolabra",
+            "pt": "Dolabra",
+            "pt-BR": "Dolabra",
+            "ru": "Dolabra",
+            "sr": "Dolabra",
+            "tr": "Dolabra",
+            "uk": "Dolabra",
+            "zh-CN": "Dolabra",
+            "zh-TW": "Dolabra"
+          },
+          "description": {
+            "da": "Et eksperimentelt våben, der enten kan affyre en bred eksplosion på kort afstand eller fokuseres til at affyre en præcis varmestråle på mellemlang afstand.",
+            "de": "Eine experimentelle Waffe, die entweder einen breiten Schuss mit kurzer Reichweite abgeben kann oder so fokussiert wird, dass sie einen konzentrierten Hitzestrahl mit mittlerer Reichweite verschießt.",
+            "en": "An experimental weapon that can either fire a wide short range blast, or be focused to fire a tight medium range beam of heat.",
+            "es": "Un arma experimental que puede disparar una ráfaga amplia a corta distancia o concentrarse para disparar un haz de calor preciso a media distancia.",
+            "fr": "Une arme expérimentale qui peut soit tirer une large décharge à courte portée, soit être concentrée pour tirer un faisceau de chaleur étroit à moyenne portée.",
+            "he": "נשק ניסיוני שיכול לירות פרץ רחב לטווח קצר, או להיות ממוקד לירי קרן חום הדוקה לטווח בינוני.",
+            "hr": "Eksperimentalno oružje koje može ispaliti široki prasak kratkog dometa ili se može fokusirati za ispaljivanje uskog toplinskog snopa srednjeg dometa.",
+            "it": "Un'arma sperimentale che può sparare un'ampia scarica a corto raggio o essere focalizzata per sparare un raggio di calore concentrato a medio raggio.",
+            "ja": "近距離に広範囲の爆風を発射するか、収束させて中距離に強力な熱線を照射することができる実験的な武器。",
+            "ko-KR": "근거리에서 넓은 폭발을 일으키거나, 초점을 맞춰 중거리에서 정밀한 열선을 발사할 수 있는 실험용 무기입니다.",
+            "no": "Et eksperimentelt våpen som enten kan avfyre en bred salve på kort hold, eller fokuseres for å avfyre en konsentrert varmestråle på mellomlangt hold.",
+            "pl": "Eksperymentalna broń, która może wystrzelić szeroki podmuch na krótki dystans lub zostać skupiona, aby wystrzelić wąską wiązkę ciepła o średnim zasięgu.",
+            "pt": "Uma arma experimental que pode disparar uma rajada ampla de curto alcance ou ser focada para disparar um feixe de calor estreito de médio alcance.",
+            "pt-BR": "Uma arma experimental que pode disparar uma rajada ampla de curto alcance ou ser focada para disparar um feixe de calor concentrado de médio alcance.",
+            "ru": "Экспериментальное оружие, которое может либо производить широкий залп на короткой дистанции, либо фокусироваться для стрельбы узким тепловым лучом на средней дистанции.",
+            "sr": "Eksperimentalno oružje koje može ispaliti široki prasak kratkog dometa ili se može fokusirati za ispaljivanje uskog toplotnog snopa srednjeg dometa.",
+            "tr": "İster kısa menzilli geniş bir patlama ateşleyebilen ister orta menzilli dar bir ısı ışını ateşlemek için odaklanabilen deneysel bir silah.",
+            "uk": "Експериментальна зброя, яка може або стріляти широким залпом на короткій дистанції, або фокусуватися для стрільби вузьким тепловим променем на середній дистанції.",
+            "zh-CN": "一种实验性武器，既可以发射宽范围的短程冲击，也可以聚焦发射窄范围的中程热能光束。",
+            "zh-TW": "一種實驗性武器，既可以發射寬範圍的短程衝擊，也可以聚焦發射窄範圍的中程熱能光束。"
+          },
+          "type": "Shotgun",
+          "rarity": "Legendary",
+          "value": 27500,
+          "weightKg": 8,
+          "stackSize": 1,
+          "isWeapon": true,
+          "blueprintLocked": true,
+          "craftBench": "weapon_bench",
+          "stationLevelRequired": 3,
+          "recipe": {
+            "magnetic_accelerator": 3,
+            "shredder_gyro": 3,
+            "vaporizer_regulator": 2
+          },
+          "recyclesInto": {
+            "magnetic_accelerator": 2
+          },
+          "salvagesInto": {
+            "magnetic_accelerator": 1
+          },
+          "updatedAt": "03/31/2026",
+          "addedIn": "1.22"
+        },
+        "component": {
+          "id": "shredder_gyro"
+        }
+      }
+    ],
     "icon": "https://cdn.arctracker.io/items/shredder_gyro.png",
     "item_type": "Recyclable",
     "loot_area": "ARC"
@@ -168625,61 +171535,6 @@
       "Increased Durability Burn Rate": "20%",
       "Reduced Noise": "60%"
     }
-  },
-  {
-    "id": "silencer_iii_blueprint",
-    "name": {
-      "da": "Lyddæmper III Tegning",
-      "de": "Bauplan: Schalldämpfer III",
-      "en": "Silencer III Blueprint",
-      "es": "Plano de Silenciador III",
-      "fr": "Schéma Silencieux III",
-      "he": "שרטוט משתיק III",
-      "hr": "Nacrt za Prigušivač III",
-      "it": "Progetto Silenziatore III",
-      "ja": "サイレンサー III 設計図",
-      "ko-KR": "소음기 III 설계도",
-      "no": "Lyddemper III Tegning",
-      "pl": "Projekt Tłumika III",
-      "pt": "Projeto de Silenciador III",
-      "pt-BR": "Esquema de Silenciador III",
-      "ru": "Чертёж глушителя III",
-      "sr": "Nacrt za Prigušivač III",
-      "tr": "Susturucu III Taslağı",
-      "uk": "Креслення глушника III",
-      "zh-CN": "消音器 III 蓝图",
-      "zh-TW": "消音器 III 藍圖"
-    },
-    "description": {
-      "da": "En tegning til at lave Lyddæmper III.",
-      "de": "Ein Bauplan zur Herstellung des Schalldämpfers III.",
-      "en": "A blueprint to craft the Silencer III.",
-      "es": "Un plano para fabricar el Silenciador III.",
-      "fr": "Un schéma pour fabriquer le Silencieux III.",
-      "he": "שרטוט ליצירת משתיק III.",
-      "hr": "Nacrt za izradu Prigušivača III.",
-      "it": "Un progetto per creare il Silenziatore III.",
-      "ja": "サイレンサー III を製作するための設計図。",
-      "ko-KR": "소음기 III을 제작하기 위한 설계도.",
-      "no": "En tegning for å lage Lyddemper III.",
-      "pl": "Projekt do wytworzenia Tłumika III.",
-      "pt": "Um projeto para fabricar o Silenciador III.",
-      "pt-BR": "Um esquema para fabricar o Silenciador III.",
-      "ru": "Чертёж для создания глушителя III.",
-      "sr": "Nacrt za izradu Prigušivača III.",
-      "tr": "Susturucu III üretmek için bir plan.",
-      "uk": "Креслення для створення глушника III.",
-      "zh-CN": "用于制作消音器 III 的蓝图。",
-      "zh-TW": "用於製作消音器 III 的藍圖。"
-    },
-    "type": "Blueprint",
-    "rarity": "Legendary",
-    "value": 5000,
-    "weightKg": 0,
-    "imageFilename": "https://cdn.arctracker.io/items/silencer_iii.png",
-    "updatedAt": "01/19/2026",
-    "icon": "https://cdn.arctracker.io/items/silencer_iii.png",
-    "item_type": "Blueprint"
   },
   {
     "id": "silver_teaspoon_set",
@@ -185448,6 +188303,427 @@
     }
   },
   {
+    "id": "surge_coil",
+    "name": {
+      "da": "Surge Coil",
+      "de": "Surge Coil",
+      "en": "Surge Coil",
+      "es": "Surge Coil",
+      "fr": "Surge Coil",
+      "he": "Surge Coil",
+      "hr": "Surge Coil",
+      "it": "Surge Coil",
+      "ja": "Surge Coil",
+      "ko-KR": "Surge Coil",
+      "no": "Surge Coil",
+      "pl": "Surge Coil",
+      "pt": "Surge Coil",
+      "pt-BR": "Surge Coil",
+      "ru": "Surge Coil",
+      "sr": "Surge Coil",
+      "tr": "Surge Coil",
+      "uk": "Surge Coil",
+      "zh-CN": "Surge Coil",
+      "zh-TW": "Surge Coil"
+    },
+    "description": {
+      "da": "En deployerbar enhed, der periodisk elektrificerer området omkring sig selv og kortvarigt lammer alt, der fanges i det.",
+      "de": "Ein einsetzbares Gerät, das den Bereich um sich herum regelmäßig unter Strom setzt und alles, was darin gefangen ist, kurzzeitig betäubt.",
+      "en": "A deployable device that periodically electrifies the area around itself and briefly stuns anything caught within it.",
+      "es": "Un dispositivo desplegable que electrifica periódicamente el área a su alrededor y aturde brevemente a cualquier cosa atrapada en su interior.",
+      "fr": "Un dispositif déployable qui électrifie périodiquement la zone autour de lui et étourdit brièvement tout ce qui s'y trouve.",
+      "he": "מכשיר הניתן לפריסה שמחשמל מעת לעת את האזור שסביבו ומהמם לזמן קצר את כל מי שנתפס בתוכו.",
+      "hr": "Uređaj koji se može postaviti i koji povremeno naelektrizira područje oko sebe te nakratko omami sve što se nađe u njemu.",
+      "it": "Un dispositivo dispiegabile che elettrizza periodicamente l'area circostante e stordisce brevemente chiunque vi rimanga intrappolato.",
+      "ja": "一定時間ごとに周囲を帯電させ、範囲内にいるものを短時間スタンさせる設置型デバイス。",
+      "ko-KR": "주변 지역을 주기적으로 전기화하고 그 안에 갇힌 대상을 잠시 기절시키는 설치형 장치입니다.",
+      "no": "En utplasserbar enhed som periodisk elektrifiserer området rundt seg selv og kortvarig lammer alt som fanges i det.",
+      "pl": "Urządzenie możliwe do rozstawienia, które okresowo elektryzuje obszar wokół siebie i na krótko ogłusza wszystko, co się w nim znajdzie.",
+      "pt": "Um dispositivo implantável que eletrifica periodicamente a área ao seu redor e atordoa brevemente qualquer coisa capturada nela.",
+      "pt-BR": "Um dispositivo implantável que eletrifica periodicamente a área ao seu redor e atordoa brevemente qualquer coisa capturada nela.",
+      "ru": "Развертываемое устройство, которое периодически наэлектризовывает область вокруг себя и ненадолго оглушает любого, кто в нее попадет.",
+      "sr": "Uređaj koji se može postaviti i koji periodično naelektriše područje oko sebe te nakratko omami sve što se nađe u njemu.",
+      "tr": "Etrafındaki alanı periyodik olarak elektriklendiren ve içinde kalan her şeyi kısa süreliğine sersemleten konuşlandırılabilir bir cihaz.",
+      "uk": "Пристрій, що розгортається, який періодично електризує область навколо себе та на короткий час приголомшує все, що потрапляє в нього.",
+      "zh-CN": "一种可部署的设备，定期使周围区域带电，并短暂击晕其中的任何目标。",
+      "zh-TW": "一種可部署的設備，定期使周圍區域帶電，並短暫擊暈其中的任何目標。"
+    },
+    "type": "Quick Use",
+    "rarity": "Uncommon",
+    "value": 2100,
+    "weightKg": 0,
+    "stackSize": 3,
+    "blueprintLocked": true,
+    "craftBench": "explosives_bench",
+    "stationLevelRequired": 3,
+    "recipe": {
+      "electrical_components": 1,
+      "hornet_driver": 1,
+      "sensors": 1
+    },
+    "recyclesInto": {
+      "electrical_components": 1,
+      "sensors": 1
+    },
+    "salvagesInto": {
+      "electrical_components": 1
+    },
+    "updatedAt": "03/31/2026",
+    "addedIn": "1.22",
+    "crafting_components": [
+      {
+        "item": {
+          "id": "electrical_components",
+          "name": {
+            "da": "Elektriske komponenter",
+            "de": "Elektrische Komponenten",
+            "en": "Electrical Components",
+            "es": "Componentes eléctricos",
+            "fr": "Composants Électriques",
+            "he": "רכיבים חשמליים",
+            "hr": "Električne Komponente",
+            "it": "Componenti elettrici",
+            "ja": "電気部品",
+            "ko-KR": "전기 부품",
+            "no": "Elektriske komponenter",
+            "pl": "Komponenty elektryczne",
+            "pt": "Componentes elétricos",
+            "pt-BR": "Componentes Elétricos",
+            "ru": "Электрические компоненты",
+            "sr": "Električne Komponente",
+            "tr": "Elektrik Bileşenleri",
+            "uk": "Електричні компоненти",
+            "zh-CN": "电子元件",
+            "zh-TW": "電子元件"
+          },
+          "description": {
+            "da": "Bruges til at fremstille en bred vifte af genstande. Kan genbruges til håndværksmaterialer. Bruges til at fremstille: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Surge skjoldoplader, Lokkegranate",
+            "de": "Wird zur Herstellung verschiedenster Gegenstände verwendet. Kann zu Herstellungsmaterialien recycelt werden. Zur Herstellung von: Taktisch-Marke 2, Kampf-Marke 2, Beute-Marke 2, Schockmine, Ködergranate",
+            "en": "Used to craft a wide range of items. Can be recycled into crafting materials. Used to craft: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Surge Shield Recharger, Lure Grenade",
+            "es": "Usado para fabricar una amplia gama de objetos. Puede reciclarse en materiales de fabricación. Usado para fabricar: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Cargador de escudos de Sobrecarga, Granada señuelo",
+            "fr": "Permet de fabriquer une large gamme d'objets. Peut être recyclé en matériaux d'artisanat. Permet de fabriquer : Tactique 2, Combat 2, Butin 2, Rechargeur de bouclier d'impulsion, Grenade leurre",
+            "he": "משמש ליצירת מגוון רחב של פריטים. ניתן למיחזור לחומרי יצירה. משמש ליצירת: טקטי Mk. 2, קרבי Mk. 2, ביזה Mk. 2, מטען מגן נחשול, רימון פיתיון",
+            "hr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu. Koristi se za izradu: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Surge Shield Recharger, Lure Granata",
+            "it": "Si usa per creare una vasta gamma di oggetti. Si può riciclare in materiali da creazione. Si usa per creare: Tattico Mk. 2, Combattimento Mk. 2, Saccheggio Mk. 2, Componenti elettrici avanzati, Caricascudi rapido",
+            "ja": "幅広いアイテムの製作に使用。製作素材にリサイクル可能。製作用途：Tactical Mk. 2、Combat Mk. 2、Looting Mk. 2、サージシールドリチャージャー、ルアーグレネード",
+            "ko-KR": "다양한 아이템 제작에 사용. 제작 재료로 재활용 가능. 제작 용도: 전술 마크 2, 전투 마크 2, 노획 마크 2, 급속 실드 충전기, 유인 수류탄",
+            "no": "Brukes til å lage et bredt spekter av gjenstander. Kan resirkuleres til håndverksmateriell. Brukes til å lage: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Surge skjoldlader, Lokkegranate",
+            "pl": "Używany do wytwarzania szerokiej gamy przedmiotów. Może być przetworzony na materiały rzemieślnicze. Używany do wytworzenia: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Ładowarka tarczy Surge, Granat wabik",
+            "pt": "Usado para fabricar uma ampla gama de itens. Pode ser reciclado em materiais de fabricação. Usado para fabricar: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Recarregador de escudo Surge, Granada isca",
+            "pt-BR": "Usado para criar uma grande variedade de itens. Pode ser reciclado em materiais de criação. Usado para criar: Tático Mk. 2, Combate Mk. 2, Saque Mk. 2, Recarregador de Escudo de Surto, Granada de Isca",
+            "ru": "Используется для создания широкого спектра предметов. Можно переработать в материалы для крафта. Используется для создания: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, перезарядник энергощита Surge, приманка-граната",
+            "sr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu. Koristi se za izradu: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Surge Shield Recharger, Lure Granata",
+            "tr": "Çok çeşitli eşyalar üretmek için kullanılır. Üretim malzemelerine geri dönüştürülebilir. Üretim için kullanılır: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Surge Kalkan Şarj Cihazı, Yem Bombası",
+            "uk": "Використовується для створення широкого спектру предметів. Можна переробити на матеріали для крафту. Використовується для створення: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, перезарядник енергощита Surge, граната-приманка",
+            "zh-CN": "用于制作各种物品。可回收为制作材料。用于制作：Tactical Mk. 2、Combat Mk. 2、Looting Mk. 2、激增护盾充能器、诱饵手榴弹",
+            "zh-TW": "用於製作各種物品。可回收為製作材料。用於製作：Tactical Mk. 2、Combat Mk. 2、Looting Mk. 2、激增護盾充能器、誘餌手榴彈"
+          },
+          "type": "Refined Material",
+          "rarity": "Uncommon",
+          "foundIn": "Electrical",
+          "value": 640,
+          "weightKg": 0.5,
+          "stackSize": 10,
+          "craftBench": "refiner",
+          "stationLevelRequired": 1,
+          "recipe": {
+            "plastic_parts": 8,
+            "rubber_parts": 4
+          },
+          "recyclesInto": {
+            "plastic_parts": 3,
+            "rubber_parts": 3
+          },
+          "salvagesInto": {
+            "plastic_parts": 3
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/electrical_components.png",
+          "updatedAt": "03/17/2026",
+          "addedIn": "base"
+        },
+        "component": {
+          "id": "electrical_components"
+        }
+      },
+      {
+        "item": {
+          "id": "hornet_driver",
+          "name": {
+            "da": "Hvepsedriver",
+            "de": "Hornissentreiber",
+            "en": "Hornet Driver",
+            "es": "Controlador de Avispón",
+            "fr": "Pilote de Frelon",
+            "he": "הורנט דרייבר",
+            "hr": "Stršljenov Pogon",
+            "it": "Driver di calabrone",
+            "ja": "ホーネットドライバー",
+            "ko-KR": "호넷 드라이버",
+            "no": "Vepsedriver",
+            "pl": "Napęd szerszenia",
+            "pt": "Propulsor de vespa",
+            "pt-BR": "Propulsor de Vespa",
+            "ru": "Драйвер Шершня",
+            "sr": "Stršljenov Pogon",
+            "tr": "Yaban Arısı Sürücüsü",
+            "uk": "Драйвер шершня",
+            "zh-CN": "黄蜂引擎",
+            "zh-TW": "黃蜂驅動器"
+          },
+          "description": {
+            "da": "Kan kastes og vil kortvarigt bedøve nærliggende mål",
+            "de": "Kann zu ARC-Legierung recycelt werden. Kann geworfen werden, um nahe Ziele kurzfristig zu betäuben.",
+            "en": "Can be thrown and will briefly stun nearby targets",
+            "es": "Puede lanzarse y aturdirá brevemente a los objetivos cercanos",
+            "fr": "Peut être lancé et étourdira brièvement les cibles proches",
+            "he": "ניתן להשלכה ויגרום להלם קצר למטרות סמוכות",
+            "hr": "Može se baciti i nakratko će omamiti obližnje mete",
+            "it": "Si può riciclare in leghe ARC. Si può lanciare: per un breve lasso di tempo stordirà i bersagli vicini",
+            "ja": "投げると近くのターゲットを短時間スタンさせる",
+            "ko-KR": "던져서 근처 대상을 잠시 기절시킬 수 있습니다",
+            "no": "Kan kastes og vil kort bedøve nærliggende mål",
+            "pl": "Może być rzucony i na krótko ogłuszy pobliskie cele",
+            "pt": "Pode ser arremessado e atordoará brevemente alvos próximos",
+            "pt-BR": "Pode ser arremessado e atordoa brevemente alvos próximos",
+            "ru": "Можно бросить, чтобы ненадолго оглушить ближайшие цели",
+            "sr": "Može se baciti i nakratko će omamiti obližnje mete",
+            "tr": "Fırlatılabilir ve yakındaki hedefleri kısa süreliğine sersemletir",
+            "uk": "Можна кинути, щоб ненадовго приголомшити ближні цілі",
+            "zh-CN": "可投掷并短暂击晕附近目标",
+            "zh-TW": "可投擲並短暫擊暈附近目標"
+          },
+          "type": "Recyclable",
+          "rarity": "Rare",
+          "foundIn": "ARC",
+          "value": 1000,
+          "weightKg": 0.75,
+          "stackSize": 3,
+          "effects": {
+            "ARC Stun Duration": {
+              "value": "7s",
+              "da": "ARC-bedøvelsesvarighed",
+              "de": "ARC-Betäubungsdauer",
+              "en": "ARC Stun Duration",
+              "es": "Duración de aturdimiento ARC",
+              "fr": "Durée d'étourdissement ARC",
+              "he": "משך הלם ARC",
+              "hr": "Trajanje ARC Omamljivanja",
+              "it": "Durata stordimento ARC",
+              "ja": "ARCスタン時間",
+              "ko-KR": "아크 기절 지속시간",
+              "no": "ARC-bedøvelsesvarighet",
+              "pl": "Czas trwania ogłuszenia ARC",
+              "pt": "Duração de atordoamento ARC",
+              "pt-BR": "Duração de Atordoamento ARC",
+              "ru": "Длительность оглушения ARC",
+              "sr": "Trajanje ARC Omamljivanja",
+              "tr": "ARC Sersemletme Süresi",
+              "uk": "Тривалість приголомшення ARC",
+              "zh-CN": "ARC击晕持续时间",
+              "zh-TW": "ARC擊暈持續時間"
+            },
+            "Radius": {
+              "value": "6m",
+              "da": "Radius",
+              "de": "Radius",
+              "en": "Radius",
+              "es": "Radio",
+              "fr": "Rayon",
+              "he": "רדיוס",
+              "hr": "Radijus",
+              "it": "Raggio",
+              "ja": "範囲",
+              "ko-KR": "반경",
+              "no": "Radius",
+              "pl": "Promień",
+              "pt": "Raio",
+              "pt-BR": "Raio",
+              "ru": "Радиус",
+              "sr": "Radijus",
+              "tr": "Yarıçap",
+              "uk": "Радіус",
+              "zh-CN": "范围",
+              "zh-TW": "範圍"
+            },
+            "Raider Stun Duration": {
+              "value": "0.5s",
+              "da": "Raider-bedøvelsesvarighed",
+              "de": "Raider-Betäubungsdauer",
+              "en": "Raider Stun Duration",
+              "es": "Duración de aturdimiento de saqueador",
+              "fr": "Durée d'étourdissement des Raiders",
+              "he": "משך הלם ריידר",
+              "hr": "Trajanje Omamljivanja Pljačkaša",
+              "it": "Durata stordimento Raider",
+              "ja": "レイダースタン時間",
+              "ko-KR": "레이더 기절 지속시간",
+              "no": "Raider-bedøvelsesvarighet",
+              "pl": "Czas trwania ogłuszenia najeźdźcy",
+              "pt": "Duração de atordoamento de saqueador",
+              "pt-BR": "Duração de Atordoamento de Combatente",
+              "ru": "Длительность оглушения рейдера",
+              "sr": "Trajanje Omamljivanja Pljačkaša",
+              "tr": "Akıncı Sersemletme Süresi",
+              "uk": "Тривалість приголомшення рейдера",
+              "zh-CN": "掠夺者击晕持续时间",
+              "zh-TW": "掠奪者擊暈持續時間"
+            }
+          },
+          "recyclesInto": {
+            "arc_alloy": 1,
+            "electrical_components": 1
+          },
+          "salvagesInto": {
+            "electrical_components": 1
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/hornet_driver.png",
+          "updatedAt": "01/13/2026",
+          "addedIn": "base",
+          "tip": "The Hornet Driver is a rare item is dropped by Hornets that can be recycled into crafting materials."
+        },
+        "component": {
+          "id": "hornet_driver"
+        }
+      },
+      {
+        "item": {
+          "id": "sensors",
+          "name": {
+            "da": "Sensorer",
+            "de": "Sensoren",
+            "en": "Sensors",
+            "es": "Sensores",
+            "fr": "Capteurs",
+            "he": "חיישנים",
+            "hr": "Senzori",
+            "it": "Sensori",
+            "ja": "センサー",
+            "ko-KR": "센서",
+            "no": "Sensorer",
+            "pl": "Czujniki",
+            "pt": "Sensores",
+            "pt-BR": "Sensores",
+            "ru": "Датчики",
+            "sr": "Senzori",
+            "tr": "Sensörler",
+            "uk": "Датчики",
+            "zh-CN": "传感器",
+            "zh-TW": "感應器"
+          },
+          "description": {
+            "da": "Bruges til håndværk. Bruges til at lave: Ulveflok, Eksplosiv mine, Plyndrerluge-nøgle, Mærkegranate",
+            "de": "Wird bei der Herstellung verwendet. Zur Herstellung von: Sprengmine, Raider-Lukenschlüssel, Markierungsgranate",
+            "en": "Used in crafting. Used to craft: Wolfpack, Explosive Mine, Raider Hatch Key, Tagging Grenade",
+            "es": "Usado en fabricación. Usado para fabricar: Manada de lobos, Mina explosiva, Llave de trampilla de raider, Granada de marcaje",
+            "fr": "Utilisé pour la fabrication. Permet de fabriquer : Meute de loups, Mine explosive, Clé d'écoutille de Raider, Grenade de marquage",
+            "he": "משמש ליצירה. משמש ליצירת: Wolfpack, מוקש נפיץ, מפתח צוהר ריידר, רימון סימון",
+            "hr": "Koristi se za izradu. Koristi se za izradu: Wolfpack, Eksplozivna mina, Ključ za Raider otvor, Granata za označavanje",
+            "it": "Usato per la fabbricazione. Si usa per creare: Branco di lupi, Mina esplosiva, Chiave del portello del predone, Granata marcatrice",
+            "ja": "クラフトに使用。作成可能: ウルフパック、爆発地雷、レイダーハッチキー、タギンググレネード",
+            "ko-KR": "제작에 사용됩니다. 제작 가능: 울프팩, 폭발 지뢰, 레이더 해치 키, 표적 수류탄",
+            "no": "Brukes til håndverk. Brukes til å lage: Ulveflokk, Eksplosiv mine, Plyndrerluke-nøkkel, Merkegranate",
+            "pl": "Używane do wytwarzania. Używane do wytworzenia: Wataha, Mina wybuchowa, Klucz do włazu najeźdźcy, Granat znacznikowy",
+            "pt": "Usado na fabricação. Usado para fabricar: Alcateia, Mina explosiva, Chave de escotilha de saqueador, Granada marcadora",
+            "pt-BR": "Usado na fabricação. Usado para fabricar: Matilha de Lobos, Mina Explosiva, Chave de Escotilha de Combatente, Granada de Marcação",
+            "ru": "Используется в крафте. Используется для создания: Волчья стая, Взрывная мина, Ключ от люка рейдеров, Маркирующая граната",
+            "sr": "Koristi se za izradu. Koristi se za izradu: Wolfpack, Eksplozivna mina, Ključ za Raider otvor, Granata za označavanje",
+            "tr": "Üretimde kullanılır. Üretilebilir: Wolfpack, Patlayıcı Mayın, Yağmacı Ambar Kapağı Anahtarı, İşaretleme Bombası",
+            "uk": "Використовується в крафті. Використовується для створення: Зграя вовків, Вибухова міна, Ключ від люка рейдерів, Маркувальна граната",
+            "zh-CN": "用于制作。可制作：狼群、爆炸地雷、掠夺者舱口钥匙、标记手榴弹",
+            "zh-TW": "用於製作。可製作：狼群、爆炸地雷、掠奪者艙口鑰匙、標記手榴彈"
+          },
+          "type": "Topside Material",
+          "rarity": "Rare",
+          "foundIn": "Security, Technological",
+          "value": 500,
+          "weightKg": 0.3,
+          "stackSize": 5,
+          "recyclesInto": {
+            "metal_parts": 1,
+            "wires": 1
+          },
+          "salvagesInto": {
+            "wires": 1
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/sensors.png",
+          "updatedAt": "03/22/2026",
+          "addedIn": "base",
+          "vendors": [
+            {
+              "cost": {
+                "assorted_seeds": 10
+              },
+              "limit": 5,
+              "refreshSeconds": 86400,
+              "requiredLevel": 12,
+              "trader": "Celeste"
+            }
+          ]
+        },
+        "component": {
+          "id": "sensors"
+        }
+      }
+    ],
+    "workbench": "explosives_bench",
+    "item_type": "Quick Use"
+  },
+  {
+    "id": "surge_coil_blueprint",
+    "name": {
+      "da": "Surge Coil Tegning",
+      "de": "Bauplan: Surge Coil",
+      "en": "Surge Coil Blueprint",
+      "es": "Surge Coil Plano",
+      "fr": "Surge Coil Plan",
+      "he": "Surge Coil תרשים",
+      "hr": "Surge Coil Nacrt",
+      "it": "Surge Coil Progetto",
+      "ja": "Surge Coil 設計図",
+      "ko-KR": "Surge Coil 청사진",
+      "no": "Surge Coil Tegning",
+      "pl": "Surge Coil Schemat",
+      "pt": "Esquema de Surge Coil",
+      "pt-BR": "Esquema de Surge Coil",
+      "ru": "Surge Coil Чертеж",
+      "sr": "Surge Coil Nacrt",
+      "tr": "Surge Coil Taslak",
+      "uk": "Surge Coil Креслення",
+      "zh-CN": "Surge Coil 蓝图",
+      "zh-TW": "Surge Coil 藍圖"
+    },
+    "description": {
+      "da": "En deployerbar enhed, der periodisk elektrificerer området omkring sig selv og kortvarigt lammer alt, der fanges i det.",
+      "de": "Ein einsetzbares Gerät, das den Bereich um sich herum regelmäßig unter Strom setzt und alles, was darin gefangen ist, kurzzeitig betäubt.",
+      "en": "A deployable device that periodically electrifies the area around itself and briefly stuns anything caught within it.",
+      "es": "Un dispositivo desplegable que electrifica periódicamente el área a su alrededor y aturde brevemente a cualquier cosa atrapada en su interior.",
+      "fr": "Un dispositif déployable qui électrifie périodiquement la zone autour de lui et étourdit brièvement tout ce qui s'y trouve.",
+      "he": "מכשיר הניתן לפריסה שמחשמל מעת לעת את האזור שסביבו ומהמם לזמן קצר את כל מי שנתפס בתוכו.",
+      "hr": "Uređaj koji se može postaviti i koji povremeno naelektrizira područje oko sebe te nakratko omami sve što se nađe u njemu.",
+      "it": "Un dispositivo dispiegabile che elettrizza periodicamente l'area circostante e stordisce brevemente chiunque vi rimanga intrappolato.",
+      "ja": "一定時間ごとに周囲を帯電させ、範囲内にいるものを短時間スタンさせる設置型デバイス。",
+      "ko-KR": "주변 지역을 주기적으로 전기화하고 그 안에 갇힌 대상을 잠시 기절시키는 설치형 장치입니다.",
+      "no": "En utplasserbar enhed som periodisk elektrifiserer området rundt seg selv og kortvarig lammer alt som fanges i det.",
+      "pl": "Urządzenie możliwe do rozstawienia, które okresowo elektryzuje obszar wokół siebie i na krótko ogłusza wszystko, co się w nim znajdzie.",
+      "pt": "Um dispositivo implantável que eletrifica periodicamente a área ao seu redor e atordoa brevemente qualquer coisa capturada nela.",
+      "pt-BR": "Um dispositivo implantável que eletrifica periodicamente a área ao seu redor e atordoa brevemente qualquer coisa capturada nela.",
+      "ru": "Развертываемое устройство, которое периодически наэлектризовывает область вокруг себя и ненадолго оглушает любого, кто в нее попадет.",
+      "sr": "Uređaj koji se može postaviti i koji periodično naelektriše područje oko sebe te nakratko omami sve što se nađe u njemu.",
+      "tr": "Etrafındaki alanı periyodik olarak elektriklendiren ve içinde kalan her şeyi kısa süreliğine sersemleten konuşlandırılabilir bir cihaz.",
+      "uk": "Пристрій, що розгортається, який періодично електризує область навколо себе та на короткий час приголомшує все, що потрапляє в нього.",
+      "zh-CN": "一种可部署的设备，定期使周围区域带电，并短暂击晕其中的任何目标。",
+      "zh-TW": "一種可部署的設備，定期使周圍區域帶電，並短暫擊暈其中的任何目標。"
+    },
+    "type": "Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
+    "updatedAt": "03/31/2026",
+    "addedIn": "1.22",
+    "item_type": "Blueprint"
+  },
+  {
     "id": "surge_shield_recharger",
     "name": {
       "da": "Surge-skjoldoplader",
@@ -192871,6 +196147,144 @@
     "icon": "https://cdn.arctracker.io/items/unusable_weapon.png",
     "item_type": "Recyclable",
     "loot_area": "Security"
+  },
+  {
+    "id": "vaporizer_regulator",
+    "name": {
+      "da": "Vaporizer Regulator",
+      "de": "Vaporizer Regulator",
+      "en": "Vaporizer Regulator",
+      "es": "Vaporizer Regulator",
+      "fr": "Vaporizer Regulator",
+      "he": "Vaporizer Regulator",
+      "hr": "Vaporizer Regulator",
+      "it": "Vaporizer Regulator",
+      "ja": "Vaporizer Regulator",
+      "ko-KR": "Vaporizer Regulator",
+      "no": "Vaporizer Regulator",
+      "pl": "Vaporizer Regulator",
+      "pt": "Vaporizer Regulator",
+      "pt-BR": "Vaporizer Regulator",
+      "ru": "Vaporizer Regulator",
+      "sr": "Vaporizer Regulator",
+      "tr": "Vaporizer Regulator",
+      "uk": "Vaporizer Regulator",
+      "zh-CN": "Vaporizer Regulator",
+      "zh-TW": "Vaporizer Regulator"
+    },
+    "description": {
+      "da": "",
+      "de": "",
+      "en": "",
+      "es": "",
+      "fr": "",
+      "he": "",
+      "hr": "",
+      "it": "",
+      "ja": "",
+      "ko-KR": "",
+      "no": "",
+      "pl": "",
+      "pt": "",
+      "pt-BR": "",
+      "ru": "",
+      "sr": "",
+      "tr": "",
+      "uk": "",
+      "zh-CN": "",
+      "zh-TW": ""
+    },
+    "type": "Recyclable",
+    "rarity": "Epic",
+    "value": 6000,
+    "weightKg": 0.5,
+    "stackSize": 1,
+    "recyclesInto": {
+      "advanced_electrical_components": 1,
+      "arc_circuitry": 2
+    },
+    "salvagesInto": {
+      "arc_circuitry": 2
+    },
+    "updatedAt": "03/31/2026",
+    "addedIn": "1.22",
+    "used_in": [
+      {
+        "item": {
+          "id": "dolabra",
+          "name": {
+            "da": "Dolabra",
+            "de": "Dolabra",
+            "en": "Dolabra",
+            "es": "Dolabra",
+            "fr": "Dolabra",
+            "he": "Dolabra",
+            "hr": "Dolabra",
+            "it": "Dolabra",
+            "ja": "Dolabra",
+            "ko-KR": "Dolabra",
+            "no": "Dolabra",
+            "pl": "Dolabra",
+            "pt": "Dolabra",
+            "pt-BR": "Dolabra",
+            "ru": "Dolabra",
+            "sr": "Dolabra",
+            "tr": "Dolabra",
+            "uk": "Dolabra",
+            "zh-CN": "Dolabra",
+            "zh-TW": "Dolabra"
+          },
+          "description": {
+            "da": "Et eksperimentelt våben, der enten kan affyre en bred eksplosion på kort afstand eller fokuseres til at affyre en præcis varmestråle på mellemlang afstand.",
+            "de": "Eine experimentelle Waffe, die entweder einen breiten Schuss mit kurzer Reichweite abgeben kann oder so fokussiert wird, dass sie einen konzentrierten Hitzestrahl mit mittlerer Reichweite verschießt.",
+            "en": "An experimental weapon that can either fire a wide short range blast, or be focused to fire a tight medium range beam of heat.",
+            "es": "Un arma experimental que puede disparar una ráfaga amplia a corta distancia o concentrarse para disparar un haz de calor preciso a media distancia.",
+            "fr": "Une arme expérimentale qui peut soit tirer une large décharge à courte portée, soit être concentrée pour tirer un faisceau de chaleur étroit à moyenne portée.",
+            "he": "נשק ניסיוני שיכול לירות פרץ רחב לטווח קצר, או להיות ממוקד לירי קרן חום הדוקה לטווח בינוני.",
+            "hr": "Eksperimentalno oružje koje može ispaliti široki prasak kratkog dometa ili se može fokusirati za ispaljivanje uskog toplinskog snopa srednjeg dometa.",
+            "it": "Un'arma sperimentale che può sparare un'ampia scarica a corto raggio o essere focalizzata per sparare un raggio di calore concentrato a medio raggio.",
+            "ja": "近距離に広範囲の爆風を発射するか、収束させて中距離に強力な熱線を照射することができる実験的な武器。",
+            "ko-KR": "근거리에서 넓은 폭발을 일으키거나, 초점을 맞춰 중거리에서 정밀한 열선을 발사할 수 있는 실험용 무기입니다.",
+            "no": "Et eksperimentelt våpen som enten kan avfyre en bred salve på kort hold, eller fokuseres for å avfyre en konsentrert varmestråle på mellomlangt hold.",
+            "pl": "Eksperymentalna broń, która może wystrzelić szeroki podmuch na krótki dystans lub zostać skupiona, aby wystrzelić wąską wiązkę ciepła o średnim zasięgu.",
+            "pt": "Uma arma experimental que pode disparar uma rajada ampla de curto alcance ou ser focada para disparar um feixe de calor estreito de médio alcance.",
+            "pt-BR": "Uma arma experimental que pode disparar uma rajada ampla de curto alcance ou ser focada para disparar um feixe de calor concentrado de médio alcance.",
+            "ru": "Экспериментальное оружие, которое может либо производить широкий залп на короткой дистанции, либо фокусироваться для стрельбы узким тепловым лучом на средней дистанции.",
+            "sr": "Eksperimentalno oružje koje može ispaliti široki prasak kratkog dometa ili se može fokusirati za ispaljivanje uskog toplotnog snopa srednjeg dometa.",
+            "tr": "İster kısa menzilli geniş bir patlama ateşleyebilen ister orta menzilli dar bir ısı ışını ateşlemek için odaklanabilen deneysel bir silah.",
+            "uk": "Експериментальна зброя, яка може або стріляти широким залпом на короткій дистанції, або фокусуватися для стрільби вузьким тепловим променем на середній дистанції.",
+            "zh-CN": "一种实验性武器，既可以发射宽范围的短程冲击，也可以聚焦发射窄范围的中程热能光束。",
+            "zh-TW": "一種實驗性武器，既可以發射寬範圍的短程衝擊，也可以聚焦發射窄範圍的中程熱能光束。"
+          },
+          "type": "Shotgun",
+          "rarity": "Legendary",
+          "value": 27500,
+          "weightKg": 8,
+          "stackSize": 1,
+          "isWeapon": true,
+          "blueprintLocked": true,
+          "craftBench": "weapon_bench",
+          "stationLevelRequired": 3,
+          "recipe": {
+            "magnetic_accelerator": 3,
+            "shredder_gyro": 3,
+            "vaporizer_regulator": 2
+          },
+          "recyclesInto": {
+            "magnetic_accelerator": 2
+          },
+          "salvagesInto": {
+            "magnetic_accelerator": 1
+          },
+          "updatedAt": "03/31/2026",
+          "addedIn": "1.22"
+        },
+        "component": {
+          "id": "vaporizer_regulator"
+        }
+      }
+    ],
+    "item_type": "Recyclable"
   },
   {
     "id": "vase",

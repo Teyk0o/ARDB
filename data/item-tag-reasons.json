@@ -1,28 +1,14 @@
 {
   "advanced_arc_powercell": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "advanced_arc_powercell",
-        "recycleComponentId": "arc_powercell",
-        "recycleComponentName": "ARC Powercell",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "advanced_arc_powercell",
-            "itemName": "Advanced ARC Powercell",
-            "targetId": "arc_powercell",
-            "targetName": "ARC Powercell"
-          },
-          {
-            "action": "use_in_quest",
-            "itemId": "arc_powercell",
-            "itemName": "ARC Powercell",
-            "questId": "a_prime_specimen",
-            "questName": "A Prime Specimen"
-          }
-        ]
+        "projectId": "high_gain_antenna_project",
+        "projectName": "High-Gain Antenna",
+        "projectPhase": 1,
+        "completed": false
       }
     ]
   },
@@ -208,6 +194,14 @@
         "projectName": "Weather Monitor System",
         "projectPhase": 1,
         "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "arc_alloy",
+        "projectId": "high_gain_antenna_project",
+        "projectName": "High-Gain Antenna",
+        "projectPhase": 1,
+        "completed": false
       }
     ]
   },
@@ -224,56 +218,28 @@
     ]
   },
   "arc_coolant": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "arc_coolant",
-        "recycleComponentId": "chemicals",
-        "recycleComponentName": "Chemicals",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "arc_coolant",
-            "itemName": "ARC Coolant",
-            "targetId": "chemicals",
-            "targetName": "Chemicals"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "chemicals",
-            "itemName": "Chemicals",
-            "workshopStation": "explosives_station",
-            "workshopLevel": "1"
-          }
-        ]
+        "projectId": "high_gain_antenna_project",
+        "projectName": "High-Gain Antenna",
+        "projectPhase": 2,
+        "completed": false
       }
     ]
   },
   "arc_flex_rubber": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "arc_flex_rubber",
-        "recycleComponentId": "rubber_parts",
-        "recycleComponentName": "Rubber Parts",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "arc_flex_rubber",
-            "itemName": "ARC Flex Rubber",
-            "targetId": "rubber_parts",
-            "targetName": "Rubber Parts"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "rubber_parts",
-            "itemName": "Rubber Parts",
-            "workshopStation": "gunsmith",
-            "workshopLevel": "1"
-          }
-        ]
+        "projectId": "high_gain_antenna_project",
+        "projectName": "High-Gain Antenna",
+        "projectPhase": 1,
+        "completed": false
       }
     ]
   },
@@ -298,6 +264,14 @@
         "projectId": "trophy_display_project",
         "projectName": "Trophy Display",
         "projectPhase": 3,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "arc_performance_steel",
+        "projectId": "high_gain_antenna_project",
+        "projectName": "High-Gain Antenna",
+        "projectPhase": 1,
         "completed": false
       }
     ]
@@ -339,39 +313,61 @@
         "projectName": "Trophy Display",
         "projectPhase": 4,
         "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "arc_synthetic_resin",
+        "projectId": "high_gain_antenna_project",
+        "projectName": "High-Gain Antenna",
+        "projectPhase": 3,
+        "completed": false
       }
     ]
   },
   "arc_thermo_lining": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "arc_thermo_lining",
-        "recycleComponentId": "fabric",
-        "recycleComponentName": "Fabric",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "arc_thermo_lining",
-            "itemName": "ARC Thermo Lining",
-            "targetId": "fabric",
-            "targetName": "Fabric"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "fabric",
-            "itemName": "Fabric",
-            "workshopStation": "gear_bench",
-            "workshopLevel": "1"
-          }
-        ]
+        "projectId": "high_gain_antenna_project",
+        "projectName": "High-Gain Antenna",
+        "projectPhase": 2,
+        "completed": false
+      }
+    ]
+  },
+  "assessor_matrix": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "assessor_matrix",
+        "projectId": "high_gain_antenna_project",
+        "projectName": "High-Gain Antenna",
+        "projectPhase": 2,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "assessor_matrix",
+        "projectId": "high_gain_antenna_project",
+        "projectName": "High-Gain Antenna",
+        "projectPhase": 3,
+        "completed": false
       }
     ]
   },
   "bastion_cell": {
     "tag": "keep",
     "reasons": [
+      {
+        "type": "quest",
+        "itemId": "bastion_cell",
+        "questId": "settled_in_full",
+        "questName": "Settled in Full",
+        "completed": false
+      },
       {
         "type": "workshop",
         "itemId": "bastion_cell",
@@ -392,6 +388,13 @@
   "battery": {
     "tag": "keep",
     "reasons": [
+      {
+        "type": "quest",
+        "itemId": "battery",
+        "questId": "after_rain_comes",
+        "questName": "After Rain Comes",
+        "completed": false
+      },
       {
         "type": "quest",
         "itemId": "battery",
@@ -613,8 +616,8 @@
             "action": "use_in_quest",
             "itemId": "battery",
             "itemName": "Battery",
-            "questId": "trash_into_treasure",
-            "questName": "Trash Into Treasure"
+            "questId": "after_rain_comes",
+            "questName": "After Rain Comes"
           }
         ]
       },
@@ -690,8 +693,8 @@
             "action": "use_in_quest",
             "itemId": "wires",
             "itemName": "Wires",
-            "questId": "trash_into_treasure",
-            "questName": "Trash Into Treasure"
+            "questId": "after_rain_comes",
+            "questName": "After Rain Comes"
           }
         ]
       }
@@ -717,8 +720,8 @@
             "action": "use_in_quest",
             "itemId": "battery",
             "itemName": "Battery",
-            "questId": "trash_into_treasure",
-            "questName": "Trash Into Treasure"
+            "questId": "after_rain_comes",
+            "questName": "After Rain Comes"
           }
         ]
       },
@@ -739,8 +742,8 @@
             "action": "use_in_quest",
             "itemId": "wires",
             "itemName": "Wires",
-            "questId": "trash_into_treasure",
-            "questName": "Trash Into Treasure"
+            "questId": "after_rain_comes",
+            "questName": "After Rain Comes"
           }
         ]
       }
@@ -854,6 +857,114 @@
         "projectName": "Weather Monitor System",
         "projectPhase": 3,
         "completed": false
+      }
+    ]
+  },
+  "canto_i": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "canto_i",
+        "recycleComponentId": "advanced_mechanical_components",
+        "recycleComponentName": "Advanced Mechanical Components",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "canto_i",
+            "itemName": "Canto I",
+            "targetId": "advanced_mechanical_components",
+            "targetName": "Advanced Mechanical Components"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "advanced_mechanical_components",
+            "itemName": "Advanced Mechanical Components",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "canto_ii": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "canto_ii",
+        "recycleComponentId": "advanced_mechanical_components",
+        "recycleComponentName": "Advanced Mechanical Components",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "canto_ii",
+            "itemName": "Canto II",
+            "targetId": "advanced_mechanical_components",
+            "targetName": "Advanced Mechanical Components"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "advanced_mechanical_components",
+            "itemName": "Advanced Mechanical Components",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "canto_iii": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "canto_iii",
+        "recycleComponentId": "advanced_mechanical_components",
+        "recycleComponentName": "Advanced Mechanical Components",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "canto_iii",
+            "itemName": "Canto III",
+            "targetId": "advanced_mechanical_components",
+            "targetName": "Advanced Mechanical Components"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "advanced_mechanical_components",
+            "itemName": "Advanced Mechanical Components",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "canto_iv": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "canto_iv",
+        "recycleComponentId": "advanced_mechanical_components",
+        "recycleComponentName": "Advanced Mechanical Components",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "canto_iv",
+            "itemName": "Canto IV",
+            "targetId": "advanced_mechanical_components",
+            "targetName": "Advanced Mechanical Components"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "advanced_mechanical_components",
+            "itemName": "Advanced Mechanical Components",
+            "workshopStation": "gunsmith",
+            "workshopLevel": "3"
+          }
+        ]
       }
     ]
   },
@@ -1417,6 +1528,18 @@
       }
     ]
   },
+  "dodgers_note": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "dodgers_note",
+        "questId": "outstanding_balance",
+        "questName": "Outstanding Balance",
+        "completed": false
+      }
+    ]
+  },
   "dog_collar": {
     "tag": "keep",
     "reasons": [
@@ -1743,6 +1866,13 @@
     "tag": "keep",
     "reasons": [
       {
+        "type": "quest",
+        "itemId": "fireball_burner",
+        "questId": "test_case",
+        "questName": "Test Case",
+        "completed": false
+      },
+      {
         "type": "workshop",
         "itemId": "fireball_burner",
         "workshopStation": "refiner",
@@ -1762,6 +1892,13 @@
   "firefly_burner": {
     "tag": "keep",
     "reasons": [
+      {
+        "type": "quest",
+        "itemId": "firefly_burner",
+        "questId": "test_case",
+        "questName": "Test Case",
+        "completed": false
+      },
       {
         "type": "project",
         "itemId": "firefly_burner",
@@ -1975,6 +2112,13 @@
   "hornet_driver": {
     "tag": "keep",
     "reasons": [
+      {
+        "type": "quest",
+        "itemId": "hornet_driver",
+        "questId": "test_case",
+        "questName": "Test Case",
+        "completed": false
+      },
       {
         "type": "quest",
         "itemId": "hornet_driver",
@@ -2240,6 +2384,18 @@
       }
     ]
   },
+  "library_book": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "library_book",
+        "questId": "building_a_library",
+        "questName": "Building a Library",
+        "completed": false
+      }
+    ]
+  },
   "lidar_scanner": {
     "tag": "keep",
     "reasons": [
@@ -2337,6 +2493,18 @@
         "itemId": "magnetron",
         "questId": "snap_and_salvage",
         "questName": "Snap and Salvage",
+        "completed": false
+      }
+    ]
+  },
+  "major_aivas_mementos": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "major_aivas_mementos",
+        "questId": "the_majors_footlocker",
+        "questName": "The Major’s Footlocker",
         "completed": false
       }
     ]
@@ -2707,6 +2875,18 @@
       }
     ]
   },
+  "official_shutdown_documentation": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "official_shutdown_documentation",
+        "questId": "last_entry",
+        "questName": "Last Entry",
+        "completed": false
+      }
+    ]
+  },
   "oil": {
     "tag": "keep",
     "reasons": [
@@ -2861,6 +3041,18 @@
       }
     ]
   },
+  "possibly_toxic_plant": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "possibly_toxic_plant",
+        "questId": "a_new_type_of_plant",
+        "questName": "A New Type of Plant",
+        "completed": false
+      }
+    ]
+  },
   "power_bank": {
     "tag": "recycle",
     "reasons": [
@@ -2881,8 +3073,8 @@
             "action": "use_in_quest",
             "itemId": "battery",
             "itemName": "Battery",
-            "questId": "trash_into_treasure",
-            "questName": "Trash Into Treasure"
+            "questId": "after_rain_comes",
+            "questName": "After Rain Comes"
           }
         ]
       },
@@ -2903,8 +3095,8 @@
             "action": "use_in_quest",
             "itemId": "wires",
             "itemName": "Wires",
-            "questId": "trash_into_treasure",
-            "questName": "Trash Into Treasure"
+            "questId": "after_rain_comes",
+            "questName": "After Rain Comes"
           }
         ]
       }
@@ -2988,10 +3180,22 @@
             "action": "use_in_quest",
             "itemId": "wires",
             "itemName": "Wires",
-            "questId": "trash_into_treasure",
-            "questName": "Trash Into Treasure"
+            "questId": "after_rain_comes",
+            "questName": "After Rain Comes"
           }
         ]
+      }
+    ]
+  },
+  "project_heartwood_blueprints": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "project_heartwood_blueprints",
+        "questId": "stable_housing",
+        "questName": "Stable Housing",
+        "completed": false
       }
     ]
   },
@@ -3015,8 +3219,8 @@
             "action": "use_in_quest",
             "itemId": "wires",
             "itemName": "Wires",
-            "questId": "trash_into_treasure",
-            "questName": "Trash Into Treasure"
+            "questId": "after_rain_comes",
+            "questName": "After Rain Comes"
           }
         ]
       }
@@ -3709,6 +3913,30 @@
       }
     ]
   },
+  "scout_patrol_note": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "scout_patrol_note",
+        "questId": "dust_on_the_wires",
+        "questName": "Dust on the Wires",
+        "completed": false
+      }
+    ]
+  },
+  "secret_meeting_info": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "secret_meeting_info",
+        "questId": "furtive_meetings",
+        "questName": "Furtive Meetings",
+        "completed": false
+      }
+    ]
+  },
   "sensors": {
     "tag": "keep",
     "reasons": [
@@ -4294,6 +4522,14 @@
         "projectName": "Trophy Display",
         "projectPhase": 1,
         "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "surveyor_vault",
+        "projectId": "high_gain_antenna_project",
+        "projectName": "High-Gain Antenna",
+        "projectPhase": 3,
+        "completed": false
       }
     ]
   },
@@ -4525,18 +4761,6 @@
       }
     ]
   },
-  "torn_book": {
-    "tag": "keep",
-    "reasons": [
-      {
-        "type": "quest",
-        "itemId": "torn_book",
-        "questId": "building_a_library",
-        "questName": "Building a Library",
-        "completed": false
-      }
-    ]
-  },
   "turbo_pump": {
     "tag": "recycle",
     "reasons": [
@@ -4618,6 +4842,27 @@
             "workshopLevel": "1"
           }
         ]
+      }
+    ]
+  },
+  "vaporizer_regulator": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "vaporizer_regulator",
+        "projectId": "high_gain_antenna_project",
+        "projectName": "High-Gain Antenna",
+        "projectPhase": 2,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "vaporizer_regulator",
+        "projectId": "high_gain_antenna_project",
+        "projectName": "High-Gain Antenna",
+        "projectPhase": 3,
+        "completed": false
       }
     ]
   },
@@ -4710,6 +4955,27 @@
   "wires": {
     "tag": "keep",
     "reasons": [
+      {
+        "type": "quest",
+        "itemId": "wires",
+        "questId": "after_rain_comes",
+        "questName": "After Rain Comes",
+        "completed": false
+      },
+      {
+        "type": "quest",
+        "itemId": "wires",
+        "questId": "eyes_on_the_prize",
+        "questName": "Eyes on the Prize",
+        "completed": false
+      },
+      {
+        "type": "quest",
+        "itemId": "wires",
+        "questId": "flickering_threat",
+        "questName": "Flickering Threat",
+        "completed": false
+      },
       {
         "type": "quest",
         "itemId": "wires",
