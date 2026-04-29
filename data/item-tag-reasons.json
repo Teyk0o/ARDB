@@ -32,16 +32,16 @@
       {
         "type": "project",
         "itemId": "advanced_electrical_components",
-        "projectId": "expedition_project",
-        "projectName": "Expedition Project (Season 2)",
+        "projectId": "expedition_project_s1",
+        "projectName": "Expedition Project (Expedition 1)",
         "projectPhase": 4,
         "completed": false
       },
       {
         "type": "project",
         "itemId": "advanced_electrical_components",
-        "projectId": "expedition_project_s1",
-        "projectName": "Expedition Project (Season 1)",
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project (Expedition 2)",
         "projectPhase": 4,
         "completed": false
       },
@@ -49,7 +49,15 @@
         "type": "project",
         "itemId": "advanced_electrical_components",
         "projectId": "expedition_project_s3",
-        "projectName": "Expedition (Season 3)",
+        "projectName": "Expedition (Expedition 3)",
+        "projectPhase": 4,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "advanced_electrical_components",
+        "projectId": "expedition_project_s4",
+        "projectName": "Expedition (Expedition 4)",
         "projectPhase": 4,
         "completed": false
       }
@@ -63,6 +71,19 @@
         "itemId": "advanced_mechanical_components",
         "workshopStation": "gunsmith",
         "workshopLevel": "3",
+        "completed": false
+      }
+    ]
+  },
+  "agave": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "agave",
+        "projectId": "avian_alarm_project",
+        "projectName": "Avian Alarm",
+        "projectPhase": 4,
         "completed": false
       }
     ]
@@ -166,16 +187,16 @@
       {
         "type": "project",
         "itemId": "arc_alloy",
-        "projectId": "expedition_project",
-        "projectName": "Expedition Project (Season 2)",
+        "projectId": "expedition_project_s1",
+        "projectName": "Expedition Project (Expedition 1)",
         "projectPhase": 1,
         "completed": false
       },
       {
         "type": "project",
         "itemId": "arc_alloy",
-        "projectId": "expedition_project_s1",
-        "projectName": "Expedition Project (Season 1)",
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project (Expedition 2)",
         "projectPhase": 1,
         "completed": false
       },
@@ -183,7 +204,15 @@
         "type": "project",
         "itemId": "arc_alloy",
         "projectId": "expedition_project_s3",
-        "projectName": "Expedition (Season 3)",
+        "projectName": "Expedition (Expedition 3)",
+        "projectPhase": 1,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "arc_alloy",
+        "projectId": "expedition_project_s4",
+        "projectName": "Expedition (Expedition 4)",
         "projectPhase": 1,
         "completed": false
       },
@@ -251,6 +280,14 @@
         "itemId": "arc_motion_core",
         "workshopStation": "refiner",
         "workshopLevel": "2",
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "arc_motion_core",
+        "projectId": "expedition_project_s4",
+        "projectName": "Expedition (Expedition 4)",
+        "projectPhase": 3,
         "completed": false
       }
     ]
@@ -405,16 +442,16 @@
       {
         "type": "project",
         "itemId": "battery",
-        "projectId": "expedition_project",
-        "projectName": "Expedition Project (Season 2)",
+        "projectId": "expedition_project_s1",
+        "projectName": "Expedition Project (Expedition 1)",
         "projectPhase": 3,
         "completed": false
       },
       {
         "type": "project",
         "itemId": "battery",
-        "projectId": "expedition_project_s1",
-        "projectName": "Expedition Project (Season 1)",
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project (Expedition 2)",
         "projectPhase": 3,
         "completed": false
       },
@@ -422,7 +459,7 @@
         "type": "project",
         "itemId": "battery",
         "projectId": "expedition_project_s3",
-        "projectName": "Expedition (Season 3)",
+        "projectName": "Expedition (Expedition 3)",
         "projectPhase": 3,
         "completed": false
       }
@@ -577,7 +614,7 @@
         "type": "project",
         "itemId": "bombardier_cell",
         "projectId": "expedition_project_s3",
-        "projectName": "Expedition (Season 3)",
+        "projectName": "Expedition (Expedition 3)",
         "projectPhase": 4,
         "completed": false
       }
@@ -590,7 +627,7 @@
         "type": "project",
         "itemId": "breathtaking_snow_globe",
         "projectId": "expedition_project_s3",
-        "projectName": "Expedition (Season 3)",
+        "projectName": "Expedition (Expedition 3)",
         "projectPhase": 4,
         "completed": false
       }
@@ -652,7 +689,7 @@
         "type": "project",
         "itemId": "broken_guidance_system",
         "projectId": "expedition_project_s3",
-        "projectName": "Expedition (Season 3)",
+        "projectName": "Expedition (Expedition 3)",
         "projectPhase": 4,
         "completed": false
       }
@@ -853,6 +890,22 @@
       {
         "type": "project",
         "itemId": "canister",
+        "projectId": "avian_alarm_project",
+        "projectName": "Avian Alarm",
+        "projectPhase": 2,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "canister",
+        "projectId": "expedition_project_s4",
+        "projectName": "Expedition (Expedition 4)",
+        "projectPhase": 1,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "canister",
         "projectId": "weather_monitor_system_project",
         "projectName": "Weather Monitor System",
         "projectPhase": 3,
@@ -1006,7 +1059,15 @@
         "type": "project",
         "itemId": "chemicals",
         "projectId": "expedition_project_s3",
-        "projectName": "Expedition (Season 3)",
+        "projectName": "Expedition (Expedition 3)",
+        "projectPhase": 1,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "chemicals",
+        "projectId": "expedition_project_s4",
+        "projectName": "Expedition (Expedition 4)",
         "projectPhase": 1,
         "completed": false
       }
@@ -1018,17 +1079,17 @@
       {
         "type": "project",
         "itemId": "coffee_pot",
-        "projectId": "flickering_flames_project",
-        "projectName": "Flickering Flames",
-        "projectPhase": 4,
+        "projectId": "expedition_project_s3",
+        "projectName": "Expedition (Expedition 3)",
+        "projectPhase": 3,
         "completed": false
       },
       {
         "type": "project",
         "itemId": "coffee_pot",
-        "projectId": "expedition_project_s3",
-        "projectName": "Expedition (Season 3)",
-        "projectPhase": 3,
+        "projectId": "flickering_flames_project",
+        "projectName": "Flickering Flames",
+        "projectPhase": 4,
         "completed": false
       }
     ]
@@ -1036,6 +1097,21 @@
   "comet_igniter": {
     "tag": "keep",
     "reasons": [
+      {
+        "type": "quest",
+        "itemId": "comet_igniter",
+        "questId": "collision_course",
+        "questName": "Collision Course",
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "comet_igniter",
+        "projectId": "avian_alarm_project",
+        "projectName": "Avian Alarm",
+        "projectPhase": 3,
+        "completed": false
+      },
       {
         "type": "project",
         "itemId": "comet_igniter",
@@ -1095,7 +1171,7 @@
         "type": "project",
         "itemId": "cooling_coil",
         "projectId": "expedition_project",
-        "projectName": "Expedition Project (Season 2)",
+        "projectName": "Expedition Project (Expedition 2)",
         "projectPhase": 2,
         "completed": false
       }
@@ -1108,7 +1184,7 @@
         "type": "project",
         "itemId": "cooling_fan",
         "projectId": "expedition_project_s1",
-        "projectName": "Expedition Project (Season 1)",
+        "projectName": "Expedition Project (Expedition 1)",
         "projectPhase": 2,
         "completed": false
       }
@@ -1620,16 +1696,32 @@
       {
         "type": "project",
         "itemId": "durable_cloth",
-        "projectId": "expedition_project",
-        "projectName": "Expedition Project (Season 2)",
+        "projectId": "expedition_project_s1",
+        "projectName": "Expedition Project (Expedition 1)",
         "projectPhase": 2,
         "completed": false
       },
       {
         "type": "project",
         "itemId": "durable_cloth",
-        "projectId": "expedition_project_s1",
-        "projectName": "Expedition Project (Season 1)",
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project (Expedition 2)",
+        "projectPhase": 2,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "durable_cloth",
+        "projectId": "expedition_project_s3",
+        "projectName": "Expedition (Expedition 3)",
+        "projectPhase": 2,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "durable_cloth",
+        "projectId": "expedition_project_s4",
+        "projectName": "Expedition (Expedition 4)",
         "projectPhase": 2,
         "completed": false
       },
@@ -1639,14 +1731,6 @@
         "projectId": "flickering_flames_project",
         "projectName": "Flickering Flames",
         "projectPhase": 1,
-        "completed": false
-      },
-      {
-        "type": "project",
-        "itemId": "durable_cloth",
-        "projectId": "expedition_project_s3",
-        "projectName": "Expedition (Season 3)",
-        "projectPhase": 2,
         "completed": false
       }
     ]
@@ -1683,16 +1767,16 @@
       {
         "type": "project",
         "itemId": "electrical_components",
-        "projectId": "expedition_project",
-        "projectName": "Expedition Project (Season 2)",
+        "projectId": "expedition_project_s1",
+        "projectName": "Expedition Project (Expedition 1)",
         "projectPhase": 2,
         "completed": false
       },
       {
         "type": "project",
         "itemId": "electrical_components",
-        "projectId": "expedition_project_s1",
-        "projectName": "Expedition Project (Season 1)",
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project (Expedition 2)",
         "projectPhase": 2,
         "completed": false
       },
@@ -1700,7 +1784,15 @@
         "type": "project",
         "itemId": "electrical_components",
         "projectId": "expedition_project_s3",
-        "projectName": "Expedition (Season 3)",
+        "projectName": "Expedition (Expedition 3)",
+        "projectPhase": 2,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "electrical_components",
+        "projectId": "expedition_project_s4",
+        "projectName": "Expedition (Expedition 4)",
         "projectPhase": 2,
         "completed": false
       }
@@ -1749,22 +1841,6 @@
       {
         "type": "project",
         "itemId": "exodus_modules",
-        "projectId": "expedition_project",
-        "projectName": "Expedition Project (Season 2)",
-        "projectPhase": 3,
-        "completed": false
-      },
-      {
-        "type": "project",
-        "itemId": "exodus_modules",
-        "projectId": "expedition_project_s1",
-        "projectName": "Expedition Project (Season 1)",
-        "projectPhase": 3,
-        "completed": false
-      },
-      {
-        "type": "project",
-        "itemId": "exodus_modules",
         "projectId": "trophy_display_project",
         "projectName": "Trophy Display",
         "projectPhase": 5,
@@ -1773,8 +1849,32 @@
       {
         "type": "project",
         "itemId": "exodus_modules",
+        "projectId": "expedition_project_s1",
+        "projectName": "Expedition Project (Expedition 1)",
+        "projectPhase": 3,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "exodus_modules",
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project (Expedition 2)",
+        "projectPhase": 3,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "exodus_modules",
         "projectId": "expedition_project_s3",
-        "projectName": "Expedition (Season 3)",
+        "projectName": "Expedition (Expedition 3)",
+        "projectPhase": 3,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "exodus_modules",
+        "projectId": "expedition_project_s4",
+        "projectName": "Expedition (Expedition 4)",
         "projectPhase": 3,
         "completed": false
       }
@@ -1832,6 +1932,19 @@
         "itemId": "fabric",
         "workshopStation": "medical_lab",
         "workshopLevel": "1",
+        "completed": false
+      }
+    ]
+  },
+  "fertilizer": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "fertilizer",
+        "projectId": "avian_alarm_project",
+        "projectName": "Avian Alarm",
+        "projectPhase": 3,
         "completed": false
       }
     ]
@@ -1903,7 +2016,7 @@
         "type": "project",
         "itemId": "firefly_burner",
         "projectId": "expedition_project_s3",
-        "projectName": "Expedition (Season 3)",
+        "projectName": "Expedition (Expedition 3)",
         "projectPhase": 3,
         "completed": false
       },
@@ -1999,7 +2112,7 @@
         "type": "project",
         "itemId": "frequency_modulation_box",
         "projectId": "expedition_project",
-        "projectName": "Expedition Project (Season 2)",
+        "projectName": "Expedition Project (Expedition 2)",
         "projectPhase": 4,
         "completed": false
       }
@@ -2106,6 +2219,21 @@
             "workshopLevel": "1"
           }
         ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "headphones",
+        "recycleComponentId": "speaker_component",
+        "recycleComponentName": "Speaker Component",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "headphones",
+            "itemName": "Headphones",
+            "targetId": "speaker_component",
+            "targetName": "Speaker Component"
+          }
+        ]
       }
     ]
   },
@@ -2177,7 +2305,7 @@
         "type": "project",
         "itemId": "humidifier",
         "projectId": "expedition_project_s1",
-        "projectName": "Expedition Project (Season 1)",
+        "projectName": "Expedition Project (Expedition 1)",
         "projectPhase": 4,
         "completed": false
       }
@@ -2264,7 +2392,15 @@
         "type": "project",
         "itemId": "industrial_charger",
         "projectId": "expedition_project_s3",
-        "projectName": "Expedition (Season 3)",
+        "projectName": "Expedition (Expedition 3)",
+        "projectPhase": 2,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "industrial_charger",
+        "projectId": "expedition_project_s4",
+        "projectName": "Expedition (Expedition 4)",
         "projectPhase": 2,
         "completed": false
       }
@@ -2311,7 +2447,7 @@
         "type": "project",
         "itemId": "ion_sputter",
         "projectId": "expedition_project",
-        "projectName": "Expedition Project (Season 2)",
+        "projectName": "Expedition Project (Expedition 2)",
         "projectPhase": 4,
         "completed": false
       }
@@ -2349,25 +2485,25 @@
       {
         "type": "project",
         "itemId": "leaper_pulse_unit",
-        "projectId": "expedition_project",
-        "projectName": "Expedition Project (Season 2)",
-        "projectPhase": 4,
+        "projectId": "trophy_display_project",
+        "projectName": "Trophy Display",
+        "projectPhase": 3,
         "completed": false
       },
       {
         "type": "project",
         "itemId": "leaper_pulse_unit",
         "projectId": "expedition_project_s1",
-        "projectName": "Expedition Project (Season 1)",
+        "projectName": "Expedition Project (Expedition 1)",
         "projectPhase": 4,
         "completed": false
       },
       {
         "type": "project",
         "itemId": "leaper_pulse_unit",
-        "projectId": "trophy_display_project",
-        "projectName": "Trophy Display",
-        "projectPhase": 3,
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project (Expedition 2)",
+        "projectPhase": 4,
         "completed": false
       }
     ]
@@ -2380,6 +2516,19 @@
         "itemId": "lemon",
         "workshopStation": "scrappy",
         "workshopLevel": "3",
+        "completed": false
+      }
+    ]
+  },
+  "leviathans_crown_ship_model": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "leviathans_crown_ship_model",
+        "projectId": "avian_alarm_project",
+        "projectName": "Avian Alarm",
+        "projectPhase": 5,
         "completed": false
       }
     ]
@@ -2414,16 +2563,16 @@
       {
         "type": "project",
         "itemId": "light_bulb",
-        "projectId": "expedition_project",
-        "projectName": "Expedition Project (Season 2)",
+        "projectId": "expedition_project_s1",
+        "projectName": "Expedition Project (Expedition 1)",
         "projectPhase": 3,
         "completed": false
       },
       {
         "type": "project",
         "itemId": "light_bulb",
-        "projectId": "expedition_project_s1",
-        "projectName": "Expedition Project (Season 1)",
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project (Expedition 2)",
         "projectPhase": 3,
         "completed": false
       },
@@ -2470,16 +2619,16 @@
       {
         "type": "project",
         "itemId": "magnetic_accelerator",
-        "projectId": "expedition_project_s1",
-        "projectName": "Expedition Project (Season 1)",
+        "projectId": "trophy_display_project",
+        "projectName": "Trophy Display",
         "projectPhase": 4,
         "completed": false
       },
       {
         "type": "project",
         "itemId": "magnetic_accelerator",
-        "projectId": "trophy_display_project",
-        "projectName": "Trophy Display",
+        "projectId": "expedition_project_s1",
+        "projectName": "Expedition Project (Expedition 1)",
         "projectPhase": 4,
         "completed": false
       }
@@ -2593,16 +2742,16 @@
       {
         "type": "project",
         "itemId": "metal_parts",
-        "projectId": "expedition_project",
-        "projectName": "Expedition Project (Season 2)",
+        "projectId": "expedition_project_s1",
+        "projectName": "Expedition Project (Expedition 1)",
         "projectPhase": 1,
         "completed": false
       },
       {
         "type": "project",
         "itemId": "metal_parts",
-        "projectId": "expedition_project_s1",
-        "projectName": "Expedition Project (Season 1)",
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project (Expedition 2)",
         "projectPhase": 1,
         "completed": false
       },
@@ -2610,7 +2759,15 @@
         "type": "project",
         "itemId": "metal_parts",
         "projectId": "expedition_project_s3",
-        "projectName": "Expedition (Season 3)",
+        "projectName": "Expedition (Expedition 3)",
+        "projectPhase": 1,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "metal_parts",
+        "projectId": "expedition_project_s4",
+        "projectName": "Expedition (Expedition 4)",
         "projectPhase": 1,
         "completed": false
       },
@@ -2791,6 +2948,19 @@
       }
     ]
   },
+  "moss": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "moss",
+        "projectId": "avian_alarm_project",
+        "projectName": "Avian Alarm",
+        "projectPhase": 2,
+        "completed": false
+      }
+    ]
+  },
   "motor": {
     "tag": "keep",
     "reasons": [
@@ -2893,6 +3063,14 @@
       {
         "type": "project",
         "itemId": "oil",
+        "projectId": "expedition_project_s4",
+        "projectName": "Expedition (Expedition 4)",
+        "projectPhase": 2,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "oil",
         "projectId": "weather_monitor_system_project",
         "projectName": "Weather Monitor System",
         "projectPhase": 1,
@@ -2945,7 +3123,7 @@
         "type": "project",
         "itemId": "plastic_parts",
         "projectId": "expedition_project",
-        "projectName": "Expedition Project (Season 2)",
+        "projectName": "Expedition Project (Expedition 2)",
         "projectPhase": 1,
         "completed": false
       },
@@ -3038,6 +3216,14 @@
         "questId": "movie_night",
         "questName": "Movie Night",
         "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "portable_tv",
+        "projectId": "expedition_project_s4",
+        "projectName": "Expedition (Expedition 4)",
+        "projectPhase": 4,
+        "completed": false
       }
     ]
   },
@@ -3122,6 +3308,18 @@
         "itemId": "power_rod",
         "questId": "tribute_to_toledo",
         "questName": "Tribute to Toledo",
+        "completed": false
+      }
+    ]
+  },
+  "precision_gimbal": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "quest",
+        "itemId": "precision_gimbal",
+        "questId": "safe_harbor",
+        "questName": "Safe Harbor",
         "completed": false
       }
     ]
@@ -3256,6 +3454,21 @@
             "targetName": "Sensors"
           }
         ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "radio",
+        "recycleComponentId": "speaker_component",
+        "recycleComponentName": "Speaker Component",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "radio",
+            "itemName": "Radio",
+            "targetId": "speaker_component",
+            "targetName": "Speaker Component"
+          }
+        ]
       }
     ]
   },
@@ -3276,6 +3489,34 @@
             "targetName": "Sensors"
           }
         ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "radio_relay",
+        "recycleComponentId": "speaker_component",
+        "recycleComponentName": "Speaker Component",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "radio_relay",
+            "itemName": "Radio Relay",
+            "targetId": "speaker_component",
+            "targetName": "Speaker Component"
+          }
+        ]
+      }
+    ]
+  },
+  "red_coral_jewelry": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "red_coral_jewelry",
+        "projectId": "avian_alarm_project",
+        "projectName": "Avian Alarm",
+        "projectPhase": 5,
+        "completed": false
       }
     ]
   },
@@ -3446,6 +3687,19 @@
       }
     ]
   },
+  "roots": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "roots",
+        "projectId": "avian_alarm_project",
+        "projectName": "Avian Alarm",
+        "projectPhase": 5,
+        "completed": false
+      }
+    ]
+  },
   "rope": {
     "tag": "recycle",
     "reasons": [
@@ -3526,7 +3780,7 @@
         "type": "project",
         "itemId": "rubber_parts",
         "projectId": "expedition_project_s1",
-        "projectName": "Expedition Project (Season 1)",
+        "projectName": "Expedition Project (Expedition 1)",
         "projectPhase": 1,
         "completed": false
       }
@@ -3856,6 +4110,14 @@
         "workshopStation": "gunsmith",
         "workshopLevel": "2",
         "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "rusted_tools",
+        "projectId": "avian_alarm_project",
+        "projectName": "Avian Alarm",
+        "projectPhase": 3,
+        "completed": false
       }
     ]
   },
@@ -3944,7 +4206,7 @@
         "type": "project",
         "itemId": "sensors",
         "projectId": "expedition_project_s1",
-        "projectName": "Expedition Project (Season 1)",
+        "projectName": "Expedition Project (Expedition 1)",
         "projectPhase": 3,
         "completed": false
       },
@@ -3976,16 +4238,16 @@
       {
         "type": "project",
         "itemId": "shredder_gyro",
-        "projectId": "expedition_project",
-        "projectName": "Expedition Project (Season 2)",
+        "projectId": "trophy_display_project",
+        "projectName": "Trophy Display",
         "projectPhase": 3,
         "completed": false
       },
       {
         "type": "project",
         "itemId": "shredder_gyro",
-        "projectId": "trophy_display_project",
-        "projectName": "Trophy Display",
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project (Expedition 2)",
         "projectPhase": 3,
         "completed": false
       }
@@ -4060,6 +4322,27 @@
       }
     ]
   },
+  "sirena_dorata_ship_model": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "sirena_dorata_ship_model",
+        "projectId": "avian_alarm_project",
+        "projectName": "Avian Alarm",
+        "projectPhase": 4,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "sirena_dorata_ship_model",
+        "projectId": "expedition_project_s4",
+        "projectName": "Expedition (Expedition 4)",
+        "projectPhase": 4,
+        "completed": false
+      }
+    ]
+  },
   "snitch_scanner": {
     "tag": "keep",
     "reasons": [
@@ -4088,51 +4371,15 @@
     ]
   },
   "speaker_component": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "speaker_component",
-        "recycleComponentId": "plastic_parts",
-        "recycleComponentName": "Plastic Parts",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "speaker_component",
-            "itemName": "Speaker Component",
-            "targetId": "plastic_parts",
-            "targetName": "Plastic Parts"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "plastic_parts",
-            "itemName": "Plastic Parts",
-            "workshopStation": "gear_bench",
-            "workshopLevel": "1"
-          }
-        ]
-      },
-      {
-        "type": "recycle",
-        "itemId": "speaker_component",
-        "recycleComponentId": "rubber_parts",
-        "recycleComponentName": "Rubber Parts",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "speaker_component",
-            "itemName": "Speaker Component",
-            "targetId": "rubber_parts",
-            "targetName": "Rubber Parts"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "rubber_parts",
-            "itemName": "Rubber Parts",
-            "workshopStation": "gunsmith",
-            "workshopLevel": "1"
-          }
-        ]
+        "projectId": "expedition_project_s4",
+        "projectName": "Expedition (Expedition 4)",
+        "projectPhase": 3,
+        "completed": false
       }
     ]
   },
@@ -4315,16 +4562,16 @@
       {
         "type": "project",
         "itemId": "steel_spring",
-        "projectId": "expedition_project",
-        "projectName": "Expedition Project (Season 2)",
+        "projectId": "expedition_project_s1",
+        "projectName": "Expedition Project (Expedition 1)",
         "projectPhase": 1,
         "completed": false
       },
       {
         "type": "project",
         "itemId": "steel_spring",
-        "projectId": "expedition_project_s1",
-        "projectName": "Expedition Project (Season 1)",
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project (Expedition 2)",
         "projectPhase": 1,
         "completed": false
       },
@@ -4332,7 +4579,7 @@
         "type": "project",
         "itemId": "steel_spring",
         "projectId": "expedition_project_s3",
-        "projectName": "Expedition (Season 3)",
+        "projectName": "Expedition (Expedition 3)",
         "projectPhase": 1,
         "completed": false
       },
@@ -4719,6 +4966,14 @@
         "projectName": "Trophy Display",
         "projectPhase": 1,
         "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "tick_pod",
+        "projectId": "avian_alarm_project",
+        "projectName": "Avian Alarm",
+        "projectPhase": 2,
+        "completed": false
       }
     ]
   },
@@ -4818,6 +5073,19 @@
       }
     ]
   },
+  "twilight_compass_ship_model": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "twilight_compass_ship_model",
+        "projectId": "avian_alarm_project",
+        "projectName": "Avian Alarm",
+        "projectPhase": 2,
+        "completed": false
+      }
+    ]
+  },
   "unusable_weapon": {
     "tag": "recycle",
     "reasons": [
@@ -4851,6 +5119,22 @@
       {
         "type": "project",
         "itemId": "vaporizer_regulator",
+        "projectId": "avian_alarm_project",
+        "projectName": "Avian Alarm",
+        "projectPhase": 4,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "vaporizer_regulator",
+        "projectId": "expedition_project_s4",
+        "projectName": "Expedition (Expedition 4)",
+        "projectPhase": 4,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "vaporizer_regulator",
         "projectId": "high_gain_antenna_project",
         "projectName": "High-Gain Antenna",
         "projectPhase": 2,
@@ -4861,6 +5145,19 @@
         "itemId": "vaporizer_regulator",
         "projectId": "high_gain_antenna_project",
         "projectName": "High-Gain Antenna",
+        "projectPhase": 3,
+        "completed": false
+      }
+    ]
+  },
+  "velocity_ship_model": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "velocity_ship_model",
+        "projectId": "avian_alarm_project",
+        "projectName": "Avian Alarm",
         "projectPhase": 3,
         "completed": false
       }
@@ -4932,6 +5229,14 @@
       {
         "type": "project",
         "itemId": "water_filter",
+        "projectId": "avian_alarm_project",
+        "projectName": "Avian Alarm",
+        "projectPhase": 4,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "water_filter",
         "projectId": "flickering_flames_project",
         "projectName": "Flickering Flames",
         "projectPhase": 4,
@@ -4986,16 +5291,16 @@
       {
         "type": "project",
         "itemId": "wires",
-        "projectId": "expedition_project",
-        "projectName": "Expedition Project (Season 2)",
+        "projectId": "expedition_project_s1",
+        "projectName": "Expedition Project (Expedition 1)",
         "projectPhase": 2,
         "completed": false
       },
       {
         "type": "project",
         "itemId": "wires",
-        "projectId": "expedition_project_s1",
-        "projectName": "Expedition Project (Season 1)",
+        "projectId": "expedition_project",
+        "projectName": "Expedition Project (Expedition 2)",
         "projectPhase": 2,
         "completed": false
       },
@@ -5003,7 +5308,7 @@
         "type": "project",
         "itemId": "wires",
         "projectId": "expedition_project_s3",
-        "projectName": "Expedition (Season 3)",
+        "projectName": "Expedition (Expedition 3)",
         "projectPhase": 2,
         "completed": false
       },

@@ -722,7 +722,8 @@
           "salvagesInto": {
             "advanced_arc_powercell": 2
           },
-          "updatedAt": "03/31/2026",
+          "imageFilename": "https://cdn.arctracker.io/items/assessor_matrix.png",
+          "updatedAt": "04/28/2026",
           "addedIn": "1.22"
         },
         "component": {
@@ -2478,6 +2479,156 @@
         "component": {
           "id": "advanced_electrical_components"
         }
+      },
+      {
+        "item": {
+          "id": "tactical_mk3_smoke",
+          "name": {
+            "da": "Taktisk Mk. 3 (Røg)",
+            "de": "Taktisch-Marke 3 (Rauch)",
+            "en": "Tactical Mk. 3 (Smoke)",
+            "es": "Táctico Ver. 3 (Humo)",
+            "fr": "Tactique 3 (fumée)",
+            "he": "טקטי Mk. 3 (עשן)",
+            "hr": "Taktički Mk. 3 (Dim)",
+            "it": "Tattico Mk. 3 (Fumo)",
+            "ja": "戦術MK3（煙幕）",
+            "ko-KR": "전술 마크 3 (연막)",
+            "no": "Taktisk Mk. 3 (Røyk)",
+            "pl": "Taktyczny Mk. 3 (Dym)",
+            "pt": "Tático Mk. 3 (Fumaça)",
+            "pt-BR": "Tático Mk. 3 (Fumaça)",
+            "ru": "Тактический Mk. 3 (Дым)",
+            "sr": "Taktički Mk. 3 (Dim)",
+            "tr": "Taktiksel Mod. 3 (Duman)",
+            "uk": "Тактичний Mk. 3 (Дим)",
+            "zh-CN": "战术型 Mk. 3（烟雾型）",
+            "zh-TW": "戰術型 Mk. 3（煙霧）"
+          },
+          "description": {
+            "da": "En opgraderet version af Taktisk MK. 2-forstærkningen, der tilføjer udvidet kapacitet over hele linjen. Når skjoldet brydes, udsendes en lille røggranat. Har en fast nedkøling.",
+            "de": "Eine verbesserte Version des Augments Taktisch MK. 2, die durchweg erweiterte Kapazität bietet. Wenn der Schild bricht, wird eine kleine Rauchgranate ausgelöst. Hat eine feste Abklingzeit.",
+            "en": "An upgraded version of the Tactical MK. 2 augment, adding expanded capacity across the board. Upon Shield break, deploys a small smoke grenade. Has a fixed cooldown.",
+            "es": "Una versión mejorada del aumento Táctico MK. 2 que amplía la capacidad en todos los aspectos. Al romperse el escudo, despliega una pequeña granada de humo. Tiene un tiempo de recarga fijo.",
+            "fr": "Une version améliorée de l'amélioration Tactique MK. 2, qui augmente la capacité dans tous les domaines. Lorsque le bouclier se brise, déploie une petite grenade fumigène. Possède un temps de recharge fixe.",
+            "he": "גרסה משודרגת של תוסף טקטי MK. 2, שמוסיפה קיבולת מורחבת בכל התחומים. כאשר המגן נשבר, מציבה רימון עשן קטן. בעלת זמן צינון קבוע.",
+            "hr": "Nadograđena verzija augmentacije Taktički MK. 2, koja dodaje prošireni kapacitet u svim područjima. Pri pucanju štita postavlja malu dimnu granatu. Ima fiksno vrijeme hlađenja.",
+            "it": "Una versione migliorata del potenziamento Tattico MK. 2, che aggiunge capacità aumentata su tutta la linea. Alla rottura dello scudo, dispiega una piccola granata fumogena. Ha un tempo di recupero fisso.",
+            "ja": "戦術MK2強化装備のアップグレード版で、全体的に容量が拡張される。シールド破壊時、小型のスモーク・グレネードを展開する。固定クールダウンあり。",
+            "ko-KR": "전술 MK. 2 증강의 업그레이드 버전으로, 전반적인 수용량을 확장합니다. 방어막이 파괴되면 작은 연막탄을 배치합니다. 고정 재사용 대기시간이 있습니다.",
+            "no": "En oppgradert versjon av Taktisk MK. 2-forsterkningen, som gir utvidet kapasitet over hele linjen. Når skjoldet brytes, utplasseres en liten røykgranat. Har fast nedkjølingstid.",
+            "pl": "Ulepszona wersja augmentacji Taktyczny MK. 2, zwiększająca pojemność pod każdym względem. Po przełamaniu tarczy rozmieszcza mały granat dymny. Ma stały czas odnowienia.",
+            "pt": "Uma versão aprimorada do aumento Tático MK. 2, adicionando capacidade expandida em todos os aspectos. Quando o escudo quebra, aciona uma pequena granada de fumaça. Tem tempo de recarga fixo.",
+            "pt-BR": "Uma versão aprimorada do aumento Tático MK. 2, adicionando capacidade expandida em todos os aspectos. Quando o Escudo quebra, aciona uma pequena granada de fumaça. Tem tempo de recarga fixo.",
+            "ru": "Улучшенная версия аугмента Тактический MK. 2, увеличивающая вместимость по всем параметрам. При пробитии щита разворачивает небольшую дымовую гранату. Имеет фиксированное время восстановления.",
+            "sr": "Nadograđena verzija augmentacije Taktički MK. 2, koja dodaje prošireni kapacitet u svim oblastima. Pri pucanju štita postavlja malu dimnu granatu. Ima fiksno vreme hlađenja.",
+            "tr": "Taktiksel MK. 2 güçlendirmesinin yükseltilmiş bir versiyonu; her alanda artırılmış kapasite sağlar. Kalkan kırıldığında küçük bir sis bombası konuşlandırır. Sabit bekleme süresine sahiptir.",
+            "uk": "Покращена версія аугментації Тактичний MK. 2, що збільшує місткість за всіма напрямами. Коли щит пробито, розгортає невелику димову гранату. Має фіксований час відновлення.",
+            "zh-CN": "战术 MK. 2 强化装备的升级版，全面扩展容量。护盾破裂时，会部署一枚小型烟雾手雷。拥有固定冷却时间。",
+            "zh-TW": "戰術 MK. 2 強化裝備的升級版，全面擴充容量。護盾破裂時，會部署一枚小型煙霧彈。擁有固定冷卻時間。"
+          },
+          "type": "Augment",
+          "rarity": "Epic",
+          "value": 5000,
+          "weightKg": 4,
+          "stackSize": 1,
+          "blueprintLocked": true,
+          "effects": {
+            "Durability": {
+              "value": "100/100",
+              "da": "Holdbarhed",
+              "de": "Haltbarkeit",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "he": "עמידות",
+              "hr": "Izdržljivost",
+              "it": "Tenuta",
+              "ja": "耐久性",
+              "ko-KR": "내구도",
+              "no": "Holdbarhet",
+              "pl": "Wytrzymałość",
+              "pt": "Durabilidade",
+              "pt-BR": "Durabilidade",
+              "ru": "Прочность",
+              "sr": "Izdržljivost",
+              "tr": "Dayanıklılık",
+              "uk": "Міцність",
+              "zh-CN": "耐久度",
+              "zh-TW": "耐久度"
+            },
+            "Max Loadout Weight": {
+              "value": 50,
+              "da": "Maks. udstyrsvægt",
+              "de": "Max. Loadout-Gewicht",
+              "en": "Max Loadout Weight",
+              "es": "Peso máximo del equipamiento",
+              "fr": "Poids max. de l'équipement",
+              "he": "משקל ציוד מקסימלי",
+              "hr": "Maks. Težina Opreme",
+              "it": "Peso massimo equipaggiamento",
+              "ja": "最大装備重量",
+              "ko-KR": "최대 장비 무게",
+              "no": "Maks utstyrsvekt",
+              "pl": "Maks. waga ekwipunku",
+              "pt": "Peso máximo do equipamento",
+              "pt-BR": "Peso Máximo do Equipamento",
+              "ru": "Макс. вес снаряжения",
+              "sr": "Maks. Težina Opreme",
+              "tr": "Maks. Donanım Ağırlığı",
+              "uk": "Макс. вага спорядження",
+              "zh-CN": "最大装备重量",
+              "zh-TW": "最大裝備重量"
+            },
+            "Shield Compatibility": {
+              "value": "Light, Medium",
+              "da": "Skjoldkompatibilitet",
+              "de": "Schildkompatibilität",
+              "en": "Shield Compatibility",
+              "es": "Compatibilidad con escudo",
+              "fr": "Compatibilité bouclier",
+              "he": "תאימות מגן",
+              "hr": "Kompatibilnost Štita",
+              "it": "Compatibilità scudo",
+              "ja": "シールド互換性",
+              "ko-KR": "실드 호환성",
+              "no": "Skjoldkompatibilitet",
+              "pl": "Kompatybilność z tarczą",
+              "pt": "Compatibilidade com escudo",
+              "pt-BR": "Compatibilidade de Escudo",
+              "ru": "Совместимость со щитом",
+              "sr": "Kompatibilnost Štita",
+              "tr": "Kalkan Uyumluluğu",
+              "uk": "Сумісність зі щитом",
+              "zh-CN": "护盾兼容性",
+              "zh-TW": "護盾相容性"
+            }
+          },
+          "craftBench": "equipment_bench",
+          "stationLevelRequired": 3,
+          "recipe": {
+            "advanced_electrical_components": 2,
+            "processor": 3
+          },
+          "recyclesInto": {
+            "advanced_electrical_components": 1,
+            "processor": 1
+          },
+          "salvagesInto": {
+            "electrical_components": 2
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_smoke.png",
+          "updatedAt": "04/28/2026",
+          "addedIn": "1.26",
+          "repairCost": {
+            "advanced_electrical_components": 1,
+            "processor": 2
+          },
+          "repairDurability": 0.5
+        },
+        "component": {
+          "id": "advanced_electrical_components"
+        }
       }
     ],
     "recycle_from": [
@@ -3702,6 +3853,79 @@
       },
       {
         "item": {
+          "id": "powered_descender",
+          "name": {
+            "da": "Drevet Nedstiger",
+            "de": "Motorisierter Abseiler",
+            "en": "Powered Descender",
+            "es": "Descensor motorizado",
+            "fr": "Descendeur motorisé",
+            "he": "מתקן ירידה ממונע",
+            "hr": "Motorizirani spuštač",
+            "it": "Discensore motorizzato",
+            "ja": "電動ディセンダー",
+            "ko-KR": "동력 강하기",
+            "no": "Motorisert nedstiger",
+            "pl": "Zjazdnik z napędem",
+            "pt": "Descensor motorizado",
+            "pt-BR": "Descensor motorizado",
+            "ru": "Моторизованный спусковой механизм",
+            "sr": "Motorizovani spuštač",
+            "tr": "Motorlu İniş Aleti",
+            "uk": "Моторизований спусковий пристрій",
+            "zh-CN": "动力下降器",
+            "zh-TW": "動力下降器"
+          },
+          "description": {
+            "da": "Reducerer faldhastigheden, når den bruges i luften, men kræver opstartstid, før den når fuld kraft. Slukker, når den løber tør for strøm",
+            "de": "Verringert die Fallgeschwindigkeit, wenn es in der Luft verwendet wird, benötigt aber Anlaufzeit, bevor es die volle Kraft erreicht. Schaltet sich ab, sobald die Energie aufgebraucht ist",
+            "en": "Reduces fall speed when used in the air, but has a wind-up time before reaching full force. Shuts down once out of power",
+            "es": "Reduce la velocidad de caída al usarse en el aire, pero tarda un momento en alcanzar la potencia máxima. Se apaga cuando se queda sin energía",
+            "fr": "Réduit la vitesse de chute lorsqu'il est utilisé en l'air, mais nécessite un temps de lancement avant d'atteindre sa pleine puissance. S'arrête une fois l'énergie épuisée",
+            "he": "מפחית את מהירות הנפילה כשמשתמשים בו באוויר, אך נדרש זמן התנעה לפני שהוא מגיע למלוא העוצמה. נכבה כשהאנרגיה אוזלת",
+            "hr": "Smanjuje brzinu pada kada se koristi u zraku, ali treba mu vrijeme za pokretanje prije nego dosegne punu snagu. Isključuje se kada ostane bez energije",
+            "it": "Riduce la velocità di caduta quando viene usato in aria, ma richiede un tempo di avvio prima di raggiungere la piena potenza. Si spegne quando esaurisce l'energia",
+            "ja": "空中で使用すると落下速度を低下させるが、最大出力に達するまでに起動時間が必要。電力が尽きると停止する。",
+            "ko-KR": "공중에서 사용하면 낙하 속도를 줄여 주지만, 최대 출력에 도달하기까지 예열 시간이 필요합니다. 전력이 떨어지면 꺼집니다.",
+            "no": "Reduserer fallhastigheten når den brukes i luften, men trenger oppstartstid før den når full kraft. Slår seg av når den går tom for strøm",
+            "pl": "Zmniejsza prędkość spadania podczas użycia w powietrzu, ale potrzebuje chwili rozruchu, zanim osiągnie pełną moc. Wyłącza się po wyczerpaniu energii",
+            "pt": "Reduz a velocidade de queda quando usado no ar, mas precisa de um tempo de ativação antes de atingir força total. Desliga quando fica sem energia",
+            "pt-BR": "Reduz a velocidade de queda quando usado no ar, mas precisa de um tempo de ativação antes de atingir força total. Desliga quando fica sem energia",
+            "ru": "Снижает скорость падения при использовании в воздухе, но требует времени на разгон до полной мощности. Отключается, когда заканчивается заряд",
+            "sr": "Smanjuje brzinu pada kada se koristi u vazduhu, ali treba mu vreme za pokretanje pre nego što dostigne punu snagu. Isključuje se kada ostane bez energije",
+            "tr": "Havada kullanıldığında düşüş hızını azaltır, ancak tam güce ulaşmadan önce hazırlanma süresi vardır. Gücü tükendiğinde kapanır",
+            "uk": "Зменшує швидкість падіння під час використання в повітрі, але потребує часу на розгін до повної сили. Вимикається, коли закінчується заряд",
+            "zh-CN": "在空中使用时可降低下坠速度，但需要预热时间才能达到全功率。电量耗尽后会关闭",
+            "zh-TW": "在空中使用時可降低下墜速度，但需要預熱時間才能達到全功率。電力耗盡後會關閉"
+          },
+          "type": "Quick Use",
+          "rarity": "Epic",
+          "value": 10000,
+          "weightKg": 5,
+          "stackSize": 1,
+          "blueprintLocked": true,
+          "craftBench": "utility_bench",
+          "stationLevelRequired": 3,
+          "recipe": {
+            "power_rod": 1
+          },
+          "recyclesInto": {
+            "advanced_electrical_components": 1,
+            "arc_circuitry": 2
+          },
+          "salvagesInto": {
+            "advanced_electrical_components": 1
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/powered_descender.png",
+          "updatedAt": "04/28/2026",
+          "addedIn": "1.26"
+        },
+        "component": {
+          "id": "powered_descender"
+        }
+      },
+      {
+        "item": {
           "id": "rocketeer_driver",
           "name": {
             "da": "Raketdriver",
@@ -4283,6 +4507,156 @@
       },
       {
         "item": {
+          "id": "tactical_mk3_smoke",
+          "name": {
+            "da": "Taktisk Mk. 3 (Røg)",
+            "de": "Taktisch-Marke 3 (Rauch)",
+            "en": "Tactical Mk. 3 (Smoke)",
+            "es": "Táctico Ver. 3 (Humo)",
+            "fr": "Tactique 3 (fumée)",
+            "he": "טקטי Mk. 3 (עשן)",
+            "hr": "Taktički Mk. 3 (Dim)",
+            "it": "Tattico Mk. 3 (Fumo)",
+            "ja": "戦術MK3（煙幕）",
+            "ko-KR": "전술 마크 3 (연막)",
+            "no": "Taktisk Mk. 3 (Røyk)",
+            "pl": "Taktyczny Mk. 3 (Dym)",
+            "pt": "Tático Mk. 3 (Fumaça)",
+            "pt-BR": "Tático Mk. 3 (Fumaça)",
+            "ru": "Тактический Mk. 3 (Дым)",
+            "sr": "Taktički Mk. 3 (Dim)",
+            "tr": "Taktiksel Mod. 3 (Duman)",
+            "uk": "Тактичний Mk. 3 (Дим)",
+            "zh-CN": "战术型 Mk. 3（烟雾型）",
+            "zh-TW": "戰術型 Mk. 3（煙霧）"
+          },
+          "description": {
+            "da": "En opgraderet version af Taktisk MK. 2-forstærkningen, der tilføjer udvidet kapacitet over hele linjen. Når skjoldet brydes, udsendes en lille røggranat. Har en fast nedkøling.",
+            "de": "Eine verbesserte Version des Augments Taktisch MK. 2, die durchweg erweiterte Kapazität bietet. Wenn der Schild bricht, wird eine kleine Rauchgranate ausgelöst. Hat eine feste Abklingzeit.",
+            "en": "An upgraded version of the Tactical MK. 2 augment, adding expanded capacity across the board. Upon Shield break, deploys a small smoke grenade. Has a fixed cooldown.",
+            "es": "Una versión mejorada del aumento Táctico MK. 2 que amplía la capacidad en todos los aspectos. Al romperse el escudo, despliega una pequeña granada de humo. Tiene un tiempo de recarga fijo.",
+            "fr": "Une version améliorée de l'amélioration Tactique MK. 2, qui augmente la capacité dans tous les domaines. Lorsque le bouclier se brise, déploie une petite grenade fumigène. Possède un temps de recharge fixe.",
+            "he": "גרסה משודרגת של תוסף טקטי MK. 2, שמוסיפה קיבולת מורחבת בכל התחומים. כאשר המגן נשבר, מציבה רימון עשן קטן. בעלת זמן צינון קבוע.",
+            "hr": "Nadograđena verzija augmentacije Taktički MK. 2, koja dodaje prošireni kapacitet u svim područjima. Pri pucanju štita postavlja malu dimnu granatu. Ima fiksno vrijeme hlađenja.",
+            "it": "Una versione migliorata del potenziamento Tattico MK. 2, che aggiunge capacità aumentata su tutta la linea. Alla rottura dello scudo, dispiega una piccola granata fumogena. Ha un tempo di recupero fisso.",
+            "ja": "戦術MK2強化装備のアップグレード版で、全体的に容量が拡張される。シールド破壊時、小型のスモーク・グレネードを展開する。固定クールダウンあり。",
+            "ko-KR": "전술 MK. 2 증강의 업그레이드 버전으로, 전반적인 수용량을 확장합니다. 방어막이 파괴되면 작은 연막탄을 배치합니다. 고정 재사용 대기시간이 있습니다.",
+            "no": "En oppgradert versjon av Taktisk MK. 2-forsterkningen, som gir utvidet kapasitet over hele linjen. Når skjoldet brytes, utplasseres en liten røykgranat. Har fast nedkjølingstid.",
+            "pl": "Ulepszona wersja augmentacji Taktyczny MK. 2, zwiększająca pojemność pod każdym względem. Po przełamaniu tarczy rozmieszcza mały granat dymny. Ma stały czas odnowienia.",
+            "pt": "Uma versão aprimorada do aumento Tático MK. 2, adicionando capacidade expandida em todos os aspectos. Quando o escudo quebra, aciona uma pequena granada de fumaça. Tem tempo de recarga fixo.",
+            "pt-BR": "Uma versão aprimorada do aumento Tático MK. 2, adicionando capacidade expandida em todos os aspectos. Quando o Escudo quebra, aciona uma pequena granada de fumaça. Tem tempo de recarga fixo.",
+            "ru": "Улучшенная версия аугмента Тактический MK. 2, увеличивающая вместимость по всем параметрам. При пробитии щита разворачивает небольшую дымовую гранату. Имеет фиксированное время восстановления.",
+            "sr": "Nadograđena verzija augmentacije Taktički MK. 2, koja dodaje prošireni kapacitet u svim oblastima. Pri pucanju štita postavlja malu dimnu granatu. Ima fiksno vreme hlađenja.",
+            "tr": "Taktiksel MK. 2 güçlendirmesinin yükseltilmiş bir versiyonu; her alanda artırılmış kapasite sağlar. Kalkan kırıldığında küçük bir sis bombası konuşlandırır. Sabit bekleme süresine sahiptir.",
+            "uk": "Покращена версія аугментації Тактичний MK. 2, що збільшує місткість за всіма напрямами. Коли щит пробито, розгортає невелику димову гранату. Має фіксований час відновлення.",
+            "zh-CN": "战术 MK. 2 强化装备的升级版，全面扩展容量。护盾破裂时，会部署一枚小型烟雾手雷。拥有固定冷却时间。",
+            "zh-TW": "戰術 MK. 2 強化裝備的升級版，全面擴充容量。護盾破裂時，會部署一枚小型煙霧彈。擁有固定冷卻時間。"
+          },
+          "type": "Augment",
+          "rarity": "Epic",
+          "value": 5000,
+          "weightKg": 4,
+          "stackSize": 1,
+          "blueprintLocked": true,
+          "effects": {
+            "Durability": {
+              "value": "100/100",
+              "da": "Holdbarhed",
+              "de": "Haltbarkeit",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "he": "עמידות",
+              "hr": "Izdržljivost",
+              "it": "Tenuta",
+              "ja": "耐久性",
+              "ko-KR": "내구도",
+              "no": "Holdbarhet",
+              "pl": "Wytrzymałość",
+              "pt": "Durabilidade",
+              "pt-BR": "Durabilidade",
+              "ru": "Прочность",
+              "sr": "Izdržljivost",
+              "tr": "Dayanıklılık",
+              "uk": "Міцність",
+              "zh-CN": "耐久度",
+              "zh-TW": "耐久度"
+            },
+            "Max Loadout Weight": {
+              "value": 50,
+              "da": "Maks. udstyrsvægt",
+              "de": "Max. Loadout-Gewicht",
+              "en": "Max Loadout Weight",
+              "es": "Peso máximo del equipamiento",
+              "fr": "Poids max. de l'équipement",
+              "he": "משקל ציוד מקסימלי",
+              "hr": "Maks. Težina Opreme",
+              "it": "Peso massimo equipaggiamento",
+              "ja": "最大装備重量",
+              "ko-KR": "최대 장비 무게",
+              "no": "Maks utstyrsvekt",
+              "pl": "Maks. waga ekwipunku",
+              "pt": "Peso máximo do equipamento",
+              "pt-BR": "Peso Máximo do Equipamento",
+              "ru": "Макс. вес снаряжения",
+              "sr": "Maks. Težina Opreme",
+              "tr": "Maks. Donanım Ağırlığı",
+              "uk": "Макс. вага спорядження",
+              "zh-CN": "最大装备重量",
+              "zh-TW": "最大裝備重量"
+            },
+            "Shield Compatibility": {
+              "value": "Light, Medium",
+              "da": "Skjoldkompatibilitet",
+              "de": "Schildkompatibilität",
+              "en": "Shield Compatibility",
+              "es": "Compatibilidad con escudo",
+              "fr": "Compatibilité bouclier",
+              "he": "תאימות מגן",
+              "hr": "Kompatibilnost Štita",
+              "it": "Compatibilità scudo",
+              "ja": "シールド互換性",
+              "ko-KR": "실드 호환성",
+              "no": "Skjoldkompatibilitet",
+              "pl": "Kompatybilność z tarczą",
+              "pt": "Compatibilidade com escudo",
+              "pt-BR": "Compatibilidade de Escudo",
+              "ru": "Совместимость со щитом",
+              "sr": "Kompatibilnost Štita",
+              "tr": "Kalkan Uyumluluğu",
+              "uk": "Сумісність зі щитом",
+              "zh-CN": "护盾兼容性",
+              "zh-TW": "護盾相容性"
+            }
+          },
+          "craftBench": "equipment_bench",
+          "stationLevelRequired": 3,
+          "recipe": {
+            "advanced_electrical_components": 2,
+            "processor": 3
+          },
+          "recyclesInto": {
+            "advanced_electrical_components": 1,
+            "processor": 1
+          },
+          "salvagesInto": {
+            "electrical_components": 2
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_smoke.png",
+          "updatedAt": "04/28/2026",
+          "addedIn": "1.26",
+          "repairCost": {
+            "advanced_electrical_components": 1,
+            "processor": 2
+          },
+          "repairDurability": 0.5
+        },
+        "component": {
+          "id": "tactical_mk3_smoke"
+        }
+      },
+      {
+        "item": {
           "id": "telemetry_transceiver",
           "name": {
             "da": "Telemetri-transceiver",
@@ -4408,7 +4782,8 @@
           "salvagesInto": {
             "arc_circuitry": 2
           },
-          "updatedAt": "03/31/2026",
+          "imageFilename": "https://cdn.arctracker.io/items/vaporizer_regulator.png",
+          "updatedAt": "04/28/2026",
           "addedIn": "1.22"
         },
         "component": {
@@ -6042,7 +6417,8 @@
           "salvagesInto": {
             "advanced_arc_powercell": 2
           },
-          "updatedAt": "03/31/2026",
+          "imageFilename": "https://cdn.arctracker.io/items/assessor_matrix.png",
+          "updatedAt": "04/28/2026",
           "addedIn": "1.22"
         },
         "component": {
@@ -25910,6 +26286,79 @@
       },
       {
         "item": {
+          "id": "powered_descender",
+          "name": {
+            "da": "Drevet Nedstiger",
+            "de": "Motorisierter Abseiler",
+            "en": "Powered Descender",
+            "es": "Descensor motorizado",
+            "fr": "Descendeur motorisé",
+            "he": "מתקן ירידה ממונע",
+            "hr": "Motorizirani spuštač",
+            "it": "Discensore motorizzato",
+            "ja": "電動ディセンダー",
+            "ko-KR": "동력 강하기",
+            "no": "Motorisert nedstiger",
+            "pl": "Zjazdnik z napędem",
+            "pt": "Descensor motorizado",
+            "pt-BR": "Descensor motorizado",
+            "ru": "Моторизованный спусковой механизм",
+            "sr": "Motorizovani spuštač",
+            "tr": "Motorlu İniş Aleti",
+            "uk": "Моторизований спусковий пристрій",
+            "zh-CN": "动力下降器",
+            "zh-TW": "動力下降器"
+          },
+          "description": {
+            "da": "Reducerer faldhastigheden, når den bruges i luften, men kræver opstartstid, før den når fuld kraft. Slukker, når den løber tør for strøm",
+            "de": "Verringert die Fallgeschwindigkeit, wenn es in der Luft verwendet wird, benötigt aber Anlaufzeit, bevor es die volle Kraft erreicht. Schaltet sich ab, sobald die Energie aufgebraucht ist",
+            "en": "Reduces fall speed when used in the air, but has a wind-up time before reaching full force. Shuts down once out of power",
+            "es": "Reduce la velocidad de caída al usarse en el aire, pero tarda un momento en alcanzar la potencia máxima. Se apaga cuando se queda sin energía",
+            "fr": "Réduit la vitesse de chute lorsqu'il est utilisé en l'air, mais nécessite un temps de lancement avant d'atteindre sa pleine puissance. S'arrête une fois l'énergie épuisée",
+            "he": "מפחית את מהירות הנפילה כשמשתמשים בו באוויר, אך נדרש זמן התנעה לפני שהוא מגיע למלוא העוצמה. נכבה כשהאנרגיה אוזלת",
+            "hr": "Smanjuje brzinu pada kada se koristi u zraku, ali treba mu vrijeme za pokretanje prije nego dosegne punu snagu. Isključuje se kada ostane bez energije",
+            "it": "Riduce la velocità di caduta quando viene usato in aria, ma richiede un tempo di avvio prima di raggiungere la piena potenza. Si spegne quando esaurisce l'energia",
+            "ja": "空中で使用すると落下速度を低下させるが、最大出力に達するまでに起動時間が必要。電力が尽きると停止する。",
+            "ko-KR": "공중에서 사용하면 낙하 속도를 줄여 주지만, 최대 출력에 도달하기까지 예열 시간이 필요합니다. 전력이 떨어지면 꺼집니다.",
+            "no": "Reduserer fallhastigheten når den brukes i luften, men trenger oppstartstid før den når full kraft. Slår seg av når den går tom for strøm",
+            "pl": "Zmniejsza prędkość spadania podczas użycia w powietrzu, ale potrzebuje chwili rozruchu, zanim osiągnie pełną moc. Wyłącza się po wyczerpaniu energii",
+            "pt": "Reduz a velocidade de queda quando usado no ar, mas precisa de um tempo de ativação antes de atingir força total. Desliga quando fica sem energia",
+            "pt-BR": "Reduz a velocidade de queda quando usado no ar, mas precisa de um tempo de ativação antes de atingir força total. Desliga quando fica sem energia",
+            "ru": "Снижает скорость падения при использовании в воздухе, но требует времени на разгон до полной мощности. Отключается, когда заканчивается заряд",
+            "sr": "Smanjuje brzinu pada kada se koristi u vazduhu, ali treba mu vreme za pokretanje pre nego što dostigne punu snagu. Isključuje se kada ostane bez energije",
+            "tr": "Havada kullanıldığında düşüş hızını azaltır, ancak tam güce ulaşmadan önce hazırlanma süresi vardır. Gücü tükendiğinde kapanır",
+            "uk": "Зменшує швидкість падіння під час використання в повітрі, але потребує часу на розгін до повної сили. Вимикається, коли закінчується заряд",
+            "zh-CN": "在空中使用时可降低下坠速度，但需要预热时间才能达到全功率。电量耗尽后会关闭",
+            "zh-TW": "在空中使用時可降低下墜速度，但需要預熱時間才能達到全功率。電力耗盡後會關閉"
+          },
+          "type": "Quick Use",
+          "rarity": "Epic",
+          "value": 10000,
+          "weightKg": 5,
+          "stackSize": 1,
+          "blueprintLocked": true,
+          "craftBench": "utility_bench",
+          "stationLevelRequired": 3,
+          "recipe": {
+            "power_rod": 1
+          },
+          "recyclesInto": {
+            "advanced_electrical_components": 1,
+            "arc_circuitry": 2
+          },
+          "salvagesInto": {
+            "advanced_electrical_components": 1
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/powered_descender.png",
+          "updatedAt": "04/28/2026",
+          "addedIn": "1.26"
+        },
+        "component": {
+          "id": "powered_descender"
+        }
+      },
+      {
+        "item": {
           "id": "vaporizer_regulator",
           "name": {
             "da": "Vaporizer Regulator",
@@ -25967,7 +26416,8 @@
           "salvagesInto": {
             "arc_circuitry": 2
           },
-          "updatedAt": "03/31/2026",
+          "imageFilename": "https://cdn.arctracker.io/items/vaporizer_regulator.png",
+          "updatedAt": "04/28/2026",
           "addedIn": "1.22"
         },
         "component": {
@@ -28656,8 +29106,10 @@
     "salvagesInto": {
       "advanced_arc_powercell": 2
     },
-    "updatedAt": "03/31/2026",
+    "imageFilename": "https://cdn.arctracker.io/items/assessor_matrix.png",
+    "updatedAt": "04/28/2026",
     "addedIn": "1.22",
+    "icon": "https://cdn.arctracker.io/items/assessor_matrix.png",
     "item_type": "Recyclable"
   },
   {
@@ -50613,6 +51065,279 @@
     "loot_area": "Medical"
   },
   {
+    "id": "crash_mat",
+    "name": {
+      "da": "Landingsmåtte",
+      "de": "Sturzmatte",
+      "en": "Crash Mat",
+      "es": "Colchoneta de aterrizaje",
+      "fr": "Matelas d'atterrissage",
+      "he": "מזרן נחיתה",
+      "hr": "Podloga za slijetanje",
+      "it": "Materasso d'atterraggio",
+      "ja": "着地マット",
+      "ko-KR": "착지 매트",
+      "no": "Landingsmatte",
+      "pl": "Mata do lądowania",
+      "pt": "Tapete de aterrissagem",
+      "pt-BR": "Tapete de pouso",
+      "ru": "Посадочный мат",
+      "sr": "Podloga za sletanje",
+      "tr": "İniş Minderi",
+      "uk": "Посадковий мат",
+      "zh-CN": "着陆垫",
+      "zh-TW": "降落墊"
+    },
+    "description": {
+      "da": "En kastbar nødlandingsenhed, der kan blødgøre en tung landing",
+      "de": "Ein werfbares Notlandegerät, das schwere Landungen abfedert",
+      "en": "A throwable emergency landing device, to soften some heavy landing",
+      "es": "Un dispositivo de aterrizaje de emergencia arrojadizo que suaviza algunos aterrizajes duros",
+      "fr": "Un dispositif d'atterrissage d'urgence à lancer, pour amortir certaines chutes brutales",
+      "he": "מתקן נחיתת חירום שניתן להשליך, לריכוך נחיתות כבדות",
+      "hr": "Bacivi uređaj za hitno slijetanje koji ublažava teška prizemljenja",
+      "it": "Un dispositivo di atterraggio d'emergenza lanciabile, per attutire gli atterraggi più pesanti",
+      "ja": "投げて使う緊急着陸装置。重い着地の衝撃をいくらか和らげる。",
+      "ko-KR": "무거운 착지를 어느 정도 완화해 주는 투척식 비상 착륙 장치입니다.",
+      "no": "En kastbar nødlandingsenhet som demper tunge landinger",
+      "pl": "Rzucane awaryjne urządzenie do lądowania, które łagodzi ciężkie upadki",
+      "pt": "Um dispositivo de aterrissagem de emergência arremessável, para amortecer algumas quedas pesadas",
+      "pt-BR": "Um dispositivo de pouso de emergência arremessável, para amortecer algumas quedas pesadas",
+      "ru": "Метательное устройство аварийной посадки, смягчающее тяжелые приземления",
+      "sr": "Bacivi uređaj za hitno sletanje koji ublažava teška prizemljenja",
+      "tr": "Bazı sert inişleri yumuşatmak için fırlatılabilen acil iniş cihazı",
+      "uk": "Кидальний пристрій аварійної посадки, що пом'якшує важкі приземлення",
+      "zh-CN": "一种可投掷的紧急着陆装置，用于缓冲部分重着陆冲击",
+      "zh-TW": "一種可投擲的緊急降落裝置，用來緩和部分重著陸衝擊"
+    },
+    "type": "Quick Use",
+    "rarity": "Uncommon",
+    "value": 1200,
+    "weightKg": 0.6,
+    "stackSize": 5,
+    "blueprintLocked": true,
+    "craftBench": "utility_bench",
+    "stationLevelRequired": 2,
+    "recipe": {
+      "durable_cloth": 1,
+      "electrical_components": 1
+    },
+    "recyclesInto": {
+      "fabric": 6,
+      "plastic_parts": 3
+    },
+    "salvagesInto": {
+      "fabric": 4
+    },
+    "updatedAt": "04/28/2026",
+    "addedIn": "1.26",
+    "crafting_components": [
+      {
+        "item": {
+          "id": "durable_cloth",
+          "name": {
+            "da": "Holdbart stof",
+            "de": "Strapazierfähiges Stoffstück",
+            "en": "Durable Cloth",
+            "es": "Tela resistente",
+            "fr": "Tissu Résistant",
+            "he": "בד עמיד",
+            "hr": "Izdržljiva Tkanina",
+            "it": "Tessuto resistente",
+            "ja": "丈夫な服",
+            "ko-KR": "질긴 천",
+            "no": "Slitesterkt stoff",
+            "pl": "Wytrzymała tkanina",
+            "pt": "Tecido durável",
+            "pt-BR": "Tecido Durável",
+            "ru": "Прочная ткань",
+            "sr": "Izdržljiva Tkanina",
+            "tr": "Dayanıklı Kumaş",
+            "uk": "Міцна тканина",
+            "zh-CN": "耐磨布料",
+            "zh-TW": "耐用布料"
+          },
+          "description": {
+            "da": "Bruges til at lave medicinske forsyninger. Bruges til at lave: Urtebandage, Steriliseret bandage",
+            "de": "Wird zur Herstellung von medizinischen Objekte verwendet. Zur Herstellung von: Kräuterverband, Steriler Verband",
+            "en": "Used to craft medical supplies. Used to craft: Herbal Bandage, Sterilized Bandage",
+            "es": "Se usa para fabricar suministros médicos. Se usa para fabricar: Venda herbal, Venda esterilizada",
+            "fr": "Permet de fabriquer des fournitures médicales. Permet de fabriquer : Bandage aux herbes, Bandage stérilisé",
+            "he": "משמש ליצירת ציוד רפואי. משמש ליצירת: תחבושת צמחים, תחבושת סטרילית",
+            "hr": "Koristi se za izradu medicinskih potrepština. Koristi se za izradu: Biljni Zavoj, Sterilizirani Zavoj",
+            "it": "Si usa per creare forniture mediche. Si usa per creare: Benda alle erbe, Benda sterilizzata",
+            "ja": "医療用品の製作に使用される。製作可能：ハーバル包帯、滅菌包帯",
+            "ko-KR": "의료 용품 제작에 사용됨. 제작 가능: 허브 붕대, 멸균 붕대",
+            "no": "Brukes til å lage medisinske forsyninger. Brukes til å lage: Urtebandasje, Sterilisert bandasje",
+            "pl": "Używane do wytwarzania materiałów medycznych. Używane do wytworzenia: Bandaż ziołowy, Bandaż sterylny",
+            "pt": "Usado para fabricar suprimentos médicos. Usado para fabricar: Bandagem herbal, Bandagem esterilizada",
+            "pt-BR": "Serve para fabricar suprimentos médicos. Usado para fabricar: Atadura de Ervas, Atadura Esterilizada",
+            "ru": "Используется для создания медицинских принадлежностей. Используется для создания: Травяной бинт, Стерилизованный бинт",
+            "sr": "Koristi se za izradu medicinskih potrepština. Koristi se za izradu: Biljni Zavoj, Sterilizovani Zavoj",
+            "tr": "Tıbbi malzeme üretmek için kullanılır. Üretilebilir: Bitkisel Bandaj, Sterilize Bandaj",
+            "uk": "Використовується для створення медичних приладь. Використовується для створення: Трав'яний бинт, Стерилізований бинт",
+            "zh-CN": "用于制作医疗用品。可制作：草药绷带、消毒绷带",
+            "zh-TW": "用於製作醫療用品。可製作：草藥繃帶、消毒繃帶"
+          },
+          "type": "Refined Material",
+          "rarity": "Uncommon",
+          "foundIn": "Medical, Commercial",
+          "value": 640,
+          "weightKg": 0.25,
+          "stackSize": 10,
+          "craftBench": "refiner",
+          "stationLevelRequired": 1,
+          "recipe": {
+            "fabric": 14
+          },
+          "recyclesInto": {
+            "fabric": 6
+          },
+          "salvagesInto": {
+            "fabric": 2
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/durable_cloth.png",
+          "updatedAt": "03/17/2026",
+          "addedIn": "base"
+        },
+        "component": {
+          "id": "durable_cloth"
+        }
+      },
+      {
+        "item": {
+          "id": "electrical_components",
+          "name": {
+            "da": "Elektriske komponenter",
+            "de": "Elektrische Komponenten",
+            "en": "Electrical Components",
+            "es": "Componentes eléctricos",
+            "fr": "Composants Électriques",
+            "he": "רכיבים חשמליים",
+            "hr": "Električne Komponente",
+            "it": "Componenti elettrici",
+            "ja": "電気部品",
+            "ko-KR": "전기 부품",
+            "no": "Elektriske komponenter",
+            "pl": "Komponenty elektryczne",
+            "pt": "Componentes elétricos",
+            "pt-BR": "Componentes Elétricos",
+            "ru": "Электрические компоненты",
+            "sr": "Električne Komponente",
+            "tr": "Elektrik Bileşenleri",
+            "uk": "Електричні компоненти",
+            "zh-CN": "电子元件",
+            "zh-TW": "電子元件"
+          },
+          "description": {
+            "da": "Bruges til at fremstille en bred vifte af genstande. Kan genbruges til håndværksmaterialer. Bruges til at fremstille: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Surge skjoldoplader, Lokkegranate",
+            "de": "Wird zur Herstellung verschiedenster Gegenstände verwendet. Kann zu Herstellungsmaterialien recycelt werden. Zur Herstellung von: Taktisch-Marke 2, Kampf-Marke 2, Beute-Marke 2, Schockmine, Ködergranate",
+            "en": "Used to craft a wide range of items. Can be recycled into crafting materials. Used to craft: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Surge Shield Recharger, Lure Grenade",
+            "es": "Usado para fabricar una amplia gama de objetos. Puede reciclarse en materiales de fabricación. Usado para fabricar: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Cargador de escudos de Sobrecarga, Granada señuelo",
+            "fr": "Permet de fabriquer une large gamme d'objets. Peut être recyclé en matériaux d'artisanat. Permet de fabriquer : Tactique 2, Combat 2, Butin 2, Rechargeur de bouclier d'impulsion, Grenade leurre",
+            "he": "משמש ליצירת מגוון רחב של פריטים. ניתן למיחזור לחומרי יצירה. משמש ליצירת: טקטי Mk. 2, קרבי Mk. 2, ביזה Mk. 2, מטען מגן נחשול, רימון פיתיון",
+            "hr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu. Koristi se za izradu: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Surge Shield Recharger, Lure Granata",
+            "it": "Si usa per creare una vasta gamma di oggetti. Si può riciclare in materiali da creazione. Si usa per creare: Tattico Mk. 2, Combattimento Mk. 2, Saccheggio Mk. 2, Componenti elettrici avanzati, Caricascudi rapido",
+            "ja": "幅広いアイテムの製作に使用。製作素材にリサイクル可能。製作用途：Tactical Mk. 2、Combat Mk. 2、Looting Mk. 2、サージシールドリチャージャー、ルアーグレネード",
+            "ko-KR": "다양한 아이템 제작에 사용. 제작 재료로 재활용 가능. 제작 용도: 전술 마크 2, 전투 마크 2, 노획 마크 2, 급속 실드 충전기, 유인 수류탄",
+            "no": "Brukes til å lage et bredt spekter av gjenstander. Kan resirkuleres til håndverksmateriell. Brukes til å lage: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Surge skjoldlader, Lokkegranate",
+            "pl": "Używany do wytwarzania szerokiej gamy przedmiotów. Może być przetworzony na materiały rzemieślnicze. Używany do wytworzenia: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Ładowarka tarczy Surge, Granat wabik",
+            "pt": "Usado para fabricar uma ampla gama de itens. Pode ser reciclado em materiais de fabricação. Usado para fabricar: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Recarregador de escudo Surge, Granada isca",
+            "pt-BR": "Usado para criar uma grande variedade de itens. Pode ser reciclado em materiais de criação. Usado para criar: Tático Mk. 2, Combate Mk. 2, Saque Mk. 2, Recarregador de Escudo de Surto, Granada de Isca",
+            "ru": "Используется для создания широкого спектра предметов. Можно переработать в материалы для крафта. Используется для создания: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, перезарядник энергощита Surge, приманка-граната",
+            "sr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu. Koristi se za izradu: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Surge Shield Recharger, Lure Granata",
+            "tr": "Çok çeşitli eşyalar üretmek için kullanılır. Üretim malzemelerine geri dönüştürülebilir. Üretim için kullanılır: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Surge Kalkan Şarj Cihazı, Yem Bombası",
+            "uk": "Використовується для створення широкого спектру предметів. Можна переробити на матеріали для крафту. Використовується для створення: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, перезарядник енергощита Surge, граната-приманка",
+            "zh-CN": "用于制作各种物品。可回收为制作材料。用于制作：Tactical Mk. 2、Combat Mk. 2、Looting Mk. 2、激增护盾充能器、诱捕手雷",
+            "zh-TW": "用於製作各種物品。可回收為製作材料。用於製作：Tactical Mk. 2、Combat Mk. 2、Looting Mk. 2、激增護盾充能器、誘餌手榴彈"
+          },
+          "type": "Refined Material",
+          "rarity": "Uncommon",
+          "foundIn": "Electrical",
+          "value": 640,
+          "weightKg": 0.5,
+          "stackSize": 10,
+          "craftBench": "refiner",
+          "stationLevelRequired": 1,
+          "recipe": {
+            "plastic_parts": 8,
+            "rubber_parts": 4
+          },
+          "recyclesInto": {
+            "plastic_parts": 3,
+            "rubber_parts": 3
+          },
+          "salvagesInto": {
+            "plastic_parts": 3
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/electrical_components.png",
+          "updatedAt": "03/17/2026",
+          "addedIn": "base"
+        },
+        "component": {
+          "id": "electrical_components"
+        }
+      }
+    ],
+    "workbench": "utility_bench",
+    "item_type": "Quick Use"
+  },
+  {
+    "id": "crash_mat_blueprint",
+    "name": {
+      "da": "Landingsmåtte blueprint",
+      "de": "Sturzmatte-Blaupause",
+      "en": "Crash Mat Blueprint",
+      "es": "Plano de colchoneta de aterrizaje",
+      "fr": "Plan de matelas d'atterrissage",
+      "he": "תוכנית למזרן נחיתה",
+      "hr": "Nacrt podloge za slijetanje",
+      "it": "Progetto materasso d'atterraggio",
+      "ja": "着地マットの設計図",
+      "ko-KR": "착지 매트 설계도",
+      "no": "Landingsmatte blueprint",
+      "pl": "Schemat maty do lądowania",
+      "pt": "Projeto de tapete de aterrissagem",
+      "pt-BR": "Projeto de tapete de pouso",
+      "ru": "Чертеж посадочного мата",
+      "sr": "Nacrt podloge za sletanje",
+      "tr": "İniş Minderi Planı",
+      "uk": "Креслення посадкового мата",
+      "zh-CN": "着陆垫蓝图",
+      "zh-TW": "降落墊藍圖"
+    },
+    "description": {
+      "da": "En kastbar nødlandingsenhed, der kan blødgøre en tung landing",
+      "de": "Ein werfbares Notlandegerät, das schwere Landungen abfedert",
+      "en": "A throwable emergency landing device, to soften some heavy landing",
+      "es": "Un dispositivo de aterrizaje de emergencia arrojadizo que suaviza algunos aterrizajes duros",
+      "fr": "Un dispositif d'atterrissage d'urgence à lancer, pour amortir certaines chutes brutales",
+      "he": "מתקן נחיתת חירום שניתן להשליך, לריכוך נחיתות כבדות",
+      "hr": "Bacivi uređaj za hitno slijetanje koji ublažava teška prizemljenja",
+      "it": "Un dispositivo di atterraggio d'emergenza lanciabile, per attutire gli atterraggi più pesanti",
+      "ja": "投げて使う緊急着陸装置。重い着地の衝撃をいくらか和らげる。",
+      "ko-KR": "무거운 착지를 어느 정도 완화해 주는 투척식 비상 착륙 장치입니다.",
+      "no": "En kastbar nødlandingsenhet som demper tunge landinger",
+      "pl": "Rzucane awaryjne urządzenie do lądowania, które łagodzi ciężkie upadki",
+      "pt": "Um dispositivo de aterrissagem de emergência arremessável, para amortecer algumas quedas pesadas",
+      "pt-BR": "Um dispositivo de pouso de emergência arremessável, para amortecer algumas quedas pesadas",
+      "ru": "Метательное устройство аварийной посадки, смягчающее тяжелые приземления",
+      "sr": "Bacivi uređaj za hitno sletanje koji ublažava teška prizemljenja",
+      "tr": "Bazı sert inişleri yumuşatmak için fırlatılabilen acil iniş cihazı",
+      "uk": "Кидальний пристрій аварійної посадки, що пом'якшує важкі приземлення",
+      "zh-CN": "一种可投掷的紧急着陆装置，用于缓冲部分重着陆冲击",
+      "zh-TW": "一種可投擲的緊急降落裝置，用來緩和部分重著陸衝擊"
+    },
+    "type": "Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
+    "updatedAt": "04/28/2026",
+    "addedIn": "1.26",
+    "item_type": "Blueprint"
+  },
+  {
     "id": "crude_explosives",
     "name": {
       "da": "Groft sprængstof",
@@ -54663,6 +55388,64 @@
     "loot_area": "Residential"
   },
   {
+    "id": "dockmasters_detector",
+    "name": {
+      "da": "Havnefogedens detektor",
+      "de": "Detektor des Hafenmeisters",
+      "en": "Dockmaster's Detector",
+      "es": "Detector del capitán de puerto",
+      "fr": "Détecteur du maître de port",
+      "he": "גלאי של מנהל הנמל",
+      "hr": "Detektor lučkog kapetana",
+      "it": "Rilevatore del capitano di porto",
+      "ja": "ドックマスターのディテクター",
+      "ko-KR": "도크마스터의 탐지기",
+      "no": "Havnefogdens detektor",
+      "pl": "Detektor bosmana portu",
+      "pt": "Detetor do capitão do porto",
+      "pt-BR": "Detector do capitão do porto",
+      "ru": "Детектор начальника порта",
+      "sr": "Detektor lučkog kapetana",
+      "tr": "Liman şefinin dedektörü",
+      "uk": "Детектор начальника порту",
+      "zh-CN": "码头主管的探测器",
+      "zh-TW": "碼頭主管的探測器"
+    },
+    "description": {
+      "da": "Disse detektorer ser ud til at kunne lokalisere fremmede objekter begravet i sandet omkring Riven Tides, selvom deres præcise funktionsmåde er ukendt.",
+      "de": "Diese Detektoren scheinen in der Lage zu sein, Fremdkörper zu orten, die im Sand rund um Riven Tides vergraben sind, obwohl ihre genaue Funktionsweise unbekannt ist.",
+      "en": "These detectors seem to be able to locate foreign objects buried in the sands around Riven Tides, though their exact way of functioning is unknown.",
+      "es": "Estos detectores parecen ser capaces de localizar objetos extraños enterrados en las arenas alrededor de Riven Tides, aunque se desconoce su forma exacta de funcionamiento.",
+      "fr": "Ces détecteurs semblent capables de localiser des objets étrangers enfouis dans les sables autour de Riven Tides, bien que leur mode de fonctionnement exact reste inconnu.",
+      "he": "נראה שהגלאים הללו מסוגלים לאתר עצמים זרים הקבורים בחולות סביב Riven Tides, אם כי אופן פעולתם המדויק אינו ידוע.",
+      "hr": "Čini se da ovi detektori mogu locirati strane predmete zakopane u pijesku oko Riven Tidesa, iako je njihov točan način rada nepoznat.",
+      "it": "Questi rilevatori sembrano in grado di localizzare oggetti estranei sepolti nelle sabbie intorno a Riven Tides, anche se il loro esatto modo di funzionare è sconosciuto.",
+      "ja": "これらのディテクターは、Riven Tides周辺の砂に埋もれた異物を発見できるようだが、その正確な動作原理は不明である。",
+      "ko-KR": "이 탐지기들은 Riven Tides 주변의 모래에 묻힌 이물질을 찾아낼 수 있는 것으로 보이지만, 정확한 작동 방식은 알려져 있지 않다.",
+      "no": "Disse detektorene ser ut til å kunne lokalisere fremmede objekter begravd i sanden rundt Riven Tides, selv om den nøyaktige virkemåten er ukjent.",
+      "pl": "Te detektory wydają się być w stanie zlokalizować obce obiekty zakopane w piaskach wokół Riven Tides, choć ich dokładny sposób działania pozostaje nieznany.",
+      "pt": "Estes detectores parecem conseguir localizar objetos estranhos enterrados nas areias ao redor de Riven Tides, embora seu funcionamento exato seja desconhecido",
+      "pt-BR": "Estes detectores parecem ser capazes de localizar objetos estranhos enterrados nas areias ao redor de Riven Tides, embora sua forma exata de funcionamento seja desconhecida.",
+      "ru": "Эти детекторы, по всей видимости, способны находить посторонние объекты, погребённые в песках вокруг Riven Tides, хотя точный принцип их работы неизвестен.",
+      "sr": "Čini se da ovi detektori mogu da lociraju strane predmete zakopane u pesku oko Riven Tidesa, iako je njihov tačan način rada nepoznat.",
+      "tr": "Bu dedektörler, Riven Tides çevresindeki kumlara gömülü yabancı nesneleri tespit edebiliyor gibi görünüyor, ancak nasıl çalıştıkları tam olarak bilinmiyor.",
+      "uk": "Здається, ці детектори здатні знаходити сторонні предмети, поховані в пісках навколо Riven Tides, хоча точний принцип їхньої роботи невідомий.",
+      "zh-CN": "这些探测器似乎能够定位埋藏在Riven Tides周围沙地中的外来物体，尽管它们的确切运作方式尚不清楚。",
+      "zh-TW": "這些探測器似乎能夠定位埋藏在Riven Tides周圍沙地中的外來物體，儘管它們的確切運作方式尚不清楚。"
+    },
+    "type": "Quick Use",
+    "rarity": "Uncommon",
+    "value": 1000,
+    "weightKg": 1,
+    "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/dockmasters_detector.png",
+    "updatedAt": "04/28/2026",
+    "addedIn": "1.26",
+    "durability": 100,
+    "icon": "https://cdn.arctracker.io/items/dockmasters_detector.png",
+    "item_type": "Quick Use"
+  },
+  {
     "id": "dodgers_note",
     "name": {
       "da": "Dodgers note",
@@ -55054,7 +55837,8 @@
           "salvagesInto": {
             "arc_circuitry": 2
           },
-          "updatedAt": "03/31/2026",
+          "imageFilename": "https://cdn.arctracker.io/items/vaporizer_regulator.png",
+          "updatedAt": "04/28/2026",
           "addedIn": "1.22"
         },
         "component": {
@@ -58982,6 +59766,79 @@
     "used_in": [
       {
         "item": {
+          "id": "crash_mat",
+          "name": {
+            "da": "Landingsmåtte",
+            "de": "Sturzmatte",
+            "en": "Crash Mat",
+            "es": "Colchoneta de aterrizaje",
+            "fr": "Matelas d'atterrissage",
+            "he": "מזרן נחיתה",
+            "hr": "Podloga za slijetanje",
+            "it": "Materasso d'atterraggio",
+            "ja": "着地マット",
+            "ko-KR": "착지 매트",
+            "no": "Landingsmatte",
+            "pl": "Mata do lądowania",
+            "pt": "Tapete de aterrissagem",
+            "pt-BR": "Tapete de pouso",
+            "ru": "Посадочный мат",
+            "sr": "Podloga za sletanje",
+            "tr": "İniş Minderi",
+            "uk": "Посадковий мат",
+            "zh-CN": "着陆垫",
+            "zh-TW": "降落墊"
+          },
+          "description": {
+            "da": "En kastbar nødlandingsenhed, der kan blødgøre en tung landing",
+            "de": "Ein werfbares Notlandegerät, das schwere Landungen abfedert",
+            "en": "A throwable emergency landing device, to soften some heavy landing",
+            "es": "Un dispositivo de aterrizaje de emergencia arrojadizo que suaviza algunos aterrizajes duros",
+            "fr": "Un dispositif d'atterrissage d'urgence à lancer, pour amortir certaines chutes brutales",
+            "he": "מתקן נחיתת חירום שניתן להשליך, לריכוך נחיתות כבדות",
+            "hr": "Bacivi uređaj za hitno slijetanje koji ublažava teška prizemljenja",
+            "it": "Un dispositivo di atterraggio d'emergenza lanciabile, per attutire gli atterraggi più pesanti",
+            "ja": "投げて使う緊急着陸装置。重い着地の衝撃をいくらか和らげる。",
+            "ko-KR": "무거운 착지를 어느 정도 완화해 주는 투척식 비상 착륙 장치입니다.",
+            "no": "En kastbar nødlandingsenhet som demper tunge landinger",
+            "pl": "Rzucane awaryjne urządzenie do lądowania, które łagodzi ciężkie upadki",
+            "pt": "Um dispositivo de aterrissagem de emergência arremessável, para amortecer algumas quedas pesadas",
+            "pt-BR": "Um dispositivo de pouso de emergência arremessável, para amortecer algumas quedas pesadas",
+            "ru": "Метательное устройство аварийной посадки, смягчающее тяжелые приземления",
+            "sr": "Bacivi uređaj za hitno sletanje koji ublažava teška prizemljenja",
+            "tr": "Bazı sert inişleri yumuşatmak için fırlatılabilen acil iniş cihazı",
+            "uk": "Кидальний пристрій аварійної посадки, що пом'якшує важкі приземлення",
+            "zh-CN": "一种可投掷的紧急着陆装置，用于缓冲部分重着陆冲击",
+            "zh-TW": "一種可投擲的緊急降落裝置，用來緩和部分重著陸衝擊"
+          },
+          "type": "Quick Use",
+          "rarity": "Uncommon",
+          "value": 1200,
+          "weightKg": 0.6,
+          "stackSize": 5,
+          "blueprintLocked": true,
+          "craftBench": "utility_bench",
+          "stationLevelRequired": 2,
+          "recipe": {
+            "durable_cloth": 1,
+            "electrical_components": 1
+          },
+          "recyclesInto": {
+            "fabric": 6,
+            "plastic_parts": 3
+          },
+          "salvagesInto": {
+            "fabric": 4
+          },
+          "updatedAt": "04/28/2026",
+          "addedIn": "1.26"
+        },
+        "component": {
+          "id": "durable_cloth"
+        }
+      },
+      {
+        "item": {
           "id": "herbal_bandage",
           "name": {
             "da": "Urtebandage",
@@ -59971,6 +60828,79 @@
               "trader": "Lance"
             }
           ]
+        },
+        "component": {
+          "id": "electrical_components"
+        }
+      },
+      {
+        "item": {
+          "id": "crash_mat",
+          "name": {
+            "da": "Landingsmåtte",
+            "de": "Sturzmatte",
+            "en": "Crash Mat",
+            "es": "Colchoneta de aterrizaje",
+            "fr": "Matelas d'atterrissage",
+            "he": "מזרן נחיתה",
+            "hr": "Podloga za slijetanje",
+            "it": "Materasso d'atterraggio",
+            "ja": "着地マット",
+            "ko-KR": "착지 매트",
+            "no": "Landingsmatte",
+            "pl": "Mata do lądowania",
+            "pt": "Tapete de aterrissagem",
+            "pt-BR": "Tapete de pouso",
+            "ru": "Посадочный мат",
+            "sr": "Podloga za sletanje",
+            "tr": "İniş Minderi",
+            "uk": "Посадковий мат",
+            "zh-CN": "着陆垫",
+            "zh-TW": "降落墊"
+          },
+          "description": {
+            "da": "En kastbar nødlandingsenhed, der kan blødgøre en tung landing",
+            "de": "Ein werfbares Notlandegerät, das schwere Landungen abfedert",
+            "en": "A throwable emergency landing device, to soften some heavy landing",
+            "es": "Un dispositivo de aterrizaje de emergencia arrojadizo que suaviza algunos aterrizajes duros",
+            "fr": "Un dispositif d'atterrissage d'urgence à lancer, pour amortir certaines chutes brutales",
+            "he": "מתקן נחיתת חירום שניתן להשליך, לריכוך נחיתות כבדות",
+            "hr": "Bacivi uređaj za hitno slijetanje koji ublažava teška prizemljenja",
+            "it": "Un dispositivo di atterraggio d'emergenza lanciabile, per attutire gli atterraggi più pesanti",
+            "ja": "投げて使う緊急着陸装置。重い着地の衝撃をいくらか和らげる。",
+            "ko-KR": "무거운 착지를 어느 정도 완화해 주는 투척식 비상 착륙 장치입니다.",
+            "no": "En kastbar nødlandingsenhet som demper tunge landinger",
+            "pl": "Rzucane awaryjne urządzenie do lądowania, które łagodzi ciężkie upadki",
+            "pt": "Um dispositivo de aterrissagem de emergência arremessável, para amortecer algumas quedas pesadas",
+            "pt-BR": "Um dispositivo de pouso de emergência arremessável, para amortecer algumas quedas pesadas",
+            "ru": "Метательное устройство аварийной посадки, смягчающее тяжелые приземления",
+            "sr": "Bacivi uređaj za hitno sletanje koji ublažava teška prizemljenja",
+            "tr": "Bazı sert inişleri yumuşatmak için fırlatılabilen acil iniş cihazı",
+            "uk": "Кидальний пристрій аварійної посадки, що пом'якшує важкі приземлення",
+            "zh-CN": "一种可投掷的紧急着陆装置，用于缓冲部分重着陆冲击",
+            "zh-TW": "一種可投擲的緊急降落裝置，用來緩和部分重著陸衝擊"
+          },
+          "type": "Quick Use",
+          "rarity": "Uncommon",
+          "value": 1200,
+          "weightKg": 0.6,
+          "stackSize": 5,
+          "blueprintLocked": true,
+          "craftBench": "utility_bench",
+          "stationLevelRequired": 2,
+          "recipe": {
+            "durable_cloth": 1,
+            "electrical_components": 1
+          },
+          "recyclesInto": {
+            "fabric": 6,
+            "plastic_parts": 3
+          },
+          "salvagesInto": {
+            "fabric": 4
+          },
+          "updatedAt": "04/28/2026",
+          "addedIn": "1.26"
         },
         "component": {
           "id": "electrical_components"
@@ -70787,6 +71717,79 @@
         "component": {
           "id": "fabric"
         }
+      },
+      {
+        "item": {
+          "id": "white_flag",
+          "name": {
+            "da": "Hvidt flag",
+            "de": "Weiße Flagge",
+            "en": "White Flag",
+            "es": "Bandera blanca",
+            "fr": "Drapeau blanc",
+            "he": "דגל לבן",
+            "hr": "Bijela zastava",
+            "it": "Bandiera bianca",
+            "ja": "白旗",
+            "ko-KR": "백기",
+            "no": "Hvitt flagg",
+            "pl": "Biała flaga",
+            "pt": "Bandeira branca",
+            "pt-BR": "Bandeira Branca",
+            "ru": "Белый флаг",
+            "sr": "Bela zastava",
+            "tr": "Beyaz Bayrak",
+            "uk": "Білий прапор",
+            "zh-CN": "白旗",
+            "zh-TW": "白旗"
+          },
+          "description": {
+            "da": "Et hvidt flag, der kan placeres",
+            "de": "Eine platzierbare weiße Flagge",
+            "en": "A deployable white flag",
+            "es": "Una bandera blanca desplegable",
+            "fr": "Un drapeau blanc déployable",
+            "he": "דגל לבן שניתן להציב",
+            "hr": "Bijela zastava koja se može postaviti",
+            "it": "Una bandiera bianca piazzabile",
+            "ja": "設置可能な白旗。",
+            "ko-KR": "설치 가능한 백기입니다.",
+            "no": "Et hvitt flagg som kan plasseres",
+            "pl": "Biała flaga do rozstawienia",
+            "pt": "Uma bandeira branca posicionável",
+            "pt-BR": "Uma bandeira branca posicionável",
+            "ru": "Развертываемый белый флаг",
+            "sr": "Bela zastava koja može da se postavi",
+            "tr": "Yerleştirilebilir bir beyaz bayrak",
+            "uk": "Білий прапор, який можна встановити",
+            "zh-CN": "可部署的白旗",
+            "zh-TW": "可部署的白旗"
+          },
+          "type": "Quick Use",
+          "rarity": "Uncommon",
+          "value": 640,
+          "weightKg": 0.2,
+          "stackSize": 5,
+          "blueprintLocked": true,
+          "craftBench": "medical_lab",
+          "stationLevelRequired": 1,
+          "recipe": {
+            "fabric": 10,
+            "plastic_parts": 3
+          },
+          "recyclesInto": {
+            "fabric": 5,
+            "plastic_parts": 1
+          },
+          "salvagesInto": {
+            "fabric": 3
+          },
+          "updatedAt": "04/28/2026",
+          "addedIn": "1.26"
+        },
+        "component": {
+          "id": "fabric"
+        }
       }
     ],
     "recycle_from": [
@@ -71009,6 +72012,79 @@
         },
         "component": {
           "id": "bandage"
+        }
+      },
+      {
+        "item": {
+          "id": "crash_mat",
+          "name": {
+            "da": "Landingsmåtte",
+            "de": "Sturzmatte",
+            "en": "Crash Mat",
+            "es": "Colchoneta de aterrizaje",
+            "fr": "Matelas d'atterrissage",
+            "he": "מזרן נחיתה",
+            "hr": "Podloga za slijetanje",
+            "it": "Materasso d'atterraggio",
+            "ja": "着地マット",
+            "ko-KR": "착지 매트",
+            "no": "Landingsmatte",
+            "pl": "Mata do lądowania",
+            "pt": "Tapete de aterrissagem",
+            "pt-BR": "Tapete de pouso",
+            "ru": "Посадочный мат",
+            "sr": "Podloga za sletanje",
+            "tr": "İniş Minderi",
+            "uk": "Посадковий мат",
+            "zh-CN": "着陆垫",
+            "zh-TW": "降落墊"
+          },
+          "description": {
+            "da": "En kastbar nødlandingsenhed, der kan blødgøre en tung landing",
+            "de": "Ein werfbares Notlandegerät, das schwere Landungen abfedert",
+            "en": "A throwable emergency landing device, to soften some heavy landing",
+            "es": "Un dispositivo de aterrizaje de emergencia arrojadizo que suaviza algunos aterrizajes duros",
+            "fr": "Un dispositif d'atterrissage d'urgence à lancer, pour amortir certaines chutes brutales",
+            "he": "מתקן נחיתת חירום שניתן להשליך, לריכוך נחיתות כבדות",
+            "hr": "Bacivi uređaj za hitno slijetanje koji ublažava teška prizemljenja",
+            "it": "Un dispositivo di atterraggio d'emergenza lanciabile, per attutire gli atterraggi più pesanti",
+            "ja": "投げて使う緊急着陸装置。重い着地の衝撃をいくらか和らげる。",
+            "ko-KR": "무거운 착지를 어느 정도 완화해 주는 투척식 비상 착륙 장치입니다.",
+            "no": "En kastbar nødlandingsenhet som demper tunge landinger",
+            "pl": "Rzucane awaryjne urządzenie do lądowania, które łagodzi ciężkie upadki",
+            "pt": "Um dispositivo de aterrissagem de emergência arremessável, para amortecer algumas quedas pesadas",
+            "pt-BR": "Um dispositivo de pouso de emergência arremessável, para amortecer algumas quedas pesadas",
+            "ru": "Метательное устройство аварийной посадки, смягчающее тяжелые приземления",
+            "sr": "Bacivi uređaj za hitno sletanje koji ublažava teška prizemljenja",
+            "tr": "Bazı sert inişleri yumuşatmak için fırlatılabilen acil iniş cihazı",
+            "uk": "Кидальний пристрій аварійної посадки, що пом'якшує важкі приземлення",
+            "zh-CN": "一种可投掷的紧急着陆装置，用于缓冲部分重着陆冲击",
+            "zh-TW": "一種可投擲的緊急降落裝置，用來緩和部分重著陸衝擊"
+          },
+          "type": "Quick Use",
+          "rarity": "Uncommon",
+          "value": 1200,
+          "weightKg": 0.6,
+          "stackSize": 5,
+          "blueprintLocked": true,
+          "craftBench": "utility_bench",
+          "stationLevelRequired": 2,
+          "recipe": {
+            "durable_cloth": 1,
+            "electrical_components": 1
+          },
+          "recyclesInto": {
+            "fabric": 6,
+            "plastic_parts": 3
+          },
+          "salvagesInto": {
+            "fabric": 4
+          },
+          "updatedAt": "04/28/2026",
+          "addedIn": "1.26"
+        },
+        "component": {
+          "id": "crash_mat"
         }
       },
       {
@@ -72166,6 +73242,79 @@
         },
         "component": {
           "id": "torn_blanket"
+        }
+      },
+      {
+        "item": {
+          "id": "white_flag",
+          "name": {
+            "da": "Hvidt flag",
+            "de": "Weiße Flagge",
+            "en": "White Flag",
+            "es": "Bandera blanca",
+            "fr": "Drapeau blanc",
+            "he": "דגל לבן",
+            "hr": "Bijela zastava",
+            "it": "Bandiera bianca",
+            "ja": "白旗",
+            "ko-KR": "백기",
+            "no": "Hvitt flagg",
+            "pl": "Biała flaga",
+            "pt": "Bandeira branca",
+            "pt-BR": "Bandeira Branca",
+            "ru": "Белый флаг",
+            "sr": "Bela zastava",
+            "tr": "Beyaz Bayrak",
+            "uk": "Білий прапор",
+            "zh-CN": "白旗",
+            "zh-TW": "白旗"
+          },
+          "description": {
+            "da": "Et hvidt flag, der kan placeres",
+            "de": "Eine platzierbare weiße Flagge",
+            "en": "A deployable white flag",
+            "es": "Una bandera blanca desplegable",
+            "fr": "Un drapeau blanc déployable",
+            "he": "דגל לבן שניתן להציב",
+            "hr": "Bijela zastava koja se može postaviti",
+            "it": "Una bandiera bianca piazzabile",
+            "ja": "設置可能な白旗。",
+            "ko-KR": "설치 가능한 백기입니다.",
+            "no": "Et hvitt flagg som kan plasseres",
+            "pl": "Biała flaga do rozstawienia",
+            "pt": "Uma bandeira branca posicionável",
+            "pt-BR": "Uma bandeira branca posicionável",
+            "ru": "Развертываемый белый флаг",
+            "sr": "Bela zastava koja može da se postavi",
+            "tr": "Yerleştirilebilir bir beyaz bayrak",
+            "uk": "Білий прапор, який можна встановити",
+            "zh-CN": "可部署的白旗",
+            "zh-TW": "可部署的白旗"
+          },
+          "type": "Quick Use",
+          "rarity": "Uncommon",
+          "value": 640,
+          "weightKg": 0.2,
+          "stackSize": 5,
+          "blueprintLocked": true,
+          "craftBench": "medical_lab",
+          "stationLevelRequired": 1,
+          "recipe": {
+            "fabric": 10,
+            "plastic_parts": 3
+          },
+          "recyclesInto": {
+            "fabric": 5,
+            "plastic_parts": 1
+          },
+          "salvagesInto": {
+            "fabric": 3
+          },
+          "updatedAt": "04/28/2026",
+          "addedIn": "1.26"
+        },
+        "component": {
+          "id": "white_flag"
         }
       }
     ],
@@ -91091,6 +92240,63 @@
       "Stamina": 20,
       "Use Time": "1s"
     }
+  },
+  {
+    "id": "leviathans_crown_ship_model",
+    "name": {
+      "da": "Skibsmodel \"Leviathan's Crown\"",
+      "de": "Schiffsmodell \"Leviathan's Crown\"",
+      "en": "\"Leviathan's Crown\" Ship Model",
+      "es": "Modelo de barco \"Leviathan's Crown\"",
+      "fr": "Maquette de bateau « Leviathan's Crown »",
+      "he": "דגם ספינה \"Leviathan's Crown\"",
+      "hr": "Maketa broda \"Leviathan's Crown\"",
+      "it": "Modellino di nave \"Leviathan's Crown\"",
+      "ja": "「Leviathan's Crown」船舶模型",
+      "ko-KR": "\"Leviathan's Crown\" 선박 모형",
+      "no": "Skipsmodell \"Leviathan's Crown\"",
+      "pl": "Model statku \"Leviathan's Crown\"",
+      "pt": "Modelo de navio \"Leviathan's Crown\"",
+      "pt-BR": "Modelo de navio \"Leviathan's Crown\"",
+      "ru": "Модель корабля «Leviathan's Crown»",
+      "sr": "Maketa broda \"Leviathan's Crown\"",
+      "tr": "\"Leviathan's Crown\" Gemi Modeli",
+      "uk": "Модель корабля «Leviathan's Crown»",
+      "zh-CN": "「Leviathan's Crown」号船模",
+      "zh-TW": "「Leviathan's Crown」號船模"
+    },
+    "description": {
+      "da": "Et majestætisk syn i enhver æra, dette voldsomme handelsskib er ligeglad med de aerodynamiske fordele ved glasfiberteknologi.",
+      "de": "Ein majestätischer Anblick in jeder Epoche – dieses wilde Handelsschiff ist gleichgültig gegenüber den aerodynamischen Vorteilen der Glasfasertechnologie.",
+      "en": "A majestic sight in any era, this fierce merchant ship is indifferent to the aerodynamic benefits of fiberglass technology.",
+      "es": "Una visión majestuosa en cualquier era, este feroz barco mercante es indiferente a los beneficios aerodinámicos de la tecnología de fibra de vidrio.",
+      "fr": "Spectacle majestueux à toutes les époques, ce farouche navire marchand reste indifférent aux avantages aérodynamiques de la fibre de verre.",
+      "he": "מראה מלכותי בכל תקופה, ספינת סוחר עזה זו אדישה ליתרונות האווירודינמיים של טכנולוגיית סיבי הזכוכית.",
+      "hr": "Veličanstven prizor u bilo kojem dobu, ovaj žestoki trgovački brod ravnodušan je prema aerodinamičkim prednostima tehnologije od staklenih vlakana.",
+      "it": "Spettacolo maestoso in ogni epoca, questa fiera nave mercantile è indifferente ai vantaggi aerodinamici della tecnologia in fibra di vetro.",
+      "ja": "どの時代においても堂々たる姿を誇るこの猛々しい商船は、グラスファイバー技術がもたらす空力的な恩恵に無関心である。",
+      "ko-KR": "어느 시대에서나 위풍당당한 광경을 자랑하는 이 사나운 상선은, 유리섬유 기술의 공기역학적 이점에는 무관심하다.",
+      "no": "Et majestetisk syn i enhver epoke, dette voldsomme handelsskipet er likegyldig til de aerodynamiske fordelene ved glassfiberteknologi.",
+      "pl": "Majestatyczny widok w każdej epoce, ten groźny statek handlowy jest obojętny wobec aerodynamicznych zalet technologii z włókna szklanego.",
+      "pt": "Uma visão majestosa em qualquer era, este feroz navio mercante é indiferente aos benefícios aerodinâmicos da tecnologia de fibra de vidro.",
+      "pt-BR": "Uma visão majestosa em qualquer era, este feroz navio mercante é indiferente aos benefícios aerodinâmicos da tecnologia de fibra de vidro.",
+      "ru": "Величественное зрелище в любую эпоху — этот свирепый торговый корабль безразличен к аэродинамическим преимуществам стеклопластика.",
+      "sr": "Veličanstven prizor u bilo kom dobu, ovaj žestoki trgovački brod ravnodušan je prema aerodinamičkim prednostima tehnologije staklenih vlakana.",
+      "tr": "Her dönemde görkemli bir manzara olan bu vahşi ticaret gemisi, fiberglas teknolojisinin aerodinamik faydalarına karşı kayıtsızdır.",
+      "uk": "Величне видовище в будь-яку епоху — цей лютий торговельний корабель байдужий до аеродинамічних переваг склопластикової технології.",
+      "zh-CN": "无论哪个时代都堪称壮观，这艘凶悍的商船对玻璃纤维技术带来的空气动力学优势毫不在意。",
+      "zh-TW": "無論哪個時代都堪稱壯觀，這艘兇悍的商船對玻璃纖維技術帶來的空氣動力學優勢毫不在意。"
+    },
+    "type": "Trinket",
+    "rarity": "Legendary",
+    "value": 10000,
+    "weightKg": 0.5,
+    "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/leviathans_crown_ship_model.png",
+    "updatedAt": "04/28/2026",
+    "addedIn": "1.26",
+    "icon": "https://cdn.arctracker.io/items/leviathans_crown_ship_model.png",
+    "item_type": "Trinket"
   },
   {
     "id": "library_book",
@@ -142692,6 +143898,79 @@
         "component": {
           "id": "plastic_parts"
         }
+      },
+      {
+        "item": {
+          "id": "white_flag",
+          "name": {
+            "da": "Hvidt flag",
+            "de": "Weiße Flagge",
+            "en": "White Flag",
+            "es": "Bandera blanca",
+            "fr": "Drapeau blanc",
+            "he": "דגל לבן",
+            "hr": "Bijela zastava",
+            "it": "Bandiera bianca",
+            "ja": "白旗",
+            "ko-KR": "백기",
+            "no": "Hvitt flagg",
+            "pl": "Biała flaga",
+            "pt": "Bandeira branca",
+            "pt-BR": "Bandeira Branca",
+            "ru": "Белый флаг",
+            "sr": "Bela zastava",
+            "tr": "Beyaz Bayrak",
+            "uk": "Білий прапор",
+            "zh-CN": "白旗",
+            "zh-TW": "白旗"
+          },
+          "description": {
+            "da": "Et hvidt flag, der kan placeres",
+            "de": "Eine platzierbare weiße Flagge",
+            "en": "A deployable white flag",
+            "es": "Una bandera blanca desplegable",
+            "fr": "Un drapeau blanc déployable",
+            "he": "דגל לבן שניתן להציב",
+            "hr": "Bijela zastava koja se može postaviti",
+            "it": "Una bandiera bianca piazzabile",
+            "ja": "設置可能な白旗。",
+            "ko-KR": "설치 가능한 백기입니다.",
+            "no": "Et hvitt flagg som kan plasseres",
+            "pl": "Biała flaga do rozstawienia",
+            "pt": "Uma bandeira branca posicionável",
+            "pt-BR": "Uma bandeira branca posicionável",
+            "ru": "Развертываемый белый флаг",
+            "sr": "Bela zastava koja može da se postavi",
+            "tr": "Yerleştirilebilir bir beyaz bayrak",
+            "uk": "Білий прапор, який можна встановити",
+            "zh-CN": "可部署的白旗",
+            "zh-TW": "可部署的白旗"
+          },
+          "type": "Quick Use",
+          "rarity": "Uncommon",
+          "value": 640,
+          "weightKg": 0.2,
+          "stackSize": 5,
+          "blueprintLocked": true,
+          "craftBench": "medical_lab",
+          "stationLevelRequired": 1,
+          "recipe": {
+            "fabric": 10,
+            "plastic_parts": 3
+          },
+          "recyclesInto": {
+            "fabric": 5,
+            "plastic_parts": 1
+          },
+          "salvagesInto": {
+            "fabric": 3
+          },
+          "updatedAt": "04/28/2026",
+          "addedIn": "1.26"
+        },
+        "component": {
+          "id": "plastic_parts"
+        }
       }
     ],
     "recycle_from": [
@@ -143594,6 +144873,79 @@
         },
         "component": {
           "id": "cooling_fan"
+        }
+      },
+      {
+        "item": {
+          "id": "crash_mat",
+          "name": {
+            "da": "Landingsmåtte",
+            "de": "Sturzmatte",
+            "en": "Crash Mat",
+            "es": "Colchoneta de aterrizaje",
+            "fr": "Matelas d'atterrissage",
+            "he": "מזרן נחיתה",
+            "hr": "Podloga za slijetanje",
+            "it": "Materasso d'atterraggio",
+            "ja": "着地マット",
+            "ko-KR": "착지 매트",
+            "no": "Landingsmatte",
+            "pl": "Mata do lądowania",
+            "pt": "Tapete de aterrissagem",
+            "pt-BR": "Tapete de pouso",
+            "ru": "Посадочный мат",
+            "sr": "Podloga za sletanje",
+            "tr": "İniş Minderi",
+            "uk": "Посадковий мат",
+            "zh-CN": "着陆垫",
+            "zh-TW": "降落墊"
+          },
+          "description": {
+            "da": "En kastbar nødlandingsenhed, der kan blødgøre en tung landing",
+            "de": "Ein werfbares Notlandegerät, das schwere Landungen abfedert",
+            "en": "A throwable emergency landing device, to soften some heavy landing",
+            "es": "Un dispositivo de aterrizaje de emergencia arrojadizo que suaviza algunos aterrizajes duros",
+            "fr": "Un dispositif d'atterrissage d'urgence à lancer, pour amortir certaines chutes brutales",
+            "he": "מתקן נחיתת חירום שניתן להשליך, לריכוך נחיתות כבדות",
+            "hr": "Bacivi uređaj za hitno slijetanje koji ublažava teška prizemljenja",
+            "it": "Un dispositivo di atterraggio d'emergenza lanciabile, per attutire gli atterraggi più pesanti",
+            "ja": "投げて使う緊急着陸装置。重い着地の衝撃をいくらか和らげる。",
+            "ko-KR": "무거운 착지를 어느 정도 완화해 주는 투척식 비상 착륙 장치입니다.",
+            "no": "En kastbar nødlandingsenhet som demper tunge landinger",
+            "pl": "Rzucane awaryjne urządzenie do lądowania, które łagodzi ciężkie upadki",
+            "pt": "Um dispositivo de aterrissagem de emergência arremessável, para amortecer algumas quedas pesadas",
+            "pt-BR": "Um dispositivo de pouso de emergência arremessável, para amortecer algumas quedas pesadas",
+            "ru": "Метательное устройство аварийной посадки, смягчающее тяжелые приземления",
+            "sr": "Bacivi uređaj za hitno sletanje koji ublažava teška prizemljenja",
+            "tr": "Bazı sert inişleri yumuşatmak için fırlatılabilen acil iniş cihazı",
+            "uk": "Кидальний пристрій аварійної посадки, що пом'якшує важкі приземлення",
+            "zh-CN": "一种可投掷的紧急着陆装置，用于缓冲部分重着陆冲击",
+            "zh-TW": "一種可投擲的緊急降落裝置，用來緩和部分重著陸衝擊"
+          },
+          "type": "Quick Use",
+          "rarity": "Uncommon",
+          "value": 1200,
+          "weightKg": 0.6,
+          "stackSize": 5,
+          "blueprintLocked": true,
+          "craftBench": "utility_bench",
+          "stationLevelRequired": 2,
+          "recipe": {
+            "durable_cloth": 1,
+            "electrical_components": 1
+          },
+          "recyclesInto": {
+            "fabric": 6,
+            "plastic_parts": 3
+          },
+          "salvagesInto": {
+            "fabric": 4
+          },
+          "updatedAt": "04/28/2026",
+          "addedIn": "1.26"
+        },
+        "component": {
+          "id": "crash_mat"
         }
       },
       {
@@ -146400,6 +147752,79 @@
         "component": {
           "id": "vertical_grip_i"
         }
+      },
+      {
+        "item": {
+          "id": "white_flag",
+          "name": {
+            "da": "Hvidt flag",
+            "de": "Weiße Flagge",
+            "en": "White Flag",
+            "es": "Bandera blanca",
+            "fr": "Drapeau blanc",
+            "he": "דגל לבן",
+            "hr": "Bijela zastava",
+            "it": "Bandiera bianca",
+            "ja": "白旗",
+            "ko-KR": "백기",
+            "no": "Hvitt flagg",
+            "pl": "Biała flaga",
+            "pt": "Bandeira branca",
+            "pt-BR": "Bandeira Branca",
+            "ru": "Белый флаг",
+            "sr": "Bela zastava",
+            "tr": "Beyaz Bayrak",
+            "uk": "Білий прапор",
+            "zh-CN": "白旗",
+            "zh-TW": "白旗"
+          },
+          "description": {
+            "da": "Et hvidt flag, der kan placeres",
+            "de": "Eine platzierbare weiße Flagge",
+            "en": "A deployable white flag",
+            "es": "Una bandera blanca desplegable",
+            "fr": "Un drapeau blanc déployable",
+            "he": "דגל לבן שניתן להציב",
+            "hr": "Bijela zastava koja se može postaviti",
+            "it": "Una bandiera bianca piazzabile",
+            "ja": "設置可能な白旗。",
+            "ko-KR": "설치 가능한 백기입니다.",
+            "no": "Et hvitt flagg som kan plasseres",
+            "pl": "Biała flaga do rozstawienia",
+            "pt": "Uma bandeira branca posicionável",
+            "pt-BR": "Uma bandeira branca posicionável",
+            "ru": "Развертываемый белый флаг",
+            "sr": "Bela zastava koja može da se postavi",
+            "tr": "Yerleştirilebilir bir beyaz bayrak",
+            "uk": "Білий прапор, який можна встановити",
+            "zh-CN": "可部署的白旗",
+            "zh-TW": "可部署的白旗"
+          },
+          "type": "Quick Use",
+          "rarity": "Uncommon",
+          "value": 640,
+          "weightKg": 0.2,
+          "stackSize": 5,
+          "blueprintLocked": true,
+          "craftBench": "medical_lab",
+          "stationLevelRequired": 1,
+          "recipe": {
+            "fabric": 10,
+            "plastic_parts": 3
+          },
+          "recyclesInto": {
+            "fabric": 5,
+            "plastic_parts": 1
+          },
+          "salvagesInto": {
+            "fabric": 3
+          },
+          "updatedAt": "04/28/2026",
+          "addedIn": "1.26"
+        },
+        "component": {
+          "id": "white_flag"
+        }
       }
     ],
     "icon": "https://cdn.arctracker.io/items/plastic_parts.png",
@@ -147291,6 +148716,79 @@
       },
       {
         "item": {
+          "id": "powered_descender",
+          "name": {
+            "da": "Drevet Nedstiger",
+            "de": "Motorisierter Abseiler",
+            "en": "Powered Descender",
+            "es": "Descensor motorizado",
+            "fr": "Descendeur motorisé",
+            "he": "מתקן ירידה ממונע",
+            "hr": "Motorizirani spuštač",
+            "it": "Discensore motorizzato",
+            "ja": "電動ディセンダー",
+            "ko-KR": "동력 강하기",
+            "no": "Motorisert nedstiger",
+            "pl": "Zjazdnik z napędem",
+            "pt": "Descensor motorizado",
+            "pt-BR": "Descensor motorizado",
+            "ru": "Моторизованный спусковой механизм",
+            "sr": "Motorizovani spuštač",
+            "tr": "Motorlu İniş Aleti",
+            "uk": "Моторизований спусковий пристрій",
+            "zh-CN": "动力下降器",
+            "zh-TW": "動力下降器"
+          },
+          "description": {
+            "da": "Reducerer faldhastigheden, når den bruges i luften, men kræver opstartstid, før den når fuld kraft. Slukker, når den løber tør for strøm",
+            "de": "Verringert die Fallgeschwindigkeit, wenn es in der Luft verwendet wird, benötigt aber Anlaufzeit, bevor es die volle Kraft erreicht. Schaltet sich ab, sobald die Energie aufgebraucht ist",
+            "en": "Reduces fall speed when used in the air, but has a wind-up time before reaching full force. Shuts down once out of power",
+            "es": "Reduce la velocidad de caída al usarse en el aire, pero tarda un momento en alcanzar la potencia máxima. Se apaga cuando se queda sin energía",
+            "fr": "Réduit la vitesse de chute lorsqu'il est utilisé en l'air, mais nécessite un temps de lancement avant d'atteindre sa pleine puissance. S'arrête une fois l'énergie épuisée",
+            "he": "מפחית את מהירות הנפילה כשמשתמשים בו באוויר, אך נדרש זמן התנעה לפני שהוא מגיע למלוא העוצמה. נכבה כשהאנרגיה אוזלת",
+            "hr": "Smanjuje brzinu pada kada se koristi u zraku, ali treba mu vrijeme za pokretanje prije nego dosegne punu snagu. Isključuje se kada ostane bez energije",
+            "it": "Riduce la velocità di caduta quando viene usato in aria, ma richiede un tempo di avvio prima di raggiungere la piena potenza. Si spegne quando esaurisce l'energia",
+            "ja": "空中で使用すると落下速度を低下させるが、最大出力に達するまでに起動時間が必要。電力が尽きると停止する。",
+            "ko-KR": "공중에서 사용하면 낙하 속도를 줄여 주지만, 최대 출력에 도달하기까지 예열 시간이 필요합니다. 전력이 떨어지면 꺼집니다.",
+            "no": "Reduserer fallhastigheten når den brukes i luften, men trenger oppstartstid før den når full kraft. Slår seg av når den går tom for strøm",
+            "pl": "Zmniejsza prędkość spadania podczas użycia w powietrzu, ale potrzebuje chwili rozruchu, zanim osiągnie pełną moc. Wyłącza się po wyczerpaniu energii",
+            "pt": "Reduz a velocidade de queda quando usado no ar, mas precisa de um tempo de ativação antes de atingir força total. Desliga quando fica sem energia",
+            "pt-BR": "Reduz a velocidade de queda quando usado no ar, mas precisa de um tempo de ativação antes de atingir força total. Desliga quando fica sem energia",
+            "ru": "Снижает скорость падения при использовании в воздухе, но требует времени на разгон до полной мощности. Отключается, когда заканчивается заряд",
+            "sr": "Smanjuje brzinu pada kada se koristi u vazduhu, ali treba mu vreme za pokretanje pre nego što dostigne punu snagu. Isključuje se kada ostane bez energije",
+            "tr": "Havada kullanıldığında düşüş hızını azaltır, ancak tam güce ulaşmadan önce hazırlanma süresi vardır. Gücü tükendiğinde kapanır",
+            "uk": "Зменшує швидкість падіння під час використання в повітрі, але потребує часу на розгін до повної сили. Вимикається, коли закінчується заряд",
+            "zh-CN": "在空中使用时可降低下坠速度，但需要预热时间才能达到全功率。电量耗尽后会关闭",
+            "zh-TW": "在空中使用時可降低下墜速度，但需要預熱時間才能達到全功率。電力耗盡後會關閉"
+          },
+          "type": "Quick Use",
+          "rarity": "Epic",
+          "value": 10000,
+          "weightKg": 5,
+          "stackSize": 1,
+          "blueprintLocked": true,
+          "craftBench": "utility_bench",
+          "stationLevelRequired": 3,
+          "recipe": {
+            "power_rod": 1
+          },
+          "recyclesInto": {
+            "advanced_electrical_components": 1,
+            "arc_circuitry": 2
+          },
+          "salvagesInto": {
+            "advanced_electrical_components": 1
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/powered_descender.png",
+          "updatedAt": "04/28/2026",
+          "addedIn": "1.26"
+        },
+        "component": {
+          "id": "power_rod"
+        }
+      },
+      {
+        "item": {
           "id": "snap_hook",
           "name": {
             "da": "Karabinkrog",
@@ -147836,6 +149334,264 @@
     "workbench": "refiner",
     "item_type": "Refined Material",
     "loot_area": "Exodus"
+  },
+  {
+    "id": "powered_descender",
+    "name": {
+      "da": "Drevet Nedstiger",
+      "de": "Motorisierter Abseiler",
+      "en": "Powered Descender",
+      "es": "Descensor motorizado",
+      "fr": "Descendeur motorisé",
+      "he": "מתקן ירידה ממונע",
+      "hr": "Motorizirani spuštač",
+      "it": "Discensore motorizzato",
+      "ja": "電動ディセンダー",
+      "ko-KR": "동력 강하기",
+      "no": "Motorisert nedstiger",
+      "pl": "Zjazdnik z napędem",
+      "pt": "Descensor motorizado",
+      "pt-BR": "Descensor motorizado",
+      "ru": "Моторизованный спусковой механизм",
+      "sr": "Motorizovani spuštač",
+      "tr": "Motorlu İniş Aleti",
+      "uk": "Моторизований спусковий пристрій",
+      "zh-CN": "动力下降器",
+      "zh-TW": "動力下降器"
+    },
+    "description": {
+      "da": "Reducerer faldhastigheden, når den bruges i luften, men kræver opstartstid, før den når fuld kraft. Slukker, når den løber tør for strøm",
+      "de": "Verringert die Fallgeschwindigkeit, wenn es in der Luft verwendet wird, benötigt aber Anlaufzeit, bevor es die volle Kraft erreicht. Schaltet sich ab, sobald die Energie aufgebraucht ist",
+      "en": "Reduces fall speed when used in the air, but has a wind-up time before reaching full force. Shuts down once out of power",
+      "es": "Reduce la velocidad de caída al usarse en el aire, pero tarda un momento en alcanzar la potencia máxima. Se apaga cuando se queda sin energía",
+      "fr": "Réduit la vitesse de chute lorsqu'il est utilisé en l'air, mais nécessite un temps de lancement avant d'atteindre sa pleine puissance. S'arrête une fois l'énergie épuisée",
+      "he": "מפחית את מהירות הנפילה כשמשתמשים בו באוויר, אך נדרש זמן התנעה לפני שהוא מגיע למלוא העוצמה. נכבה כשהאנרגיה אוזלת",
+      "hr": "Smanjuje brzinu pada kada se koristi u zraku, ali treba mu vrijeme za pokretanje prije nego dosegne punu snagu. Isključuje se kada ostane bez energije",
+      "it": "Riduce la velocità di caduta quando viene usato in aria, ma richiede un tempo di avvio prima di raggiungere la piena potenza. Si spegne quando esaurisce l'energia",
+      "ja": "空中で使用すると落下速度を低下させるが、最大出力に達するまでに起動時間が必要。電力が尽きると停止する。",
+      "ko-KR": "공중에서 사용하면 낙하 속도를 줄여 주지만, 최대 출력에 도달하기까지 예열 시간이 필요합니다. 전력이 떨어지면 꺼집니다.",
+      "no": "Reduserer fallhastigheten når den brukes i luften, men trenger oppstartstid før den når full kraft. Slår seg av når den går tom for strøm",
+      "pl": "Zmniejsza prędkość spadania podczas użycia w powietrzu, ale potrzebuje chwili rozruchu, zanim osiągnie pełną moc. Wyłącza się po wyczerpaniu energii",
+      "pt": "Reduz a velocidade de queda quando usado no ar, mas precisa de um tempo de ativação antes de atingir força total. Desliga quando fica sem energia",
+      "pt-BR": "Reduz a velocidade de queda quando usado no ar, mas precisa de um tempo de ativação antes de atingir força total. Desliga quando fica sem energia",
+      "ru": "Снижает скорость падения при использовании в воздухе, но требует времени на разгон до полной мощности. Отключается, когда заканчивается заряд",
+      "sr": "Smanjuje brzinu pada kada se koristi u vazduhu, ali treba mu vreme za pokretanje pre nego što dostigne punu snagu. Isključuje se kada ostane bez energije",
+      "tr": "Havada kullanıldığında düşüş hızını azaltır, ancak tam güce ulaşmadan önce hazırlanma süresi vardır. Gücü tükendiğinde kapanır",
+      "uk": "Зменшує швидкість падіння під час використання в повітрі, але потребує часу на розгін до повної сили. Вимикається, коли закінчується заряд",
+      "zh-CN": "在空中使用时可降低下坠速度，但需要预热时间才能达到全功率。电量耗尽后会关闭",
+      "zh-TW": "在空中使用時可降低下墜速度，但需要預熱時間才能達到全功率。電力耗盡後會關閉"
+    },
+    "type": "Quick Use",
+    "rarity": "Epic",
+    "value": 10000,
+    "weightKg": 5,
+    "stackSize": 1,
+    "blueprintLocked": true,
+    "craftBench": "utility_bench",
+    "stationLevelRequired": 3,
+    "recipe": {
+      "power_rod": 1
+    },
+    "recyclesInto": {
+      "advanced_electrical_components": 1,
+      "arc_circuitry": 2
+    },
+    "salvagesInto": {
+      "advanced_electrical_components": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/powered_descender.png",
+    "updatedAt": "04/28/2026",
+    "addedIn": "1.26",
+    "crafting_components": [
+      {
+        "item": {
+          "id": "power_rod",
+          "name": {
+            "da": "Kraftstang",
+            "de": "Energiestab",
+            "en": "Power Rod",
+            "es": "Varilla de energía",
+            "fr": "Tige d'Alimentation",
+            "he": "מוט כוח",
+            "hr": "Energetska Šipka",
+            "it": "Asta di trasmissione",
+            "ja": "電気ロッド",
+            "ko-KR": "파워 로드",
+            "no": "Kraftstang",
+            "pl": "Pręt zasilający",
+            "pt": "Haste de energia",
+            "pt-BR": "Barra de Força",
+            "ru": "Энергетический стержень",
+            "sr": "Energetska Šipka",
+            "tr": "Güç Bağlantısı",
+            "uk": "Енергетичний стрижень",
+            "zh-CN": "能量管（电棍）",
+            "zh-TW": "能量棒"
+          },
+          "description": {
+            "da": "Bruges til håndværk. Bruges til at lave: Tungt skjold, Karabinkrog",
+            "de": "Wird bei der Herstellung verwendet. Zur Herstellung von: Schwerer Schild, Karabinerhaken",
+            "en": "Used in crafting. Used to craft: Heavy Shield, Snap Hook",
+            "es": "Usado en fabricación. Usado para fabricar: Escudo pesado, Gancho rápido",
+            "fr": "Utilisé pour la fabrication. Permet de fabriquer : Bouclier lourd, Mousqueton",
+            "he": "משמש ליצירה. משמש ליצירת: מגן כבד, טבעת שאקל",
+            "hr": "Koristi se u izradi. Koristi se za izradu: Teški Štit, Brza Kuka",
+            "it": "Utile per le creazioni. Si usa per creare: Scudo pesante, Gancio a scatto",
+            "ja": "製作に使用。製作に使用: ヘビーシールド、スナップフック",
+            "ko-KR": "제작에 사용. 제작 용도: 준중량 실드, 스냅 훅",
+            "no": "Brukes til håndverk. Brukes til å lage: Tungt skjold, Karabinkrok",
+            "pl": "Używane do wytwarzania. Używane do wytworzenia: Ciężka tarcza, Karabińczyk",
+            "pt": "Usado na fabricação. Usado para fabricar: Escudo pesado, Gancho rápido",
+            "pt-BR": "Serve para fabricações. Usado para fabricar: Mosquetão, Escudo Pesado",
+            "ru": "Используется в создании предметов. Используется для создания: тяжелый щит, карабин",
+            "sr": "Koristi se u izradi. Koristi se za izradu: Teški Štit, Brza Kuka",
+            "tr": "Üretimde kullanılır. Üretimde kullanılır: Ağır Kalkan, Mandal Kancası",
+            "uk": "Використовується у створенні предметів. Використовується для створення: важкий щит, карабін",
+            "zh-CN": "用于制作。用于制作：重型护盾、安全钩",
+            "zh-TW": "用於製作。用於製作：重型護盾、快扣鉤"
+          },
+          "type": "Refined Material",
+          "rarity": "Epic",
+          "foundIn": "Exodus",
+          "value": 5000,
+          "weightKg": 2,
+          "stackSize": 3,
+          "craftBench": "refiner",
+          "stationLevelRequired": 3,
+          "recipe": {
+            "advanced_electrical_components": 2,
+            "arc_circuitry": 2
+          },
+          "recyclesInto": {
+            "advanced_electrical_components": 1,
+            "arc_circuitry": 1
+          },
+          "salvagesInto": {
+            "advanced_electrical_components": 1
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/power_rod.png",
+          "updatedAt": "03/17/2026",
+          "addedIn": "base"
+        },
+        "component": {
+          "id": "power_rod"
+        }
+      }
+    ],
+    "icon": "https://cdn.arctracker.io/items/powered_descender.png",
+    "workbench": "utility_bench",
+    "item_type": "Quick Use"
+  },
+  {
+    "id": "powered_descender_blueprint",
+    "name": {
+      "da": "Motoriseret nedstigningsenhed blueprint",
+      "de": "Blaupause für motorisierten Abseiler",
+      "en": "Powered Descender Blueprint",
+      "es": "Plano de descensor motorizado",
+      "fr": "Plan de descendeur motorisé",
+      "he": "תוכנית למנמיך ממונע",
+      "hr": "Nacrt motoriziranog spuštala",
+      "it": "Progetto discensore motorizzato",
+      "ja": "動力式降下装置の設計図",
+      "ko-KR": "동력 하강 장치 설계도",
+      "no": "Motorisert nedstigningsenhet blueprint",
+      "pl": "Schemat napędzanego urządzenia zjazdowego",
+      "pt": "Projeto de descensor motorizado",
+      "pt-BR": "Projeto de descensor motorizado",
+      "ru": "Чертеж моторизованного спускового устройства",
+      "sr": "Nacrt motorizovanog spuštala",
+      "tr": "Motorlu İniş Cihazı Planı",
+      "uk": "Креслення моторизованого спускового пристрою",
+      "zh-CN": "动力下降器蓝图",
+      "zh-TW": "動力下降器藍圖"
+    },
+    "description": {
+      "da": "Reducerer faldhastigheden, når den bruges i luften, men kræver opstartstid, før den når fuld kraft. Slukker, når den løber tør for strøm",
+      "de": "Verringert die Fallgeschwindigkeit, wenn es in der Luft verwendet wird, benötigt aber Anlaufzeit, bevor es die volle Kraft erreicht. Schaltet sich ab, sobald die Energie aufgebraucht ist",
+      "en": "Reduces fall speed when used in the air, but has a wind-up time before reaching full force. Shuts down once out of power",
+      "es": "Reduce la velocidad de caída al usarse en el aire, pero tarda un momento en alcanzar la potencia máxima. Se apaga cuando se queda sin energía",
+      "fr": "Réduit la vitesse de chute lorsqu'il est utilisé en l'air, mais nécessite un temps de lancement avant d'atteindre sa pleine puissance. S'arrête une fois l'énergie épuisée",
+      "he": "מפחית את מהירות הנפילה כשמשתמשים בו באוויר, אך נדרש זמן התנעה לפני שהוא מגיע למלוא העוצמה. נכבה כשהאנרגיה אוזלת",
+      "hr": "Smanjuje brzinu pada kada se koristi u zraku, ali treba mu vrijeme za pokretanje prije nego dosegne punu snagu. Isključuje se kada ostane bez energije",
+      "it": "Riduce la velocità di caduta quando viene usato in aria, ma richiede un tempo di avvio prima di raggiungere la piena potenza. Si spegne quando esaurisce l'energia",
+      "ja": "空中で使用すると落下速度を低下させるが、最大出力に達するまでに起動時間が必要。電力が尽きると停止する。",
+      "ko-KR": "공중에서 사용하면 낙하 속도를 줄여 주지만, 최대 출력에 도달하기까지 예열 시간이 필요합니다. 전력이 떨어지면 꺼집니다.",
+      "no": "Reduserer fallhastigheten når den brukes i luften, men trenger oppstartstid før den når full kraft. Slår seg av når den går tom for strøm",
+      "pl": "Zmniejsza prędkość spadania podczas użycia w powietrzu, ale potrzebuje chwili rozruchu, zanim osiągnie pełną moc. Wyłącza się po wyczerpaniu energii",
+      "pt": "Reduz a velocidade de queda quando usado no ar, mas precisa de um tempo de ativação antes de atingir força total. Desliga quando fica sem energia",
+      "pt-BR": "Reduz a velocidade de queda quando usado no ar, mas precisa de um tempo de ativação antes de atingir força total. Desliga quando fica sem energia",
+      "ru": "Снижает скорость падения при использовании в воздухе, но требует времени на разгон до полной мощности. Отключается, когда заканчивается заряд",
+      "sr": "Smanjuje brzinu pada kada se koristi u vazduhu, ali treba mu vreme za pokretanje pre nego što dostigne punu snagu. Isključuje se kada ostane bez energije",
+      "tr": "Havada kullanıldığında düşüş hızını azaltır, ancak tam güce ulaşmadan önce hazırlanma süresi vardır. Gücü tükendiğinde kapanır",
+      "uk": "Зменшує швидкість падіння під час використання в повітрі, але потребує часу на розгін до повної сили. Вимикається, коли закінчується заряд",
+      "zh-CN": "在空中使用时可降低下坠速度，但需要预热时间才能达到全功率。电量耗尽后会关闭",
+      "zh-TW": "在空中使用時可降低下墜速度，但需要預熱時間才能達到全功率。電力耗盡後會關閉"
+    },
+    "type": "Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
+    "updatedAt": "04/28/2026",
+    "addedIn": "1.26",
+    "item_type": "Blueprint"
+  },
+  {
+    "id": "precision_gimbal",
+    "name": {
+      "da": "Præcisionsgimbal",
+      "de": "Präzisions-Gimbal",
+      "en": "Precision Gimbal",
+      "es": "Estabilizador de precisión",
+      "fr": "Cardan de précision",
+      "he": "גימבל מדויק",
+      "hr": "Precizni gimbal",
+      "it": "Gimbal di precisione",
+      "ja": "精密ジンバル",
+      "ko-KR": "정밀 짐벌",
+      "no": "Presisjonsgimbal",
+      "pl": "Precyzyjny gimbal",
+      "pt": "Gimbal de precisão",
+      "pt-BR": "Gimbal de Precisão",
+      "ru": "Прецизионный подвес",
+      "sr": "Precizni gimbal",
+      "tr": "Hassas Gimbal",
+      "uk": "Прецизійний підвіс",
+      "zh-CN": "精密云台",
+      "zh-TW": "精密雲台"
+    },
+    "description": {
+      "da": "",
+      "de": "",
+      "en": "",
+      "es": "",
+      "fr": "",
+      "he": "",
+      "hr": "",
+      "it": "",
+      "ja": "",
+      "ko-KR": "",
+      "no": "",
+      "pl": "",
+      "pt": "",
+      "pt-BR": "",
+      "ru": "",
+      "sr": "",
+      "tr": "",
+      "uk": "",
+      "zh-CN": "",
+      "zh-TW": ""
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "value": 100,
+    "weightKg": 0.5,
+    "stackSize": 1,
+    "questItem": true,
+    "updatedAt": "04/28/2026",
+    "addedIn": "1.26",
+    "item_type": "Trinket"
   },
   {
     "id": "prickly_pear",
@@ -149529,6 +151285,156 @@
           "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_revival.png",
           "updatedAt": "03/17/2026",
           "addedIn": "base"
+        },
+        "component": {
+          "id": "processor"
+        }
+      },
+      {
+        "item": {
+          "id": "tactical_mk3_smoke",
+          "name": {
+            "da": "Taktisk Mk. 3 (Røg)",
+            "de": "Taktisch-Marke 3 (Rauch)",
+            "en": "Tactical Mk. 3 (Smoke)",
+            "es": "Táctico Ver. 3 (Humo)",
+            "fr": "Tactique 3 (fumée)",
+            "he": "טקטי Mk. 3 (עשן)",
+            "hr": "Taktički Mk. 3 (Dim)",
+            "it": "Tattico Mk. 3 (Fumo)",
+            "ja": "戦術MK3（煙幕）",
+            "ko-KR": "전술 마크 3 (연막)",
+            "no": "Taktisk Mk. 3 (Røyk)",
+            "pl": "Taktyczny Mk. 3 (Dym)",
+            "pt": "Tático Mk. 3 (Fumaça)",
+            "pt-BR": "Tático Mk. 3 (Fumaça)",
+            "ru": "Тактический Mk. 3 (Дым)",
+            "sr": "Taktički Mk. 3 (Dim)",
+            "tr": "Taktiksel Mod. 3 (Duman)",
+            "uk": "Тактичний Mk. 3 (Дим)",
+            "zh-CN": "战术型 Mk. 3（烟雾型）",
+            "zh-TW": "戰術型 Mk. 3（煙霧）"
+          },
+          "description": {
+            "da": "En opgraderet version af Taktisk MK. 2-forstærkningen, der tilføjer udvidet kapacitet over hele linjen. Når skjoldet brydes, udsendes en lille røggranat. Har en fast nedkøling.",
+            "de": "Eine verbesserte Version des Augments Taktisch MK. 2, die durchweg erweiterte Kapazität bietet. Wenn der Schild bricht, wird eine kleine Rauchgranate ausgelöst. Hat eine feste Abklingzeit.",
+            "en": "An upgraded version of the Tactical MK. 2 augment, adding expanded capacity across the board. Upon Shield break, deploys a small smoke grenade. Has a fixed cooldown.",
+            "es": "Una versión mejorada del aumento Táctico MK. 2 que amplía la capacidad en todos los aspectos. Al romperse el escudo, despliega una pequeña granada de humo. Tiene un tiempo de recarga fijo.",
+            "fr": "Une version améliorée de l'amélioration Tactique MK. 2, qui augmente la capacité dans tous les domaines. Lorsque le bouclier se brise, déploie une petite grenade fumigène. Possède un temps de recharge fixe.",
+            "he": "גרסה משודרגת של תוסף טקטי MK. 2, שמוסיפה קיבולת מורחבת בכל התחומים. כאשר המגן נשבר, מציבה רימון עשן קטן. בעלת זמן צינון קבוע.",
+            "hr": "Nadograđena verzija augmentacije Taktički MK. 2, koja dodaje prošireni kapacitet u svim područjima. Pri pucanju štita postavlja malu dimnu granatu. Ima fiksno vrijeme hlađenja.",
+            "it": "Una versione migliorata del potenziamento Tattico MK. 2, che aggiunge capacità aumentata su tutta la linea. Alla rottura dello scudo, dispiega una piccola granata fumogena. Ha un tempo di recupero fisso.",
+            "ja": "戦術MK2強化装備のアップグレード版で、全体的に容量が拡張される。シールド破壊時、小型のスモーク・グレネードを展開する。固定クールダウンあり。",
+            "ko-KR": "전술 MK. 2 증강의 업그레이드 버전으로, 전반적인 수용량을 확장합니다. 방어막이 파괴되면 작은 연막탄을 배치합니다. 고정 재사용 대기시간이 있습니다.",
+            "no": "En oppgradert versjon av Taktisk MK. 2-forsterkningen, som gir utvidet kapasitet over hele linjen. Når skjoldet brytes, utplasseres en liten røykgranat. Har fast nedkjølingstid.",
+            "pl": "Ulepszona wersja augmentacji Taktyczny MK. 2, zwiększająca pojemność pod każdym względem. Po przełamaniu tarczy rozmieszcza mały granat dymny. Ma stały czas odnowienia.",
+            "pt": "Uma versão aprimorada do aumento Tático MK. 2, adicionando capacidade expandida em todos os aspectos. Quando o escudo quebra, aciona uma pequena granada de fumaça. Tem tempo de recarga fixo.",
+            "pt-BR": "Uma versão aprimorada do aumento Tático MK. 2, adicionando capacidade expandida em todos os aspectos. Quando o Escudo quebra, aciona uma pequena granada de fumaça. Tem tempo de recarga fixo.",
+            "ru": "Улучшенная версия аугмента Тактический MK. 2, увеличивающая вместимость по всем параметрам. При пробитии щита разворачивает небольшую дымовую гранату. Имеет фиксированное время восстановления.",
+            "sr": "Nadograđena verzija augmentacije Taktički MK. 2, koja dodaje prošireni kapacitet u svim oblastima. Pri pucanju štita postavlja malu dimnu granatu. Ima fiksno vreme hlađenja.",
+            "tr": "Taktiksel MK. 2 güçlendirmesinin yükseltilmiş bir versiyonu; her alanda artırılmış kapasite sağlar. Kalkan kırıldığında küçük bir sis bombası konuşlandırır. Sabit bekleme süresine sahiptir.",
+            "uk": "Покращена версія аугментації Тактичний MK. 2, що збільшує місткість за всіма напрямами. Коли щит пробито, розгортає невелику димову гранату. Має фіксований час відновлення.",
+            "zh-CN": "战术 MK. 2 强化装备的升级版，全面扩展容量。护盾破裂时，会部署一枚小型烟雾手雷。拥有固定冷却时间。",
+            "zh-TW": "戰術 MK. 2 強化裝備的升級版，全面擴充容量。護盾破裂時，會部署一枚小型煙霧彈。擁有固定冷卻時間。"
+          },
+          "type": "Augment",
+          "rarity": "Epic",
+          "value": 5000,
+          "weightKg": 4,
+          "stackSize": 1,
+          "blueprintLocked": true,
+          "effects": {
+            "Durability": {
+              "value": "100/100",
+              "da": "Holdbarhed",
+              "de": "Haltbarkeit",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "he": "עמידות",
+              "hr": "Izdržljivost",
+              "it": "Tenuta",
+              "ja": "耐久性",
+              "ko-KR": "내구도",
+              "no": "Holdbarhet",
+              "pl": "Wytrzymałość",
+              "pt": "Durabilidade",
+              "pt-BR": "Durabilidade",
+              "ru": "Прочность",
+              "sr": "Izdržljivost",
+              "tr": "Dayanıklılık",
+              "uk": "Міцність",
+              "zh-CN": "耐久度",
+              "zh-TW": "耐久度"
+            },
+            "Max Loadout Weight": {
+              "value": 50,
+              "da": "Maks. udstyrsvægt",
+              "de": "Max. Loadout-Gewicht",
+              "en": "Max Loadout Weight",
+              "es": "Peso máximo del equipamiento",
+              "fr": "Poids max. de l'équipement",
+              "he": "משקל ציוד מקסימלי",
+              "hr": "Maks. Težina Opreme",
+              "it": "Peso massimo equipaggiamento",
+              "ja": "最大装備重量",
+              "ko-KR": "최대 장비 무게",
+              "no": "Maks utstyrsvekt",
+              "pl": "Maks. waga ekwipunku",
+              "pt": "Peso máximo do equipamento",
+              "pt-BR": "Peso Máximo do Equipamento",
+              "ru": "Макс. вес снаряжения",
+              "sr": "Maks. Težina Opreme",
+              "tr": "Maks. Donanım Ağırlığı",
+              "uk": "Макс. вага спорядження",
+              "zh-CN": "最大装备重量",
+              "zh-TW": "最大裝備重量"
+            },
+            "Shield Compatibility": {
+              "value": "Light, Medium",
+              "da": "Skjoldkompatibilitet",
+              "de": "Schildkompatibilität",
+              "en": "Shield Compatibility",
+              "es": "Compatibilidad con escudo",
+              "fr": "Compatibilité bouclier",
+              "he": "תאימות מגן",
+              "hr": "Kompatibilnost Štita",
+              "it": "Compatibilità scudo",
+              "ja": "シールド互換性",
+              "ko-KR": "실드 호환성",
+              "no": "Skjoldkompatibilitet",
+              "pl": "Kompatybilność z tarczą",
+              "pt": "Compatibilidade com escudo",
+              "pt-BR": "Compatibilidade de Escudo",
+              "ru": "Совместимость со щитом",
+              "sr": "Kompatibilnost Štita",
+              "tr": "Kalkan Uyumluluğu",
+              "uk": "Сумісність зі щитом",
+              "zh-CN": "护盾兼容性",
+              "zh-TW": "護盾相容性"
+            }
+          },
+          "craftBench": "equipment_bench",
+          "stationLevelRequired": 3,
+          "recipe": {
+            "advanced_electrical_components": 2,
+            "processor": 3
+          },
+          "recyclesInto": {
+            "advanced_electrical_components": 1,
+            "processor": 1
+          },
+          "salvagesInto": {
+            "electrical_components": 2
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_smoke.png",
+          "updatedAt": "04/28/2026",
+          "addedIn": "1.26",
+          "repairCost": {
+            "advanced_electrical_components": 1,
+            "processor": 2
+          },
+          "repairDurability": 0.5
         },
         "component": {
           "id": "processor"
@@ -151543,6 +153449,156 @@
         },
         "component": {
           "id": "tactical_mk3_revival"
+        }
+      },
+      {
+        "item": {
+          "id": "tactical_mk3_smoke",
+          "name": {
+            "da": "Taktisk Mk. 3 (Røg)",
+            "de": "Taktisch-Marke 3 (Rauch)",
+            "en": "Tactical Mk. 3 (Smoke)",
+            "es": "Táctico Ver. 3 (Humo)",
+            "fr": "Tactique 3 (fumée)",
+            "he": "טקטי Mk. 3 (עשן)",
+            "hr": "Taktički Mk. 3 (Dim)",
+            "it": "Tattico Mk. 3 (Fumo)",
+            "ja": "戦術MK3（煙幕）",
+            "ko-KR": "전술 마크 3 (연막)",
+            "no": "Taktisk Mk. 3 (Røyk)",
+            "pl": "Taktyczny Mk. 3 (Dym)",
+            "pt": "Tático Mk. 3 (Fumaça)",
+            "pt-BR": "Tático Mk. 3 (Fumaça)",
+            "ru": "Тактический Mk. 3 (Дым)",
+            "sr": "Taktički Mk. 3 (Dim)",
+            "tr": "Taktiksel Mod. 3 (Duman)",
+            "uk": "Тактичний Mk. 3 (Дим)",
+            "zh-CN": "战术型 Mk. 3（烟雾型）",
+            "zh-TW": "戰術型 Mk. 3（煙霧）"
+          },
+          "description": {
+            "da": "En opgraderet version af Taktisk MK. 2-forstærkningen, der tilføjer udvidet kapacitet over hele linjen. Når skjoldet brydes, udsendes en lille røggranat. Har en fast nedkøling.",
+            "de": "Eine verbesserte Version des Augments Taktisch MK. 2, die durchweg erweiterte Kapazität bietet. Wenn der Schild bricht, wird eine kleine Rauchgranate ausgelöst. Hat eine feste Abklingzeit.",
+            "en": "An upgraded version of the Tactical MK. 2 augment, adding expanded capacity across the board. Upon Shield break, deploys a small smoke grenade. Has a fixed cooldown.",
+            "es": "Una versión mejorada del aumento Táctico MK. 2 que amplía la capacidad en todos los aspectos. Al romperse el escudo, despliega una pequeña granada de humo. Tiene un tiempo de recarga fijo.",
+            "fr": "Une version améliorée de l'amélioration Tactique MK. 2, qui augmente la capacité dans tous les domaines. Lorsque le bouclier se brise, déploie une petite grenade fumigène. Possède un temps de recharge fixe.",
+            "he": "גרסה משודרגת של תוסף טקטי MK. 2, שמוסיפה קיבולת מורחבת בכל התחומים. כאשר המגן נשבר, מציבה רימון עשן קטן. בעלת זמן צינון קבוע.",
+            "hr": "Nadograđena verzija augmentacije Taktički MK. 2, koja dodaje prošireni kapacitet u svim područjima. Pri pucanju štita postavlja malu dimnu granatu. Ima fiksno vrijeme hlađenja.",
+            "it": "Una versione migliorata del potenziamento Tattico MK. 2, che aggiunge capacità aumentata su tutta la linea. Alla rottura dello scudo, dispiega una piccola granata fumogena. Ha un tempo di recupero fisso.",
+            "ja": "戦術MK2強化装備のアップグレード版で、全体的に容量が拡張される。シールド破壊時、小型のスモーク・グレネードを展開する。固定クールダウンあり。",
+            "ko-KR": "전술 MK. 2 증강의 업그레이드 버전으로, 전반적인 수용량을 확장합니다. 방어막이 파괴되면 작은 연막탄을 배치합니다. 고정 재사용 대기시간이 있습니다.",
+            "no": "En oppgradert versjon av Taktisk MK. 2-forsterkningen, som gir utvidet kapasitet over hele linjen. Når skjoldet brytes, utplasseres en liten røykgranat. Har fast nedkjølingstid.",
+            "pl": "Ulepszona wersja augmentacji Taktyczny MK. 2, zwiększająca pojemność pod każdym względem. Po przełamaniu tarczy rozmieszcza mały granat dymny. Ma stały czas odnowienia.",
+            "pt": "Uma versão aprimorada do aumento Tático MK. 2, adicionando capacidade expandida em todos os aspectos. Quando o escudo quebra, aciona uma pequena granada de fumaça. Tem tempo de recarga fixo.",
+            "pt-BR": "Uma versão aprimorada do aumento Tático MK. 2, adicionando capacidade expandida em todos os aspectos. Quando o Escudo quebra, aciona uma pequena granada de fumaça. Tem tempo de recarga fixo.",
+            "ru": "Улучшенная версия аугмента Тактический MK. 2, увеличивающая вместимость по всем параметрам. При пробитии щита разворачивает небольшую дымовую гранату. Имеет фиксированное время восстановления.",
+            "sr": "Nadograđena verzija augmentacije Taktički MK. 2, koja dodaje prošireni kapacitet u svim oblastima. Pri pucanju štita postavlja malu dimnu granatu. Ima fiksno vreme hlađenja.",
+            "tr": "Taktiksel MK. 2 güçlendirmesinin yükseltilmiş bir versiyonu; her alanda artırılmış kapasite sağlar. Kalkan kırıldığında küçük bir sis bombası konuşlandırır. Sabit bekleme süresine sahiptir.",
+            "uk": "Покращена версія аугментації Тактичний MK. 2, що збільшує місткість за всіма напрямами. Коли щит пробито, розгортає невелику димову гранату. Має фіксований час відновлення.",
+            "zh-CN": "战术 MK. 2 强化装备的升级版，全面扩展容量。护盾破裂时，会部署一枚小型烟雾手雷。拥有固定冷却时间。",
+            "zh-TW": "戰術 MK. 2 強化裝備的升級版，全面擴充容量。護盾破裂時，會部署一枚小型煙霧彈。擁有固定冷卻時間。"
+          },
+          "type": "Augment",
+          "rarity": "Epic",
+          "value": 5000,
+          "weightKg": 4,
+          "stackSize": 1,
+          "blueprintLocked": true,
+          "effects": {
+            "Durability": {
+              "value": "100/100",
+              "da": "Holdbarhed",
+              "de": "Haltbarkeit",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "he": "עמידות",
+              "hr": "Izdržljivost",
+              "it": "Tenuta",
+              "ja": "耐久性",
+              "ko-KR": "내구도",
+              "no": "Holdbarhet",
+              "pl": "Wytrzymałość",
+              "pt": "Durabilidade",
+              "pt-BR": "Durabilidade",
+              "ru": "Прочность",
+              "sr": "Izdržljivost",
+              "tr": "Dayanıklılık",
+              "uk": "Міцність",
+              "zh-CN": "耐久度",
+              "zh-TW": "耐久度"
+            },
+            "Max Loadout Weight": {
+              "value": 50,
+              "da": "Maks. udstyrsvægt",
+              "de": "Max. Loadout-Gewicht",
+              "en": "Max Loadout Weight",
+              "es": "Peso máximo del equipamiento",
+              "fr": "Poids max. de l'équipement",
+              "he": "משקל ציוד מקסימלי",
+              "hr": "Maks. Težina Opreme",
+              "it": "Peso massimo equipaggiamento",
+              "ja": "最大装備重量",
+              "ko-KR": "최대 장비 무게",
+              "no": "Maks utstyrsvekt",
+              "pl": "Maks. waga ekwipunku",
+              "pt": "Peso máximo do equipamento",
+              "pt-BR": "Peso Máximo do Equipamento",
+              "ru": "Макс. вес снаряжения",
+              "sr": "Maks. Težina Opreme",
+              "tr": "Maks. Donanım Ağırlığı",
+              "uk": "Макс. вага спорядження",
+              "zh-CN": "最大装备重量",
+              "zh-TW": "最大裝備重量"
+            },
+            "Shield Compatibility": {
+              "value": "Light, Medium",
+              "da": "Skjoldkompatibilitet",
+              "de": "Schildkompatibilität",
+              "en": "Shield Compatibility",
+              "es": "Compatibilidad con escudo",
+              "fr": "Compatibilité bouclier",
+              "he": "תאימות מגן",
+              "hr": "Kompatibilnost Štita",
+              "it": "Compatibilità scudo",
+              "ja": "シールド互換性",
+              "ko-KR": "실드 호환성",
+              "no": "Skjoldkompatibilitet",
+              "pl": "Kompatybilność z tarczą",
+              "pt": "Compatibilidade com escudo",
+              "pt-BR": "Compatibilidade de Escudo",
+              "ru": "Совместимость со щитом",
+              "sr": "Kompatibilnost Štita",
+              "tr": "Kalkan Uyumluluğu",
+              "uk": "Сумісність зі щитом",
+              "zh-CN": "护盾兼容性",
+              "zh-TW": "護盾相容性"
+            }
+          },
+          "craftBench": "equipment_bench",
+          "stationLevelRequired": 3,
+          "recipe": {
+            "advanced_electrical_components": 2,
+            "processor": 3
+          },
+          "recyclesInto": {
+            "advanced_electrical_components": 1,
+            "processor": 1
+          },
+          "salvagesInto": {
+            "electrical_components": 2
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_smoke.png",
+          "updatedAt": "04/28/2026",
+          "addedIn": "1.26",
+          "repairCost": {
+            "advanced_electrical_components": 1,
+            "processor": 2
+          },
+          "repairDurability": 0.5
+        },
+        "component": {
+          "id": "tactical_mk3_smoke"
         }
       },
       {
@@ -156571,6 +158627,62 @@
     "addedIn": "base",
     "icon": "https://cdn.arctracker.io/items/ripped_safety_vest.png",
     "item_type": "Recyclable"
+  },
+  {
+    "id": "riven_tides_hotel_keycard_no_107",
+    "name": {
+      "da": "Riven Tides-hotel nøglekort nr. 107",
+      "de": "Riven Tides-Hotel-Schlüsselkarte Nr. 107",
+      "en": "Riven Tides Hotel Keycard No. 107",
+      "es": "Tarjeta llave del hotel Riven Tides n.º 107",
+      "fr": "Carte-clé d'hôtel Riven Tides n° 107",
+      "he": "כרטיס מפתח למלון Riven Tides מס׳ 107",
+      "hr": "Hotelska kartica Riven Tides br. 107",
+      "it": "Tessera magnetica dell'hotel di Riven Tides n. 107",
+      "ja": "Riven Tidesホテル キーカードNo.107",
+      "ko-KR": "Riven Tides 호텔 키카드 107번",
+      "no": "Riven Tides-hotellnøkkelkort nr. 107",
+      "pl": "Karta hotelowa Riven Tides nr 107",
+      "pt": "Cartão-chave do hotel Riven Tides n.º 107",
+      "pt-BR": "Cartão-chave do Hotel Riven Tides nº 107",
+      "ru": "Карта-ключ отеля Riven Tides № 107",
+      "sr": "Hotelska kartica Riven Tides br. 107",
+      "tr": "Riven Tides Otel Anahtar Kartı No. 107",
+      "uk": "Картка-ключ готелю Riven Tides № 107",
+      "zh-CN": "Riven Tides酒店107号钥匙卡",
+      "zh-TW": "Riven Tides飯店107號鑰匙卡"
+    },
+    "description": {
+      "da": "Låser døren op til en af Panorama Azzurros mange suiter i Riven Tides",
+      "de": "Öffnet die Tür zu einer der vielen Suiten des Panorama Azzurro in Riven Tides",
+      "en": "Unlocks the door to one of Panorama Azzurro's many suites at Riven Tides",
+      "es": "Abre la puerta de una de las muchas suites del Panorama Azzurro en Riven Tides",
+      "fr": "Déverrouille la porte de l'une des nombreuses suites du Panorama Azzurro à Riven Tides",
+      "he": "פותח את הדלת לאחת מהסוויטות הרבות של Panorama Azzurro ב-Riven Tides",
+      "hr": "Otključava vrata jedne od mnogih suita Panorama Azzurra u Riven Tidesu",
+      "it": "Sblocca la porta di una delle molte suite del Panorama Azzurro a Riven Tides",
+      "ja": "Riven TidesにあるPanorama Azzurroの数あるスイートのひとつのドアを解錠する。",
+      "ko-KR": "Riven Tides에 있는 Panorama Azzurro의 여러 스위트룸 중 하나의 문을 엽니다.",
+      "no": "Låser opp døren til en av Panorama Azzurros mange suiter i Riven Tides",
+      "pl": "Otwiera drzwi do jednego z wielu apartamentów Panorama Azzurro w Riven Tides",
+      "pt": "Destranca a porta de uma das muitas suítes do Panorama Azzurro em Riven Tides",
+      "pt-BR": "Destranca a porta de uma das muitas suítes do Panorama Azzurro em Riven Tides",
+      "ru": "Открывает дверь в один из многочисленных люксов Panorama Azzurro в Riven Tides",
+      "sr": "Otključava vrata jednog od mnogih apartmana Panorama Azzurra u Riven Tidesu",
+      "tr": "Riven Tides'taki Panorama Azzurro'nun birçok süitinden birinin kapısını açar",
+      "uk": "Відмикає двері до одного з численних люксів Panorama Azzurro в Riven Tides",
+      "zh-CN": "可开启Riven Tides中Panorama Azzurro众多套房之一的房门",
+      "zh-TW": "可開啟Riven Tides中Panorama Azzurro眾多套房之一的房門"
+    },
+    "type": "Key",
+    "rarity": "Common",
+    "value": 100,
+    "weightKg": 0.5,
+    "stackSize": 1,
+    "questItem": true,
+    "updatedAt": "04/28/2026",
+    "addedIn": "1.26",
+    "item_type": "Key"
   },
   {
     "id": "rocket_thruster",
@@ -179441,6 +181553,63 @@
     "loot_area": "Raider, Security"
   },
   {
+    "id": "sirena_dorata_ship_model",
+    "name": {
+      "da": "Skibsmodel \"Sirena Dorata\"",
+      "de": "Schiffsmodell \"Sirena Dorata\"",
+      "en": "\"Sirena Dorata\" Ship Model",
+      "es": "Modelo de barco \"Sirena Dorata\"",
+      "fr": "Maquette de bateau « Sirena Dorata »",
+      "he": "דגם ספינה \"Sirena Dorata\"",
+      "hr": "Maketa broda \"Sirena Dorata\"",
+      "it": "Modellino di nave \"Sirena Dorata\"",
+      "ja": "「Sirena Dorata」船舶模型",
+      "ko-KR": "\"Sirena Dorata\" 선박 모형",
+      "no": "Skipsmodell \"Sirena Dorata\"",
+      "pl": "Model statku \"Sirena Dorata\"",
+      "pt": "Modelo de navio \"Sirena Dorata\"",
+      "pt-BR": "Modelo de navio \"Sirena Dorata\"",
+      "ru": "Модель корабля «Sirena Dorata»",
+      "sr": "Maketa broda \"Sirena Dorata\"",
+      "tr": "\"Sirena Dorata\" Gemi Modeli",
+      "uk": "Модель корабля «Sirena Dorata»",
+      "zh-CN": "「Sirena Dorata」号船模",
+      "zh-TW": "「Sirena Dorata」號船模"
+    },
+    "description": {
+      "da": "Med Middelhavssolen, der glimter af dens skrog, er denne livfulde yacht det tidløse indbegreb af saltvandspragt.",
+      "de": "Wenn die Mittelmeersonne von ihrem Rumpf glitzert, ist diese strahlende Yacht der zeitlose Inbegriff von Salzwasserpracht.",
+      "en": "With the Mediterranean sun glistening off its hull, this vibrant yacht is the timeless epitome of saltwater splendour.",
+      "es": "Con el sol mediterráneo brillando en su casco, este vibrante yate es el epítome atemporal del esplendor del agua salada.",
+      "fr": "Avec le soleil méditerranéen qui scintille sur sa coque, ce yacht vibrant est l'incarnation intemporelle de la splendeur des eaux salées.",
+      "he": "כאשר שמש הים התיכון מנצנצת על גופה, יאכטה תוססת זו היא ההתגלמות הנצחית של פאר מי המלח.",
+      "hr": "Dok mediteransko sunce blista na njenom trupu, ova živopisna jahta je bezvremenski vrhunac slankastog sjaja.",
+      "it": "Con il sole mediterraneo che brilla sul suo scafo, questo vivace yacht è l'incarnazione senza tempo dello splendore delle acque salate.",
+      "ja": "地中海の太陽が船体に輝くこの鮮やかなヨットは、海水の華麗さを象徴する永遠の傑作である。",
+      "ko-KR": "지중해의 햇살이 선체에 반짝이는 이 화려한 요트는, 바닷물의 화려함을 상징하는 영원한 전형이다.",
+      "no": "Med Middelhavssolen som glitrer av skroget, er denne livfulle yachten den tidløse legemliggjørelsen av saltvannsprakt.",
+      "pl": "Gdy śródziemnomorskie słońce migocze na jej kadłubie, ten żywy jacht jest ponadczasowym uosobieniem słonowodnego splendoru.",
+      "pt": "Com o sol mediterrâneo brilhando em seu casco, este iate vibrante é a personificação atemporal do esplendor das águas salgadas.",
+      "pt-BR": "Com o sol mediterrâneo brilhando em seu casco, este iate vibrante é a personificação atemporal do esplendor das águas salgadas.",
+      "ru": "Когда средиземноморское солнце играет на её корпусе, эта яркая яхта — вневременное воплощение солёного великолепия.",
+      "sr": "Dok mediteransko sunce blista na njenom trupu, ova živopisna jahta je bezvremenski vrhunac slankastog sjaja.",
+      "tr": "Akdeniz güneşinin gövdesinde parıldadığı bu canlı yat, tuzlu su ihtişamının zamansız bir simgesidir.",
+      "uk": "Коли середземноморське сонце виграє на її корпусі, ця яскрава яхта — позачасове втілення солоної розкоші.",
+      "zh-CN": "地中海的阳光在船身上闪烁，这艘鲜艳的游艇是咸水奢华永恒的典范。",
+      "zh-TW": "地中海的陽光在船身上閃爍，這艘鮮豔的遊艇是鹹水奢華永恆的典範。"
+    },
+    "type": "Trinket",
+    "rarity": "Epic",
+    "value": 7000,
+    "weightKg": 0.5,
+    "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/sirena_dorata_ship_model.png",
+    "updatedAt": "04/28/2026",
+    "addedIn": "1.26",
+    "icon": "https://cdn.arctracker.io/items/sirena_dorata_ship_model.png",
+    "item_type": "Trinket"
+  },
+  {
     "id": "smoke_grenade",
     "name": {
       "da": "Røggranat",
@@ -191481,6 +193650,371 @@
     "item_type": "Blueprint"
   },
   {
+    "id": "tactical_mk3_smoke",
+    "name": {
+      "da": "Taktisk Mk. 3 (Røg)",
+      "de": "Taktisch-Marke 3 (Rauch)",
+      "en": "Tactical Mk. 3 (Smoke)",
+      "es": "Táctico Ver. 3 (Humo)",
+      "fr": "Tactique 3 (fumée)",
+      "he": "טקטי Mk. 3 (עשן)",
+      "hr": "Taktički Mk. 3 (Dim)",
+      "it": "Tattico Mk. 3 (Fumo)",
+      "ja": "戦術MK3（煙幕）",
+      "ko-KR": "전술 마크 3 (연막)",
+      "no": "Taktisk Mk. 3 (Røyk)",
+      "pl": "Taktyczny Mk. 3 (Dym)",
+      "pt": "Tático Mk. 3 (Fumaça)",
+      "pt-BR": "Tático Mk. 3 (Fumaça)",
+      "ru": "Тактический Mk. 3 (Дым)",
+      "sr": "Taktički Mk. 3 (Dim)",
+      "tr": "Taktiksel Mod. 3 (Duman)",
+      "uk": "Тактичний Mk. 3 (Дим)",
+      "zh-CN": "战术型 Mk. 3（烟雾型）",
+      "zh-TW": "戰術型 Mk. 3（煙霧）"
+    },
+    "description": {
+      "da": "En opgraderet version af Taktisk MK. 2-forstærkningen, der tilføjer udvidet kapacitet over hele linjen. Når skjoldet brydes, udsendes en lille røggranat. Har en fast nedkøling.",
+      "de": "Eine verbesserte Version des Augments Taktisch MK. 2, die durchweg erweiterte Kapazität bietet. Wenn der Schild bricht, wird eine kleine Rauchgranate ausgelöst. Hat eine feste Abklingzeit.",
+      "en": "An upgraded version of the Tactical MK. 2 augment, adding expanded capacity across the board. Upon Shield break, deploys a small smoke grenade. Has a fixed cooldown.",
+      "es": "Una versión mejorada del aumento Táctico MK. 2 que amplía la capacidad en todos los aspectos. Al romperse el escudo, despliega una pequeña granada de humo. Tiene un tiempo de recarga fijo.",
+      "fr": "Une version améliorée de l'amélioration Tactique MK. 2, qui augmente la capacité dans tous les domaines. Lorsque le bouclier se brise, déploie une petite grenade fumigène. Possède un temps de recharge fixe.",
+      "he": "גרסה משודרגת של תוסף טקטי MK. 2, שמוסיפה קיבולת מורחבת בכל התחומים. כאשר המגן נשבר, מציבה רימון עשן קטן. בעלת זמן צינון קבוע.",
+      "hr": "Nadograđena verzija augmentacije Taktički MK. 2, koja dodaje prošireni kapacitet u svim područjima. Pri pucanju štita postavlja malu dimnu granatu. Ima fiksno vrijeme hlađenja.",
+      "it": "Una versione migliorata del potenziamento Tattico MK. 2, che aggiunge capacità aumentata su tutta la linea. Alla rottura dello scudo, dispiega una piccola granata fumogena. Ha un tempo di recupero fisso.",
+      "ja": "戦術MK2強化装備のアップグレード版で、全体的に容量が拡張される。シールド破壊時、小型のスモーク・グレネードを展開する。固定クールダウンあり。",
+      "ko-KR": "전술 MK. 2 증강의 업그레이드 버전으로, 전반적인 수용량을 확장합니다. 방어막이 파괴되면 작은 연막탄을 배치합니다. 고정 재사용 대기시간이 있습니다.",
+      "no": "En oppgradert versjon av Taktisk MK. 2-forsterkningen, som gir utvidet kapasitet over hele linjen. Når skjoldet brytes, utplasseres en liten røykgranat. Har fast nedkjølingstid.",
+      "pl": "Ulepszona wersja augmentacji Taktyczny MK. 2, zwiększająca pojemność pod każdym względem. Po przełamaniu tarczy rozmieszcza mały granat dymny. Ma stały czas odnowienia.",
+      "pt": "Uma versão aprimorada do aumento Tático MK. 2, adicionando capacidade expandida em todos os aspectos. Quando o escudo quebra, aciona uma pequena granada de fumaça. Tem tempo de recarga fixo.",
+      "pt-BR": "Uma versão aprimorada do aumento Tático MK. 2, adicionando capacidade expandida em todos os aspectos. Quando o Escudo quebra, aciona uma pequena granada de fumaça. Tem tempo de recarga fixo.",
+      "ru": "Улучшенная версия аугмента Тактический MK. 2, увеличивающая вместимость по всем параметрам. При пробитии щита разворачивает небольшую дымовую гранату. Имеет фиксированное время восстановления.",
+      "sr": "Nadograđena verzija augmentacije Taktički MK. 2, koja dodaje prošireni kapacitet u svim oblastima. Pri pucanju štita postavlja malu dimnu granatu. Ima fiksno vreme hlađenja.",
+      "tr": "Taktiksel MK. 2 güçlendirmesinin yükseltilmiş bir versiyonu; her alanda artırılmış kapasite sağlar. Kalkan kırıldığında küçük bir sis bombası konuşlandırır. Sabit bekleme süresine sahiptir.",
+      "uk": "Покращена версія аугментації Тактичний MK. 2, що збільшує місткість за всіма напрямами. Коли щит пробито, розгортає невелику димову гранату. Має фіксований час відновлення.",
+      "zh-CN": "战术 MK. 2 强化装备的升级版，全面扩展容量。护盾破裂时，会部署一枚小型烟雾手雷。拥有固定冷却时间。",
+      "zh-TW": "戰術 MK. 2 強化裝備的升級版，全面擴充容量。護盾破裂時，會部署一枚小型煙霧彈。擁有固定冷卻時間。"
+    },
+    "type": "Augment",
+    "rarity": "Epic",
+    "value": 5000,
+    "weightKg": 4,
+    "stackSize": 1,
+    "blueprintLocked": true,
+    "effects": {
+      "Durability": {
+        "value": "100/100",
+        "da": "Holdbarhed",
+        "de": "Haltbarkeit",
+        "en": "Durability",
+        "es": "Durabilidad",
+        "fr": "Durabilité",
+        "he": "עמידות",
+        "hr": "Izdržljivost",
+        "it": "Tenuta",
+        "ja": "耐久性",
+        "ko-KR": "내구도",
+        "no": "Holdbarhet",
+        "pl": "Wytrzymałość",
+        "pt": "Durabilidade",
+        "pt-BR": "Durabilidade",
+        "ru": "Прочность",
+        "sr": "Izdržljivost",
+        "tr": "Dayanıklılık",
+        "uk": "Міцність",
+        "zh-CN": "耐久度",
+        "zh-TW": "耐久度"
+      },
+      "Max Loadout Weight": {
+        "value": 50,
+        "da": "Maks. udstyrsvægt",
+        "de": "Max. Loadout-Gewicht",
+        "en": "Max Loadout Weight",
+        "es": "Peso máximo del equipamiento",
+        "fr": "Poids max. de l'équipement",
+        "he": "משקל ציוד מקסימלי",
+        "hr": "Maks. Težina Opreme",
+        "it": "Peso massimo equipaggiamento",
+        "ja": "最大装備重量",
+        "ko-KR": "최대 장비 무게",
+        "no": "Maks utstyrsvekt",
+        "pl": "Maks. waga ekwipunku",
+        "pt": "Peso máximo do equipamento",
+        "pt-BR": "Peso Máximo do Equipamento",
+        "ru": "Макс. вес снаряжения",
+        "sr": "Maks. Težina Opreme",
+        "tr": "Maks. Donanım Ağırlığı",
+        "uk": "Макс. вага спорядження",
+        "zh-CN": "最大装备重量",
+        "zh-TW": "最大裝備重量"
+      },
+      "Shield Compatibility": {
+        "value": "Light, Medium",
+        "da": "Skjoldkompatibilitet",
+        "de": "Schildkompatibilität",
+        "en": "Shield Compatibility",
+        "es": "Compatibilidad con escudo",
+        "fr": "Compatibilité bouclier",
+        "he": "תאימות מגן",
+        "hr": "Kompatibilnost Štita",
+        "it": "Compatibilità scudo",
+        "ja": "シールド互換性",
+        "ko-KR": "실드 호환성",
+        "no": "Skjoldkompatibilitet",
+        "pl": "Kompatybilność z tarczą",
+        "pt": "Compatibilidade com escudo",
+        "pt-BR": "Compatibilidade de Escudo",
+        "ru": "Совместимость со щитом",
+        "sr": "Kompatibilnost Štita",
+        "tr": "Kalkan Uyumluluğu",
+        "uk": "Сумісність зі щитом",
+        "zh-CN": "护盾兼容性",
+        "zh-TW": "護盾相容性"
+      }
+    },
+    "craftBench": "equipment_bench",
+    "stationLevelRequired": 3,
+    "recipe": {
+      "advanced_electrical_components": 2,
+      "processor": 3
+    },
+    "recyclesInto": {
+      "advanced_electrical_components": 1,
+      "processor": 1
+    },
+    "salvagesInto": {
+      "electrical_components": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_smoke.png",
+    "updatedAt": "04/28/2026",
+    "addedIn": "1.26",
+    "repairCost": {
+      "advanced_electrical_components": 1,
+      "processor": 2
+    },
+    "repairDurability": 0.5,
+    "crafting_components": [
+      {
+        "item": {
+          "id": "advanced_electrical_components",
+          "name": {
+            "da": "Avancerede elektriske komponenter",
+            "de": "Fortschrittliche elektrische Komponenten",
+            "en": "Advanced Electrical Components",
+            "es": "Componentes eléctricos avanzados",
+            "fr": "Composants Électriques Avancés",
+            "he": "רכיבים חשמליים מתקדמים",
+            "hr": "Napredne Električne Komponente",
+            "it": "Componenti elettrici avanzati",
+            "ja": "高度な電気部品",
+            "ko-KR": "고급 전기 부품",
+            "no": "Avanserte elektriske komponenter",
+            "pl": "Zaawansowane komponenty elektryczne",
+            "pt": "Componentes elétricos avançados",
+            "pt-BR": "Componentes Elétricos Avançados",
+            "ru": "Продвинутые электрические компоненты",
+            "sr": "Napredne Električne Komponente",
+            "tr": "Gelişmiş Elektrik Bileşenleri",
+            "uk": "Просунуті електричні компоненти",
+            "zh-CN": "高级电子元件",
+            "zh-TW": "進階電子元件"
+          },
+          "description": {
+            "da": "Bruges til at lave en bred vifte af genstande. Kan genbruges til håndværksmaterialer. Bruges til at lave: Taktisk Mk. 3 (Defensiv), Kamp Mk. 3 (Flankering), Kamp Mk. 3 (Aggressiv), Plyndring Mk. 3 (Forsigtig), Taktisk Mk. 3 (Helbredelse)",
+            "de": "Wird zur Herstellung verschiedenster Gegenstände verwendet. Kann zu Herstellungsmaterialien recycelt werden. Zur Herstellung von: Taktisch-Marke 3 (Defensiv), Kampf-Marke 3 (Flankierend), Kampf-Marke 3 (Aggressiv), Beute-Marke 3 (Vorsichtig), Taktisch-Marke 3 (Heilung)",
+            "en": "Used to craft a wide range of items. Can be recycled into crafting materials. Used to craft: Tactical Mk. 3 (Defensive), Combat Mk. 3 (Flanking), Combat Mk. 3 (Aggressive), Looting Mk. 3 (Cautious), Tactical Mk. 3 (Healing)",
+            "es": "Se usan para fabricar una amplia gama de objetos. Se pueden reciclar en materiales de fabricación. Se usan para fabricar: Táctico Ver. 3 (Defensivo), Combate Ver. 3 (Flanqueo), Combate Ver. 3 (Agresivo), Saqueo Ver. 3 (Cauteloso), Táctico Ver. 3 (Curación)",
+            "fr": "Utilisés pour fabriquer une large gamme d'objets. Peuvent être recyclés en matériaux de fabrication. Utilisés pour fabriquer : Tactique 3 (défense), Combat 3 (contournement), Combat 3 (agression), Butin 3 (prudence), Tactique 3 (soins)",
+            "he": "משמש ליצירת מגוון רחב של פריטים. ניתן למיחזור לחומרי יצירה. משמש ליצירת: טקטי Mk. 3 (הגנתי), קרבי Mk. 3 (איגוף), קרבי Mk. 3 (אגרסיבי), איסוף Mk. 3 (זהיר), טקטי Mk. 3 (ריפוי)",
+            "hr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu. Koristi se za izradu: Tactical Mk. 3 (Defensive), Combat Mk. 3 (Flanking), Combat Mk. 3 (Aggressive), Looting Mk. 3 (Cautious), Tactical Mk. 3 (Healing)",
+            "it": "Si usa per creare una vasta gamma di oggetti. Si può riciclare in materiali da creazione. Si usa per creare: Tattico Mk. 3 (Difensivo), Combattimento Mk. 3 (Fiancheggiamento), Combattimento Mk. 3 (Aggressivo), Saccheggio Mk. 3 (Cauto), Tattico Mk. 3 (Guarigione)",
+            "ja": "幅広いアイテムの製作に使用。クラフト素材にリサイクル可能。製作用途：戦術MK3（防御型）、戦闘MK3（側面攻撃型）、戦闘MK3（攻撃型）、略奪MK3（慎重型）、戦術MK3（回復型）",
+            "ko-KR": "다양한 아이템을 제작하는 데 사용됩니다. 제작 재료로 재활용할 수 있습니다. 제작 용도: 전술 마크 3 (방어형), 전투 마크 3 (측면기동), 전투 마크 3 (공격), 노획 마크 3 (신중), 전술 마크 3 (치유)",
+            "no": "Brukes til å lage et bredt spekter av gjenstander. Kan resirkuleres til håndverksmateriell. Brukes til å lage: Taktisk Mk. 3 (Defensiv), Kamp Mk. 3 (Flankering), Kamp Mk. 3 (Aggressiv), Plyndring Mk. 3 (Forsiktig), Taktisk Mk. 3 (Helbredelse)",
+            "pl": "Używane do wytwarzania szerokiej gamy przedmiotów. Można przetworzyć na materiały rzemieślnicze. Używane do wytworzenia: Taktyczny Mk. 3 (Defensywny), Bojowy Mk. 3 (Flankowanie), Bojowy Mk. 3 (Agresywny), Grabieżczy Mk. 3 (Ostrożny), Taktyczny Mk. 3 (Leczenie)",
+            "pt": "Usados para fabricar uma ampla gama de itens. Podem ser reciclados em materiais de fabricação. Usados para fabricar: Tático Mk. 3 (Defensivo), Combate Mk. 3 (Flanqueamento), Combate Mk.3 (Agressivo), Saque Mk. 3 (Cauteloso), Tático Mk. 3 (Cura)",
+            "pt-BR": "Serve para fabricar uma ampla gama de itens. Pode reciclar por materiais de fabricação. Usados para fabricar: Tático Mk. 3 (Defensivo), Combate Mk. 3 (Flanqueador), Combate Mk.3 (Agressivo), Saque Mk. 3 (Cauteloso), Tático Mk. 3 (Cura)",
+            "ru": "Используется для создания широкого спектра предметов. Можно переработать в материалы для крафта. Используется для создания: Тактический Mk. 3 (Защитный), Боевой Mk. 3 (Фланговый), Боевой Mk. 3 (Агрессивный), Мародёрский Mk. 3 (Осторожный), Тактический Mk. 3 (Лечебный)",
+            "sr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu. Koristi se za izradu: Tactical Mk. 3 (Defensive), Combat Mk. 3 (Flanking), Combat Mk. 3 (Aggressive), Looting Mk. 3 (Cautious), Tactical Mk. 3 (Healing)",
+            "tr": "Geniş bir yelpazede eşya üretmek için kullanılır. Üretim malzemelerine geri dönüştürülebilir. Şunları üretmek için kullanılır: Taktik Mk. 3 (Savunma), Savaş Mk. 3 (Kuşatma), Savaş Mk. 3 (Saldırgan), Yağma Mk. 3 (İhtiyatlı), Taktik Mk. 3 (İyileştirme)",
+            "uk": "Використовується для створення широкого спектру предметів. Можна переробити на матеріали для крафту. Використовується для створення: Тактичний Mk. 3 (Захисний), Бойовий Mk. 3 (Фланговий), Бойовий Mk. 3 (Агресивний), Мародерський Mk. 3 (Обережний), Тактичний Mk. 3 (Лікувальний)",
+            "zh-CN": "用于制作各种物品。可回收为制作材料。用于制作:奇袭者暗门钥匙，光电斗篷，耀眼明星，战斗Mk.3(侧翼突击),战斗Mk.3(进攻型)，搜刮Mk.3(谨慎型)，战术Mk.3(恢复型)，战术Mk.3(防御型)",
+            "zh-TW": "用來製作多種物品。可回收成製作材料。用來製作:戰術第3型(防禦),戰鬥第3型(側擊),戰鬥第3型(積極),搜刮第3型(謹慎),戰術第3型(治療)"
+          },
+          "type": "Refined Material",
+          "rarity": "Rare",
+          "foundIn": "Electrical",
+          "value": 1750,
+          "weightKg": 1,
+          "stackSize": 5,
+          "craftBench": "refiner",
+          "stationLevelRequired": 2,
+          "recipe": {
+            "electrical_components": 2,
+            "wires": 3
+          },
+          "recyclesInto": {
+            "electrical_components": 1,
+            "wires": 1
+          },
+          "salvagesInto": {
+            "electrical_components": 1
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/advanced_electrical_components.png",
+          "updatedAt": "03/17/2026",
+          "addedIn": "base"
+        },
+        "component": {
+          "id": "advanced_electrical_components"
+        }
+      },
+      {
+        "item": {
+          "id": "processor",
+          "name": {
+            "da": "Processor",
+            "de": "Prozessor",
+            "en": "Processor",
+            "es": "Procesador",
+            "fr": "Processeur",
+            "he": "מעבד",
+            "hr": "Procesor",
+            "it": "Processore",
+            "ja": "プロセッサ",
+            "ko-KR": "프로세서",
+            "no": "Prosessor",
+            "pl": "Procesor",
+            "pt": "Processador",
+            "pt-BR": "Processador",
+            "ru": "Процессор",
+            "sr": "Procesor",
+            "tr": "İşlemci",
+            "uk": "Процесор",
+            "zh-CN": "处理器",
+            "zh-TW": "處理器"
+          },
+          "description": {
+            "da": "Bruges til håndværk. Bruges til at lave: Taktisk Mk. 3 (Defensiv), Kamp Mk. 3 (Flankering), Kamp Mk. 3 (Aggressiv), Plyndring Mk. 3 (Forsigtig), Taktisk Mk. 3 (Helbredelse)",
+            "de": "Wird zur Herstellung verwendet. Zur Herstellung von: Taktisch-Marke 3 (Defensiv), Kampf-Marke 3 (Flankierend), Kampf-Marke 3 (Aggressiv), Beute-Marke 3 (Vorsichtig), Taktisch-Marke 3 (Heilung)",
+            "en": "Used in crafting. Used to craft: Tactical Mk. 3 (Defensive), Combat Mk. 3 (Flanking), Combat Mk. 3 (Aggressive), Looting Mk. 3 (Cautious), Tactical Mk. 3 (Healing)",
+            "es": "Usado en fabricación. Usado para fabricar: Táctico Ver. 3 (Defensivo), Combate Ver. 3 (Flanqueo), Combate Ver. 3 (Agresivo), Saqueo Ver. 3 (Cauteloso), Táctico Ver. 3 (Curación)",
+            "fr": "Utilisé pour la fabrication. Permet de fabriquer : Tactique 3 (défense), Combat 3 (contournement), Combat 3 (agression), Butin 3 (prudence), Tactique 3 (soins)",
+            "he": "משמש ליצירה. משמש ליצירת: טקטי Mk. 3 (הגנתי), קרבי Mk. 3 (איגוף), קרבי Mk. 3 (תוקפני), ביזה Mk. 3 (זהיר), טקטי Mk. 3 (ריפוי)",
+            "hr": "Koristi se u izradi. Koristi se za izradu: Taktički Mk. 3 (Obrambeni), Borbeni Mk. 3 (Bočni), Borbeni Mk. 3 (Agresivni), Pljačkaški Mk. 3 (Oprezni), Taktički Mk. 3 (Ljekoviti)",
+            "it": "Usato per la fabbricazione. Si usa per creare: Tattico Mk. 3 (Difensivo), Combattimento Mk. 3 (Fiancheggiamento), Combattimento Mk. 3 (Aggressivo), Saccheggio Mk. 3 (Cauto), Tattico Mk. 3 (Guarigione)",
+            "ja": "製作に使用。製作に使用: Tactical Mk. 3 (防御型)、Combat Mk. 3 (側面攻撃型)、Combat Mk. 3 (攻撃型)、Looting Mk. 3 (慎重型)、Tactical Mk. 3 (治療型)",
+            "ko-KR": "제작에 사용. 제작 용도: 전술 마크 3 (방어형), 전투 마크 3 (측면기동), 전투 마크 3 (공격), 노획 마크 3 (신중), 전술 마크 3 (치유)",
+            "no": "Brukes til håndverk. Brukes til å lage: Taktisk Mk. 3 (Defensiv), Kamp Mk. 3 (Flankering), Kamp Mk. 3 (Aggressiv), Plyndring Mk. 3 (Forsiktig), Taktisk Mk. 3 (Helbredelse)",
+            "pl": "Używane do wytwarzania. Używane do wytworzenia: Taktyczny Mk. 3 (Defensywny), Bojowy Mk. 3 (Oskrzydlający), Bojowy Mk. 3 (Agresywny), Grabieżczy Mk. 3 (Ostrożny), Taktyczny Mk. 3 (Leczący)",
+            "pt": "Usado na fabricação. Usado para fabricar: Tático Mk. 3 (Defensivo), Combate Mk. 3 (Flanqueio), Combate Ver. 3 (Agressivo), Saque Mk. 3 (Cauteloso), Tático Mk. 3 (Cura)",
+            "pt-BR": "Usado na fabricação. Usado para fabricar: Tático Mk. 3 (Defensivo), Combate Mk. 3 (Flanqueador), Combate Mk. 3 (Agressivo), Saque Mk. 3 (Cauteloso), Tático Mk. 3 (Cura)",
+            "ru": "Используется в создании предметов. Используется для создания: Tactical Mk. 3 (защитный), Combat Mk. 3 (фланговый), Combat Mk. 3 (агрессивный), Looting Mk. 3 (осторожный), Tactical Mk. 3 (лечебный)",
+            "sr": "Koristi se u izradi. Koristi se za izradu: Taktički Mk. 3 (Odbrambeni), Borbeni Mk. 3 (Bočni), Borbeni Mk. 3 (Agresivni), Pljačkaški Mk. 3 (Oprezni), Taktički Mk. 3 (Lečeći)",
+            "tr": "Üretimde kullanılır. Üretimde kullanılır: Tactical Mk. 3 (Savunma), Combat Mk. 3 (Kuşatma), Combat Mk. 3 (Saldırgan), Looting Mk. 3 (Temkinli), Tactical Mk. 3 (İyileştirme)",
+            "uk": "Використовується у створенні предметів. Використовується для створення: Tactical Mk. 3 (захисний), Combat Mk. 3 (фланговий), Combat Mk. 3 (агресивний), Looting Mk. 3 (обережний), Tactical Mk. 3 (лікувальний)",
+            "zh-CN": "用于制作。用于制作：Tactical Mk. 3（防御型）、Combat Mk. 3（侧翼型）、Combat Mk. 3（进攻型）、Looting Mk. 3（谨慎型）、Tactical Mk. 3（治疗型）",
+            "zh-TW": "用於製作。用於製作：Tactical Mk. 3（防禦型）、Combat Mk. 3（側翼型）、Combat Mk. 3（進攻型）、Looting Mk. 3（謹慎型）、Tactical Mk. 3（治療型）"
+          },
+          "type": "Topside Material",
+          "rarity": "Rare",
+          "foundIn": "Technological",
+          "value": 500,
+          "weightKg": 0.2,
+          "stackSize": 5,
+          "recyclesInto": {
+            "plastic_parts": 1,
+            "wires": 1
+          },
+          "salvagesInto": {
+            "plastic_parts": 2
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/processor.png",
+          "updatedAt": "03/22/2026",
+          "addedIn": "base",
+          "vendors": [
+            {
+              "cost": {
+                "assorted_seeds": 10
+              },
+              "limit": 5,
+              "refreshSeconds": 86400,
+              "requiredLevel": 12,
+              "trader": "Celeste"
+            }
+          ]
+        },
+        "component": {
+          "id": "processor"
+        }
+      }
+    ],
+    "icon": "https://cdn.arctracker.io/items/tactical_mk3_smoke.png",
+    "workbench": "equipment_bench",
+    "item_type": "Augment",
+    "stat_block": {
+      "Durability": "100/100",
+      "Max Loadout Weight": 50,
+      "Shield Compatibility": "Light, Medium"
+    }
+  },
+  {
+    "id": "tactical_mk3_smoke_blueprint",
+    "name": {
+      "da": "Taktisk Mk. 3 (Røg) blueprint",
+      "de": "Bauplan: Taktisch-Marke 3 (Rauch)",
+      "en": "Tactical Mk. 3 (Smoke) Blueprint",
+      "es": "Plano Táctico Ver. 3 (Humo)",
+      "fr": "Schéma Tactique 3 (fumée)",
+      "he": "שרטוט טקטי Mk. 3 (עשן)",
+      "hr": "Taktički Mk. 3 (Dim) Nacrt",
+      "it": "Progetto Tattico Mk. 3 (Fumo)",
+      "ja": "戦術MK3（煙幕）設計図",
+      "ko-KR": "전술 마크 3 (연막) 설계도",
+      "no": "Taktisk Mk. 3 (Røyk) blueprint",
+      "pl": "Projekt Taktyczny Mk. 3 (Dym)",
+      "pt": "Projeto Tático Mk. 3 (Fumaça)",
+      "pt-BR": "Projeto Tático Mk. 3 (Fumaça)",
+      "ru": "Чертеж тактического Mk. 3 (дым)",
+      "sr": "Taktički Mk. 3 (Dim) Nacrt",
+      "tr": "Taktiksel Mod. 3 (Duman) Taslağı",
+      "uk": "Креслення тактичного Mk. 3 (дим)",
+      "zh-CN": "战术 Mk. 3（烟雾型）蓝图",
+      "zh-TW": "戰術 Mk. 3（煙霧）藍圖"
+    },
+    "description": {
+      "da": "En opgraderet version af Taktisk MK. 2-forstærkningen, der tilføjer udvidet kapacitet over hele linjen.",
+      "de": "Eine verbesserte Version des Augments Taktisch MK. 2, die durchweg erweiterte Kapazität bietet.",
+      "en": "An upgraded version of the Tactical MK. 2 augment, adding expanded capacity across the board.",
+      "es": "Una versión mejorada del aumento Táctico MK. 2 que amplía la capacidad en todos los aspectos.",
+      "fr": "Une version améliorée de l'amélioration Tactique MK. 2, qui augmente la capacité dans tous les domaines.",
+      "he": "גרסה משודרגת של תוסף טקטי MK. 2, שמוסיפה קיבולת מורחבת בכל התחומים.",
+      "hr": "Nadograđena verzija augmentacije Taktički MK. 2, koja dodaje prošireni kapacitet u svim područjima.",
+      "it": "Una versione migliorata del potenziamento Tattico MK. 2, che aggiunge capacità aumentata su tutta la linea.",
+      "ja": "戦術MK2強化装備のアップグレード版で、全体的に容量が拡張される。",
+      "ko-KR": "전술 MK. 2 증강의 업그레이드 버전으로, 전반적인 수용량을 확장합니다.",
+      "no": "En oppgradert versjon av Taktisk MK. 2-forsterkningen, som gir utvidet kapasitet over hele linjen.",
+      "pl": "Ulepszona wersja augmentacji Taktyczny MK. 2, zwiększająca pojemność pod każdym względem.",
+      "pt": "Uma versão aprimorada do aumento Tático MK. 2, adicionando capacidade expandida em todos os aspectos.",
+      "pt-BR": "Uma versão aprimorada do aumento Tático MK. 2, adicionando capacidade expandida em todos os aspectos.",
+      "ru": "Улучшенная версия аугмента Тактический MK. 2, увеличивающая вместимость по всем параметрам.",
+      "sr": "Nadograđena verzija augmentacije Taktički MK. 2, koja dodaje prošireni kapacitet u svim oblastima.",
+      "tr": "Taktiksel MK. 2 güçlendirmesinin yükseltilmiş bir versiyonu; her alanda artırılmış kapasite sağlar.",
+      "uk": "Покращена версія аугментації Тактичний MK. 2, що збільшує місткість за всіма напрямами.",
+      "zh-CN": "战术 MK. 2 强化装备的升级版，全面扩展容量。",
+      "zh-TW": "戰術 MK. 2 強化裝備的升級版，全面擴充容量。"
+    },
+    "type": "Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_smoke_blueprint.png",
+    "updatedAt": "04/28/2026",
+    "addedIn": "base",
+    "icon": "https://cdn.arctracker.io/items/tactical_mk3_smoke_blueprint.png",
+    "item_type": "Blueprint"
+  },
+  {
     "id": "tagging_grenade",
     "name": {
       "da": "Markeringsgranат",
@@ -196027,6 +198561,61 @@
     "item_type": "Trinket"
   },
   {
+    "id": "turbine_compressor",
+    "name": {
+      "da": "Turbinekompressor",
+      "de": "Turbinenkompressor",
+      "en": "Turbine Compressor",
+      "es": "Compresor de turbina",
+      "fr": "Compresseur de turbine",
+      "he": "מדחס טורבינה",
+      "hr": "Turbinski kompresor",
+      "it": "Compressore della turbina",
+      "ja": "タービンコンプレッサー",
+      "ko-KR": "터빈 압축기",
+      "no": "Turbinkompressor",
+      "pl": "Sprężarka turbiny",
+      "pt": "Compressor de turbina",
+      "pt-BR": "Compressor de turbina",
+      "ru": "Турбинный компрессор",
+      "sr": "Turbinski kompresor",
+      "tr": "Türbin Kompresörü",
+      "uk": "Турбінний компресор",
+      "zh-CN": "涡轮压缩机",
+      "zh-TW": "渦輪壓縮機"
+    },
+    "description": {
+      "da": "",
+      "de": "",
+      "en": "",
+      "es": "",
+      "fr": "",
+      "he": "",
+      "hr": "",
+      "it": "",
+      "ja": "",
+      "ko-KR": "",
+      "no": "",
+      "pl": "",
+      "pt": "",
+      "pt-BR": "",
+      "ru": "",
+      "sr": "",
+      "tr": "",
+      "uk": "",
+      "zh-CN": "",
+      "zh-TW": ""
+    },
+    "type": "Recyclable",
+    "rarity": "Epic",
+    "foundIn": "ARC",
+    "stackSize": 3,
+    "updatedAt": "04/28/2026",
+    "addedIn": "1.26",
+    "item_type": "Recyclable",
+    "loot_area": "ARC"
+  },
+  {
     "id": "turbo_pump",
     "name": {
       "da": "Turbopumpe",
@@ -196091,6 +198680,63 @@
     "icon": "https://cdn.arctracker.io/items/turbo_pump.png",
     "item_type": "Recyclable",
     "loot_area": "Exodus"
+  },
+  {
+    "id": "twilight_compass_ship_model",
+    "name": {
+      "da": "Skibsmodel \"Twilight Compass\"",
+      "de": "Schiffsmodell \"Twilight Compass\"",
+      "en": "\"Twilight Compass\" Ship Model",
+      "es": "Modelo de barco \"Twilight Compass\"",
+      "fr": "Maquette de bateau « Twilight Compass »",
+      "he": "דגם ספינה \"Twilight Compass\"",
+      "hr": "Maketa broda \"Twilight Compass\"",
+      "it": "Modellino di nave \"Twilight Compass\"",
+      "ja": "「Twilight Compass」船舶模型",
+      "ko-KR": "\"Twilight Compass\" 선박 모형",
+      "no": "Skipsmodell \"Twilight Compass\"",
+      "pl": "Model statku \"Twilight Compass\"",
+      "pt": "Modelo de navio \"Twilight Compass\"",
+      "pt-BR": "Modelo de navio \"Twilight Compass\"",
+      "ru": "Модель корабля «Twilight Compass»",
+      "sr": "Maketa broda \"Twilight Compass\"",
+      "tr": "\"Twilight Compass\" Gemi Modeli",
+      "uk": "Модель корабля «Twilight Compass»",
+      "zh-CN": "「Twilight Compass」号船模",
+      "zh-TW": "「Twilight Compass」號船模"
+    },
+    "description": {
+      "da": "En energisk opkomling, denne tomaster er kendt for at sejle en lille smule ud over horisonten.",
+      "de": "Ein lebhafter Aufsteiger, dieser Zweimaster ist dafür bekannt, ein klein wenig über den Horizont hinauszusegeln.",
+      "en": "A spirited up-and-comer, this two-master has been known to sail ever so slightly beyond the horizon.",
+      "es": "Un prometedor de gran espíritu, este barco de dos mástiles es conocido por navegar apenas un poco más allá del horizonte.",
+      "fr": "Nouveau venu plein d'entrain, ce deux-mâts est connu pour naviguer juste un peu au-delà de l'horizon.",
+      "he": "כוכב עולה רב מרץ, דו-תורן זה ידוע בכך שהוא מפליג מעט מאוד מעבר לאופק.",
+      "hr": "Energična novost u usponu, ovaj dvojarbol poznat je po tome što plovi tek nešto malo iza horizonta.",
+      "it": "Un promettente pieno di vigore, questo bialbero è noto per navigare appena un po' oltre l'orizzonte.",
+      "ja": "意気盛んな新進気鋭の二本マスト船は、地平線のほんのわずか先まで航海することで知られている。",
+      "ko-KR": "기개 넘치는 신예인 이 이마스트선은 수평선을 아주 살짝 넘어 항해하는 것으로 알려져 있다.",
+      "no": "En energisk oppkomling, denne tomasteren er kjent for å seile bare så vidt forbi horisonten.",
+      "pl": "Pełen wigoru wschodzący talent, ten dwumasztowiec jest znany z żeglowania ledwie kawałek za horyzont.",
+      "pt": "Um promissor cheio de espírito, este bimastro é conhecido por navegar ligeirissimamente além do horizonte.",
+      "pt-BR": "Um promissor cheio de espírito, este bimastro é conhecido por navegar ligeirissimamente além do horizonte.",
+      "ru": "Энергичный новичок на подъёме, этот двухмачтовик известен тем, что заплывает чуть-чуть за горизонт.",
+      "sr": "Energični novajlija u usponu, ovaj dvojarbol poznat je po tome što plovi tek nešto malo iza horizonta.",
+      "tr": "Coşkulu bir yükselen yıldız olan bu çift direkli geminin, ufkun çok az ötesine yelken açtığı bilinir.",
+      "uk": "Енергійний висхідний новачок, цей двомачтовик відомий тим, що пливе ледь-ледь за горизонт.",
+      "zh-CN": "这艘充满活力的双桅新秀，以扬帆驶到地平线之外那么一点点而闻名。",
+      "zh-TW": "這艘充滿活力的雙桅新秀，以揚帆駛到地平線之外那麼一點點而聞名。"
+    },
+    "type": "Trinket",
+    "rarity": "Uncommon",
+    "value": 1000,
+    "weightKg": 0.5,
+    "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/twilight_compass_ship_model.png",
+    "updatedAt": "04/28/2026",
+    "addedIn": "1.26",
+    "icon": "https://cdn.arctracker.io/items/twilight_compass_ship_model.png",
+    "item_type": "Trinket"
   },
   {
     "id": "unusable_weapon",
@@ -196216,7 +198862,8 @@
     "salvagesInto": {
       "arc_circuitry": 2
     },
-    "updatedAt": "03/31/2026",
+    "imageFilename": "https://cdn.arctracker.io/items/vaporizer_regulator.png",
+    "updatedAt": "04/28/2026",
     "addedIn": "1.22",
     "used_in": [
       {
@@ -196294,6 +198941,7 @@
         }
       }
     ],
+    "icon": "https://cdn.arctracker.io/items/vaporizer_regulator.png",
     "item_type": "Recyclable"
   },
   {
@@ -196354,6 +199002,63 @@
     "icon": "https://cdn.arctracker.io/items/vase.png",
     "item_type": "Trinket",
     "loot_area": "Old World, Residential, Commercial"
+  },
+  {
+    "id": "velocity_ship_model",
+    "name": {
+      "da": "Skibsmodel \"Velocity\"",
+      "de": "Schiffsmodell \"Velocity\"",
+      "en": "\"Velocity\" Ship Model",
+      "es": "Modelo de barco \"Velocity\"",
+      "fr": "Maquette de bateau « Velocity »",
+      "he": "דגם ספינה \"Velocity\"",
+      "hr": "Maketa broda \"Velocity\"",
+      "it": "Modellino di nave \"Velocity\"",
+      "ja": "「Velocity」船舶模型",
+      "ko-KR": "\"Velocity\" 선박 모형",
+      "no": "Skipsmodell \"Velocity\"",
+      "pl": "Model statku \"Velocity\"",
+      "pt": "Modelo de navio \"Velocity\"",
+      "pt-BR": "Modelo de navio \"Velocity\"",
+      "ru": "Модель корабля «Velocity»",
+      "sr": "Maketa broda \"Velocity\"",
+      "tr": "\"Velocity\" Gemi Modeli",
+      "uk": "Модель корабля «Velocity»",
+      "zh-CN": "「Velocity」号船模",
+      "zh-TW": "「Velocity」號船模"
+    },
+    "description": {
+      "da": "Optimeret til ydeevne, dette teknologiske vidunder håber sandelig, at du ikke planlagde at pakke en særligt udførlig madpakke.",
+      "de": "Auf Leistung optimiert, hofft dieses technische Wunderwerk inständig, dass du nicht vorhattest, ein besonders aufwändiges Mittagessen einzupacken.",
+      "en": "Optimized for performance, this marvel of technology sure hopes you weren't planning on packing a particularly elaborate lunch.",
+      "es": "Optimizada para el rendimiento, esta maravilla de la tecnología espera que no tuvieras planeado llevar un almuerzo particularmente elaborado.",
+      "fr": "Optimisée pour la performance, cette merveille technologique espère vraiment que vous ne comptiez pas emporter un déjeuner particulièrement élaboré.",
+      "he": "מותאם לביצועים, פלא הטכנולוגיה הזה ממש מקווה שלא תכננת לארוז ארוחת צהריים מורכבת במיוחד.",
+      "hr": "Optimiziran za performanse, ovo tehnološko čudo iskreno se nada da niste planirali pakirati posebno razrađen ručak.",
+      "it": "Ottimizzato per le prestazioni, questo prodigio tecnologico spera davvero che tu non avessi intenzione di portarti un pranzo particolarmente elaborato.",
+      "ja": "性能に特化したこのテクノロジーの結晶は、特別手の込んだ昼食を持参するつもりがなかったことを切に願っている。",
+      "ko-KR": "성능에 최적화된 이 기술의 결정체는, 당신이 특별히 거창한 점심을 챙길 계획이 아니었기를 진심으로 바랄 것이다.",
+      "no": "Optimalisert for ytelse, dette teknologiske vidunderet håper inderlig at du ikke planla å pakke en spesielt forseggjort lunsj.",
+      "pl": "Zoptymalizowany pod kątem osiągów, ten cud technologii ma głęboką nadzieję, że nie planowałeś pakować szczególnie wymyślnego lunchu.",
+      "pt": "Otimizado para o desempenho, esta maravilha da tecnologia realmente espera que você não estivesse planejando levar um almoço particularmente elaborado.",
+      "pt-BR": "Otimizado para o desempenho, esta maravilha da tecnologia realmente espera que você não estivesse planejando levar um almoço particularmente elaborado.",
+      "ru": "Оптимизированное для скорости, это чудо техники очень надеется, что вы не планировали взять с собой особенно изысканный обед.",
+      "sr": "Optimizovan za performanse, ovo tehnološko čudo iskreno se nada da niste planirali da spakujete naročito razrađen ručak.",
+      "tr": "Performans için optimize edilmiş bu teknoloji harikası, özellikle gösterişli bir öğle yemeği paketlemeyi planlamadığınızı umuyor.",
+      "uk": "Оптимізоване для швидкості, це диво техніки дуже сподівається, що ви не планували брати з собою особливо вишуканий обід.",
+      "zh-CN": "为追求性能而优化，这件科技奇迹真心希望你没打算带上一顿特别精致的午餐。",
+      "zh-TW": "為追求性能而優化，這件科技奇蹟真心希望你沒打算帶上一頓特別精緻的午餐。"
+    },
+    "type": "Trinket",
+    "rarity": "Rare",
+    "value": 3000,
+    "weightKg": 0.5,
+    "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/velocity_ship_model.png",
+    "updatedAt": "04/28/2026",
+    "addedIn": "1.26",
+    "icon": "https://cdn.arctracker.io/items/velocity_ship_model.png",
+    "item_type": "Trinket"
   },
   {
     "id": "venator_blueprint",
@@ -202262,6 +204967,399 @@
     "icon": "https://cdn.arctracker.io/items/water_pump.png",
     "item_type": "Recyclable",
     "loot_area": "Mechanical, Industrial"
+  },
+  {
+    "id": "white_flag",
+    "name": {
+      "da": "Hvidt flag",
+      "de": "Weiße Flagge",
+      "en": "White Flag",
+      "es": "Bandera blanca",
+      "fr": "Drapeau blanc",
+      "he": "דגל לבן",
+      "hr": "Bijela zastava",
+      "it": "Bandiera bianca",
+      "ja": "白旗",
+      "ko-KR": "백기",
+      "no": "Hvitt flagg",
+      "pl": "Biała flaga",
+      "pt": "Bandeira branca",
+      "pt-BR": "Bandeira Branca",
+      "ru": "Белый флаг",
+      "sr": "Bela zastava",
+      "tr": "Beyaz Bayrak",
+      "uk": "Білий прапор",
+      "zh-CN": "白旗",
+      "zh-TW": "白旗"
+    },
+    "description": {
+      "da": "Et hvidt flag, der kan placeres",
+      "de": "Eine platzierbare weiße Flagge",
+      "en": "A deployable white flag",
+      "es": "Una bandera blanca desplegable",
+      "fr": "Un drapeau blanc déployable",
+      "he": "דגל לבן שניתן להציב",
+      "hr": "Bijela zastava koja se može postaviti",
+      "it": "Una bandiera bianca piazzabile",
+      "ja": "設置可能な白旗。",
+      "ko-KR": "설치 가능한 백기입니다.",
+      "no": "Et hvitt flagg som kan plasseres",
+      "pl": "Biała flaga do rozstawienia",
+      "pt": "Uma bandeira branca posicionável",
+      "pt-BR": "Uma bandeira branca posicionável",
+      "ru": "Развертываемый белый флаг",
+      "sr": "Bela zastava koja može da se postavi",
+      "tr": "Yerleştirilebilir bir beyaz bayrak",
+      "uk": "Білий прапор, який можна встановити",
+      "zh-CN": "可部署的白旗",
+      "zh-TW": "可部署的白旗"
+    },
+    "type": "Quick Use",
+    "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 0.2,
+    "stackSize": 5,
+    "blueprintLocked": true,
+    "craftBench": "medical_lab",
+    "stationLevelRequired": 1,
+    "recipe": {
+      "fabric": 10,
+      "plastic_parts": 3
+    },
+    "recyclesInto": {
+      "fabric": 5,
+      "plastic_parts": 1
+    },
+    "salvagesInto": {
+      "fabric": 3
+    },
+    "updatedAt": "04/28/2026",
+    "addedIn": "1.26",
+    "crafting_components": [
+      {
+        "item": {
+          "id": "fabric",
+          "name": {
+            "da": "Stof",
+            "de": "Stoff",
+            "en": "Fabric",
+            "es": "Tela",
+            "fr": "Tissu",
+            "he": "בד",
+            "hr": "Tkanina",
+            "it": "Tessuto",
+            "ja": "布",
+            "ko-KR": "직물",
+            "no": "Stoff",
+            "pl": "Materiał",
+            "pt": "Tecido",
+            "pt-BR": "Tecido",
+            "ru": "Ткань",
+            "sr": "Tkanina",
+            "tr": "Kumaş",
+            "uk": "Тканина",
+            "zh-CN": "布料",
+            "zh-TW": "布料"
+          },
+          "description": {
+            "da": "Bruges til at lave medicinske forsyninger og skjolde. Kan bruges til langsomt at gendanne små mængder helbred.",
+            "de": "Wird zur Herstellung von medizinischen Objekten und Schilden verwendet. Zur Herstellung von: Verband, Strapazierfähiges Stoffstück. Kann zur allmählichen Regeneration einer kleinen Menge Gesundheit benutzt werden.",
+            "en": "Used to craft medical supplies and shields. Can be used to slowly restore small amounts of health.",
+            "es": "Se usa para fabricar suministros médicos y escudos. Puede usarse para restaurar lentamente pequeñas cantidades de salud.",
+            "fr": "Permet de fabriquer des fournitures médicales et des boucliers. Peut être utilisé pour restaurer lentement de petites quantités de santé.",
+            "he": "משמש ליצירת ציוד רפואי ומגנים. יכול לשמש לשחזור איטי של כמות קטנה של בריאות.",
+            "hr": "Koristi se za izradu medicinskih potrepština i štitova. Može se koristiti za polaganu obnovu malih količina zdravlja.",
+            "it": "Si usa per creare forniture mediche e scudi. Può essere usato per ripristinare lentamente piccole quantità di salute.",
+            "ja": "医療品とシールドの製作に使用。使用すると少量の体力をゆっくり回復できる。",
+            "ko-KR": "의료 용품과 방어막 제작에 사용됩니다. 사용하면 소량의 체력을 천천히 회복할 수 있습니다.",
+            "no": "Brukes til å lage medisinske forsyninger og skjold. Kan brukes til å sakte gjenopprette små mengder helse.",
+            "pl": "Używany do wytwarzania zapasów medycznych i tarcz. Może być użyty do powolnej regeneracji niewielkich ilości zdrowia.",
+            "pt": "Usado para fabricar suprimentos médicos e escudos. Pode ser usado para restaurar lentamente pequenas quantidades de saúde.",
+            "pt-BR": "Serve para fabricar suprimentos médicos e escudos. Pode usar para recuperar lentamente um pouco de vida.",
+            "ru": "Используется для создания медицинских принадлежностей и щитов. Можно использовать для медленного восстановления небольшого количества здоровья.",
+            "sr": "Koristi se za izradu medicinskih potrepština i štitova. Može se koristiti za polaganu obnovu malih količina zdravlja.",
+            "tr": "Tıbbi malzeme ve kalkan üretmek için kullanılır. Küçük miktarda canı yavaşça yenilemek için kullanılabilir.",
+            "uk": "Використовується для створення медичних матеріалів та щитів. Можна використовувати для повільного відновлення невеликої кількості здоров'я.",
+            "zh-CN": "用于制作医疗用品和护盾。可用于缓慢恢复少量生命值。",
+            "zh-TW": "用於製作醫療用品和護盾。可用於緩慢恢復少量生命值。"
+          },
+          "type": "Basic Material",
+          "rarity": "Common",
+          "foundIn": "Commercial, Medical, Residential",
+          "value": 50,
+          "weightKg": 0.1,
+          "stackSize": 50,
+          "effects": {
+            "Duration": {
+              "value": "25s",
+              "da": "Varighed",
+              "de": "Dauer",
+              "en": "Duration",
+              "es": "Duración",
+              "fr": "Durée",
+              "he": "משך זמן",
+              "hr": "Trajanje",
+              "it": "Durata",
+              "ja": "持続時間",
+              "ko-KR": "지속 시간",
+              "no": "Varighet",
+              "pl": "Czas trwania",
+              "pt": "Duração",
+              "pt-BR": "Duração",
+              "ru": "Длительность",
+              "sr": "Trajanje",
+              "tr": "Süre",
+              "uk": "Тривалість",
+              "zh-CN": "持续时间",
+              "zh-TW": "持續時間"
+            },
+            "Healing": {
+              "value": "0.4/s",
+              "da": "Helbredelse",
+              "de": "Heilen",
+              "en": "Healing",
+              "es": "Curación",
+              "fr": "Soins",
+              "he": "ריפוי",
+              "hr": "Liječenje",
+              "it": "Guarigione",
+              "ja": "回復",
+              "ko-KR": "치유",
+              "no": "Helbredelse",
+              "pl": "Leczenie",
+              "pt": "Cura",
+              "pt-BR": "Cura",
+              "ru": "Лечение",
+              "sr": "Lečenje",
+              "tr": "İyileştirme",
+              "uk": "Лікування",
+              "zh-CN": "治疗",
+              "zh-TW": "治療"
+            },
+            "Use Time": {
+              "value": "1s",
+              "da": "Brugstid",
+              "de": "Verwendungszeit",
+              "en": "Use Time",
+              "es": "Tiempo de uso",
+              "fr": "Temps d'utilisation",
+              "he": "זמן שימוש",
+              "hr": "Vrijeme Korištenja",
+              "it": "Tempo d'uso",
+              "ja": "使用時間",
+              "ko-KR": "사용 시간",
+              "no": "Brukstid",
+              "pl": "Czas użycia",
+              "pt": "Tempo de uso",
+              "pt-BR": "Tempo de uso",
+              "ru": "Время использования",
+              "sr": "Vreme Korišćenja",
+              "tr": "Kullanım Süresi",
+              "uk": "Час використання",
+              "zh-CN": "使用时间",
+              "zh-TW": "使用時間"
+            }
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/fabric.png",
+          "updatedAt": "03/17/2026",
+          "addedIn": "base",
+          "vendors": [
+            {
+              "cost": {
+                "assorted_seeds": 1
+              },
+              "trader": "Celeste"
+            }
+          ]
+        },
+        "component": {
+          "id": "fabric"
+        }
+      },
+      {
+        "item": {
+          "id": "plastic_parts",
+          "name": {
+            "da": "Plastdele",
+            "de": "Plastikteile",
+            "en": "Plastic Parts",
+            "es": "Piezas de plástico",
+            "fr": "Composants plastiques",
+            "he": "חלקי פלסטיק",
+            "hr": "Plastični Dijelovi",
+            "it": "Componenti plastici",
+            "ja": "プラスチックパーツ",
+            "ko-KR": "플라스틱 부품",
+            "no": "Plastdeler",
+            "pl": "Części plastikowe",
+            "pt": "Peças plásticas",
+            "pt-BR": "Peças Plásticas",
+            "ru": "Пластиковые детали",
+            "sr": "Plastični Delovi",
+            "tr": "Plastik Parçalar",
+            "uk": "Пластикові деталі",
+            "zh-CN": "塑料零件",
+            "zh-TW": "塑膠零件"
+          },
+          "description": {
+            "da": "Bruges til at fremstille en bred vifte af genstande. Bruges til at fremstille: Hårnål, Let skjold, Plyndring Mk. 1, Let slaggranat, Forlænget haglgevær-magasin I",
+            "de": "Wird zur Herstellung verschiedenster Gegenstände verwendet. Zur Herstellung von: Hairpin, Leichter Schild, Beute-Marke 1, Leichte Aufschlaggranate, Erweitertes Schrotflintenmagazin I",
+            "en": "Used to craft a wide range of items. Used to craft: Hairpin, Light Shield, Looting Mk. 1, Light Impact Grenade, Extended Shotgun Mag I",
+            "es": "Se usa para fabricar una amplia gama de objetos. Se usa para fabricar: Horquilla, Escudo ligero, Saqueo Ver.1, Granada de impacto ligera, Cargador de escopeta extendido I",
+            "fr": "Permet de fabriquer une large gamme d'objets. Permet de fabriquer : Épingle à cheveux, Bouclier léger, Butin 1, Grenade à choc léger, Chargeur de fusil à pompe étendu I",
+            "he": "משמש ליצירת מגוון רחב של פריטים. משמש ליצירת: סיכת ראש, מגן קל, Looting Mk. 1, רימון הדף קל, מחסנית שוטגאן מורחבת I",
+            "hr": "Koristi se za izradu širokog spektra predmeta. Koristi se za izradu: Ukosnica, Laki štit, Pljačkanje Mk. 1, Laka udarna granata, Produženi šaržer za sačmaru I",
+            "it": "Si usa per creare una vasta gamma di oggetti. Si usa per creare: Tornante, Scudo leggero, Saccheggio Mk. 1, Granata a impatto leggera, Caricatore esteso fucile I",
+            "ja": "幅広いアイテムのクラフトに使用。クラフト可能：ヘアピン、ライトシールド、略奪MK1、ライトインパクトグレネード、拡張ショットガンマガジン I",
+            "ko-KR": "다양한 아이템을 제작하는 데 사용됩니다. 제작 가능: 헤어핀, 경량 실드, 노획 마크 1, 경량 충격 수류탄, 확장형 산탄총 탄창 I",
+            "no": "Brukes til å lage et bredt spekter av gjenstander. Brukes til å lage: Hårnål, Lett skjold, Plyndring Mk. 1, Lett slaggranat, Utvidet hagle-magasin I",
+            "pl": "Używane do wytwarzania szerokiej gamy przedmiotów. Używane do wytwarzania: Wsuwka do włosów, Lekka tarcza, Grabież Mk. 1, Lekki granat uderzeniowy, Rozszerzony magazynek do strzelby I",
+            "pt": "Usado para fabricar uma ampla variedade de itens. Usado para fabricar: Grampo de Cabelo, Escudo Leve, Saque Mk. 1, Granada de Impacto Leve, Carregador de Espingarda Estendido I",
+            "pt-BR": "Serve para fabricar vários tipos de itens. Usado para fabricar: Grampo de Cabelo, Escudo Leve, Saque Mk. 1, Granada de Impacto Leve, Binóculos",
+            "ru": "Используется для создания широкого спектра предметов. Используется для создания: Заколка, Легкий щит, Мародерство Mk. 1, Легкая ударная граната, Расширенный магазин для дробовика I",
+            "sr": "Koristi se za izradu širokog spektra predmeta. Koristi se za izradu: Ukosnica, Laki štit, Pljačkanje Mk. 1, Laka udarna granata, Produženi šaržer za sačmaru I",
+            "tr": "Geniş bir yelpazede eşya üretmek için kullanılır. Üretmek için kullanılır: Saç Tokası, Hafif Kalkan, Yağmalama Mk. 1, Hafif Darbe Bombası, Genişletilmiş Av Tüfeği Şarjörü I",
+            "uk": "Використовується для створення широкого спектру предметів. Використовується для створення: Шпилька, Легкий щит, Мародерство Mk. 1, Легка ударна граната, Розширений магазин для дробовика I",
+            "zh-CN": "用于制作各种物品。可制作：发夹、轻型护盾、掠夺 Mk. 1、轻型冲击手雷、霰弹枪扩容弹匣 I",
+            "zh-TW": "用於製作各種物品。可製作：髮夾、輕型護盾、掠奪 Mk. 1、輕型衝擊手榴彈、霰彈槍擴充彈匣 I"
+          },
+          "type": "Basic Material",
+          "rarity": "Common",
+          "foundIn": "Commercial, Residential, Technological",
+          "value": 60,
+          "weightKg": 0.1,
+          "stackSize": 50,
+          "imageFilename": "https://cdn.arctracker.io/items/plastic_parts.png",
+          "updatedAt": "03/17/2026",
+          "addedIn": "base",
+          "vendors": [
+            {
+              "cost": {
+                "assorted_seeds": 1
+              },
+              "trader": "Celeste"
+            }
+          ]
+        },
+        "component": {
+          "id": "plastic_parts"
+        }
+      }
+    ],
+    "workbench": "medical_lab",
+    "item_type": "Quick Use"
+  },
+  {
+    "id": "white_flag_blueprint",
+    "name": {
+      "da": "Hvidt flag blueprint",
+      "de": "Weiße-Flagge-Blaupause",
+      "en": "White Flag Blueprint",
+      "es": "Plano de bandera blanca",
+      "fr": "Plan de drapeau blanc",
+      "he": "תוכנית לדגל לבן",
+      "hr": "Nacrt bijele zastave",
+      "it": "Progetto bandiera bianca",
+      "ja": "白旗の設計図",
+      "ko-KR": "백기 설계도",
+      "no": "Hvitt flagg blueprint",
+      "pl": "Schemat białej flagi",
+      "pt": "Projeto de bandeira branca",
+      "pt-BR": "Projeto de bandeira branca",
+      "ru": "Чертеж белого флага",
+      "sr": "Nacrt bele zastave",
+      "tr": "Beyaz Bayrak Planı",
+      "uk": "Креслення білого прапора",
+      "zh-CN": "白旗蓝图",
+      "zh-TW": "白旗藍圖"
+    },
+    "description": {
+      "da": "Et hvidt flag, der kan placeres",
+      "de": "Eine platzierbare weiße Flagge",
+      "en": "A deployable white flag",
+      "es": "Una bandera blanca desplegable",
+      "fr": "Un drapeau blanc déployable",
+      "he": "דגל לבן שניתן להציב",
+      "hr": "Bijela zastava koja se može postaviti",
+      "it": "Una bandiera bianca piazzabile",
+      "ja": "設置可能な白旗。",
+      "ko-KR": "설치 가능한 백기입니다.",
+      "no": "Et hvitt flagg som kan plasseres",
+      "pl": "Biała flaga do rozstawienia",
+      "pt": "Uma bandeira branca posicionável",
+      "pt-BR": "Uma bandeira branca posicionável",
+      "ru": "Развертываемый белый флаг",
+      "sr": "Bela zastava koja može da se postavi",
+      "tr": "Yerleştirilebilir bir beyaz bayrak",
+      "uk": "Білий прапор, який можна встановити",
+      "zh-CN": "可部署的白旗",
+      "zh-TW": "可部署的白旗"
+    },
+    "type": "Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
+    "updatedAt": "04/28/2026",
+    "addedIn": "1.26",
+    "item_type": "Blueprint"
+  },
+  {
+    "id": "wind_sprite_ship_model",
+    "name": {
+      "da": "Skibsmodel \"Wind Sprite\"",
+      "de": "Schiffsmodell \"Wind Sprite\"",
+      "en": "\"Wind Sprite\" Ship Model",
+      "es": "Modelo de barco \"Wind Sprite\"",
+      "fr": "Maquette de bateau « Wind Sprite »",
+      "he": "דגם ספינה \"Wind Sprite\"",
+      "hr": "Maketa broda \"Wind Sprite\"",
+      "it": "Modellino di nave \"Wind Sprite\"",
+      "ja": "「Wind Sprite」船舶模型",
+      "ko-KR": "\"Wind Sprite\" 선박 모형",
+      "no": "Skipsmodell \"Wind Sprite\"",
+      "pl": "Model statku \"Wind Sprite\"",
+      "pt": "Modelo de navio \"Wind Sprite\"",
+      "pt-BR": "Modelo de navio \"Wind Sprite\"",
+      "ru": "Модель корабля «Wind Sprite»",
+      "sr": "Maketa broda \"Wind Sprite\"",
+      "tr": "\"Wind Sprite\" Gemi Modeli",
+      "uk": "Модель корабля «Wind Sprite»",
+      "zh-CN": "「Wind Sprite」号船模",
+      "zh-TW": "「Wind Sprite」號船模"
+    },
+    "description": {
+      "da": "Uafskrækket af sine større brødre er denne smidige enmaster kendt for at trodse selv de mest knapt-over-gennemsnitlige bølger.",
+      "de": "Unerschrocken angesichts seiner größeren Geschwister ist dieser flinke Einmaster dafür bekannt, selbst den gerade-über-durchschnittlichsten Wellen zu trotzen.",
+      "en": "Undaunted in the face of its larger brethren, this nimble one-master has been known to brave even the most just-above-average of waves.",
+      "es": "Imperturbable ante sus hermanos mayores, este ágil monomástil es conocido por desafiar incluso las olas más ligeramente por encima del promedio.",
+      "fr": "Sans peur face à ses semblables plus grands, ce monomât agile est connu pour braver les vagues les plus légèrement au-dessus de la moyenne.",
+      "he": "ללא חת מול אחיו הגדולים יותר, חד-תורן זריז זה ידוע באומץ לעמוד מול גלים אפילו במקצת מעל הממוצע.",
+      "hr": "Neustrašiv pred svojom većom braćom, ovaj okretni jednojarbol poznat je po prkošenju i valovima tek malo iznad prosjeka.",
+      "it": "Imperterrito di fronte ai suoi fratelli più grandi, questo agile monoalbero è noto per affrontare anche le onde appena sopra la media.",
+      "ja": "より大きな兄弟たちを前にしても怯まず、この機敏な一本マスト船は平均をわずかに上回る波にすら立ち向かうことで知られている。",
+      "ko-KR": "더 큰 형제들 앞에서도 굴하지 않으며, 이 민첩한 단마스트선은 평균을 약간 웃도는 파도조차 헤쳐 나가는 것으로 유명하다.",
+      "no": "Uredd overfor sine større brødre, har denne smidige enmasteren vært kjent for å trosse selv de mest så vidt over gjennomsnittlige bølger.",
+      "pl": "Niezrażony swoimi większymi braćmi, ten zwinny jednomasztowiec jest znany z mierzenia się nawet z falami nieco powyżej przeciętnej.",
+      "pt": "Imperturbável perante os seus irmãos maiores, este ágil monomastro é conhecido por enfrentar até as ondas ligeiramente acima da média.",
+      "pt-BR": "Imperturbável diante de seus irmãos maiores, este ágil monomastro é conhecido por enfrentar até as ondas ligeiramente acima da média.",
+      "ru": "Непоколебимый перед лицом своих более крупных собратьев, этот проворный одномачтовик известен тем, что бросает вызов даже самым чуть-выше-среднего волнам.",
+      "sr": "Neustrašiv pred svojom većom braćom, ovaj okretni jednojarbol poznat je po prkošenju talasima tek nešto malo iznad proseka.",
+      "tr": "Daha büyük kardeşleri karşısında yılmadan, bu çevik tek direkli geminin ortalamanın biraz üzerindeki dalgalara bile göğüs gerdiği bilinir.",
+      "uk": "Незламний перед лицем своїх більших побратимів, цей моторний одномачтовик відомий тим, що кидає виклик навіть хвилям, що ледь вищі за середні.",
+      "zh-CN": "面对更大的同胞毫不退缩，这艘灵活的单桅帆船以敢于挑战哪怕只是略高于平均水平的海浪而闻名。",
+      "zh-TW": "面對更大的同胞毫不退縮，這艘靈活的單桅帆船以敢於挑戰哪怕只是略高於平均水平的海浪而聞名。"
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "value": 1000,
+    "weightKg": 0.5,
+    "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/wind_sprite_ship_model.png",
+    "updatedAt": "04/28/2026",
+    "addedIn": "1.26",
+    "icon": "https://cdn.arctracker.io/items/wind_sprite_ship_model.png",
+    "item_type": "Trinket"
   },
   {
     "id": "wires",

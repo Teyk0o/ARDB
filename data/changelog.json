@@ -228,5 +228,34 @@
     },
     "summary": "0 added, 185 modified, 0 removed",
     "totalItems": 529
+  },
+  {
+    "date": "2026-04-29T03:16:29.596Z",
+    "timestamp": 1777432589596,
+    "changes": {
+      "added": [
+        "\"Leviathan's Crown\" Ship Model",
+        "\"Sirena Dorata\" Ship Model",
+        "\"Twilight Compass\" Ship Model",
+        "\"Velocity\" Ship Model",
+        "\"Wind Sprite\" Ship Model",
+        "Crash Mat",
+        "Crash Mat Blueprint",
+        "Dockmaster's Detector",
+        "Powered Descender",
+        "Powered Descender Blueprint",
+        "Precision Gimbal",
+        "Riven Tides Hotel Keycard No. 107",
+        "Tactical Mk. 3 (Smoke)",
+        "Tactical Mk. 3 (Smoke) Blueprint",
+        "Turbine Compressor",
+        "White Flag",
+        "White Flag Blueprint"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "summary": "17 added, 0 modified, 0 removed",
+    "totalItems": 546
   }
 ]
