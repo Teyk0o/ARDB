@@ -1,38 +1,5 @@
 [
   {
-    "date": "2026-04-01T03:13:55.917Z",
-    "timestamp": 1775013235917,
-    "changes": {
-      "added": [
-        "Assessor Matrix",
-        "Canto Blueprint",
-        "Canto I",
-        "Canto II",
-        "Canto III",
-        "Canto IV",
-        "Dodger's Note",
-        "Dolabra",
-        "Dolabra Blueprint",
-        "Official Shutdown Documentation",
-        "Scout Patrol Note",
-        "Secret Meeting Info",
-        "Surge Coil",
-        "Surge Coil Blueprint",
-        "Vaporizer Regulator"
-      ],
-      "modified": [
-        "Free Loadout Augment"
-      ],
-      "removed": [
-        "Horizontal Grip Blueprint",
-        "Kinetic Converter Blueprint",
-        "Silencer III Blueprint"
-      ]
-    },
-    "summary": "15 added, 1 modified, 3 removed",
-    "totalItems": 529
-  },
-  {
     "date": "2026-04-23T03:13:56.449Z",
     "timestamp": 1776914036449,
     "changes": {
@@ -256,6 +223,21 @@
       "removed": []
     },
     "summary": "17 added, 0 modified, 0 removed",
+    "totalItems": 546
+  },
+  {
+    "date": "2026-05-01T03:16:17.869Z",
+    "timestamp": 1777605377869,
+    "changes": {
+      "added": [],
+      "modified": [
+        "Powered Descender",
+        "Turbine Compressor",
+        "Wasp Driver"
+      ],
+      "removed": []
+    },
+    "summary": "0 added, 3 modified, 0 removed",
     "totalItems": 546
   }
 ]

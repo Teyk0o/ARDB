@@ -3907,7 +3907,8 @@
           "craftBench": "utility_bench",
           "stationLevelRequired": 3,
           "recipe": {
-            "power_rod": 1
+            "power_rod": 1,
+            "turbine_compressor": 1
           },
           "recyclesInto": {
             "advanced_electrical_components": 1,
@@ -4774,7 +4775,7 @@
           "rarity": "Epic",
           "value": 6000,
           "weightKg": 0.5,
-          "stackSize": 1,
+          "stackSize": 3,
           "recyclesInto": {
             "advanced_electrical_components": 1,
             "arc_circuitry": 2
@@ -25174,14 +25175,13 @@
             }
           },
           "recyclesInto": {
-            "arc_alloy": 1,
-            "electrical_components": 1
+            "arc_alloy": 2
           },
           "salvagesInto": {
             "arc_alloy": 2
           },
           "imageFilename": "https://cdn.arctracker.io/items/wasp_driver.png",
-          "updatedAt": "01/13/2026",
+          "updatedAt": "04/28/2026",
           "addedIn": "base",
           "tip": "The Wasp Driver is a rare item is dropped by Wasps that can be recycled into crafting materials."
         },
@@ -26340,7 +26340,8 @@
           "craftBench": "utility_bench",
           "stationLevelRequired": 3,
           "recipe": {
-            "power_rod": 1
+            "power_rod": 1,
+            "turbine_compressor": 1
           },
           "recyclesInto": {
             "advanced_electrical_components": 1,
@@ -26355,6 +26356,73 @@
         },
         "component": {
           "id": "powered_descender"
+        }
+      },
+      {
+        "item": {
+          "id": "turbine_compressor",
+          "name": {
+            "da": "Turbinekompressor",
+            "de": "Turbinenkompressor",
+            "en": "Turbine Compressor",
+            "es": "Compresor de turbina",
+            "fr": "Compresseur de turbine",
+            "he": "מדחס טורבינה",
+            "hr": "Turbinski kompresor",
+            "it": "Compressore della turbina",
+            "ja": "タービンコンプレッサー",
+            "ko-KR": "터빈 압축기",
+            "no": "Turbinkompressor",
+            "pl": "Sprężarka turbiny",
+            "pt": "Compressor de turbina",
+            "pt-BR": "Compressor de turbina",
+            "ru": "Турбинный компрессор",
+            "sr": "Turbinski kompresor",
+            "tr": "Türbin Kompresörü",
+            "uk": "Турбінний компресор",
+            "zh-CN": "涡轮压缩机",
+            "zh-TW": "渦輪壓縮機"
+          },
+          "description": {
+            "da": "",
+            "de": "",
+            "en": "Can be recycled into crafting materials.",
+            "es": "",
+            "fr": "",
+            "he": "",
+            "hr": "",
+            "it": "",
+            "ja": "",
+            "ko-KR": "",
+            "no": "",
+            "pl": "",
+            "pt": "",
+            "pt-BR": "",
+            "ru": "",
+            "sr": "",
+            "tr": "",
+            "uk": "",
+            "zh-CN": "",
+            "zh-TW": ""
+          },
+          "type": "Recyclable",
+          "rarity": "Epic",
+          "foundIn": "ARC",
+          "value": 5000,
+          "weightKg": 0.5,
+          "stackSize": 3,
+          "recyclesInto": {
+            "arc_circuitry": 1,
+            "arc_motion_core": 1
+          },
+          "salvagesInto": {
+            "arc_circuitry": 1
+          },
+          "updatedAt": "04/28/2026",
+          "addedIn": "1.26"
+        },
+        "component": {
+          "id": "turbine_compressor"
         }
       },
       {
@@ -26408,7 +26476,7 @@
           "rarity": "Epic",
           "value": 6000,
           "weightKg": 0.5,
-          "stackSize": 1,
+          "stackSize": 3,
           "recyclesInto": {
             "advanced_electrical_components": 1,
             "arc_circuitry": 2
@@ -27046,6 +27114,73 @@
         },
         "component": {
           "id": "magnetic_accelerator"
+        }
+      },
+      {
+        "item": {
+          "id": "turbine_compressor",
+          "name": {
+            "da": "Turbinekompressor",
+            "de": "Turbinenkompressor",
+            "en": "Turbine Compressor",
+            "es": "Compresor de turbina",
+            "fr": "Compresseur de turbine",
+            "he": "מדחס טורבינה",
+            "hr": "Turbinski kompresor",
+            "it": "Compressore della turbina",
+            "ja": "タービンコンプレッサー",
+            "ko-KR": "터빈 압축기",
+            "no": "Turbinkompressor",
+            "pl": "Sprężarka turbiny",
+            "pt": "Compressor de turbina",
+            "pt-BR": "Compressor de turbina",
+            "ru": "Турбинный компрессор",
+            "sr": "Turbinski kompresor",
+            "tr": "Türbin Kompresörü",
+            "uk": "Турбінний компресор",
+            "zh-CN": "涡轮压缩机",
+            "zh-TW": "渦輪壓縮機"
+          },
+          "description": {
+            "da": "",
+            "de": "",
+            "en": "Can be recycled into crafting materials.",
+            "es": "",
+            "fr": "",
+            "he": "",
+            "hr": "",
+            "it": "",
+            "ja": "",
+            "ko-KR": "",
+            "no": "",
+            "pl": "",
+            "pt": "",
+            "pt-BR": "",
+            "ru": "",
+            "sr": "",
+            "tr": "",
+            "uk": "",
+            "zh-CN": "",
+            "zh-TW": ""
+          },
+          "type": "Recyclable",
+          "rarity": "Epic",
+          "foundIn": "ARC",
+          "value": 5000,
+          "weightKg": 0.5,
+          "stackSize": 3,
+          "recyclesInto": {
+            "arc_circuitry": 1,
+            "arc_motion_core": 1
+          },
+          "salvagesInto": {
+            "arc_circuitry": 1
+          },
+          "updatedAt": "04/28/2026",
+          "addedIn": "1.26"
+        },
+        "component": {
+          "id": "turbine_compressor"
         }
       },
       {
@@ -42351,7 +42486,7 @@
           "rarity": "Common",
           "value": 12,
           "weightKg": 0.05,
-          "stackSize": 40,
+          "stackSize": 60,
           "craftQuantity": 10,
           "compatibleWith": [
             "Anvil",
@@ -42365,7 +42500,7 @@
             "metal_parts": 3
           },
           "imageFilename": "https://cdn.arctracker.io/items/heavy_ammo.png",
-          "updatedAt": "02/24/2026",
+          "updatedAt": "04/28/2026",
           "addedIn": "base",
           "vendors": [
             {
@@ -55829,7 +55964,7 @@
           "rarity": "Epic",
           "value": 6000,
           "weightKg": 0.5,
-          "stackSize": 1,
+          "stackSize": 3,
           "recyclesInto": {
             "advanced_electrical_components": 1,
             "arc_circuitry": 2
@@ -63465,123 +63600,6 @@
         },
         "component": {
           "id": "tactical_mk2"
-        }
-      },
-      {
-        "item": {
-          "id": "wasp_driver",
-          "name": {
-            "da": "Hvepsedriver",
-            "de": "Wespentreiber",
-            "en": "Wasp Driver",
-            "es": "Controlador de Avispa",
-            "fr": "Pilote de Guêpe",
-            "he": "ווספ דרייבר",
-            "hr": "Osinjak",
-            "it": "Driver di vespa",
-            "ja": "ワスプドライバー",
-            "ko-KR": "와스프 드라이버",
-            "no": "Vepsdriver",
-            "pl": "Napęd osy",
-            "pt": "Propulsor de vespa",
-            "pt-BR": "Propulsor de Vespa",
-            "ru": "Драйвер Осы",
-            "sr": "Osinjak",
-            "tr": "Eşek Arısı Sürücüsü",
-            "uk": "Осиний драйвер",
-            "zh-CN": "黄蜂引擎",
-            "zh-TW": "黃蜂驅動器"
-          },
-          "description": {
-            "da": "Kan genbruges til ARC-legering. Kan kastes og vil eksplodere hvis skudt.",
-            "de": "Kann zu ARC-Legierung recycelt werden. Kann geworfen werden; explodiert, wenn abgeschossen.",
-            "en": "Can be recycled into ARC Alloy. Can be thrown, and will explode if shot.",
-            "es": "Puede reciclarse en aleación ARC. Puede lanzarse y explotará si se dispara.",
-            "fr": "Peut être recyclé en alliage ARC. Peut être lancé et explosera s'il est touché.",
-            "he": "ניתן למחזור ל-סגסוגת ARC. ניתן לזריקה, ויתפוצץ אם יורים עליו.",
-            "hr": "Može se reciklirati u ARC leguru. Može se baciti i eksplodirat će ako se pogodi.",
-            "it": "Si può riciclare in leghe ARC. Si può lanciare ed esplode se gli si spara.",
-            "ja": "ARCアロイにリサイクル可能。投擲でき、撃たれると爆発する。",
-            "ko-KR": "아크 합금으로 재활용 가능. 투척할 수 있으며, 총에 맞으면 폭발합니다.",
-            "no": "Kan resirkuleres til ARC-legering. Kan kastes og vil eksplodere hvis skutt.",
-            "pl": "Może być przetworzony na stop ARC. Może być rzucony i wybuchnie, jeśli zostanie postrzelony.",
-            "pt": "Pode ser reciclado em liga ARC. Pode ser arremessado e explodirá se for atingido.",
-            "pt-BR": "Pode ser reciclado em liga ARC. Pode ser arremessado e explodirá se for atingido.",
-            "ru": "Можно переработать в сплав ARC. Можно бросить, взорвётся при попадании.",
-            "sr": "Može se reciklirati u ARC leguru. Može se baciti i eksplodiraće ako se pogodi.",
-            "tr": "Arc alaşımına geri dönüştürülebilir. Fırlatılabilir ve vurulduğunda patlar.",
-            "uk": "Можна переробити на сплав ARC. Можна кинути, вибухне при влученні.",
-            "zh-CN": "可回收为ARC合金。可投掷，被射击时会爆炸。",
-            "zh-TW": "可回收為ARC合金。可投擲，被射擊時會爆炸。"
-          },
-          "type": "Recyclable",
-          "rarity": "Rare",
-          "foundIn": "ARC",
-          "value": 640,
-          "weightKg": 0.6,
-          "stackSize": 3,
-          "effects": {
-            "Damage": {
-              "value": 80,
-              "da": "Skade",
-              "de": "Schaden",
-              "en": "Damage",
-              "es": "Daño",
-              "fr": "Dégâts",
-              "he": "נזק",
-              "hr": "Šteta",
-              "it": "Danni",
-              "ja": "ダメージ",
-              "ko-KR": "피해",
-              "no": "Skade",
-              "pl": "Obrażenia",
-              "pt": "Dano",
-              "pt-BR": "Dano",
-              "ru": "Урон",
-              "sr": "Šteta",
-              "tr": "Hasar",
-              "uk": "Шкода",
-              "zh-CN": "伤害",
-              "zh-TW": "傷害"
-            },
-            "Radius": {
-              "value": "5m",
-              "da": "Radius",
-              "de": "Radius",
-              "en": "Radius",
-              "es": "Radio",
-              "fr": "Rayon",
-              "he": "רדיוס",
-              "hr": "Radijus",
-              "it": "Raggio",
-              "ja": "範囲",
-              "ko-KR": "반경",
-              "no": "Radius",
-              "pl": "Promień",
-              "pt": "Raio",
-              "pt-BR": "Raio",
-              "ru": "Радиус",
-              "sr": "Radijus",
-              "tr": "Yarıçap",
-              "uk": "Радіус",
-              "zh-CN": "范围",
-              "zh-TW": "範圍"
-            }
-          },
-          "recyclesInto": {
-            "arc_alloy": 1,
-            "electrical_components": 1
-          },
-          "salvagesInto": {
-            "arc_alloy": 2
-          },
-          "imageFilename": "https://cdn.arctracker.io/items/wasp_driver.png",
-          "updatedAt": "01/13/2026",
-          "addedIn": "base",
-          "tip": "The Wasp Driver is a rare item is dropped by Wasps that can be recycled into crafting materials."
-        },
-        "component": {
-          "id": "wasp_driver"
         }
       }
     ],
@@ -71771,7 +71789,10 @@
           "weightKg": 0.2,
           "stackSize": 5,
           "blueprintLocked": true,
-          "craftBench": "medical_lab",
+          "craftBench": [
+            "med_station",
+            "in_raid"
+          ],
           "stationLevelRequired": 1,
           "recipe": {
             "fabric": 10,
@@ -73297,7 +73318,10 @@
           "weightKg": 0.2,
           "stackSize": 5,
           "blueprintLocked": true,
-          "craftBench": "medical_lab",
+          "craftBench": [
+            "med_station",
+            "in_raid"
+          ],
           "stationLevelRequired": 1,
           "recipe": {
             "fabric": 10,
@@ -80650,7 +80674,7 @@
     "rarity": "Common",
     "value": 12,
     "weightKg": 0.05,
-    "stackSize": 40,
+    "stackSize": 60,
     "craftQuantity": 10,
     "compatibleWith": [
       "Anvil",
@@ -80664,7 +80688,7 @@
       "metal_parts": 3
     },
     "imageFilename": "https://cdn.arctracker.io/items/heavy_ammo.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "04/28/2026",
     "addedIn": "base",
     "vendors": [
       {
@@ -122504,7 +122528,7 @@
           "rarity": "Common",
           "value": 12,
           "weightKg": 0.05,
-          "stackSize": 40,
+          "stackSize": 60,
           "craftQuantity": 10,
           "compatibleWith": [
             "Anvil",
@@ -122518,7 +122542,7 @@
             "metal_parts": 3
           },
           "imageFilename": "https://cdn.arctracker.io/items/heavy_ammo.png",
-          "updatedAt": "02/24/2026",
+          "updatedAt": "04/28/2026",
           "addedIn": "base",
           "vendors": [
             {
@@ -143952,7 +143976,10 @@
           "weightKg": 0.2,
           "stackSize": 5,
           "blueprintLocked": true,
-          "craftBench": "medical_lab",
+          "craftBench": [
+            "med_station",
+            "in_raid"
+          ],
           "stationLevelRequired": 1,
           "recipe": {
             "fabric": 10,
@@ -147806,7 +147833,10 @@
           "weightKg": 0.2,
           "stackSize": 5,
           "blueprintLocked": true,
-          "craftBench": "medical_lab",
+          "craftBench": [
+            "med_station",
+            "in_raid"
+          ],
           "stationLevelRequired": 1,
           "recipe": {
             "fabric": 10,
@@ -148770,7 +148800,8 @@
           "craftBench": "utility_bench",
           "stationLevelRequired": 3,
           "recipe": {
-            "power_rod": 1
+            "power_rod": 1,
+            "turbine_compressor": 1
           },
           "recyclesInto": {
             "advanced_electrical_components": 1,
@@ -149390,7 +149421,8 @@
     "craftBench": "utility_bench",
     "stationLevelRequired": 3,
     "recipe": {
-      "power_rod": 1
+      "power_rod": 1,
+      "turbine_compressor": 1
     },
     "recyclesInto": {
       "advanced_electrical_components": 1,
@@ -149475,6 +149507,73 @@
         },
         "component": {
           "id": "power_rod"
+        }
+      },
+      {
+        "item": {
+          "id": "turbine_compressor",
+          "name": {
+            "da": "Turbinekompressor",
+            "de": "Turbinenkompressor",
+            "en": "Turbine Compressor",
+            "es": "Compresor de turbina",
+            "fr": "Compresseur de turbine",
+            "he": "מדחס טורבינה",
+            "hr": "Turbinski kompresor",
+            "it": "Compressore della turbina",
+            "ja": "タービンコンプレッサー",
+            "ko-KR": "터빈 압축기",
+            "no": "Turbinkompressor",
+            "pl": "Sprężarka turbiny",
+            "pt": "Compressor de turbina",
+            "pt-BR": "Compressor de turbina",
+            "ru": "Турбинный компрессор",
+            "sr": "Turbinski kompresor",
+            "tr": "Türbin Kompresörü",
+            "uk": "Турбінний компресор",
+            "zh-CN": "涡轮压缩机",
+            "zh-TW": "渦輪壓縮機"
+          },
+          "description": {
+            "da": "",
+            "de": "",
+            "en": "Can be recycled into crafting materials.",
+            "es": "",
+            "fr": "",
+            "he": "",
+            "hr": "",
+            "it": "",
+            "ja": "",
+            "ko-KR": "",
+            "no": "",
+            "pl": "",
+            "pt": "",
+            "pt-BR": "",
+            "ru": "",
+            "sr": "",
+            "tr": "",
+            "uk": "",
+            "zh-CN": "",
+            "zh-TW": ""
+          },
+          "type": "Recyclable",
+          "rarity": "Epic",
+          "foundIn": "ARC",
+          "value": 5000,
+          "weightKg": 0.5,
+          "stackSize": 3,
+          "recyclesInto": {
+            "arc_circuitry": 1,
+            "arc_motion_core": 1
+          },
+          "salvagesInto": {
+            "arc_circuitry": 1
+          },
+          "updatedAt": "04/28/2026",
+          "addedIn": "1.26"
+        },
+        "component": {
+          "id": "turbine_compressor"
         }
       }
     ],
@@ -194010,7 +194109,7 @@
     "stackSize": 1,
     "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_smoke_blueprint.png",
     "updatedAt": "04/28/2026",
-    "addedIn": "base",
+    "addedIn": "1.26",
     "icon": "https://cdn.arctracker.io/items/tactical_mk3_smoke_blueprint.png",
     "item_type": "Blueprint"
   },
@@ -198587,7 +198686,7 @@
     "description": {
       "da": "",
       "de": "",
-      "en": "",
+      "en": "Can be recycled into crafting materials.",
       "es": "",
       "fr": "",
       "he": "",
@@ -198609,9 +198708,94 @@
     "type": "Recyclable",
     "rarity": "Epic",
     "foundIn": "ARC",
+    "value": 5000,
+    "weightKg": 0.5,
     "stackSize": 3,
+    "recyclesInto": {
+      "arc_circuitry": 1,
+      "arc_motion_core": 1
+    },
+    "salvagesInto": {
+      "arc_circuitry": 1
+    },
     "updatedAt": "04/28/2026",
     "addedIn": "1.26",
+    "used_in": [
+      {
+        "item": {
+          "id": "powered_descender",
+          "name": {
+            "da": "Drevet Nedstiger",
+            "de": "Motorisierter Abseiler",
+            "en": "Powered Descender",
+            "es": "Descensor motorizado",
+            "fr": "Descendeur motorisé",
+            "he": "מתקן ירידה ממונע",
+            "hr": "Motorizirani spuštač",
+            "it": "Discensore motorizzato",
+            "ja": "電動ディセンダー",
+            "ko-KR": "동력 강하기",
+            "no": "Motorisert nedstiger",
+            "pl": "Zjazdnik z napędem",
+            "pt": "Descensor motorizado",
+            "pt-BR": "Descensor motorizado",
+            "ru": "Моторизованный спусковой механизм",
+            "sr": "Motorizovani spuštač",
+            "tr": "Motorlu İniş Aleti",
+            "uk": "Моторизований спусковий пристрій",
+            "zh-CN": "动力下降器",
+            "zh-TW": "動力下降器"
+          },
+          "description": {
+            "da": "Reducerer faldhastigheden, når den bruges i luften, men kræver opstartstid, før den når fuld kraft. Slukker, når den løber tør for strøm",
+            "de": "Verringert die Fallgeschwindigkeit, wenn es in der Luft verwendet wird, benötigt aber Anlaufzeit, bevor es die volle Kraft erreicht. Schaltet sich ab, sobald die Energie aufgebraucht ist",
+            "en": "Reduces fall speed when used in the air, but has a wind-up time before reaching full force. Shuts down once out of power",
+            "es": "Reduce la velocidad de caída al usarse en el aire, pero tarda un momento en alcanzar la potencia máxima. Se apaga cuando se queda sin energía",
+            "fr": "Réduit la vitesse de chute lorsqu'il est utilisé en l'air, mais nécessite un temps de lancement avant d'atteindre sa pleine puissance. S'arrête une fois l'énergie épuisée",
+            "he": "מפחית את מהירות הנפילה כשמשתמשים בו באוויר, אך נדרש זמן התנעה לפני שהוא מגיע למלוא העוצמה. נכבה כשהאנרגיה אוזלת",
+            "hr": "Smanjuje brzinu pada kada se koristi u zraku, ali treba mu vrijeme za pokretanje prije nego dosegne punu snagu. Isključuje se kada ostane bez energije",
+            "it": "Riduce la velocità di caduta quando viene usato in aria, ma richiede un tempo di avvio prima di raggiungere la piena potenza. Si spegne quando esaurisce l'energia",
+            "ja": "空中で使用すると落下速度を低下させるが、最大出力に達するまでに起動時間が必要。電力が尽きると停止する。",
+            "ko-KR": "공중에서 사용하면 낙하 속도를 줄여 주지만, 최대 출력에 도달하기까지 예열 시간이 필요합니다. 전력이 떨어지면 꺼집니다.",
+            "no": "Reduserer fallhastigheten når den brukes i luften, men trenger oppstartstid før den når full kraft. Slår seg av når den går tom for strøm",
+            "pl": "Zmniejsza prędkość spadania podczas użycia w powietrzu, ale potrzebuje chwili rozruchu, zanim osiągnie pełną moc. Wyłącza się po wyczerpaniu energii",
+            "pt": "Reduz a velocidade de queda quando usado no ar, mas precisa de um tempo de ativação antes de atingir força total. Desliga quando fica sem energia",
+            "pt-BR": "Reduz a velocidade de queda quando usado no ar, mas precisa de um tempo de ativação antes de atingir força total. Desliga quando fica sem energia",
+            "ru": "Снижает скорость падения при использовании в воздухе, но требует времени на разгон до полной мощности. Отключается, когда заканчивается заряд",
+            "sr": "Smanjuje brzinu pada kada se koristi u vazduhu, ali treba mu vreme za pokretanje pre nego što dostigne punu snagu. Isključuje se kada ostane bez energije",
+            "tr": "Havada kullanıldığında düşüş hızını azaltır, ancak tam güce ulaşmadan önce hazırlanma süresi vardır. Gücü tükendiğinde kapanır",
+            "uk": "Зменшує швидкість падіння під час використання в повітрі, але потребує часу на розгін до повної сили. Вимикається, коли закінчується заряд",
+            "zh-CN": "在空中使用时可降低下坠速度，但需要预热时间才能达到全功率。电量耗尽后会关闭",
+            "zh-TW": "在空中使用時可降低下墜速度，但需要預熱時間才能達到全功率。電力耗盡後會關閉"
+          },
+          "type": "Quick Use",
+          "rarity": "Epic",
+          "value": 10000,
+          "weightKg": 5,
+          "stackSize": 1,
+          "blueprintLocked": true,
+          "craftBench": "utility_bench",
+          "stationLevelRequired": 3,
+          "recipe": {
+            "power_rod": 1,
+            "turbine_compressor": 1
+          },
+          "recyclesInto": {
+            "advanced_electrical_components": 1,
+            "arc_circuitry": 2
+          },
+          "salvagesInto": {
+            "advanced_electrical_components": 1
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/powered_descender.png",
+          "updatedAt": "04/28/2026",
+          "addedIn": "1.26"
+        },
+        "component": {
+          "id": "turbine_compressor"
+        }
+      }
+    ],
     "item_type": "Recyclable",
     "loot_area": "ARC"
   },
@@ -198854,7 +199038,7 @@
     "rarity": "Epic",
     "value": 6000,
     "weightKg": 0.5,
-    "stackSize": 1,
+    "stackSize": 3,
     "recyclesInto": {
       "advanced_electrical_components": 1,
       "arc_circuitry": 2
@@ -204818,14 +205002,13 @@
       }
     },
     "recyclesInto": {
-      "arc_alloy": 1,
-      "electrical_components": 1
+      "arc_alloy": 2
     },
     "salvagesInto": {
       "arc_alloy": 2
     },
     "imageFilename": "https://cdn.arctracker.io/items/wasp_driver.png",
-    "updatedAt": "01/13/2026",
+    "updatedAt": "04/28/2026",
     "addedIn": "base",
     "tip": "The Wasp Driver is a rare item is dropped by Wasps that can be recycled into crafting materials.",
     "icon": "https://cdn.arctracker.io/items/wasp_driver.png",
@@ -205020,7 +205203,10 @@
     "weightKg": 0.2,
     "stackSize": 5,
     "blueprintLocked": true,
-    "craftBench": "medical_lab",
+    "craftBench": [
+      "med_station",
+      "in_raid"
+    ],
     "stationLevelRequired": 1,
     "recipe": {
       "fabric": 10,
@@ -205246,7 +205432,10 @@
         }
       }
     ],
-    "workbench": "medical_lab",
+    "workbench": [
+      "med_station",
+      "in_raid"
+    ],
     "item_type": "Quick Use"
   },
   {

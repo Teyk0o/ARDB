@@ -5016,6 +5016,55 @@
       }
     ]
   },
+  "turbine_compressor": {
+    "tag": "recycle",
+    "reasons": [
+      {
+        "type": "recycle",
+        "itemId": "turbine_compressor",
+        "recycleComponentId": "arc_circuitry",
+        "recycleComponentName": "ARC Circuitry",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "turbine_compressor",
+            "itemName": "Turbine Compressor",
+            "targetId": "arc_circuitry",
+            "targetName": "ARC Circuitry"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "arc_circuitry",
+            "itemName": "ARC Circuitry",
+            "workshopStation": "refiner",
+            "workshopLevel": "3"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "turbine_compressor",
+        "recycleComponentId": "arc_motion_core",
+        "recycleComponentName": "ARC Motion Core",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "turbine_compressor",
+            "itemName": "Turbine Compressor",
+            "targetId": "arc_motion_core",
+            "targetName": "ARC Motion Core"
+          },
+          {
+            "action": "use_in_workshop",
+            "itemId": "arc_motion_core",
+            "itemName": "ARC Motion Core",
+            "workshopStation": "refiner",
+            "workshopLevel": "2"
+          }
+        ]
+      }
+    ]
+  },
   "turbo_pump": {
     "tag": "recycle",
     "reasons": [
