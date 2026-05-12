@@ -233,7 +233,7 @@
   "torn_blanket": "recycle",
   "torn_book": "sell",
   "tropical_duck": "sell",
-  "turbine_compressor": "recycle",
+  "turbine_compressor": "keep",
   "turbo_pump": "recycle",
   "twilight_compass_ship_model": "keep",
   "unusable_weapon": "recycle",

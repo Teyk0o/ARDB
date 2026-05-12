@@ -5017,51 +5017,23 @@
     ]
   },
   "turbine_compressor": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "turbine_compressor",
-        "recycleComponentId": "arc_circuitry",
-        "recycleComponentName": "ARC Circuitry",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "turbine_compressor",
-            "itemName": "Turbine Compressor",
-            "targetId": "arc_circuitry",
-            "targetName": "ARC Circuitry"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "arc_circuitry",
-            "itemName": "ARC Circuitry",
-            "workshopStation": "refiner",
-            "workshopLevel": "3"
-          }
-        ]
+        "projectId": "avian_alarm_project",
+        "projectName": "Avian Alarm",
+        "projectPhase": 5,
+        "completed": false
       },
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "turbine_compressor",
-        "recycleComponentId": "arc_motion_core",
-        "recycleComponentName": "ARC Motion Core",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "turbine_compressor",
-            "itemName": "Turbine Compressor",
-            "targetId": "arc_motion_core",
-            "targetName": "ARC Motion Core"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "arc_motion_core",
-            "itemName": "ARC Motion Core",
-            "workshopStation": "refiner",
-            "workshopLevel": "2"
-          }
-        ]
+        "projectId": "expedition_project_s4",
+        "projectName": "Expedition (Expedition 4)",
+        "projectPhase": 3,
+        "completed": false
       }
     ]
   },
