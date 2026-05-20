@@ -5660,6 +5660,160 @@
       },
       {
         "item": {
+          "id": "rascal_i",
+          "name": {
+            "en": "Rascal I"
+          },
+          "description": {
+            "en": "Fires explosive projectiles that only detonate when hitting ARC."
+          },
+          "type": "Special",
+          "rarity": "Rare",
+          "value": 7000,
+          "weightKg": 4,
+          "isWeapon": true,
+          "blueprintLocked": true,
+          "effects": {
+            "Ammo Type": {
+              "value": "Launcher Ammo",
+              "da": "Ammunitionstype",
+              "de": "Munitionstyp",
+              "en": "Ammo Type",
+              "es": "Tipo de Munición",
+              "fr": "Type de Munitions",
+              "he": "סוג תחמושת",
+              "hr": "Tip Municije",
+              "it": "Tipo di Munizioni",
+              "ja": "弾薬タイプ",
+              "ko-KR": "탄약 유형",
+              "no": "Ammunisjonstype",
+              "pl": "Typ Amunicji",
+              "pt": "Tipo de Munição",
+              "pt-BR": "Tipo de munição",
+              "ru": "Тип боеприпасов",
+              "sr": "Tip Municije",
+              "tr": "Mermi Türü",
+              "uk": "Тип боєприпасів",
+              "zh-CN": "弹药类型",
+              "zh-TW": "彈藥類型"
+            },
+            "ARC Armor Penetration": {
+              "value": "Very Strong",
+              "da": "ARC Rustningspenetrering",
+              "de": "ARC-Panzerungsdurchdringung",
+              "en": "ARC Armor Penetration",
+              "es": "Penetración de Blindaje ARC",
+              "fr": "Pénétration d'Armure ARC",
+              "he": "חדירת שריון ARC",
+              "hr": "ARC Probijanje Oklopa",
+              "it": "Penetrazione armature ARC",
+              "ja": "ARC装甲貫通",
+              "ko-KR": "아크 장갑 관통",
+              "no": "ARC Rustningspenetrering",
+              "pl": "Przebicie Pancerza ARC",
+              "pt": "Penetração de Blindagem ARC",
+              "pt-BR": "Penetração contra blindagem ARC",
+              "ru": "Пробитие брони ARC",
+              "sr": "ARC Probijanje Oklopa",
+              "tr": "ARC Zırh Delme",
+              "uk": "Пробиття броні ARC",
+              "zh-CN": "ARC 护甲穿透",
+              "zh-TW": "ARC 護甲穿透"
+            },
+            "Durability": {
+              "value": "100/100",
+              "da": "Holdbarhed",
+              "de": "Haltbarkeit",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "he": "עמידות",
+              "hr": "Izdržljivost",
+              "it": "Tenuta",
+              "ja": "耐久性",
+              "ko-KR": "내구도",
+              "no": "Holdbarhet",
+              "pl": "Wytrzymałość",
+              "pt": "Durabilidade",
+              "pt-BR": "Durabilidade",
+              "ru": "Прочность",
+              "sr": "Izdržljivost",
+              "tr": "Dayanıklılık",
+              "uk": "Міцність",
+              "zh-CN": "耐久度",
+              "zh-TW": "耐久度"
+            },
+            "Firing Mode": {
+              "value": "Break-Action",
+              "da": "Skydningstilstand",
+              "de": "Feuermodus",
+              "en": "Firing Mode",
+              "es": "Modo de Disparo",
+              "fr": "Mode de Tir",
+              "he": "מצב ירי",
+              "hr": "Režim Paljbe",
+              "it": "Modalità di Fuoco",
+              "ja": "射撃モード",
+              "ko-KR": "발사 모드",
+              "no": "Skyttemodus",
+              "pl": "Tryb Ognia",
+              "pt": "Modo de Disparo",
+              "pt-BR": "Modo de disparo",
+              "ru": "Режим стрельбы",
+              "sr": "Režim Paljbe",
+              "tr": "Atış Modu",
+              "uk": "Режим стрільби",
+              "zh-CN": "射击模式",
+              "zh-TW": "射擊模式"
+            },
+            "Magazine Size": {
+              "value": 1,
+              "da": "Magasinstørrelse",
+              "de": "Magazingröße",
+              "en": "Magazine Size",
+              "es": "Tamaño del Cargador",
+              "fr": "Taille du Chargeur",
+              "he": "גודל מחסנית",
+              "hr": "Veličina Okvira",
+              "it": "Capacità Caricatore",
+              "ja": "マガジンサイズ",
+              "ko-KR": "탄창 크기",
+              "no": "Magasinstørrelse",
+              "pl": "Pojemność Magazynka",
+              "pt": "Tamanho do Carregador",
+              "pt-BR": "Tamanho do Pente",
+              "ru": "Размер магазина",
+              "sr": "Veličina Okvira",
+              "tr": "Şarjör Boyutu",
+              "uk": "Розмір магазину",
+              "zh-CN": "弹匣容量",
+              "zh-TW": "彈匣容量"
+            }
+          },
+          "craftBench": "weapon_bench",
+          "stationLevelRequired": 2,
+          "recipe": {
+            "advanced_mechanical_components": 2,
+            "canister": 5,
+            "heavy_gun_parts": 3
+          },
+          "recyclesInto": {
+            "advanced_mechanical_components": 1,
+            "heavy_gun_parts": 2
+          },
+          "salvagesInto": {
+            "heavy_gun_parts": 2
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/v2/rascal.png",
+          "updatedAt": "05/19/2026",
+          "addedIn": "1.29"
+        },
+        "component": {
+          "id": "advanced_mechanical_components"
+        }
+      },
+      {
+        "item": {
           "id": "renegade_i",
           "name": {
             "da": "Renegade I",
@@ -12118,6 +12272,262 @@
         },
         "component": {
           "id": "osprey_iv"
+        }
+      },
+      {
+        "item": {
+          "id": "rascal_i",
+          "name": {
+            "en": "Rascal I"
+          },
+          "description": {
+            "en": "Fires explosive projectiles that only detonate when hitting ARC."
+          },
+          "type": "Special",
+          "rarity": "Rare",
+          "value": 7000,
+          "weightKg": 4,
+          "isWeapon": true,
+          "blueprintLocked": true,
+          "effects": {
+            "Ammo Type": {
+              "value": "Launcher Ammo",
+              "da": "Ammunitionstype",
+              "de": "Munitionstyp",
+              "en": "Ammo Type",
+              "es": "Tipo de Munición",
+              "fr": "Type de Munitions",
+              "he": "סוג תחמושת",
+              "hr": "Tip Municije",
+              "it": "Tipo di Munizioni",
+              "ja": "弾薬タイプ",
+              "ko-KR": "탄약 유형",
+              "no": "Ammunisjonstype",
+              "pl": "Typ Amunicji",
+              "pt": "Tipo de Munição",
+              "pt-BR": "Tipo de munição",
+              "ru": "Тип боеприпасов",
+              "sr": "Tip Municije",
+              "tr": "Mermi Türü",
+              "uk": "Тип боєприпасів",
+              "zh-CN": "弹药类型",
+              "zh-TW": "彈藥類型"
+            },
+            "ARC Armor Penetration": {
+              "value": "Very Strong",
+              "da": "ARC Rustningspenetrering",
+              "de": "ARC-Panzerungsdurchdringung",
+              "en": "ARC Armor Penetration",
+              "es": "Penetración de Blindaje ARC",
+              "fr": "Pénétration d'Armure ARC",
+              "he": "חדירת שריון ARC",
+              "hr": "ARC Probijanje Oklopa",
+              "it": "Penetrazione armature ARC",
+              "ja": "ARC装甲貫通",
+              "ko-KR": "아크 장갑 관통",
+              "no": "ARC Rustningspenetrering",
+              "pl": "Przebicie Pancerza ARC",
+              "pt": "Penetração de Blindagem ARC",
+              "pt-BR": "Penetração contra blindagem ARC",
+              "ru": "Пробитие брони ARC",
+              "sr": "ARC Probijanje Oklopa",
+              "tr": "ARC Zırh Delme",
+              "uk": "Пробиття броні ARC",
+              "zh-CN": "ARC 护甲穿透",
+              "zh-TW": "ARC 護甲穿透"
+            },
+            "Durability": {
+              "value": "100/100",
+              "da": "Holdbarhed",
+              "de": "Haltbarkeit",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "he": "עמידות",
+              "hr": "Izdržljivost",
+              "it": "Tenuta",
+              "ja": "耐久性",
+              "ko-KR": "내구도",
+              "no": "Holdbarhet",
+              "pl": "Wytrzymałość",
+              "pt": "Durabilidade",
+              "pt-BR": "Durabilidade",
+              "ru": "Прочность",
+              "sr": "Izdržljivost",
+              "tr": "Dayanıklılık",
+              "uk": "Міцність",
+              "zh-CN": "耐久度",
+              "zh-TW": "耐久度"
+            },
+            "Firing Mode": {
+              "value": "Break-Action",
+              "da": "Skydningstilstand",
+              "de": "Feuermodus",
+              "en": "Firing Mode",
+              "es": "Modo de Disparo",
+              "fr": "Mode de Tir",
+              "he": "מצב ירי",
+              "hr": "Režim Paljbe",
+              "it": "Modalità di Fuoco",
+              "ja": "射撃モード",
+              "ko-KR": "발사 모드",
+              "no": "Skyttemodus",
+              "pl": "Tryb Ognia",
+              "pt": "Modo de Disparo",
+              "pt-BR": "Modo de disparo",
+              "ru": "Режим стрельбы",
+              "sr": "Režim Paljbe",
+              "tr": "Atış Modu",
+              "uk": "Режим стрільби",
+              "zh-CN": "射击模式",
+              "zh-TW": "射擊模式"
+            },
+            "Magazine Size": {
+              "value": 1,
+              "da": "Magasinstørrelse",
+              "de": "Magazingröße",
+              "en": "Magazine Size",
+              "es": "Tamaño del Cargador",
+              "fr": "Taille du Chargeur",
+              "he": "גודל מחסנית",
+              "hr": "Veličina Okvira",
+              "it": "Capacità Caricatore",
+              "ja": "マガジンサイズ",
+              "ko-KR": "탄창 크기",
+              "no": "Magasinstørrelse",
+              "pl": "Pojemność Magazynka",
+              "pt": "Tamanho do Carregador",
+              "pt-BR": "Tamanho do Pente",
+              "ru": "Размер магазина",
+              "sr": "Veličina Okvira",
+              "tr": "Şarjör Boyutu",
+              "uk": "Розмір магазину",
+              "zh-CN": "弹匣容量",
+              "zh-TW": "彈匣容量"
+            }
+          },
+          "craftBench": "weapon_bench",
+          "stationLevelRequired": 2,
+          "recipe": {
+            "advanced_mechanical_components": 2,
+            "canister": 5,
+            "heavy_gun_parts": 3
+          },
+          "recyclesInto": {
+            "advanced_mechanical_components": 1,
+            "heavy_gun_parts": 2
+          },
+          "salvagesInto": {
+            "heavy_gun_parts": 2
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/v2/rascal.png",
+          "updatedAt": "05/19/2026",
+          "addedIn": "1.29"
+        },
+        "component": {
+          "id": "rascal_i"
+        }
+      },
+      {
+        "item": {
+          "id": "rascal_ii",
+          "name": {
+            "en": "Rascal II"
+          },
+          "description": {
+            "en": "Fires explosive projectiles that only detonate when hitting ARC."
+          },
+          "type": "Special",
+          "rarity": "Rare",
+          "value": 10000,
+          "weightKg": 4,
+          "isWeapon": true,
+          "craftBench": "weapon_bench",
+          "recyclesInto": {
+            "advanced_mechanical_components": 2,
+            "heavy_gun_parts": 2
+          },
+          "salvagesInto": {
+            "heavy_gun_parts": 2
+          },
+          "upgradeCost": {
+            "advanced_mechanical_components": 1,
+            "heavy_gun_parts": 2
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/v2/rascal.png",
+          "updatedAt": "05/19/2026",
+          "addedIn": "1.29"
+        },
+        "component": {
+          "id": "rascal_ii"
+        }
+      },
+      {
+        "item": {
+          "id": "rascal_iii",
+          "name": {
+            "en": "Rascal III"
+          },
+          "description": {
+            "en": "Fires explosive projectiles that only detonate when hitting ARC."
+          },
+          "type": "Special",
+          "rarity": "Rare",
+          "value": 13000,
+          "weightKg": 4,
+          "isWeapon": true,
+          "craftBench": "weapon_bench",
+          "recyclesInto": {
+            "advanced_mechanical_components": 2,
+            "heavy_gun_parts": 3
+          },
+          "salvagesInto": {
+            "heavy_gun_parts": 3
+          },
+          "upgradeCost": {
+            "advanced_mechanical_components": 1,
+            "heavy_gun_parts": 2
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/v2/rascal.png",
+          "updatedAt": "05/19/2026",
+          "addedIn": "1.29"
+        },
+        "component": {
+          "id": "rascal_iii"
+        }
+      },
+      {
+        "item": {
+          "id": "rascal_iv",
+          "name": {
+            "en": "Rascal IV"
+          },
+          "description": {
+            "en": "Fires explosive projectiles that only detonate when hitting ARC."
+          },
+          "type": "Special",
+          "rarity": "Rare",
+          "value": 17000,
+          "weightKg": 4,
+          "isWeapon": true,
+          "craftBench": "weapon_bench",
+          "recyclesInto": {
+            "advanced_mechanical_components": 3,
+            "heavy_gun_parts": 3
+          },
+          "salvagesInto": {
+            "heavy_gun_parts": 3
+          },
+          "upgradeCost": {
+            "advanced_mechanical_components": 2,
+            "heavy_gun_parts": 2
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/v2/rascal.png",
+          "updatedAt": "05/19/2026",
+          "addedIn": "1.29"
+        },
+        "component": {
+          "id": "rascal_iv"
         }
       },
       {
@@ -39608,6 +40018,160 @@
           "imageFilename": "https://cdn.arctracker.io/items/v2/heavy_fuze_grenade.png",
           "updatedAt": "02/24/2026",
           "addedIn": "base"
+        },
+        "component": {
+          "id": "canister"
+        }
+      },
+      {
+        "item": {
+          "id": "rascal_i",
+          "name": {
+            "en": "Rascal I"
+          },
+          "description": {
+            "en": "Fires explosive projectiles that only detonate when hitting ARC."
+          },
+          "type": "Special",
+          "rarity": "Rare",
+          "value": 7000,
+          "weightKg": 4,
+          "isWeapon": true,
+          "blueprintLocked": true,
+          "effects": {
+            "Ammo Type": {
+              "value": "Launcher Ammo",
+              "da": "Ammunitionstype",
+              "de": "Munitionstyp",
+              "en": "Ammo Type",
+              "es": "Tipo de Munición",
+              "fr": "Type de Munitions",
+              "he": "סוג תחמושת",
+              "hr": "Tip Municije",
+              "it": "Tipo di Munizioni",
+              "ja": "弾薬タイプ",
+              "ko-KR": "탄약 유형",
+              "no": "Ammunisjonstype",
+              "pl": "Typ Amunicji",
+              "pt": "Tipo de Munição",
+              "pt-BR": "Tipo de munição",
+              "ru": "Тип боеприпасов",
+              "sr": "Tip Municije",
+              "tr": "Mermi Türü",
+              "uk": "Тип боєприпасів",
+              "zh-CN": "弹药类型",
+              "zh-TW": "彈藥類型"
+            },
+            "ARC Armor Penetration": {
+              "value": "Very Strong",
+              "da": "ARC Rustningspenetrering",
+              "de": "ARC-Panzerungsdurchdringung",
+              "en": "ARC Armor Penetration",
+              "es": "Penetración de Blindaje ARC",
+              "fr": "Pénétration d'Armure ARC",
+              "he": "חדירת שריון ARC",
+              "hr": "ARC Probijanje Oklopa",
+              "it": "Penetrazione armature ARC",
+              "ja": "ARC装甲貫通",
+              "ko-KR": "아크 장갑 관통",
+              "no": "ARC Rustningspenetrering",
+              "pl": "Przebicie Pancerza ARC",
+              "pt": "Penetração de Blindagem ARC",
+              "pt-BR": "Penetração contra blindagem ARC",
+              "ru": "Пробитие брони ARC",
+              "sr": "ARC Probijanje Oklopa",
+              "tr": "ARC Zırh Delme",
+              "uk": "Пробиття броні ARC",
+              "zh-CN": "ARC 护甲穿透",
+              "zh-TW": "ARC 護甲穿透"
+            },
+            "Durability": {
+              "value": "100/100",
+              "da": "Holdbarhed",
+              "de": "Haltbarkeit",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "he": "עמידות",
+              "hr": "Izdržljivost",
+              "it": "Tenuta",
+              "ja": "耐久性",
+              "ko-KR": "내구도",
+              "no": "Holdbarhet",
+              "pl": "Wytrzymałość",
+              "pt": "Durabilidade",
+              "pt-BR": "Durabilidade",
+              "ru": "Прочность",
+              "sr": "Izdržljivost",
+              "tr": "Dayanıklılık",
+              "uk": "Міцність",
+              "zh-CN": "耐久度",
+              "zh-TW": "耐久度"
+            },
+            "Firing Mode": {
+              "value": "Break-Action",
+              "da": "Skydningstilstand",
+              "de": "Feuermodus",
+              "en": "Firing Mode",
+              "es": "Modo de Disparo",
+              "fr": "Mode de Tir",
+              "he": "מצב ירי",
+              "hr": "Režim Paljbe",
+              "it": "Modalità di Fuoco",
+              "ja": "射撃モード",
+              "ko-KR": "발사 모드",
+              "no": "Skyttemodus",
+              "pl": "Tryb Ognia",
+              "pt": "Modo de Disparo",
+              "pt-BR": "Modo de disparo",
+              "ru": "Режим стрельбы",
+              "sr": "Režim Paljbe",
+              "tr": "Atış Modu",
+              "uk": "Режим стрільби",
+              "zh-CN": "射击模式",
+              "zh-TW": "射擊模式"
+            },
+            "Magazine Size": {
+              "value": 1,
+              "da": "Magasinstørrelse",
+              "de": "Magazingröße",
+              "en": "Magazine Size",
+              "es": "Tamaño del Cargador",
+              "fr": "Taille du Chargeur",
+              "he": "גודל מחסנית",
+              "hr": "Veličina Okvira",
+              "it": "Capacità Caricatore",
+              "ja": "マガジンサイズ",
+              "ko-KR": "탄창 크기",
+              "no": "Magasinstørrelse",
+              "pl": "Pojemność Magazynka",
+              "pt": "Tamanho do Carregador",
+              "pt-BR": "Tamanho do Pente",
+              "ru": "Размер магазина",
+              "sr": "Veličina Okvira",
+              "tr": "Şarjör Boyutu",
+              "uk": "Розмір магазину",
+              "zh-CN": "弹匣容量",
+              "zh-TW": "彈匣容量"
+            }
+          },
+          "craftBench": "weapon_bench",
+          "stationLevelRequired": 2,
+          "recipe": {
+            "advanced_mechanical_components": 2,
+            "canister": 5,
+            "heavy_gun_parts": 3
+          },
+          "recyclesInto": {
+            "advanced_mechanical_components": 1,
+            "heavy_gun_parts": 2
+          },
+          "salvagesInto": {
+            "heavy_gun_parts": 2
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/v2/rascal.png",
+          "updatedAt": "05/19/2026",
+          "addedIn": "1.29"
         },
         "component": {
           "id": "canister"
@@ -68305,28 +68869,456 @@
     "item_type": "Blueprint"
   },
   {
-    "id": "extended_barrel",
+    "id": "extended_barrel_i",
     "name": {
-      "da": "Forlænget løb",
-      "de": "Verlängerter Lauf",
-      "en": "Extended Barrel",
-      "es": "Cañón extendido",
-      "fr": "Canon Allongé",
-      "he": "קנה מוארך",
-      "hr": "Produžena cijev",
-      "it": "Canna estesa",
-      "ja": "拡張バレル",
-      "ko-KR": "확장형 총열",
-      "no": "Forlenget løp",
-      "pl": "Wydłużona lufa",
-      "pt": "Cano estendido",
-      "pt-BR": "Cano Estendido",
-      "ru": "Удлиненный ствол",
-      "sr": "Produžena cev",
-      "tr": "Uzatılmış Namlu",
-      "uk": "Подовжений ствол",
-      "zh-CN": "加长枪管",
-      "zh-TW": "加長槍管"
+      "da": "Forlænget løb I",
+      "de": "Verlängerter Lauf I",
+      "en": "Extended Barrel I",
+      "es": "Cañón extendido I",
+      "fr": "Canon Allongé I",
+      "he": "קנה מוארךI",
+      "hr": "Produžena cijev I",
+      "it": "Canna estesa I",
+      "ja": "拡張バレル I",
+      "ko-KR": "확장형 총열 I",
+      "no": "Forlenget løp I",
+      "pl": "Wydłużona lufa I",
+      "pt": "Cano estendido I",
+      "pt-BR": "Cano Estendido I",
+      "ru": "Удлиненный ствол I",
+      "sr": "Produžena cev I",
+      "tr": "Uzatılmış Namlu I",
+      "uk": "Подовжений ствол I",
+      "zh-CN": "加长枪管 I",
+      "zh-TW": "加長槍管 I"
+    },
+    "type": "Modification",
+    "rarity": "Common",
+    "value": 1000,
+    "craftBench": "weapon_bench",
+    "stationLevelRequired": 1,
+    "recipe": {
+      "metal_parts": 6,
+      "wires": 3
+    },
+    "recyclesInto": {
+      "metal_parts": 5
+    },
+    "salvagesInto": {
+      "metal_parts": 3
+    },
+    "updatedAt": "05/19/2026",
+    "addedIn": "1.29",
+    "crafting_components": [
+      {
+        "item": {
+          "id": "metal_parts",
+          "name": {
+            "da": "Metaldele",
+            "de": "Metallteile",
+            "en": "Metal Parts",
+            "es": "Piezas de metal",
+            "fr": "Pièces Métalliques",
+            "he": "חלקי מתכת",
+            "hr": "Metalni Dijelovi",
+            "it": "Componenti metallici",
+            "ja": "金属パーツ",
+            "ko-KR": "금속 부품",
+            "no": "Metalldeler",
+            "pl": "Części metalowe",
+            "pt": "Peças de metal",
+            "pt-BR": "Peças de Metal",
+            "ru": "Металлические детали",
+            "sr": "Metalni Delovi",
+            "tr": "Metal Parçalar",
+            "uk": "Металеві деталі",
+            "zh-CN": "金属零件",
+            "zh-TW": "金屬零件"
+          },
+          "description": {
+            "da": "Bruges til at lave en bred vifte af genstande. Bruges til at lave: Kastervåbenammunition, Hårnål, Tung ammunition, Ferro, Kedel",
+            "de": "Wird zur Herstellung verschiedenster Gegenstände verwendet. Zur Herstellung von: Werfermunition, Hairpin, Schwere Munition, Ferro, Kettle",
+            "en": "Used to craft a wide range of items.",
+            "es": "Se usa para fabricar una amplia gama de objetos. Se usa para fabricar: Munición de lanzador, Horquilla, Munición pesada, Ferro, Caldero",
+            "fr": "Permet de fabriquer une large gamme d'objets. Permet de fabriquer : Munitions de lanceur, Épingle à cheveux, Munitions lourdes, Ferro, Fondoir",
+            "he": "משמש ליצירת מגוון רחב של פריטים.",
+            "hr": "Koristi se za izradu širokog spektra predmeta. Koristi se za izradu: Bacačka Municija, Ukosnica, Teška Municija, Ferro, Kotlić",
+            "it": "Si usa per creare una vasta gamma di oggetti. Si usa per creare: Tornante, Munizioni pesanti, Ferro, Stormo, Munizioni medie",
+            "ja": "幅広いアイテムの製作に使用。製作可能: ランチャー弾薬、ヘアピン、ヘビー弾薬、フェロ、ケトル",
+            "ko-KR": "다양한 아이템 제작에 사용됩니다. 제작 가능: 발사기 탄약, 머리핀, 중량 탄약, 페로, 주전자",
+            "no": "Brukes til å lage et bredt spekter av gjenstander. Brukes til å lage: Kastervåpenammo, Hårnål, Tung ammo, Ferro, Kjele",
+            "pl": "Używany do wytwarzania szerokiej gamy przedmiotów. Używany do wytwarzania: Amunicja do wyrzutni, Wsuwka, Ciężka amunicja, Ferro, Czajnik",
+            "pt": "Usado para fabricar uma ampla gama de itens. Usado para fabricar: Munição de lançador, Grampo, Munição pesada, Ferro, Chaleira",
+            "pt-BR": "Serve para fabricar vários tipos de itens.",
+            "ru": "Используется для создания широкого спектра предметов. Используется для крафта: Боеприпасы для гранатомёта, Шпилька, Тяжёлые боеприпасы, Ферро, Котелок",
+            "sr": "Koristi se za izradu širokog spektra predmeta. Koristi se za izradu: Bacačka Municija, Ukosnica, Teška Municija, Ferro, Kotlić",
+            "tr": "Geniş bir yelpazede eşya üretmek için kullanılır. Üretilebilir: Fırlatıcı Mühimmatı, Saç Tokası, Ağır Mühimmat, Ferro, Çaydanlık",
+            "uk": "Використовується для створення широкого спектру предметів. Використовується для крафту: Боєприпаси для гранатомета, Шпилька, Важкі боєприпаси, Ферро, Казанок",
+            "zh-CN": "用于制作各种物品。可制作：发射器弹药、发夹、重型弹药、费罗、水壶",
+            "zh-TW": "用於製作各種物品。可製作：發射器彈藥、髮夾、重型彈藥、費羅、水壺"
+          },
+          "type": "Basic Material",
+          "rarity": "Common",
+          "foundIn": "Mechanical, Industrial, Electrical, Technological",
+          "value": 75,
+          "weightKg": 0.1,
+          "stackSize": 50,
+          "imageFilename": "https://cdn.arctracker.io/items/v2/metal_parts.png",
+          "updatedAt": "03/17/2026",
+          "addedIn": "base",
+          "vendors": [
+            {
+              "cost": {
+                "assorted_seeds": 1
+              },
+              "trader": "Celeste"
+            }
+          ]
+        },
+        "component": {
+          "id": "metal_parts"
+        }
+      },
+      {
+        "item": {
+          "id": "wires",
+          "name": {
+            "da": "Ledninger",
+            "de": "Kabel",
+            "en": "Wires",
+            "es": "Cables",
+            "fr": "Câbles",
+            "he": "חוטים",
+            "hr": "Žice",
+            "it": "Cavi",
+            "ja": "ワイヤー",
+            "ko-KR": "전선",
+            "no": "Ledninger",
+            "pl": "Przewody",
+            "pt": "Fios",
+            "pt-BR": "Fios",
+            "ru": "Провода",
+            "sr": "Žice",
+            "tr": "Kablolar",
+            "uk": "Дроти",
+            "zh-CN": "导线",
+            "zh-TW": "電線"
+          },
+          "description": {
+            "da": "Bruges til at lave en bred vifte af genstande. Kan genbruges til håndværksmaterialer. Bruges til at lave: Brandgranatfælde, Røggranatfælde, Lokkemadgranatfælde, Gasgranatfælde, Mundingsbremse I",
+            "de": "Wird zur Herstellung verschiedenster Gegenstände verwendet. Kann zu Herstellungsmaterialien recycelt werden. Zur Herstellung von: Laserfalle: Feuer, Laserfalle: Rauch, Laserfalle: Köder, Laserfalle: Gas, Mündungsbremse I",
+            "en": "Used to craft a wide range of items. Can be recycled into crafting materials. Used to craft: Blaze Grenade Trap, Smoke Grenade Trap, Lure Grenade Trap, Gas Grenade Trap, Muzzle Brake I",
+            "es": "Se usa para fabricar una amplia gama de objetos. Puede reciclarse en materiales de fabricación. Se usa para fabricar: Trampa de granada incendiaria, Trampa de granada de humo, Trampa de granada señuelo, Trampa de granada de gas, Freno de boca I",
+            "fr": "Permet de fabriquer une large gamme d'objets. Peut être recyclé en matériaux d'artisanat. Permet de fabriquer : Piège à grenade incendiaire, Piège à grenade fumigène, Piège à grenade leurre, Piège à grenade à gaz, Frein de bouche I",
+            "he": "משמש ליצירת מגוון רחב של פריטים. ניתן למחזור לחומרי יצירה. משמש ליצירת: מלכודת רימון תבערה, מלכודת רימון עשן, מלכודת רימון פיתיון, מלכודת רימון גז, בלם לוע I",
+            "hr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu. Koristi se za izradu: Vatrena Zamka s Granatom, Dimna Zamka s Granatom, Zamka s Mamcem, Plinska Zamka s Granatom, Usporivač Cijevi I",
+            "it": "Si usa per creare un'ampia gamma di oggetti. Si può riciclare in materiali da creazione. Si usa per creare: Trappola laser: Fuoco, Trappola laser: Fumogeno, Trappola laser: Esca, Trappola laser: Gas, Freno di bocca I",
+            "ja": "幅広いアイテムの作成に使用。クラフト素材にリサイクル可能。作成可能: ブレイズグレネードトラップ、スモークグレネードトラップ、ルアーグレネードトラップ、ガスグレネードトラップ、マズルブレーキI",
+            "ko-KR": "다양한 아이템 제작에 사용됩니다. 제작 재료로 재활용 가능. 제작 가능: 화염 수류탄 함정, 연막 수류탄 함정, 유인 수류탄 함정, 가스 수류탄 함정, 총구 제동기 I",
+            "no": "Brukes til å lage et bredt spekter av gjenstander. Kan resirkuleres til håndverksmateriell. Brukes til å lage: Flammegranatfelle, Røykgranatfelle, Lokkemiddelgranatfelle, Gassgranatfelle, Munningsbrems I",
+            "pl": "Używany do wytwarzania szerokiej gamy przedmiotów. Może być przetworzony na materiały rzemieślnicze. Używany do wytwarzania: Pułapka z granatem zapalającym, Pułapka z granatem dymnym, Pułapka z granatem wabik, Pułapka z granatem gazowym, Hamulec wylotowy I",
+            "pt": "Usado para fabricar uma ampla gama de itens. Pode ser reciclado em materiais de fabricação. Usado para fabricar: Armadilha de granada incendiária, Armadilha de granada de fumaça, Armadilha de granada isca, Armadilha de granada de gás, Freio de boca I",
+            "pt-BR": "Usado para fabricar uma ampla variedade de itens. Pode ser reciclado em materiais de fabricação. Usado para fabricar: Armadilha de Granada Incendiária, Armadilha de Granada de Fumaça, Armadilha de Granada Isca, Armadilha de Granada de Gás, Freio de Boca I",
+            "ru": "Используется для создания широкого спектра предметов. Можно переработать в материалы для крафта. Используется для создания: Ловушка с огненной гранатой, Ловушка с дымовой гранатой, Ловушка с приманкой, Ловушка с газовой гранатой, Дульный тормоз I",
+            "sr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu. Koristi se za izradu: Vatrena Zamka sa Granatom, Dimna Zamka sa Granatom, Zamka sa Mamcem, Gasna Zamka sa Granatom, Usporivač Cevi I",
+            "tr": "Geniş bir yelpazede eşya üretiminde kullanılır. Üretim malzemelerine geri dönüştürülebilir. Üretilebilir: Alev Bombası Tuzağı, Sis Bombası Tuzağı, Yem Bombası Tuzağı, Gaz Bombası Tuzağı, Namlu Freni I",
+            "uk": "Використовується для створення широкого спектру предметів. Можна переробити в матеріали для крафту. Використовується для створення: Пастка з вогняною гранатою, Пастка з димовою гранатою, Пастка з принадою, Пастка з газовою гранатою, Дульний гальмо I",
+            "zh-CN": "用于制作各种物品。可回收为制作材料。可制作：烈焰手雷陷阱、烟雾手雷陷阱、诱捕手雷陷阱、毒气手雷陷阱、枪口制退器I",
+            "zh-TW": "用於製作各種物品。可回收為製作材料。可製作：烈焰手榴彈陷阱、煙霧手榴彈陷阱、誘餌手榴彈陷阱、毒氣手榴彈陷阱、槍口制退器I"
+          },
+          "type": "Topside Material",
+          "rarity": "Uncommon",
+          "foundIn": "Electrical, Technological",
+          "value": 200,
+          "weightKg": 0.25,
+          "stackSize": 15,
+          "recyclesInto": {
+            "rubber_parts": 2
+          },
+          "salvagesInto": {
+            "rubber_parts": 1
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/v2/wires.png",
+          "updatedAt": "03/22/2026",
+          "addedIn": "base",
+          "tip": "Wires are an uncommon item used to craft weapon mods that can be recycled into crafting materials.",
+          "vendors": [
+            {
+              "cost": {
+                "assorted_seeds": 4
+              },
+              "limit": 10,
+              "refreshSeconds": 86400,
+              "requiredLevel": 7,
+              "trader": "Celeste"
+            }
+          ]
+        },
+        "component": {
+          "id": "wires"
+        }
+      }
+    ],
+    "workbench": "weapon_bench",
+    "item_type": "Modification"
+  },
+  {
+    "id": "extended_barrel_ii",
+    "name": {
+      "da": "Forlænget løb II",
+      "de": "Verlängerter Lauf II",
+      "en": "Extended Barrel II",
+      "es": "Cañón extendido II",
+      "fr": "Canon Allongé II",
+      "he": "קנה מוארךII",
+      "hr": "Produžena cijev II",
+      "it": "Canna estesa II",
+      "ja": "拡張バレル II",
+      "ko-KR": "확장형 총열 II",
+      "no": "Forlenget løp II",
+      "pl": "Wydłużona lufa II",
+      "pt": "Cano estendido II",
+      "pt-BR": "Cano Estendido II",
+      "ru": "Удлиненный ствол II",
+      "sr": "Produžena cev II",
+      "tr": "Uzatılmış Namlu II",
+      "uk": "Подовжений ствол II",
+      "zh-CN": "加长枪管 II",
+      "zh-TW": "加長槍管 II"
+    },
+    "type": "Modification",
+    "rarity": "Common",
+    "value": 3000,
+    "blueprintLocked": true,
+    "craftBench": "weapon_bench",
+    "stationLevelRequired": 2,
+    "recipe": {
+      "mechanical_components": 3,
+      "wires": 6
+    },
+    "recyclesInto": {
+      "mechanical_components": 1,
+      "wires": 1
+    },
+    "salvagesInto": {
+      "mechanical_components": 1
+    },
+    "updatedAt": "05/19/2026",
+    "addedIn": "1.29",
+    "crafting_components": [
+      {
+        "item": {
+          "id": "mechanical_components",
+          "name": {
+            "da": "Mekaniske komponenter",
+            "de": "Mechanische Komponenten",
+            "en": "Mechanical Components",
+            "es": "Componentes mecánicos",
+            "fr": "Composants Mécaniques",
+            "he": "רכיבים מכניים",
+            "hr": "Mehaničke Komponente",
+            "it": "Componenti meccanici",
+            "ja": "機械部品",
+            "ko-KR": "기계 부품",
+            "no": "Mekaniske komponenter",
+            "pl": "Komponenty mechaniczne",
+            "pt": "Componentes mecânicos",
+            "pt-BR": "Componentes Mecânicos",
+            "ru": "Механические компоненты",
+            "sr": "Mehaničke Komponente",
+            "tr": "Mekanik Bileşenler",
+            "uk": "Механічні компоненти",
+            "zh-CN": "机械零件",
+            "zh-TW": "機械零件"
+          },
+          "description": {
+            "da": "Bruges til at fremstille en bred vifte af genstande. Kan genbruges til håndværksmaterialer. Bruges til at fremstille: Il Toro, Burletta, Anvil, Mundingsbremse II, Udvidet medium magasin II",
+            "de": "Wird zur Herstellung verschiedenster Gegenstände verwendet. Kann zu Herstellungsmaterialien recycelt werden. Zur Herstellung von: Il Toro, Burletta, Anvil, Mündungsbremse II, Erweitertes mittelschweres Magazin II",
+            "en": "Used to craft a wide range of items. Can be recycled into crafting materials. Used to craft: Il Toro, Burletta, Anvil, Muzzle Brake II, Extended Medium Mag II",
+            "es": "Usado para fabricar una amplia gama de objetos. Puede reciclarse en materiales de fabricación. Usado para fabricar: Il Toro, Burletta, Yunque, Freno de boca II, Cargador mediano extendido II",
+            "fr": "Permet de fabriquer une large gamme d'objets. Peut être recyclé en matériaux d'artisanat. Permet de fabriquer : Il Toro, Burletta, Enclume, Frein de bouche II, Chargeur moyen étendu II",
+            "he": "משמש ליצירת מגוון רחב של פריטים. ניתן למחזר לחומרי יצירה. משמש ליצירת: Il Toro, Burletta, Anvil, Muzzle Brake II, Extended Medium Mag II",
+            "hr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu. Koristi se za izradu: Il Toro, Burletta, Anvil, Muzzle Brake II, Extended Medium Mag II",
+            "it": "Si usa per creare una vasta gamma di oggetti. Si può riciclare in materiali da creazione. Si usa per creare: Il Toro, Burletta, Incudine, Freno di bocca II, Caricatore medio esteso II",
+            "ja": "幅広いアイテムの製作に使用。製作材料にリサイクル可能。製作可能: Il Toro、Burletta、Anvil、マズルブレーキII、拡張ミディアムマガジンII",
+            "ko-KR": "다양한 아이템 제작에 사용됩니다. 제작 재료로 재활용 가능. 제작 가능: 일 토로, 부를레타, 앤빌, 총구 제동기 II, 확장형 중량 탄창 II",
+            "no": "Brukes til å lage et bredt spekter av gjenstander. Kan resirkuleres til håndverksmateriell. Brukes til å lage: Il Toro, Burletta, Anvil, Munningsbrems II, Utvidet medium magasin II",
+            "pl": "Używany do wytwarzania szerokiej gamy przedmiotów. Może być przetworzony na materiały rzemieślnicze. Używany do wytworzenia: Il Toro, Burletta, Anvil, Hamulec wylotowy II, Rozszerzony średni magazynek II",
+            "pt": "Usado para fabricar uma ampla gama de itens. Pode ser reciclado em materiais de fabricação. Usado para fabricar: Il Toro, Burletta, Anvil, Freio de boca II, Carregador médio estendido II",
+            "pt-BR": "Usado para fabricar uma ampla gama de itens. Pode ser reciclado em materiais de fabricação. Usado para fabricar: Il Toro, Burletta, Bigorna, Freio de Boca II, Carregador Médio Estendido II",
+            "ru": "Используется для создания широкого спектра предметов. Можно переработать в материалы для крафта. Используется для создания: Il Toro, Burletta, Anvil, дульный тормоз II, расширенный средний магазин II",
+            "sr": "Koristi se za pravljenje širokog spektra predmeta. Može se reciklirati u materijale za pravljenje. Koristi se za pravljenje: Il Toro, Burletta, Anvil, Muzzle Brake II, Extended Medium Mag II",
+            "tr": "Çok çeşitli eşyaları üretmek için kullanılır. Üretim malzemelerine geri dönüştürülebilir. Üretim için kullanılır: Il Toro, Burletta, Anvil, Namlu Freni II, Uzatılmış Orta Şarjör II",
+            "uk": "Використовується для створення широкого спектру предметів. Можна переробити на матеріали для крафту. Використовується для створення: Il Toro, Burletta, Anvil, дульний гальмо II, розширений середній магазин II",
+            "zh-CN": "用于制作各种物品。可回收成制作材料。用于制作：Il Toro、Burletta、Anvil、枪口制退器II、中型扩容弹匣II",
+            "zh-TW": "用於製作各種物品。可回收成製作材料。用於製作：Il Toro、Burletta、Anvil、槍口制退器II、延長中型彈匣II"
+          },
+          "type": "Refined Material",
+          "rarity": "Uncommon",
+          "foundIn": "Mechanical",
+          "value": 640,
+          "weightKg": 0.5,
+          "stackSize": 10,
+          "craftBench": "refiner",
+          "stationLevelRequired": 1,
+          "recipe": {
+            "metal_parts": 7,
+            "rubber_parts": 3
+          },
+          "recyclesInto": {
+            "metal_parts": 3,
+            "rubber_parts": 2
+          },
+          "salvagesInto": {
+            "metal_parts": 3
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/v2/mechanical_components.png",
+          "updatedAt": "03/17/2026",
+          "addedIn": "base"
+        },
+        "component": {
+          "id": "mechanical_components"
+        }
+      },
+      {
+        "item": {
+          "id": "wires",
+          "name": {
+            "da": "Ledninger",
+            "de": "Kabel",
+            "en": "Wires",
+            "es": "Cables",
+            "fr": "Câbles",
+            "he": "חוטים",
+            "hr": "Žice",
+            "it": "Cavi",
+            "ja": "ワイヤー",
+            "ko-KR": "전선",
+            "no": "Ledninger",
+            "pl": "Przewody",
+            "pt": "Fios",
+            "pt-BR": "Fios",
+            "ru": "Провода",
+            "sr": "Žice",
+            "tr": "Kablolar",
+            "uk": "Дроти",
+            "zh-CN": "导线",
+            "zh-TW": "電線"
+          },
+          "description": {
+            "da": "Bruges til at lave en bred vifte af genstande. Kan genbruges til håndværksmaterialer. Bruges til at lave: Brandgranatfælde, Røggranatfælde, Lokkemadgranatfælde, Gasgranatfælde, Mundingsbremse I",
+            "de": "Wird zur Herstellung verschiedenster Gegenstände verwendet. Kann zu Herstellungsmaterialien recycelt werden. Zur Herstellung von: Laserfalle: Feuer, Laserfalle: Rauch, Laserfalle: Köder, Laserfalle: Gas, Mündungsbremse I",
+            "en": "Used to craft a wide range of items. Can be recycled into crafting materials. Used to craft: Blaze Grenade Trap, Smoke Grenade Trap, Lure Grenade Trap, Gas Grenade Trap, Muzzle Brake I",
+            "es": "Se usa para fabricar una amplia gama de objetos. Puede reciclarse en materiales de fabricación. Se usa para fabricar: Trampa de granada incendiaria, Trampa de granada de humo, Trampa de granada señuelo, Trampa de granada de gas, Freno de boca I",
+            "fr": "Permet de fabriquer une large gamme d'objets. Peut être recyclé en matériaux d'artisanat. Permet de fabriquer : Piège à grenade incendiaire, Piège à grenade fumigène, Piège à grenade leurre, Piège à grenade à gaz, Frein de bouche I",
+            "he": "משמש ליצירת מגוון רחב של פריטים. ניתן למחזור לחומרי יצירה. משמש ליצירת: מלכודת רימון תבערה, מלכודת רימון עשן, מלכודת רימון פיתיון, מלכודת רימון גז, בלם לוע I",
+            "hr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu. Koristi se za izradu: Vatrena Zamka s Granatom, Dimna Zamka s Granatom, Zamka s Mamcem, Plinska Zamka s Granatom, Usporivač Cijevi I",
+            "it": "Si usa per creare un'ampia gamma di oggetti. Si può riciclare in materiali da creazione. Si usa per creare: Trappola laser: Fuoco, Trappola laser: Fumogeno, Trappola laser: Esca, Trappola laser: Gas, Freno di bocca I",
+            "ja": "幅広いアイテムの作成に使用。クラフト素材にリサイクル可能。作成可能: ブレイズグレネードトラップ、スモークグレネードトラップ、ルアーグレネードトラップ、ガスグレネードトラップ、マズルブレーキI",
+            "ko-KR": "다양한 아이템 제작에 사용됩니다. 제작 재료로 재활용 가능. 제작 가능: 화염 수류탄 함정, 연막 수류탄 함정, 유인 수류탄 함정, 가스 수류탄 함정, 총구 제동기 I",
+            "no": "Brukes til å lage et bredt spekter av gjenstander. Kan resirkuleres til håndverksmateriell. Brukes til å lage: Flammegranatfelle, Røykgranatfelle, Lokkemiddelgranatfelle, Gassgranatfelle, Munningsbrems I",
+            "pl": "Używany do wytwarzania szerokiej gamy przedmiotów. Może być przetworzony na materiały rzemieślnicze. Używany do wytwarzania: Pułapka z granatem zapalającym, Pułapka z granatem dymnym, Pułapka z granatem wabik, Pułapka z granatem gazowym, Hamulec wylotowy I",
+            "pt": "Usado para fabricar uma ampla gama de itens. Pode ser reciclado em materiais de fabricação. Usado para fabricar: Armadilha de granada incendiária, Armadilha de granada de fumaça, Armadilha de granada isca, Armadilha de granada de gás, Freio de boca I",
+            "pt-BR": "Usado para fabricar uma ampla variedade de itens. Pode ser reciclado em materiais de fabricação. Usado para fabricar: Armadilha de Granada Incendiária, Armadilha de Granada de Fumaça, Armadilha de Granada Isca, Armadilha de Granada de Gás, Freio de Boca I",
+            "ru": "Используется для создания широкого спектра предметов. Можно переработать в материалы для крафта. Используется для создания: Ловушка с огненной гранатой, Ловушка с дымовой гранатой, Ловушка с приманкой, Ловушка с газовой гранатой, Дульный тормоз I",
+            "sr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu. Koristi se za izradu: Vatrena Zamka sa Granatom, Dimna Zamka sa Granatom, Zamka sa Mamcem, Gasna Zamka sa Granatom, Usporivač Cevi I",
+            "tr": "Geniş bir yelpazede eşya üretiminde kullanılır. Üretim malzemelerine geri dönüştürülebilir. Üretilebilir: Alev Bombası Tuzağı, Sis Bombası Tuzağı, Yem Bombası Tuzağı, Gaz Bombası Tuzağı, Namlu Freni I",
+            "uk": "Використовується для створення широкого спектру предметів. Можна переробити в матеріали для крафту. Використовується для створення: Пастка з вогняною гранатою, Пастка з димовою гранатою, Пастка з принадою, Пастка з газовою гранатою, Дульний гальмо I",
+            "zh-CN": "用于制作各种物品。可回收为制作材料。可制作：烈焰手雷陷阱、烟雾手雷陷阱、诱捕手雷陷阱、毒气手雷陷阱、枪口制退器I",
+            "zh-TW": "用於製作各種物品。可回收為製作材料。可製作：烈焰手榴彈陷阱、煙霧手榴彈陷阱、誘餌手榴彈陷阱、毒氣手榴彈陷阱、槍口制退器I"
+          },
+          "type": "Topside Material",
+          "rarity": "Uncommon",
+          "foundIn": "Electrical, Technological",
+          "value": 200,
+          "weightKg": 0.25,
+          "stackSize": 15,
+          "recyclesInto": {
+            "rubber_parts": 2
+          },
+          "salvagesInto": {
+            "rubber_parts": 1
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/v2/wires.png",
+          "updatedAt": "03/22/2026",
+          "addedIn": "base",
+          "tip": "Wires are an uncommon item used to craft weapon mods that can be recycled into crafting materials.",
+          "vendors": [
+            {
+              "cost": {
+                "assorted_seeds": 4
+              },
+              "limit": 10,
+              "refreshSeconds": 86400,
+              "requiredLevel": 7,
+              "trader": "Celeste"
+            }
+          ]
+        },
+        "component": {
+          "id": "wires"
+        }
+      }
+    ],
+    "workbench": "weapon_bench",
+    "item_type": "Modification"
+  },
+  {
+    "id": "extended_barrel_ii_blueprint",
+    "name": {
+      "da": "Forlaenget lob-tegning II",
+      "de": "Bauplan: Verlangerter Lauf II",
+      "en": "Extended Barrel II Blueprint",
+      "es": "Plano de Canon extendido II",
+      "fr": "Schema Canon Allonge II",
+      "he": "שרטוט לקנה מוארךII",
+      "hr": "Produzena cijev Nacrt II",
+      "it": "Progetto Canna estesa II",
+      "ja": "拡張バレル 設計図 II",
+      "ko-KR": "확장형 총열 설계도 II",
+      "no": "Forlenget lop-tegning II",
+      "pl": "Projekt Wydluzona lufa II",
+      "pt": "Projeto de Cano estendido II",
+      "pt-BR": "Esquema de Cano Estendido II",
+      "ru": "Чертеж — Удлиненный ствол II",
+      "sr": "Produzena cev Nacrt II",
+      "tr": "Uzatilmis Namlu Taslağı II",
+      "uk": "Креслення Подовжений ствол II",
+      "zh-CN": "加长枪管 蓝图 II",
+      "zh-TW": "加長槍管 藍圖 II"
+    },
+    "type": "Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
+    "updatedAt": "05/19/2026",
+    "addedIn": "1.29",
+    "item_type": "Blueprint"
+  },
+  {
+    "id": "extended_barrel_iii",
+    "name": {
+      "da": "Forlænget løb III",
+      "de": "Verlängerter Lauf III",
+      "en": "Extended Barrel III",
+      "es": "Cañón extendido III",
+      "fr": "Canon Allongé III",
+      "he": "קנה מוארךIII",
+      "hr": "Produžena cijev III",
+      "it": "Canna estesa III",
+      "ja": "拡張バレル III",
+      "ko-KR": "확장형 총열 III",
+      "no": "Forlenget løp III",
+      "pl": "Wydłużona lufa III",
+      "pt": "Cano estendido III",
+      "pt-BR": "Cano Estendido III",
+      "ru": "Удлиненный ствол III",
+      "sr": "Produžena cev III",
+      "tr": "Uzatılmış Namlu III",
+      "uk": "Подовжений ствол III",
+      "zh-CN": "加长枪管 III",
+      "zh-TW": "加長槍管 III"
     },
     "description": {
       "da": "Øger kuglehastigheden moderat. Kompatibel med: Tempest, Arpeggio, Ferro, Renegade, Anvil",
@@ -68599,28 +69591,28 @@
     }
   },
   {
-    "id": "extended_barrel_blueprint",
+    "id": "extended_barrel_iii_blueprint",
     "name": {
-      "da": "Forlaenget lob-tegning",
-      "de": "Bauplan: Verlangerter Lauf",
-      "en": "Extended Barrel Blueprint",
-      "es": "Plano de Canon extendido",
-      "fr": "Schema Canon Allonge",
-      "he": "שרטוט לקנה מוארך",
-      "hr": "Produzena cijev Nacrt",
-      "it": "Progetto Canna estesa",
-      "ja": "拡張バレル 設計図",
-      "ko-KR": "확장형 총열 설계도",
-      "no": "Forlenget lop-tegning",
-      "pl": "Projekt Wydluzona lufa",
-      "pt": "Projeto de Cano estendido",
-      "pt-BR": "Esquema de Cano Estendido",
-      "ru": "Чертеж — Удлиненный ствол",
-      "sr": "Produzena cev Nacrt",
-      "tr": "Uzatilmis Namlu Taslağı",
-      "uk": "Креслення Подовжений ствол",
-      "zh-CN": "加长枪管 蓝图",
-      "zh-TW": "加長槍管 藍圖"
+      "da": "Forlaenget lob-tegning III",
+      "de": "Bauplan: Verlangerter Lauf III",
+      "en": "Extended Barrel III Blueprint",
+      "es": "Plano de Canon extendido III",
+      "fr": "Schema Canon Allonge III",
+      "he": "שרטוט לקנה מוארךIII",
+      "hr": "Produzena cijev Nacrt III",
+      "it": "Progetto Canna estesa III",
+      "ja": "拡張バレル 設計図 III",
+      "ko-KR": "확장형 총열 설계도 III",
+      "no": "Forlenget lop-tegning III",
+      "pl": "Projekt Wydluzona lufa III",
+      "pt": "Projeto de Cano estendido III",
+      "pt-BR": "Esquema de Cano Estendido III",
+      "ru": "Чертеж — Удлиненный ствол III",
+      "sr": "Produzena cev Nacrt III",
+      "tr": "Uzatilmis Namlu Taslağı III",
+      "uk": "Креслення Подовжений ствол III",
+      "zh-CN": "加长枪管 蓝图 III",
+      "zh-TW": "加長槍管 藍圖 III"
     },
     "description": {
       "da": "Oger kuglehastigheden moderat. Kompatibel med: Tempest, Arpeggio, Ferro, Renegade, Anvil",
@@ -76755,7 +77747,7 @@
     },
     "type": "Augment",
     "rarity": "Common",
-    "value": 100,
+    "value": 660,
     "weightKg": 1,
     "stackSize": 1,
     "effects": {
@@ -76790,7 +77782,7 @@
       "rubber_parts": 6
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/free_loadout_augment.png",
-    "updatedAt": "03/31/2026",
+    "updatedAt": "05/19/2026",
     "addedIn": "base",
     "icon": "https://cdn.arctracker.io/items/v2/free_loadout_augment.png",
     "item_type": "Augment",
@@ -81781,6 +82773,160 @@
       },
       {
         "item": {
+          "id": "rascal_i",
+          "name": {
+            "en": "Rascal I"
+          },
+          "description": {
+            "en": "Fires explosive projectiles that only detonate when hitting ARC."
+          },
+          "type": "Special",
+          "rarity": "Rare",
+          "value": 7000,
+          "weightKg": 4,
+          "isWeapon": true,
+          "blueprintLocked": true,
+          "effects": {
+            "Ammo Type": {
+              "value": "Launcher Ammo",
+              "da": "Ammunitionstype",
+              "de": "Munitionstyp",
+              "en": "Ammo Type",
+              "es": "Tipo de Munición",
+              "fr": "Type de Munitions",
+              "he": "סוג תחמושת",
+              "hr": "Tip Municije",
+              "it": "Tipo di Munizioni",
+              "ja": "弾薬タイプ",
+              "ko-KR": "탄약 유형",
+              "no": "Ammunisjonstype",
+              "pl": "Typ Amunicji",
+              "pt": "Tipo de Munição",
+              "pt-BR": "Tipo de munição",
+              "ru": "Тип боеприпасов",
+              "sr": "Tip Municije",
+              "tr": "Mermi Türü",
+              "uk": "Тип боєприпасів",
+              "zh-CN": "弹药类型",
+              "zh-TW": "彈藥類型"
+            },
+            "ARC Armor Penetration": {
+              "value": "Very Strong",
+              "da": "ARC Rustningspenetrering",
+              "de": "ARC-Panzerungsdurchdringung",
+              "en": "ARC Armor Penetration",
+              "es": "Penetración de Blindaje ARC",
+              "fr": "Pénétration d'Armure ARC",
+              "he": "חדירת שריון ARC",
+              "hr": "ARC Probijanje Oklopa",
+              "it": "Penetrazione armature ARC",
+              "ja": "ARC装甲貫通",
+              "ko-KR": "아크 장갑 관통",
+              "no": "ARC Rustningspenetrering",
+              "pl": "Przebicie Pancerza ARC",
+              "pt": "Penetração de Blindagem ARC",
+              "pt-BR": "Penetração contra blindagem ARC",
+              "ru": "Пробитие брони ARC",
+              "sr": "ARC Probijanje Oklopa",
+              "tr": "ARC Zırh Delme",
+              "uk": "Пробиття броні ARC",
+              "zh-CN": "ARC 护甲穿透",
+              "zh-TW": "ARC 護甲穿透"
+            },
+            "Durability": {
+              "value": "100/100",
+              "da": "Holdbarhed",
+              "de": "Haltbarkeit",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "he": "עמידות",
+              "hr": "Izdržljivost",
+              "it": "Tenuta",
+              "ja": "耐久性",
+              "ko-KR": "내구도",
+              "no": "Holdbarhet",
+              "pl": "Wytrzymałość",
+              "pt": "Durabilidade",
+              "pt-BR": "Durabilidade",
+              "ru": "Прочность",
+              "sr": "Izdržljivost",
+              "tr": "Dayanıklılık",
+              "uk": "Міцність",
+              "zh-CN": "耐久度",
+              "zh-TW": "耐久度"
+            },
+            "Firing Mode": {
+              "value": "Break-Action",
+              "da": "Skydningstilstand",
+              "de": "Feuermodus",
+              "en": "Firing Mode",
+              "es": "Modo de Disparo",
+              "fr": "Mode de Tir",
+              "he": "מצב ירי",
+              "hr": "Režim Paljbe",
+              "it": "Modalità di Fuoco",
+              "ja": "射撃モード",
+              "ko-KR": "발사 모드",
+              "no": "Skyttemodus",
+              "pl": "Tryb Ognia",
+              "pt": "Modo de Disparo",
+              "pt-BR": "Modo de disparo",
+              "ru": "Режим стрельбы",
+              "sr": "Režim Paljbe",
+              "tr": "Atış Modu",
+              "uk": "Режим стрільби",
+              "zh-CN": "射击模式",
+              "zh-TW": "射擊模式"
+            },
+            "Magazine Size": {
+              "value": 1,
+              "da": "Magasinstørrelse",
+              "de": "Magazingröße",
+              "en": "Magazine Size",
+              "es": "Tamaño del Cargador",
+              "fr": "Taille du Chargeur",
+              "he": "גודל מחסנית",
+              "hr": "Veličina Okvira",
+              "it": "Capacità Caricatore",
+              "ja": "マガジンサイズ",
+              "ko-KR": "탄창 크기",
+              "no": "Magasinstørrelse",
+              "pl": "Pojemność Magazynka",
+              "pt": "Tamanho do Carregador",
+              "pt-BR": "Tamanho do Pente",
+              "ru": "Размер магазина",
+              "sr": "Veličina Okvira",
+              "tr": "Şarjör Boyutu",
+              "uk": "Розмір магазину",
+              "zh-CN": "弹匣容量",
+              "zh-TW": "彈匣容量"
+            }
+          },
+          "craftBench": "weapon_bench",
+          "stationLevelRequired": 2,
+          "recipe": {
+            "advanced_mechanical_components": 2,
+            "canister": 5,
+            "heavy_gun_parts": 3
+          },
+          "recyclesInto": {
+            "advanced_mechanical_components": 1,
+            "heavy_gun_parts": 2
+          },
+          "salvagesInto": {
+            "heavy_gun_parts": 2
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/v2/rascal.png",
+          "updatedAt": "05/19/2026",
+          "addedIn": "1.29"
+        },
+        "component": {
+          "id": "heavy_gun_parts"
+        }
+      },
+      {
+        "item": {
           "id": "vulcano_i",
           "name": {
             "da": "Vulcano I",
@@ -84025,6 +85171,262 @@
         },
         "component": {
           "id": "hullcracker_iv"
+        }
+      },
+      {
+        "item": {
+          "id": "rascal_i",
+          "name": {
+            "en": "Rascal I"
+          },
+          "description": {
+            "en": "Fires explosive projectiles that only detonate when hitting ARC."
+          },
+          "type": "Special",
+          "rarity": "Rare",
+          "value": 7000,
+          "weightKg": 4,
+          "isWeapon": true,
+          "blueprintLocked": true,
+          "effects": {
+            "Ammo Type": {
+              "value": "Launcher Ammo",
+              "da": "Ammunitionstype",
+              "de": "Munitionstyp",
+              "en": "Ammo Type",
+              "es": "Tipo de Munición",
+              "fr": "Type de Munitions",
+              "he": "סוג תחמושת",
+              "hr": "Tip Municije",
+              "it": "Tipo di Munizioni",
+              "ja": "弾薬タイプ",
+              "ko-KR": "탄약 유형",
+              "no": "Ammunisjonstype",
+              "pl": "Typ Amunicji",
+              "pt": "Tipo de Munição",
+              "pt-BR": "Tipo de munição",
+              "ru": "Тип боеприпасов",
+              "sr": "Tip Municije",
+              "tr": "Mermi Türü",
+              "uk": "Тип боєприпасів",
+              "zh-CN": "弹药类型",
+              "zh-TW": "彈藥類型"
+            },
+            "ARC Armor Penetration": {
+              "value": "Very Strong",
+              "da": "ARC Rustningspenetrering",
+              "de": "ARC-Panzerungsdurchdringung",
+              "en": "ARC Armor Penetration",
+              "es": "Penetración de Blindaje ARC",
+              "fr": "Pénétration d'Armure ARC",
+              "he": "חדירת שריון ARC",
+              "hr": "ARC Probijanje Oklopa",
+              "it": "Penetrazione armature ARC",
+              "ja": "ARC装甲貫通",
+              "ko-KR": "아크 장갑 관통",
+              "no": "ARC Rustningspenetrering",
+              "pl": "Przebicie Pancerza ARC",
+              "pt": "Penetração de Blindagem ARC",
+              "pt-BR": "Penetração contra blindagem ARC",
+              "ru": "Пробитие брони ARC",
+              "sr": "ARC Probijanje Oklopa",
+              "tr": "ARC Zırh Delme",
+              "uk": "Пробиття броні ARC",
+              "zh-CN": "ARC 护甲穿透",
+              "zh-TW": "ARC 護甲穿透"
+            },
+            "Durability": {
+              "value": "100/100",
+              "da": "Holdbarhed",
+              "de": "Haltbarkeit",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "he": "עמידות",
+              "hr": "Izdržljivost",
+              "it": "Tenuta",
+              "ja": "耐久性",
+              "ko-KR": "내구도",
+              "no": "Holdbarhet",
+              "pl": "Wytrzymałość",
+              "pt": "Durabilidade",
+              "pt-BR": "Durabilidade",
+              "ru": "Прочность",
+              "sr": "Izdržljivost",
+              "tr": "Dayanıklılık",
+              "uk": "Міцність",
+              "zh-CN": "耐久度",
+              "zh-TW": "耐久度"
+            },
+            "Firing Mode": {
+              "value": "Break-Action",
+              "da": "Skydningstilstand",
+              "de": "Feuermodus",
+              "en": "Firing Mode",
+              "es": "Modo de Disparo",
+              "fr": "Mode de Tir",
+              "he": "מצב ירי",
+              "hr": "Režim Paljbe",
+              "it": "Modalità di Fuoco",
+              "ja": "射撃モード",
+              "ko-KR": "발사 모드",
+              "no": "Skyttemodus",
+              "pl": "Tryb Ognia",
+              "pt": "Modo de Disparo",
+              "pt-BR": "Modo de disparo",
+              "ru": "Режим стрельбы",
+              "sr": "Režim Paljbe",
+              "tr": "Atış Modu",
+              "uk": "Режим стрільби",
+              "zh-CN": "射击模式",
+              "zh-TW": "射擊模式"
+            },
+            "Magazine Size": {
+              "value": 1,
+              "da": "Magasinstørrelse",
+              "de": "Magazingröße",
+              "en": "Magazine Size",
+              "es": "Tamaño del Cargador",
+              "fr": "Taille du Chargeur",
+              "he": "גודל מחסנית",
+              "hr": "Veličina Okvira",
+              "it": "Capacità Caricatore",
+              "ja": "マガジンサイズ",
+              "ko-KR": "탄창 크기",
+              "no": "Magasinstørrelse",
+              "pl": "Pojemność Magazynka",
+              "pt": "Tamanho do Carregador",
+              "pt-BR": "Tamanho do Pente",
+              "ru": "Размер магазина",
+              "sr": "Veličina Okvira",
+              "tr": "Şarjör Boyutu",
+              "uk": "Розмір магазину",
+              "zh-CN": "弹匣容量",
+              "zh-TW": "彈匣容量"
+            }
+          },
+          "craftBench": "weapon_bench",
+          "stationLevelRequired": 2,
+          "recipe": {
+            "advanced_mechanical_components": 2,
+            "canister": 5,
+            "heavy_gun_parts": 3
+          },
+          "recyclesInto": {
+            "advanced_mechanical_components": 1,
+            "heavy_gun_parts": 2
+          },
+          "salvagesInto": {
+            "heavy_gun_parts": 2
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/v2/rascal.png",
+          "updatedAt": "05/19/2026",
+          "addedIn": "1.29"
+        },
+        "component": {
+          "id": "rascal_i"
+        }
+      },
+      {
+        "item": {
+          "id": "rascal_ii",
+          "name": {
+            "en": "Rascal II"
+          },
+          "description": {
+            "en": "Fires explosive projectiles that only detonate when hitting ARC."
+          },
+          "type": "Special",
+          "rarity": "Rare",
+          "value": 10000,
+          "weightKg": 4,
+          "isWeapon": true,
+          "craftBench": "weapon_bench",
+          "recyclesInto": {
+            "advanced_mechanical_components": 2,
+            "heavy_gun_parts": 2
+          },
+          "salvagesInto": {
+            "heavy_gun_parts": 2
+          },
+          "upgradeCost": {
+            "advanced_mechanical_components": 1,
+            "heavy_gun_parts": 2
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/v2/rascal.png",
+          "updatedAt": "05/19/2026",
+          "addedIn": "1.29"
+        },
+        "component": {
+          "id": "rascal_ii"
+        }
+      },
+      {
+        "item": {
+          "id": "rascal_iii",
+          "name": {
+            "en": "Rascal III"
+          },
+          "description": {
+            "en": "Fires explosive projectiles that only detonate when hitting ARC."
+          },
+          "type": "Special",
+          "rarity": "Rare",
+          "value": 13000,
+          "weightKg": 4,
+          "isWeapon": true,
+          "craftBench": "weapon_bench",
+          "recyclesInto": {
+            "advanced_mechanical_components": 2,
+            "heavy_gun_parts": 3
+          },
+          "salvagesInto": {
+            "heavy_gun_parts": 3
+          },
+          "upgradeCost": {
+            "advanced_mechanical_components": 1,
+            "heavy_gun_parts": 2
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/v2/rascal.png",
+          "updatedAt": "05/19/2026",
+          "addedIn": "1.29"
+        },
+        "component": {
+          "id": "rascal_iii"
+        }
+      },
+      {
+        "item": {
+          "id": "rascal_iv",
+          "name": {
+            "en": "Rascal IV"
+          },
+          "description": {
+            "en": "Fires explosive projectiles that only detonate when hitting ARC."
+          },
+          "type": "Special",
+          "rarity": "Rare",
+          "value": 17000,
+          "weightKg": 4,
+          "isWeapon": true,
+          "craftBench": "weapon_bench",
+          "recyclesInto": {
+            "advanced_mechanical_components": 3,
+            "heavy_gun_parts": 3
+          },
+          "salvagesInto": {
+            "heavy_gun_parts": 3
+          },
+          "upgradeCost": {
+            "advanced_mechanical_components": 2,
+            "heavy_gun_parts": 2
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/v2/rascal.png",
+          "updatedAt": "05/19/2026",
+          "addedIn": "1.29"
+        },
+        "component": {
+          "id": "rascal_iv"
         }
       },
       {
@@ -105393,6 +106795,55 @@
       },
       {
         "item": {
+          "id": "extended_barrel_ii",
+          "name": {
+            "da": "Forlænget løb II",
+            "de": "Verlängerter Lauf II",
+            "en": "Extended Barrel II",
+            "es": "Cañón extendido II",
+            "fr": "Canon Allongé II",
+            "he": "קנה מוארךII",
+            "hr": "Produžena cijev II",
+            "it": "Canna estesa II",
+            "ja": "拡張バレル II",
+            "ko-KR": "확장형 총열 II",
+            "no": "Forlenget løp II",
+            "pl": "Wydłużona lufa II",
+            "pt": "Cano estendido II",
+            "pt-BR": "Cano Estendido II",
+            "ru": "Удлиненный ствол II",
+            "sr": "Produžena cev II",
+            "tr": "Uzatılmış Namlu II",
+            "uk": "Подовжений ствол II",
+            "zh-CN": "加长枪管 II",
+            "zh-TW": "加長槍管 II"
+          },
+          "type": "Modification",
+          "rarity": "Common",
+          "value": 3000,
+          "blueprintLocked": true,
+          "craftBench": "weapon_bench",
+          "stationLevelRequired": 2,
+          "recipe": {
+            "mechanical_components": 3,
+            "wires": 6
+          },
+          "recyclesInto": {
+            "mechanical_components": 1,
+            "wires": 1
+          },
+          "salvagesInto": {
+            "mechanical_components": 1
+          },
+          "updatedAt": "05/19/2026",
+          "addedIn": "1.29"
+        },
+        "component": {
+          "id": "mechanical_components"
+        }
+      },
+      {
+        "item": {
           "id": "extended_light_mag_ii",
           "name": {
             "da": "Udvidet let magasin II",
@@ -109748,6 +111199,55 @@
         },
         "component": {
           "id": "compensator_ii"
+        }
+      },
+      {
+        "item": {
+          "id": "extended_barrel_ii",
+          "name": {
+            "da": "Forlænget løb II",
+            "de": "Verlängerter Lauf II",
+            "en": "Extended Barrel II",
+            "es": "Cañón extendido II",
+            "fr": "Canon Allongé II",
+            "he": "קנה מוארךII",
+            "hr": "Produžena cijev II",
+            "it": "Canna estesa II",
+            "ja": "拡張バレル II",
+            "ko-KR": "확장형 총열 II",
+            "no": "Forlenget løp II",
+            "pl": "Wydłużona lufa II",
+            "pt": "Cano estendido II",
+            "pt-BR": "Cano Estendido II",
+            "ru": "Удлиненный ствол II",
+            "sr": "Produžena cev II",
+            "tr": "Uzatılmış Namlu II",
+            "uk": "Подовжений ствол II",
+            "zh-CN": "加长枪管 II",
+            "zh-TW": "加長槍管 II"
+          },
+          "type": "Modification",
+          "rarity": "Common",
+          "value": 3000,
+          "blueprintLocked": true,
+          "craftBench": "weapon_bench",
+          "stationLevelRequired": 2,
+          "recipe": {
+            "mechanical_components": 3,
+            "wires": 6
+          },
+          "recyclesInto": {
+            "mechanical_components": 1,
+            "wires": 1
+          },
+          "salvagesInto": {
+            "mechanical_components": 1
+          },
+          "updatedAt": "05/19/2026",
+          "addedIn": "1.29"
+        },
+        "component": {
+          "id": "extended_barrel_ii"
         }
       },
       {
@@ -122159,6 +123659,53 @@
       },
       {
         "item": {
+          "id": "extended_barrel_i",
+          "name": {
+            "da": "Forlænget løb I",
+            "de": "Verlängerter Lauf I",
+            "en": "Extended Barrel I",
+            "es": "Cañón extendido I",
+            "fr": "Canon Allongé I",
+            "he": "קנה מוארךI",
+            "hr": "Produžena cijev I",
+            "it": "Canna estesa I",
+            "ja": "拡張バレル I",
+            "ko-KR": "확장형 총열 I",
+            "no": "Forlenget løp I",
+            "pl": "Wydłużona lufa I",
+            "pt": "Cano estendido I",
+            "pt-BR": "Cano Estendido I",
+            "ru": "Удлиненный ствол I",
+            "sr": "Produžena cev I",
+            "tr": "Uzatılmış Namlu I",
+            "uk": "Подовжений ствол I",
+            "zh-CN": "加长枪管 I",
+            "zh-TW": "加長槍管 I"
+          },
+          "type": "Modification",
+          "rarity": "Common",
+          "value": 1000,
+          "craftBench": "weapon_bench",
+          "stationLevelRequired": 1,
+          "recipe": {
+            "metal_parts": 6,
+            "wires": 3
+          },
+          "recyclesInto": {
+            "metal_parts": 5
+          },
+          "salvagesInto": {
+            "metal_parts": 3
+          },
+          "updatedAt": "05/19/2026",
+          "addedIn": "1.29"
+        },
+        "component": {
+          "id": "metal_parts"
+        }
+      },
+      {
+        "item": {
           "id": "ferro_i",
           "name": {
             "da": "Ferro I",
@@ -125147,6 +126694,53 @@
         },
         "component": {
           "id": "door_blocker"
+        }
+      },
+      {
+        "item": {
+          "id": "extended_barrel_i",
+          "name": {
+            "da": "Forlænget løb I",
+            "de": "Verlängerter Lauf I",
+            "en": "Extended Barrel I",
+            "es": "Cañón extendido I",
+            "fr": "Canon Allongé I",
+            "he": "קנה מוארךI",
+            "hr": "Produžena cijev I",
+            "it": "Canna estesa I",
+            "ja": "拡張バレル I",
+            "ko-KR": "확장형 총열 I",
+            "no": "Forlenget løp I",
+            "pl": "Wydłużona lufa I",
+            "pt": "Cano estendido I",
+            "pt-BR": "Cano Estendido I",
+            "ru": "Удлиненный ствол I",
+            "sr": "Produžena cev I",
+            "tr": "Uzatılmış Namlu I",
+            "uk": "Подовжений ствол I",
+            "zh-CN": "加长枪管 I",
+            "zh-TW": "加長槍管 I"
+          },
+          "type": "Modification",
+          "rarity": "Common",
+          "value": 1000,
+          "craftBench": "weapon_bench",
+          "stationLevelRequired": 1,
+          "recipe": {
+            "metal_parts": 6,
+            "wires": 3
+          },
+          "recyclesInto": {
+            "metal_parts": 5
+          },
+          "salvagesInto": {
+            "metal_parts": 3
+          },
+          "updatedAt": "05/19/2026",
+          "addedIn": "1.29"
+        },
+        "component": {
+          "id": "extended_barrel_i"
         }
       },
       {
@@ -130972,28 +132566,28 @@
       },
       {
         "item": {
-          "id": "extended_barrel",
+          "id": "extended_barrel_iii",
           "name": {
-            "da": "Forlænget løb",
-            "de": "Verlängerter Lauf",
-            "en": "Extended Barrel",
-            "es": "Cañón extendido",
-            "fr": "Canon Allongé",
-            "he": "קנה מוארך",
-            "hr": "Produžena cijev",
-            "it": "Canna estesa",
-            "ja": "拡張バレル",
-            "ko-KR": "확장형 총열",
-            "no": "Forlenget løp",
-            "pl": "Wydłużona lufa",
-            "pt": "Cano estendido",
-            "pt-BR": "Cano Estendido",
-            "ru": "Удлиненный ствол",
-            "sr": "Produžena cev",
-            "tr": "Uzatılmış Namlu",
-            "uk": "Подовжений ствол",
-            "zh-CN": "加长枪管",
-            "zh-TW": "加長槍管"
+            "da": "Forlænget løb III",
+            "de": "Verlängerter Lauf III",
+            "en": "Extended Barrel III",
+            "es": "Cañón extendido III",
+            "fr": "Canon Allongé III",
+            "he": "קנה מוארךIII",
+            "hr": "Produžena cijev III",
+            "it": "Canna estesa III",
+            "ja": "拡張バレル III",
+            "ko-KR": "확장형 총열 III",
+            "no": "Forlenget løp III",
+            "pl": "Wydłużona lufa III",
+            "pt": "Cano estendido III",
+            "pt-BR": "Cano Estendido III",
+            "ru": "Удлиненный ствол III",
+            "sr": "Produžena cev III",
+            "tr": "Uzatılmış Namlu III",
+            "uk": "Подовжений ствол III",
+            "zh-CN": "加长枪管 III",
+            "zh-TW": "加長槍管 III"
           },
           "description": {
             "da": "Øger kuglehastigheden moderat. Kompatibel med: Tempest, Arpeggio, Ferro, Renegade, Anvil",
@@ -133150,28 +134744,28 @@
       },
       {
         "item": {
-          "id": "extended_barrel",
+          "id": "extended_barrel_iii",
           "name": {
-            "da": "Forlænget løb",
-            "de": "Verlängerter Lauf",
-            "en": "Extended Barrel",
-            "es": "Cañón extendido",
-            "fr": "Canon Allongé",
-            "he": "קנה מוארך",
-            "hr": "Produžena cijev",
-            "it": "Canna estesa",
-            "ja": "拡張バレル",
-            "ko-KR": "확장형 총열",
-            "no": "Forlenget løp",
-            "pl": "Wydłużona lufa",
-            "pt": "Cano estendido",
-            "pt-BR": "Cano Estendido",
-            "ru": "Удлиненный ствол",
-            "sr": "Produžena cev",
-            "tr": "Uzatılmış Namlu",
-            "uk": "Подовжений ствол",
-            "zh-CN": "加长枪管",
-            "zh-TW": "加長槍管"
+            "da": "Forlænget løb III",
+            "de": "Verlängerter Lauf III",
+            "en": "Extended Barrel III",
+            "es": "Cañón extendido III",
+            "fr": "Canon Allongé III",
+            "he": "קנה מוארךIII",
+            "hr": "Produžena cijev III",
+            "it": "Canna estesa III",
+            "ja": "拡張バレル III",
+            "ko-KR": "확장형 총열 III",
+            "no": "Forlenget løp III",
+            "pl": "Wydłużona lufa III",
+            "pt": "Cano estendido III",
+            "pt-BR": "Cano Estendido III",
+            "ru": "Удлиненный ствол III",
+            "sr": "Produžena cev III",
+            "tr": "Uzatılmış Namlu III",
+            "uk": "Подовжений ствол III",
+            "zh-CN": "加长枪管 III",
+            "zh-TW": "加長槍管 III"
           },
           "description": {
             "da": "Øger kuglehastigheden moderat. Kompatibel med: Tempest, Arpeggio, Ferro, Renegade, Anvil",
@@ -133282,7 +134876,7 @@
           "addedIn": "base"
         },
         "component": {
-          "id": "extended_barrel"
+          "id": "extended_barrel_iii"
         }
       },
       {
@@ -145976,7 +147570,7 @@
           },
           "type": "Augment",
           "rarity": "Common",
-          "value": 100,
+          "value": 660,
           "weightKg": 1,
           "stackSize": 1,
           "effects": {
@@ -146011,7 +147605,7 @@
             "rubber_parts": 6
           },
           "imageFilename": "https://cdn.arctracker.io/items/v2/free_loadout_augment.png",
-          "updatedAt": "03/31/2026",
+          "updatedAt": "05/19/2026",
           "addedIn": "base"
         },
         "component": {
@@ -155494,6 +157088,518 @@
     "item_type": "Key"
   },
   {
+    "id": "rascal_blueprint",
+    "name": {
+      "en": "Rascal Blueprint"
+    },
+    "description": {
+      "en": "Fires explosive projectiles that only detonate when hitting ARC."
+    },
+    "type": "Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/rascal.png",
+    "updatedAt": "05/19/2026",
+    "addedIn": "1.29",
+    "icon": "https://cdn.arctracker.io/items/v2/rascal.png",
+    "item_type": "Blueprint"
+  },
+  {
+    "id": "rascal_i",
+    "name": {
+      "en": "Rascal I"
+    },
+    "description": {
+      "en": "Fires explosive projectiles that only detonate when hitting ARC."
+    },
+    "type": "Special",
+    "rarity": "Rare",
+    "value": 7000,
+    "weightKg": 4,
+    "isWeapon": true,
+    "blueprintLocked": true,
+    "effects": {
+      "Ammo Type": {
+        "value": "Launcher Ammo",
+        "da": "Ammunitionstype",
+        "de": "Munitionstyp",
+        "en": "Ammo Type",
+        "es": "Tipo de Munición",
+        "fr": "Type de Munitions",
+        "he": "סוג תחמושת",
+        "hr": "Tip Municije",
+        "it": "Tipo di Munizioni",
+        "ja": "弾薬タイプ",
+        "ko-KR": "탄약 유형",
+        "no": "Ammunisjonstype",
+        "pl": "Typ Amunicji",
+        "pt": "Tipo de Munição",
+        "pt-BR": "Tipo de munição",
+        "ru": "Тип боеприпасов",
+        "sr": "Tip Municije",
+        "tr": "Mermi Türü",
+        "uk": "Тип боєприпасів",
+        "zh-CN": "弹药类型",
+        "zh-TW": "彈藥類型"
+      },
+      "ARC Armor Penetration": {
+        "value": "Very Strong",
+        "da": "ARC Rustningspenetrering",
+        "de": "ARC-Panzerungsdurchdringung",
+        "en": "ARC Armor Penetration",
+        "es": "Penetración de Blindaje ARC",
+        "fr": "Pénétration d'Armure ARC",
+        "he": "חדירת שריון ARC",
+        "hr": "ARC Probijanje Oklopa",
+        "it": "Penetrazione armature ARC",
+        "ja": "ARC装甲貫通",
+        "ko-KR": "아크 장갑 관통",
+        "no": "ARC Rustningspenetrering",
+        "pl": "Przebicie Pancerza ARC",
+        "pt": "Penetração de Blindagem ARC",
+        "pt-BR": "Penetração contra blindagem ARC",
+        "ru": "Пробитие брони ARC",
+        "sr": "ARC Probijanje Oklopa",
+        "tr": "ARC Zırh Delme",
+        "uk": "Пробиття броні ARC",
+        "zh-CN": "ARC 护甲穿透",
+        "zh-TW": "ARC 護甲穿透"
+      },
+      "Durability": {
+        "value": "100/100",
+        "da": "Holdbarhed",
+        "de": "Haltbarkeit",
+        "en": "Durability",
+        "es": "Durabilidad",
+        "fr": "Durabilité",
+        "he": "עמידות",
+        "hr": "Izdržljivost",
+        "it": "Tenuta",
+        "ja": "耐久性",
+        "ko-KR": "내구도",
+        "no": "Holdbarhet",
+        "pl": "Wytrzymałość",
+        "pt": "Durabilidade",
+        "pt-BR": "Durabilidade",
+        "ru": "Прочность",
+        "sr": "Izdržljivost",
+        "tr": "Dayanıklılık",
+        "uk": "Міцність",
+        "zh-CN": "耐久度",
+        "zh-TW": "耐久度"
+      },
+      "Firing Mode": {
+        "value": "Break-Action",
+        "da": "Skydningstilstand",
+        "de": "Feuermodus",
+        "en": "Firing Mode",
+        "es": "Modo de Disparo",
+        "fr": "Mode de Tir",
+        "he": "מצב ירי",
+        "hr": "Režim Paljbe",
+        "it": "Modalità di Fuoco",
+        "ja": "射撃モード",
+        "ko-KR": "발사 모드",
+        "no": "Skyttemodus",
+        "pl": "Tryb Ognia",
+        "pt": "Modo de Disparo",
+        "pt-BR": "Modo de disparo",
+        "ru": "Режим стрельбы",
+        "sr": "Režim Paljbe",
+        "tr": "Atış Modu",
+        "uk": "Режим стрільби",
+        "zh-CN": "射击模式",
+        "zh-TW": "射擊模式"
+      },
+      "Magazine Size": {
+        "value": 1,
+        "da": "Magasinstørrelse",
+        "de": "Magazingröße",
+        "en": "Magazine Size",
+        "es": "Tamaño del Cargador",
+        "fr": "Taille du Chargeur",
+        "he": "גודל מחסנית",
+        "hr": "Veličina Okvira",
+        "it": "Capacità Caricatore",
+        "ja": "マガジンサイズ",
+        "ko-KR": "탄창 크기",
+        "no": "Magasinstørrelse",
+        "pl": "Pojemność Magazynka",
+        "pt": "Tamanho do Carregador",
+        "pt-BR": "Tamanho do Pente",
+        "ru": "Размер магазина",
+        "sr": "Veličina Okvira",
+        "tr": "Şarjör Boyutu",
+        "uk": "Розмір магазину",
+        "zh-CN": "弹匣容量",
+        "zh-TW": "彈匣容量"
+      }
+    },
+    "craftBench": "weapon_bench",
+    "stationLevelRequired": 2,
+    "recipe": {
+      "advanced_mechanical_components": 2,
+      "canister": 5,
+      "heavy_gun_parts": 3
+    },
+    "recyclesInto": {
+      "advanced_mechanical_components": 1,
+      "heavy_gun_parts": 2
+    },
+    "salvagesInto": {
+      "heavy_gun_parts": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/v2/rascal.png",
+    "updatedAt": "05/19/2026",
+    "addedIn": "1.29",
+    "crafting_components": [
+      {
+        "item": {
+          "id": "advanced_mechanical_components",
+          "name": {
+            "da": "Avancerede mekaniske komponenter",
+            "de": "Fortschrittliche mechanische Komponenten",
+            "en": "Advanced Mechanical Components",
+            "es": "Componentes mecánicos avanzados",
+            "fr": "Composants Mécaniques Avancés",
+            "he": "רכיבים מכניים מתקדמים",
+            "hr": "Napredne Mehaničke Komponente",
+            "it": "Componenti meccanici avanzati",
+            "ja": "高度な機械部品",
+            "ko-KR": "고급 기계 부품",
+            "no": "Avanserte mekaniske komponenter",
+            "pl": "Zaawansowane komponenty mechaniczne",
+            "pt": "Componentes mecânicos avançados",
+            "pt-BR": "Componentes Mecânicos Avançados",
+            "ru": "Продвинутые механические компоненты",
+            "sr": "Napredne Mehaničke Komponente",
+            "tr": "Gelişmiş Mekanik Bileşenler",
+            "uk": "Просунуті механічні компоненти",
+            "zh-CN": "高级机械元件",
+            "zh-TW": "進階機械元件"
+          },
+          "description": {
+            "da": "Bruges til at fremstille avancerede våben. Kan genbruges til håndværksmaterialer. Bruges til at fremstille: Torrente, Venator, Osprey, Renegade, Bettina",
+            "de": "Wird zur Herstellung fortschrittlicher Waffen verwendet. Kann zu Herstellungsmaterialien recycelt werden. Zur Herstellung von: Torrente, Venator, Osprey, Renegade, Bettina",
+            "en": "Used to craft advanced weapons. Can be recycled into crafting materials. Used to craft: Torrente, Venator, Osprey, Renegade, Bettina",
+            "es": "Usado para fabricar armas avanzadas. Puede reciclarse en materiales de fabricación. Usado para fabricar: Torrente, Venator, Osprey, Renegado, Bettina",
+            "fr": "Permet de fabriquer des armes avancées. Peut être recyclé en matériaux d'artisanat. Permet de fabriquer : Torrente, Venator, Balbuzard, Renégat, Bettina",
+            "he": "משמש ליצירת כלי נשק מתקדמים. ניתן למיחזור לחומרי יצירה. משמש ליצירת: Torrente, Venator, Osprey, Renegade, Bettina",
+            "hr": "Koristi se za izradu naprednog oružja. Može se reciklirati u materijale za izradu. Koristi se za izradu: Torrente, Venator, Osprey, Renegade, Bettina",
+            "it": "Usato per fabbricare armi avanzate. Si può riciclare in materiali da creazione. Si usa per creare: Torrente, Venator, Osprey, Renegade, Bettina",
+            "ja": "高度な武器の製作に使用。製作材料にリサイクル可能。製作可能: Torrente、Venator、Osprey、Renegade、Bettina",
+            "ko-KR": "고급 무기 제작에 사용됩니다. 제작 재료로 재활용 가능. 제작 가능: 토렌테, 베나토르, 오스프레이, 레니게이드, 베티나",
+            "no": "Brukes til å lage avanserte våpen. Kan resirkuleres til håndverksmateriell. Brukes til å lage: Torrente, Venator, Osprey, Renegade, Bettina",
+            "pl": "Używany do wytwarzania zaawansowanej broni. Może być przetworzony na materiały rzemieślnicze. Używany do wytworzenia: Torrente, Venator, Osprey, Renegade, Bettina",
+            "pt": "Usado para fabricar armas avançadas. Pode ser reciclado em materiais de fabricação. Usado para fabricar: Torrente, Venator, Osprey, Renegade, Bettina",
+            "pt-BR": "Serve para fabricar armas avançadas. Reciclar gera materiais de fabricação. Usado para fabricar: Torrente, Venator, Águia-Pescadora, Renegado, Bettina",
+            "ru": "Используется для создания продвинутого оружия. Можно переработать в материалы для крафта. Используется для создания: Torrente, Venator, Osprey, Renegade, Bettina",
+            "sr": "Koristi se za pravljenje naprednog oružja. Može se reciklirati u materijale za pravljenje. Koristi se za pravljenje: Torrente, Venator, Osprey, Renegade, Bettina",
+            "tr": "Gelişmiş silahları üretmek için kullanılır. Üretim malzemelerine geri dönüştürülebilir. Üretim için kullanılır: Torrente, Venator, Osprey, Renegade, Bettina",
+            "uk": "Використовується для створення просунутої зброї. Можна переробити на матеріали для крафту. Використовується для створення: Torrente, Venator, Osprey, Renegade, Bettina",
+            "zh-CN": "用于制作高级武器。可回收为制作材料。用于制作:磁力加速器，奔流，复仇者，鱼鹰，叛逆",
+            "zh-TW": "用來製作進階武器。可回收成製作材料。用來製作:奔流,獵人,魚鷹,叛將,貝蒂娜"
+          },
+          "type": "Refined Material",
+          "rarity": "Rare",
+          "foundIn": "Mechanical",
+          "value": 1750,
+          "weightKg": 1,
+          "stackSize": 5,
+          "craftBench": "refiner",
+          "stationLevelRequired": 2,
+          "recipe": {
+            "mechanical_components": 2,
+            "steel_spring": 2
+          },
+          "recyclesInto": {
+            "mechanical_components": 1,
+            "steel_spring": 1
+          },
+          "salvagesInto": {
+            "mechanical_components": 1
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/v2/advanced_mechanical_components.png",
+          "updatedAt": "03/17/2026",
+          "addedIn": "base"
+        },
+        "component": {
+          "id": "advanced_mechanical_components"
+        }
+      },
+      {
+        "item": {
+          "id": "canister",
+          "name": {
+            "da": "Beholder",
+            "de": "Kanister",
+            "en": "Canister",
+            "es": "Lata",
+            "fr": "Bonbonne",
+            "he": "מיכל",
+            "hr": "Kanister",
+            "it": "Tanica",
+            "ja": "キャニスター",
+            "ko-KR": "캐니스터",
+            "no": "Beholder",
+            "pl": "Kanister",
+            "pt": "Vasilhame",
+            "pt-BR": "Vasilhame",
+            "ru": "Канистра",
+            "sr": "Kanister",
+            "tr": "Kapsül",
+            "uk": "Каністра",
+            "zh-CN": "小罐",
+            "zh-TW": "罐子"
+          },
+          "description": {
+            "da": "Bruges til at fremstille en bred vifte af genstande. Kan genbruges til plastik. Bruges til at fremstille: Bettina, Vita-spray, Tung tændgranat, Røggranat",
+            "de": "Wird zur Herstellung verschiedenster Gegenstände verwendet. Kann zu Plastik recycelt werden. Zur Herstellung von: Bettina, Schwere Zündgranate, Rauchgranate, Vita-Spray",
+            "en": "Used to craft a wide range of items. Can be recycled into plastic. Used to craft: Bettina, Vita Spray, Heavy Fuze Grenade, Smoke Grenade",
+            "es": "Usado para fabricar una amplia gama de objetos. Puede reciclarse en plástico. Usado para fabricar: Bettina, Aerosol Vita, Granada de espoleta pesada, Granada de humo",
+            "fr": "Permet de fabriquer une large gamme d'objets. Peut être recyclé en plastique. Permet de fabriquer : Bettina, Spray Vita, Grenade à fusée lourde, Grenade fumigène",
+            "he": "משמש ליצירת מגוון רחב של פריטים. ניתן למחזור לפלסטיק. משמש ליצירת: בטינה, תרסיס ויטה, רימון מרעום כבד, רימון עשן",
+            "hr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u plastiku. Koristi se za izradu: Bettina, Vita Spray, Heavy Fuze Grenade, Smoke Grenade",
+            "it": "Si usa per creare una vasta gamma di oggetti. Si può riciclare in plastica. Si usa per creare: Bettina, Spray Vita, Granata a miccia pesante, Granata fumogena",
+            "ja": "幅広いアイテムの製作に使用。プラスチックにリサイクル可能。製作可能: Bettina、Vita Spray、ヘビーヒューズグレネード、スモークグレネード",
+            "ko-KR": "다양한 아이템 제작에 사용됩니다. 플라스틱으로 재활용 가능. 제작 가능: 베티나, 회복 스프레이, 중량 신관 수류탄, 연막탄",
+            "no": "Brukes til å lage et bredt spekter av gjenstander. Kan resirkuleres til plast. Brukes til å lage: Bettina, Vita-spray, Tung tenngranat, Røykgranat",
+            "pl": "Używany do wytwarzania szerokiej gamy przedmiotów. Może być przetworzony na plastik. Używany do wytworzenia: Bettina, Spray Vita, Ciężki granat zapalnikowy, Granat dymny",
+            "pt": "Usado para fabricar uma ampla gama de itens. Pode ser reciclado em plástico. Usado para fabricar: Bettina, Spray Vita, Granada de fusível pesada, Granada de fumaça",
+            "pt-BR": "Serve para fabricar vários tipos de itens. Reciclar gera plástico. Usado para fabricar: Bettina, Spray Vita, Granada de Espoleta Pesada, Granada de Fumaça",
+            "ru": "Используется для создания широкого спектра предметов. Можно переработать в пластик. Используется для создания: Bettina, Vita Spray, тяжелая граната с взрывателем, дымовая граната",
+            "sr": "Koristi se za pravljenje širokog spektra predmeta. Može se reciklirati u plastiku. Koristi se za pravljenje: Bettina, Vita Spray, Heavy Fuze Grenade, Smoke Grenade",
+            "tr": "Çok çeşitli eşyaları üretmek için kullanılır. Plastiğe geri dönüştürülebilir. Üretim için kullanılır: Bettina, Vita Spray, Ağır Fünye Bombası, Sis Bombası",
+            "uk": "Використовується для створення широкого спектру предметів. Можна переробити на пластик. Використовується для створення: Bettina, Vita Spray, важка граната з запалом, димова граната",
+            "zh-CN": "用于制作各种物品。可回收成塑料。用于制作：Bettina、Vita Spray、重型引信手榴弹、烟雾弹",
+            "zh-TW": "用於製作各種物品。可回收成塑膠。用於製作：Bettina、Vita Spray、重型引信手榴彈、煙霧彈"
+          },
+          "type": "Topside Material",
+          "rarity": "Uncommon",
+          "foundIn": "Commercial",
+          "value": 300,
+          "weightKg": 0.25,
+          "stackSize": 15,
+          "recyclesInto": {
+            "plastic_parts": 3
+          },
+          "salvagesInto": {
+            "plastic_parts": 1
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/v2/canister.png",
+          "updatedAt": "03/22/2026",
+          "addedIn": "base",
+          "vendors": [
+            {
+              "cost": {
+                "assorted_seeds": 6
+              },
+              "limit": 10,
+              "refreshSeconds": 86400,
+              "requiredLevel": 7,
+              "trader": "Celeste"
+            }
+          ]
+        },
+        "component": {
+          "id": "canister"
+        }
+      },
+      {
+        "item": {
+          "id": "heavy_gun_parts",
+          "name": {
+            "da": "Tunge våbendele",
+            "de": "Teile für Waffe mit schwerer Munition",
+            "en": "Heavy Gun Parts",
+            "es": "Piezas de arma pesada",
+            "fr": "Pièces d'Arme Lourde",
+            "he": "חלקי נשק כבדים",
+            "hr": "Dijelovi teškog oružja",
+            "it": "Parti di arma pesante",
+            "ja": "大型銃のパーツ",
+            "ko-KR": "중량 총기 부품",
+            "no": "Tunge våpendeler",
+            "pl": "Części ciężkiej broni",
+            "pt": "Peças de arma pesada",
+            "pt-BR": "Peças de Arma Pesada",
+            "ru": "Детали для тяжелого оружия",
+            "sr": "Delovi teškog oružja",
+            "tr": "Ağır Silah Parçaları",
+            "uk": "Деталі важкої зброї",
+            "zh-CN": "重型枪械零件",
+            "zh-TW": "重型槍械零件"
+          },
+          "description": {
+            "da": "Bruges til at lave våben. Bruges til at lave: Vulcano, Hullcracker, Bettina, Komplekse våbendele",
+            "de": "Wird zur Herstellung von Waffen verwendet. Zur Herstellung von: Vulcano, Hüllenbrecher, Bettina, Komplexe Waffenteile",
+            "en": "Used to craft weapons. Used to craft: Vulcano, Hullcracker, Bettina, Complex Gun Parts",
+            "es": "Se usan para fabricar armas. Se usan para fabricar: Vulcano, Partecascos, Bettina, Piezas de arma complejas",
+            "fr": "Utilisées pour fabriquer des armes. Utilisées pour fabriquer : Vulcano, Brise-fuselage, Bettina, Pièces d'arme complexes",
+            "he": "משמש ליצירת כלי נשק. משמש ליצירת: Vulcano, Hullcracker, Bettina, חלקי נשק מורכבים",
+            "hr": "Koristi se za izradu oružja. Koristi se za izradu: Vulcano, Hullcracker, Bettina, Složeni dijelovi oružja",
+            "it": "Usate per creare armi. Usate per creare: Vulcano, Hullcracker, Bettina, Parti di arma complesse",
+            "ja": "武器の製作に使用。製作可能: Vulcano、Hullcracker、Bettina、複雑な銃パーツ",
+            "ko-KR": "무기 제작에 사용됩니다. 제작 가능: Vulcano, Hullcracker, Bettina, 복합 총기 부품",
+            "no": "Brukes til å lage våpen. Brukes til å lage: Vulcano, Hullcracker, Bettina, Komplekse våpendeler",
+            "pl": "Używane do wytwarzania broni. Używane do wytworzenia: Vulcano, Hullcracker, Bettina, Złożone części broni",
+            "pt": "Usadas para fabricar armas. Usadas para fabricar: Vulcano, Hullcracker, Bettina, Peças de arma complexas",
+            "pt-BR": "Usadas para fabricar armas. Usadas para fabricar: Vulcão, Quebra-Casco, Bettina, Peças de Arma Complexa",
+            "ru": "Используется для создания оружия. Используется для создания: Vulcano, Hullcracker, Bettina, Сложные детали оружия",
+            "sr": "Koristi se za izradu oružja. Koristi se za izradu: Vulcano, Hullcracker, Bettina, Složeni delovi oružja",
+            "tr": "Silah üretmek için kullanılır. Üretilebilir: Vulcano, Hullcracker, Bettina, Karmaşık Silah Parçaları",
+            "uk": "Використовується для створення зброї. Використовується для створення: Vulcano, Hullcracker, Bettina, Складні деталі зброї",
+            "zh-CN": "用于制作武器。可制作：Vulcano、Hullcracker、Bettina、复杂枪械零件",
+            "zh-TW": "用於製作武器。可製作：Vulcano、Hullcracker、Bettina、複雜槍械零件"
+          },
+          "type": "Topside Material",
+          "rarity": "Rare",
+          "foundIn": "Security, Raider",
+          "value": 700,
+          "weightKg": 0.5,
+          "stackSize": 5,
+          "blueprintLocked": true,
+          "craftBench": "refiner",
+          "stationLevelRequired": 2,
+          "recipe": {
+            "simple_gun_parts": 4
+          },
+          "recyclesInto": {
+            "simple_gun_parts": 2
+          },
+          "salvagesInto": {
+            "simple_gun_parts": 1
+          },
+          "imageFilename": "https://cdn.arctracker.io/items/v2/heavy_gun_parts.png",
+          "updatedAt": "03/22/2026",
+          "addedIn": "base",
+          "vendors": [
+            {
+              "cost": {
+                "assorted_seeds": 15
+              },
+              "limit": 3,
+              "refreshSeconds": 86400,
+              "requiredLevel": 12,
+              "trader": "Celeste"
+            }
+          ]
+        },
+        "component": {
+          "id": "heavy_gun_parts"
+        }
+      }
+    ],
+    "icon": "https://cdn.arctracker.io/items/v2/rascal.png",
+    "workbench": "weapon_bench",
+    "item_type": "Special",
+    "stat_block": {
+      "Ammo Type": "Launcher Ammo",
+      "ARC Armor Penetration": "Very Strong",
+      "Durability": "100/100",
+      "Firing Mode": "Break-Action",
+      "Magazine Size": 1
+    }
+  },
+  {
+    "id": "rascal_ii",
+    "name": {
+      "en": "Rascal II"
+    },
+    "description": {
+      "en": "Fires explosive projectiles that only detonate when hitting ARC."
+    },
+    "type": "Special",
+    "rarity": "Rare",
+    "value": 10000,
+    "weightKg": 4,
+    "isWeapon": true,
+    "craftBench": "weapon_bench",
+    "recyclesInto": {
+      "advanced_mechanical_components": 2,
+      "heavy_gun_parts": 2
+    },
+    "salvagesInto": {
+      "heavy_gun_parts": 2
+    },
+    "upgradeCost": {
+      "advanced_mechanical_components": 1,
+      "heavy_gun_parts": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/v2/rascal.png",
+    "updatedAt": "05/19/2026",
+    "addedIn": "1.29",
+    "icon": "https://cdn.arctracker.io/items/v2/rascal.png",
+    "workbench": "weapon_bench",
+    "item_type": "Special"
+  },
+  {
+    "id": "rascal_iii",
+    "name": {
+      "en": "Rascal III"
+    },
+    "description": {
+      "en": "Fires explosive projectiles that only detonate when hitting ARC."
+    },
+    "type": "Special",
+    "rarity": "Rare",
+    "value": 13000,
+    "weightKg": 4,
+    "isWeapon": true,
+    "craftBench": "weapon_bench",
+    "recyclesInto": {
+      "advanced_mechanical_components": 2,
+      "heavy_gun_parts": 3
+    },
+    "salvagesInto": {
+      "heavy_gun_parts": 3
+    },
+    "upgradeCost": {
+      "advanced_mechanical_components": 1,
+      "heavy_gun_parts": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/v2/rascal.png",
+    "updatedAt": "05/19/2026",
+    "addedIn": "1.29",
+    "icon": "https://cdn.arctracker.io/items/v2/rascal.png",
+    "workbench": "weapon_bench",
+    "item_type": "Special"
+  },
+  {
+    "id": "rascal_iv",
+    "name": {
+      "en": "Rascal IV"
+    },
+    "description": {
+      "en": "Fires explosive projectiles that only detonate when hitting ARC."
+    },
+    "type": "Special",
+    "rarity": "Rare",
+    "value": 17000,
+    "weightKg": 4,
+    "isWeapon": true,
+    "craftBench": "weapon_bench",
+    "recyclesInto": {
+      "advanced_mechanical_components": 3,
+      "heavy_gun_parts": 3
+    },
+    "salvagesInto": {
+      "heavy_gun_parts": 3
+    },
+    "upgradeCost": {
+      "advanced_mechanical_components": 2,
+      "heavy_gun_parts": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/v2/rascal.png",
+    "updatedAt": "05/19/2026",
+    "addedIn": "1.29",
+    "icon": "https://cdn.arctracker.io/items/v2/rascal.png",
+    "workbench": "weapon_bench",
+    "item_type": "Special"
+  },
+  {
     "id": "rattler_i",
     "name": {
       "da": "Rattler I",
@@ -164478,7 +166584,7 @@
           },
           "type": "Augment",
           "rarity": "Common",
-          "value": 100,
+          "value": 660,
           "weightKg": 1,
           "stackSize": 1,
           "effects": {
@@ -164513,7 +166619,7 @@
             "rubber_parts": 6
           },
           "imageFilename": "https://cdn.arctracker.io/items/v2/free_loadout_augment.png",
-          "updatedAt": "03/31/2026",
+          "updatedAt": "05/19/2026",
           "addedIn": "base"
         },
         "component": {
@@ -207157,28 +209263,124 @@
       },
       {
         "item": {
-          "id": "extended_barrel",
+          "id": "extended_barrel_i",
           "name": {
-            "da": "Forlænget løb",
-            "de": "Verlängerter Lauf",
-            "en": "Extended Barrel",
-            "es": "Cañón extendido",
-            "fr": "Canon Allongé",
-            "he": "קנה מוארך",
-            "hr": "Produžena cijev",
-            "it": "Canna estesa",
-            "ja": "拡張バレル",
-            "ko-KR": "확장형 총열",
-            "no": "Forlenget løp",
-            "pl": "Wydłużona lufa",
-            "pt": "Cano estendido",
-            "pt-BR": "Cano Estendido",
-            "ru": "Удлиненный ствол",
-            "sr": "Produžena cev",
-            "tr": "Uzatılmış Namlu",
-            "uk": "Подовжений ствол",
-            "zh-CN": "加长枪管",
-            "zh-TW": "加長槍管"
+            "da": "Forlænget løb I",
+            "de": "Verlängerter Lauf I",
+            "en": "Extended Barrel I",
+            "es": "Cañón extendido I",
+            "fr": "Canon Allongé I",
+            "he": "קנה מוארךI",
+            "hr": "Produžena cijev I",
+            "it": "Canna estesa I",
+            "ja": "拡張バレル I",
+            "ko-KR": "확장형 총열 I",
+            "no": "Forlenget løp I",
+            "pl": "Wydłużona lufa I",
+            "pt": "Cano estendido I",
+            "pt-BR": "Cano Estendido I",
+            "ru": "Удлиненный ствол I",
+            "sr": "Produžena cev I",
+            "tr": "Uzatılmış Namlu I",
+            "uk": "Подовжений ствол I",
+            "zh-CN": "加长枪管 I",
+            "zh-TW": "加長槍管 I"
+          },
+          "type": "Modification",
+          "rarity": "Common",
+          "value": 1000,
+          "craftBench": "weapon_bench",
+          "stationLevelRequired": 1,
+          "recipe": {
+            "metal_parts": 6,
+            "wires": 3
+          },
+          "recyclesInto": {
+            "metal_parts": 5
+          },
+          "salvagesInto": {
+            "metal_parts": 3
+          },
+          "updatedAt": "05/19/2026",
+          "addedIn": "1.29"
+        },
+        "component": {
+          "id": "wires"
+        }
+      },
+      {
+        "item": {
+          "id": "extended_barrel_ii",
+          "name": {
+            "da": "Forlænget løb II",
+            "de": "Verlängerter Lauf II",
+            "en": "Extended Barrel II",
+            "es": "Cañón extendido II",
+            "fr": "Canon Allongé II",
+            "he": "קנה מוארךII",
+            "hr": "Produžena cijev II",
+            "it": "Canna estesa II",
+            "ja": "拡張バレル II",
+            "ko-KR": "확장형 총열 II",
+            "no": "Forlenget løp II",
+            "pl": "Wydłużona lufa II",
+            "pt": "Cano estendido II",
+            "pt-BR": "Cano Estendido II",
+            "ru": "Удлиненный ствол II",
+            "sr": "Produžena cev II",
+            "tr": "Uzatılmış Namlu II",
+            "uk": "Подовжений ствол II",
+            "zh-CN": "加长枪管 II",
+            "zh-TW": "加長槍管 II"
+          },
+          "type": "Modification",
+          "rarity": "Common",
+          "value": 3000,
+          "blueprintLocked": true,
+          "craftBench": "weapon_bench",
+          "stationLevelRequired": 2,
+          "recipe": {
+            "mechanical_components": 3,
+            "wires": 6
+          },
+          "recyclesInto": {
+            "mechanical_components": 1,
+            "wires": 1
+          },
+          "salvagesInto": {
+            "mechanical_components": 1
+          },
+          "updatedAt": "05/19/2026",
+          "addedIn": "1.29"
+        },
+        "component": {
+          "id": "wires"
+        }
+      },
+      {
+        "item": {
+          "id": "extended_barrel_iii",
+          "name": {
+            "da": "Forlænget løb III",
+            "de": "Verlängerter Lauf III",
+            "en": "Extended Barrel III",
+            "es": "Cañón extendido III",
+            "fr": "Canon Allongé III",
+            "he": "קנה מוארךIII",
+            "hr": "Produžena cijev III",
+            "it": "Canna estesa III",
+            "ja": "拡張バレル III",
+            "ko-KR": "확장형 총열 III",
+            "no": "Forlenget løp III",
+            "pl": "Wydłużona lufa III",
+            "pt": "Cano estendido III",
+            "pt-BR": "Cano Estendido III",
+            "ru": "Удлиненный ствол III",
+            "sr": "Produžena cev III",
+            "tr": "Uzatılmış Namlu III",
+            "uk": "Подовжений ствол III",
+            "zh-CN": "加长枪管 III",
+            "zh-TW": "加長槍管 III"
           },
           "description": {
             "da": "Øger kuglehastigheden moderat. Kompatibel med: Tempest, Arpeggio, Ferro, Renegade, Anvil",
@@ -209941,28 +212143,77 @@
       },
       {
         "item": {
-          "id": "extended_barrel",
+          "id": "extended_barrel_ii",
           "name": {
-            "da": "Forlænget løb",
-            "de": "Verlängerter Lauf",
-            "en": "Extended Barrel",
-            "es": "Cañón extendido",
-            "fr": "Canon Allongé",
-            "he": "קנה מוארך",
-            "hr": "Produžena cijev",
-            "it": "Canna estesa",
-            "ja": "拡張バレル",
-            "ko-KR": "확장형 총열",
-            "no": "Forlenget løp",
-            "pl": "Wydłużona lufa",
-            "pt": "Cano estendido",
-            "pt-BR": "Cano Estendido",
-            "ru": "Удлиненный ствол",
-            "sr": "Produžena cev",
-            "tr": "Uzatılmış Namlu",
-            "uk": "Подовжений ствол",
-            "zh-CN": "加长枪管",
-            "zh-TW": "加長槍管"
+            "da": "Forlænget løb II",
+            "de": "Verlängerter Lauf II",
+            "en": "Extended Barrel II",
+            "es": "Cañón extendido II",
+            "fr": "Canon Allongé II",
+            "he": "קנה מוארךII",
+            "hr": "Produžena cijev II",
+            "it": "Canna estesa II",
+            "ja": "拡張バレル II",
+            "ko-KR": "확장형 총열 II",
+            "no": "Forlenget løp II",
+            "pl": "Wydłużona lufa II",
+            "pt": "Cano estendido II",
+            "pt-BR": "Cano Estendido II",
+            "ru": "Удлиненный ствол II",
+            "sr": "Produžena cev II",
+            "tr": "Uzatılmış Namlu II",
+            "uk": "Подовжений ствол II",
+            "zh-CN": "加长枪管 II",
+            "zh-TW": "加長槍管 II"
+          },
+          "type": "Modification",
+          "rarity": "Common",
+          "value": 3000,
+          "blueprintLocked": true,
+          "craftBench": "weapon_bench",
+          "stationLevelRequired": 2,
+          "recipe": {
+            "mechanical_components": 3,
+            "wires": 6
+          },
+          "recyclesInto": {
+            "mechanical_components": 1,
+            "wires": 1
+          },
+          "salvagesInto": {
+            "mechanical_components": 1
+          },
+          "updatedAt": "05/19/2026",
+          "addedIn": "1.29"
+        },
+        "component": {
+          "id": "extended_barrel_ii"
+        }
+      },
+      {
+        "item": {
+          "id": "extended_barrel_iii",
+          "name": {
+            "da": "Forlænget løb III",
+            "de": "Verlängerter Lauf III",
+            "en": "Extended Barrel III",
+            "es": "Cañón extendido III",
+            "fr": "Canon Allongé III",
+            "he": "קנה מוארךIII",
+            "hr": "Produžena cijev III",
+            "it": "Canna estesa III",
+            "ja": "拡張バレル III",
+            "ko-KR": "확장형 총열 III",
+            "no": "Forlenget løp III",
+            "pl": "Wydłużona lufa III",
+            "pt": "Cano estendido III",
+            "pt-BR": "Cano Estendido III",
+            "ru": "Удлиненный ствол III",
+            "sr": "Produžena cev III",
+            "tr": "Uzatılmış Namlu III",
+            "uk": "Подовжений ствол III",
+            "zh-CN": "加长枪管 III",
+            "zh-TW": "加長槍管 III"
           },
           "description": {
             "da": "Øger kuglehastigheden moderat. Kompatibel med: Tempest, Arpeggio, Ferro, Renegade, Anvil",
@@ -210073,7 +212324,7 @@
           "addedIn": "base"
         },
         "component": {
-          "id": "extended_barrel"
+          "id": "extended_barrel_iii"
         }
       },
       {
