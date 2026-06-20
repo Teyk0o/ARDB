@@ -2088,28 +2088,28 @@
   },
   {
     "id": "avian_alarm_project",
-    "disabled": false,
+    "disabled": true,
     "name": {
+      "da": "Fuglealarm",
       "de": "Vogelalarm",
       "en": "Avian Alarm",
       "es": "Alarma aviar",
       "fr": "Alarme aviaire",
+      "he": "אזעקת ציפורים",
+      "hr": "Ptičji alarm",
       "it": "Allarme aviario",
       "ja": "鳥類警報",
       "ko-KR": "조류 경보",
+      "no": "Fuglealarm",
       "pl": "Ptasi alarm",
+      "pt": "Alarme Aviário",
       "pt-BR": "Alarme Aviário",
       "ru": "Пернатая тревога",
+      "sr": "Птичји аларм",
       "tr": "Kuş Alarmı",
-      "zh-CN": "禽鸟警报",
-      "zh-TW": "禽類警報",
       "uk": "Пташина сигналізація",
-      "pt": "Alarme Aviário",
-      "hr": "Ptičji alarm",
-      "no": "Fuglealarm",
-      "he": "אזעקת ציפורים",
-      "da": "Fuglealarm",
-      "sr": "Птичји аларм"
+      "zh-CN": "禽鸟警报",
+      "zh-TW": "禽類警報"
     },
     "description": {
       "da": "Speranzanerne har bemærket, at nogle fugle er følsomme over for atmosfæriske ændringer, og er begyndt at designe flertrins-alarmsystemer for at advare om forestående fare. Selvom deres præcision har været diskuteret, er den beroligende effekt af deres selskab ubestridelig.",
@@ -2970,22 +2970,16 @@
           {
             "category": "ArcDamage",
             "kind": "damage_tiers",
-            "valueRequired": 100000,
-            "tiers": [
-              5000,
-              10000,
-              30000,
-              50000,
-              100000
-            ],
             "questGameAssetId": "242691618",
-            "rewardItemId": "expedition_skill_point_token"
+            "rewardItemId": "expedition_skill_point_token",
+            "tiers": [5000, 10000, 30000, 50000, 100000],
+            "valueRequired": 100000
           }
         ],
         "requirementItemIds": []
       }
     ],
-    "endDate": 1782111600,
+    "endDate": 1783411200,
     "startDate": 1777449600
   },
   {
@@ -3986,5 +3980,413 @@
     ],
     "endDate": 1777248000,
     "startDate": 1770940800
+  },
+  {
+    "id": "converging_paths_project",
+    "disabled": false,
+    "name": {
+      "da": "Veje der mødes",
+      "de": "Sich kreuzende Wege",
+      "en": "Converging Paths",
+      "es": "Caminos convergentes",
+      "fr": "Chemins convergents",
+      "he": "דרכים מתכנסות",
+      "hr": "Putevi koji se spajaju",
+      "it": "Percorsi convergenti",
+      "ja": "交わる道",
+      "ko-KR": "하나로 모이는 길",
+      "no": "Veier som møtes",
+      "pl": "Zbiegające się drogi",
+      "pt": "Rotas Convergentes",
+      "pt-BR": "Rotas Convergentes",
+      "ru": "Сходящиеся пути",
+      "sr": "Putevi koji se spajaju",
+      "tr": "Kesişen Yollar",
+      "uk": "Шляхи, що сходяться",
+      "zh-CN": "殊途交汇",
+      "zh-TW": "交會的道路"
+    },
+    "description": {
+      "da": "Mens ARC-operationerne breder sig over hele Rustbæltet, har nomaderne indvilliget i at dele deres viden til gengæld for støtte. Der er brug for Raiders til at samle forsyninger, bjærge relikvier og hjælpe med at sikre fri passage for nomader, der rejser gennem farlige ruter.",
+      "de": "Da sich die ARC-Operationen über den Rostgürtel ausbreiten, haben die Nomaden zugestimmt, ihr Wissen im Austausch gegen Unterstützung weiterzugeben. Es werden Raider gebraucht, um Vorräte zu beschaffen, Relikte zu bergen und den Nomaden auf ihren gefährlichen Routen einen sicheren Durchgang zu ermöglichen.",
+      "en": "With ARC operations spreading across the Rust Belt, the nomads have agreed to share their knowledge in exchange for support. Raiders are needed to gather supplies, recover relics, and help secure safe passage for nomads traveling through dangerous routes.",
+      "es": "Ahora que las operaciones de las ARC se han expandido y abarcan todo el Cinturón de óxido, los nómadas han aceptado compartir su conocimiento a cambio de apoyo. Se necesitan Raiders para reunir suministros, recuperar reliquias y ayudar a garantizar el paso seguro a los nómadas que recorren rutas peligrosas.",
+      "fr": "Alors que les opérations de l'ARC s'étendent à travers la Région de la rouille, les nomades ont accepté de partager leur savoir en échange de soutien. L'aide des Raiders est nécessaire pour rassembler des provisions, récupérer des reliques et assurer un passage sûr aux nomades voyageant sur les routes dangereuses.",
+      "he": "עם התפשטות פעולות ARC ברחבי חגורת החלודה, הנוודים הסכימו לחלוק את הידע שלהם בתמורה לתמיכה. דרושים ריידרים כדי לאסוף אספקה, להשיב שרידים ולעזור לאבטח מעבר בטוח לנוודים הנעים בדרכים מסוכנות.",
+      "hr": "Kako se operacije ARC-a šire Rust Beltom, Nomadi su pristali podijeliti svoje znanje u zamjenu za potporu. Potrebni su Raideri za skupljanje zaliha, vraćanje relikvija i pomoć u osiguravanju sigurnog prolaza Nomadima koji putuju opasnim rutama.",
+      "it": "Con le operazioni dell'ARC che si estendono in tutta la Cintura di ruggine, i Nomadi hanno accettato di condividere le loro conoscenze in cambio di sostegno. Servono Raider per raccogliere rifornimenti, recuperare reliquie e aiutare a garantire un passaggio sicuro ai Nomadi che viaggiano lungo percorsi pericolosi.",
+      "ja": "ARCの活動がラストベルト全域に拡大する中、遊牧民は支援と引き換えに自らの知識を共有することに同意した。物資の収集や遺物の回収、そして危険なルートを旅する遊牧民たちの安全な通行を確保するためにレイダーが必要とされている。",
+      "ko-KR": "아크의 작전이 러스트 벨트 전역으로 확산되면서, 유랑민들은 지원을 받는 대가로 자신들이 아는 것을 알려주기로 했습니다. 레이더들은 보급품을 모으고, 유물을 회수하며, 위험한 길을 오가는 유랑민들을 위해 통행의 안전을 확보해야 합니다.",
+      "no": "Etter hvert som ARC-operasjonene sprer seg over Rustbeltet, har nomadene gått med på å dele kunnskapen sin i bytte mot støtte. Raiders trengs for å samle forsyninger, hente tilbake relikvier og bidra til å sikre trygg passasje for nomader som reiser gjennom farlige ruter.",
+      "pl": "Ze względu na rozprzestrzeniającą się po całym Rdzawym Pasie aktywność maszyn ARC wędrowcy zgodzili się przekazać swoją wiedzę w zamian za wsparcie. Łupieżcy są przydatni, gromadzą bowiem zapasy, pozyskują artefakty i zapewniają bezpieczeństwo na drodze wędrowcom przemierzającym niebezpieczne szlaki.",
+      "pt": "Com as operações ARC se espalhando pelo Cinturão da Ferrugem, os nômades aceitaram dividir seus conhecimentos em troca de apoio. Raiders são necessários para reunir suprimentos, recuperar relíquias e ajudar a garantir a travessia segura dos nômades por rotas perigosas.",
+      "pt-BR": "Com as operações ARC se espalhando pelo Cinturão da Ferrugem, os nômades aceitaram dividir seus conhecimentos em troca de apoio. Raiders são necessários para reunir suprimentos, recuperar relíquias e ajudar a garantir a travessia segura dos nômades por rotas perigosas.",
+      "ru": "Теперь, когда ARC продолжает распространяться по Медному поясу, кочевники согласились поделиться своими знаниями в обмен на поддержку. Рейдерам нужно собирать припасы, добывать реликвии и обеспечить безопасный проход для кочевников, следующих по опасным маршрутам.",
+      "sr": "Kako se ARC operacije šire Rust Beltom, Nomadi su pristali da podele svoje znanje u zamenu za podršku. Potrebni su Raideri da skupljaju zalihe, vraćaju relikvije i pomognu da se obezbedi bezbedan prolaz za Nomade koji putuju opasnim rutama.",
+      "tr": "ARC operasyonlarının Paslı Kemer'e yayılması üzerine göçebeler, yardım karşılığında bildiklerini paylaşmayı kabul ettiler. Raider'ların malzeme toplaması, yadigâr kurtarması ve tehlikeli yollardan geçen göçebelere güvenli geçiş sağlaması gerekiyor.",
+      "uk": "Оскільки операції ARC поширюються Іржавим поясом, Номади погодилися поділитися своїми знаннями в обмін на підтримку. Потрібні Рейдери, щоб збирати припаси, повертати реліквії та допомагати забезпечувати безпечний прохід Номадам, які мандрують небезпечними маршрутами.",
+      "zh-CN": "ARC势力在锈带不断扩张，游牧者决定拿出自身学识，以换取各方支援。为此，需要奇袭者搜集物资、找回遗物，护送游牧民穿行危险路段。",
+      "zh-TW": "隨著ARC的活動範圍不斷擴展到整個鐵鏽帶，遊牧者們同意分享他們的知識，以交換所需的支援。掠手負責收集物資、找回遺物，並協助必須經過危險路線的遊牧者們安全通行。"
+    },
+    "phases": [
+      {
+        "name": {
+          "da": "Sørg for sikker passage for nomaderne",
+          "de": "Sorge für einen sicheren Durchgang für die Nomaden",
+          "en": "Secure Safe Passage for the Nomads",
+          "es": "Garantízales el paso seguro a los nómadas",
+          "fr": "Assurer un passage sûr aux nomades",
+          "he": "אבטח מעבר בטוח לנוודים",
+          "hr": "Osiguraj siguran prolaz za Nomade",
+          "it": "Garantisci un passaggio sicuro ai Nomadi",
+          "ja": "遊牧民のために安全な通路を確保する",
+          "ko-KR": "유랑민을 위해 안전한 통행로 확보하기",
+          "no": "Sikre trygg passasje for nomadene",
+          "pl": "Zapewnij wędrowcom bezpieczne przejście",
+          "pt": "Ajude os Nômades a passar em segurança",
+          "pt-BR": "Ajude os Nômades a passar em segurança",
+          "ru": "Обеспечьте безопасный проход для кочевников",
+          "sr": "Obezbedi siguran prolaz za Nomade",
+          "tr": "Göçebelere Güvenli Geçiş Sağla",
+          "uk": "Забезпеч безпечний прохід для Номадів",
+          "zh-CN": "保障游牧者通行安全",
+          "zh-TW": "為遊牧者確保通行安全"
+        },
+        "description": {
+          "da": "Gør skade på ARC-fjender i sumpen",
+          "de": "Füge ARC-Gegnern im Sumpf Schaden zu",
+          "en": "Deal Damage to ARC enemies in the Swamp",
+          "es": "Inflige daño a enemigos ARC en el pantano",
+          "fr": "Infliger des dégâts aux ennemis ARC dans le Marécage",
+          "he": "גרום נזק לאויבי ARC בביצה",
+          "hr": "Nanesi štetu neprijateljima ARC-a u močvari",
+          "it": "Infliggi danni ai nemici ARC nella palude",
+          "ja": "沼にいるARCエネミーにダメージを与える",
+          "ko-KR": "늪에서 아크 적에 대미지 주기",
+          "no": "Gjør skade på ARC-fiender i sumpen",
+          "pl": "Zadaj obrażenia wrogim maszynom ARC na bagnie",
+          "pt": "Cause dano a inimigos ARC no Pântano",
+          "pt-BR": "Cause dano a inimigos ARC no Pântano",
+          "ru": "Нанесите урон машинам ARC на болоте",
+          "sr": "Nanesi štetu ARC neprijateljima u močvari",
+          "tr": "Bataklık'taki ARC düşmanlarına hasar ver",
+          "uk": "Завдай шкоди ворогам ARC на болоті",
+          "zh-CN": "对沼泽中的ARC敌人造成伤害",
+          "zh-TW": "對沼澤裡的ARC敵人造成傷害"
+        },
+        "phase": 1,
+        "requirementItemIds": []
+      },
+      {
+        "name": {
+          "da": "Saml forsyninger",
+          "de": "Sammle Vorräte",
+          "en": "Collect Supplies",
+          "es": "Recoger suministros",
+          "fr": "Collecter des provisions",
+          "he": "אסוף אספקה",
+          "hr": "Prikupi zalihe",
+          "it": "Raccogli forniture",
+          "ja": "物資を集める",
+          "ko-KR": "보급품 수집하기",
+          "no": "Samle forsyninger",
+          "pl": "Zbierz zapasy",
+          "pt": "Reúna suprimentos",
+          "pt-BR": "Reúna suprimentos",
+          "ru": "Соберите припасы",
+          "sr": "Sakupi zalihe",
+          "tr": "Malzeme Topla",
+          "uk": "Збери припаси",
+          "zh-CN": "收集补给",
+          "zh-TW": "收集物資"
+        },
+        "description": {
+          "da": "Saml forsyninger, som du kan dele med nomaderne",
+          "de": "Sammle Vorräte, um sie mit den Nomaden zu teilen",
+          "en": "Collect supplies to share with the nomads",
+          "es": "Recoge suministros para compartirlos con los nómadas",
+          "fr": "Collecter des provisions à partager avec les nomades",
+          "he": "אסוף אספקה כדי לחלוק אותה עם הנוודים",
+          "hr": "Prikupi zalihe koje ćeš podijeliti s Nomadima",
+          "it": "Raccogli forniture da condividere con i Nomadi",
+          "ja": "遊牧民に分け与えるための物資を集める",
+          "ko-KR": "유랑민에게 나눠 줄 보급품 수집",
+          "no": "Samle forsyninger som kan deles med nomadene",
+          "pl": "Zbierz zapasy, aby podzielić się nimi z wędrowcami",
+          "pt": "Reúna suprimentos para compartilhar com os nômades",
+          "pt-BR": "Reúna suprimentos para compartilhar com os nômades",
+          "ru": "Соберите припасы, которыми можно поделиться с кочевниками",
+          "sr": "Sakupi zalihe koje ćeš podeliti sa Nomadima",
+          "tr": "Göçebelerle paylaşacak malzeme topla",
+          "uk": "Збери припаси, якими можна поділитися з Номадами",
+          "zh-CN": "收集物资，与游牧者共享",
+          "zh-TW": "收集可以和遊牧者分享的物資"
+        },
+        "phase": 2,
+        "requirementItemIds": [
+          {
+            "itemId": "train_model",
+            "quantity": 3
+          },
+          {
+            "itemId": "vintage_steering_wheel",
+            "quantity": 2
+          },
+          {
+            "itemId": "air_freshener",
+            "quantity": 2
+          },
+          {
+            "itemId": "arc_thermo_lining",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "name": {
+          "da": "Skaf relikvier",
+          "de": "Beschaffe Relikte",
+          "en": "Procure Relics",
+          "es": "Recuperar reliquias",
+          "fr": "Récupérer des reliques",
+          "he": "השג שרידים",
+          "hr": "Nabavi relikvije",
+          "it": "Procura reliquie",
+          "ja": "遺物を確保する",
+          "ko-KR": "유물 조달하기",
+          "no": "Skaff relikvier",
+          "pl": "Zdobądź artefakty",
+          "pt": "Obtenha relíquias",
+          "pt-BR": "Obtenha relíquias",
+          "ru": "Добудьте реликвии",
+          "sr": "Nabavi relikvije",
+          "tr": "Yadigâr Bul",
+          "uk": "Здобудь реліквії",
+          "zh-CN": "搜集遗物",
+          "zh-TW": "取得遺物"
+        },
+        "description": {
+          "da": "Find relikvier, som du kan dele med nomaderne",
+          "de": "Finde Relikte, die du mit den Nomaden teilen kannst",
+          "en": "Find relics to share with the nomads",
+          "es": "Encuentra reliquias para compartirlas con los nómadas",
+          "fr": "Trouver des reliques à partager avec les nomades",
+          "he": "מצא שרידים כדי לחלוק אותם עם הנוודים",
+          "hr": "Pronađi relikvije koje ćeš podijeliti s Nomadima",
+          "it": "Trova reliquie da condividere con i Nomadi",
+          "ja": "遊牧民に分け与えるための遺物を探す",
+          "ko-KR": "유랑민에게 나눠 줄 유물 찾기",
+          "no": "Finn relikvier som kan deles med nomadene",
+          "pl": "Znajdź artefakty, aby podzielić się nimi z wędrowcami",
+          "pt": "Encontre relíquias para compartilhar com os nômades",
+          "pt-BR": "Encontre relíquias para compartilhar com os nômades",
+          "ru": "Найдите реликвии, которыми можно поделиться с кочевниками",
+          "sr": "Pronađi relikvije koje ćeš podeliti sa Nomadima",
+          "tr": "Göçebelerle paylaşacak yadigâr bul",
+          "uk": "Знайди реліквії, якими можна поділитися з Номадами",
+          "zh-CN": "寻找遗物，用以和游牧者交换",
+          "zh-TW": "尋找可以和遊牧者分享的遺物"
+        },
+        "phase": 3,
+        "requirementItemIds": [
+          {
+            "itemId": "sextant",
+            "quantity": 4
+          },
+          {
+            "itemId": "equatorial_sundial",
+            "quantity": 3
+          },
+          {
+            "itemId": "metal_brackets",
+            "quantity": 5
+          },
+          {
+            "itemId": "arc_performance_steel",
+            "quantity": 7
+          }
+        ]
+      },
+      {
+        "name": {
+          "da": "Opret nødforsyningsdepoter",
+          "de": "Lege Notvorräte an",
+          "en": "Create Emergency Caches",
+          "es": "Crea alijos de emergencia",
+          "fr": "Établir des réserves d'urgence",
+          "he": "צור מטמוני חירום",
+          "hr": "Stvori zalihe za hitne slučajeve",
+          "it": "Crea depositi di emergenza",
+          "ja": "緊急用の物資貯蔵庫を作る",
+          "ko-KR": "비상 은닉처 만들기",
+          "no": "Lag nødlagre",
+          "pl": "Utwórz skrytki ratunkowe",
+          "pt": "Crie Estoques de Emergência",
+          "pt-BR": "Crie Estoques de Emergência",
+          "ru": "Создайте аварийные тайники",
+          "sr": "Napravi zalihe za hitne slučajeve",
+          "tr": "Acil Durum Zulası Oluştur",
+          "uk": "Створи аварійні схрони",
+          "zh-CN": "制作应急储物箱",
+          "zh-TW": "建立緊急藏貨"
+        },
+        "description": {
+          "da": "Byg nødforsyningsdepoter, der hjælper både nomaderne og Raiders med at overleve på overfladen",
+          "de": "Lege Notvorräte an, damit sowohl die Nomaden als auch die Raider an der Oberfläche überleben können.",
+          "en": "Build emergency caches to help both the nomads and Raiders stay alive on the surface",
+          "es": "Construye alijos de emergencia para ayudar a los nómadas y a los Raiders a mantenerse con vida en la superficie.",
+          "fr": "Établir des réserves d'urgence pour aider les nomades comme les Raiders à survivre en Surface.",
+          "he": "בנה מטמוני חירום שיעזרו גם לנוודים וגם לריידרים להישאר בחיים על פני השטח",
+          "hr": "Izgradi zalihe za hitne slučajeve kako bi i Nomadi i Raideri preživjeli na površini",
+          "it": "Costruisci depositi di emergenza per aiutare sia i Nomadi che i Raider a sopravvivere in superficie",
+          "ja": "遊牧民とレイダーの両方が地上で生き延びられるよう、緊急用の物資貯蔵庫を建設する",
+          "ko-KR": "지상에서 유랑민과 레이더가 생존할 수 있도록 비상 은닉처를 건설하세요.",
+          "no": "Bygg nødlagre som hjelper både nomadene og Raiders med å holde seg i live på overflaten",
+          "pl": "Zbuduj skrytki ratunkowe, które pomogą zarówno wędrowcom, jak i łupieżcom przetrwać na powierzchni",
+          "pt": "Monte estoques de emergência para ajudar nômades e Raiders a sobreviver na superfície",
+          "pt-BR": "Monte estoques de emergência para ajudar nômades e Raiders a sobreviver na superfície",
+          "ru": "Организуйте аварийные тайники, которые помогут кочевникам и рейдерам выживать на поверхности",
+          "sr": "Izgradi zalihe za hitne slučajeve kako bi i Nomadi i Raideri preživeli na površini",
+          "tr": "Hem göçebelerin hem de Raider'ların yüzeyde hayatta kalmalarına yardım etmek için acil durum zulaları inşa et",
+          "uk": "Створи аварійні схрони, щоб допомогти Номадам і Рейдерам вижити на поверхні",
+          "zh-CN": "制作应急储物箱，帮助游牧者和奇袭者在地表存活下去",
+          "zh-TW": "建立緊急藏貨，以幫助遊牧者和掠手能在地面上生存下去"
+        },
+        "phase": 4,
+        "requirementItemIds": [
+          {
+            "itemId": "tellurion",
+            "quantity": 3
+          },
+          {
+            "itemId": "elephant_obelisk",
+            "quantity": 1
+          },
+          {
+            "itemId": "light_bulb",
+            "quantity": 6
+          },
+          {
+            "itemId": "arc_coolant",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "name": {
+          "da": "Færdiggør kuriositetskabinettet",
+          "de": "Stelle das Kuriositätenkabinett fertig",
+          "en": "Finish the Cabinet of Curiosities",
+          "es": "Termina el armario de las curiosidades",
+          "fr": "Terminer le cabinet des curiosités",
+          "he": "סיים את ארון הפלאות",
+          "hr": "Dovrši kabinet zanimljivosti",
+          "it": "Termina la Camera delle meraviglie",
+          "ja": "「珍品陳列棚」を完了する",
+          "ko-KR": "진귀품 진열장 완성하기",
+          "no": "Fullfør kuriositetskabinettet",
+          "pl": "Ukończ szafkę ciekawostek",
+          "pt": "Conclua o Gabinete de Curiosidades",
+          "pt-BR": "Conclua o Gabinete de Curiosidades",
+          "ru": "Закончите со шкафчиком диковин",
+          "sr": "Dovrši kabinet zanimljivosti",
+          "tr": "İlginç Şeyler Dolabı'nı Tamamla",
+          "uk": "Заверши шафу дивовиж",
+          "zh-CN": "完善奇珍陈列柜",
+          "zh-TW": "完成珍奇櫃製作"
+        },
+        "description": {
+          "da": "Læg sidste hånd på kuriositetskabinettet, et nyt symbol på de spirende bånd mellem nomaderne og Speranza.",
+          "de": "Verleihe dem Kuriositätenkabinett den letzten Schliff – es ist ein neues Symbol für die aufblühenden Beziehungen zwischen den Nomaden und Speranza.",
+          "en": "Put the finishing touches on the cabinet of curiosities, a new emblem of blossoming ties between the nomads and Speranza.",
+          "es": "Da los últimos retoques al armario de las curiosidades, un nuevo símbolo de la incipiente relación entre los nómadas y Speranza.",
+          "fr": "Apportez les dernières touches au cabinet des curiosités, nouveau symbole des liens grandissants entre les nomades et Speranza.",
+          "he": "השלם את הנגיעות האחרונות בארון הפלאות, סמל חדש לקשרים הפורחים בין הנוודים ל-Speranza.",
+          "hr": "Daj završni dodir kabinetu zanimljivosti, novom simbolu procvata veza između Nomada i Speranze.",
+          "it": "Dai gli ultimi ritocchi alla Camera delle meraviglie, nuovo simbolo dei legami sempre più stretti tra i Nomadi e Speranza.",
+          "ja": "珍品陳列棚に最後の仕上げを施そう。遊牧民とスペランザの絆の深まりを示す新たな象徴だ。",
+          "ko-KR": "유랑민과 스페란자 사이에 싹트는 유대의 새로운 상징인 진귀품 진열장에 마지막 손길을 더하세요.",
+          "no": "Legg siste hånd på kuriositetskabinettet, et nytt symbol på de spirende båndene mellom nomadene og Speranza.",
+          "pl": "Nadaj ostatnie szlify szafce ciekawostek, nowemu symbolowi wzmacniającej się więzi między wędrowcami a Speranzą.",
+          "pt": "Dê os toques finais ao Gabinete de Curiosidades, novo símbolo da aproximação entre os nômades e Speranza.",
+          "pt-BR": "Dê os toques finais ao Gabinete de Curiosidades, novo símbolo da aproximação entre os nômades e Speranza.",
+          "ru": "Нанесите последние штрихи на шкафчик диковин — новый символ набирающих силу связей кочевников со Сперанцей.",
+          "sr": "Daj završni dodir kabinetu zanimljivosti, novom simbolu procvata veza između Nomada i Speranze.",
+          "tr": "İlginç şeyler dolabına son rötuşları yap. Bu dolap göçebeler ve Speranza arasında yeşeren bağın nişanesi olacak.",
+          "uk": "Додай останні штрихи до шафи дивовиж, нового символу розквіту зв'язків між Номадами та Speranza.",
+          "zh-CN": "将奇珍陈列柜修缮完毕，这座柜子也成为游牧者与斯佩兰扎情谊日渐深厚的象征。",
+          "zh-TW": "為這個奇珍櫃做最後的裝飾吧，它將成為遊牧者與斯佩蘭薩之間關係蓬勃發展的象徵。"
+        },
+        "phase": 5,
+        "requirementItemIds": [
+          {
+            "itemId": "colorful_shoes_rare",
+            "quantity": 6
+          },
+          {
+            "itemId": "colorful_shoes_epic",
+            "quantity": 3
+          },
+          {
+            "itemId": "colorful_shoes_legendary",
+            "quantity": 2
+          },
+          {
+            "itemId": "arc_synthetic_resin",
+            "quantity": 10
+          }
+        ]
+      },
+      {
+        "name": {
+          "da": "Brug nomadetaktikker til at bekæmpe ARC",
+          "de": "Setze Nomadentaktiken ein, um gegen ARC zu kämpfen",
+          "en": "Use Nomad Tactics to Fight ARC",
+          "es": "Emplea tácticas nómadas para luchar contra las ARC",
+          "fr": "Utiliser les tactiques des nomades pour combattre l'ARC",
+          "he": "השתמש בטקטיקות נוודים כדי להילחם ב-ARC",
+          "hr": "Upotrijebi nomadske taktike za borbu protiv ARC-a",
+          "it": "Usa le tattiche nomadi per combattere l'ARC",
+          "ja": "遊牧民の戦術を使ってARCと戦う",
+          "ko-KR": "유랑민의 전술로 아크에 맞서기",
+          "no": "Bruk nomadetaktikker til å bekjempe ARC",
+          "pl": "Wykorzystaj taktykę wędrowców do walki z maszynami ARC",
+          "pt": "Use táticas nômades para enfrentar ARCs",
+          "pt-BR": "Use táticas nômades para enfrentar ARCs",
+          "ru": "Используйте против ARC тактику кочевников",
+          "sr": "Koristi nomadske taktike za borbu protiv ARC-a",
+          "tr": "ARC ile Savaşmak için Göçebe Taktiklerini Kullan",
+          "uk": "Використай тактики Номадів для боротьби з ARC",
+          "zh-CN": "运用游牧战术对抗ARC",
+          "zh-TW": "使用遊牧者戰術來對抗ARC"
+        },
+        "description": {
+          "da": "Gør skade på ARC med miner eller fælder (Blaze Grenade Trap, Pulse Mine, Jolt Mine, Explosive Mine, Surge Coil)",
+          "de": "Füge ARC-Gegnern mit Minen oder Fallen Schaden zu (Laserfalle: Feuer, Sprungmine: Impuls, Schockmine, Sprengmine, Überspannungsspule)",
+          "en": "Deal damage to ARC using mines or traps (Blaze Grenade Trap, Pulse Mine, Jolt Mine, Explosive Mine, Surge Coil)",
+          "es": "Inflige daño a enemigos ARC con minas o trampas (Trampa láser: fuego, Mina de salto: repulsión, Mina de choque, Mina explosiva, Bobina)",
+          "fr": "Infliger des dégâts aux ennemis ARC à l'aide de mines ou de pièges (Piège laser - Incendiaire, Mine bondissante : impulsion, Mine étourdissante, Mine explosive, Bobine de surtension)",
+          "he": "גרום נזק ל-ARC באמצעות מוקשים או מלכודות (Blaze Grenade Trap, Pulse Mine, Jolt Mine, Explosive Mine, Surge Coil)",
+          "hr": "Nanesi štetu ARC-u pomoću mina ili zamki (Blaze Grenade Trap, Pulse Mine, Jolt Mine, Explosive Mine, Surge Coil)",
+          "it": "Infliggi danni ai nemici ARC usando mine o trappole (Trappola laser: Fuoco, Mina a salto: impulso, Mina a scossa, Mina esplosiva, Bobina di sovratensione)",
+          "ja": "地雷や罠を使ってARCエネミーにダメージを与える(レーザートラップ：ブレイズ, ジャンプ地雷：衝撃, ジョルト地雷, 爆発地雷, サージコイル)",
+          "ko-KR": "지뢰나 함정으로 아크 적에 대미지 주기 (화염 수류탄 함정, 펄스 지뢰, 충격 지뢰, 폭발 지뢰, 서지 코일)",
+          "no": "Gjør skade på ARC med miner eller feller (Blaze Grenade Trap, Pulse Mine, Jolt Mine, Explosive Mine, Surge Coil)",
+          "pl": "Zadaj obrażenia wrogim maszynom ARC za pomocą min lub pułapek (Pułapka laserowa: ogień, Mina skacząca: impulsowa, Mina wstrząsowa, Mina wybuchowa, Cewka przepięciowa)",
+          "pt": "Cause dano a inimigos ARC com minas ou armadilhas (Armadilha a laser: fogo, Mina Saltadora: impulso, Mina Elétrica, Mina Explosiva, Bobina de Surto)",
+          "pt-BR": "Cause dano a inimigos ARC com minas ou armadilhas (Armadilha a laser: fogo, Mina Saltadora: impulso, Mina Elétrica, Mina Explosiva, Bobina de Surto)",
+          "ru": "Нанесите урон машинам ARC с помощью мин или ловушек (Лазерная ловушка: огонь, Подбрасывающая мина (импульсная), Электрическая мина, Взрывная мина, Токовая катушка)",
+          "sr": "Nanesi štetu ARC-u pomoću mina ili zamki (Blaze Grenade Trap, Pulse Mine, Jolt Mine, Explosive Mine, Surge Coil)",
+          "tr": "ARC düşmanlarına mayın veya tuzaklarla hasar ver (Lazer Tuzağı: Ateş, Sıçrama Mayını: İtici, Şok Mayını, Patlayıcı Mayın, Patlama Bobini)",
+          "uk": "Завдай шкоди ARC за допомогою мін або пасток (Blaze Grenade Trap, Pulse Mine, Jolt Mine, Explosive Mine, Surge Coil)",
+          "zh-CN": "使用地雷或陷阱对ARC敌人造成伤害（激光陷阱：强光、跳雷：冲击、电击地雷、爆炸地雷、涌能线圈）",
+          "zh-TW": "使用地雷或陷阱對ARC敵人造成傷害（雷射陷阱：烈焰、脈衝地雷、震動地雷、爆破地雷、湧電線圈）"
+        },
+        "phase": 6,
+        "requirementItemIds": []
+      }
+    ],
+    "endDate": 1785225600,
+    "startDate": 1778497200
   }
 ]

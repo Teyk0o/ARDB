@@ -88,6 +88,19 @@
       }
     ]
   },
+  "air_freshener": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "air_freshener",
+        "projectId": "converging_paths_project",
+        "projectName": "Converging Paths",
+        "projectPhase": 2,
+        "completed": false
+      }
+    ]
+  },
   "alarm_clock": {
     "tag": "recycle",
     "reasons": [
@@ -256,6 +269,14 @@
         "projectName": "High-Gain Antenna",
         "projectPhase": 2,
         "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "arc_coolant",
+        "projectId": "converging_paths_project",
+        "projectName": "Converging Paths",
+        "projectPhase": 4,
+        "completed": false
       }
     ]
   },
@@ -310,6 +331,14 @@
         "projectName": "High-Gain Antenna",
         "projectPhase": 1,
         "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "arc_performance_steel",
+        "projectId": "converging_paths_project",
+        "projectName": "Converging Paths",
+        "projectPhase": 3,
+        "completed": false
       }
     ]
   },
@@ -358,6 +387,14 @@
         "projectName": "High-Gain Antenna",
         "projectPhase": 3,
         "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "arc_synthetic_resin",
+        "projectId": "converging_paths_project",
+        "projectName": "Converging Paths",
+        "projectPhase": 5,
+        "completed": false
       }
     ]
   },
@@ -369,6 +406,14 @@
         "itemId": "arc_thermo_lining",
         "projectId": "high_gain_antenna_project",
         "projectName": "High-Gain Antenna",
+        "projectPhase": 2,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "arc_thermo_lining",
+        "projectId": "converging_paths_project",
+        "projectName": "Converging Paths",
         "projectPhase": 2,
         "completed": false
       }
@@ -1798,6 +1843,19 @@
       }
     ]
   },
+  "elephant_obelisk": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "elephant_obelisk",
+        "projectId": "converging_paths_project",
+        "projectName": "Converging Paths",
+        "projectPhase": 4,
+        "completed": false
+      }
+    ]
+  },
   "empty_wine_bottle": {
     "tag": "keep",
     "reasons": [
@@ -1807,6 +1865,19 @@
         "projectId": "flickering_flames_project",
         "projectName": "Flickering Flames",
         "projectPhase": 1,
+        "completed": false
+      }
+    ]
+  },
+  "equatorial_sundial": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "equatorial_sundial",
+        "projectId": "converging_paths_project",
+        "projectName": "Converging Paths",
+        "projectPhase": 3,
         "completed": false
       }
     ]
@@ -2583,6 +2654,14 @@
         "projectName": "Flickering Flames",
         "projectPhase": 2,
         "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "light_bulb",
+        "projectId": "converging_paths_project",
+        "projectName": "Converging Paths",
+        "projectPhase": 4,
+        "completed": false
       }
     ]
   },
@@ -2696,29 +2775,15 @@
     ]
   },
   "metal_brackets": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "metal_brackets",
-        "recycleComponentId": "metal_parts",
-        "recycleComponentName": "Metal Parts",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "metal_brackets",
-            "itemName": "Metal Brackets",
-            "targetId": "metal_parts",
-            "targetName": "Metal Parts"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "metal_parts",
-            "itemName": "Metal Parts",
-            "workshopStation": "gunsmith",
-            "workshopLevel": "1"
-          }
-        ]
+        "projectId": "converging_paths_project",
+        "projectName": "Converging Paths",
+        "projectPhase": 3,
+        "completed": false
       }
     ]
   },
@@ -4232,6 +4297,19 @@
       }
     ]
   },
+  "sextant": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "sextant",
+        "projectId": "converging_paths_project",
+        "projectName": "Converging Paths",
+        "projectPhase": 3,
+        "completed": false
+      }
+    ]
+  },
   "shredder_gyro": {
     "tag": "keep",
     "reasons": [
@@ -4907,6 +4985,19 @@
       }
     ]
   },
+  "tellurion": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "tellurion",
+        "projectId": "converging_paths_project",
+        "projectName": "Converging Paths",
+        "projectPhase": 4,
+        "completed": false
+      }
+    ]
+  },
   "thermostat": {
     "tag": "recycle",
     "reasons": [
@@ -5013,6 +5104,19 @@
             "workshopLevel": "1"
           }
         ]
+      }
+    ]
+  },
+  "train_model": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "train_model",
+        "projectId": "converging_paths_project",
+        "projectName": "Converging Paths",
+        "projectPhase": 2,
+        "completed": false
       }
     ]
   },
@@ -5192,6 +5296,19 @@
         "itemId": "very_comfortable_pillow",
         "workshopStation": "scrappy",
         "workshopLevel": "5",
+        "completed": false
+      }
+    ]
+  },
+  "vintage_steering_wheel": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "vintage_steering_wheel",
+        "projectId": "converging_paths_project",
+        "projectName": "Converging Paths",
+        "projectPhase": 2,
         "completed": false
       }
     ]

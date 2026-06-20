@@ -1,32 +1,5 @@
 [
   {
-    "date": "2026-05-20T03:18:57.565Z",
-    "timestamp": 1779247137565,
-    "changes": {
-      "added": [
-        "Extended Barrel I",
-        "Extended Barrel II",
-        "Extended Barrel II Blueprint",
-        "Extended Barrel III",
-        "Extended Barrel III Blueprint",
-        "Rascal Blueprint",
-        "Rascal I",
-        "Rascal II",
-        "Rascal III",
-        "Rascal IV"
-      ],
-      "modified": [
-        "Free Loadout Augment"
-      ],
-      "removed": [
-        "Extended Barrel",
-        "Extended Barrel Blueprint"
-      ]
-    },
-    "summary": "10 added, 1 modified, 2 removed",
-    "totalItems": 568
-  },
-  {
     "date": "2026-05-21T03:18:52.432Z",
     "timestamp": 1779333532432,
     "changes": {
@@ -2506,5 +2479,26 @@
     },
     "summary": "567 added, 0 modified, 0 removed",
     "totalItems": 567
+  },
+  {
+    "date": "2026-06-20T03:17:35.768Z",
+    "timestamp": 1781925455768,
+    "changes": {
+      "added": [
+        "Colorful Shoes (Green)",
+        "Colorful Shoes (Red)",
+        "Colorful Shoes (Silver)",
+        "Elephant Obelisk",
+        "Equatorial Sundial",
+        "Sextant",
+        "Tellurion",
+        "Train Model",
+        "Vintage Steering Wheel"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "summary": "9 added, 0 modified, 0 removed",
+    "totalItems": 576
   }
 ]
