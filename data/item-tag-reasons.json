@@ -1139,6 +1139,45 @@
       }
     ]
   },
+  "colorful_shoes_green": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "colorful_shoes_green",
+        "projectId": "converging_paths_project",
+        "projectName": "Converging Paths",
+        "projectPhase": 5,
+        "completed": false
+      }
+    ]
+  },
+  "colorful_shoes_red": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "colorful_shoes_red",
+        "projectId": "converging_paths_project",
+        "projectName": "Converging Paths",
+        "projectPhase": 5,
+        "completed": false
+      }
+    ]
+  },
+  "colorful_shoes_silver": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "colorful_shoes_silver",
+        "projectId": "converging_paths_project",
+        "projectName": "Converging Paths",
+        "projectPhase": 5,
+        "completed": false
+      }
+    ]
+  },
   "comet_igniter": {
     "tag": "keep",
     "reasons": [

@@ -4320,15 +4320,15 @@
         "phase": 5,
         "requirementItemIds": [
           {
-            "itemId": "colorful_shoes_rare",
+            "itemId": "colorful_shoes_red",
             "quantity": 6
           },
           {
-            "itemId": "colorful_shoes_epic",
+            "itemId": "colorful_shoes_green",
             "quantity": 3
           },
           {
-            "itemId": "colorful_shoes_legendary",
+            "itemId": "colorful_shoes_silver",
             "quantity": 2
           },
           {
