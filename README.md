@@ -202,6 +202,10 @@ We follow [Conventional Commits](https://www.conventionalcommits.org/):
 
 ---
 
+## Related Resources
+
+- [ARC Raider Hub](https://arcraiderhub.xyz/) — ARC Raiders weapon tier lists, extraction routes, augment guides, and raid strategies.
+
 ## License
 
 This project is licensed under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License** ([CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)).
