@@ -72,6 +72,14 @@
         "workshopStation": "gunsmith",
         "workshopLevel": "3",
         "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "advanced_mechanical_components",
+        "projectId": "expedition_project_s5",
+        "projectName": "Expedition (Season 5)",
+        "projectPhase": 4,
+        "completed": false
       }
     ]
   },
@@ -244,6 +252,14 @@
         "projectName": "High-Gain Antenna",
         "projectPhase": 1,
         "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "arc_alloy",
+        "projectId": "expedition_project_s5",
+        "projectName": "Expedition (Season 5)",
+        "projectPhase": 1,
+        "completed": false
       }
     ]
   },
@@ -255,6 +271,14 @@
         "itemId": "arc_circuitry",
         "workshopStation": "refiner",
         "workshopLevel": "3",
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "arc_circuitry",
+        "projectId": "expedition_project_s5",
+        "projectName": "Expedition (Season 5)",
+        "projectPhase": 3,
         "completed": false
       }
     ]
@@ -462,6 +486,14 @@
         "itemId": "bastion_cell",
         "projectId": "trophy_display_project",
         "projectName": "Trophy Display",
+        "projectPhase": 3,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "bastion_cell",
+        "projectId": "expedition_project_s5",
+        "projectName": "Expedition (Season 5)",
         "projectPhase": 3,
         "completed": false
       }
@@ -1757,6 +1789,14 @@
         "projectName": "Weather Monitor System",
         "projectPhase": 4,
         "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "duct_tape",
+        "projectId": "expedition_project_s5",
+        "projectName": "Expedition (Season 5)",
+        "projectPhase": 2,
+        "completed": false
       }
     ]
   },
@@ -1815,6 +1855,14 @@
         "projectId": "flickering_flames_project",
         "projectName": "Flickering Flames",
         "projectPhase": 1,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "durable_cloth",
+        "projectId": "expedition_project_s5",
+        "projectName": "Expedition (Season 5)",
+        "projectPhase": 2,
         "completed": false
       }
     ]
@@ -2522,6 +2570,21 @@
       {
         "type": "recycle",
         "itemId": "industrial_magnet",
+        "recycleComponentId": "magnet",
+        "recycleComponentName": "Magnet",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "industrial_magnet",
+            "itemName": "Industrial Magnet",
+            "targetId": "magnet",
+            "targetName": "Magnet"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "industrial_magnet",
         "recycleComponentId": "metal_parts",
         "recycleComponentName": "Metal Parts",
         "chain": [
@@ -2571,6 +2634,19 @@
         "itemId": "laboratory_reagents",
         "workshopStation": "explosives_station",
         "workshopLevel": "3",
+        "completed": false
+      }
+    ]
+  },
+  "lances_mixtape_5th_edition": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "lances_mixtape_5th_edition",
+        "projectId": "expedition_project_s5",
+        "projectName": "Expedition (Season 5)",
+        "projectPhase": 4,
         "completed": false
       }
     ]
@@ -2705,29 +2781,15 @@
     ]
   },
   "magnet": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "magnet",
-        "recycleComponentId": "metal_parts",
-        "recycleComponentName": "Metal Parts",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "magnet",
-            "itemName": "Magnet",
-            "targetId": "metal_parts",
-            "targetName": "Metal Parts"
-          },
-          {
-            "action": "use_in_workshop",
-            "itemId": "metal_parts",
-            "itemName": "Metal Parts",
-            "workshopStation": "gunsmith",
-            "workshopLevel": "1"
-          }
-        ]
+        "projectId": "expedition_project_s5",
+        "projectName": "Expedition (Season 5)",
+        "projectPhase": 1,
+        "completed": false
       }
     ]
   },
@@ -2748,6 +2810,14 @@
         "projectId": "expedition_project_s1",
         "projectName": "Expedition Project (Expedition 1)",
         "projectPhase": 4,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "magnetic_accelerator",
+        "projectId": "expedition_project_s5",
+        "projectName": "Expedition (Season 5)",
+        "projectPhase": 3,
         "completed": false
       }
     ]
@@ -2809,6 +2879,14 @@
         "itemId": "mechanical_components",
         "workshopStation": "gunsmith",
         "workshopLevel": "2",
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "mechanical_components",
+        "projectId": "expedition_project_s5",
+        "projectName": "Expedition (Season 5)",
+        "projectPhase": 2,
         "completed": false
       }
     ]
@@ -2882,6 +2960,14 @@
         "projectName": "Weather Monitor System",
         "projectPhase": 1,
         "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "metal_parts",
+        "projectId": "expedition_project_s5",
+        "projectName": "Expedition (Season 5)",
+        "projectPhase": 1,
+        "completed": false
       }
     ]
   },
@@ -2907,6 +2993,21 @@
             "itemName": "Advanced Mechanical Components",
             "workshopStation": "gunsmith",
             "workshopLevel": "3"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "microscope",
+        "recycleComponentId": "magnet",
+        "recycleComponentName": "Magnet",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "microscope",
+            "itemName": "Microscope",
+            "targetId": "magnet",
+            "targetName": "Magnet"
           }
         ]
       },
@@ -3246,6 +3347,14 @@
         "projectName": "Weather Monitor System",
         "projectPhase": 1,
         "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "plastic_parts",
+        "projectId": "expedition_project_s5",
+        "projectName": "Expedition (Season 5)",
+        "projectPhase": 1,
+        "completed": false
       }
     ]
   },
@@ -3542,37 +3651,15 @@
     ]
   },
   "radio": {
-    "tag": "recycle",
+    "tag": "keep",
     "reasons": [
       {
-        "type": "recycle",
+        "type": "project",
         "itemId": "radio",
-        "recycleComponentId": "sensors",
-        "recycleComponentName": "Sensors",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "radio",
-            "itemName": "Radio",
-            "targetId": "sensors",
-            "targetName": "Sensors"
-          }
-        ]
-      },
-      {
-        "type": "recycle",
-        "itemId": "radio",
-        "recycleComponentId": "speaker_component",
-        "recycleComponentName": "Speaker Component",
-        "chain": [
-          {
-            "action": "recycle",
-            "itemId": "radio",
-            "itemName": "Radio",
-            "targetId": "speaker_component",
-            "targetName": "Speaker Component"
-          }
-        ]
+        "projectId": "expedition_project_s5",
+        "projectName": "Expedition (Season 5)",
+        "projectPhase": 4,
+        "completed": false
       }
     ]
   },
@@ -3694,6 +3781,21 @@
       {
         "type": "recycle",
         "itemId": "ripped_safety_vest",
+        "recycleComponentId": "magnet",
+        "recycleComponentName": "Magnet",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "ripped_safety_vest",
+            "itemName": "Ripped Safety Vest",
+            "targetId": "magnet",
+            "targetName": "Magnet"
+          }
+        ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "ripped_safety_vest",
         "recycleComponentId": "fabric",
         "recycleComponentName": "Fabric",
         "chain": [
@@ -3786,6 +3888,14 @@
         "itemId": "rocketeer_driver",
         "projectId": "trophy_display_project",
         "projectName": "Trophy Display",
+        "projectPhase": 4,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "rocketeer_driver",
+        "projectId": "expedition_project_s5",
+        "projectName": "Expedition (Season 5)",
         "projectPhase": 4,
         "completed": false
       }
@@ -4157,6 +4267,21 @@
             "workshopLevel": "1"
           }
         ]
+      },
+      {
+        "type": "recycle",
+        "itemId": "ruined_tactical_vest",
+        "recycleComponentId": "magnet",
+        "recycleComponentName": "Magnet",
+        "chain": [
+          {
+            "action": "recycle",
+            "itemId": "ruined_tactical_vest",
+            "itemName": "Ruined Tactical Vest",
+            "targetId": "magnet",
+            "targetName": "Magnet"
+          }
+        ]
       }
     ]
   },
@@ -4495,6 +4620,14 @@
         "itemId": "speaker_component",
         "projectId": "expedition_project_s4",
         "projectName": "Expedition (Expedition 4)",
+        "projectPhase": 3,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "speaker_component",
+        "projectId": "expedition_project_s5",
+        "projectName": "Expedition (Season 5)",
         "projectPhase": 3,
         "completed": false
       }
@@ -5361,6 +5494,14 @@
         "projectId": "weather_monitor_system_project",
         "projectName": "Weather Monitor System",
         "projectPhase": 5,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "voltage_converter",
+        "projectId": "expedition_project_s5",
+        "projectName": "Expedition (Season 5)",
+        "projectPhase": 2,
         "completed": false
       }
     ]
