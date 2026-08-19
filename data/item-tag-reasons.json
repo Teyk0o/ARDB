@@ -9,6 +9,14 @@
         "projectName": "High-Gain Antenna",
         "projectPhase": 1,
         "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "advanced_arc_powercell",
+        "projectId": "phantom_targets_part_2_project",
+        "projectName": "Phantom Targets",
+        "projectPhase": 1,
+        "completed": false
       }
     ]
   },
@@ -280,6 +288,14 @@
         "projectName": "Expedition (Season 5)",
         "projectPhase": 3,
         "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "arc_circuitry",
+        "projectId": "phantom_targets_part_2_project",
+        "projectName": "Phantom Targets",
+        "projectPhase": 2,
+        "completed": false
       }
     ]
   },
@@ -438,6 +454,14 @@
         "itemId": "arc_thermo_lining",
         "projectId": "converging_paths_project",
         "projectName": "Converging Paths",
+        "projectPhase": 2,
+        "completed": false
+      },
+      {
+        "type": "project",
+        "itemId": "arc_thermo_lining",
+        "projectId": "phantom_targets_part_2_project",
+        "projectName": "Phantom Targets",
         "projectPhase": 2,
         "completed": false
       }
@@ -2337,6 +2361,71 @@
         "projectId": "trophy_display_project",
         "projectName": "Trophy Display",
         "projectPhase": 5,
+        "completed": false
+      }
+    ]
+  },
+  "glitched_arc_circuitry": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "glitched_arc_circuitry",
+        "projectId": "phantom_targets_part_2_project",
+        "projectName": "Phantom Targets",
+        "projectPhase": 2,
+        "completed": false
+      }
+    ]
+  },
+  "glitched_arc_light_ring": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "glitched_arc_light_ring",
+        "projectId": "phantom_targets_part_2_project",
+        "projectName": "Phantom Targets",
+        "projectPhase": 2,
+        "completed": false
+      }
+    ]
+  },
+  "glitched_arc_phased_array": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "glitched_arc_phased_array",
+        "projectId": "phantom_targets_part_2_project",
+        "projectName": "Phantom Targets",
+        "projectPhase": 1,
+        "completed": false
+      }
+    ]
+  },
+  "glitched_arc_power_converter": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "glitched_arc_power_converter",
+        "projectId": "phantom_targets_part_2_project",
+        "projectName": "Phantom Targets",
+        "projectPhase": 1,
+        "completed": false
+      }
+    ]
+  },
+  "glitched_arc_transmitter": {
+    "tag": "keep",
+    "reasons": [
+      {
+        "type": "project",
+        "itemId": "glitched_arc_transmitter",
+        "projectId": "phantom_targets_part_2_project",
+        "projectName": "Phantom Targets",
+        "projectPhase": 1,
         "completed": false
       }
     ]
